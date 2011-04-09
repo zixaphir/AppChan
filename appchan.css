@@ -144,6 +144,10 @@ http://sam.zoy.org/wtfpl/COPYING for more details.
 		color: #909090 !important;
 	}
 	
+	.unkfunc {
+		color: #789922 !important;
+	}
+	
 	form[name=delform]>table[align=right]:last-of-type,
 	#backwash_tooltip {
 		visibility: hidden;
