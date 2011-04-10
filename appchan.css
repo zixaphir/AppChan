@@ -209,6 +209,12 @@ http://sam.zoy.org/wtfpl/COPYING for more details.
 	#boards h3 {
 		background: #333 !important;
 	}
+	
+	.boxcontent input {
+		height: 18px !important;
+		vertical-align: bottom;
+		margin-right: 1px !important;
+	}
 /* Navigation */	
 	#header,
 	#header>#navtop, /* Top Navigation */
@@ -332,6 +338,7 @@ http://sam.zoy.org/wtfpl/COPYING for more details.
 	}
 /* Postform Labels */
 	.postarea .postblock,
+	.boxcontent .postblock,
 	#qr .postblock,
 	#quickrep .postblock,
 	div[id^=qr] .postblock {
@@ -431,7 +438,11 @@ http://sam.zoy.org/wtfpl/COPYING for more details.
 	div[id^=qr] .recaptcha_image_cell>center>#recaptcha_image,
 	div[id^=qr] .recaptchatable #recaptcha_response_field,
 	#ft ul,
-	#ft li,h2, .boxbar, .box-outer, .top-box {
+	#ft li,
+	h2,
+	.boxbar,
+	.box-outer,
+	.top-box {
 	/* huge block of generic formatting. :/ */
 		-moz-appearance: none;
 		-webkit-appearance: none;
@@ -731,7 +742,12 @@ http://sam.zoy.org/wtfpl/COPYING for more details.
 	
 	div.postarea>form td:nth-of-type(3)>label input,
 	#qr label input,
-	.reply input[type=checkbox] {
+	.reply input[type=checkbox],
+	.boxcontent input,
+	.boxcontent textarea {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		border: 0 !important;
 		background-color: #2c2c2c !important;
 	}
 	
@@ -1052,7 +1068,7 @@ http://sam.zoy.org/wtfpl/COPYING for more details.
 	}
 }
 
-@-moz-document url('http://www.4chan.org/'), url('http://www.4chan.org/#'), url("http://www.4chan.org/banned") {
+@-moz-document url('http://www.4chan.org/'), url('http://www.4chan.org/#') {
 	html,
 	body {
 		height: 100%;
