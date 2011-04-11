@@ -69,16 +69,16 @@ http://sam.zoy.org/wtfpl/COPYING for more details.
 	}
 
 	::-webkit-scrollbar-thumb {
-		background: #2c2c2c;
+		background: #262626;
 		border: 1px #333 solid;
 	}
 
 	::-webkit-scrollbar-thumb:hover {
-		background: #393939;
+		background: #3f3f3f;
 	}
 
 	::-webkit-scrollbar-thumb:active {
-		background: #3f3f3f;
+		background: #111;
 	}
 
 	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer {
@@ -110,16 +110,16 @@ http://sam.zoy.org/wtfpl/COPYING for more details.
 
 	thumb {
 		-moz-appearance: none !important;
-		background: #2c2c2c;
+		background: #262626;
 		border: 1px #333 solid;
 	}
 
 	thumb:hover {
-		background: #393939;
+		background: #3f3f3f;
 	}
 
 	thumb:active {
-		background: #3f3f3f;
+		background: #111;
 	}
 /* End of Scrollbars */	
 	html, body {
@@ -972,7 +972,13 @@ http://sam.zoy.org/wtfpl/COPYING for more details.
 		bottom: auto !important;
 		border: 0 !important;
 		font-size: 12px;
+		overflow: hidden;
 		z-index: 2 !important;
+		padding-bottom: 2px;
+	}
+	
+	#updater:not(:hover) {
+		width: 33px;
 	}
 	
 	#updater .error {
