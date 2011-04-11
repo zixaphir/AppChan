@@ -171,7 +171,7 @@ http://sam.zoy.org/wtfpl/COPYING for more details.
 		left: 0px !important;
 		overflow-y: scroll;
 		overflow-x: auto;
-		position: fixed !important;
+		position: absolute !important;
 	}
 	
 	body > table ~ form[name="delform"] {
