@@ -475,6 +475,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postarea input[type=password],
 	.postarea input[type=file][name="upfile"] > input[type=text],
 	.postarea input[type=file] > input[type=button],
+	.postarea textarea.inputtext,
 	#qr input[type=text],
 	#qr input[type=password],
 	#qr input[type=file][name="upfile"] > input[type=text],
