@@ -454,6 +454,64 @@ This style is designed for the following browsers, ordered alphabetically:
 		background-color: #333 !important;
 		color: #aaa !important;
 	}
+	
+	.postarea input:hover,
+	.postarea input[type=submit]:hover,
+	.postarea textarea:hover,
+	.postarea .recaptcha_image_cell>center>#recaptcha_image:hover,
+	.postarea .recaptchatable #recaptcha_response_field:hover,
+	#qr input:hover,
+	#qr input[type=submit]:hover,
+	#qr textarea:hover,
+	#qr .recaptcha_image_cell>center>#recaptcha_image:hover,
+	#qr .recaptchatable #recaptcha_response_field:hover,
+	#quickrep input:hover,
+	#quickrep input[type=submit]:hover,
+	#quickrep textarea:hover,
+	#quickrep .recaptcha_image_cell>center>#recaptcha_image:hover,
+	#quickrep .recaptchatable #recaptcha_response_field:hover,
+	div[id^=qr] input:hover,
+	div[id^=qr] input[type=submit]:hover,
+	div[id^=qr] textarea:hover,
+	div[id^=qr] .recaptcha_image_cell>center>#recaptcha_image:hover,
+	div[id^=qr] .recaptchatable #recaptcha_response_field:hover,
+	.deletebuttons input[value=Delete]:hover,
+	#options input:hover,
+	#options textarea:hover,
+	#updater input:hover,
+	input:hover,
+	select:hover {
+		background-color: #393939 !important;
+	}
+	
+	.postarea input:focus,
+	.postarea input[type=submit]:focus,
+	.postarea textarea:focus,
+	.postarea .recaptcha_image_cell>center>#recaptcha_image:focus,
+	.postarea .recaptchatable #recaptcha_response_field:focus,
+	#qr input:focus,
+	#qr input[type=submit]:focus,
+	#qr textarea:focus,
+	#qr .recaptcha_image_cell>center>#recaptcha_image:focus,
+	#qr .recaptchatable #recaptcha_response_field:focus,
+	#quickrep input:focus,
+	#quickrep input[type=submit]:focus,
+	#quickrep textarea:focus,
+	#quickrep .recaptcha_image_cell>center>#recaptcha_image:focus,
+	#quickrep .recaptchatable #recaptcha_response_field:focus,
+	div[id^=qr] input:focus,
+	div[id^=qr] input[type=submit]:focus,
+	div[id^=qr] textarea:focus,
+	div[id^=qr] .recaptcha_image_cell>center>#recaptcha_image:focus,
+	div[id^=qr] .recaptchatable #recaptcha_response_field:focus,
+	.deletebuttons input[value=Delete]:focus,
+	#options input:focus,
+	#options textarea:focus,
+	#updater input:focus,
+	input:focus,
+	select:focus {
+		background-color: #3f3f3f !important;
+	}
 
 	.top-box .menubutton {
 		background-image: none !important;
