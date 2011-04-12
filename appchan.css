@@ -144,7 +144,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	a .postertrip {
 		color: #77c0b9 !important;
 	}
-	
+
 	a:hover,
 	.postername a:hover,
 	.commentpostername a:hover,
@@ -454,7 +454,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background-color: #333 !important;
 		color: #aaa !important;
 	}
-	
+
 	.postarea input:hover,
 	.postarea input[type=submit]:hover,
 	.postarea textarea:hover,
@@ -473,7 +473,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	div[id^=qr] .recaptchatable #recaptcha_response_field:hover {
 		background-color: #393939 !important;
 	}
-	
+
 	.postarea input:focus,
 	.postarea input[type=submit]:focus,
 	.postarea textarea:focus,
@@ -625,7 +625,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		vertical-align: middle !important;
 		background-color: #303030 !important;
 	}
-	
+
 	.postarea #com_submit:hover,
 	.postarea input[type=file] > input[type=button]:hover,
 	.postarea input[type=submit]:hover,
@@ -882,11 +882,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 0 !important;
 	}
 /* Addons and such */
-	#options {
-		background: -moz-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3)) !important;
-		background: -webkit-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3)) !important;
-	}
-
 	#thread_filter input,
 	#navtopr,
 	#updater input,
@@ -984,14 +979,14 @@ This style is designed for the following browsers, ordered alphabetically:
 /* Full page 4chan x options */
 	#options {
 		position: fixed !important;
-		top: 0 !important;
+		top: 17px !important;
 		bottom: 0 !important;
-		right: 0 !important;
-		left: 0 !important;
+		right: 12px !important;
+		left: auto !important;
 		border: 0 !important;
 		z-index: 99 !important;
-		text-align: center !important;
-		vertical-align: middle !important;
+		text-align: right !important;
+		width: 238px !important;
 	}
 
 	#options .move {
@@ -1002,8 +997,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	#options .move a {
 	/* Close Button */
 		position: fixed;
-		top: 0;
-		right: 5px;
+		top: 18;
+		right: 240px;
 		font-size: 20px !important;
 	}
 /* End of Full page 4chan x options */
@@ -1168,7 +1163,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-		font-weight: 700 !important;
 	}
 
 	#navtop>a[href*="/a/"]:hover {
@@ -1203,8 +1197,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	#navtop>a[href*="/d/"] {
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
-		font-weight: 700 !important; 
-	} 
+		font-weight: 700 !important;
+	}
 
 	#navtop>a[href*="/d/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1215,8 +1209,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	#navtop>a[href*="/e/"] {
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
-		font-weight: 700 !important; 
-	} 
+		font-weight: 700 !important;
+	}
 
 	#navtop>a[href*="/e/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1228,7 +1222,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/g/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1240,7 +1234,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/gif/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1252,7 +1246,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/h/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1264,7 +1258,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/hr/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1276,7 +1270,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/k/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1288,7 +1282,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/m/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1300,7 +1294,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/o/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1312,7 +1306,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/p/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1324,7 +1318,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/r/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1336,7 +1330,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/s/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1345,10 +1339,10 @@ This style is designed for the following browsers, ordered alphabetically:
 
 @-moz-document url-prefix(http://boards.4chan.org/t/) {
 	#navtop>a[href*="/t/"] {
-		background: rgba(0,0,0,0.3) !important; 
+		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/t/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1359,8 +1353,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	#navtop>a[href*="/u/"] {
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
-		font-weight: 700 !important; 
-	} 
+		font-weight: 700 !important;
+	}
 
 	#navtop>a[href*="/u"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1372,7 +1366,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/v/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1384,7 +1378,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/w/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1408,7 +1402,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/i/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1420,7 +1414,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/ic/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1432,7 +1426,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/cm/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1444,7 +1438,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/y/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1456,7 +1450,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/3/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1468,7 +1462,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/adv/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1480,7 +1474,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/an/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1492,7 +1486,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/cgl/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1504,7 +1498,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/ck/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1516,7 +1510,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/co/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1528,7 +1522,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/fa/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1540,7 +1534,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/fit/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1552,7 +1546,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/int/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1564,7 +1558,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	background: rgba(0,0,0,0.3) !important;
 	color: #ccc !important;
 	font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/jp/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1576,7 +1570,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/lit/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1588,7 +1582,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/mu/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1600,7 +1594,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/n/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1612,7 +1606,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/po/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1624,7 +1618,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/sci/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1636,7 +1630,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/soc/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1648,7 +1642,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/sp/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1660,7 +1654,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/tg/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1672,7 +1666,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/toy/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1684,7 +1678,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/trv/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1696,7 +1690,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/tv/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1708,7 +1702,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href*="/vp/"]:hover {
 		background: rgba(255,255,255,.15) !important;
@@ -1720,7 +1714,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
-	} 
+	}
 
 	#navtop>a[href="http://rs.4chan.org/"]:hover {
 		background: rgba(255,255,255,.15) !important;
