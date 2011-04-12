@@ -44,20 +44,24 @@
 		right: 12px !important;
 	}
 	
-	input[type=checkbox] {
+	input[type=checkbox],
+	.reply input[type=checkbox],
+	#options input[type=checkbox] {
 		-webkit-appearance: button !important;
 		border: 2px solid #222 !important;
 		width: 12px !important;
 		height: 12px !important;
 	}
 
-	input[type="checkbox"]:active {
+	input[type=checkbox]:active,
+	#options input[type=checkbox]:active {
 		border: 2px solid #aaa !important;
 		background: #aaa !important;
 	}
 	
-	input[type="checkbox"]:checked {
-		background: #222 !important;
+	input[type=checkbox]:checked,
+	#options input[type=checkbox]:checked {
+		background: #111!important;
 	}
 
 
