@@ -1715,14 +1715,14 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 }
 
-@-moz-document url-prefix(http://rs.4chan.org/rs/) {
-	#navtop>a[href="http://rs.4chan.org/rs/"] {
+@-moz-document url-prefix(http://rs.4chan.org/) {
+	#navtop>a[href="http://rs.4chan.org/"] {
 		background: rgba(0,0,0,0.3) !important;
 		color: #ccc !important;
 		font-weight: 700 !important;
 	} 
 
-	#navtop>a[href="http://rs.4chan.org/rs/"]:hover {
+	#navtop>a[href="http://rs.4chan.org/"]:hover {
 		background: rgba(255,255,255,.15) !important;
 	}
 }
