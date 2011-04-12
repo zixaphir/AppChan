@@ -965,6 +965,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	td[style="border: 1px dashed;"] {
+		/* Inline Quotes */
 		background-color: rgba(0,0,0,0.1);
 		border: none !important;
 	}
@@ -1001,7 +1002,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#options .move a {
 	/* Close Button */
 		position: fixed;
-		top: 18;
+		top: 22px;
 		right: 240px;
 		font-size: 20px !important;
 	}
