@@ -974,7 +974,11 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.navlinks {
-		margin-right: 250px;
+		right: 262px !important;
+	}
+	
+	#navlinks {
+		right: 262px !important;
 	}
 /* Full page 4chan x options */
 	#options {
