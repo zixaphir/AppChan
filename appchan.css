@@ -981,7 +981,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#navlinks {
 		right: 262px !important;
 	}
-/* Full page 4chan x options */
+/* Sidebar 4chan x options */
 	#options {
 		position: fixed !important;
 		top: 17px !important;
@@ -1006,7 +1006,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		right: 240px;
 		font-size: 20px !important;
 	}
-/* End of Full page 4chan x options */
+/* End of Sidebar 4chan x options */
 	#thread_filter {
 		width: 250px;
 		padding: 3px 0;
@@ -1186,6 +1186,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: rgba(255,255,255,.15) !important;
 	}
 }
+
 @-moz-document url-prefix(http://boards.4chan.org/c/) {
 	#navtop>a[href*="/c/"] {
 		background: rgba(0,0,0,0.3) !important;
