@@ -829,14 +829,15 @@ This style is designed for the following browsers, ordered alphabetically:
 	#options .move {
 		text-decoration: underline !important;
 		font-size: 16px !important;
+		text-align: center !important;
 	}
 
 	#options .move a {
 	/* Close Button */
 		position: fixed;
-		top: 22px;
-		right: 240px;
-		font-size: 20px !important;
+		top: 16px;
+		right: 16px;
+		font-size: 16px !important;
 	}
 /* End of Sidebar 4chan x options */
 	#thread_filter {

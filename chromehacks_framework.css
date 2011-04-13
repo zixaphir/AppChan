@@ -43,6 +43,28 @@
 		bottom: 77px !important;
 		right: 12px !important;
 	}
+	
+	input[type=checkbox],
+	.reply input[type=checkbox],
+	#options input[type=checkbox] {
+		-webkit-appearance: button !important;
+		-webkit-border-radius: 2px !important;
+		border-radius: 2px !important;
+		border: 1px solid #aaa !important;
+		width: 10px !important;
+		height: 10px !important;
+	}
+
+	input[type=checkbox]:active,
+	#options input[type=checkbox]:active {
+		border: 1px solid #fff !important;
+		background: #fff !important;
+	}
+	
+	input[type=checkbox]:checked,
+	#options input[type=checkbox]:checked {
+		background: #999!important;
+	}
 
 	div.postarea>form td:nth-of-type(3)>label {
 		right: 41px;
