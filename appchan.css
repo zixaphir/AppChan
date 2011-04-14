@@ -62,7 +62,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	#recaptcha_switch_audio_btn,
 	#recaptcha_whatsthis_btn,
 	#recaptcha_reload_btn *,
-	#quickrep tr:nth-of-type(4) .postblock b {
+	#quickrep tr:nth-of-type(4),
+	.postblock b,#ft li.fill {
 	/* Cleanup */
 		display: none !important;
 	}
@@ -1135,7 +1136,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 }
 
-@-moz-document url('http://www.4chan.org/'), url('http://www.4chan.org/#') {
+@-moz-document url-prefix('http://www.4chan.org/') {
 	html,
 	body {
 		height: 100%;
@@ -1154,12 +1155,59 @@ This style is designed for the following browsers, ordered alphabetically:
 	#doc,
 	#ft ul {
 		min-width: 0 !important;
-		width: auto !important;
+		max-width: 1280px !important;
+	}
+	
+	#ft ul {
+		text-align: center !important;
+	}
+	
+	#ft li {
+		float: none !important;
+		display: inline-block !important;
+		margin: 0 !important;
+		padding: 0 12px !important;
 	}
 
 	#boards .column {
 		width: auto !important;
 		margin: 0px 5px 0px 5px !important;
+	}
+}
+
+@-moz-document url('http://www.4chan.org/'), url('http://www.4chan.org/#') {
+	#doc,
+	#ft ul {
+		min-width: 0 !important;
+		width: auto !important;
+		max-width: 1280px !important;
+	}
+}
+
+@-moz-document domain("images.4chan.org"), url("http://www.4chan.org/banned") {
+	html {
+		display: table;
+		height: 100%;
+		width: 100%;
+	}
+
+	body {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	img {
+		display: block;
+		margin: auto;
+	}
+	
+	#ft ul {
+		text-align: center !important;
+	}
+	
+	#ft li {
+		float: none !important;
+		display: inline-block !important;
 	}
 }
 
