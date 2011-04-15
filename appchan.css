@@ -63,7 +63,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	#recaptcha_whatsthis_btn,
 	#recaptcha_reload_btn *,
 	#quickrep tr:nth-of-type(4),
-	.postblock b,#ft li.fill {
+	.postblock b,#ft li.fill,
+	.yui-menu-shadow {
 	/* Cleanup */
 		display: none !important;
 	}
@@ -209,7 +210,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		height: 0;
 		width: 100% !important;
 	}
-/* Front Page Shit */
+/* Front Page */
 	.boxcontent>hr,
 	h3 {
 		background: #2c2c2c !important;
@@ -228,6 +229,31 @@ This style is designed for the following browsers, ordered alphabetically:
 		height: 18px !important;
 		vertical-align: bottom;
 		margin-right: 1px !important;
+	}
+	
+	.menubutton a {
+		padding: 0 !important;
+	}
+	
+	a.yuimenuitemlabel {
+		padding: 0 20px !important;
+	}
+	
+	a.yuimenuitemlabel:hover {
+		background-color: transparent !important
+	}
+	
+	.yuimenuitem-selected {
+		background-color: #333 !important;
+	}
+	
+	.bd {
+		background-color: #2c2c2c !important;
+		border: none !important;
+	}
+	
+	.bd ul {
+		border: none !important;	
 	}
 /* Navigation */
 	#header,
