@@ -38,7 +38,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	.fill,
 	div>div>div>div:nth-of-type(2)>div:nth-of-type(3):not(.column),
 	.warnicon,
-	.doubledash,
 	#rules,
 	.postarea .rules,
 	.postarea small,
@@ -838,8 +837,30 @@ This style is designed for the following browsers, ordered alphabetically:
 /* Posts */
 	form[name=delform]>table:not(.pages), /* Reply are tables. */
 	div.thread>table, /* Replies are tables. A script like 4chan X is present */
-	.insertedPosts>table /* 4chanplus inserts new posts in a new div */ {
+	.insertedPosts>table, /* 4chanplus inserts new posts in a new div */
+	td.reply, /* Reply cell */
+	td.replyhl /* Highlighted Reply cell */ {
 		width: 100% !important;
+	}
+	
+	form[name=delform]>table:not(.pages),
+	div.thread>table,
+	.insertedPosts>table {
+		margin-left: -1px !important;
+	}
+
+	.doubledash {
+		width: 1px !important;
+		height: auto !important;
+		font-size: 0 !important;
+		color: transparent !important;
+	}
+	
+	.doubledash a {
+		position: absolute;
+		right: 255px;
+		font-size: 13px !important;
+		color: #222 !important;
 	}
 	
 	.omittedposts /* X posts and Y image replies omitted. Click Reply to view. */ {
@@ -933,7 +954,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		z-index: 6 !important;
 	}
 /* Expand Images div */
-	form[name="delform"]>div:not(.thread):not(.insertedPosts) {
+	form[name="delform"]>div:not(.thread):not(.insertedPosts):first-of-type {
 		position: fixed;
 		top: 0;
 		right: 134px;
