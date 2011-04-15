@@ -166,8 +166,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		color: #789922 !important;
 	}
 
-	form[name=delform]>table[align=right]:last-of-type,
-	#backwash_tooltip {
+	form[name=delform]>table[align=right]:last-of-type {
 		visibility: hidden;
 	}
 
@@ -974,37 +973,34 @@ This style is designed for the following browsers, ordered alphabetically:
 	
 /* End of Expand Images div
    Reply Previews */
-	#backwash_tipcell, /* /b/ackwash reloaded */
+	#backwash_tooltip, /* /b/ackwash reloaded */
 	#popup, /* 4chanplus */
 	div[id^=ref] /* 4chan4chrome */ {
-		max-width: 50%;
-		background-color: #333 !important;
+		background-color: #393939 !important;
 		visibility: visible;
 	}
 
-	#backwash_tipcell,
+	#backwash_tooltip,
 	#popup,
-	.deletebuttons,
 	div[id^=ref] {
 		visibility: visible;
+		border: 0 !important;
+		z-index: 99 !important;
+	}
+
+	#backwash_tooltip img,
+	#popup img,
+	div[id^=ref] img {
+		max-width: 300px;
+		height: auto !important;
+	}
+	
+	.deletebuttons {
 		position: fixed !important;
 		top: auto !important;
 		right: 2px !important;
 		bottom: 22px !important;
 		left: auto !important;
-		border: 0 !important;
-	}
-
-	#backwash_tipcell,
-	div[id^=ref] {
-		z-index: 5;
-	}
-
-	#backwash_tipcell img,
-	#popup img,
-	div[id^=ref] img {
-		max-width: 300px;
-		height: auto !important;
 	}
 
 	td[style="border: 1px dashed;"] {
