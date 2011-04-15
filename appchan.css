@@ -676,6 +676,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		border: none !important;
 		height: 19px !important;
 		padding: 0 !important;
+		color: #666 !important;
 	}
 /* End of the file upload input */
 	.postarea textarea.inputtext,
@@ -855,16 +856,14 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.doubledash {
-		height: auto !important;
-		font-size: 0 !important;
-		color: transparent !important;
-	}
-	
-	.doubledash a {
+		visibility: hidden;
 		position: absolute;
 		right: 255px;
-		font-size: 13px !important;
-		color: #222 !important;
+	}
+
+	.doubeldash a {
+		visiblity: visible;
+		color: #222;
 	}
 	
 	.omittedposts /* X posts and Y image replies omitted. Click Reply to view. */ {
@@ -1006,6 +1005,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#backwash_tooltip, /* /b/ackwash reloaded */
 	#popup, /* 4chanplus */
 	div[id^=ref] /* 4chan4chrome */ {
+		max-width: 70%;
 		background-color: #393939 !important;
 		visibility: visible;
 	}
