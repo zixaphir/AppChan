@@ -81,7 +81,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	* {
 	/* Defaults of all elements */
-		font: 12px "Ubuntu", "Calibri" !important;
+		font: 12px "Ubuntu", "Droid Sans", "Calibri" !important;
 		text-decoration: none !important;
 		color: #aaa !important;
 	}
@@ -391,7 +391,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	div[id^=qr] .postblock b,
 	#maxchars /* 4chanplus's Character Counter */ {
 		position: absolute;
-		font: 9px "Ubuntu", "Calibri" !important;
+		font-size: 9px !important;
 		color: rgba(255,255,255,0.2) !important;
 		text-transform: uppercase;
 		z-index: 2;
@@ -415,7 +415,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.postarea tbody>tr:nth-child(4)>.postblock>b:after {
-		font: 9px "Ubuntu", "Calibri" !important;
+		font-size: 9px !important;
 		color: rgba(255,255,255,0.2) !important;
 		content: 'NEW THREAD' !important;
 	}
@@ -645,7 +645,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		height: 19px !important;
 		margin: 0 0 0 0 !important;
 		padding: 0 !important;
-		font: 11px "Ubuntu", "Calibri" !important;
+		font-size: 11px !important;
 		text-transform: uppercase;
 		vertical-align: middle !important;
 		background-color: #303030 !important;
@@ -969,7 +969,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		right: 134px;
 		bottom: auto !important;
 		width: 120px;
-		font: 12px "Ubuntu", "Calibri" !important;
+		font-size: 12px !important;
 		z-index: 4;
 	}
 	
@@ -1086,7 +1086,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		-moz-border-radius: 0;
 		-webkit-border-radius: 0;
 		border-radius: 0;
-		font: 12px "Ubuntu", "Calibri" !important;
+		font-size: 12px !important;
 		z-index: 4 !important;
 	}
 
@@ -1097,7 +1097,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#updater {
 		right: 2px !important;
 		left: auto !important;
-		top: -1px !important;
+		top: 0 !important;
 		bottom: auto !important;
 		border: 0 !important;
 		font-size: 12px;
@@ -1128,7 +1128,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		background-color: #333 !important;
 		border-radius: 0;
 		padding: 1px 0;
-		font: 12px Calibri, "DejaVu Sans", "Lucida Sans" !important;
 		overflow: hidden;
 		-moz-border-radius: 0;
 		-webkit-border-radius: 0;
