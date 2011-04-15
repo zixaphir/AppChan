@@ -648,6 +648,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		font-size: 9px !important;
 		text-transform: uppercase;
 		background-color: #303030 !important;
+		vertical-align: bottom;
 	}
 
 	.postarea #com_submit:hover,
