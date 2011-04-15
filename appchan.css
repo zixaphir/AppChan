@@ -676,6 +676,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		border: none !important;
 		height: 19px !important;
 		padding: 0 !important;
+		color: #666 !important;
 	}
 /* End of the file upload input */
 	.postarea textarea.inputtext,
@@ -1006,6 +1007,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#backwash_tooltip, /* /b/ackwash reloaded */
 	#popup, /* 4chanplus */
 	div[id^=ref] /* 4chan4chrome */ {
+		max-width: 70%;
 		background-color: #393939 !important;
 		visibility: visible;
 	}
