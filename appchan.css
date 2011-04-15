@@ -70,8 +70,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	* {
 	/* Defaults of all elements */
-		font-family: "Calibri", "DejaVu Sans", "Lucida Sans" !important;
-		font-size: 10pt;
+		font: 12px "Ubuntu", "Calibri" !important;
 		text-decoration: none !important;
 		color: #aaa !important;
 	}
@@ -177,9 +176,13 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 246px !important;
 		z-index: 1;
 	}
+	
+	div.logo font[size="5"] span {
+		font-size: 28px !important;
+	}
 
 	form[name="delform"] {
-		padding: 14px 250px 0 0 !important;
+		padding: 14px 254px 0 0 !important;
 	}
 
 	body>span>div {
@@ -378,7 +381,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	div[id^=qr] .postblock b,
 	#maxchars /* 4chanplus's Character Counter */ {
 		position: absolute;
-		font: 9px "Calibri", "DejaVu Sans", "Lucida Sans" !important;
+		font: 9px "Ubuntu", "Calibri" !important;
 		color: rgba(255,255,255,0.2) !important;
 		text-transform: uppercase;
 		z-index: 2;
@@ -402,7 +405,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.postarea tbody>tr:nth-child(4)>.postblock>b:after {
-		font: 9px "Calibri", "DejaVu Sans", "Lucida Sans" !important;
+		font: 9px "Ubuntu", "Calibri" !important;
 		color: rgba(255,255,255,0.2) !important;
 		content: 'NEW THREAD' !important;
 	}
@@ -632,7 +635,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		height: 19px !important;
 		margin: 0 0 0 0 !important;
 		padding: 0 !important;
-		font: 11px "Calibri", "DejaVu Sans", "Lucida Sans" !important;
+		font: 11px "Ubuntu", "Calibri" !important;
 		text-transform: uppercase;
 		vertical-align: middle !important;
 		background-color: #303030 !important;
@@ -832,12 +835,13 @@ This style is designed for the following browsers, ordered alphabetically:
 	td.reply, /* Reply cell */
 	td.replyhl /* Highlighted Reply cell */ {
 		width: 100% !important;
+		border-spacing: 0 !important;
 	}
 	
 	form[name=delform]>table:not(.pages),
 	div.thread>table,
 	.insertedPosts>table {
-		margin-left: -1px !important;
+		margin: 2px !important;
 	}
 
 	.doubledash {
@@ -911,6 +915,11 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postertrip {
 		background: transparent !important;
 	}
+	
+	.postername,
+	.commentpostername {
+		font-weight: 700 !important;
+	}
 
 	td>.inputtext {
 		height: 17px !important;
@@ -951,7 +960,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		right: 134px;
 		bottom: auto !important;
 		width: 120px;
-		font: 12px "Calibri", "DejaVu Sans", "Lucida Sans" !important;
+		font: 12px "Ubuntu", "Calibri" !important;
 		z-index: 4;
 	}
 	
@@ -1068,7 +1077,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		-moz-border-radius: 0;
 		-webkit-border-radius: 0;
 		border-radius: 0;
-		font: 12px Calibri, "DejaVu Sans", "Lucida Sans" !important;
+		font: 12px "Ubuntu", "Calibri" !important;
 		z-index: 4 !important;
 	}
 
