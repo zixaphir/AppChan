@@ -165,6 +165,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		color: #789922 !important;
 	}
 
+	select:focus>button,
 	form[name=delform]>table[align=right]:last-of-type {
 		visibility: hidden;
 	}
@@ -573,11 +574,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	div[id^=qr] input[type=file] > input[type=button],
 	div[id^=qr] textarea.inputtext {
 		width: 300px !important;
-	}
-
-	select:focus>button {
-	/* I can't figure out how to style the select dropmarker and hiding it causes bugs if done wrong */
-		visibility: hidden !important;
 	}
 /* The file upload input */
 	.postarea input[type=text],
@@ -1022,6 +1018,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		right: 2px !important;
 		bottom: 22px !important;
 		left: auto !important;
+		visibility: visible !important;
 	}
 
 	td[style="border: 1px dashed;"],
