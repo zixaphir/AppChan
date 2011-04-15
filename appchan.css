@@ -19,6 +19,17 @@ This style is designed for the following browsers, ordered alphabetically:
 	* Google Chrome 10 or higher / Chromium latest / Canary latest
 	* Mozilla Firefox 4.x or higher / Minefield latest
 */
+
+@-moz-document domain(boards.4chan.org) {
+/* Silhouette / Background Image */
+	html, body {
+		background-image: /*[[background]]*/ !important;
+		background-position: 100% 100% !important;
+		background-repeat: no-repeat !important;
+		background-attachment: fixed !important;
+	}
+}
+
 @-moz-document domain("4chan.org") {
 	/*[[boardlogo]]*/
 	scrollbarbutton,
@@ -135,7 +146,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /* End of Scrollbars */
 	html, body {
-		background-image: none !important;
 		background-color: #2c2c2c !important;
 		margin: 0 !important;
 		padding: 0 !important;
@@ -845,7 +855,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.doubledash {
-		width: 1px !important;
 		height: auto !important;
 		font-size: 0 !important;
 		color: transparent !important;
@@ -1044,7 +1053,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#options {
 		position: fixed !important;
 		top: 14px !important;
-		bottom: 0 !important;
+		bottom: 2px !important;
 		right: 2px !important;
 		left: auto !important;
 		border: 0 !important;
@@ -1163,16 +1172,6 @@ This style is designed for the following browsers, ordered alphabetically:
 /*[[browserhacks]]*/
 }
 
-@-moz-document domain(boards.4chan.org) {
-/* Silhouette */
-	html, body {
-		background-image: /*[[background]]*/ !important;
-		background-position: 100% 100% !important;
-		background-repeat: no-repeat !important;
-		background-attachment: fixed !important;
-	}
-}
-
 @-moz-document domain(rs.4chan.org) {
 /* /rs/ hacks */
 	.postarea {
@@ -1229,7 +1228,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 }
 
-@-moz-document url('http://www.4chan.org/'), url('http://www.4chan.org/#') {
+@-moz-document url('http://www.4chan.org/'),
+url('http://www.4chan.org/#') {
 	#doc,
 	#ft ul {
 		min-width: 0 !important;
@@ -1238,7 +1238,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 }
 
-@-moz-document domain("images.4chan.org"), url("http://www.4chan.org/banned") {
+@-moz-document domain("images.4chan.org"),
+url("http://www.4chan.org/banned") {
 	html {
 		display: table;
 	}
@@ -1260,6 +1261,13 @@ This style is designed for the following browsers, ordered alphabetically:
 	#ft li {
 		float: none !important;
 		display: inline-block !important;
+	}
+}
+
+@-moz-document url-prefix("http://www.4chan.org"),
+domain("rs.4chan.org") {
+	html, body {
+		background-image: none !important;
 	}
 }
 
