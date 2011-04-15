@@ -36,7 +36,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#recent-threads,
 	#popular-threads,
 	.fill,
-	div>div>div>div:nth-of-type(2)>div:nth-of-type(3),
+	div>div>div>div:nth-of-type(2)>div:nth-of-type(3):not(.column),
 	.warnicon,
 	.doubledash,
 	#rules,
@@ -1187,8 +1187,6 @@ This style is designed for the following browsers, ordered alphabetically:
 @-moz-document domain("images.4chan.org"), url("http://www.4chan.org/banned") {
 	html {
 		display: table;
-		height: 100%;
-		width: 100%;
 	}
 
 	body {
