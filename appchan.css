@@ -431,7 +431,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#qr tr .postblock b,
 	#quickrep tr .postblock b,
 	div[id^=qr] tr .postblock b {
-		right: 0;
+		right: 16px;
 	}
 
 	#qr tr:nth-of-type(3) .postblock b,
@@ -463,6 +463,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#options textarea,
 	#updater input,
 	input,
+	textarea,
 	select,
 	input[type=checkbox],
 	div[id^=qr] input,
@@ -644,9 +645,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		height: 19px !important;
 		margin: 0 0 0 0 !important;
 		padding: 0 !important;
-		font-size: 11px !important;
+		font-size: 9px !important;
 		text-transform: uppercase;
-		vertical-align: middle !important;
 		background-color: #303030 !important;
 	}
 
@@ -676,6 +676,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		height: 19px !important;
 		padding: 0 !important;
 		color: #666 !important;
+		text-transform: uppercase;
 	}
 /* End of the file upload input */
 	.postarea textarea.inputtext,
@@ -934,6 +935,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /* Addons and such */
 	#thread_filter input,
+	#thread_filter textarea,
 	#navtopr,
 	#updater input,
 	#qr,
@@ -949,7 +951,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#navtopr {
 		position: fixed;
-		right: 90px !important;
+		right: 85px !important;
 		left: auto !important;
 		top: 0 !important;
 		font-size: 0 !important;
@@ -1047,6 +1049,10 @@ This style is designed for the following browsers, ordered alphabetically:
 	.navlinks,
 	#navlinks {
 		right: 255px !important;
+	}
+	
+	.navlinks {
+		padding-top: 14px !important;
 	}
 /* Sidebar 4chan x options */
 	#options {

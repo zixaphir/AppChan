@@ -10,12 +10,14 @@
 
 	.postarea input[type=file][name="upfile"] {
 		width: 248px !important;
+		margin: 0 !important;
 	}
 	
 	#qr input[type=file][name="upfile"],
 	#quickrep input[type=file][name="upfile"],
 	div[id^=qr] input[type=file][name="upfile"] {
 		width: 300px !important;
+		margin: 0 !important;
 	}
 	
 	.postarea tr:nth-of-type(6) .postblock b {
