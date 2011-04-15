@@ -179,13 +179,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	form[name="delform"] {
-	/* Turns the thread form into an iframe */
 		padding: 14px 250px 0 0 !important;
-	}
-
-	body > table ~ form[name="delform"] {
-	/* Gives individual threads 21px more vertical screen real estate */
-		bottom: 0 !important;
 	}
 
 	body>span>div {
