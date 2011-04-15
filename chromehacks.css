@@ -5,7 +5,7 @@
 		margin: 0 !important;
 		padding: 0 !important;
 		bottom: 59px !important;
-		right: 16px !important;
+		right: 6px !important;
 	}
 
 	.postarea input[type=file][name="upfile"] {
@@ -26,10 +26,6 @@
 	#quickrep tr:nth-of-type(6) .postblock b,
 	div[id^=qr] tr:nth-of-type(6) .postblock b {
 		right: 16px;
-	}
-
-	#thread_filter {
-		right: 17px !important;
 	}
 
 	#recaptcha_reload_btn {
