@@ -1024,9 +1024,10 @@ This style is designed for the following browsers, ordered alphabetically:
 		left: auto !important;
 	}
 
-	td[style="border: 1px dashed;"] {
+	td[style="border: 1px dashed;"],
+	td.reply>tr>td.reply {
 		/* Inline Quotes */
-		background-color: rgba(0,0,0,0.1);
+		background-color: rgba(0,0,0,0.1) !important;
 		border: none !important;
 	}
 /* End of Reply Previews */
