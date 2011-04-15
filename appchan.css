@@ -816,6 +816,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	div.postarea>form td:nth-of-type(3)>label input,
 	#qr label input,
 	.reply input[type=checkbox],
+	#options input[type=checkbox],
 	.boxcontent input,
 	.boxcontent textarea {
 		-moz-appearance: none;
@@ -1033,7 +1034,7 @@ This style is designed for the following browsers, ordered alphabetically:
 /* Sidebar 4chan x options */
 	#options {
 		position: fixed !important;
-		top: 17px !important;
+		top: 14px !important;
 		bottom: 0 !important;
 		right: 2px !important;
 		left: auto !important;
