@@ -154,14 +154,14 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postername a,
 	.commentpostername a,
 	a .postertrip {
-		color: #77c0b9 !important;
+		color: #68a !important;
 	}
 
 	a:hover,
 	.postername a:hover,
 	.commentpostername a:hover,
 	a:hover .postertrip {
-		color: #7baab6 !important;
+		color: #444 !important;
 	}
 
 	.span.filetitle,
@@ -240,7 +240,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 	
 	a.yuimenuitemlabel:hover {
-		background-color: transparent !important
+		background-color: transparent !important;
 	}
 	
 	.yuimenuitem-selected {
@@ -264,6 +264,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		font-size: 0 !important;
 		color: transparent !important;
 		width: auto !important;
+		height: 17px !important;
 	}
 
 	#header>#navtop {
@@ -340,7 +341,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	a:hover,
 	.new {
 	/* URL bubbles */
-		background: rgba(255,255,255,.15) !important;
+		background: rgba(0,0,0,.2) !important;
 	}
 /* End of Navigation
    Post Form */
@@ -905,7 +906,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#crntBoard {
-		border-right-color: #2c2c2c !important;
+		border-right-color: #393939 !important;
 	}
 
 	td.replyhl {
@@ -967,7 +968,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	form[name="delform"]>div:not(.thread):not(.insertedPosts):first-of-type {
 		position: fixed;
 		top: 0;
-		right: 134px;
+		right: 131px;
 		bottom: auto !important;
 		width: 120px;
 		font-size: 12px !important;
@@ -977,7 +978,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	form[name="delform"]>div:not(.thread):not(.insertedPosts) input {
 		width: 10px !important;
 		height: 10px !important;
-		vertical-align: top !important;
+		margin: 4px 1px !important;
 	}
 
 	form[name="delform"]>div:not(.thread) label {
@@ -992,7 +993,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	form[name="delform"]>div:not(.thread) select {
-		margin: 0 0 1px 0 !important;
+		margin: 2px 0 0 0 !important;
 		float: right !important;
 		height: 13px !important;
 		font-size: 10px !important;
@@ -1121,7 +1122,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#watcher /* 4chan x thread watcher */ {
 		position: fixed !important;
-		top: 14px !important;
+		top: 17px !important;
 		right: 2px !important;
 		bottom: auto !important;
 		left: auto !important;
