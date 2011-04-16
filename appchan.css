@@ -506,7 +506,9 @@ This style is designed for the following browsers, ordered alphabetically:
 	div[id^=qr] input:hover,
 	div[id^=qr] input[type=submit]:hover,
 	div[id^=qr] textarea:hover,
-	div[id^=qr] .recaptchatable #recaptcha_response_field:hover {
+	div[id^=qr] .recaptchatable #recaptcha_response_field:hover,
+	.deletebuttons input[type=password]:hover,
+	.deletebuttons input[type=submit]:hover {
 		background-color: #393939 !important;
 	}
 
@@ -526,7 +528,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	div[id^=qr] input:focus,
 	div[id^=qr] input[type=submit]:focus,
 	div[id^=qr] textarea:focus,
-	div[id^=qr] .recaptchatable #recaptcha_response_field:focus {
+	div[id^=qr] .recaptchatable #recaptcha_response_field:focus,
+	.deletebuttons input[type=password]:focus {
 		background-color: #3f3f3f !important;
 	}
 
