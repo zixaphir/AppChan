@@ -503,7 +503,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	div[id^=qr] input[type=file][name="upfile"] > input[type=text] {
 		width: 197px !important;
 		margin: 0 1px 0 0 !important;
-		vertical-align: middle;
+		vertical-align: bottom;
 	}
 
 	#qr input[name="sub"],
@@ -896,7 +896,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /* End of Sidebar 4chan x options */
 	#thread_filter {
-		width: 250px;
+		width: 248px;
 		padding: 3px 0;
 		top: auto !important;
 		right: 2px !important;
