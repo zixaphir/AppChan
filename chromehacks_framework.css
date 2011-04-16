@@ -5,7 +5,7 @@
 		margin: 0 !important;
 		padding: 0 !important;
 		bottom: 59px !important;
-		right: 16px !important;
+		right: 6px !important;
 	}
 
 	.postarea input[type=file][name="upfile"] {
@@ -17,7 +17,12 @@
 	div[id^=qr] input[type=file][name="upfile"] {
 		width: 300px !important;
 	}
-	
+
+	input[type=file][name="upfile"] {
+		margin: 0 !important;
+		padding-left: 3px !important;
+	}
+
 	.postarea tr:nth-of-type(6) .postblock b {
 		right: 0 !important;
 	}
@@ -26,10 +31,6 @@
 	#quickrep tr:nth-of-type(6) .postblock b,
 	div[id^=qr] tr:nth-of-type(6) .postblock b {
 		right: 16px;
-	}
-
-	#thread_filter {
-		right: 17px !important;
 	}
 
 	#recaptcha_reload_btn {

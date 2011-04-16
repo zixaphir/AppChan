@@ -1,6 +1,5 @@
 /*
-AppChan Framework by Zixaphir
-Made in Notepad++ using Firebug
+AppChan Framework by Zixaphir, MayhemYDG, disappoint
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -36,9 +35,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	#recent-threads,
 	#popular-threads,
 	.fill,
-	div>div>div>div:nth-of-type(2)>div:nth-of-type(3),
+	div>div>div>div:nth-of-type(2)>div:nth-of-type(3):not(.column),
 	.warnicon,
-	.doubledash,
 	#rules,
 	.postarea .rules,
 	.postarea small,
@@ -62,14 +60,15 @@ This style is designed for the following browsers, ordered alphabetically:
 	#recaptcha_switch_audio_btn,
 	#recaptcha_whatsthis_btn,
 	#recaptcha_reload_btn *,
-	#quickrep tr:nth-of-type(4) .postblock b {
+	#quickrep tr:nth-of-type(4),
+	#ft li.fill {
 	/* Cleanup */
 		display: none !important;
 	}
 
 	* {
 	/* Defaults of all elements */
-		font-family: "Calibri", "DejaVu Sans", "Lucida Sans" !important;
+		font: 12px "Ubuntu", "Droid Sans", "Calibri" !important;
 		text-decoration: none !important;
 	}
 /* Scrollbars */
@@ -109,6 +108,10 @@ This style is designed for the following browsers, ordered alphabetically:
 		border: 1px solid #ccc;
 	}
 /* End of Scrollbars */
+	html, body {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
 
 	form[name=delform]>table[align=right]:last-of-type,
 	#backwash_tooltip {
@@ -117,28 +120,18 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	div.logo {
 		position: fixed !important;
-		right: 14px !important;
+		right: 4px !important;
 		bottom: 320px !important;
 		width: 246px !important;
 		z-index: 1;
 	}
 
-	form[name="delform"] {
-	/* Turns the thread form into an iframe */
-		padding: 0 250px 0 0 !important;
-		margin: 0 !important;
-		bottom: 21px !important;
-		top: 17px !important;
-		right: 0 !important;
-		left: 0px !important;
-		overflow-y: scroll;
-		overflow-x: auto;
-		position: absolute !important;
+	div.logo font[size="5"] span {
+		font-size: 28px !important;
 	}
 
-	body > table ~ form[name="delform"] {
-	/* Gives individual threads 21px more vertical screen real estate */
-		bottom: 0 !important;
+	form[name="delform"] {
+		padding: 14px 254px 0 0 !important;
 	}
 
 	body>span>div {
@@ -147,7 +140,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		top: auto !important;
 		left: auto !important;
 		bottom: 440px !important;
-		right: 10px !important;
+		right: 2px !important;
 		width: 248px;
 	}
 
@@ -168,15 +161,31 @@ This style is designed for the following browsers, ordered alphabetically:
 		vertical-align: bottom;
 		margin-right: 1px !important;
 	}
+
+	.menubutton a {
+		padding: 0 !important;
+	}
+
+	a.yuimenuitemlabel {
+		padding: 0 20px !important;
+	}
+
+	.bd {
+		border: none !important;
+	}
+
+	.bd ul {
+		border: none !important;
+	}
 /* Navigation */
 	#header,
 	#header>#navtop, /* Top Navigation */
 	.pages /* Bottom Navigation */ {
-		font: 12px Calibri !important;
 		text-align: center !important;
 		font-size: 0 !important;
 		color: transparent !important;
 		width: auto !important;
+		height: 17px !important;
 	}
 
 	#header>#navtop {
@@ -187,20 +196,23 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#header,
 	.pages {
-		position: fixed;
+		position: fixed !important;
 		top: 0 !important;
 		left: 0 !important;
-		right: 0 !important;
-		padding: 0 266px 0 2px !important;
-		z-index: 1
+		right: 250px !important;
+		padding: 0 2px 0 2px !important;
+		z-index: 1;
 	}
 
 	.pages {
 		top: auto !important;
 		bottom: 0 !important;
+		right: 0 !important;
 		border: 0 !important;
 		width: 100% !important;
-		background-color: transparent !important;
+		padding-right: 250px !important;
+		text-align: center !important;
+		border-spacing: 0 !important;
 	}
 
 	#header a,
@@ -218,6 +230,10 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 0 !important;
 		background: none transparent !important;
 		text-align: center;
+	}
+
+	.pages input {
+		margin-bottom: 2px !important;
 	}
 
 	#header a,
@@ -281,7 +297,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin: 0 !important;
 		padding: 0 !important;
 		bottom: 59px !important;
-		right: 15px !important;
+		right: 5px !important;
 	}
 /* Postform Labels */
 	.postarea .postblock,
@@ -302,7 +318,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	div[id^=qr] .postblock b,
 	#maxchars /* 4chanplus's Character Counter */ {
 		position: absolute;
-		font: 9px Calibri !important;
+		font-size: 9px !important;
 		color: rgba(0,0,0,0.5) !important;
 		text-transform: uppercase;
 		z-index: 2;
@@ -326,7 +342,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.postarea tbody>tr:nth-child(4)>.postblock>b:after {
-		font: 9px Calibri !important;
+		font-size: 9px !important;
 		color: rgba(0,0,0,0.5) !important;
 		content: 'NEW THREAD' !important;
 	}
@@ -375,6 +391,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#options textarea,
 	#updater input,
 	input,
+	textarea,
 	select,
 	div[id^=qr] input,
 	div[id^=qr] input[type=submit],
@@ -451,10 +468,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	div[id^=qr] textarea.inputtext {
 		width: 300px !important;
 	}
-	select:focus>button {
-	/* I can't figure out how to style the select dropmarker and hiding it causes bugs if done wrong */
-		visibility: hidden !important;
-   } 
 /* The file upload input */
 	.postarea input[type=text],
 	.postarea input[type=password],
@@ -517,11 +530,11 @@ This style is designed for the following browsers, ordered alphabetically:
 	/* Fancy formatting for all our postform buttons */
 		width: 50px !important;
 		height: 19px !important;
-		margin: 0 0 0 0 !important;
+		margin: 0 !important;
 		padding: 0 !important;
-		font: 11px Calibri, Verdana !important;
+		font-size: 9px !important;
 		text-transform: uppercase;
-		vertical-align: middle !important;
+		vertical-align: bottom !important;
 	}
 
 	.postarea input[type="file"]::-webkit-file-upload-button,
@@ -529,11 +542,11 @@ This style is designed for the following browsers, ordered alphabetically:
 	#quickrep input[type="file"]::-webkit-file-upload-button,
 	div[id^=qr] input[type="file"]::-webkit-file-upload-button {
 	/* Webkit's file input box has a different syntax */
-		-moz-appearance: none;
 		background: transparent;
 		border: none !important;
 		height: 19px !important;
 		padding: 0 !important;
+		text-transform: uppercase;
 	}
 /* End of the file upload input */
 	.postarea textarea.inputtext,
@@ -679,8 +692,27 @@ This style is designed for the following browsers, ordered alphabetically:
 /* Posts */
 	form[name=delform]>table, /* Reply are tables. */
 	div.thread>table, /* Replies are tables. A script like 4chan X is present */
-	.insertedPosts>table /* 4chanplus inserts new posts in a new div */ {
+	.insertedPosts>table, /* 4chanplus inserts new posts in a new div */
+	td.reply, /* Reply cell */
+	td.replyhl /* Highlighted Reply cell */ {
 		width: 100% !important;
+		border-spacing: 0 !important;
+	}
+
+	form[name=delform]>table:not(.pages),
+	div.thread>table,
+	.insertedPosts>table {
+		margin: 2px !important;
+	}
+
+	.doubledash {
+		visibility: hidden;
+		position: absolute;
+		right: 255px;
+	}
+
+	.doubeldash a {
+		visiblity: visible;
 	}
 
 	.omittedposts /* X posts and Y image replies omitted. Click Reply to view. */ {
@@ -703,8 +735,8 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	.commentpostername a.linkmail[href="mailto:sage"]:after {
 	/* sage identifier */
-		content:" (sage) ";
-		font-weight:normal !important;
+		content:" (sage)";
+		font-weight: normal !important;
 	}
 
 	.span.filetitle,
@@ -713,6 +745,11 @@ This style is designed for the following browsers, ordered alphabetically:
 	.commentpostername,
 	.postertrip {
 		background: transparent !important;
+	}
+
+	.postername,
+	.commentpostername {
+		font-weight: 700 !important;
 	}
 
 	td>.inputtext {
@@ -735,9 +772,9 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#navtopr {
 		position: fixed;
-		right: 33px !important;
+		right: 85px !important;
 		left: auto !important;
-		top: 2px !important;
+		top: 0 !important;
 		font-size: 0 !important;
 		color: transparent !important;
 	}
@@ -750,74 +787,93 @@ This style is designed for the following browsers, ordered alphabetically:
 	form[name="delform"]>div:not(.thread):not(.insertedPosts) {
 		position: fixed;
 		top: 0;
-		right: 79px;
+		right: 131px;
 		bottom: auto !important;
-		width: 180px;
-		font: 12px Calibri, "DejaVu Sans", "Lucida Sans" !important;
+		width: 120px;
+		font-size: 12px !important;
 		z-index: 4;
 	}
 
+	form[name="delform"]>div:not(.thread):not(.insertedPosts) input {
+		width: 10px !important;
+		height: 10px !important;
+		margin: 4px 1px !important;
+		vertical-align: top !important;
+	}
+
 	form[name="delform"]>div:not(.thread) label {
-		float: left !important;
+		font-size: 0px !important;
+		color: transparent  !important;
+	}
+
+	form[name="delform"] div:not(.thread) label:after {
+		font-size: 12px !important;
+		content: "Expand";
+		color: #000 !important;
 	}
 
 	form[name="delform"]>div:not(.thread) select {
-		margin: 1px 0 !important;
+		margin: 1px 0 0 0 !important;
 		float: right !important;
 		height: 15px !important;
+		font-size: 10px !important;
+	}
+
+	form[name="delform"]>div:not(.thread) select option {
+		font-size: 10px !important;
 	}
 /* End of Expand Images div
    Reply Previews */
-	#backwash_tipcell, /* /b/ackwash reloaded */
+	#backwash_tooltip, /* /b/ackwash reloaded */
 	#popup, /* 4chanplus */
 	div[id^=ref] /* 4chan4chrome */ {
+		max-width: 70%;
 		background-color: #d6daf0;
-		max-width: 50%;
 		visibility: visible;
 	}
 
-	#backwash_tipcell,
+	#backwash_tooltip,
 	#popup,
-	.deletebuttons,
 	div[id^=ref] {
 		visibility: visible;
-		position: fixed !important;
-		top: auto !important;
-		right: 12px !important;
-		bottom: 22px !important;
-		left: auto !important;
 		border: 0 !important;
+		z-index: 99 !important;
 	}
 
-	#backwash_tipcell,
-	div[id^=ref] {
-		z-index: 5;
-	}
-
-	#backwash_tipcell img,
+	#backwash_tooltip img,
 	#popup img,
 	div[id^=ref] img {
 		max-width: 300px;
 		height: auto !important;
+	}
+
+	.deletebuttons {
+		position: fixed !important;
+		top: auto !important;
+		right: 2px !important;
+		bottom: 22px !important;
+		left: auto !important;
+		visibility: visible !important;
 	}
 /* End of Reply Previews */
 	.deletebuttons br {
 		display: inline !important;
 	}
 
-	.navlinks {
-		right: 262px !important;
+	.navlinks,
+	#navlinks {
+		right: 255px !important;
 	}
 
-	#navlinks {
-		right: 262px !important;
+	.navlinks {
+		padding-top: 14px !important;
 	}
 /* Sidebar 4chan x options */
 	#options {
 		position: fixed !important;
 		top: 17px !important;
-		bottom: 0 !important;
-		right: 12px !important;
+		bottom: 2px !important;
+		right: 2px !important;
 		left: auto !important;
 		border: 0 !important;
 		z-index: 99 !important;
@@ -829,15 +885,14 @@ This style is designed for the following browsers, ordered alphabetically:
 	#options .move {
 		text-decoration: underline !important;
 		font-size: 16px !important;
-		text-align: center !important;
 	}
 
 	#options .move a {
 	/* Close Button */
 		position: fixed;
-		top: 16px;
-		right: 16px;
-		font-size: 16px !important;
+		top: 22px;
+		right: 230px;
+		font-size: 20px !important;
 	}
 /* End of Sidebar 4chan x options */
 	#thread_filter {
@@ -848,7 +903,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		bottom: 0 !important;
 		left: auto !important;
 		border: 0 !important;
-		font: 12px Calibri, "DejaVu Sans", "Lucida Sans" !important;
+		font-size: 12px !important;
 		z-index: 4 !important;
 	}
 
@@ -859,17 +914,13 @@ This style is designed for the following browsers, ordered alphabetically:
 	#updater {
 		right: 2px !important;
 		left: auto !important;
-		top: 2px !important;
+		top: 0 !important;
 		bottom: auto !important;
 		border: 0 !important;
 		font-size: 12px;
 		overflow: hidden;
 		z-index: 2 !important;
 		padding-bottom: 2px;
-	}
-
-	#updater:not(:hover) {
-		width: 33px;
 	}
 
 	#updater .error {
@@ -882,7 +933,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#watcher /* 4chan x thread watcher */ {
 		position: fixed !important;
 		top: 17px !important;
-		right: 12px !important;
+		right: 2px !important;
 		bottom: auto !important;
 		left: auto !important;
 		width: 248px !important;
@@ -892,7 +943,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	#threadwatcher /* 4chan4chrome's threadwatcher */{
 		border: 0 !important;
 		padding: 1px 0;
-		font: 12px Calibri, "DejaVu Sans", "Lucida Sans" !important;
 		overflow: hidden;
 		z-index: 2 !important;
 	}
@@ -969,12 +1019,59 @@ This style is designed for the following browsers, ordered alphabetically:
 	#doc,
 	#ft ul {
 		min-width: 0 !important;
-		width: auto !important;
+		max-width: 1280px !important;
+	}
+
+	#ft ul {
+		text-align: center !important;
+	}
+
+	#ft li {
+		float: none !important;
+		display: inline-block !important;
+		margin: 0 !important;
+		padding: 0 12px !important;
 	}
 
 	#boards .column {
 		width: auto !important;
 		margin: 0px 5px 0px 5px !important;
+	}
+}
+
+@-moz-document url('http://www.4chan.org/'),
+url('http://www.4chan.org/#') {
+	#doc,
+	#ft ul {
+		min-width: 0 !important;
+		width: auto !important;
+		max-width: 1280px !important;
+	}
+}
+
+@-moz-document domain("images.4chan.org"),
+url("http://www.4chan.org/banned") {
+	html {
+		display: table;
+	}
+
+	body {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	img {
+		display: block;
+		margin: auto;
+	}
+
+	#ft ul {
+		text-align: center !important;
+	}
+
+	#ft li {
+		float: none !important;
+		display: inline-block !important;
 	}
 }
 
