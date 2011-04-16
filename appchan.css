@@ -292,6 +292,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 100% !important;
 		padding-right: 250px !important;
 		text-align: center !important;
+		border-spacing: 0 !important;
 	}
 
 	#header a,
@@ -311,6 +312,10 @@ This style is designed for the following browsers, ordered alphabetically:
 		text-align: center;
 	}
 
+	.pages input {
+		margin-bottom: 2px !important;
+	}	
+	
 	#header a,
 	.pages a,
 	.pages b,
