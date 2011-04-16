@@ -895,7 +895,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background-color: #333 !important;
 	}
 
-	.commentpostername a.linkmail[href="mailto:sage"]:after {
+	.commentpostername a.linkmail[href$="sage"]:after {
 	/* sage identifier */
 		content:" (sage) ";
 		color: #e42217 !important;
