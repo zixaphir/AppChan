@@ -185,7 +185,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 246px !important;
 		z-index: 1;
 	}
-	
+
 	div.logo font[size="5"] span {
 		font-size: 28px !important;
 	}
@@ -230,30 +230,30 @@ This style is designed for the following browsers, ordered alphabetically:
 		vertical-align: bottom;
 		margin-right: 1px !important;
 	}
-	
+
 	.menubutton a {
 		padding: 0 !important;
 	}
-	
+
 	a.yuimenuitemlabel {
 		padding: 0 20px !important;
 	}
-	
+
 	a.yuimenuitemlabel:hover {
 		background-color: transparent !important;
 	}
-	
+
 	.yuimenuitem-selected {
 		background-color: #333 !important;
 	}
-	
+
 	.bd {
 		background-color: #2c2c2c !important;
 		border: none !important;
 	}
-	
+
 	.bd ul {
-		border: none !important;	
+		border: none !important;
 	}
 /* Navigation */
 	#header,
@@ -280,7 +280,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		right: 250px !important;
 		padding: 0 2px 0 2px !important;
 		background-color: #2c2c2c !important;
-		z-index: 1
+		z-index: 3;
 	}
 
 	.pages {
@@ -292,6 +292,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding-right: 250px !important;
 		text-align: center !important;
 		border-spacing: 0 !important;
+		z-index: 1;
 	}
 
 	#header a,
@@ -313,8 +314,8 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	.pages input {
 		margin-bottom: 2px !important;
-	}	
-	
+	}
+
 	#header a,
 	.pages a,
 	.pages b,
@@ -856,7 +857,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 100% !important;
 		border-spacing: 0 !important;
 	}
-	
+
 	form[name=delform]>table:not(.pages),
 	div.thread>table,
 	.insertedPosts>table {
@@ -873,7 +874,12 @@ This style is designed for the following browsers, ordered alphabetically:
 		visibility: visible;
 		color: #222 !important;
 	}
-	
+
+	.doubledash a:hover {
+		color: #555 !important;
+		background-color: transparent !important;
+	}
+
 	.omittedposts /* X posts and Y image replies omitted. Click Reply to view. */ {
 		clear: both;
 		padding-left: 20px;
@@ -882,15 +888,19 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	td.reply, /* replies */
 	td.replyhl, /* reply highlight */
-	#updater:hover,
-	#thread_filter.autohide:hover,
-	#thread_filter:not(.autohide),
 	#options, /* 4chan x Options */
 	#navbar,  /* 4chanplus's bar */
 	#popup, /* 4chanplus's tooltip (reply previews, image hovering, etc) */
 	#boardsMenu /* 4chan plus's boards */ {
 		border: 0 !important;
 		background-color: #333 !important;
+	}
+
+	#updater:hover,
+	#thread_filter.autohide:hover,
+	#thread_filter:not(.autohide) {
+		background-color: #393939 !important;
+		border: 0 !important;
 	}
 
 	.commentpostername a.linkmail[href$="sage"]:after {
@@ -931,7 +941,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postertrip {
 		background: transparent !important;
 	}
-	
+
 	.postername,
 	.commentpostername {
 		font-weight: 700 !important;
@@ -944,7 +954,6 @@ This style is designed for the following browsers, ordered alphabetically:
 /* Addons and such */
 	#thread_filter input,
 	#thread_filter textarea,
-	#navtopr,
 	#updater input,
 	#qr,
 	#quickrep,
@@ -959,28 +968,24 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#navtopr {
 		position: fixed;
-		right: 85px !important;
+		right: 35px !important;
 		left: auto !important;
 		top: 0 !important;
+		bottom: auto !important;
 		font-size: 0 !important;
 		color: transparent !important;
-	}
-
-	#navtopr,
-	#navtopr * {
-		z-index: 6 !important;
 	}
 /* Expand Images div */
 	form[name="delform"]>div:not(.thread):not(.insertedPosts):first-child {
 		position: fixed;
 		top: 0;
-		right: 131px;
+		right: 106px;
 		bottom: auto !important;
-		width: 120px;
+		width: 145px;
 		font-size: 12px !important;
-		z-index: 4;
+		z-index: 1;
 	}
-	
+
 	form[name="delform"]>div:not(.thread):not(.insertedPosts) input {
 		width: 10px !important;
 		height: 10px !important;
@@ -1002,18 +1007,16 @@ This style is designed for the following browsers, ordered alphabetically:
 	form[name="delform"]>div:not(.thread) select {
 		margin: 2px 0 0 0 !important;
 		float: right !important;
-		height: 13px !important;
-		font-size: 10px !important;
-		width: 58px !important;
+		height: 15px !important;
 	}
-	
+
 	form[name="delform"]>div:not(.thread) select>button {
 		opacity: 0;
 	}
-	
+
 	form[name="delform"]>div:not(.thread) select>option {
 		font-size: 10px !important;
-	}	
+	}
 /* End of Expand Images div */
 /* Reply Previews */
 	#backwash_tooltip, /* /b/ackwash reloaded */
@@ -1038,7 +1041,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		max-width: 300px;
 		height: auto !important;
 	}
-	
+
 	.deletebuttons {
 		position: fixed !important;
 		top: auto !important;
@@ -1063,14 +1066,14 @@ This style is designed for the following browsers, ordered alphabetically:
 	#navlinks {
 		right: 255px !important;
 	}
-	
+
 	.navlinks {
 		padding-top: 14px !important;
 	}
 /* Sidebar 4chan x options */
 	#options {
 		position: fixed !important;
-		top: 14px !important;
+		top: 17px !important;
 		bottom: 2px !important;
 		right: 2px !important;
 		left: auto !important;
@@ -1122,6 +1125,17 @@ This style is designed for the following browsers, ordered alphabetically:
 		overflow: hidden;
 		z-index: 2 !important;
 		padding-bottom: 2px;
+	}
+
+	#updater #count:not(.new) {
+		font-size: 0 !important;
+		color: transparent !important;
+	}
+
+	#updater #count:not(.new):after {
+		font-size: 12px !important;
+		color: #aaa !important;
+		content: "+0";
 	}
 
 	#updater .error {
@@ -1227,11 +1241,11 @@ This style is designed for the following browsers, ordered alphabetically:
 		min-width: 0 !important;
 		max-width: 1280px !important;
 	}
-	
+
 	#ft ul {
 		text-align: center !important;
 	}
-	
+
 	#ft li {
 		float: none !important;
 		display: inline-block !important;
@@ -1260,11 +1274,11 @@ url("http://www.4chan.org/banned") {
 		display: block;
 		margin: auto;
 	}
-	
+
 	#ft ul {
 		text-align: center !important;
 	}
-	
+
 	#ft li {
 		float: none !important;
 		display: inline-block !important;
