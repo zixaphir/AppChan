@@ -867,12 +867,11 @@ This style is designed for the following browsers, ordered alphabetically:
 		visibility: hidden;
 		position: absolute;
 		right: 255px;
-		z-index: 2 !important;
 	}
 
-	.doubeldash a {
-		visiblity: visible;
-		color: #222;
+	.doubledash a {
+		visibility: visible;
+		color: #222 !important;
 	}
 	
 	.omittedposts /* X posts and Y image replies omitted. Click Reply to view. */ {
@@ -972,7 +971,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		z-index: 6 !important;
 	}
 /* Expand Images div */
-	form[name="delform"]>div:not(.thread):not(.insertedPosts):first-of-type {
+	form[name="delform"]>div:not(.thread):not(.insertedPosts):first-child {
 		position: fixed;
 		top: 0;
 		right: 131px;
@@ -1005,9 +1004,14 @@ This style is designed for the following browsers, ordered alphabetically:
 		float: right !important;
 		height: 13px !important;
 		font-size: 10px !important;
+		width: 58px !important;
 	}
 	
-	form[name="delform"]>div:not(.thread) select option {
+	form[name="delform"]>div:not(.thread) select>button {
+		opacity: 0;
+	}
+	
+	form[name="delform"]>div:not(.thread) select>option {
 		font-size: 10px !important;
 	}	
 /* End of Expand Images div */

@@ -819,11 +819,15 @@ This style is designed for the following browsers, ordered alphabetically:
 		font-size: 10px !important;
 	}
 
+	form[name="delform"]>div:not(.thread) select>button {
+		opacity: 0;
+	}
+
 	form[name="delform"]>div:not(.thread) select option {
 		font-size: 10px !important;
 	}
-/* End of Expand Images div
-   Reply Previews */
+/* End of Expand Images div */
+/* Reply Previews */
 	#backwash_tooltip, /* /b/ackwash reloaded */
 	#popup, /* 4chanplus */
 	div[id^=ref] /* 4chan4chrome */ {
