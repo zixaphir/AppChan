@@ -985,6 +985,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 10px !important;
 		height: 10px !important;
 		margin: 4px 1px !important;
+		vertical-align: top !important;
 	}
 
 	form[name="delform"]>div:not(.thread) label {
