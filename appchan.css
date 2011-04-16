@@ -259,7 +259,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	#header,
 	#header>#navtop, /* Top Navigation */
 	.pages /* Bottom Navigation */ {
-		font-family: "Calibri", "DejaVu Sans", "Lucidia Sans" !important;
 		text-align: center !important;
 		font-size: 0 !important;
 		color: transparent !important;
@@ -401,7 +400,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		text-transform: uppercase;
 		z-index: 2;
 	}
-/* Custom Postform Labels, courtesy of K.WeEabo0o's 4chan reboot */
+/* Custom Postform Labels */
 	.postarea tr:nth-of-type(1) .postblock b:after {
 		content: "#TRIPCODE##SECURETRIP";
 	}
@@ -680,7 +679,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	#quickrep input[type="file"]::-webkit-file-upload-button,
 	div[id^=qr] input[type="file"]::-webkit-file-upload-button {
 	/* Webkit's file input box has a different syntax */
-		-moz-appearance: none;
 		background: transparent;
 		border: none !important;
 		height: 19px !important;
@@ -897,7 +895,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	.commentpostername a.linkmail[href$="sage"]:after {
 	/* sage identifier */
-		content:" (sage) ";
+		content:" (sage)";
 		color: #e42217 !important;
 		font-weight:normal !important;
 	}
@@ -1009,10 +1007,9 @@ This style is designed for the following browsers, ordered alphabetically:
 	
 	form[name="delform"]>div:not(.thread) select option {
 		font-size: 10px !important;
-	}
-	
-/* End of Expand Images div
-   Reply Previews */
+	}	
+/* End of Expand Images div */
+/* Reply Previews */
 	#backwash_tooltip, /* /b/ackwash reloaded */
 	#popup, /* 4chanplus */
 	div[id^=ref] /* 4chan4chrome */ {
@@ -1239,16 +1236,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	#boards .column {
 		width: auto !important;
 		margin: 0px 5px 0px 5px !important;
-	}
-}
-
-@-moz-document url('http://www.4chan.org/'),
-url('http://www.4chan.org/#') {
-	#doc,
-	#ft ul {
-		min-width: 0 !important;
-		width: auto !important;
-		max-width: 1280px !important;
 	}
 }
 
