@@ -867,6 +867,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		visibility: hidden;
 		position: absolute;
 		right: 255px;
+		z-index: 2 !important;
 	}
 
 	.doubeldash a {

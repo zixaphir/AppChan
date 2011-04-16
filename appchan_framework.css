@@ -711,8 +711,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		right: 255px;
 	}
 
-	.doubeldash a {
-		visiblity: visible;
+	.doubledash a {
+		visibility: visible !important;
 	}
 
 	.omittedposts /* X posts and Y image replies omitted. Click Reply to view. */ {
@@ -784,7 +784,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		z-index: 6 !important;
 	}
 /* Expand Images div */
-	form[name="delform"]>div:not(.thread):not(.insertedPosts) {
+	form[name="delform"]>div:not(.thread):not(.insertedPosts):first-child {
 		position: fixed;
 		top: 0;
 		right: 131px;
