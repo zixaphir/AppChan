@@ -855,13 +855,13 @@ This style is designed for the following browsers, ordered alphabetically:
 	td.reply, /* Reply cell */
 	td.replyhl /* Highlighted Reply cell */ {
 		width: 100% !important;
-		border-spacing: 0 !important;
 	}
 
 	form[name=delform]>table:not(.pages),
 	div.thread>table,
 	.insertedPosts>table {
 		margin: 2px !important;
+		border-spacing: 0 !important;
 	}
 
 	.doubledash {
@@ -1218,6 +1218,19 @@ This style is designed for the following browsers, ordered alphabetically:
 	body table table {
 		width: 100% !important;
 	}
+	
+	.postarea tr:nth-of-type(1) .postblock b:after {
+		content: "";
+	}
+
+	.postarea tr:nth-of-type(2) .postblock b:after {
+		content: "";
+	}
+	
+	td.postblock {
+		background-color: #333 !important;
+		border: none !important;
+	}
 }
 
 @-moz-document url-prefix('http://www.4chan.org/') {
@@ -1286,7 +1299,8 @@ url("http://www.4chan.org/banned") {
 }
 
 @-moz-document url-prefix("http://www.4chan.org"),
-domain("rs.4chan.org") {
+domain("rs.4chan.org"),
+domain("sys.4chan.org") {
 	html, body {
 		background-image: none !important;
 	}
