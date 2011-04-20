@@ -71,7 +71,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#recaptcha_switch_audio_btn,
 	#recaptcha_whatsthis_btn,
 	#recaptcha_reload_btn *,
-	#quickrep tr:nth-of-type(4),
+	#quickrep tr:nth-of-type(4) b,
 	#ft li.fill,
 	.yui-menu-shadow {
 	/* Cleanup */
@@ -366,6 +366,10 @@ This style is designed for the following browsers, ordered alphabetically:
 	div[id^=qr] /* 4chan 4chrome's quick reply */ {
 		width: 326px !important;
 		z-index: 2 !important;
+	}
+	
+	#qr {
+		width: 306px !important;
 	}
 
 	.postarea form:first-child {
@@ -696,6 +700,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		height: 78px !important;
 		font-size: 10pt !important;
 		resize: none;
+		margin: 0 !important;
 	}
 
 	#qr textarea,
@@ -786,9 +791,13 @@ This style is designed for the following browsers, ordered alphabetically:
 		bottom: 74px !important;
 		right: 12px !important;
 	}
+	
+	#dragarea>div:nth-of-type(2) {
+		width: 260px !important;
+	}
 
 	#maxchars {
-		bottom: 137px;
+		bottom: 131px;
 		right: 12px;
 	}
 
@@ -947,6 +956,14 @@ This style is designed for the following browsers, ordered alphabetically:
 		background-color: #2c2c2c !important;
 		border: none !important;
 	}
+	
+	#qr {
+		padding: 0 10px !important;
+	}
+	
+	#qr td {
+		padding: 0 !important;
+	}
 
 	#thread_filter input {
 		margin-top: 1px !important;
@@ -975,7 +992,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#navbar {
 		margin-left: -265px !important;
-		bottom: 22px !important;
+		bottom: 18px !important;
 		height: 26px !important;
 	}
 
@@ -989,7 +1006,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#boardsMenu {
-		bottom: 50px !important;
+		bottom: 48px !important;
 	}
 
 	table[width="100%"]~#boardsMenu {
