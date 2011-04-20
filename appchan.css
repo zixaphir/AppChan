@@ -597,6 +597,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		z-index: 1;
 	}
 
+	.postarea input[name="sub"],
 	input[type="file"][name="upfile"] > input[type="text"],
 	input[name="sub"] {
 		width: 197px !important;
@@ -613,10 +614,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 249px !important;
 	}
 
-	.postarea input[type="submit"],
-	#qr input[type="submit"],
-	#quickrep input[type="submit"],
-	div[id^=qr] input[type="submit"],
+	input[type="submit"],
 	#com_submit,
 	input[type="file"] > input[type="button"] {
 	/* Fancy formatting for all our postform buttons */
@@ -630,11 +628,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		vertical-align: bottom;
 	}
 
-	.postarea input[type="submit"]:hover,
-	#qr #com_submit:hover,
-	#quickrep input[type="submit"]:hover,
-	div[id^=qr] input[type="submit"]:hover,
 	#com_submit:hover,
+	input[type="submit"]:hover,
 	input[type="file"] > input[type="button"]:hover {
 		background-color: #363636 !important;
 	}
@@ -672,10 +667,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 0 !important;
 	}
 /* Captcha */
-	.postarea td.recaptcha_image_cell,
-	#qr td.recaptcha_image_cell,
-	#quickrep td.recaptcha_image_cell,
-	div[id^=qr] td.recaptcha_image_cell,
+	td.recaptcha_image_cell,
 	td[style="padding-left: 7px;"] {
 		padding: 0 !important;
 	}
