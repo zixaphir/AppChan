@@ -500,19 +500,16 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postarea input:hover,
 	.postarea input[type="submit"]:hover,
 	.postarea textarea:hover,
-	.postarea .recaptchatable #recaptcha_response_field:hover,
 	#qr input:hover,
 	#qr input[type="submit"]:hover,
 	#qr textarea:hover,
-	#qr .recaptchatable #recaptcha_response_field:hover,
 	#quickrep input:hover,
 	#quickrep input[type="submit"]:hover,
 	#quickrep textarea:hover,
-	#quickrep .recaptchatable #recaptcha_response_field:hover,
 	div[id^=qr] input:hover,
 	div[id^=qr] input[type="submit"]:hover,
 	div[id^=qr] textarea:hover,
-	div[id^=qr] .recaptchatable #recaptcha_response_field:hover,
+	.recaptchatable #recaptcha_response_field:hover,
 	.deletebuttons input[type="password"]:hover,
 	.deletebuttons input[type="submit"]:hover {
 		background-color: #393939 !important;
@@ -521,20 +518,17 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postarea input:focus,
 	.postarea input[type="submit"]:focus,
 	.postarea textarea:focus,
-	.postarea .recaptchatable #recaptcha_response_field:focus,
 	#qr input:focus,
 	#qr input[type="submit"]:focus,
 	#qr textarea:focus,
 	#qr .recaptcha_image_cell>center>#recaptcha_image:focus,
-	#qr .recaptchatable #recaptcha_response_field:focus,
 	#quickrep input:focus,
 	#quickrep input[type="submit"]:focus,
 	#quickrep textarea:focus,
-	#quickrep .recaptchatable #recaptcha_response_field:focus,
 	div[id^=qr] input:focus,
 	div[id^=qr] input[type="submit"]:focus,
 	div[id^=qr] textarea:focus,
-	div[id^=qr] .recaptchatable #recaptcha_response_field:focus,
+	.recaptchatable #recaptcha_response_field:focus,
 	.deletebuttons input[type="password"]:focus {
 		background-color: #3f3f3f !important;
 	}
@@ -547,34 +541,25 @@ This style is designed for the following browsers, ordered alphabetically:
 		height: 19px !important;
 	}
 
-	.postarea .recaptcha_image_cell>center>#recaptcha_image,
-	#qr .recaptcha_image_cell>center>#recaptcha_image,
-	#quickrep .recaptcha_image_cell>center>#recaptcha_image,
-	div[id^=qr] .recaptcha_image_cell>center>#recaptcha_image {
+	.recaptcha_image_cell>center>#recaptcha_image {
 		background-color: transparent !important;
 		margin-left: 0 !important;
 	}
 
 	.postarea input[type="text"],
 	.postarea input[type="password"],
-	.postarea input[type="file"][name="upfile"] > input[type="text"],
-	.postarea input[type="file"] > input[type="button"],
 	.postarea textarea.inputtext,
 	#qr input[type="text"],
 	#qr input[type="password"],
-	#qr input[type="file"][name="upfile"] > input[type="text"],
-	#qr input[type="file"] > input[type="button"],
 	#qr textarea.inputtext,
 	#quickrep input[type="text"],
 	#quickrep input[type="password"],
-	#quickrep input[type="file"][name="upfile"] > input[type="text"],
-	#quickrep input[type="file"] > input[type="button"],
 	#quickrep textarea.inputtext,
 	div[id^=qr] input[type="text"],
 	div[id^=qr] input[type="password"],
-	div[id^=qr] input[type="file"][name="upfile"] > input[type="text"],
-	div[id^=qr] input[type="file"] > input[type="button"],
-	div[id^=qr] textarea.inputtext {
+	div[id^=qr] textarea.inputtext,
+	input[type="file"][name="upfile"] > input[type="text"],
+	input[type="file"] > input[type="button"] {
 		width: 248px !important;
 		padding: 1px 0 1px 0 !important;
 		z-index: 1;
@@ -583,37 +568,28 @@ This style is designed for the following browsers, ordered alphabetically:
 	#qr input[type="text"],
 	#qr input[type="password"],
 	#qr input[type="file"][name="upfile"] > input[type="text"],
-	#qr input[type="file"] > input[type="button"],
 	#qr textarea.inputtext,
 	#quickrep input[type="text"],
 	#quickrep input[type="password"],
 	#quickrep input[type="file"][name="upfile"] > input[type="text"],
-	#quickrep input[type="file"] > input[type="button"],
 	#quickrep textarea.inputtext,
 	div[id^=qr] input[type="text"],
 	div[id^=qr] input[type="password"],
 	div[id^=qr] input[type="file"][name="upfile"] > input[type="text"],
-	div[id^=qr] input[type="file"] > input[type="button"],
 	div[id^=qr] textarea.inputtext {
 		width: 300px !important;
 	}
 /* The file upload input */
 	.postarea input[type="text"],
 	.postarea input[type="password"],
-	.postarea input[type="file"][name="upfile"] > input[type="text"],
-	.postarea input[type="file"] > input[type="button"],
 	#qr input[type="text"],
 	#qr input[type="password"],
-	#qr input[type="file"][name="upfile"] > input[type="text"],
-	#qr input[type="file"] > input[type="button"],
 	#quickrep input[type="text"],
 	#quickrep input[type="password"],
-	#quickrep input[type="file"][name="upfile"] > input[type="text"],
-	#quickrep input[type="file"] > input[type="button"],
 	div[id^=qr] input[type="text"],
 	div[id^=qr] input[type="password"],
-	div[id^=qr] input[type="file"][name="upfile"] > input[type="text"],
-	div[id^=qr] input[type="file"] > input[type="button"] {
+	input[type="file"][name="upfile"] > input[type="text"],
+	input[type="file"] > input[type="button"] {
 		height: 19px !important;
 	}
 
@@ -621,14 +597,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		z-index: 1;
 	}
 
-	.postarea input[name="sub"],
-	.postarea input[type="file"][name="upfile"] > input[type="text"],
-	#qr input[name="sub"],
-	#qr input[type="file"][name="upfile"] > input[type="text"],
-	#quickrep input[name="sub"],
-	#quickrep input[type="file"][name="upfile"] > input[type="text"],
-	div[id^=qr] input[name="sub"],
-	div[id^=qr] input[type="file"][name="upfile"] > input[type="text"] {
+	input[type="file"][name="upfile"] > input[type="text"],
+	input[name="sub"] {
 		width: 197px !important;
 		margin: 0 1px 0 0 !important;
 		vertical-align: bottom;
@@ -643,18 +613,12 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 249px !important;
 	}
 
-	.postarea #com_submit,
-	.postarea input[type="file"] > input[type="button"],
 	.postarea input[type="submit"],
-	#qr #com_submit,
-	#qr input[type="file"] > input[type="button"],
 	#qr input[type="submit"],
-	#quickrep #com_submit,
-	#quickrep input[type="file"] > input[type="button"],
 	#quickrep input[type="submit"],
-	div[id^=qr] #com_submit,
-	div[id^=qr] input[type="file"] > input[type="button"],
-	div[id^=qr] input[type="submit"] {
+	div[id^=qr] input[type="submit"],
+	#com_submit,
+	input[type="file"] > input[type="button"] {
 	/* Fancy formatting for all our postform buttons */
 		width: 50px !important;
 		height: 19px !important;
@@ -666,25 +630,16 @@ This style is designed for the following browsers, ordered alphabetically:
 		vertical-align: bottom;
 	}
 
-	.postarea #com_submit:hover,
-	.postarea input[type="file"] > input[type="button"]:hover,
 	.postarea input[type="submit"]:hover,
 	#qr #com_submit:hover,
-	#qr input[type="file"] > input[type="button"]:hover,
-	#qr input[type="submit"]:hover,
-	#quickrep #com_submit:hover,
-	#quickrep input[type="file"] > input[type="button"]:hover,
 	#quickrep input[type="submit"]:hover,
-	div[id^=qr] #com_submit:hover,
-	div[id^=qr] input[type="file"] > input[type="button"]:hover,
-	div[id^=qr] input[type="submit"]:hover {
+	div[id^=qr] input[type="submit"]:hover,
+	#com_submit:hover,
+	input[type="file"] > input[type="button"]:hover {
 		background-color: #363636 !important;
 	}
 
-	.postarea input[type="file"]::-webkit-file-upload-button,
-	#qr input[type="file"]::-webkit-file-upload-button,
-	#quickrep input[type="file"]::-webkit-file-upload-button,
-	div[id^=qr] input[type="file"]::-webkit-file-upload-button {
+	input[type="file"]::-webkit-file-upload-button {
 	/* Webkit's file input box has a different syntax */
 		background: transparent;
 		border: none !important;
