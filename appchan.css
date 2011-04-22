@@ -165,6 +165,10 @@ This style is designed for the following browsers, ordered alphabetically:
 	a:hover .postertrip {
 		color: #444 !important;
 	}
+	
+	a.backlink {
+		color: #4f5f8f !important;
+	}
 
 	.span.filetitle,
 	.replytitle {
@@ -272,9 +276,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 100% !important;
 	}
 
-	#header {
-		position: /*[[NavBarSticky]]*/ !important;
-	}
+	/*[[NavBarSticky]]*/
 
 	#header,
 	.pages {
