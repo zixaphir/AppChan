@@ -856,7 +856,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /* Posts */
 	form[name="delform"] {
-		padding: 0 254px 8px 0 !important;
+		padding: 17px 254px 8px 0 !important;
 	}
 
 	form[name="delform"]>table:not(.pages), /* Reply are tables. */
@@ -878,6 +878,10 @@ This style is designed for the following browsers, ordered alphabetically:
 		border: 0;
 		float: left;
 		margin: 0 20px 20px !important;
+	}
+	
+	form[name="delform"] a img+img {
+		margin: 0 0 20px !important;
 	}
 
 	.filesize {
