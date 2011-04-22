@@ -1105,10 +1105,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	#navlinks {
 		right: 255px !important;
 	}
-
-	.navlinks {
-		padding-top: 14px !important;
-	}
 /* Sidebar 4chan x options */
 	#options {
 		position: fixed !important;

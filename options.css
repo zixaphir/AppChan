@@ -13,7 +13,11 @@ url("http://i.imgur.com/gJ8A9.png")
 
 /*[[NavBarSticky]]*/
 /* Yes: */
-fixed
+fixed !important;
+	}
+
+.navlinks {
+		padding-top: 14px !important;
 /* No: */
 absolute
 /* End */
