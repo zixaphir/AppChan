@@ -10,6 +10,57 @@ none
 /* Horo: */
 url("http://i.imgur.com/gJ8A9.png")
 /* End */
+
+/*[[NavBarSticky]]*/
+/* Yes: */
+fixed
+/* No: */
+absolute
+/* End */
+
+/*[[PstfrmPstion]]*/
+/* Fixed: */
+		right: 2px !important;
+	}
+/* Slideout: */
+		right: -233px !important;
+		-webkit-transition: right .3s ease-in-out 3s;
+		-moz-transition: right .3s ease-in-out 3s;
+		-o-transition: right .3s ease-in-out 3s;
+	}
+	
+	.postarea form:first-child:hover {
+		right: 2px !important;
+		-webkit-transition: right .3s linear;
+		-moz-transition: right .3s linear;
+		-o-transition: right .3s linear;
+	}
+	
+	.postarea tr:nth-child(4) {
+		height: 79px !important;
+	}
+	
+	.postarea textarea:focus {
+		position: fixed !important;
+		right: 2px !important;
+		bottom: 167px !important;
+	}
+/* Transparent to Opaque: */
+		right: 2px !important;
+		opacity: 0.2;
+		-webkit-transition: opacity .3s ease-in-out 3s;
+		-moz-transition: opacity .3s ease-in-out 3s;
+		-o-transition: opacity .3s ease-in-out 3s;
+	}
+
+	.postarea form:first-child:hover {
+		opacity: 1;
+		-webkit-transition: opacity .3s linear;
+		-moz-transition: opacity .3s linear;
+		-o-transition: opacity .3s linear;
+	}
+/* End */
+
 /*[[fixedFilter]]*/
 /* Locked Bottom: */
 	#thread_filter {

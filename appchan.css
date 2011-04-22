@@ -74,7 +74,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	#recaptcha_reload_btn *,
 	#quickrep tr:nth-of-type(4) b,
 	#ft li.fill,
-	.yui-menu-shadow {
+	.yui-menu-shadow,
+	.postarea>form:first-child>table>tbody>tr:last-of-type {
 	/* Cleanup */
 		display: none !important;
 	}
@@ -363,11 +364,11 @@ This style is designed for the following browsers, ordered alphabetically:
 /* End of Navigation
    Post Form */
 	.postarea form:not(#newform),
-	.postarea table,
-	.postarea tbody {
+	.postarea table {
 		width: 248px;
 		padding: 0 !important;
-		border-spacing: 1px !important;
+		border-spacing: 0px !important;
+		border-collapse: collapse !important;
 	}
 
 	#qr, /* 4chan x's quick reply */
@@ -389,8 +390,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin: 0 !important;
 		padding: 0 !important;
 		bottom: 59px !important;
-		right: 5px !important;
-	}
+/*[[PstfrmPsion]]*/
+	
 /* Postform Labels */
 	.postarea .postblock,
 	.boxcontent .postblock,
@@ -608,7 +609,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		resize: none;
 		margin: 0 !important;
 	}
-
+	
 	#qr textarea,
 	#quickrep textarea,
 	div[id^=qr] textarea {
@@ -622,6 +623,18 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 0 !important;
 	}
 /* Captcha */
+	#thread_filter input,
+	.postarea input[name="sub"],
+	.postarea textarea.inputtext,
+	.postarea td>input,
+	.recaptchatable {
+		margin-top: 1px !important;
+	}
+	
+	.postarea td>input[name="upfile"] {
+		margin-top: 2px !important;
+	}
+
 	.recaptchatable td.recaptcha_image_cell,
 	td[style="padding-left: 7px;"] {
 		padding: 0 !important;
@@ -645,13 +658,13 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postarea .recaptcha_image_cell>center,
 	#r_captcha_div img,
 	#r_captcha_div input {
-		width: 250px !important;
+		width: 248px !important;
 		text-align: left !important;
 	}
 
 	.postarea #recaptcha_widget_div {
 		height: 67px !important;
-		width: 250px !important;
+		width: 248px !important;
 	}
 
 	.postarea .recaptcha_image_cell>center,
@@ -684,8 +697,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#recaptcha_reload_btn {
-		bottom: 63px !important;
-		right: -7px !important;
+		bottom: 62px !important;
+		right: 0 !important;
 	}
 
 	#qr #recaptcha_reload_btn,
@@ -725,7 +738,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		top: auto;
 		font-size: 12px !important;
 		color: #888;
-		bottom: 4px;
+		bottom: 0;
 		right: 55px;
 		vertical-align: bottom;
 	}
@@ -893,10 +906,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	
 	#qr td {
 		padding: 0 !important;
-	}
-
-	#thread_filter input {
-		margin-top: 1px !important;
 	}
 
 	#navtopr {

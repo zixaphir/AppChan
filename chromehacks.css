@@ -59,7 +59,7 @@
 
 	input[type=checkbox]:checked,
 	#options input[type=checkbox]:checked {
-		background: #111!important;
+		background: #111 !important;
 	}
 
 	div.postarea>form td:nth-of-type(3)>label {
