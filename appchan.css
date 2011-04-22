@@ -29,7 +29,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		background-attachment: fixed !important;
 	}
 }
-
 @-moz-document domain("4chan.org") {
 	/*[[boardlogo]]*/
 	scrollbarbutton,
