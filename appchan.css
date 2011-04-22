@@ -276,7 +276,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 100% !important;
 	}
 
-	/*[[NavBarSticky]]*/
+/*[[NavBarSticky]]*/
 
 	#header,
 	.pages {
@@ -289,7 +289,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.pages {
-		position: fixed !important;
 		top: auto !important;
 		bottom: 0 !important;
 		right: 0 !important;
@@ -888,6 +887,17 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin-top: 17px !important;
 	}
 
+	.filesize span {
+		font-size: 0 !important;
+		visibility: hidden;
+	}
+
+	.filesize span:after {
+		content: attr(title);
+		font-size: 12px !important;
+		visibility: visible;
+	}
+
 	.doubledash {
 		visibility: hidden;
 		position: absolute;
@@ -904,8 +914,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		background-color: transparent !important;
 	}
 	
-	form[name="delform"]>div>a.pointer,
-	div.thread>div>a.pointer {
+	form[name="delform"]>div:not(.thread)>a.pointer,
+	form[name="delform"]>div.thread>div>a.pointer {
 		float: right;
 	}
 
@@ -1084,6 +1094,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		visibility: visible;
 		border: 0 !important;
 		z-index: 10 !important;
+		-webkit-transition: display .5s linear;
+		-moz-transition: display .5s linear;
 	}
 
 	#backwash_tooltip img,
@@ -1163,7 +1175,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		border: 0 !important;
 		font-size: 12px;
 		overflow: hidden;
-		z-index: 2 !important;
+		z-index: 5 !important;
 		padding-bottom: 2px;
 	}
 
@@ -1239,8 +1251,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	img[src="http://static.4chan.org/image/sticky.gif"] {
 		display: inline;
 	}
-
-/*[[browserhacks]]*/
 }
 
 @-moz-document domain(rs.4chan.org) {
