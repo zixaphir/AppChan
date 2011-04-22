@@ -21,7 +21,6 @@ absolute
 /*[[PstfrmPstion]]*/
 /* Fixed: */
 		right: 2px !important;
-	}
 /* Slideout: */
 		right: -233px !important;
 		-webkit-transition: right .3s ease-in-out 3s;
@@ -44,7 +43,6 @@ absolute
 		position: fixed !important;
 		right: 2px !important;
 		bottom: 167px !important;
-	}
 /* Transparent to Opaque: */
 		right: 2px !important;
 		opacity: 0.2;
@@ -58,7 +56,6 @@ absolute
 		-webkit-transition: opacity .3s linear;
 		-moz-transition: opacity .3s linear;
 		-o-transition: opacity .3s linear;
-	}
 /* End */
 
 /*[[fixedFilter]]*/
@@ -101,6 +98,7 @@ absolute
 	}
 /* Moveable */
 	#thread_filter {
+		margin: 2px !important;
 		width: 248px;
 	}
 /* End */

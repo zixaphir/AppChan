@@ -389,8 +389,9 @@ This style is designed for the following browsers, ordered alphabetically:
 		z-index: 2;
 		margin: 0 !important;
 		padding: 0 !important;
-		bottom: 59px !important;
-/*[[PstfrmPsion]]*/
+		bottom: 63px !important;
+/*[[PstfrmPstion]]*/
+	}
 	
 /* Postform Labels */
 	.postarea .postblock,
@@ -1073,7 +1074,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		font-size: 20px !important;
 	}
 /* End of Sidebar 4chan x options */
-	/*[[fixedFilter]]*/
+/*[[fixedFilter]]*/
 
 	#thread_filter {
 		padding: 3px 0;
