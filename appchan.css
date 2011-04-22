@@ -903,6 +903,11 @@ This style is designed for the following browsers, ordered alphabetically:
 		color: #555 !important;
 		background-color: transparent !important;
 	}
+	
+	form[name="delform"]>div>a.pointer,
+	div.thread>div>a.pointer {
+		float: right;
+	}
 
 	.omittedposts /* X posts and Y image replies omitted. Click Reply to view. */ {
 		clear: both;
@@ -967,7 +972,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	#options input,
 	#qr,
 	#quickrep,
-	div[id^=qr], table.reply[style^="clear: both"] {
+	div[id^=qr],
+	table.reply[style^="clear: both"] {
 		background-color: #2c2c2c !important;
 		border: none !important;
 	}
