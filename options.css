@@ -12,7 +12,9 @@
 		background: #111;
 	}
 
-	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer {
+	::-webkit-scrollbar-track-piece,
+	::-webkit-scrollbar-corner,
+	::-webkit-scrollbar-resizer {
 		background: #333;
 	}
 
@@ -280,8 +282,129 @@
 		margin: 2px 0 0 !important;
 	}
 /* Zenburned */
+	::-webkit-scrollbar-thumb {
+		border-color: #2c2c2c !important;
+	}
 
+	::-webkit-scrollbar-thumb:hover {
+		background: #3f3f3f;
+	}
+
+	::-webkit-scrollbar-thumb:active {
+		background: #111;
+	}
+
+	::-webkit-scrollbar-track-piece,
+	::-webkit-scrollbar-corner,
+	::-webkit-scrollbar-resizer {
+		background: #333;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background: #262626;
+	}
+	
+	thumb:active {
+		background: #111 !important;
+	}
+
+	thumb {
+		border-color: #333 !important;
+		background: #262626;
+	}
+
+	scrollbar,
+	scrollcorner {
+		background-color: #333 !important;
+	}
+	
+	* {
+		background: #3f3f3f !important;
+		color:#efefef !important;
+	}
+	
+	.reply,
+	.reply>*,
+	.reply>*>*,
+	.reply>*>*>* {
+		background-color:#3a3a39 !important;
+	}
+
+	.reply>tr>td {
+		border: 1px solid #4f4f4f !important;
+	}
+
+	a {
+		color:#efdcbc !important;
+	}
+	
+	a:hover {
+		color: #f8f893 !important;
+	}
+
+	.filetitle,
+	.replytitle {
+		color: #e89393 !important;
+	}
+
+	.postername,
+	.commentpostername {
+		color: #c0bed1 !important;
+	}
+
+	.postertrip {
+		color: #8cd0d3 !important;
+	}
+	
+	.unkfunc {	
+		color: #7f9f7f !important;
+	}
+
+	select {
+		color: #000 !important;
+	}
+
+	.deletebuttons>input[type="submit"],
+	input[type="text"],
+	input[type="password"],
+	input:not([type="checkbox"]) {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		border: 1px solid #888 !important;
+		height: 19px !important;
+	}
+
+	.postarea tr .postblock b,
+	label {
+		background: none !important;
+		color: #efefef !important;
+	}
+	
+	#thread_filter,
+	#filter {
+		padding:0!important;
+	}
+
+	select,
+	input[type=checkbox] {
+		border: none 0 !important;
+		background-color: #3f3f3f !important;
+		color: #efefef !important;
+		border: 1px solid #4f4f4f !important;
+	}
+	select>* {
+		border: 0!important;
+	}
 /* Defaults: */
+	::-webkit-scrollbar-thumb {
+		border: 1px solid #ccc;
+	}
+	
+	thumb {
+		-moz-appearance: none !important;
+		border: 1px #ccc solid;
+	}
+
 	#ft li,
 	#ft ul,
 	#options input:not([type="checkbox"]),

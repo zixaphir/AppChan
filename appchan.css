@@ -82,7 +82,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		font: 12px "Ubuntu", "Droid Sans", "Calibri" !important;
 		text-decoration: none !important;
 	}
-/* Scrollbars */
+
 	::-webkit-scrollbar {
 		width: 10px !important;
 		height: 10px !important;
@@ -119,7 +119,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		-moz-appearance: none !important;
 		border: 1px solid;
 	}
-/* End of Scrollbars */
+
 	html,
 	body {
 		margin: 0 !important;
