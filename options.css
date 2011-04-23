@@ -14,7 +14,8 @@ url("http://i.imgur.com/gJ8A9.png")
 /*[[NavBarSticky]]*/
 /* Yes: */
 	#header,
-	.pages {
+	.pages,
+	#footer {
 		position: fixed !important;
 	}
 
@@ -23,7 +24,8 @@ url("http://i.imgur.com/gJ8A9.png")
 	}
 /* No: */
 	#header,
-	.pages {
+	.pages,
+	#footer {
 		position: absolute !important;
 	}
 /* End */
@@ -69,23 +71,6 @@ url("http://i.imgur.com/gJ8A9.png")
 /* End */
 
 /*[[fixedFilter]]*/
-/* Locked Bottom: */
-	#thread_filter {
-		position: fixed !important;
-		top: auto !important;
-		right: 2px !important;
-		bottom: 0 !important;
-		left: auto !important;
-		width: 248px;
-	}
-
-	#thread_filter>div:first-child  {
-		cursor: default !important;
-	}
-
-	#thread_filter:not(.autohide) a[title="Auto-hide dialog box"]:after {
-		content: " - SET THIS!!";
-	}
 /* Locked in Thread Watcher / Top */
 	#thread_filter {
 		position: fixed !important;
@@ -101,6 +86,23 @@ url("http://i.imgur.com/gJ8A9.png")
 	
 	#thread_filter.autohide:hover {
 		width: 248px;		
+	}
+
+	#thread_filter:not(.autohide) a[title="Auto-hide dialog box"]:after {
+		content: " - SET THIS!!";
+	}
+/* Locked Bottom: */
+	#thread_filter {
+		position: fixed !important;
+		top: auto !important;
+		right: 2px !important;
+		bottom: 0 !important;
+		left: auto !important;
+		width: 248px;
+	}
+
+	#thread_filter>div:first-child  {
+		cursor: default !important;
 	}
 
 	#thread_filter:not(.autohide) a[title="Auto-hide dialog box"]:after {

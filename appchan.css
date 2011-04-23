@@ -23,10 +23,7 @@ This style is designed for the following browsers, ordered alphabetically:
 @-moz-document domain(boards.4chan.org) {
 /* Silhouette / Background Image */
 	html, body {
-		background-image: /*[[background]]*/ !important;
-		background-position: 100% 100% !important;
-		background-repeat: no-repeat !important;
-		background-attachment: fixed !important;
+		background: #2c2c2c /*[[background]]*/ no-repeat fixed 100% 100% !important;
 	}
 }
 @-moz-document domain("4chan.org") {
@@ -57,7 +54,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	.notice,
 	.replymode,
 	.postarea form>div,
-	#footer,
 	div[lock=off],
 	div[lock=on],
 	.deletebuttons input[type="button"],
@@ -287,7 +283,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		z-index: 3;
 	}
 
-	.pages {
+	.pages,
+	#footer {
 		top: auto !important;
 		bottom: 0 !important;
 		right: 0 !important;
@@ -296,6 +293,11 @@ This style is designed for the following browsers, ordered alphabetically:
 		text-align: center !important;
 		border-spacing: 0 !important;
 		z-index: 1;
+	}
+	
+	#footer {
+		z-index: 0;
+		visibility: hidden;
 	}
 
 	.pages,
