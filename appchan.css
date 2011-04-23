@@ -280,7 +280,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		top: 0 !important;
 		left: 0 !important;
 		right: 250px !important;
-		padding: 0 !important;
 		background-color: #2c2c2c !important;
 		z-index: 3;
 	}
@@ -290,7 +289,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		bottom: 0 !important;
 		right: 0 !important;
 		width: 100% !important;
-		padding-right: 250px !important;
 		text-align: center !important;
 		border-spacing: 0 !important;
 		z-index: 1;
