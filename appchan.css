@@ -42,6 +42,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	#recent-images,
 	#recent-threads,
 	#popular-threads,
+	#footer *:not(#navbot),
+	#navbot *,
 	.fill,
 	div>div>div>div:nth-of-type(2)>div:nth-of-type(3):not(.column),
 	.warnicon,
@@ -283,8 +285,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		z-index: 3;
 	}
 
-	.pages,
-	#footer {
+	.pages {
 		top: auto !important;
 		bottom: 0 !important;
 		right: 0 !important;
@@ -296,8 +297,13 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 	
 	#footer {
-		z-index: 0;
+		z-index: -1;
 		visibility: hidden;
+		padding-top: 0 !important;
+	}
+	
+	#navbot {
+		font-size: 0 !important;
 	}
 
 	.pages,
@@ -856,7 +862,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /* Posts */
 	form[name="delform"] {
-		padding: 17px 254px 8px 0 !important;
+		padding: 17px 254px 0 0 !important;
+		margin: 0 !important;
 	}
 
 	form[name="delform"]>table:not(.pages), /* Reply are tables. */
