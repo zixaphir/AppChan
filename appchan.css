@@ -744,15 +744,15 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#recaptcha_reload_btn {
-		bottom: 62px !important;
-		right: 0 !important;
+		bottom: 59px !important;
+		right: -3px !important;
 	}
 
 	#qr #recaptcha_reload_btn,
 	.refreshBtn,
 	div[id^=qr] #recaptcha_reload_btn {
-		bottom: 74px !important;
-		right: 10px !important;
+		bottom: 71px !important;
+		right: 7px !important;
 	}
 
 	#dragarea>div:nth-of-type(2) {
