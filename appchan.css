@@ -23,7 +23,7 @@ This style is designed for the following browsers, ordered alphabetically:
 @-moz-document domain(boards.4chan.org) {
 /* Silhouette / Background Image */
 	html, body {
-		background: #2c2c2c /*[[background]]*/ no-repeat fixed 100% 100% !important;
+		background: /*[[background]]*/ no-repeat fixed 100% 100% !important;
 	}
 }
 @-moz-document domain("4chan.org") {
@@ -81,7 +81,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	/* Defaults of all elements */
 		font: 12px "Ubuntu", "Droid Sans", "Calibri" !important;
 		text-decoration: none !important;
-		color: #aaa !important;
 	}
 /* Scrollbars */
 	::-webkit-scrollbar {
@@ -90,20 +89,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	::-webkit-scrollbar-thumb {
-		background: #262626;
-		border: 1px #333 solid;
-	}
-
-	::-webkit-scrollbar-thumb:hover {
-		background: #3f3f3f;
-	}
-
-	::-webkit-scrollbar-thumb:active {
-		background: #111;
-	}
-
-	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer {
-		background: #333;
+		border: 1px solid;
 	}
 
 	::-webkit-scrollbar-track-piece:vertical {
@@ -114,9 +100,9 @@ This style is designed for the following browsers, ordered alphabetically:
 		border-top: 0;
 	}
 
-	scrollbar, scrollcorner {
+	scrollbar,
+	scrollcorner {
 		-moz-appearance: none !important;
-		background: #333;
 		width: 10px !important;
 		height: 10px !important;
 	}
@@ -131,49 +117,13 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	thumb {
 		-moz-appearance: none !important;
-		background: #262626;
-		border: 1px #333 solid;
-	}
-
-	thumb:hover {
-		background: #3f3f3f;
-	}
-
-	thumb:active {
-		background: #111;
+		border: 1px solid;
 	}
 /* End of Scrollbars */
-	html, body {
-		background-color: #2c2c2c !important;
+	html,
+	body {
 		margin: 0 !important;
 		padding: 0 !important;
-	}
-
-	a,
-	.postername a,
-	.commentpostername a,
-	a .postertrip {
-		color: #68a !important;
-	}
-
-	a:hover,
-	.postername a:hover,
-	.commentpostername a:hover,
-	a:hover .postertrip {
-		color: #444 !important;
-	}
-	
-	a.backlink {
-		color: #4f5f8f !important;
-	}
-
-	.span.filetitle,
-	.replytitle {
-		color: #909090 !important;
-	}
-
-	.unkfunc {
-		color: #789922 !important;
 	}
 
 	select:focus>button,
@@ -213,16 +163,7 @@ This style is designed for the following browsers, ordered alphabetically:
 /* Front Page */
 	.boxcontent>hr,
 	h3 {
-		background: #2c2c2c !important;
 		border: none !important;
-	}
-
-	.boxcontent dd {
-		border-bottom-color: #2c2c2c !important;
-	}
-
-	#boards h3 {
-		background: #333 !important;
 	}
 
 	.boxcontent input {
@@ -241,14 +182,6 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	a.yuimenuitemlabel:hover {
 		background-color: transparent !important;
-	}
-
-	.yuimenuitem-selected {
-		background-color: #333 !important;
-	}
-
-	.bd {
-		background-color: #2c2c2c !important;
 	}
 
 	.bd,
@@ -280,7 +213,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		top: 0 !important;
 		left: 0 !important;
 		right: 250px !important;
-		background-color: #2c2c2c !important;
 		z-index: 3;
 	}
 
@@ -350,23 +282,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	#header a {
 		padding: 0 !important;
 	}
-
-	.pages b {
-		background: rgba(0,0,0,0.3) !important;
-		color: #ccc !important;
-	}
-
-	#header a:hover,
-	.pages input:hover,
-	a:hover {
-	/* URL bubbles */
-		background: rgba(0,0,0,.2) !important;
-	}
-
-	.new {
-		background-color: rgba(255,255,255,.5) !important;
-		color: #000 !important;
-	}
 /* End of Navigation */
 /* Post Form */
 	.postarea form:not(#newform) {
@@ -426,7 +341,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	#maxchars /* 4chanplus's Character Counter */ {
 		position: absolute;
 		font-size: 9px !important;
-		color: rgba(255,255,255,0.2) !important;
 		text-transform: uppercase;
 		z-index: 2;
 	}
@@ -446,7 +360,6 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	.postarea tr:nth-child(4)>.postblock>b:after {
 		font-size: 9px !important;
-		color: rgba(255,255,255,0.2) !important;
 		content: 'NEW THREAD' !important;
 	}
 
@@ -502,40 +415,12 @@ This style is designed for the following browsers, ordered alphabetically:
 	input[type="submit"],
 	select,
 	textarea {
-	/* Generic Formatting */
 		-moz-appearance: none;
 		-webkit-appearance: none;
-		border: none 0 !important;
-		background-color: #333 !important;
-		color: #aaa !important;
-	}
-
-	#qr input[type="checkbox"],
-	input[type="checkbox"] {
-		border: none !important;
-		background-color: #333 !important;
-		color: #aaa !important;
 	}
 
 	.inputtext {
 		margin: 0 !important;
-	}
-
-	.recaptchatable #recaptcha_response_field:hover,
-	.deletebuttons input[type="password"]:hover
-	input:hover,
-	input[type="file"]>input[type="button"]
-	input[type="submit"]:hover,
-	textarea:hover {
-		background-color: #393939 !important;
-	}
-
-	.recaptchatable #recaptcha_response_field:focus,
-	.deletebuttons input[type="password"]:focus,
-	input:focus,
-	input[type="submit"]:focus,
-	textarea:focus {
-		background-color: #3f3f3f !important;
 	}
 
 	.top-box .menubutton {
@@ -614,14 +499,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 0 !important;
 		font-size: 9px !important;
 		text-transform: uppercase;
-		background-color: #303030 !important;
 		vertical-align: bottom;
-	}
-
-	#com_submit:hover,
-	input[type="submit"]:hover,
-	input[type="file"]>input[type="button"]:hover {
-		background-color: #363636 !important;
 	}
 
 	input[type="file"]::-webkit-file-upload-button {
@@ -630,7 +508,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		border: none !important;
 		height: 19px !important;
 		padding: 0 !important;
-		color: #666 !important;
 		text-transform: uppercase;
 	}
 /* End of the file upload input */
@@ -666,7 +543,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.postarea td>input[name="upfile"] {
-		margin: 2px 0 0 !important;
 		width: 248px !important;
 	}
 
@@ -744,15 +620,15 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#recaptcha_reload_btn {
-		bottom: 62px !important;
-		right: 0 !important;
+		bottom: 59px !important;
+		right: -3px !important;
 	}
 
 	#qr #recaptcha_reload_btn,
 	.refreshBtn,
 	div[id^=qr] #recaptcha_reload_btn {
-		bottom: 74px !important;
-		right: 10px !important;
+		bottom: 71px !important;
+		right: 7px !important;
 	}
 
 	#dragarea>div:nth-of-type(2) {
@@ -784,7 +660,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		position: absolute;
 		top: auto;
 		font-size: 12px !important;
-		color: #888;
 		bottom: 0;
 		right: 55px;
 		vertical-align: bottom;
@@ -799,7 +674,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	#autonoko /* 4chanplus's autonoko */ {
 		position: absolute;
 		font-size: 12px !important;
-		color: #888;
 		right: 91px;
 		display: none;
 	}
@@ -832,7 +706,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		-moz-appearance: none;
 		-webkit-appearance: button;
 		border: 0 !important;
-		background-color: #2c2c2c !important;
 	}
 
 	input[type=checkbox],
@@ -842,21 +715,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		-webkit-appearance: button !important;
 		width: 12px !important;
 		height: 12px !important;
-	}
-
-	.reply input[type=checkbox],
-	#options input[type=checkbox] {
-		background-color: #2c2c2c !important;
-	}
-
-	input[type=checkbox]:active,
-	#options input[type=checkbox]:active {
-		background: #aaa !important;
-	}
-
-	input[type=checkbox]:checked,
-	#options input[type=checkbox]:checked {
-		background: #111 !important;
 	}
 /* Posts */
 	form[name="delform"] {
@@ -912,11 +770,9 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	.doubledash a {
 		visibility: visible;
-		color: #222 !important;
 	}
 
 	.doubledash a:hover {
-		color: #555 !important;
 		background-color: transparent !important;
 	}
 	
@@ -938,13 +794,11 @@ This style is designed for the following browsers, ordered alphabetically:
 	#popup, /* 4chanplus's tooltip (reply previews, image hovering, etc) */
 	#boardsMenu /* 4chan plus's boards */ {
 		border: 0 !important;
-		background-color: #333 !important;
 	}
 
 	#updater:hover,
 	#thread_filter.autohide:hover,
 	#thread_filter:not(.autohide) {
-		background-color: #393939 !important;
 		border: 0 !important;
 	}
 
@@ -953,10 +807,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		content:" (sage)";
 		color: #e42217 !important;
 		font-weight:normal !important;
-	}
-
-	td.replyhl {
-		background-color: #393939 !important;
 	}
 
 	.spoiler:not(:hover) {
@@ -990,7 +840,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	#quickrep,
 	div[id^=qr],
 	table.reply[style^="clear: both"] {
-		background-color: #2c2c2c !important;
 		border: none !important;
 	}
 
@@ -1030,7 +879,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#crntBoard {
-		border-right-color: #393939 !important;
 		height: 24px !important;
 	}
 
@@ -1068,7 +916,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	form[name="delform"] div:not(.thread) label:after {
 		font-size: 12px !important;
 		content: "Expand";
-		color: #aaa !important;
 	}
 
 	form[name="delform"]>div:not(.thread) select {
@@ -1090,7 +937,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	#popup, /* 4chanplus */
 	div[id^=ref] /* 4chan4chrome */ {
 		max-width: 70%;
-		background-color: #393939 !important;
 		visibility: visible;
 	}
 
@@ -1118,13 +964,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		bottom: 22px !important;
 		left: auto !important;
 		visibility: visible !important;
-	}
-
-	td[style="border: 1px dashed;"],
-	td.reply>tr>td.reply {
-		/* Inline Quotes */
-		background-color: rgba(0,0,0,0.1) !important;
-		border: none !important;
 	}
 /* End of Reply Previews */
 	.deletebuttons br {
@@ -1192,7 +1031,6 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#updater #count:not(.new):after {
 		font-size: 12px !important;
-		color: #aaa !important;
 		content: "+0";
 	}
 
@@ -1215,7 +1053,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	#watcher,
 	#threadwatcher /* 4chan4chrome's threadwatcher */ {
 		border: 0 !important;
-		background-color: #333 !important;
 		border-radius: 0;
 		padding: 1px 0;
 		overflow: hidden;
@@ -1225,7 +1062,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#threadwatcher .postblock {
-		background-color: #333 !important;
 		margin: 0 !important;
 		padding: 0 !important;
 		border: 0 !important;
@@ -1235,7 +1071,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#threadwatcher .postblock {
 		padding: 2px 3px !important;
 		margin-bottom: 2px !important;
-		border-bottom: 1px solid #2c2c2c !important;
+		border-bottom: 1px solid !important;
 		text-decoration: none !important;
 	}
 
@@ -1284,7 +1120,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	td.postblock {
-		background-color: #333 !important;
 		border: none !important;
 	}
 }

@@ -1,3 +1,342 @@
+/*[[ColorScheme]]*/
+/* AppChan */
+	::-webkit-scrollbar-thumb {
+		border-color: #2c2c2c !important;
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+		background: #3f3f3f;
+	}
+
+	::-webkit-scrollbar-thumb:active {
+		background: #111;
+	}
+
+	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer {
+		background: #333;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background: #262626;
+	}
+	
+	*,
+	#qr input[type="checkbox"],
+	#updater #count:not(.new):after,
+	input[type="checkbox"],
+	form[name="delform"] div:not(.thread) label:after,	#ft li,
+	#ft ul,
+	#options input:not([type="checkbox"]),
+	#updater input:not([type="checkbox"]),
+	.box-outer,
+	.boxbar,
+	.deletebuttons input[value=Delete],
+	.recaptcha_image_cell>center>#recaptcha_image,
+	.recaptchatable #recaptcha_response_field,
+	.top-box,
+	h2,
+	input:not([type="checkbox"]),
+	input[type="file"]>input[type="button"],
+	input[type="submit"],
+	select,
+	textarea,
+	#qr input[type="checkbox"],
+	input[type="checkbox"] {
+		color: #aaa !important;
+	}
+
+	div.postarea>form td:nth-of-type(3)>label,
+	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
+	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
+	#autonoko {
+		color: #888;
+	}
+
+	input[type="file"]::-webkit-file-upload-button {
+		color: #666 !important;
+	}
+	
+	.doubledash a {
+		color: #222 !important;
+	}
+	
+	.doubledash a:hover {
+		color: #555 !important;
+	}
+
+	a,
+	.postername a,
+	.commentpostername a,
+	a .postertrip {
+		color: #68a !important;
+	}
+
+	a:hover,
+	.postername a:hover,
+	.commentpostername a:hover,
+	a:hover .postertrip {
+		color: #444 !important;
+	}
+	
+	a.backlink {
+		color: #4f5f8f !important;
+	}
+
+	.span.filetitle,
+	.replytitle {
+		color: #909090 !important;
+	}
+
+	.unkfunc {
+		color: #789922 !important;
+	}
+	
+	#boards h3,
+	#boardsMenu,
+	#ft li,
+	#ft ul,
+	#navbar,
+	#options,
+	#popup,
+	#qr input[type="checkbox"],
+	#threadwatcher,
+	#threadwatcher .postblock,
+	#watcher,
+	.box-outer,
+	.boxbar,
+	.deletebuttons input[value=Delete],
+	.recaptcha_image_cell>center>#recaptcha_image,
+	.recaptchatable #recaptcha_response_field,
+	.top-box,
+	.yuimenuitem-selected,
+	h2,
+	input,
+	input[type="file"]>input[type="button"],
+	input[type="submit"],
+	select,
+	td.postblock,
+	td.reply,
+	td.replyhl,
+	textarea,
+	input[type="checkbox"],
+	scrollbar,
+	scrollcorner {
+		background-color: #333 !important;
+	}
+	
+	#header,
+	#options input,
+	#options input[type=checkbox],
+	#qr,
+	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
+	#quickrep,
+	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
+	#qr label input,
+	#thread_filter input,
+	#thread_filter textarea,
+	#updater input,
+	.bd,
+	.boxcontent>hr,
+	.boxcontent input,
+	.boxcontent textarea,
+	.pages,
+	.reply input[type=checkbox],
+	h3,
+	html,
+	body,
+	div.postarea>form td:nth-of-type(3)>label input,
+	div[id^=qr],
+	table.reply[style^="clear: both"] {
+		background: #2c2c2c !important;
+	}
+
+	#backwash_tooltip,
+	#updater:hover,
+	#thread_filter.autohide:hover,
+	#thread_filter:not(.autohide),
+	#popup,
+	.recaptchatable #recaptcha_response_field:hover,
+	.deletebuttons input[type="password"]:hover,
+	div[id^=ref],
+	input:hover,
+	input[type="file"]>input[type="button"]
+	input[type="submit"]:hover,
+	td.replyhl,
+	textarea:hover {
+		background-color: #393939 !important;
+	}
+
+	.recaptchatable #recaptcha_response_field:focus,
+	.deletebuttons input[type="password"]:focus,
+	input:focus,
+	input[type="submit"]:focus,
+	textarea:focus {
+		background-color: #3f3f3f !important;
+	}
+
+	input[type=checkbox]:active,
+	#options input[type=checkbox]:active {
+		background: #aaa !important;
+	}
+
+	input[type=checkbox]:checked,
+	#options input[type=checkbox]:checked,
+	thumb:active {
+		background: #111 !important;
+	}
+
+	thumb {
+		border-color: #333 !important;
+		background: #262626;
+	}
+
+	.boxcontent dd,
+	#watcher .move,
+	#threadwatcher .postblock {
+		border-color: #2c2c2c !important;
+	}
+
+	#crntBoard {
+		border-right-color: #393939 !important;
+	}
+
+	#com_submit:hover,
+	input[type="submit"]:hover,
+	input[type="file"]>input[type="button"]:hover {
+		background-color: #363636 !important;
+	}
+	
+	input[type="submit"],
+	#com_submit,
+	input[type="file"]>input[type="button"] {
+		background-color: #303030 !important;
+	}
+	
+	thumb:hover {
+		background: #3f3f3f;
+	}
+
+	td[style="border: 1px dashed;"],
+	td.reply>tr>td.reply {
+		/* Inline Quotes */
+		background-color: rgba(0,0,0,0.1) !important;
+		border: none !important;
+	}
+
+	.pages b {
+		background: rgba(0,0,0,0.3) !important;
+		color: #ccc !important;
+	}
+
+	#header a:hover,
+	.pages input:hover,
+	a:hover {
+	/* URL bubbles */
+		background: rgba(0,0,0,.2) !important;
+	}
+
+	.new {
+		background-color: rgba(255,255,255,.5) !important;
+		color: #000 !important;
+	}
+	
+	.postarea .postblock b,
+	#qr .postblock b,
+	#quickrep .postblock b,
+	div[id^=qr] .postblock b,
+	#maxchars {
+		color: rgba(255,255,255,0.2) !important;
+	}
+	
+	.postarea tr:nth-child(4)>.postblock>b:after {
+		color: rgba(255,255,255,0.2) !important;
+	}
+
+	#ft li,
+	#ft ul,
+	#options input:not([type="checkbox"]),
+	#updater input:not([type="checkbox"]),
+	.box-outer,
+	.boxbar,
+	.deletebuttons input[value=Delete],
+	.recaptcha_image_cell>center>#recaptcha_image,
+	.recaptchatable #recaptcha_response_field,
+	.top-box,
+	h2,
+	input:not([type="checkbox"]),
+	input[type="file"]>input[type="button"],
+	input[type="submit"],
+	select,
+	textarea {
+		border: none 0 !important;
+	}
+
+	#qr input[type="checkbox"],
+	input[type="checkbox"] {
+		border: none !important;
+	}
+
+	.postarea td>input[name="upfile"] {
+		margin: 2px 0 0 !important;
+	}
+/* Zenburned */
+
+/* Defaults: */
+	#ft li,
+	#ft ul,
+	#options input:not([type="checkbox"]),
+	#updater input:not([type="checkbox"]),
+	.box-outer,
+	.boxbar,
+	.deletebuttons input[value=Delete],
+	.recaptcha_image_cell>center>#recaptcha_image,
+	.recaptchatable #recaptcha_response_field,
+	.top-box,
+	h2,
+	input:not([type="checkbox"]),
+	input[type="file"]>input[type="button"],
+	input[type="submit"],
+	select,
+	textarea {
+		border: 1px solid #ccc !important;
+	}
+
+	#qr input[type="checkbox"],
+	input[type="checkbox"] {
+		border: none !important;
+		color: #aaa !important;
+	}
+
+	.pages b {
+		background: rgba(0,0,0,0.3) !important;
+	}
+
+	#header a:hover,
+	.pages input:hover,
+	a:hover {
+	/* URL bubbles */
+		background: rgba(0,0,0,.2) !important;
+	}
+
+	.postarea .postblock b,
+	#qr .postblock b,
+	#quickrep .postblock b,
+	div[id^=qr] .postblock b,
+	#maxchars,
+	.postarea tr:nth-child(4)>.postblock>b:after {
+		color: rgba(0,0,0,0.5) !important;
+	}
+	
+	#watcher .move,
+	#threadwatcher .postblock {
+		border-color: #fff !important;
+	}
+	
+	.postarea td>input[name="upfile"] {
+		margin: 3px 0 -1px -1px !important;
+	}
+/* End */
+
 /*[[background]]*/
 /* Yuki Nagato: */
 url("http://i.imgur.com/6H3BO.png")
