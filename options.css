@@ -392,8 +392,13 @@
 		color: #efefef !important;
 		border: 1px solid #4f4f4f !important;
 	}
+
 	select>* {
 		border: 0!important;
+	}
+	
+	.postarea td>input[name="upfile"] {
+		margin: 3px 0 -1px -1px !important;
 	}
 /* Defaults: */
 	::-webkit-scrollbar-thumb {
