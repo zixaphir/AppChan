@@ -286,6 +286,10 @@
 		height: 47px !important;
 	}
 
+
+	#backwash_tooltip,
+	#popup,
+	div[id^=ref],
 	td.reply,
 	td.replyhl,
 	#options,
@@ -899,6 +903,12 @@
 	a:hover {
 	/* URL bubbles */
 		background: rgba(0,0,0,.2) !important;
+	}
+
+	#backwash_tooltip,
+	#popup,
+	div[id^=ref] {
+		background-color: #eee !important;
 	}
 
 	.postarea .postblock b,

@@ -931,10 +931,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#popup,
 	div[id^=ref] {
 		visibility: visible;
-		border: 0 !important;
 		z-index: 10 !important;
-		-webkit-transition: display .5s linear;
-		-moz-transition: display .5s linear;
 	}
 
 	#backwash_tooltip img,
