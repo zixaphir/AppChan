@@ -127,7 +127,7 @@
 
 	scrollbar,
 	scrollcorner {
-		background-color: #333 !important;
+		background: #333 !important;
 	}
 
 	#header,
