@@ -1,5 +1,5 @@
 /*
-AppChan by Zixaphir, MayhemYDG, disappoint, Kupaka, .K`WeEabo0o
+AppChan by Zixaphir, MayhemYDG, disappoint, Kupaka, !K.WeEabo0o
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -27,7 +27,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 }
 @-moz-document domain("4chan.org") {
-	/*[[boardlogo]]*/
 	scrollbarbutton,
 	html body span[style="left: 5px; position: absolute;"],
 	html body>a,
@@ -36,7 +35,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	small,
 	th,
 	td.rules,
-	div.logo img,
 	div.logo br:nth-of-type(1),
 	div#logo,
 	#recent-images,
@@ -45,7 +43,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#footer *:not(#navbot),
 	#navbot *,
 	.fill,
-	div>div>div>div:nth-of-type(2)>div:nth-of-type(3):not(.column),
+	.yui-g,
 	.warnicon,
 	#rules,
 	.postarea .rules,
@@ -123,7 +121,8 @@ This style is designed for the following browsers, ordered alphabetically:
 /*[[ColorScheme]]*/
 
 	html,
-	body {
+	body,
+	#copyright {
 		margin: 0 !important;
 		padding: 0 !important;
 	}
@@ -133,13 +132,18 @@ This style is designed for the following browsers, ordered alphabetically:
 		visibility: hidden;
 	}
 
-	div.logo {
-		position: fixed !important;
-		right: 4px !important;
-		bottom: 370px !important;
-		width: 246px !important;
-		z-index: 1;
-		text-align: center;
+/*[[boardlogo]]*/
+
+	div.logo img {
+		-webkit-transition: opacity .5s ease-in-out .5s;
+		-moz-transition: opacity .5s ease-in-out .5s;
+		-o-transition: opacity .5s ease-in-out .5s;
+	}
+
+	div.logo img:hover {
+		-webkit-transition: opacity .5s ease-in;
+		-moz-transition: opacity .5s ease-in;
+		-o-transition: opacity .5s ease-in;
 	}
 
 	div.logo font[size="5"] span {
@@ -336,10 +340,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding-bottom: 12px !important;
 	}
 
-	.postarea .postblock b,
-	#qr .postblock b,
-	#quickrep .postblock b,
-	div[id^=qr] .postblock b,
+	form[name="post"] .postblock b,
 	#maxchars /* 4chanplus's Character Counter */ {
 		position: absolute;
 		font-size: 9px !important;
@@ -383,15 +384,11 @@ This style is designed for the following browsers, ordered alphabetically:
 		right: 54px;
 	}
 
-	#qr tr .postblock b,
-	#quickrep tr .postblock b,
-	div[id^=qr] tr .postblock b {
+	form[name="post"] tr .postblock b {
 		right: 16px;
 	}
 
-	#qr tr:nth-of-type(3n) .postblock b,
-	#quickrep tr:nth-of-type(3n) .postblock b,
-	div[id^=qr] tr:nth-of-type(3n) .postblock b {
+	form[name="post"] .postblock b {
 		right: 67px;
 	}
 
@@ -401,9 +398,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	input[type="file"]::-webkit-file-upload-button,
-	#qr tr:nth-of-type(6) .postblock b,
-	#quickrep tr:nth-of-type(6) .postblock b,
-	div[id^=qr] tr:nth-of-type(6) .postblock b {
+	form[name="post"] tr:nth-of-type(6) .postblock b {
 		right: 16px;
 	}
 /* End of Post Form Labels */
@@ -451,30 +446,16 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 1px 0 1px 0 !important;
 	}
 
-	#qr input[type="text"],
-	#qr input[type="password"],
-	#qr input[type="file"][name="upfile"]>input[type="text"],
-	#qr textarea,
-	#quickrep input[type="text"],
-	#quickrep input[type="password"],
-	#quickrep input[type="file"][name="upfile"]>input[type="text"],
-	#quickrep textarea,
-	div[id^=qr] input[type="text"],
-	div[id^=qr] input[type="password"],
-	div[id^=qr] input[type="file"][name="upfile"]>input[type="text"],
-	div[id^=qr] textarea {
+	form[name="post"] input[type="text"],
+	form[name="post"] input[type="password"],
+	form[name="post"] input[type="file"][name="upfile"]>input[type="text"],
+	form[name="post"] textarea {
 		width: 300px !important;
 		padding: 1px 0 1px 0 !important;
 	}
 
-	.postarea input[type="text"],
-	.postarea input[type="password"],
-	#qr input[type="text"],
-	#qr input[type="password"],
-	#quickrep input[type="text"],
-	#quickrep input[type="password"],
-	div[id^=qr] input[type="text"],
-	div[id^=qr] input[type="password"],
+	form[name="post"] input[type="text"],
+	form[name="post"] input[type="password"],
 	input[type="file"][name="upfile"]>input[type="text"],
 	input[type="file"]>input[type="button"] {
 		height: 19px !important;
@@ -488,12 +469,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		vertical-align: bottom;
 	}
 
-	#qr input[name="sub"],
-	#qr input[type="file"][name="upfile"]>input[type="text"],
-	#quickrep input[name="sub"],
-	#quickrep input[type="file"][name="upfile"]>input[type="text"],
-	div[id^=qr] input[name="sub"],
-	div[id^=qr] input[type="file"][name="upfile"]>input[type="text"] {
+	form[name="post"] input[name="sub"],
+	form[name="post"] input[type="file"][name="upfile"]>input[type="text"] {
 		width: 249px !important;
 	}
 
@@ -520,18 +497,14 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /* End of the file upload input */
 	.postarea textarea.inputtext,
-	#qr textarea,
-	#quickrep textarea,
-	div[id^=qr] textarea {
+	form[name="post"] textarea {
 		height: 78px !important;
 		font-size: 10pt !important;
 		resize: none;
 		margin: 0 !important;
 	}
 
-	#qr textarea,
-	#quickrep textarea,
-	div[id^=qr] textarea {
+	form[name="post"] textarea {
 		height: 120px !important;
 	}
 
@@ -559,9 +532,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin: 1px 0 0 !important;
 	}
 
-	#qr input[type=file][name="upfile"],
-	#quickrep input[type=file][name="upfile"],
-	div[id^=qr] input[type=file][name="upfile"] {
+	form[name="post"] input[type=file][name="upfile"] {
 		width: 300px !important;
 		margin: 0 !important;
 	}
@@ -594,11 +565,8 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	.postarea .recaptcha_image_cell>center,
 	.postarea .recaptcha_image_cell,
-	.postarea tr[height="73"],
 	tr[height="73"] td,
-	#qr tr[height="73"],
-	#quickrep tr[height="73"],
-	div[id^=qr] tr[height="73"] {
+	form[name="post"] tr[height="73"] {
 		height: auto !important;
 	}
 
@@ -610,8 +578,7 @@ This style is designed for the following browsers, ordered alphabetically:
 /* Custom Captcha Reload Image */
 	#quickrep .refreshBtn,
 	#recaptcha_reload_btn,
-	.refreshBtn,
-	div[id^=qr] #recaptcha_reload_btn {
+	.refreshBtn {
 		position: absolute !important;
 		height: 0 !important;
 		width: 0 !important;
@@ -626,9 +593,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		right: -3px !important;
 	}
 
-	#qr #recaptcha_reload_btn,
-	.refreshBtn,
-	div[id^=qr] #recaptcha_reload_btn {
+	form[name="post"] #recaptcha_reload_btn,
+	.refreshBtn {
 		bottom: 71px !important;
 		right: 7px !important;
 	}
@@ -1064,17 +1030,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		cursor: default !important;
 	}
 /* Adblock */
-	img[src*="http://static.4chan.org/"] {
+	img[src^="http://static.4chan.org/support/"] {
 		display: none;
-	}
-/* Spoiler Image Fix */
-	img[src="http://static.4chan.org/image/spoiler-v.png"] {
-		display: block !important;
-	}
-/* Favicon Fix */
-	img[src*="http://static.4chan.org/image/favicon"],
-	img[src="http://static.4chan.org/image/sticky.gif"] {
-		display: inline;
 	}
 }
 

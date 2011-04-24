@@ -23,28 +23,8 @@
 	}
 
 	*,
-	#qr input[type="checkbox"],
 	#updater #count:not(.new):after,
-	form[name="delform"] div:not(.thread) label:after,
-	input[type="checkbox"],
-	#ft li,
-	#ft ul,
-	#options input:not([type="checkbox"]),
-	#updater input:not([type="checkbox"]),
-	.box-outer,
-	.boxbar,
-	.deletebuttons input[value=Delete],
-	.recaptcha_image_cell>center>#recaptcha_image,
-	.recaptchatable #recaptcha_response_field,
-	.top-box,
-	h2,
-	input:not([type="checkbox"]),
-	input[type="file"]>input[type="button"],
-	input[type="submit"],
-	select,
-	textarea,
-	#qr input[type="checkbox"],
-	input[type="checkbox"] {
+	form[name="delform"] div:not(.thread) label:after {
 		color: #aaa !important;
 	}
 
@@ -360,22 +340,15 @@
 		background: #3a3a39 !important;
 	}
 
-	*,
-	html,
-	body {
+	* {
 		background-color: #3f3f3f !important;
 	}
 
 
 	#updater #count:not(.new):after,
-	input[type="checkbox"],
 	form[name="delform"] div:not(.thread) label:after,
 	.postarea tr:nth-child(4)>.postblock>b:after,
-	*,
-	html,
-	body,
-	tr .postblock b,
-	label {
+	* {
 		color: #ccc !important;
 	}
 
@@ -603,28 +576,8 @@
 	}
 
 	*,
-	#qr input[type="checkbox"],
 	#updater #count:not(.new):after,
-	input[type="checkbox"],
-	form[name="delform"] div:not(.thread) label:after,
-	#ft li,
-	#ft ul,
-	#options input:not([type="checkbox"]),
-	#updater input:not([type="checkbox"]),
-	.box-outer,
-	.boxbar,
-	.deletebuttons input[value=Delete],
-	.recaptcha_image_cell>center>#recaptcha_image,
-	.recaptchatable #recaptcha_response_field,
-	.top-box,
-	h2,
-	input:not([type="checkbox"]),
-	input[type="file"]>input[type="button"],
-	input[type="submit"],
-	select,
-	textarea,
-	#qr input[type="checkbox"],
-	input[type="checkbox"] {
+	form[name="delform"] div:not(.thread) label:after {
 		color: #1e1f3d !important;
 	}
 
@@ -889,11 +842,11 @@
 	thumb:hover {
 		background: #ccc;
 	}
-	
+
 	thumb:active {
 		background: #aaa;
 	}
-	
+
 	scrollbar,
 	scrollcorner {
 		background: #ccc !important;
@@ -1119,10 +1072,62 @@ none
 /* End */
 
 /*[[boardlogo]]*/
-/* Yes: */
+/* Board Name */
+	div.logo {
+		position: fixed !important;
+		right: 2px !important;
+		bottom: 370px !important;
+		width: 248px !important;
+		z-index: 1;
+		text-align: center;
+	}
 
-/* No: */
-	div.logo,
+	div.logo img {
+		display: none;
+	}
+/* Logo */
+	div.logo>*:not(img) {
+		display: none;
+	}
+
+	div.logo img {
+		position: fixed !important;
+		right: 2px !important;
+		bottom: 310px !important;
+		width: 248px !important;
+		height: auto !important;
+		z-index: 1;
+		opacity: 0.3;
+	}
+
+	div.logo img:hover {
+		opacity: 1;
+	}
+/* Board Name + Logo */
+	div.logo {
+		position: fixed !important;
+		right: 2px !important;
+		bottom: 393px !important;
+		width: 248px !important;
+		z-index: 1;
+		text-align: center;
+	}
+
+	div.logo img {
+		position: fixed !important;
+		right: 2px !important;
+		bottom: 310px !important;
+		width: 248px !important;
+		height: auto !important;
+		margin: 0 !important;
+		z-index: 1;
+		opacity: 0.3;
+	}
+
+	div.logo img:hover {
+		opacity: 1;
+	}
+/* Hide Both */
 /* End */
 
 /*[[CrntBrdHlt]]*/
