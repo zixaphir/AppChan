@@ -1,5 +1,5 @@
 /*[[ColorScheme]]*/
-/* AppChan */
+/* AppChan: */
 	::-webkit-scrollbar-thumb {
 		border-color: #2c2c2c !important;
 	}
@@ -26,7 +26,8 @@
 	#qr input[type="checkbox"],
 	#updater #count:not(.new):after,
 	input[type="checkbox"],
-	form[name="delform"] div:not(.thread) label:after,	#ft li,
+	form[name="delform"] div:not(.thread) label:after,
+	#ft li,
 	#ft ul,
 	#options input:not([type="checkbox"]),
 	#updater input:not([type="checkbox"]),
@@ -149,7 +150,7 @@
 	div.postarea>form td:nth-of-type(3)>label input,
 	div[id^=qr],
 	table.reply[style^="clear: both"] {
-		background: #2c2c2c !important;
+		background-color: #2c2c2c !important;
 	}
 
 	#backwash_tooltip,
@@ -190,12 +191,6 @@
 	thumb {
 		border-color: #333 !important;
 		background: #262626;
-	}
-
-	.boxcontent dd,
-	#watcher .move,
-	#threadwatcher .postblock {
-		border-color: #2c2c2c !important;
 	}
 
 	#crntBoard {
@@ -281,9 +276,53 @@
 	.postarea td>input[name="upfile"] {
 		margin: 2px 0 0 !important;
 	}
+
+	.postarea .recaptcha_image_cell>center>#recaptcha_image,
+	.postarea #recaptcha_image img {
+		width: 248px !important;
+		height: 47px !important;
+	}
+
+	td.reply,
+	td.replyhl,
+	#options,
+	#navbar,
+	#popup,
+	#boardsMenu {
+		border: 0 !important;
+	}
+
+	.boxcontent dd,
+	#threadwatcher .postblock {
+		border-top-color: #2c2c2c !important;
+		border-right-color: #2c2c2c !important;
+		border-bottom-color: #2c2c2c !important;
+		border-left-color: #2c2c2c !important;
+	}
+
+	#watcher .move {
+		border-bottom: 1px #2c2c2c solid !important;
+	}
+
+	#thread_filter input,
+	#thread_filter textarea,
+	#updater input,
+	#options input,
+	#qr,
+	#quickrep,
+	div[id^=qr],
+	table.reply[style^="clear: both"] {
+		border: none !important;
+	}
+	
+	form[name="delform"]>div:not(.thread) select {
+		margin: 1px 0 0 0 !important;
+		height: 15px !important;
+	}
 /* Zenburned */
 	::-webkit-scrollbar-thumb {
-		border-color: #2c2c2c !important;
+		border-color: #4f4f4f !important;
+		background: #3f3f3f;
 	}
 
 	::-webkit-scrollbar-thumb:hover {
@@ -297,11 +336,7 @@
 	::-webkit-scrollbar-track-piece,
 	::-webkit-scrollbar-corner,
 	::-webkit-scrollbar-resizer {
-		background: #333;
-	}
-
-	::-webkit-scrollbar-thumb {
-		background: #262626;
+		background: #3a3a39;
 	}
 	
 	thumb:active {
@@ -309,18 +344,41 @@
 	}
 
 	thumb {
-		border-color: #333 !important;
-		background: #262626;
+		border-color: #4f4f4f !important;
+		background: #3f3f3f;
 	}
 
 	scrollbar,
 	scrollcorner {
-		background-color: #333 !important;
+		background-color: #3a3a39 !important;
 	}
 	
-	* {
-		background: #3f3f3f !important;
-		color:#efefef !important;
+	*,
+	html,
+	body {
+		background-color: #3f3f3f !important;
+	}
+	
+	
+	#updater #count:not(.new):after,
+	input[type="checkbox"],
+	form[name="delform"] div:not(.thread) label:after,
+	.postarea tr:nth-child(4)>.postblock>b:after,
+	*,
+	html,
+	body {
+		color: #efefef !important;
+	}
+	
+	div.logo,
+	div.logo *,
+	form,
+	#updater:not(:hover),
+	#updater>*,
+	#updater>*>*,
+	#thread_filter.autohide:not(:hover),
+	#thread_filter>div {
+		background-color: transparent !important;
 	}
 	
 	.reply,
@@ -330,8 +388,30 @@
 		background-color:#3a3a39 !important;
 	}
 
-	.reply>tr>td {
+	form[name="delform"] .reply td,
+	form[name="delform"] .replyhl td {
 		border: 1px solid #4f4f4f !important;
+	}
+	
+	td.reply,
+	td.replyhl,
+	#options,
+	#navbar,
+	#popup,
+	#boardsMenu {
+		border: 0 !important;
+	}
+	
+	.boxcontent dd,
+	#threadwatcher .postblock {
+		border-top-color: #4f4f4f !important;
+		border-right-color: #4f4f4f !important;
+		border-bottom-color: #4f4f4f !important;
+		border-left-color: #4f4f4f !important;
+	}
+
+	#watcher .move {
+		border-bottom: 1px #4f4f4f solid !important;
 	}
 
 	a {
@@ -367,22 +447,21 @@
 	.deletebuttons>input[type="submit"],
 	input[type="text"],
 	input[type="password"],
-	input:not([type="checkbox"]) {
+	input:not([type="checkbox"]):not([name="upfile"]),
+	#thread_filter input:not([type="checkbox"]),
+	#updater input:not([type="checkbox"]),
+	#thread_filter textarea,
+	#options input {
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		border: 1px solid #888 !important;
 		height: 19px !important;
 	}
 
-	.postarea tr .postblock b,
+	tr .postblock b,
 	label {
 		background: none !important;
 		color: #efefef !important;
-	}
-	
-	#thread_filter,
-	#filter {
-		padding:0!important;
 	}
 
 	select,
@@ -398,7 +477,32 @@
 	}
 	
 	.postarea td>input[name="upfile"] {
-		margin: 3px 0 -1px -1px !important;
+		margin: 2px 0 0 0 !important;
+	}
+
+	.postarea .recaptcha_image_cell>center>#recaptcha_image,
+	.postarea #recaptcha_image img {
+		width: 246px !important;
+		height: 45px !important;
+	}
+
+	#qr .recaptcha_image_cell>center>#recaptcha_image,
+	#qr .recaptcha_image_cell>center>#recaptcha_image img,
+	#quickrep .recaptcha_image_cell>center>#recaptcha_image,
+	#quickrep .recaptcha_image_cell>center>#recaptcha_image img,
+	div[id^=qr] .recaptcha_image_cell>center>#recaptcha_image,
+	div[id^=qr] .recaptcha_image_cell>center>#recaptcha_image img {
+		width: 298px !important;
+	}
+	
+	form[name="delform"]>div:not(.thread) select {
+		margin: 0 0 0 0 !important;
+		height: 17px !important;
+	}
+
+	input[type=checkbox]:checked,
+	#options input[type=checkbox]:checked {
+		background: #111 !important;
 	}
 /* Defaults: */
 	::-webkit-scrollbar-thumb {
@@ -459,9 +563,42 @@
 	#threadwatcher .postblock {
 		border-color: #fff !important;
 	}
+
+	#watcher .move {
+		border-bottom: 1px #fff solid !important;
+	}
 	
 	.postarea td>input[name="upfile"] {
 		margin: 3px 0 -1px -1px !important;
+	}
+
+	td.reply,
+	td.replyhl,
+	#options,
+	#navbar,
+	#popup,
+	#boardsMenu {
+		border: 0 !important;
+	}
+
+	.postarea .recaptcha_image_cell>center>#recaptcha_image,
+	.postarea #recaptcha_image img {
+		width: 246px !important;
+		height: 45px !important;
+	}
+
+	#qr .recaptcha_image_cell>center>#recaptcha_image,
+	#qr .recaptcha_image_cell>center>#recaptcha_image img,
+	#quickrep .recaptcha_image_cell>center>#recaptcha_image,
+	#quickrep .recaptcha_image_cell>center>#recaptcha_image img,
+	div[id^=qr] .recaptcha_image_cell>center>#recaptcha_image,
+	div[id^=qr] .recaptcha_image_cell>center>#recaptcha_image img {
+		width: 298px !important;
+	}
+	
+	form[name="delform"]>div:not(.thread) select {
+		margin: 0 !important;
+		height: 17px !important;
 	}
 /* End */
 

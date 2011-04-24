@@ -1,5 +1,5 @@
 /*
-AppChan by Zixaphir, MayhemYDG, disappoint
+AppChan by Zixaphir, MayhemYDG, disappoint, Kupaka, .K`WeEabo0o
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -119,6 +119,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		-moz-appearance: none !important;
 		border: 1px solid;
 	}
+
+/*[[ColorScheme]]*/
 
 	html,
 	body {
@@ -353,7 +355,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		content: " | NOKO | SAGE";
 	}
 
-	.postarea tbody>tr:nth-child(4)>.postblock > b {
+	.postarea tbody>tr:nth-child(4)>.postblock>b {
 		font-size: 0 !important;
 		color: transparent !important;
 	}
@@ -368,11 +370,11 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.postarea tr .postblock b {
-		right: 0;
+		right: 3px;
 	}
 
 	.postarea tr:nth-of-type(3n) .postblock b {
-		right: 51px;
+		right: 54px;
 	}
 
 	#qr tr .postblock b,
@@ -563,12 +565,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 0 !important;
 	}
 
-	.postarea .recaptcha_image_cell>center>#recaptcha_image,
-	.postarea #recaptcha_image img {
-		width: 248px !important;
-		height: 47px !important;
-	}
-
 	#recaptcha_image img,
 	#quick_recaptcha_image img {
 		opacity: 0.5;
@@ -733,7 +729,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	form[name="delform"]>table:not(.pages),
 	div.thread>table,
 	.insertedPosts>table {
-		margin: 1px 2px !important;
+		margin: 2px 2px 0 !important;
 		border-spacing: 0 !important;
 	}
 
@@ -787,15 +783,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		display: block !important;
 	}
 
-	td.reply, /* replies */
-	td.replyhl, /* reply highlight */
-	#options, /* 4chan x Options */
-	#navbar,  /* 4chanplus's bar */
-	#popup, /* 4chanplus's tooltip (reply previews, image hovering, etc) */
-	#boardsMenu /* 4chan plus's boards */ {
-		border: 0 !important;
-	}
-
 	#updater:hover,
 	#thread_filter.autohide:hover,
 	#thread_filter:not(.autohide) {
@@ -832,10 +819,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 0 !important;
 	}
 /* Addons and such */
-	#thread_filter input,
-	#thread_filter textarea,
-	#updater input,
-	#options input,
 	#qr,
 	#quickrep,
 	div[id^=qr],
@@ -919,9 +902,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	form[name="delform"]>div:not(.thread) select {
-		margin: 1px 0 0 0 !important;
 		float: right !important;
-		height: 15px !important;
 	}
 
 	form[name="delform"]>div:not(.thread) select>button {
@@ -1071,7 +1052,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	#threadwatcher .postblock {
 		padding: 2px 3px !important;
 		margin-bottom: 2px !important;
-		border-bottom: 1px solid !important;
 		text-decoration: none !important;
 	}
 
