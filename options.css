@@ -373,8 +373,10 @@
 	.postarea tr:nth-child(4)>.postblock>b:after,
 	*,
 	html,
-	body {
-		color: #efefef !important;
+	body,
+	tr .postblock b,
+	label {
+		color: #ccc !important;
 	}
 
 	div.logo,
@@ -469,7 +471,6 @@
 	tr .postblock b,
 	label {
 		background: none !important;
-		color: #efefef !important;
 	}
 
 	select,
