@@ -451,7 +451,8 @@
 	#thread_filter input:not([type="checkbox"]),
 	#updater input:not([type="checkbox"]),
 	#thread_filter textarea,
-	#options input {
+	#options input,
+	textarea {
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		border: 1px solid #888 !important;
@@ -576,6 +577,14 @@
 		color: #613 !important;
 	}
 
+	.doubledash a {
+		color: #313C5a !important;
+	}
+	
+	.doubledash a:hover {
+		color: #1e1f3d !important;
+	}
+
 	b[style="color:red;"] {
 		color: #000 !important;
 	}
@@ -610,7 +619,7 @@
 	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
 	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
 	#autonoko {
-		color: #313C5a;
+		color: #313C5a !important;
 		text-shadow: -1px -1px 2px #5f608b, 1px 1px 2px #5f608b, 1px -1px 2px #5f608b, -1px 1px 2px #5f608b;
 	}
 
@@ -935,15 +944,13 @@
 
 /*[[background]]*/
 /* Yuki Nagato: */
-url("http://i.imgur.com/6H3BO.png")
+url("http://i.imgur.com/Un9LT.png")
 /* Yuki Nagato (+Pantsu): */
-url("http://i.imgur.com/ZzzZG.png")
-/* Original: */
-url("http://i.imgur.com/cKHtM.png")
+url("http://i.imgur.com/hPb5E.png")
+/* Horo: */
+url("http://i.imgur.com/WRTys.png")
 /* None: */
 none
-/* Horo: */
-url("http://i.imgur.com/gJ8A9.png")
 /* End */
 
 /*[[NavBarSticky]]*/

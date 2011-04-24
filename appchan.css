@@ -391,7 +391,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	.fake input[type="file"]::-webkit-file-upload-button, /* Cheating. Firefox Stylish will ignore this block */
 	.postarea tr:nth-of-type(6) .postblock b {
-		right: 0 !important; /* Won't affect the Browse Button because it's statically positioned. :3 */
+		right: 3px !important; /* Won't affect the Browse Button because it's statically positioned. :3 */
 	}
 
 	input[type="file"]::-webkit-file-upload-button,
