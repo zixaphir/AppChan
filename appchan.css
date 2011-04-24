@@ -227,13 +227,13 @@ This style is designed for the following browsers, ordered alphabetically:
 		border-spacing: 0 !important;
 		z-index: 1;
 	}
-	
+
 	#footer {
 		z-index: -1;
 		visibility: hidden;
 		padding-top: 0 !important;
 	}
-	
+
 	#navbot {
 		font-size: 0 !important;
 	}
@@ -373,7 +373,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		right: 3px;
 		margin-top: -1px;
 	}
-	
+
 	.fake input[type="file"]::-webkit-file-upload-button,,
 	.postarea tr .postblock b {
 		margin-top: -2px;
@@ -397,7 +397,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	.fake input[type="file"]::-webkit-file-upload-button, /* Cheating. Firefox Stylish will ignore this block */
 	.postarea tr:nth-of-type(6) .postblock b {
-		right: 3px !important; /* Won't affect the Browse Button because it's statically positioned. :3 */
+		right: 3px !important;
 	}
 
 	input[type="file"]::-webkit-file-upload-button,
@@ -744,7 +744,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		float: left;
 		margin: 0 20px 20px !important;
 	}
-	
+
 	form[name="delform"] a img+img {
 		margin: 0 0 20px !important;
 	}
@@ -777,7 +777,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	.doubledash a:hover {
 		background-color: transparent !important;
 	}
-	
+
 	form[name="delform"]>div:not(.thread)>a.pointer,
 	form[name="delform"]>div.thread>div>a.pointer {
 		float: right;
