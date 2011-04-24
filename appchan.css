@@ -371,6 +371,12 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	.postarea tr .postblock b {
 		right: 3px;
+		margin-top: -1px;
+	}
+	
+	.fake input[type="file"]::-webkit-file-upload-button,,
+	.postarea tr .postblock b {
+		margin-top: -2px;
 	}
 
 	.postarea tr:nth-of-type(3n) .postblock b {
