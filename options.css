@@ -568,6 +568,11 @@
 	b[style="color:red;"] {
 		color: #000 !important;
 	}
+	
+	table .commentpostername a.linkmail[href$="sage"]:after {
+		color: #000 !important;
+		font-weight: 700;
+	}
 
 	.postertrip {
 		color: #313c5a !important;
@@ -909,7 +914,7 @@
 	}
 	
 	.postarea td>input[name="upfile"] {
-		margin: 3px 0 -1px -1px !important;
+		margin: 1px 0 -1px -1px !important;
 	}
 
 	td.reply,
