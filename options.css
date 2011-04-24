@@ -220,10 +220,7 @@
 		color: #000 !important;
 	}
 
-	.postarea .postblock b,
-	#qr .postblock b,
-	#quickrep .postblock b,
-	div[id^=qr] .postblock b,
+	form[name="post"] .postblock b,
 	#maxchars {
 		color: rgba(255,255,255,0.2) !important;
 	}
@@ -468,12 +465,8 @@
 		height: 45px !important;
 	}
 
-	#qr .recaptcha_image_cell>center>#recaptcha_image,
-	#qr .recaptcha_image_cell>center>#recaptcha_image img,
-	#quickrep .recaptcha_image_cell>center>#recaptcha_image,
-	#quickrep .recaptcha_image_cell>center>#recaptcha_image img,
-	div[id^=qr] .recaptcha_image_cell>center>#recaptcha_image,
-	div[id^=qr] .recaptcha_image_cell>center>#recaptcha_image img {
+	form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
+	form[name="post"] .recaptcha_image_cell>center>#recaptcha_image img {
 		width: 298px !important;
 	}
 
@@ -725,10 +718,7 @@
 		color: #000 !important;
 	}
 
-	.postarea .postblock b,
-	#qr .postblock b,
-	#quickrep .postblock b,
-	div[id^=qr] .postblock b,
+	form[name="post"] .postblock b,
 	#maxchars {
 		color: #242949 !important;
 	}
@@ -800,12 +790,8 @@
 		height: 45px !important;
 	}
 
-	#qr .recaptcha_image_cell>center>#recaptcha_image,
-	#qr .recaptcha_image_cell>center>#recaptcha_image img,
-	#quickrep .recaptcha_image_cell>center>#recaptcha_image,
-	#quickrep .recaptcha_image_cell>center>#recaptcha_image img,
-	div[id^=qr] .recaptcha_image_cell>center>#recaptcha_image,
-	div[id^=qr] .recaptcha_image_cell>center>#recaptcha_image img {
+	form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
+	form[name="post"] .recaptcha_image_cell>center>#recaptcha_image img {
 		width: 298px !important;
 	}
 
@@ -899,10 +885,7 @@
 		background-color: #eee !important;
 	}
 
-	.postarea .postblock b,
-	#qr .postblock b,
-	#quickrep .postblock b,
-	div[id^=qr] .postblock b,
+	form[name="post"] .postblock b,
 	#maxchars,
 	.postarea tr:nth-child(4)>.postblock>b:after {
 		color: rgba(0,0,0,0.5) !important;
@@ -936,12 +919,8 @@
 		height: 45px !important;
 	}
 
-	#qr .recaptcha_image_cell>center>#recaptcha_image,
-	#qr .recaptcha_image_cell>center>#recaptcha_image img,
-	#quickrep .recaptcha_image_cell>center>#recaptcha_image,
-	#quickrep .recaptcha_image_cell>center>#recaptcha_image img,
-	div[id^=qr] .recaptcha_image_cell>center>#recaptcha_image,
-	div[id^=qr] .recaptcha_image_cell>center>#recaptcha_image img {
+	form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
+	form[name="post"] .recaptcha_image_cell>center>#recaptcha_image img {
 		width: 298px !important;
 	}
 
@@ -1128,6 +1107,9 @@ none
 		opacity: 1;
 	}
 /* Hide Both */
+	div.logo {
+		display: none;
+	}
 /* End */
 
 /*[[CrntBrdHlt]]*/
