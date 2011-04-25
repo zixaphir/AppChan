@@ -154,7 +154,7 @@
 	}
 
 	.postarea form[name^="post"] td>input[name="upfile"] {
-		margin: 2px 0 0 0 !important;
+		margin: 1px 0 -1px -1px !important;
 	}
 
 	.postarea form[name^="post"] .recaptcha_image_cell>center>#recaptcha_image,
