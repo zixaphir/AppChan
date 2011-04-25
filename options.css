@@ -36,6 +36,24 @@ none
 		top: auto !important;
 		bottom: 0 !important;
 	}
+
+	#navbar {
+		margin-left: -265px !important;
+		bottom: 16px !important;
+		height: 26px !important;
+	}
+
+	table[width="100%"]~#navbar {
+		bottom: 0 !important;
+	}
+
+	#boardsMenu {
+		bottom: 46px !important;
+	}
+
+	table[width="100%"]~#boardsMenu {
+		bottom: 26px !important;
+	}
 /* No: */
 	#header {
 		position: absolute !important;
@@ -66,6 +84,16 @@ none
 	.pages {
 		bottom: auto !important;
 		top: 0 !important;
+	}
+
+	#navbar {
+		margin-left: -265px !important;
+		bottom: 16px !important;
+		height: 26px !important;
+	}
+
+	#boardsMenu {
+		bottom: 46px !important;
 	}
 /* End */
 

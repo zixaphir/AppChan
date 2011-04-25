@@ -833,14 +833,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		height: 24px !important;
 	}
 
-	#boardsMenu {
-		bottom: 48px !important;
-	}
-
-	table[width="100%"]~#boardsMenu {
-		bottom: 28px !important;
-	}
-
 /* Expand Images div */
 	form[name="delform"]>div:not(.thread):not(.insertedPosts):first-child {
 		position: fixed;
