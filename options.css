@@ -1,933 +1,933 @@
 /*[[ColorScheme]]*/
 /* AppChan: */
-	::-webkit-scrollbar-thumb {
-		border: #2c2c2c !important;
-	}
+::-webkit-scrollbar-thumb {
+border: #2c2c2c !important;
+}
 
-	::-webkit-scrollbar-thumb:hover {
-		background: #3f3f3f;
-	}
+::-webkit-scrollbar-thumb:hover {
+background: #3f3f3f;
+}
 
-	::-webkit-scrollbar-thumb:active {
-		background: #111;
-	}
+::-webkit-scrollbar-thumb:active {
+background: #111;
+}
 
-	::-webkit-scrollbar-track-piece,
-	::-webkit-scrollbar-corner,
-	::-webkit-scrollbar-resizer {
-		background: #333;
-	}
+::-webkit-scrollbar-track-piece,
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-resizer {
+background: #333;
+}
 
-	::-webkit-scrollbar-thumb {
-		background: #262626;
-	}
+::-webkit-scrollbar-thumb {
+background: #262626;
+}
 
-	*,
-	#updater #count:not(.new):after,
-	form[name="delform"] div:not(.thread) label:after {
-		color: #aaa !important;
-	}
+*,
+#updater #count:not(.new):after,
+form[name="delform"] div:not(.thread) label:after {
+color: #aaa !important;
+}
 
-	div.postarea>form td:nth-of-type(3)>label,
-	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
-	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
-	#autonoko {
-		color: #888;
-	}
+div.postarea>form td:nth-of-type(3)>label,
+#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
+#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
+#autonoko {
+color: #888;
+}
 
-	input[type="file"]::-webkit-file-upload-button {
-		color: #666 !important;
-	}
+input[type="file"]::-webkit-file-upload-button {
+color: #666 !important;
+}
 
-	.doubledash a {
-		color: #222 !important;
-	}
+.doubledash a {
+color: #222 !important;
+}
 
-	.doubledash a:hover {
-		color: #555 !important;
-	}
+.doubledash a:hover {
+color: #555 !important;
+}
 
-	a,
-	.postername a,
-	.commentpostername a,
-	a .postertrip {
-		color: #68a !important;
-	}
+a,
+.postername a,
+.commentpostername a,
+a .postertrip {
+color: #68a !important;
+}
 
-	a:hover,
-	.postername a:hover,
-	.commentpostername a:hover,
-	a:hover .postertrip {
-		color: #444 !important;
-	}
+a:hover,
+.postername a:hover,
+.commentpostername a:hover,
+a:hover .postertrip {
+color: #444 !important;
+}
 
-	a.backlink {
-		color: #4f5f8f !important;
-	}
+a.backlink {
+color: #4f5f8f !important;
+}
 
-	.span.filetitle,
-	.replytitle {
-		color: #909090 !important;
-	}
+.span.filetitle,
+.replytitle {
+color: #909090 !important;
+}
 
-	.unkfunc {
-		color: #789922 !important;
-	}
+.unkfunc {
+color: #789922 !important;
+}
 
-	#boards h3,
-	#boardsMenu,
-	#ft li,
-	#ft ul,
-	#navbar,
-	#options,
-	#popup,
-	#qr input[type="checkbox"],
-	#threadwatcher,
-	#threadwatcher .postblock,
-	#watcher,
-	.box-outer,
-	.boxbar,
-	.deletebuttons input[value=Delete],
-	.recaptcha_image_cell>center>#recaptcha_image,
-	.recaptchatable #recaptcha_response_field,
-	.top-box,
-	.yuimenuitem-selected,
-	h2,
-	input,
-	input[type="file"]>input[type="button"],
-	input[type="submit"],
-	select,
-	td.postblock,
-	td.reply,
-	td.replyhl,
-	textarea,
-	input[type="checkbox"] {
-		background-color: #333 !important;
-	}
+#boards h3,
+#boardsMenu,
+#ft li,
+#ft ul,
+#navbar,
+#options,
+#popup,
+#qr input[type="checkbox"],
+#threadwatcher,
+#threadwatcher .postblock,
+#watcher,
+.box-outer,
+.boxbar,
+.deletebuttons input[value=Delete],
+.recaptcha_image_cell>center>#recaptcha_image,
+.recaptchatable #recaptcha_response_field,
+.top-box,
+.yuimenuitem-selected,
+h2,
+input,
+input[type="file"]>input[type="button"],
+input[type="submit"],
+select,
+td.postblock,
+td.reply,
+td.replyhl,
+textarea,
+input[type="checkbox"] {
+background-color: #333 !important;
+}
 
-	scrollbar,
-	scrollcorner {
-		background: #333 !important;
-	}
+scrollbar,
+scrollcorner {
+background: #333 !important;
+}
 
-	#header,
-	#options input,
-	#options input[type=checkbox],
-	#qr,
-	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
-	#quickrep,
-	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
-	#qr label input,
-	#thread_filter input,
-	#thread_filter textarea,
-	#updater input,
-	.bd,
-	.boxcontent>hr,
-	.boxcontent input,
-	.boxcontent textarea,
-	.pages,
-	.reply input[type=checkbox],
-	h3,
-	html,
-	body,
-	div.postarea>form td:nth-of-type(3)>label input,
-	div[id^=qr],
-	table.reply[style^="clear: both"] {
-		background-color: #2c2c2c !important;
-	}
+#header,
+#options input,
+#options input[type=checkbox],
+#qr,
+#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
+#quickrep,
+#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
+#qr label input,
+#thread_filter input,
+#thread_filter textarea,
+#updater input,
+.bd,
+.boxcontent>hr,
+.boxcontent input,
+.boxcontent textarea,
+.pages,
+.reply input[type=checkbox],
+h3,
+html,
+body,
+div.postarea>form td:nth-of-type(3)>label input,
+div[id^=qr],
+table.reply[style^="clear: both"] {
+background-color: #2c2c2c !important;
+}
 
-	#backwash_tooltip,
-	#updater:hover,
-	#thread_filter.autohide:hover,
-	#thread_filter:not(.autohide),
-	#popup,
-	.recaptchatable #recaptcha_response_field:hover,
-	.deletebuttons input[type="password"]:hover,
-	div[id^=ref],
-	input:hover,
-	input[type="file"]>input[type="button"]
-	input[type="submit"]:hover,
-	td.replyhl,
-	textarea:hover {
-		background-color: #393939 !important;
-	}
+#backwash_tooltip,
+#updater:hover,
+#thread_filter.autohide:hover,
+#thread_filter:not(.autohide),
+#popup,
+.recaptchatable #recaptcha_response_field:hover,
+.deletebuttons input[type="password"]:hover,
+div[id^=ref],
+input:hover,
+input[type="file"]>input[type="button"]
+input[type="submit"]:hover,
+td.replyhl,
+textarea:hover {
+background-color: #393939 !important;
+}
 
-	.recaptchatable #recaptcha_response_field:focus,
-	.deletebuttons input[type="password"]:focus,
-	input:focus,
-	input[type="submit"]:focus,
-	textarea:focus {
-		background-color: #3f3f3f !important;
-	}
+.recaptchatable #recaptcha_response_field:focus,
+.deletebuttons input[type="password"]:focus,
+input:focus,
+input[type="submit"]:focus,
+textarea:focus {
+background-color: #3f3f3f !important;
+}
 
-	input[type=checkbox]:active,
-	#options input[type=checkbox]:active {
-		background: #aaa !important;
-	}
+input[type=checkbox]:active,
+#options input[type=checkbox]:active {
+background: #aaa !important;
+}
 
-	input[type=checkbox]:checked,
-	#options input[type=checkbox]:checked,
-	thumb:active {
-		background: #111 !important;
-	}
+input[type=checkbox]:checked,
+#options input[type=checkbox]:checked,
+thumb:active {
+background: #111 !important;
+}
 
-	thumb {
-		border-color: #333 !important;
-		background: #262626;
-	}
+thumb {
+border-color: #333 !important;
+background: #262626;
+}
 
-	#crntBoard {
-		border-right-color: #393939 !important;
-	}
+#crntBoard {
+border-right-color: #393939 !important;
+}
 
-	#com_submit:hover,
-	input[type="submit"]:hover,
-	input[type="file"]>input[type="button"]:hover {
-		background-color: #363636 !important;
-	}
+#com_submit:hover,
+input[type="submit"]:hover,
+input[type="file"]>input[type="button"]:hover {
+background-color: #363636 !important;
+}
 
-	input[type="submit"],
-	#com_submit,
-	input[type="file"]>input[type="button"] {
-		background-color: #303030 !important;
-	}
+input[type="submit"],
+#com_submit,
+input[type="file"]>input[type="button"] {
+background-color: #303030 !important;
+}
 
-	thumb:hover {
-		background: #3f3f3f;
-	}
+thumb:hover {
+background: #3f3f3f;
+}
 
-	td[style="border: 1px dashed;"],
-	td.reply>tr>td.reply {
-		/* Inline Quotes */
-		background-color: rgba(0,0,0,0.1) !important;
-		border: none !important;
-	}
+td[style="border: 1px dashed;"],
+td.reply>tr>td.reply {
+/* Inline Quotes */
+background-color: rgba(0,0,0,0.1) !important;
+border: none !important;
+}
 
-	.pages b {
-		background: rgba(0,0,0,0.3) !important;
-		color: #ccc !important;
-	}
+.pages b {
+background: rgba(0,0,0,0.3) !important;
+color: #ccc !important;
+}
 
-	#header a:hover,
-	.pages input:hover,
-	a:hover {
-	/* URL bubbles */
-		background: rgba(0,0,0,.2) !important;
-	}
+#header a:hover,
+.pages input:hover,
+a:hover {
+/* URL bubbles */
+background: rgba(0,0,0,.2) !important;
+}
 
-	.new {
-		background-color: rgba(255,255,255,.5) !important;
-		color: #000 !important;
-	}
+.new {
+background-color: rgba(255,255,255,.5) !important;
+color: #000 !important;
+}
 
-	form[name="post"] .postblock b,
-	#maxchars {
-		color: rgba(255,255,255,0.2) !important;
-	}
+form[name="post"] .postblock b,
+#maxchars {
+color: rgba(255,255,255,0.2) !important;
+}
 
-	.postarea tr:nth-child(4)>.postblock>b:after {
-		color: rgba(255,255,255,0.2) !important;
-	}
+.postarea tr:nth-child(4)>.postblock>b:after {
+color: rgba(255,255,255,0.2) !important;
+}
 
-	#ft li,
-	#ft ul,
-	#options input:not([type="checkbox"]),
-	#updater input:not([type="checkbox"]),
-	.box-outer,
-	.boxbar,
-	.deletebuttons input[value=Delete],
-	.recaptcha_image_cell>center>#recaptcha_image,
-	.recaptchatable #recaptcha_response_field,
-	.top-box,
-	h2,
-	input:not([type="checkbox"]),
-	input[type="file"]>input[type="button"],
-	input[type="submit"],
-	select,
-	textarea {
-		border: none 0 !important;
-	}
+#ft li,
+#ft ul,
+#options input:not([type="checkbox"]),
+#updater input:not([type="checkbox"]),
+.box-outer,
+.boxbar,
+.deletebuttons input[value=Delete],
+.recaptcha_image_cell>center>#recaptcha_image,
+.recaptchatable #recaptcha_response_field,
+.top-box,
+h2,
+input:not([type="checkbox"]),
+input[type="file"]>input[type="button"],
+input[type="submit"],
+select,
+textarea {
+border: none 0 !important;
+}
 
-	#qr input[type="checkbox"],
-	input[type="checkbox"] {
-		border: none !important;
-	}
+#qr input[type="checkbox"],
+input[type="checkbox"] {
+border: none !important;
+}
 
-	.postarea td>input[name="upfile"] {
-		margin: 2px 0 0 !important;
-	}
+.postarea td>input[name="upfile"] {
+margin: 2px 0 0 !important;
+}
 
-	.postarea form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
-	.postarea form[name="post"] #recaptcha_image img {
-		width: 248px !important;
-		height: 47px !important;
-	}
+.postarea form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
+.postarea form[name="post"] #recaptcha_image img {
+width: 248px !important;
+height: 47px !important;
+}
 
 
-	#backwash_tooltip,
-	#popup,
-	div[id^=ref],
-	td.reply,
-	td.replyhl,
-	#options,
-	#navbar,
-	#popup,
-	#boardsMenu {
-		border: 0 !important;
-	}
+#backwash_tooltip,
+#popup,
+div[id^=ref],
+td.reply,
+td.replyhl,
+#options,
+#navbar,
+#popup,
+#boardsMenu {
+border: 0 !important;
+}
 
-	.boxcontent dd,
-	#threadwatcher .postblock {
-		border-top-color: #2c2c2c !important;
-		border-right-color: #2c2c2c !important;
-		border-bottom-color: #2c2c2c !important;
-		border-left-color: #2c2c2c !important;
-	}
+.boxcontent dd,
+#threadwatcher .postblock {
+border-top-color: #2c2c2c !important;
+border-right-color: #2c2c2c !important;
+border-bottom-color: #2c2c2c !important;
+border-left-color: #2c2c2c !important;
+}
 
-	#watcher .move {
-		border-bottom: 1px #2c2c2c solid !important;
-	}
+#watcher .move {
+border-bottom: 1px #2c2c2c solid !important;
+}
 
-	#thread_filter input,
-	#thread_filter textarea,
-	#updater input,
-	#options input,
-	#qr,
-	#quickrep,
-	div[id^=qr],
-	table.reply[style^="clear: both"] {
-		border: none !important;
-	}
+#thread_filter input,
+#thread_filter textarea,
+#updater input,
+#options input,
+#qr,
+#quickrep,
+div[id^=qr],
+table.reply[style^="clear: both"] {
+border: none !important;
+}
 
-	form[name="delform"]>div:not(.thread) select {
-		margin: 1px 0 0 0 !important;
-		height: 15px !important;
-	}
+form[name="delform"]>div:not(.thread) select {
+margin: 1px 0 0 0 !important;
+height: 15px !important;
+}
 /* Zenburned */
-	::-webkit-scrollbar-thumb {
-		border: #4f4f4f !important;
-		background: #3f3f3f;
-	}
+::-webkit-scrollbar-thumb {
+border: #4f4f4f !important;
+background: #3f3f3f;
+}
 
-	::-webkit-scrollbar-thumb:hover {
-		background: #3f3f3f;
-	}
+::-webkit-scrollbar-thumb:hover {
+background: #3f3f3f;
+}
 
-	::-webkit-scrollbar-thumb:active {
-		background: #111;
-	}
+::-webkit-scrollbar-thumb:active {
+background: #111;
+}
 
-	::-webkit-scrollbar-track-piece,
-	::-webkit-scrollbar-corner,
-	::-webkit-scrollbar-resizer {
-		background: #3a3a39;
-	}
+::-webkit-scrollbar-track-piece,
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-resizer {
+background: #3a3a39;
+}
 
-	thumb:active {
-		background: #111 !important;
-	}
+thumb:active {
+background: #111 !important;
+}
 
-	thumb {
-		border-color: #4f4f4f !important;
-		background: #3f3f3f;
-	}
+thumb {
+border-color: #4f4f4f !important;
+background: #3f3f3f;
+}
 
-	scrollbar,
-	scrollcorner {
-		background: #3a3a39 !important;
-	}
+scrollbar,
+scrollcorner {
+background: #3a3a39 !important;
+}
 
-	* {
-		background-color: #3f3f3f !important;
-	}
+* {
+background-color: #3f3f3f !important;
+}
 
 
-	#updater #count:not(.new):after,
-	form[name="delform"] div:not(.thread) label:after,
-	.postarea tr:nth-child(4)>.postblock>b:after,
-	* {
-		color: #ccc !important;
-	}
+#updater #count:not(.new):after,
+form[name="delform"] div:not(.thread) label:after,
+.postarea tr:nth-child(4)>.postblock>b:after,
+* {
+color: #ccc !important;
+}
 
-	div.logo,
-	div.logo *,
-	form,
-	#updater:not(:hover),
-	#updater>*,
-	#updater>*>*,
-	#thread_filter.autohide:not(:hover),
-	#thread_filter>div {
-		background-color: transparent !important;
-	}
+div.logo,
+div.logo *,
+form,
+#updater:not(:hover),
+#updater>*,
+#updater>*>*,
+#thread_filter.autohide:not(:hover),
+#thread_filter>div {
+background-color: transparent !important;
+}
 
-	.reply,
-	.reply>*,
-	.reply>*>*,
-	.reply>*>*>* {
-		background-color:#3a3a39 !important;
-	}
+.reply,
+.reply>*,
+.reply>*>*,
+.reply>*>*>* {
+background-color:#3a3a39 !important;
+}
 
-	form[name="delform"] .reply td,
-	form[name="delform"] .replyhl td {
-		border: 1px solid #4f4f4f !important;
-	}
+form[name="delform"] .reply td,
+form[name="delform"] .replyhl td {
+border: 1px solid #4f4f4f !important;
+}
 
-	td.reply,
-	td.replyhl,
-	#options,
-	#navbar,
-	#popup,
-	#boardsMenu {
-		border: 0 !important;
-	}
+td.reply,
+td.replyhl,
+#options,
+#navbar,
+#popup,
+#boardsMenu {
+border: 0 !important;
+}
 
-	.boxcontent dd,
-	#threadwatcher .postblock {
-		border-top-color: #4f4f4f !important;
-		border-right-color: #4f4f4f !important;
-		border-bottom-color: #4f4f4f !important;
-		border-left-color: #4f4f4f !important;
-	}
+.boxcontent dd,
+#threadwatcher .postblock {
+border-top-color: #4f4f4f !important;
+border-right-color: #4f4f4f !important;
+border-bottom-color: #4f4f4f !important;
+border-left-color: #4f4f4f !important;
+}
 
-	#watcher .move {
-		border-bottom: 1px #4f4f4f solid !important;
-	}
+#watcher .move {
+border-bottom: 1px #4f4f4f solid !important;
+}
 
-	a {
-		color:#efdcbc !important;
-	}
+a {
+color:#efdcbc !important;
+}
 
-	a:hover {
-		color: #f8f893 !important;
-	}
+a:hover {
+color: #f8f893 !important;
+}
 
-	.filetitle,
-	.replytitle {
-		color: #e89393 !important;
-	}
+.filetitle,
+.replytitle {
+color: #e89393 !important;
+}
 
-	.postername,
-	.commentpostername {
-		color: #c0bed1 !important;
-	}
+.postername,
+.commentpostername {
+color: #c0bed1 !important;
+}
 
-	.postertrip {
-		color: #8cd0d3 !important;
-	}
+.postertrip {
+color: #8cd0d3 !important;
+}
 
-	.unkfunc {
-		color: #7f9f7f !important;
-	}
+.unkfunc {
+color: #7f9f7f !important;
+}
 
-	select {
-		color: #000 !important;
-	}
+select {
+color: #000 !important;
+}
 
-	.deletebuttons>input[type="submit"],
-	input[type="text"],
-	input[type="password"],
-	input:not([type="checkbox"]):not([name="upfile"]),
-	#thread_filter input:not([type="checkbox"]),
-	#updater input:not([type="checkbox"]),
-	#thread_filter textarea,
-	#options input,
-	textarea {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		border: 1px solid #888 !important;
-		height: 19px !important;
-	}
+.deletebuttons>input[type="submit"],
+input[type="text"],
+input[type="password"],
+input:not([type="checkbox"]):not([name="upfile"]),
+#thread_filter input:not([type="checkbox"]),
+#updater input:not([type="checkbox"]),
+#thread_filter textarea,
+#options input,
+textarea {
+-moz-appearance: none;
+-webkit-appearance: none;
+border: 1px solid #888 !important;
+height: 19px !important;
+}
 
-	tr .postblock b,
-	label {
-		background: none !important;
-	}
+tr .postblock b,
+label {
+background: none !important;
+}
 
-	select,
-	input[type=checkbox] {
-		border: none 0 !important;
-		background-color: #3f3f3f !important;
-		color: #efefef !important;
-		border: 1px solid #4f4f4f !important;
-	}
+select,
+input[type=checkbox] {
+border: none 0 !important;
+background-color: #3f3f3f !important;
+color: #efefef !important;
+border: 1px solid #4f4f4f !important;
+}
 
-	select>* {
-		border: 0!important;
-	}
+select>* {
+border: 0!important;
+}
 
-	.postarea td>input[name="upfile"] {
-		margin: 2px 0 0 0 !important;
-	}
+.postarea td>input[name="upfile"] {
+margin: 2px 0 0 0 !important;
+}
 
-	.postarea form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
-	.postarea form[name="post"] #recaptcha_image img {
-		width: 246px !important;
-		height: 45px !important;
-	}
+.postarea form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
+.postarea form[name="post"] #recaptcha_image img {
+width: 246px !important;
+height: 45px !important;
+}
 
-	form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
-	form[name="post"] .recaptcha_image_cell>center>#recaptcha_image img {
-		width: 298px !important;
-	}
+form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
+form[name="post"] .recaptcha_image_cell>center>#recaptcha_image img {
+width: 298px !important;
+}
 
-	form[name="delform"]>div:not(.thread) select {
-		margin: 0 0 0 0 !important;
-		height: 17px !important;
-	}
+form[name="delform"]>div:not(.thread) select {
+margin: 0 0 0 0 !important;
+height: 17px !important;
+}
 
-	input[type=checkbox]:checked,
-	#options input[type=checkbox]:checked {
-		background: #111 !important;
-	}
+input[type=checkbox]:checked,
+#options input[type=checkbox]:checked {
+background: #111 !important;
+}
 /* YukiChan */
-	::-webkit-scrollbar-thumb:hover {
-		background: #4f507b !important;
-	}
+::-webkit-scrollbar-thumb:hover {
+background: #4f507b !important;
+}
 
-	::-webkit-scrollbar-thumb:active {
-		background: rgba(255,255,255,.4) !important;
-	}
+::-webkit-scrollbar-thumb:active {
+background: rgba(255,255,255,.4) !important;
+}
 
-	::-webkit-scrollbar-track-piece,
-	::-webkit-scrollbar-corner,
-	::-webkit-scrollbar-resizer {
-		background: #686a99 !important;
-	}
+::-webkit-scrollbar-track-piece,
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-resizer {
+background: #686a99 !important;
+}
 
-	::-webkit-scrollbar-thumb {
-		background: #5f608b !important;
-		-webkit-border-radius: 10px !important;
-		border: 1px solid #313c5a !important;
-	}
+::-webkit-scrollbar-thumb {
+background: #5f608b !important;
+-webkit-border-radius: 10px !important;
+border: 1px solid #313c5a !important;
+}
 
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6,
-	.boxbar h2 {
-		color: #313C5a !important;
-	}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.boxbar h2 {
+color: #313C5a !important;
+}
 
-	a {
-		color: #242949 !important;
-	}
+a {
+color: #242949 !important;
+}
 
-	a:hover,
-	a:active {
-		color: #1e1f3d !important;
-	}
+a:hover,
+a:active {
+color: #1e1f3d !important;
+}
 
-	.filesize,
-	.filesize a,
-	a.linkmail,
-	a.quotejs,
-	.omittedposts,
-	.abbr {
-		color: #313C5a !important;
-	}
+.filesize,
+.filesize a,
+a.linkmail,
+a.quotejs,
+.omittedposts,
+.abbr {
+color: #313C5a !important;
+}
 
-	span.filetitle, .replytitle {
-		color: #552545 !important;
-	}
+span.filetitle, .replytitle {
+color: #552545 !important;
+}
 
-	.postername,
-	.commentpostername {
-		color: #313C5a !important;
-		font-weight: 800;
-	}
+.postername,
+.commentpostername {
+color: #313C5a !important;
+font-weight: 800;
+}
 
-	.commentpostername span[style="color:#800080"],
-	b[style="color:red;"] {
-		color: #000 !important;
-	}
+.commentpostername span[style="color:#800080"],
+b[style="color:red;"] {
+color: #000 !important;
+}
 
-	table .commentpostername a.linkmail[href$="sage"]:after {
-		color: #000 !important;
-		font-weight: 700;
-	}
+table .commentpostername a.linkmail[href$="sage"]:after {
+color: #000 !important;
+font-weight: 700;
+}
 
-	.postertrip {
-		color: #313c5a !important;
-	}
+.postertrip {
+color: #313c5a !important;
+}
 
-	.unkfunc {
-		color: #613 !important;
-	}
+.unkfunc {
+color: #613 !important;
+}
 
-	.doubledash a {
-		color: #313C5a !important;
-	}
+.doubledash a {
+color: #313C5a !important;
+}
 
-	.doubledash a:hover {
-		color: #1e1f3d !important;
-	}
+.doubledash a:hover {
+color: #1e1f3d !important;
+}
 
-	b[style="color:red;"] {
-		color: #000 !important;
-	}
+b[style="color:red;"] {
+color: #000 !important;
+}
 
-	*,
-	#updater #count:not(.new):after,
-	form[name="delform"] div:not(.thread) label:after {
-		color: #1e1f3d !important;
-	}
+*,
+#updater #count:not(.new):after,
+form[name="delform"] div:not(.thread) label:after {
+color: #1e1f3d !important;
+}
 
-	div.postarea>form td:nth-of-type(3)>label,
-	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
-	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
-	#autonoko {
-		color: #313C5a !important;
-		text-shadow: -1px -1px 2px #5f608b, 1px 1px 2px #5f608b, 1px -1px 2px #5f608b, -1px 1px 2px #5f608b;
-	}
+div.postarea>form td:nth-of-type(3)>label,
+#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
+#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
+#autonoko {
+color: #313C5a !important;
+text-shadow: -1px -1px 2px #5f608b, 1px 1px 2px #5f608b, 1px -1px 2px #5f608b, -1px 1px 2px #5f608b;
+}
 
-	input[type="file"]::-webkit-file-upload-button {
-		background: transparent;
-		border: 2px solid #5f608b !important;
-		color: #313C5a;
-		text-shadow: -1px -1px 2px #5f608b, 1px 1px 2px #5f608b, 1px -1px 2px #5f608b, -1px 1px 2px #5f608b;
-	}
+input[type="file"]::-webkit-file-upload-button {
+background: transparent;
+border: 2px solid #5f608b !important;
+color: #313C5a;
+text-shadow: -1px -1px 2px #5f608b, 1px 1px 2px #5f608b, 1px -1px 2px #5f608b, -1px 1px 2px #5f608b;
+}
 
-	#boards h3,
-	#boardsMenu,
-	#ft li,
-	#ft ul,
-	#navbar,
-	#options,
-	#popup,
-	#qr input[type="checkbox"],
-	#threadwatcher,
-	#threadwatcher .postblock,
-	#watcher,
-	.box-outer,
-	.boxbar,
-	.deletebuttons input[value=Delete],
-	.recaptcha_image_cell>center>#recaptcha_image,
-	.recaptchatable #recaptcha_response_field,
-	.top-box,
-	.yuimenuitem-selected,
-	h2,
-	input,
-	input[type="file"]>input[type="button"],
-	input[type="submit"],
-	select,
-	td.postblock,
-	td.reply,
-	textarea,
-	input[type="checkbox"] {
-		background-color: #686a99 !important;
-	}
+#boards h3,
+#boardsMenu,
+#ft li,
+#ft ul,
+#navbar,
+#options,
+#popup,
+#qr input[type="checkbox"],
+#threadwatcher,
+#threadwatcher .postblock,
+#watcher,
+.box-outer,
+.boxbar,
+.deletebuttons input[value=Delete],
+.recaptcha_image_cell>center>#recaptcha_image,
+.recaptchatable #recaptcha_response_field,
+.top-box,
+.yuimenuitem-selected,
+h2,
+input,
+input[type="file"]>input[type="button"],
+input[type="submit"],
+select,
+td.postblock,
+td.reply,
+textarea,
+input[type="checkbox"] {
+background-color: #686a99 !important;
+}
 
-	scrollbar,
-	scrollcorner {
-		background: #686a99 !important;
-	}
+scrollbar,
+scrollcorner {
+background: #686a99 !important;
+}
 
-	#header,
-	#options input,
-	#options input[type=checkbox],
-	#qr,
-	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
-	#quickrep,
-	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
-	#qr label input,
-	#thread_filter input,
-	#thread_filter textarea,
-	#updater input,
-	.bd,
-	.boxcontent>hr,
-	.boxcontent input,
-	.boxcontent textarea,
-	.pages,
-	.reply input[type=checkbox],
-	h3,
-	html,
-	body,
-	div.postarea>form td:nth-of-type(3)>label input,
-	div[id^=qr],
-	table.reply[style^="clear: both"] {
-		background-color: #5f608b !important;
-	}
+#header,
+#options input,
+#options input[type=checkbox],
+#qr,
+#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
+#quickrep,
+#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
+#qr label input,
+#thread_filter input,
+#thread_filter textarea,
+#updater input,
+.bd,
+.boxcontent>hr,
+.boxcontent input,
+.boxcontent textarea,
+.pages,
+.reply input[type=checkbox],
+h3,
+html,
+body,
+div.postarea>form td:nth-of-type(3)>label input,
+div[id^=qr],
+table.reply[style^="clear: both"] {
+background-color: #5f608b !important;
+}
 
-	td.reply,
-	td.replyhl {
-		color: #313C5a !important;
-	}
+td.reply,
+td.replyhl {
+color: #313C5a !important;
+}
 
-	#backwash_tooltip,
-	#updater:hover,
-	#thread_filter.autohide:hover,
-	#thread_filter:not(.autohide),
-	#popup,
-	div[id^=ref],
-	td.replyhl {
-		background-color: #7a7aa5 !important;
-	}
+#backwash_tooltip,
+#updater:hover,
+#thread_filter.autohide:hover,
+#thread_filter:not(.autohide),
+#popup,
+div[id^=ref],
+td.replyhl {
+background-color: #7a7aa5 !important;
+}
 
-	.recaptchatable #recaptcha_response_field:focus,
-	.deletebuttons input[type="password"]:focus,
-	input:focus,
-	input[type="submit"]:focus,
-	textarea:focus {
-		background-color: #5f608b !important;
-	}
+.recaptchatable #recaptcha_response_field:focus,
+.deletebuttons input[type="password"]:focus,
+input:focus,
+input[type="submit"]:focus,
+textarea:focus {
+background-color: #5f608b !important;
+}
 
-	input[type="checkbox"] {
-		background: rgba(104,106,153,.4) !important;
-		border: 1px solid #313c5a !important;
-		-moz-border-radius: 2px !important;
-		-webkit-border-radius: 2px !important;
-		border-radius: 2px !important;
-	}
+input[type="checkbox"] {
+background: rgba(104,106,153,.4) !important;
+border: 1px solid #313c5a !important;
+-moz-border-radius: 2px !important;
+-webkit-border-radius: 2px !important;
+border-radius: 2px !important;
+}
 
-	input[type="checkbox"]:checked,
-	#options input[type="checkbox"]:checked,
-	thumb:active {
-		background: rgba(255,255,255,.4) !important;
-	}
+input[type="checkbox"]:checked,
+#options input[type="checkbox"]:checked,
+thumb:active {
+background: rgba(255,255,255,.4) !important;
+}
 
-	thumb {
-		background: #5f608b !important;
-		-moz-border-radius: 10px !important;
-		border: 1px solid #313c5a !important;
-	}
+thumb {
+background: #5f608b !important;
+-moz-border-radius: 10px !important;
+border: 1px solid #313c5a !important;
+}
 
-	#crntBoard {
-		border-right-color: #1e1f3d !important;
-	}
+#crntBoard {
+border-right-color: #1e1f3d !important;
+}
 
-	thumb:hover {
-		background: #4f507b !important;
-	}
+thumb:hover {
+background: #4f507b !important;
+}
 
-	.pages b {
-		background: rgba(0,0,0,0.3) !important;
-		color: #ccc !important;
-	}
+.pages b {
+background: rgba(0,0,0,0.3) !important;
+color: #ccc !important;
+}
 
-	#header a:hover,
-	.pages input:hover,
-	a:hover {
-	/* URL bubbles */
-		background: rgba(255,255,255,.6) !important;
-	}
+#header a:hover,
+.pages input:hover,
+a:hover {
+/* URL bubbles */
+background: rgba(255,255,255,.6) !important;
+}
 
-	.new {
-		background-color: rgba(255,255,255,.5) !important;
-		color: #000 !important;
-	}
+.new {
+background-color: rgba(255,255,255,.5) !important;
+color: #000 !important;
+}
 
-	form[name="post"] .postblock b,
-	#maxchars {
-		color: #242949 !important;
-	}
+form[name="post"] .postblock b,
+#maxchars {
+color: #242949 !important;
+}
 
-	.postarea tr:nth-child(4)>.postblock>b:after {
-		color: #242949 !important;
-	}
+.postarea tr:nth-child(4)>.postblock>b:after {
+color: #242949 !important;
+}
 
-	#ft li,
-	#ft ul,
-	#options input:not([type="checkbox"]),
-	#updater input:not([type="checkbox"]),
-	.box-outer,
-	.boxbar,
-	.deletebuttons input[value=Delete],
-	.recaptcha_image_cell>center>#recaptcha_image,
-	.recaptchatable #recaptcha_response_field,
-	.top-box,
-	h2,
-	input:not([type="checkbox"]),
-	input[type="file"]>input[type="button"],
-	input[type="submit"],
-	select,
-	textarea {
-		border: 1px solid #313c5a !important;
-		text-shadow: -1px -1px 3px #5f608b, 1px 1px 3px #5f608b, 1px -1px 3px #5f608b, -1px 1px 3px #5f608b;
-	}
+#ft li,
+#ft ul,
+#options input:not([type="checkbox"]),
+#updater input:not([type="checkbox"]),
+.box-outer,
+.boxbar,
+.deletebuttons input[value=Delete],
+.recaptcha_image_cell>center>#recaptcha_image,
+.recaptchatable #recaptcha_response_field,
+.top-box,
+h2,
+input:not([type="checkbox"]),
+input[type="file"]>input[type="button"],
+input[type="submit"],
+select,
+textarea {
+border: 1px solid #313c5a !important;
+text-shadow: -1px -1px 3px #5f608b, 1px 1px 3px #5f608b, 1px -1px 3px #5f608b, -1px 1px 3px #5f608b;
+}
 
-	.postarea td>input[name="upfile"] {
-		margin: 1px 0 -1px -1px !important;
-	}
+.postarea td>input[name="upfile"] {
+margin: 1px 0 -1px -1px !important;
+}
 
-	td.reply,
-	td.replyhl,
-	div#options,
-	div#navbar,
-	div#popup,
-	div#boardsMenu
-	div#backwash_tooltip,
-	div#watcher,
-	div#thread_filter {
-		border: 0 !important;
-		-moz-border-radius: 3px;
-		-webkit-border-radius: 3px;
-		border-radius: 3px;
-	}
+td.reply,
+td.replyhl,
+div#options,
+div#navbar,
+div#popup,
+div#boardsMenu
+div#backwash_tooltip,
+div#watcher,
+div#thread_filter {
+border: 0 !important;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+}
 
-	select {
-		-moz-border-radius: 3px;
-		-webkit-border-radius: 3px;
-		border-radius: 3px;
-	}
+select {
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+}
 
-	.boxcontent dd,
-	#threadwatcher .postblock {
-		border-top-color: #2c2c2c !important;
-		border-right-color: #2c2c2c !important;
-		border-bottom-color: #2c2c2c !important;
-		border-left-color: #2c2c2c !important;
-	}
+.boxcontent dd,
+#threadwatcher .postblock {
+border-top-color: #2c2c2c !important;
+border-right-color: #2c2c2c !important;
+border-bottom-color: #2c2c2c !important;
+border-left-color: #2c2c2c !important;
+}
 
-	#watcher .move {
-		border-bottom: 1px #2c2c2c solid !important;
-	}
+#watcher .move {
+border-bottom: 1px #2c2c2c solid !important;
+}
 
-	.postarea form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
-	.postarea form[name="post"] #recaptcha_image img {
-		width: 246px !important;
-		height: 45px !important;
-	}
+.postarea form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
+.postarea form[name="post"] #recaptcha_image img {
+width: 246px !important;
+height: 45px !important;
+}
 
-	form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
-	form[name="post"] .recaptcha_image_cell>center>#recaptcha_image img {
-		width: 298px !important;
-	}
+form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
+form[name="post"] .recaptcha_image_cell>center>#recaptcha_image img {
+width: 298px !important;
+}
 
-	form[name="delform"]>div:not(.thread) select {
-		margin: 0 !important;
-		height: 17px !important;
-	}
+form[name="delform"]>div:not(.thread) select {
+margin: 0 !important;
+height: 17px !important;
+}
 /* Defaults: */
-	::-webkit-scrollbar-thumb {
-		border: 1px solid #aaa;
-		background: #fff;
-	}
+::-webkit-scrollbar-thumb {
+border: 1px solid #aaa;
+background: #fff;
+}
 
-	::-webkit-scrollbar-thumb:hover {
-		background: #ccc;
-	}
+::-webkit-scrollbar-thumb:hover {
+background: #ccc;
+}
 
-	::-webkit-scrollbar-thumb:active {
-		background: #aaa;
-	}
+::-webkit-scrollbar-thumb:active {
+background: #aaa;
+}
 
-	::-webkit-scrollbar-track-piece,
-	::-webkit-scrollbar-corner,
-	::-webkit-scrollbar-resizer {
-		background: #ccc;
-	}
+::-webkit-scrollbar-track-piece,
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-resizer {
+background: #ccc;
+}
 
-	thumb {
-		-moz-appearance: none !important;
-		border: 1px solid #aaa;
-		background: #fff;
-	}
+thumb {
+-moz-appearance: none !important;
+border: 1px solid #aaa;
+background: #fff;
+}
 
-	thumb:hover {
-		background: #ccc;
-	}
+thumb:hover {
+background: #ccc;
+}
 
-	thumb:active {
-		background: #aaa;
-	}
+thumb:active {
+background: #aaa;
+}
 
-	scrollbar,
-	scrollcorner {
-		background: #ccc !important;
-	}
+scrollbar,
+scrollcorner {
+background: #ccc !important;
+}
 
-	#ft li,
-	#ft ul,
-	#options input:not([type="checkbox"]),
-	#updater input:not([type="checkbox"]),
-	.box-outer,
-	.boxbar,
-	.deletebuttons input[value=Delete],
-	.recaptcha_image_cell>center>#recaptcha_image,
-	.recaptchatable #recaptcha_response_field,
-	.top-box,
-	h2,
-	input:not([type="checkbox"]),
-	input[type="file"]>input[type="button"],
-	input[type="submit"],
-	select,
-	textarea {
-		border: 1px solid #ccc !important;
-	}
+#ft li,
+#ft ul,
+#options input:not([type="checkbox"]),
+#updater input:not([type="checkbox"]),
+.box-outer,
+.boxbar,
+.deletebuttons input[value=Delete],
+.recaptcha_image_cell>center>#recaptcha_image,
+.recaptchatable #recaptcha_response_field,
+.top-box,
+h2,
+input:not([type="checkbox"]),
+input[type="file"]>input[type="button"],
+input[type="submit"],
+select,
+textarea {
+border: 1px solid #ccc !important;
+}
 
-	#qr input[type="checkbox"],
-	input[type="checkbox"] {
-		border: none !important;
-		color: #aaa !important;
-	}
+#qr input[type="checkbox"],
+input[type="checkbox"] {
+border: none !important;
+color: #aaa !important;
+}
 
-	#updater #count:not(.new):after,
-	form[name="delform"] div:not(.thread) label:after {
-		color: #000 !important;
-	}
+#updater #count:not(.new):after,
+form[name="delform"] div:not(.thread) label:after {
+color: #000 !important;
+}
 
-	.pages b {
-		background: rgba(0,0,0,0.3) !important;
-	}
+.pages b {
+background: rgba(0,0,0,0.3) !important;
+}
 
-	#header a:hover,
-	.pages input:hover,
-	a:hover {
-	/* URL bubbles */
-		background: rgba(0,0,0,.2) !important;
-	}
+#header a:hover,
+.pages input:hover,
+a:hover {
+/* URL bubbles */
+background: rgba(0,0,0,.2) !important;
+}
 
-	#backwash_tooltip,
-	#popup,
-	div[id^=ref] {
-		background-color: #eee !important;
-	}
+#backwash_tooltip,
+#popup,
+div[id^=ref] {
+background-color: #eee !important;
+}
 
-	form[name="post"] .postblock b,
-	#maxchars,
-	.postarea tr:nth-child(4)>.postblock>b:after {
-		color: rgba(0,0,0,0.5) !important;
-	}
+form[name="post"] .postblock b,
+#maxchars,
+.postarea tr:nth-child(4)>.postblock>b:after {
+color: rgba(0,0,0,0.5) !important;
+}
 
-	#watcher .move,
-	#threadwatcher .postblock {
-		border-color: #fff !important;
-	}
+#watcher .move,
+#threadwatcher .postblock {
+border-color: #fff !important;
+}
 
-	#watcher .move {
-		border-bottom: 1px #fff solid !important;
-	}
+#watcher .move {
+border-bottom: 1px #fff solid !important;
+}
 
-	.postarea td>input[name="upfile"] {
-		margin: 1px 0 -1px -1px !important;
-	}
+.postarea td>input[name="upfile"] {
+margin: 1px 0 -1px -1px !important;
+}
 
-	td.reply,
-	td.replyhl,
-	#options,
-	#navbar,
-	#popup,
-	#boardsMenu {
-		border: 0 !important;
-	}
+td.reply,
+td.replyhl,
+#options,
+#navbar,
+#popup,
+#boardsMenu {
+border: 0 !important;
+}
 
-	.postarea form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
-	.postarea form[name="post"] #recaptcha_image img {
-		width: 246px !important;
-		height: 45px !important;
-	}
+.postarea form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
+.postarea form[name="post"] #recaptcha_image img {
+width: 246px !important;
+height: 45px !important;
+}
 
-	form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
-	form[name="post"] .recaptcha_image_cell>center>#recaptcha_image img {
-		width: 298px !important;
-	}
+form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
+form[name="post"] .recaptcha_image_cell>center>#recaptcha_image img {
+width: 298px !important;
+}
 
-	form[name="delform"]>div:not(.thread) select {
-		margin: 0 !important;
-		height: 17px !important;
-	}
+form[name="delform"]>div:not(.thread) select {
+margin: 0 !important;
+height: 17px !important;
+}
 /* End */
 
 /*[[background]]*/
@@ -943,416 +943,453 @@ none
 
 /*[[NavBarSticky]]*/
 /* Yes: */
-	#header,
-	.pages {
-		position: fixed !important;
-	}
+#header,
+.pages {
+position: fixed !important;
+}
 
-	.pages {
-		padding: 0 250px 0 0 !important;
-	}
+.pages {
+padding: 0 250px 0 0 !important;
+}
 
-	.navlinks {
-		padding-top: 14px
-	}
+.navlinks {
+padding-top: 14px
+}
+
+#header,
+.pages {
+top: 0 !important;
+}
+
+.pages {
+top: auto !important;
+bottom: 0 !important;
+}
 /* No: */
-	#header {
-		position: absolute !important;
-	}
+#header {
+position: absolute !important;
+}
 
-	.pages {
-		padding: 0 !important;
-	}
+.pages {
+padding: 0 !important;
+}
+/* Invert */
+#header,
+.pages {
+position: fixed !important;
+}
+
+.pages {
+padding: 0 250px 0 0 !important;
+}
+
+.navlinks {
+padding-top: 14px;
+}
+
+table[width="100%"]~.navlinks {
+padding-top: 0;
+}
+
+#header,
+.pages {
+top: 0 !important;
+}
+
+.pages {
+bottom: auto !important;
+top: 0 !important;
+}
 /* End */
 
 /*[[PstfrmPstion]]*/
 /* Fixed: */
-		right: 2px !important;
+right: 2px !important;
 /* Slideout: */
-		right: -233px !important;
-		-webkit-transition: right .3s ease-in-out 3s;
-		-moz-transition: right .3s ease-in-out 3s;
-		-o-transition: right .3s ease-in-out 3s;
-	}
+right: -233px !important;
+-webkit-transition: right .3s ease-in-out 3s;
+-moz-transition: right .3s ease-in-out 3s;
+-o-transition: right .3s ease-in-out 3s;
+}
 
-	.postarea form[name="post"]:hover {
-		right: 2px !important;
-		-webkit-transition: right .3s linear;
-		-moz-transition: right .3s linear;
-		-o-transition: right .3s linear;
-	}
+.postarea form[name="post"]:hover {
+right: 2px !important;
+-webkit-transition: right .3s linear;
+-moz-transition: right .3s linear;
+-o-transition: right .3s linear;
+}
 
-	.postarea form[name="post"] tr:nth-child(4) {
-		height: 79px !important;
-	}
+.postarea form[name="post"] tr:nth-child(4) {
+height: 79px !important;
+}
 
-	.postarea textarea:focus {
-		position: fixed !important;
-		right: 2px !important;
-		bottom: 171px !important;
+.postarea textarea:focus {
+position: fixed !important;
+right: 2px !important;
+bottom: 171px !important;
 /* Transparent to Opaque: */
-		right: 2px !important;
-		opacity: 0.2;
-		-webkit-transition: opacity .3s ease-in-out 3s;
-		-moz-transition: opacity .3s ease-in-out 3s;
-		-o-transition: opacity .3s ease-in-out 3s;
-	}
+right: 2px !important;
+opacity: 0.2;
+-webkit-transition: opacity .3s ease-in-out 3s;
+-moz-transition: opacity .3s ease-in-out 3s;
+-o-transition: opacity .3s ease-in-out 3s;
+}
 
-	.postarea form[name="post"]:hover {
-		opacity: 1;
-		-webkit-transition: opacity .3s linear;
-		-moz-transition: opacity .3s linear;
-		-o-transition: opacity .3s linear;
+.postarea form[name="post"]:hover {
+opacity: 1;
+-webkit-transition: opacity .3s linear;
+-moz-transition: opacity .3s linear;
+-o-transition: opacity .3s linear;
 /* End */
 
 /*[[fixedFilter]]*/
 /* Locked in Thread Watcher / Top */
-	#thread_filter {
-		position: fixed !important;
-		top: 17px !important;
-		right: 2px !important;
-		bottom: auto !important;
-		left: auto !important;
-	}
+#thread_filter {
+position: fixed !important;
+top: 17px !important;
+right: 2px !important;
+bottom: auto !important;
+left: auto !important;
+}
 
-	#thread_filter>div:first-child  {
-		cursor: default !important;
-	}
+#thread_filter>div:first-child  {
+cursor: default !important;
+}
 
-	#thread_filter.autohide:hover {
-		width: 248px;
-	}
+#thread_filter.autohide:hover {
+width: 248px;
+}
 
-	#thread_filter:not(.autohide) a[title="Auto-hide dialog box"]:after {
-		content: " - SET THIS!!";
-	}
+#thread_filter:not(.autohide) a[title="Auto-hide dialog box"]:after {
+content: " - SET THIS!!";
+}
 /* Locked Bottom: */
-	#thread_filter {
-		position: fixed !important;
-		top: auto !important;
-		right: 2px !important;
-		bottom: 0 !important;
-		left: auto !important;
-		width: 248px;
-	}
+#thread_filter {
+position: fixed !important;
+top: auto !important;
+right: 2px !important;
+bottom: 0 !important;
+left: auto !important;
+width: 248px;
+}
 
-	#thread_filter>div:first-child  {
-		cursor: default !important;
-	}
+#thread_filter>div:first-child  {
+cursor: default !important;
+}
 
-	#thread_filter:not(.autohide) a[title="Auto-hide dialog box"]:after {
-		content: " - SET THIS!!";
-	}
+#thread_filter:not(.autohide) a[title="Auto-hide dialog box"]:after {
+content: " - SET THIS!!";
+}
 /* Moveable */
-	#thread_filter {
-		margin: 2px !important;
-		width: 248px;
-	}
+#thread_filter {
+margin: 2px !important;
+width: 248px;
+}
 /* End */
 
 /*[[boardlogo]]*/
 /* Board Name */
-	div.logo {
-		position: fixed !important;
-		right: 2px !important;
-		bottom: 370px !important;
-		width: 248px !important;
-		z-index: 1;
-		text-align: center;
-	}
+div.logo {
+position: fixed !important;
+right: 2px !important;
+bottom: 370px !important;
+width: 248px !important;
+z-index: 1;
+text-align: center;
+}
 
-	div.logo img {
-		display: none;
-	}
+div.logo img {
+display: none;
+}
 /* Logo */
-	div.logo>*:not(img) {
-		display: none;
-	}
+div.logo>*:not(img) {
+display: none;
+}
 
-	div.logo img {
-		position: fixed !important;
-		right: 2px !important;
-		bottom: 310px !important;
-		width: 248px !important;
-		height: auto !important;
-		z-index: 1;
-		opacity: 0.3;
-	}
+div.logo img {
+position: fixed !important;
+right: 2px !important;
+bottom: 310px !important;
+width: 248px !important;
+height: auto !important;
+z-index: 1;
+opacity: 0.3;
+}
 
-	div.logo img:hover {
-		opacity: 1;
-	}
+div.logo img:hover {
+opacity: 1;
+}
 /* Board Name + Logo */
-	div.logo {
-		position: fixed !important;
-		right: 2px !important;
-		bottom: 393px !important;
-		width: 248px !important;
-		z-index: 1;
-		text-align: center;
-	}
+div.logo {
+position: fixed !important;
+right: 2px !important;
+bottom: 393px !important;
+width: 248px !important;
+z-index: 1;
+text-align: center;
+}
 
-	div.logo img {
-		position: fixed !important;
-		right: 2px !important;
-		bottom: 310px !important;
-		width: 248px !important;
-		height: auto !important;
-		margin: 0 !important;
-		z-index: 1;
-		opacity: 0.3;
-	}
+div.logo img {
+position: fixed !important;
+right: 2px !important;
+bottom: 310px !important;
+width: 248px !important;
+height: auto !important;
+margin: 0 !important;
+z-index: 1;
+opacity: 0.3;
+}
 
-	div.logo img:hover {
-		opacity: 1;
-	}
+div.logo img:hover {
+opacity: 1;
+}
 /* Hide Both */
-	div.logo {
-		display: none;
-	}
+div.logo {
+display: none;
+}
 /* End */
 
 /*[[CrntBrdHlt]]*/
 /* Yes: */
 /* Current Board Navigation Highlight, mostly based off of CSS from 4chan ~ Momiji by !K.WeEabo0o. */
 @-moz-document url-prefix(http://boards.4chan.org/a/) {
-	#navtop>a[href*="/a/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/a/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/a/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/a/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/b/) {
-	#navtop>a[href*="/b/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/b/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/b/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/b/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/c/) {
-	#navtop>a[href*="/c/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/c/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/c/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/c/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/d/) {
-	#navtop>a[href*="/d/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/d/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/d/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/d/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/e/) {
-	#navtop>a[href*="/e/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/e/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/e/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/e/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/g/) {
-	#navtop>a[href*="/g/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/g/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/g/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/g/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/gif/) {
-	#navtop>a[href*="/gif/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/gif/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/gif/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/gif/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/h/) {
-	#navtop>a[href*="/h/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/h/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/h/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/h/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/hr/) {
-	#navtop>a[href*="/hr/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/hr/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/hr/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/hr/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/k/) {
-	#navtop>a[href*="/k/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/k/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/k/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/k/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/m/) {
-	#navtop>a[href*="/m/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/m/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/m/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/m/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/o/) {
-	#navtop>a[href*="/o/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/o/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/o/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/o/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/p/) {
-	#navtop>a[href*="/p/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/p/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/p/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/p/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/r/) {
-	#navtop>a[href*="/r/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/r/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/r/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/r/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/s/) {
-	#navtop>a[href*="/s/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/s/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/s/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/s/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/t/) {
-	#navtop>a[href*="/t/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/t/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/t/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/t/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/u/) {
-	#navtop>a[href*="/u/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/u"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/u/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/u"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/v/) {
-	#navtop>a[href*="/v/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/v/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/v/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/v/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/w/) {
-	#navtop>a[href*="/w/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/w/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/w/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/w/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/wg/) {
-	#navtop>a[href*="/wg/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/wg/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/wg/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/wg/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/i/) {
-	#navtop>a[href*="/i/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/i/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/i/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/i/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/ic/) {
-	#navtop>a[href*="/ic/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/ic/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/ic/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/ic/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/cm/) {
-	#navtop>a[href*="/cm/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/cm/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/cm/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/cm/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/y/) {
-	#navtop>a[href*="/y/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/y/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/y/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/y/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/3/) {
-	#navtop>a[href*="/3/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/3/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/3/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/3/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/adv/) {
-	#navtop>a[href*="/adv/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/adv/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/adv/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/adv/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/an/) {
-	#navtop>a[href*="/an/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/an/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/an/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/an/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/cgl/) {
-	#navtop>a[href*="/cgl/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/cgl/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/cgl/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/cgl/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/ck/) {
-	#navtop>a[href*="/ck/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important;}
-	#navtop>a[href*="/ck/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/ck/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important;}
+#navtop>a[href*="/ck/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/co/) {
-	#navtop>a[href*="/co/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/co/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/co/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/co/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/fa/) {
-	#navtop>a[href*="/fa/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/fa/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/fa/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/fa/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/fit/) {
-	#navtop>a[href*="/fit/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/fit/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/fit/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/fit/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/int/) {
-	#navtop>a[href*="/int/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/int/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/int/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/int/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/jp/) {
-	#navtop>a[href*="/jp/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/jp/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/jp/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/jp/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/lit/) {
-	#navtop>a[href*="/lit/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/lit/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/lit/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/lit/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/mu/) {
-	#navtop>a[href*="/mu/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/mu/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/mu/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/mu/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/n/) {
-	#navtop>a[href*="/n/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/n/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/n/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/n/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/po/) {
-	#navtop>a[href*="/po/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/po/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/po/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/po/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/sci/) {
-	#navtop>a[href*="/sci/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/sci/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/sci/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/sci/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/soc/) {
-	#navtop>a[href*="/soc/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/soc/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/soc/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/soc/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/sp/) {
-	#navtop>a[href*="/sp/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/sp/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/sp/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/sp/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/tg/) {
-	#navtop>a[href*="/tg/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/tg/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/tg/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/tg/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/toy/) {
-	#navtop>a[href*="/toy/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/toy/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/toy/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/toy/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/trv/) {
-	#navtop>a[href*="/trv/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/trv/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/trv/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/trv/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/tv/) {
-	#navtop>a[href*="/tv/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/tv/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/tv/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/tv/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/vp/) {
-	#navtop>a[href*="/vp/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/vp/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/vp/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/vp/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://rs.4chan.org/) {
-	#navtop>a[href*="rs."] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="rs."]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="rs."] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="rs."]:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/x/) {
-	#navtop>a[href*="/x/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/x/"]:hover { background: rgba(255,255,255,.15) !important; }
+#navtop>a[href*="/x/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+#navtop>a[href*="/x/"]:hover { background: rgba(255,255,255,.15) !important; }
 }
 /* No: */
 
