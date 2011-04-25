@@ -100,7 +100,7 @@ none
 /*[[PstfrmPstion]]*/
 /* Fixed: */
 		right: 2px !important;
-/* Slideout: */
+/* Slideout */
 		right: -233px !important;
 		-webkit-transition: right .3s ease-in-out 3s;
 		-moz-transition: right .3s ease-in-out 3s;
@@ -112,6 +112,47 @@ none
 		-webkit-transition: right .3s linear;
 		-moz-transition: right .3s linear;
 		-o-transition: right .3s linear;
+	}
+
+	.postarea form[name="post"] tr:nth-child(4) {
+		height: 79px !important;
+	}
+
+	.postarea textarea:focus {
+		position: fixed !important;
+		right: 2px !important;
+		bottom: 171px !important;
+/* Slideout 2: REQUIRES UBUNTU FONT / FX4 */
+		right: -250px !important;
+		-webkit-transition: right .3s ease-in-out 3s;
+		-moz-transition: right .3s ease-in-out 3s;
+		-o-transition: right .3s ease-in-out 3s;
+	}
+
+	.postarea form[name="post"]:hover {
+		right: 2px !important;
+		-webkit-transition: right .3s linear;
+		-moz-transition: right .3s linear;
+	}
+
+	.postarea form[name="post"]:after {
+		-moz-transform: rotate(-90deg);
+		-webkit-transform: rotate(-90deg);
+		position: fixed;
+		right: -100px;
+		bottom: 175px;
+		opacity: 1;
+		content: "--- Post Form - Post Form - Post Form ---";
+		-webkit-transition: all .3s ease-in-out 3s;
+		-moz-transition: all .3s ease-in-out 3s;
+	}
+
+	.postarea form[name="post"]:hover:after {
+		right: 150px;
+		opacity: 0;
+		-webkit-transition: all .3s linear;
+		-moz-transition: all .3s linear;
+		-o-transition: all .3s linear;
 	}
 
 	.postarea form[name="post"] tr:nth-child(4) {

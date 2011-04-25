@@ -584,7 +584,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		z-index: 1 !important;
 	}
 
-	#recaptcha_reload_btn {
+	.postarea form[name="post"] #recaptcha_reload_btn {
 		bottom: 61px !important;
 		right: -3px !important;
 	}
