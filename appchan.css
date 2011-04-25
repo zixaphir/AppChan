@@ -46,8 +46,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	.yui-g,
 	.warnicon,
 	#rules,
-	.postarea .rules,
-	.postarea small,
 	.postarea .refreshBtn,
 	#recaptcha_logo,
 	#recaptcha_tagline,
@@ -290,7 +288,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /* End of Navigation */
 /* Post Form */
-	.postarea form:not(#newform) {
+	.postarea form[name="post"] {
 		width: 249px;
 	}
 
@@ -316,7 +314,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 0 10px !important;
 	}
 
-	.postarea form:first-child {
+	.postarea form[name="post"] {
 		/* Post From Positioning */
 		position: fixed !important;
 		z-index: 2;
@@ -327,11 +325,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 /* Postform Labels */
-	.postarea .postblock,
 	.boxcontent .postblock,
-	#qr .postblock,
-	#quickrep .postblock,
-	div[id^=qr] .postblock {
+	form[name="post"] .postblock {
 		border: none !important;
 		background-color: transparent !important;
 		font-weight: 200 !important;
@@ -370,17 +365,17 @@ This style is designed for the following browsers, ordered alphabetically:
 		content: 'REPLY' !important;
 	}
 
-	.postarea tr .postblock b {
+	.postarea form[name="post"] tr .postblock b {
 		right: 3px;
 		margin-top: -1px;
 	}
 
 	.fake input[type="file"]::-webkit-file-upload-button,,
-	.postarea tr .postblock b {
+	.postarea form[name="post"] tr .postblock b {
 		margin-top: -2px;
 	}
 
-	.postarea tr:nth-of-type(3n) .postblock b {
+	.postarea form[name="post"] tr:nth-of-type(3n) .postblock b {
 		right: 54px;
 	}
 
@@ -393,7 +388,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.fake input[type="file"]::-webkit-file-upload-button, /* Cheating. Firefox Stylish will ignore this block */
-	.postarea tr:nth-of-type(6) .postblock b {
+	.postarea form[name="post"] tr:nth-of-type(6) .postblock b {
 		right: 3px !important;
 	}
 
@@ -439,9 +434,9 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin-left: 0 !important;
 	}
 
-	.postarea input[type="text"],
-	.postarea input[type="password"],
-	.postarea textarea {
+	.postarea form[name="post"] input[type="text"],
+	.postarea form[name="post"] input[type="password"],
+	.postarea form[name="post"] textarea {
 		width: 248px !important;
 		padding: 1px 0 1px 0 !important;
 	}
@@ -461,7 +456,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		height: 19px !important;
 	}
 
-	.postarea input[name="sub"],
 	input[type="file"][name="upfile"]>input[type="text"],
 	input[name="sub"] {
 		width: 197px !important;
@@ -496,7 +490,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		text-transform: uppercase;
 	}
 /* End of the file upload input */
-	.postarea textarea.inputtext,
 	form[name="post"] textarea {
 		height: 78px !important;
 		font-size: 10pt !important;
@@ -523,7 +516,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin-top: 1px !important;
 	}
 
-	.postarea td>input[name="upfile"] {
+	.postarea form[name="post"] td>input[name="upfile"] {
 		width: 248px !important;
 	}
 
@@ -551,14 +544,14 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 1px 0 0 0 !important;
 	}
 
-	.postarea .recaptcha_image_cell>center,
+	.postarea form[name="post"] .recaptcha_image_cell>center,
 	#r_captcha_div img,
 	#r_captcha_div input {
 		width: 248px !important;
 		text-align: left !important;
 	}
 
-	.postarea #recaptcha_widget_div {
+	.postarea form[name="post"] #recaptcha_widget_div {
 		height: 67px !important;
 		width: 248px !important;
 	}

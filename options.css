@@ -257,8 +257,8 @@
 		margin: 2px 0 0 !important;
 	}
 
-	.postarea .recaptcha_image_cell>center>#recaptcha_image,
-	.postarea #recaptcha_image img {
+	.postarea form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
+	.postarea form[name="post"] #recaptcha_image img {
 		width: 248px !important;
 		height: 47px !important;
 	}
@@ -459,8 +459,8 @@
 		margin: 2px 0 0 0 !important;
 	}
 
-	.postarea .recaptcha_image_cell>center>#recaptcha_image,
-	.postarea #recaptcha_image img {
+	.postarea form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
+	.postarea form[name="post"] #recaptcha_image img {
 		width: 246px !important;
 		height: 45px !important;
 	}
@@ -784,8 +784,8 @@
 		border-bottom: 1px #2c2c2c solid !important;
 	}
 
-	.postarea .recaptcha_image_cell>center>#recaptcha_image,
-	.postarea #recaptcha_image img {
+	.postarea form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
+	.postarea form[name="post"] #recaptcha_image img {
 		width: 246px !important;
 		height: 45px !important;
 	}
@@ -913,8 +913,8 @@
 		border: 0 !important;
 	}
 
-	.postarea .recaptcha_image_cell>center>#recaptcha_image,
-	.postarea #recaptcha_image img {
+	.postarea form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
+	.postarea form[name="post"] #recaptcha_image img {
 		width: 246px !important;
 		height: 45px !important;
 	}
@@ -975,14 +975,14 @@ none
 		-o-transition: right .3s ease-in-out 3s;
 	}
 
-	.postarea form:first-child:hover {
+	.postarea form[name="post"]:hover {
 		right: 2px !important;
 		-webkit-transition: right .3s linear;
 		-moz-transition: right .3s linear;
 		-o-transition: right .3s linear;
 	}
 
-	.postarea tr:nth-child(4) {
+	.postarea form[name="post"] tr:nth-child(4) {
 		height: 79px !important;
 	}
 
@@ -998,7 +998,7 @@ none
 		-o-transition: opacity .3s ease-in-out 3s;
 	}
 
-	.postarea form:first-child:hover {
+	.postarea form[name="post"]:hover {
 		opacity: 1;
 		-webkit-transition: opacity .3s linear;
 		-moz-transition: opacity .3s linear;
