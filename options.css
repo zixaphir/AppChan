@@ -139,16 +139,17 @@ none
 		-moz-transform: rotate(-90deg);
 		-webkit-transform: rotate(-90deg);
 		position: fixed;
-		right: -100px;
-		bottom: 175px;
+		font-size: 10px !important;
+		right: -91px;
+		bottom: 179px;
 		opacity: 1;
-		content: "--- Post Form - Post Form - Post Form ---";
+		content: "[- POST FORM - POST FORM - POST FORM -]";
 		-webkit-transition: all .3s ease-in-out 3s;
 		-moz-transition: all .3s ease-in-out 3s;
 	}
 
 	.postarea form[name="post"]:hover:after {
-		right: 150px;
+		right: 159px;
 		opacity: 0;
 		-webkit-transition: all .3s linear;
 		-moz-transition: all .3s linear;

@@ -29,7 +29,7 @@
 
 	scrollbar,
 	scrollcorner {
-		background: #3a3a39 !important;
+		background: #000 !important;
 	}
 
 	*,
@@ -136,6 +136,7 @@
 	}
 
 	tr .postblock b,
+	.postarea form[name="post"]:after,
 	label {
 		background: none !important;
 	}
