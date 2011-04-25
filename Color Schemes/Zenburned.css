@@ -150,11 +150,12 @@
 	}
 
 	select>* {
-		border: 0!important;
+		border: 0 !important;
 	}
 
 	.postarea form[name^="post"] td>input[name="upfile"] {
 		margin: 1px 0 -1px -1px !important;
+		height: 21px !important;
 	}
 
 	.postarea form[name^="post"] .recaptcha_image_cell>center>#recaptcha_image,
