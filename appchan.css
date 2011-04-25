@@ -290,7 +290,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /* End of Navigation */
 /* Post Form */
-	.postarea form[name="post"] {
+	.postarea form[name^="post"] {
 		width: 249px;
 	}
 
@@ -316,7 +316,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 0 10px !important;
 	}
 
-	.postarea form[name="post"] {
+	.postarea form[name^="post"] {
 		/* Post From Positioning */
 		position: fixed !important;
 		z-index: 2;
@@ -328,7 +328,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 /* Postform Labels */
 	.boxcontent .postblock,
-	form[name="post"] .postblock {
+	form[name^="post"] .postblock {
 		border: none !important;
 		background-color: transparent !important;
 		font-weight: 200 !important;
@@ -336,8 +336,12 @@ This style is designed for the following browsers, ordered alphabetically:
 		vertical-align: bottom;
 		padding-bottom: 12px !important;
 	}
+	
+	#qr form[name^="post"]  .postblock b {
+		margin-top: -13px !important;
+	}
 
-	form[name="post"] .postblock b,
+	form[name^="post"] .postblock b,
 	#maxchars /* 4chanplus's Character Counter */ {
 		position: absolute;
 		font-size: 9px !important;
@@ -345,11 +349,11 @@ This style is designed for the following browsers, ordered alphabetically:
 		z-index: 2;
 	}
 /* Custom Postform Labels */
-	form[name="post"] tr:nth-of-type(1) .postblock b:after {
+	form[name^="post"] tr:nth-of-type(1) .postblock b:after {
 		content: "#TRIPCODE##SECURETRIP";
 	}
 
-	form[name="post"] tr:nth-of-type(2) .postblock b:after {
+	form[name^="post"] tr:nth-of-type(2) .postblock b:after {
 		content: " | NOKO | SAGE";
 	}
 
@@ -367,35 +371,35 @@ This style is designed for the following browsers, ordered alphabetically:
 		content: 'REPLY' !important;
 	}
 
-	.postarea form[name="post"] tr .postblock b {
+	.postarea form[name^="post"] tr .postblock b {
 		right: 3px;
 		margin-top: -1px;
 	}
 
 	.fake input[type="file"]::-webkit-file-upload-button,,
-	.postarea form[name="post"] tr .postblock b {
+	.postarea form[name^="post"] tr .postblock b {
 		margin-top: -2px;
 	}
 
-	.postarea form[name="post"] tr:nth-of-type(3n) .postblock b {
+	.postarea form[name^="post"] tr:nth-of-type(3n) .postblock b {
 		right: 54px;
 	}
 
-	form[name="post"] tr .postblock b {
+	form[name^="post"] tr .postblock b {
 		right: 16px;
 	}
 
-	form[name="post"] tr:nth-of-type(3n) .postblock b {
+	form[name^="post"] tr:nth-of-type(3n) .postblock b {
 		right: 67px;
 	}
 
 	.fake input[type="file"]::-webkit-file-upload-button, /* Cheating. Firefox Stylish will ignore this block */
-	.postarea form[name="post"] tr:nth-of-type(6) .postblock b {
+	.postarea form[name^="post"] tr:nth-of-type(6) .postblock b {
 		right: 3px !important;
 	}
 
 	.fake input[type="file"]::-webkit-file-upload-button,
-	form[name="post"] tr:nth-of-type(6) .postblock b {
+	form[name^="post"] tr:nth-of-type(6) .postblock b {
 		right: 16px;
 	}
 /* End of Post Form Labels */
@@ -436,38 +440,38 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin-left: 0 !important;
 	}
 
-	.postarea form[name="post"] input[type="text"],
-	.postarea form[name="post"] input[type="password"],
-	.postarea form[name="post"] textarea {
+	.postarea form[name^="post"] input[type="text"],
+	.postarea form[name^="post"] input[type="password"],
+	.postarea form[name^="post"] textarea {
 		width: 248px !important;
 		padding: 1px 0 1px 0 !important;
 	}
 
-	form[name="post"] input[type="text"],
-	form[name="post"] input[type="password"],
-	form[name="post"] input[type="file"][name="upfile"]>input[type="text"],
-	form[name="post"] textarea {
+	form[name^="post"] input[type="text"],
+	form[name^="post"] input[type="password"],
+	form[name^="post"] input[type="file"][name="upfile"]>input[type="text"],
+	form[name^="post"] textarea {
 		width: 300px !important;
 		padding: 1px 0 1px 0 !important;
 	}
 
-	form[name="post"] input[type="text"],
-	form[name="post"] input[type="password"],
+	form[name^="post"] input[type="text"],
+	form[name^="post"] input[type="password"],
 	input[type="file"][name="upfile"]>input[type="text"],
 	input[type="file"]>input[type="button"] {
 		height: 19px !important;
 	}
 
-	.postarea form[name="post"] input[type="file"][name="upfile"]>input[type="text"],
-	.postarea form[name="post"] input[name="sub"] {
+	.postarea form[name^="post"] input[type="file"][name="upfile"]>input[type="text"],
+	.postarea form[name^="post"] input[name="sub"] {
 		width: 197px !important;
-		margin: 0 1px 0 0 !important;
-		vertical-align: bottom;
 	}
 
-	form[name="post"] input[name="sub"],
-	form[name="post"] input[type="file"][name="upfile"]>input[type="text"] {
+	form[name^="post"] input[name="sub"],
+	form[name^="post"] input[type="file"][name="upfile"]>input[type="text"] {
 		width: 249px !important;
+		margin: 0 1px 0 0 !important;
+		vertical-align: bottom;
 	}
 
 	input[type="submit"],
@@ -492,14 +496,14 @@ This style is designed for the following browsers, ordered alphabetically:
 		text-transform: uppercase;
 	}
 /* End of the file upload input */
-	.postarea form[name="post"] textarea {
+	.postarea form[name^="post"] textarea {
 		height: 78px !important;
 		font-size: 10pt !important;
 		resize: none;
 		margin: 0 !important;
 	}
 
-	form[name="post"] textarea {
+	form[name^="post"] textarea {
 		height: 120px !important;
 		margin: 0 !important;
 	}
@@ -512,23 +516,23 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#thread_filter input,
-	.postarea form[name="post"] input[name="sub"],
-	.postarea form[name="post"] textarea.inputtext,
-	.postarea form[name="post"] td>input,
-	.postarea form[name="post"] .recaptchatable {
+	.postarea form[name^="post"] input[name="sub"],
+	.postarea form[name^="post"] textarea.inputtext,
+	.postarea form[name^="post"] td>input,
+	.postarea form[name^="post"] .recaptchatable {
 		margin-top: 1px !important;
 	}
 
-	.postarea form[name="post"] td>input[name="upfile"] {
+	.postarea form[name^="post"] td>input[name="upfile"] {
 		width: 248px !important;
 	}
 
 	.fake input[type="file"]::-webkit-file-upload-button,
-	.postarea form[name="post"] td>input[name="upfile"] {
+	.postarea form[name^="post"] td>input[name="upfile"] {
 		margin: 1px 0 0 !important;
 	}
 
-	form[name="post"] input[type=file][name="upfile"] {
+	form[name^="post"] input[type=file][name="upfile"] {
 		width: 300px !important;
 		margin: 0 !important;
 	}
@@ -547,14 +551,14 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 1px 0 0 0 !important;
 	}
 
-	.postarea form[name="post"] .recaptcha_image_cell>center,
+	.postarea form[name^="post"] .recaptcha_image_cell>center,
 	#r_captcha_div img,
 	#r_captcha_div input {
 		width: 248px !important;
 		text-align: left !important;
 	}
 
-	.postarea form[name="post"] #recaptcha_widget_div {
+	.postarea form[name^="post"] #recaptcha_widget_div {
 		height: 67px !important;
 		width: 248px !important;
 	}
@@ -562,7 +566,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postarea .recaptcha_image_cell>center,
 	.postarea .recaptcha_image_cell,
 	tr[height="73"] td,
-	form[name="post"] tr[height="73"] {
+	form[name^="post"] tr[height="73"] {
 		height: auto !important;
 	}
 
@@ -584,12 +588,12 @@ This style is designed for the following browsers, ordered alphabetically:
 		z-index: 1 !important;
 	}
 
-	.postarea form[name="post"] #recaptcha_reload_btn {
+	.postarea form[name^="post"] #recaptcha_reload_btn {
 		bottom: 61px !important;
 		right: -3px !important;
 	}
 
-	form[name="post"] #recaptcha_reload_btn,
+	form[name^="post"] #recaptcha_reload_btn,
 	.refreshBtn {
 		bottom: 71px !important;
 		right: 7px !important;

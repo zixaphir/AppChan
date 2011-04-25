@@ -84,8 +84,8 @@
 		background-color: #eee !important;
 	}
 
-	form[name="post"] .postblock b,
-	.postarea form[name="post"]:after,
+	form[name^="post"] .postblock b,
+	.postarea form[name^="post"]:after,
 	#maxchars,
 	.postarea tr:nth-child(4)>.postblock>b:after {
 		color: rgba(0,0,0,0.5) !important;
@@ -100,7 +100,7 @@
 		border-bottom: 1px #fff solid !important;
 	}
 
-	.postarea form[name="post"] td>input[name="upfile"] {
+	.postarea form[name^="post"] td>input[name="upfile"] {
 		margin: 1px 0 -1px -1px !important;
 	}
 
@@ -113,14 +113,14 @@
 		border: 0 !important;
 	}
 
-	.postarea form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
-	.postarea form[name="post"] #recaptcha_image img {
+	.postarea form[name^="post"] .recaptcha_image_cell>center>#recaptcha_image,
+	.postarea form[name^="post"] #recaptcha_image img {
 		width: 246px !important;
 		height: 45px !important;
 	}
 
-	form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
-	form[name="post"] #recaptcha_image img {
+	form[name^="post"] .recaptcha_image_cell>center>#recaptcha_image,
+	form[name^="post"] #recaptcha_image img {
 		width: 298px !important;
 	}
 

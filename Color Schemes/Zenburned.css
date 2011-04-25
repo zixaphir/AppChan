@@ -1,11 +1,11 @@
 /* Zenburned */
 	::-webkit-scrollbar-thumb {
-		border: #4f4f4f !important;
+		border: 1px solid #4f4f4f !important;
 		background: #3f3f3f;
 	}
 
 	::-webkit-scrollbar-thumb:hover {
-		background: #3f3f3f;
+		background: #4f4f4f;
 	}
 
 	::-webkit-scrollbar-thumb:active {
@@ -123,7 +123,7 @@
 	.deletebuttons>input[type="submit"],
 	input[type="text"],
 	input[type="password"],
-	input:not([type="checkbox"]):not([name="upfile"]),
+	input:not([type="checkbox"]),
 	#thread_filter input:not([type="checkbox"]),
 	#updater input:not([type="checkbox"]),
 	#thread_filter textarea,
@@ -136,7 +136,7 @@
 	}
 
 	tr .postblock b,
-	.postarea form[name="post"]:after,
+	.postarea form[name^="post"]:after,
 	label {
 		background: none !important;
 	}
@@ -153,19 +153,20 @@
 		border: 0!important;
 	}
 
-	.postarea form[name="post"] td>input[name="upfile"] {
+	.postarea form[name^="post"] td>input[name="upfile"] {
 		margin: 2px 0 0 0 !important;
 	}
 
-	.postarea form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
-	.postarea form[name="post"] #recaptcha_image img {
+	.postarea form[name^="post"] .recaptcha_image_cell>center>#recaptcha_image,
+	.postarea form[name^="post"] #recaptcha_image img {
 		width: 246px !important;
 		height: 45px !important;
 	}
 
-	form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
-	form[name="post"] #recaptcha_image img {
+	form[name^="post"] .recaptcha_image_cell>center>#recaptcha_image,
+	form[name^="post"] #recaptcha_image img {
 		width: 298px !important;
+		height: 55px !important;
 	}
 
 	form[name="delform"]>div:not(.thread) select,
