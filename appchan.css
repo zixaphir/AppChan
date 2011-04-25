@@ -988,6 +988,18 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 248px !important;
 	}
 
+	#backwash_tooltip,
+	#popup,
+	div[id^=ref],
+	td.reply,
+	td.replyhl,
+	#options,
+	#navbar,
+	#popup,
+	#boardsMenu {
+		border: 0 !important;
+	}
+
 	#watcher,
 	#threadwatcher /* 4chan4chrome's threadwatcher */ {
 		border: 0 !important;

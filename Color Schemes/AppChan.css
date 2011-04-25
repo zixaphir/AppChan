@@ -264,19 +264,6 @@
 		height: 47px !important;
 	}
 
-
-	#backwash_tooltip,
-	#popup,
-	div[id^=ref],
-	td.reply,
-	td.replyhl,
-	#options,
-	#navbar,
-	#popup,
-	#boardsMenu {
-		border: 0 !important;
-	}
-
 	.boxcontent dd,
 	#threadwatcher .postblock {
 		border-top-color: #2c2c2c !important;
