@@ -19,6 +19,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	* Google Chrome 10 or higher / Chromium latest / Canary latest
 	* Mozilla Firefox 4.x or higher / Aurora latest / Nightly latest
 */
+/*[[CustomScrollbars]]*/
 
 @-moz-document domain(boards.4chan.org) {
 /* Silhouette / Background Image */
@@ -26,6 +27,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: /*[[background]]*/ no-repeat fixed 100% 100% !important;
 	}
 }
+
 @-moz-document domain("4chan.org") {
 	scrollbarbutton,
 	html body span[style="left: 5px; position: absolute;"],
