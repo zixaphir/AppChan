@@ -223,6 +223,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 100% !important;
 		text-align: center !important;
 		border-spacing: 0 !important;
+		padding-right: 250px !important;
 		right: 0 !important;
 		z-index: 1;
 	}
@@ -240,6 +241,10 @@ This style is designed for the following browsers, ordered alphabetically:
 	.pages,
 	.pages * {
 		border: none !important;
+	}
+
+	.pages td {
+		padding: 0 !important;
 	}
 
 	.pages td:nth-of-type(1) {
@@ -453,8 +458,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		height: 19px !important;
 	}
 
-	input[type="file"][name="upfile"]>input[type="text"],
-	input[name="sub"] {
+	.postarea form[name="post"] input[type="file"][name="upfile"]>input[type="text"],
+	.postarea form[name="post"] input[name="sub"] {
 		width: 197px !important;
 		margin: 0 1px 0 0 !important;
 		vertical-align: bottom;
@@ -487,7 +492,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		text-transform: uppercase;
 	}
 /* End of the file upload input */
-	form[name="post"] textarea {
+	.postarea form[name="post"] textarea {
 		height: 78px !important;
 		font-size: 10pt !important;
 		resize: none;
@@ -496,6 +501,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	form[name="post"] textarea {
 		height: 120px !important;
+		margin: 0 !important;
 	}
 
 	.postarea td,
@@ -506,10 +512,10 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#thread_filter input,
-	.postarea input[name="sub"],
-	.postarea textarea.inputtext,
-	.postarea td>input,
-	.postarea .recaptchatable {
+	.postarea form[name="post"] input[name="sub"],
+	.postarea form[name="post"] textarea.inputtext,
+	.postarea form[name="post"] td>input,
+	.postarea form[name="post"] .recaptchatable {
 		margin-top: 1px !important;
 	}
 
@@ -518,7 +524,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.fake input[type="file"]::-webkit-file-upload-button,
-	.postarea td>input[name="upfile"] {
+	.postarea form[name="post"] td>input[name="upfile"] {
 		margin: 1px 0 0 !important;
 	}
 
@@ -843,7 +849,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		bottom: auto !important;
 		width: 145px;
 		font-size: 12px !important;
-		z-index: 1;
+		z-index: 2;
 	}
 
 	form[name="delform"]>div:not(.thread):not(.insertedPosts) input {
@@ -1074,6 +1080,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#ft ul {
 		min-width: 0 !important;
 		max-width: 1280px !important;
+		width: auto !important;
 	}
 
 	#ft ul {

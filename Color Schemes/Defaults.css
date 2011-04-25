@@ -1,0 +1,130 @@
+/* Defaults: */
+	::-webkit-scrollbar-thumb {
+		border: 1px solid #aaa;
+		background: #fff;
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+		background: #ccc;
+	}
+
+	::-webkit-scrollbar-thumb:active {
+		background: #aaa;
+	}
+
+	::-webkit-scrollbar-track-piece,
+	::-webkit-scrollbar-corner,
+	::-webkit-scrollbar-resizer {
+		background: #ccc;
+	}
+
+	thumb {
+		-moz-appearance: none !important;
+		border: 1px solid #aaa;
+		background: #fff;
+	}
+
+	thumb:hover {
+		background: #ccc;
+	}
+
+	thumb:active {
+		background: #aaa;
+	}
+
+	scrollbar,
+	scrollcorner {
+		background: #ccc !important;
+	}
+
+	#ft li,
+	#ft ul,
+	#options input:not([type="checkbox"]),
+	#updater input:not([type="checkbox"]),
+	.box-outer,
+	.boxbar,
+	.deletebuttons input[value=Delete],
+	.recaptcha_image_cell>center>#recaptcha_image,
+	.recaptchatable #recaptcha_response_field,
+	.top-box,
+	h2,
+	input:not([type="checkbox"]),
+	input[type="file"]>input[type="button"],
+	input[type="submit"],
+	select,
+	textarea {
+		border: 1px solid #ccc !important;
+	}
+
+	#qr input[type="checkbox"],
+	input[type="checkbox"] {
+		border: none !important;
+		color: #aaa !important;
+	}
+
+	#updater #count:not(.new):after,
+	form[name="delform"] div:not(.thread) label:after {
+		color: #000 !important;
+	}
+
+	.pages b {
+		background: rgba(0,0,0,0.3) !important;
+	}
+
+	#header a:hover,
+	.pages input:hover,
+	a:hover {
+	/* URL bubbles */
+		background: rgba(0,0,0,.2) !important;
+	}
+
+	#backwash_tooltip,
+	#popup,
+	div[id^=ref] {
+		background-color: #eee !important;
+	}
+
+	form[name="post"] .postblock b,
+	#maxchars,
+	.postarea tr:nth-child(4)>.postblock>b:after {
+		color: rgba(0,0,0,0.5) !important;
+	}
+
+	#watcher .move,
+	#threadwatcher .postblock {
+		border-color: #fff !important;
+	}
+
+	#watcher .move {
+		border-bottom: 1px #fff solid !important;
+	}
+
+	.postarea form[name="post"] td>input[name="upfile"] {
+		margin: 1px 0 -1px -1px !important;
+	}
+
+	td.reply,
+	td.replyhl,
+	#options,
+	#navbar,
+	#popup,
+	#boardsMenu {
+		border: 0 !important;
+	}
+
+	.postarea form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
+	.postarea form[name="post"] #recaptcha_image img {
+		width: 246px !important;
+		height: 45px !important;
+	}
+
+	form[name="post"] .recaptcha_image_cell>center>#recaptcha_image,
+	form[name="post"] .recaptcha_image_cell>center>#recaptcha_image img {
+		width: 298px !important;
+	}
+
+	form[name="delform"]>div:not(.thread) select,
+	.pages input[type="submit"] {
+		margin: 0 !important;
+		height: 17px !important;
+	}
