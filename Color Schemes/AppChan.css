@@ -157,7 +157,7 @@
 
 	input[type=checkbox],
 	#options input[type=checkbox] {
-		border-radius: 9px !important;
+		border-radius: 2px !important;
 		background: #444 !important;
 	}
 

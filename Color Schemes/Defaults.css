@@ -48,11 +48,16 @@
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	h2,
-	input:not([type="checkbox"]),
+	input:not([type="checkbox"]):not([name="upfile"]),
 	input[type="file"]>input[type="button"],
 	input[type="submit"],
 	select,
 	textarea {
+		border: 1px solid #ccc !important;
+	}
+
+	.fake input[type="file"]::-webkit-file-upload-button,
+	input[name="upfile"] {
 		border: 1px solid #ccc !important;
 	}
 
@@ -99,9 +104,9 @@
 	#watcher .move {
 		border-bottom: 1px #fff solid !important;
 	}
-
+	
 	.postarea form[name^="post"] td>input[name="upfile"] {
-		margin: 1px 0 -1px -1px !important;
+		margin: 2px 0 0 !important;
 	}
 
 	td.reply,

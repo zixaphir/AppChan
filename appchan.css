@@ -373,7 +373,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin-top: -1px;
 	}
 
-	.fake input[type="file"]::-webkit-file-upload-button,,
+	.fake input[type="file"]::-webkit-file-upload-button,
 	.postarea form[name^="post"] tr .postblock b {
 		margin-top: -2px;
 	}
@@ -652,15 +652,13 @@ This style is designed for the following browsers, ordered alphabetically:
 		vertical-align: middle;
 	}
 /* Quick Reply Auto? */
-	#qr label:nth-of-type(1) {
-		position: absolute !important;
+	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label:nth-of-type(1) {
 		right: 100px;
 	}
 
-	#qr label:nth-of-type(2) {
-		position: absolute !important;
-		right: 97px;
-		top: 279px;
+	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label:nth-of-type(2) {
+		bottom: 14px;
+		right: 70px;
 	}
 
 	div.postarea>form td:nth-of-type(3)>label input,

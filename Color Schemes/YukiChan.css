@@ -253,7 +253,7 @@
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	h2,
-	input:not([type="checkbox"]),
+	input:not([type="checkbox"]):not([name="upfile"]),
 	input[type="file"]>input[type="button"],
 	input[type="submit"],
 	select,
@@ -262,9 +262,14 @@
 		text-shadow: -1px -1px 3px #5f608b, 1px 1px 3px #5f608b, 1px -1px 3px #5f608b, -1px 1px 3px #5f608b;
 	}
 
+	.fake input[type="file"]::-webkit-file-upload-button,
+	input[name="upfile"] {
+		border: 1px solid #313c5a !important;
+		text-shadow: -1px -1px 3px #5f608b, 1px 1px 3px #5f608b, 1px -1px 3px #5f608b, -1px 1px 3px #5f608b;
+	}
+	
 	.postarea form[name^="post"] td>input[name="upfile"] {
-		margin: 1px 0 -1px -1px !important;
-		height: 19px !important;
+		margin: 2px 0 0 !important;
 	}
 
 	td.reply,

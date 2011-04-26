@@ -123,7 +123,7 @@
 	.deletebuttons>input[type="submit"],
 	input[type="text"],
 	input[type="password"],
-	input:not([type="checkbox"]),
+	input:not([type="checkbox"]):not([name="upfile"]),
 	#thread_filter input:not([type="checkbox"]),
 	#updater input:not([type="checkbox"]),
 	#thread_filter textarea,
@@ -133,6 +133,28 @@
 		-webkit-appearance: none;
 		border: 1px solid #888 !important;
 		height: 19px !important;
+	}
+	
+	.deletebuttons>input[type="submit"]:focus,
+	input[type="text"]:focus,
+	input[type="password"]:focus,
+	input:not([type="checkbox"]):not([name="upfile"]):focus,
+	#thread_filter input:not([type="checkbox"]):focus,
+	#updater input:not([type="checkbox"]):focus,
+	#thread_filter textarea:focus,
+	#options input:focus,
+	textarea:focus {
+		border: 1px solid #9988ee !important;
+	}
+
+	.fake input[type="file"]::-webkit-file-upload-button,
+	input[name="upfile"] {
+		border: 1px solid #888 !important;
+	}
+
+	.fake input[type="file"]::-webkit-file-upload-button,
+	input[name="upfile"]:focus {
+		border: 1px solid #9988ee !important;
 	}
 
 	tr .postblock b,
@@ -152,10 +174,9 @@
 	select>* {
 		border: 0 !important;
 	}
-
+	
 	.postarea form[name^="post"] td>input[name="upfile"] {
-		margin: 1px 0 -1px -1px !important;
-		height: 21px !important;
+		margin: 2px 0 0 !important;
 	}
 
 	.postarea form[name^="post"] .recaptcha_image_cell>center>#recaptcha_image,
