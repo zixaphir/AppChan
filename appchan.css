@@ -688,7 +688,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /* Posts */
 	form[name="delform"] {
-		pading: 17px 0 0 !important;
+		padding: 17px 0 0 !important;
 	}
 
 	form[name="delform"]>table:not(.pages), /* Reply are tables. */
@@ -733,12 +733,12 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	.doubledash {
 		visibility: hidden;
-		position: absolute;
-		right: 255px;
 	}
 
 	.doubledash a {
 		visibility: visible;
+		position: absolute;
+		right: 255px;
 	}
 
 	.doubledash a:hover {
