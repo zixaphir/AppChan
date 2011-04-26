@@ -118,8 +118,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		border: 1px solid;
 	}
 
-/*[[ColorScheme]]*/
-
 	html,
 	body,
 	#copyright {
@@ -333,7 +331,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		vertical-align: bottom;
 		padding-bottom: 12px !important;
 	}
-	
+
 	#qr form[name^="post"]  .postblock b {
 		margin-top: -13px !important;
 	}
@@ -441,7 +439,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postarea form[name^="post"] input[type="password"],
 	.postarea form[name^="post"] textarea {
 		width: 248px !important;
-		padding: 1px 0 1px 0 !important;
 	}
 
 	form[name^="post"] input[type="text"],
@@ -450,6 +447,10 @@ This style is designed for the following browsers, ordered alphabetically:
 	form[name^="post"] textarea {
 		width: 300px !important;
 		padding: 1px 0 1px 0 !important;
+	}
+
+	.postarea form[name^="post"] td>input[name="upfile"] {
+		margin: 2px 0 0 !important;
 	}
 
 	form[name^="post"] input[type="text"],
@@ -1030,6 +1031,9 @@ This style is designed for the following browsers, ordered alphabetically:
 	#options .move {
 		cursor: default !important;
 	}
+
+/*[[ColorScheme]]*/
+
 /* Adblock */
 	img[src^="http://static.4chan.org/support/"] {
 		display: none;

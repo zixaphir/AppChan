@@ -134,7 +134,7 @@
 		border: 1px solid #888 !important;
 		height: 19px !important;
 	}
-	
+
 	.deletebuttons>input[type="submit"]:focus,
 	input[type="text"]:focus,
 	input[type="password"]:focus,
@@ -174,9 +174,12 @@
 	select>* {
 		border: 0 !important;
 	}
-	
-	.postarea form[name^="post"] td>input[name="upfile"] {
-		margin: 2px 0 0 !important;
+
+	.postarea form[name="post"]:after {
+		background-color: #3f3f3f !important;
+		border: #888 solid;
+		border-width: 1px 1px 0 1px;
+		border-radius: 6px 6px 0 0;
 	}
 
 	.postarea form[name^="post"] .recaptcha_image_cell>center>#recaptcha_image,

@@ -104,9 +104,12 @@
 	#watcher .move {
 		border-bottom: 1px #fff solid !important;
 	}
-	
-	.postarea form[name^="post"] td>input[name="upfile"] {
-		margin: 2px 0 0 !important;
+
+	.postarea form[name="post"]:after {
+		background-color: #fff !important;
+		border: #ccc solid;
+		border-width: 1px 1px 0 1px;
+		border-radius: 6px 6px 0 0;
 	}
 
 	td.reply,

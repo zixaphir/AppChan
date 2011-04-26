@@ -267,10 +267,6 @@
 		border: 1px solid #313c5a !important;
 		text-shadow: -1px -1px 3px #5f608b, 1px 1px 3px #5f608b, 1px -1px 3px #5f608b, -1px 1px 3px #5f608b;
 	}
-	
-	.postarea form[name^="post"] td>input[name="upfile"] {
-		margin: 2px 0 0 !important;
-	}
 
 	td.reply,
 	td.replyhl,
@@ -292,14 +288,21 @@
 
 	.boxcontent dd,
 	#threadwatcher .postblock {
-		border-top-color: #2c2c2c !important;
-		border-right-color: #2c2c2c !important;
-		border-bottom-color: #2c2c2c !important;
-		border-left-color: #2c2c2c !important;
+		border-top-color: #313c5a !important;
+		border-right-color: #313c5a !important;
+		border-bottom-color: #313c5a !important;
+		border-left-color: #313c5a !important;
 	}
 
 	#watcher .move {
-		border-bottom: 1px #2c2c2c solid !important;
+		border-bottom: 1px #313c5a solid !important;
+	}
+
+	.postarea form[name="post"]:after {
+		background-color: #686a99 !important;
+		border: #313c5a solid;
+		border-width: 1px 1px 0 1px;
+		border-radius: 6px 6px 0 0;
 	}
 
 	.postarea form[name^="post"] .recaptcha_image_cell>center>#recaptcha_image,

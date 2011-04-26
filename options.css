@@ -137,15 +137,18 @@ none
 		-moz-transform-origin: bottom left;
 		-webkit-transform: rotate(-90deg);
 		-webkit-transform-origin: bottom left;
+		width: 210px;
 		display: block;
 		font-size: 10px !important;
-		margin-top: -12px !important;
+		margin-right: 40px !important;
+		margin-top: -31px !important;
+		margin-bottom: 18px;
 		opacity: 1;
-		content: "[- POST FORM - POST FORM - POST FORM -]";
+		content: "- POST FORM - POST FORM - POST FORM -";
 		-moz-transition: all .3s ease-in-out 3s;
 	}
 
-	.postarea form[name="post"]:after:hover {
+	.postarea form[name="post"]:hover:after {
 		opacity: 0;
 		-moz-transition: all .3s linear;
 	}
@@ -157,7 +160,7 @@ none
 	.postarea textarea:focus {
 		position: fixed !important;
 		right: 2px !important;
-		bottom: 172px !important;
+		bottom: 171px !important;
 /* Transparent to Opaque: */
 		right: 2px !important;
 		opacity: 0.2;
