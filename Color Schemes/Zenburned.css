@@ -40,7 +40,7 @@
 
 
 	#updater #count:not(.new):after,
-	form[name="delform"] div:not(.thread) label:after,
+	#imgControls label:after,
 	.postarea tr:nth-child(4)>.postblock>b:after,
 	* {
 		color: #ccc !important;
@@ -80,10 +80,7 @@
 
 	.boxcontent dd,
 	#threadwatcher .postblock {
-		border-top-color: #4f4f4f !important;
-		border-right-color: #4f4f4f !important;
-		border-bottom-color: #4f4f4f !important;
-		border-left-color: #4f4f4f !important;
+		border-color: #4f4f4f !important;
 	}
 
 	#watcher .move {

@@ -19,32 +19,51 @@
 		border: 1px solid #313c5a !important;
 	}
 
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6,
-	.boxbar h2 {
-		color: #313C5a !important;
+	scrollbar,
+	scrollcorner {
+		background: #686a99 !important;
+	}
+
+	thumb {
+		background: #5f608b !important;
+		border-radius: 10px !important;
+		border: 1px solid #313c5a !important;
+	}
+
+	thumb:hover {
+		background: #4f507b !important;
+	}
+
+	input[type="checkbox"]:checked,
+	#options input[type="checkbox"]:checked,
+	thumb:active {
+		background: rgba(255,255,255,.4) !important;
 	}
 
 	a {
 		color: #242949 !important;
 	}
 
-	a:hover,
-	a:active {
-		color: #1e1f3d !important;
-	}
-
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	.boxbar h2,
 	.filesize,
 	.filesize a,
 	a.linkmail,
 	a.quotejs,
 	.omittedposts,
-	.abbr {
-		color: #313C5a !important;
+	.postername,
+	.commentpostername,
+	.postertrip,
+	.abbr,
+	.doubledash a,
+	td.reply,
+	td.replyhl {
+		color: #313c5a !important;
 	}
 
 	span.filetitle, .replytitle {
@@ -52,44 +71,26 @@
 	}
 
 	.postername,
-	.commentpostername {
-		color: #313C5a !important;
-		font-weight: 800;
-	}
-
-	.commentpostername span[style="color:#800080"],
-	b[style="color:red;"] {
-		color: #000 !important;
-	}
-
+	.commentpostername,
 	table .commentpostername a.linkmail[href$="sage"]:after {
-		color: #000 !important;
 		font-weight: 700;
 	}
 
-	.postertrip {
-		color: #313c5a !important;
+	b[style="color:red;"],
+	.commentpostername span[style="color:#800080"],
+	b[style="color:red;"] {
+		color: #000 !important;
 	}
 
 	.unkfunc {
 		color: #613 !important;
 	}
 
-	.doubledash a {
-		color: #313C5a !important;
-	}
-
-	.doubledash a:hover {
-		color: #1e1f3d !important;
-	}
-
-	b[style="color:red;"] {
-		color: #000 !important;
-	}
-
 	*,
 	#updater #count:not(.new):after,
-	form[name="delform"] div:not(.thread) label:after {
+	#imgControls label:after,
+	a:hover,
+	a:active {
 		color: #1e1f3d !important;
 	}
 
@@ -97,14 +98,14 @@
 	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
 	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
 	#autonoko {
-		color: #313C5a !important;
+		color: #313c5a !important;
 		text-shadow: -1px -1px 2px #5f608b, 1px 1px 2px #5f608b, 1px -1px 2px #5f608b, -1px 1px 2px #5f608b;
 	}
 
 	input[type="file"]::-webkit-file-upload-button {
 		background: transparent;
 		border: 2px solid #5f608b !important;
-		color: #313C5a;
+		color: #1e1f3d !important;
 		text-shadow: -1px -1px 2px #5f608b, 1px 1px 2px #5f608b, 1px -1px 2px #5f608b, -1px 1px 2px #5f608b;
 	}
 
@@ -138,11 +139,6 @@
 		background-color: #686a99 !important;
 	}
 
-	scrollbar,
-	scrollcorner {
-		background: #686a99 !important;
-	}
-
 	#header,
 	#options input,
 	#options input[type=checkbox],
@@ -169,11 +165,6 @@
 		background-color: #5f608b !important;
 	}
 
-	td.reply,
-	td.replyhl {
-		color: #313C5a !important;
-	}
-
 	#backwash_tooltip,
 	#updater:hover,
 	#thread_filter.autohide:hover,
@@ -198,24 +189,8 @@
 		border-radius: 2px !important;
 	}
 
-	input[type="checkbox"]:checked,
-	#options input[type="checkbox"]:checked,
-	thumb:active {
-		background: rgba(255,255,255,.4) !important;
-	}
-
-	thumb {
-		background: #5f608b !important;
-		border-radius: 10px !important;
-		border: 1px solid #313c5a !important;
-	}
-
 	#crntBoard {
 		border-right-color: #1e1f3d !important;
-	}
-
-	thumb:hover {
-		background: #4f507b !important;
 	}
 
 	.pages b {
@@ -288,10 +263,7 @@
 
 	.boxcontent dd,
 	#threadwatcher .postblock {
-		border-top-color: #313c5a !important;
-		border-right-color: #313c5a !important;
-		border-bottom-color: #313c5a !important;
-		border-left-color: #313c5a !important;
+		border-color: #313c5a !important;
 	}
 
 	#watcher .move {
@@ -314,6 +286,7 @@
 	form[name^="post"] .recaptcha_image_cell>center>#recaptcha_image,
 	form[name^="post"] #recaptcha_image img {
 		width: 298px !important;
+		height: 55px !important;
 	}
 
 	form[name="delform"]>div:not(.thread) select,

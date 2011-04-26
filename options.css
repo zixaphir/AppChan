@@ -160,7 +160,8 @@ none
 	.postarea textarea:focus {
 		position: fixed !important;
 		right: 2px !important;
-		bottom: 171px !important;
+		bottom: 172px !important;
+		z-index: 3;
 /* Transparent to Opaque: */
 		right: 2px !important;
 		opacity: 0.2;

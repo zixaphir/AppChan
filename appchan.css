@@ -684,8 +684,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /* Posts */
 	form[name="delform"] {
-		padding: 17px 254px 0 0 !important;
-		margin: 0 !important;
+		pading: 0 !important;;
+		margin: 17px 254px 0 0 !important;
 	}
 
 	form[name="delform"]>table:not(.pages), /* Reply are tables. */
@@ -836,7 +836,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 /* Expand Images div */
-	form[name="delform"]>div:not(.thread):not(.insertedPosts):first-child {
+	#imgControls {
 		position: fixed;
 		top: 0;
 		right: 106px;
@@ -846,32 +846,32 @@ This style is designed for the following browsers, ordered alphabetically:
 		z-index: 2;
 	}
 
-	form[name="delform"]>div:not(.thread):not(.insertedPosts) input {
+	#imgControls input {
 		width: 10px !important;
 		height: 10px !important;
 		margin: 4px 1px !important;
 		vertical-align: top !important;
 	}
 
-	form[name="delform"]>div:not(.thread) label {
+	#imgControls label {
 		font-size: 0px !important;
 		color: transparent  !important;
 	}
 
-	form[name="delform"] div:not(.thread) label:after {
+	#imgControls label:after {
 		font-size: 12px !important;
 		content: "Expand";
 	}
 
-	form[name="delform"]>div:not(.thread) select {
+	#imgControls select {
 		float: right !important;
 	}
 
-	form[name="delform"]>div:not(.thread) select>button {
+	#imgControls select>button {
 		opacity: 0;
 	}
 
-	form[name="delform"]>div:not(.thread) select>option {
+	#imgControls select>option {
 		font-size: 10px !important;
 	}
 /* End of Expand Images div */

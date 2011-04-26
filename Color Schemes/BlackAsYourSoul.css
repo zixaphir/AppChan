@@ -1,6 +1,7 @@
-/* AppChan: */
+/* Black As Your SOUL */
 	::-webkit-scrollbar-thumb {
-		border: #2c2c2c !important;
+		border: #101010 !important;
+		background: #262626;
 	}
 
 	::-webkit-scrollbar-thumb:hover {
@@ -14,17 +15,32 @@
 	::-webkit-scrollbar-track-piece,
 	::-webkit-scrollbar-corner,
 	::-webkit-scrollbar-resizer {
-		background: #333;
+		background: #1c1c1c;
 	}
 
-	::-webkit-scrollbar-thumb {
+	scrollbar,
+	scrollcorner {
+		background: #1c1c1c;
+	}
+
+	thumb:active {
+		background: -moz-linear-gradient(top, rgba(255,255,255,0.3), rgba(255,255,255,0.1)) !important;
+	}
+
+	thumb {
+		border-color: #101010 !important;
 		background: #262626;
+	}
+
+	thumb:hover {
+		background: -moz-linear-gradient(top, rgba(255,255,255,.4), rgba(255,255,255,0.2)) !important;
 	}
 
 	*,
 	#updater #count:not(.new):after,
 	#imgControls label:after {
-		color: #aaa !important;
+		color: #909090 !important;
+
 	}
 
 	div.postarea>form td:nth-of-type(3)>label,
@@ -35,23 +51,35 @@
 	}
 
 	input[type="file"]::-webkit-file-upload-button {
-		color: #666 !important;
+		color: #909090 !important;
 	}
 
 	.doubledash a {
-		color: #222 !important;
+		color: #000 !important;
 	}
 
 	.doubledash a:hover {
 		color: #555 !important;
 	}
 
-	a,
-	.postername a,
-	.commentpostername a,
-	a .postertrip {
-		color: #68a !important;
+	a {
+		color: #57577b !important;
 	}
+
+	a:hover {
+		color: #47475b !important;
+	}
+
+	.postername,
+	.commentpostername {
+		color: #7c2d2d !important;
+		font-weight: normal !important;
+	}
+
+	.postertrip {
+		color: #3e7157 !important;
+	}
+
 
 	a:hover,
 	.postername a:hover,
@@ -61,17 +89,22 @@
 	}
 
 	a.backlink {
-		color: #4f5f8f !important;
+		color: #47475b !important;
 	}
 
-	.span.filetitle,
+	.filetitle,
 	.replytitle {
 		color: #909090 !important;
 	}
 
 	.unkfunc {
-		color: #789922 !important;
+		color: #71793e !important;
 	}
+
+	a.quotelink {
+		color: #47475b !important;
+	}
+
 
 	#boards h3,
 	#boardsMenu,
@@ -83,6 +116,8 @@
 	#threadwatcher,
 	#threadwatcher .postblock,
 	#watcher,
+	#thread_filter.autohide:hover,
+	#thread_filter:not(.autohide),
 	.box-outer,
 	.boxbar,
 	.deletebuttons input[value=Delete],
@@ -98,14 +133,12 @@
 	td.postblock,
 	td.reply,
 	textarea {
-		background-color: #333 !important;
+		background-color: #1c1c1c !important;
 	}
 
-	scrollbar,
-	scrollcorner {
-		background: #333 !important;
-	}
-
+	#com_submit:hover,
+	input[type="submit"]:hover,
+	input[type="file"]>input[type="button"]:hover,
 	#header,
 	#options input,
 	#qr,
@@ -127,13 +160,14 @@
 	div.postarea>form td:nth-of-type(3)>label input,
 	div[id^=qr],
 	table.reply[style^="clear: both"] {
-		background-color: #2c2c2c !important;
+		background-color: #101010 !important;
 	}
 
+	#com_submit:hover,
+	input[type="submit"]:hover,
+	input[type="file"]>input[type="button"]:hover,
 	#backwash_tooltip,
 	#updater:hover,
-	#thread_filter.autohide:hover,
-	#thread_filter:not(.autohide),
 	#popup,
 	.recaptchatable #recaptcha_response_field:hover,
 	.deletebuttons input[type="password"]:hover,
@@ -143,69 +177,53 @@
 	input[type="submit"]:hover,
 	td.replyhl,
 	textarea:hover {
-		background-color: #393939 !important;
+		background-color: #181818 !important;
 	}
 
+
+	input[type="submit"],
+	#com_submit,
+	input[type="file"]>input[type="button"],
 	.recaptchatable #recaptcha_response_field:focus,
 	.deletebuttons input[type="password"]:focus,
 	input:focus,
 	input[type="submit"]:focus,
 	textarea:focus {
-		background-color: #3f3f3f !important;
+		background-color: #202020 !important;
 	}
 
 	input[type=checkbox],
 	#options input[type=checkbox] {
-		border-radius: 2px !important;
-		background: #444 !important;
+		border-radius: 6px !important;
+		border: 1px solid #3c3c3c !important;
+		background: #000 !important;
 	}
 
 	input[type=checkbox]:active,
 	#options input[type=checkbox]:active {
-		background: #aaa !important;
+		background: #000 !important;
 	}
 
 	input[type=checkbox]:checked,
-	#options input[type=checkbox]:checked,
-	thumb:active {
-		background: #111 !important;
-	}
-
-	thumb {
-		border-color: #333 !important;
-		background: #262626;
+	#options input[type=checkbox]:checked {
+		background: #3c3c3c !important;
 	}
 
 	#crntBoard {
 		border-right-color: #393939 !important;
 	}
 
-	#com_submit:hover,
-	input[type="submit"]:hover,
-	input[type="file"]>input[type="button"]:hover {
-		background-color: #363636 !important;
-	}
-
-	input[type="submit"],
-	#com_submit,
-	input[type="file"]>input[type="button"] {
-		background-color: #303030 !important;
-	}
-
-	thumb:hover {
-		background: #3f3f3f;
-	}
 
 	td[style="border: 1px dashed;"],
 	td.reply>tr>td.reply {
 		/* Inline Quotes */
 		background-color: rgba(0,0,0,0.1) !important;
 		border: none !important;
+		border-radius: 3px !important;
 	}
 
 	.pages b {
 		background: rgba(0,0,0,0.3) !important;
-		color: #ccc !important;
 	}
 
 	#header a:hover,
@@ -246,11 +264,6 @@
 		border: none 0 !important;
 	}
 
-	#qr input[type="checkbox"],
-	input[type="checkbox"] {
-		border: none !important;
-	}
-
 	.postarea form[name^="post"] .recaptcha_image_cell>center>#recaptcha_image,
 	.postarea form[name^="post"] #recaptcha_image img {
 		width: 248px !important;
@@ -259,15 +272,31 @@
 
 	.boxcontent dd,
 	#threadwatcher .postblock {
-		border-color: #2c2c2c !important;
+		border-color: #101010 !important;
 	}
 
 	#watcher .move {
-		border-bottom: 1px #2c2c2c solid !important;
+		border-bottom: 1px #101010 solid !important;
+	}
+
+	td.reply,
+	td.replyhl,
+	#watcher,
+	#thread_filter,
+	#backwash_tooltip {
+		border-radius: 3px !important;
+	}
+
+	.postarea input[name="name"] {
+		border-radius: 6px 0 0 0 !important;
+	}
+
+	.postarea input[name="pwd"] {
+		border-radius: 0 0 0 6px !important;
 	}
 
 	.postarea form[name="post"]:after {
-		background-color: #333 !important;
+		background-color: #1c1c1c !important;
 		border-radius: 6px 6px 0 0;
 	}
 
