@@ -125,6 +125,10 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 0 !important;
 	}
 
+	body {
+		padding: 0 252px 0 2px !important;
+	}
+
 	select:focus>button,
 	form[name="delform"]>table[align=right]:last-of-type {
 		visibility: hidden;
@@ -684,8 +688,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /* Posts */
 	form[name="delform"] {
-		pading: 0 !important;;
-		margin: 17px 254px 0 0 !important;
+		pading: 17px 0 0 !important;
 	}
 
 	form[name="delform"]>table:not(.pages), /* Reply are tables. */
@@ -699,7 +702,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	form[name="delform"]>table:not(.pages),
 	div.thread>table,
 	.insertedPosts>table {
-		margin: 2px 2px 0 !important;
+		margin: 2px 0 0 !important;
 		border-spacing: 0 !important;
 	}
 

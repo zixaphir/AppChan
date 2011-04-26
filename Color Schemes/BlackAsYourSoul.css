@@ -94,7 +94,8 @@
 
 	.filetitle,
 	.replytitle {
-		color: #909090 !important;
+		color: #aaa !important;
+		font-weight: 700px !important;
 	}
 
 	.unkfunc {
@@ -230,7 +231,7 @@
 	.pages input:hover,
 	a:hover {
 	/* URL bubbles */
-		background: rgba(0,0,0,.2) !important;
+		background: rgba(255,255,255,.02) !important;
 	}
 
 	.new {
