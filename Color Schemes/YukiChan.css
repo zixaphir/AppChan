@@ -40,10 +40,6 @@
 		background: rgba(255,255,255,.4) !important;
 	}
 
-	a {
-		color: #242949 !important;
-	}
-
 	h1,
 	h2,
 	h3,
@@ -209,7 +205,8 @@
 		background-color: rgba(255,255,255,.5) !important;
 		color: #000 !important;
 	}
-
+	
+	a,
 	form[name^="post"] .postblock b,
 	.postarea tr:nth-child(4)>.postblock>b:after,
 	.postarea form[name^="post"]:after,
