@@ -21,10 +21,14 @@ This style is designed for the following browsers, ordered alphabetically:
 */
 /*[[CustomScrollbars]]*/
 
-@-moz-document domain(boards.4chan.org) {
+@-moz-document domain(boards.4chan.org), domain(rs.4chan.org) {
 /* Silhouette / Background Image */
 	html, body {
 		background: /*[[background]]*/ no-repeat fixed 100% 100% !important;
+	}
+
+	body {
+		padding: 0 252px 0 2px !important;
 	}
 }
 
@@ -119,19 +123,17 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	html,
-	body,
-	#copyright {
-		margin: 0 !important;
-		padding: 0 !important;
-	}
-
 	body {
-		padding: 0 252px 0 2px !important;
+		margin: 0 !important;
 	}
 
 	select:focus>button,
 	form[name="delform"]>table[align=right]:last-of-type {
 		visibility: hidden;
+	}
+
+	blockquote {
+		margin: 8px 25px;
 	}
 
 /*[[boardlogo]]*/
@@ -194,6 +196,10 @@ This style is designed for the following browsers, ordered alphabetically:
 	.bd ul,
 	img {
 		border: none !important;
+	}
+
+	#copyright {
+		padding: 0 !important;
 	}
 /* Navigation */
 	#header,
