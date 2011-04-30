@@ -13,6 +13,22 @@ url("http://i.imgur.com/WRTys.png")
 none
 /* End */
 
+/*[[Font]]*/
+/* Don't Care: */
+/* Common Linux font, web font, common Windows font, common OS X font, common font */
+"Ubuntu", "Droid Sans", "Calibri", "Lucida Grande", "Helvetica"
+/* Ubuntu: */
+"Ubuntu"
+/* Droid Sans: */
+"Droid Sans"
+/* Calibri: */
+"Calibri"
+/* Lucidia Grande */
+"Lucida Grande"
+/* Helvetica */
+"Helvetica"
+/* END */
+
 /*[[NavBarSticky]]*/
 /* Yes: */
 	#header,

@@ -81,7 +81,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	* {
 	/* Defaults of all elements */
-		font: 12px "Ubuntu", "Droid Sans", "Calibri" !important;
+		font: 12px /*[[Font]]*/ !important;
 		text-decoration: none !important;
 	}
 
@@ -753,8 +753,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background-color: transparent !important;
 	}
 
-	form[name="delform"]>div:not(.thread)>a.pointer,
-	form[name="delform"]>div.thread>div>a.pointer {
+	form[name="delform"] {
 		float: right;
 	}
 
