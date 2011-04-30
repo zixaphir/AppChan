@@ -127,7 +127,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin: 0 !important;
 	}
 
-	select:focus>button,
 	form[name="delform"]>table[align=right]:last-of-type {
 		visibility: hidden;
 	}
@@ -591,21 +590,21 @@ This style is designed for the following browsers, ordered alphabetically:
 		position: absolute !important;
 		height: 0 !important;
 		width: 0 !important;
-		padding: 18px 0 0 24px !important;
-		background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAASCAQAAAAEJ70rAAAAlklEQVR42tXNsaqBYQDG8V8ppawmpewmJtMpSa7E5g5MchFGi2zqG84mZZILMDinxGSAyWDhtVu+1yS/7f8sj29VFakl8W+u7yxCxlJwtbYVBDmpuoIJGAmCslQbK1Aw0NGIeTmqvCxNKZKXLhlL0QYZP2pgZijCr7uboryxh7IIB8GfxE3QE+XiZGdvqi7SQtabcj7uCYdwJxLDNnixAAAAAElFTkSuQmCC") no-repeat !important;
+		padding: 12px 0 0 12px !important;
+		background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAQAAAD8fJRsAAAAZ0lEQVR4XgXAsQ0BUQCA4c8kSrOo70KntAgxgkl05CV2sMOVEo2ofgEAYAIAdp6SRQBwkSQJgL3kbJYEwPC1BgArIFcAwAvIFgAcBQwAQAawQZK7g0UmAJKPt+QEAPlJHmYA4AYA8AeJKy3vtXoiawAAAABJRU5ErkJggg==") no-repeat !important;
 		overflow: hidden;
 		z-index: 1 !important;
 	}
 
 	.postarea form[name^="post"] #recaptcha_reload_btn {
-		bottom: 61px !important;
-		right: -3px !important;
+		bottom: 62px !important;
+		right: 2px !important;
 	}
 
 	form[name^="post"] #recaptcha_reload_btn,
 	.refreshBtn {
-		bottom: 71px !important;
-		right: 7px !important;
+		bottom: 76px !important;
+		right: 15px !important;
 	}
 
 	#dragarea>div:nth-of-type(2) {
@@ -812,7 +811,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#navtopr {
 		position: fixed;
-		right: 35px !important;
+		right: 55px !important;
 		left: auto !important;
 		top: 0 !important;
 		bottom: auto !important;
@@ -877,7 +876,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		float: right !important;
 	}
 
-	#imgControls select>button {
+	select>button,
+	select>input {
 		opacity: 0;
 	}
 
