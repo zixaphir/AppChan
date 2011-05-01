@@ -33,48 +33,48 @@ This style is designed for the following browsers, ordered alphabetically:
 }
 
 @-moz-document domain("4chan.org") {
-	scrollbarbutton,
-	html body span[style="left: 5px; position: absolute;"],
-	html body>a,
 	body>br,
 	body>hr,
-	small,
-	th,
-	td.rules,
-	div.logo br:nth-of-type(1),
-	div#logo,
-	#recent-images,
-	#recent-threads,
-	#popular-threads,
-	#footer *:not(#navbot),
-	#navbot *,
-	.fill,
-	.yui-g,
-	.warnicon,
-	#rules,
-	.postarea .refreshBtn,
-	#recaptcha_logo,
-	#recaptcha_tagline,
-	.notice,
-	.replymode,
-	.postarea form>div,
 	div[lock=off],
 	div[lock=on],
-	.deletebuttons input[type="button"],
-	td[style^="padding: "]:not(#backwash_tipcell):not([style="padding: 10px 7px 7px 7px;"]):not([style="padding: 10px 7px 7px;"]),
+	div.logo br:nth-of-type(1),
+	div#logo,
 	form table tbody>tr:nth-of-type(2) td[align="right"],
 	form[name="delform"]>hr:last-of-type,
 	form[name="delform"]>hr:nth-last-of-type(2),
 	form[name="delform"]>br:last-of-type,
 	form[name="delform"]>br[clear=left]:last-of-type,
 	form[name="delform"]>center,
+	html body span[style="left: 5px; position: absolute;"],
+	html body>a,
+	scrollbarbutton,
+	small,
+	td[style^="padding: "]:not(#backwash_tipcell):not([style="padding: 10px 7px 7px 7px;"]):not([style="padding: 10px 7px 7px;"]),
+	td.rules,
+	th,
+	#footer *:not(#navbot),
+	#ft li.fill,
+	#navbot *,
+	#popular-threads,
+	#recaptcha_logo,
+	#recaptcha_tagline,
+	#recent-images,
+	#recent-threads,
+	#rules,
 	#recaptcha_switch_audio_btn,
 	#recaptcha_whatsthis_btn,
 	#recaptcha_reload_btn *,
 	#quickrep tr:nth-of-type(4) b,
-	#ft li.fill,
+	.deletebuttons input[type="button"],
+	.fill,
+	.notice,
+	.replymode,
+	.postarea form>div,
+	.postarea>form:first-child>table>tbody>tr:last-of-type,
+	.postarea .refreshBtn,
+	.yui-g,
 	.yui-menu-shadow,
-	.postarea>form:first-child>table>tbody>tr:last-of-type {
+	.warnicon {
 	/* Cleanup */
 		display: none !important;
 	}
@@ -295,7 +295,7 @@ This style is designed for the following browsers, ordered alphabetically:
 /* End of Navigation */
 /* Post Form */
 	.postarea form[name^="post"] {
-		width: 249px;
+		width: 250px;
 	}
 
 	.postarea table {
@@ -341,7 +341,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding-bottom: 12px !important;
 	}
 
-	#qr form[name^="post"]  .postblock b {
+	#qr form[name^="post"] .postblock b {
 		margin-top: -13px !important;
 	}
 
@@ -353,25 +353,25 @@ This style is designed for the following browsers, ordered alphabetically:
 		z-index: 2;
 	}
 /* Custom Postform Labels */
-	form[name^="post"] tr:nth-of-type(1) .postblock b:after {
-		content: "#TRIPCODE##SECURETRIP";
+	form[name^="post"] tr:nth-of-type(1)>td>.postblock b:after {
+		content: "TRIPCODE##SECURETRIP";
 	}
 
-	form[name^="post"] tr:nth-of-type(2) .postblock b:after {
+	form[name^="post"] tr:nth-of-type(2)>td>.postblock b:after {
 		content: " | NOKO | SAGE";
 	}
 
-	.postarea tbody>tr:nth-child(4)>.postblock>b {
+	.postarea tbody>tr:nth-child(4) .postblock b {
 		font-size: 0 !important;
 		color: transparent !important;
 	}
 
-	.postarea tr:nth-child(4)>.postblock>b:after {
+	.postarea tr:nth-child(4) .postblock b:after {
 		font-size: 9px !important;
 		content: 'NEW THREAD' !important;
 	}
 
-	table[width="100%"]~.postarea tr:nth-child(4)>.postblock>b:after {
+	table[width="100%"]~.postarea tr:nth-child(4) .postblock b:after {
 		content: 'REPLY' !important;
 	}
 
@@ -621,17 +621,13 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 /* Spoiler Image Checkbox */
-	div.postarea>form tr:nth-of-type(3)>td:nth-of-type(3),
-	#qr>form tr:nth-of-type(3)>td:nth-of-type(3),
-	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3) {
+	form[name^="post"] tr:nth-of-type(3)>td:nth-of-type(3) {
 	/* Removes the brackets around Spoiler Image */
 		font-size: 0 !important;
 		color: transparent;
 	}
 
-	div.postarea>form td:nth-of-type(3)>label,
-	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
-	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label {
+	form[name^="post"] td:nth-of-type(3)>label {
 	/* Spoiler Image label */
 		position: absolute;
 		top: auto;
@@ -641,8 +637,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		vertical-align: bottom;
 	}
 
-	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
-	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label {
+	#qr>form[name^="post"] tr:nth-of-type(3)>td:nth-of-type(3)>label,
+	#quickrep>form[name^="post"] tr:nth-of-type(3)>td:nth-of-type(3)>label {
 		bottom: 14px;
 		right: 70px;
 	}
@@ -671,9 +667,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		right: 70px;
 	}
 
-	div.postarea>form td:nth-of-type(3)>label input,
-	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
-	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
+	form[name^="post"] td:nth-of-type(3)>label input,
 	#qr label input,
 	.boxcontent input,
 	.boxcontent textarea {
