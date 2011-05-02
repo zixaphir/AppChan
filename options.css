@@ -261,20 +261,6 @@ none
 	div.logo>*:not(img) {
 		display: none;
 	}
-
-	div.logo img {
-		position: fixed !important;
-		right: 2px !important;
-		bottom: 310px !important;
-		width: 248px !important;
-		height: auto !important;
-		z-index: 1;
-		opacity: 0.3;
-	}
-
-	div.logo img:hover {
-		opacity: 1;
-	}
 /* Board Name + Logo */
 	div.logo {
 		position: fixed !important;
@@ -283,21 +269,6 @@ none
 		width: 248px !important;
 		z-index: 1;
 		text-align: center;
-	}
-
-	div.logo img {
-		position: fixed !important;
-		right: 2px !important;
-		bottom: 310px !important;
-		width: 248px !important;
-		height: auto !important;
-		margin: 0 !important;
-		z-index: 1;
-		opacity: 0.3;
-	}
-
-	div.logo img:hover {
-		opacity: 1;
 	}
 /* Hide Both */
 	div.logo {
