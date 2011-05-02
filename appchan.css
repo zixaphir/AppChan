@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, MayhemYDG, disappoint, Kupaka, !K.WeEabo0o
 
-V. 1
+V. 2
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -899,6 +899,10 @@ This style is designed for the following browsers, ordered alphabetically:
 	div[id^=ref] img {
 		max-width: 300px;
 		height: auto !important;
+	}
+	
+	#popup>img {
+		max-width: 68% !important;
 	}
 
 	.deletebuttons {
