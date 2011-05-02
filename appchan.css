@@ -141,8 +141,20 @@ This style is designed for the following browsers, ordered alphabetically:
 /*[[boardlogo]]*/
 
 	div.logo img {
+		position: fixed !important;
+		right: 2px !important;
+		bottom: 310px !important;
+		width: 248px !important;
+		height: 83px !important;
+		margin: 0 !important;
+		z-index: 1;
+		opacity: 0.3;
 		-webkit-transition: opacity .5s ease-in-out .5s;
 		-moz-transition: opacity .5s ease-in-out .5s;
+	}
+
+	div.logo img:hover {
+		opacity: 1;
 	}
 
 	div.logo img:hover {
