@@ -106,10 +106,16 @@
 	}
 
 	.postarea form[name="post"]:after {
-		background-color: #fff !important;
 		border: #ccc solid;
 		border-width: 1px 1px 0 1px;
 		border-radius: 6px 6px 0 0;
+	}
+	
+	#header,
+	.pages,
+	.postarea form[name="post"]:after {
+		background-color: #fff !important;
+	
 	}
 
 	td.reply,
