@@ -67,7 +67,7 @@ none
 		bottom: 46px !important;
 	}
 
-	table[width="100%"]~#boardsMenu {
+	table[width="100%"]~#navbar #boardsMenu {
 		bottom: 26px !important;
 	}
 /* No: */
