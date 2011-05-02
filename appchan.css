@@ -22,7 +22,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	* Mozilla Firefox 4.x or higher / Aurora latest / Nightly latest
 */
 /*[[CustomScrollbars]]*/
-
 @-moz-document domain(boards.4chan.org), domain(rs.4chan.org) {
 /* Silhouette / Background Image */
 	html, body {
@@ -137,9 +136,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	blockquote {
 		margin: 8px 25px;
 	}
-
 /*[[boardlogo]]*/
-
 	div.logo img {
 		position: fixed !important;
 		right: 2px !important;
@@ -231,9 +228,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		position: static !important;
 		width: 100% !important;
 	}
-
 /*[[NavBarSticky]]*/
-
 	#header,
 	.pages {
 		left: 0 !important;
@@ -733,18 +728,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	.filesize {
 		margin-top: 17px !important;
 	}
-
-	.filesize span {
-		font-size: 0 !important;
-		visibility: hidden;
-	}
-
-	.filesize span:after {
-		content: attr(title);
-		font-size: 12px !important;
-		visibility: visible;
-	}
-
+/*[[expandfile]]*/
 	.doubledash {
 		visibility: hidden;
 		font-size: 0 !important;
@@ -958,7 +942,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /* End of Sidebar 4chan x options */
 /*[[fixedFilter]]*/
-
 	#thread_filter {
 		padding: 3px 0;
 		border: 0 !important;
@@ -1048,9 +1031,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#options .move {
 		cursor: default !important;
 	}
-
 /*[[ColorScheme]]*/
-
 /* Adblock */
 	img[src^="http://static.4chan.org/support/"] {
 		display: none;
@@ -1159,5 +1140,4 @@ domain("sys.4chan.org") {
 		background-image: none !important;
 	}
 }
-
 /*[[CrntBrdHlt]]*/

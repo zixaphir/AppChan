@@ -198,6 +198,22 @@ none
 	.postblock,
 /* End */
 
+/*[[expandfile]]*/
+/* Yes: */
+	.filesize span {
+		font-size: 0 !important;
+		visibility: hidden;
+	}
+
+	.filesize span:after {
+		content: attr(title);
+		font-size: 12px !important;
+		visibility: visible;
+	}
+/* No: */
+
+/* End */
+
 /*[[fixedFilter]]*/
 /* Locked in Thread Watcher / Top */
 	#thread_filter {
