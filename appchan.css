@@ -748,10 +748,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		background-color: transparent !important;
 	}
 
-	form[name="delform"] {
-		float: right;
-	}
-
 	.omittedposts /* X posts and Y image replies omitted. Click Reply to view. */ {
 		clear: both;
 		padding-left: 20px;
