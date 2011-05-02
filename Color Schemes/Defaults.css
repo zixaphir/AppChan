@@ -52,7 +52,9 @@
 	input[type="file"]>input[type="button"],
 	input[type="submit"],
 	select,
-	textarea {
+	textarea,
+	#qr input[type="checkbox"],
+	input[type="checkbox"] {
 		border: 1px solid #ccc !important;
 	}
 
@@ -63,7 +65,6 @@
 
 	#qr input[type="checkbox"],
 	input[type="checkbox"] {
-		border: none !important;
 		color: #aaa !important;
 	}
 
@@ -115,7 +116,6 @@
 	.pages,
 	.postarea form[name="post"]:after {
 		background-color: #fff !important;
-	
 	}
 
 	td.reply,
