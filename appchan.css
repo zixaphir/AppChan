@@ -35,6 +35,7 @@ This style is designed for the following browsers, ordered alphabetically:
 }
 
 @-moz-document domain("4chan.org") {
+/*[[helpertext]]*/
 	body>br,
 	body>hr,
 	div[lock=off],
