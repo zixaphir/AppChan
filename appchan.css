@@ -340,6 +340,10 @@ This style is designed for the following browsers, ordered alphabetically:
 /*[[PstfrmPstion]]*/
 	}
 
+	#recaptcha_response_field {
+		outline: none !important;
+	}
+
 /* Postform Labels */
 	.boxcontent .postblock,
 	form[name^="post"] .postblock {
