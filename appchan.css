@@ -132,10 +132,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	form[name="delform"]>table[align=right]:last-of-type {
 		visibility: hidden;
 	}
-
-	blockquote {
-		margin: 8px 25px;
-	}
 /*[[boardlogo]]*/
 	div.logo img {
 		position: fixed !important;
