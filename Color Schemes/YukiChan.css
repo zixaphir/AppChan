@@ -213,6 +213,14 @@
 	#maxchars {
 		color: #242949 !important;
 	}
+	
+	input:-moz-placeholder {
+		color: #242949 !important; !important;
+	}
+	
+	input:-webkit-placeholder {
+		color: #242949 !important; !important;
+	}
 
 	#ft li,
 	#ft ul,

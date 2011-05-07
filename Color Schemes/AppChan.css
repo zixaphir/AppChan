@@ -228,11 +228,11 @@
 	}
 	
 	input:-moz-placeholder {
-		color: #000 !important;
+		color: rgba(255,255,255,0.2) !important;
 	}
 	
 	input:-webkit-placeholder {
-		color: #555 !important;
+		color: rgba(255,255,255,0.2) !important;
 	}
 
 	#ft li,

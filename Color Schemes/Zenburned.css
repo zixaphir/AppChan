@@ -45,6 +45,14 @@
 	* {
 		color: #ccc !important;
 	}
+	
+	input:-moz-placeholder {
+		color: #ccc !important; !important;
+	}
+	
+	input:-webkit-placeholder {
+		color: #ccc !important; !important;
+	}
 
 	div.logo,
 	div.logo *,
