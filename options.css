@@ -333,8 +333,9 @@ none
 
 	table[width="100%"]~* form[name^="post"] label {
 	/* Spoiler Image label */
-		bottom: 0;
-		right: 55px;
+		top: auto !important;
+		bottom: 0 !important;
+		right: 55px !important;
 /* End */
 
 /*[[helpertext]]*/
