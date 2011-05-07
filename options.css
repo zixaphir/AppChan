@@ -189,6 +189,148 @@ none
 		opacity: 1;
 		-webkit-transition: opacity .3s linear;
 		-moz-transition: opacity .3s linear;
+/* Use Quick Reply instead: */
+		right: 2px !important;
+	}
+
+	table[width="100%"]~.postarea,
+	table[width="100%"]~#qr .move,
+	table[width="100%"]~#quickrep .move,
+	table[width="100%"]~[id^="qr"] .move,
+	table[width="100%"]~.postarea * {
+		display: none !important;
+	}
+	
+	#qr.auto:not(:hover) form {
+		display: block !important;
+	}
+	
+	table[width="100%"]~* form[name^="post"] input[type="file"][name="upfile"] > input[type="text"],
+	table[width="100%"]~* form[name^="post"] input[name="sub"] {
+		width: 197px !important;
+	}
+
+	table[width="100%"]~* form[name^="post"] #recaptcha_widget_div {
+		height: 67px !important;
+		width: 248px !important;
+	}
+
+	table[width="100%"]~* form[name^="post"] #recaptcha_reload_btn,
+	table[width="100%"]~* body > table ~ .refreshBtn {
+		bottom: 63px !important;
+		right: 1px !important;
+	}
+
+	table[width="100%"]~* .recaptcha_image_cell>center,
+	table[width="100%"]~* .recaptcha_image_cell, tr[height="73"] td,
+	table[width="100%"]~* form[name^="post"] tr[height="73"] {
+		height: auto !important;
+	}
+
+	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center>#recaptcha_image,
+	table[width="100%"]~* form[name^="post"] #recaptcha_image img {
+		width: 248px !important;
+		height: 47px !important;
+	}
+
+	table[width="100%"]~* .error {
+		visibility: visible !important;
+		position: fixed !important;
+		bottom: 62px !important;
+		height: 19px !important;
+		width: 248px !important;
+		right: 2px !important;
+		top: auto !important;
+		left: auto !important;
+		background-color: #aaa !important;
+		color: #000 !important;
+	}
+
+	table[width="100%"]~* form[name^="Post"] {
+		margin-bottom: 0px !important;
+	}
+
+	table[width="100%"]~* table {
+		border-collapse: collapse !important;
+		width: 248px !important;
+	}
+	
+	table[width="100%"]~* form[name^="post"] input[name="sub"],
+	table[width="100%"]~* form[name^="post"] textarea.inputtext,
+	table[width="100%"]~* form[name^="post"] td>input,
+	table[width="100%"]~* form[name^="post"] .recaptchatable {
+		margin-top: 1px !important;
+	}
+	
+	table[width="100%"]~* form[name^="post"] td>input[name="upfile"] {
+		margin: 2px 0 0 !important;
+	}
+
+	table[width="100%"]~* form[name^="post"] textarea.inputtext,
+	table[width="100%"]~* form[name^="post"] td>input,
+	table[width="100%"]~* .recaptchatable,
+	table[width="100%"]~* form[name^="post"] input[name="recaptcha_response_field"]	{
+		width: 248px !important;
+	}
+
+	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center,
+	table[width="100%"]~* #r_captcha_div img,
+	table[width="100%"]~* #r_captcha_div input {
+		width: 248px !important;
+		text-align: left !important;
+	}
+
+	table[width="100%"]~#qr,
+	table[width="100%"]~#quickrep,
+	table[width="100%"]~[id^="qr"] {
+		visibility: hidden !important;
+	}
+
+	table[width="100%"]~* form[name^="post"] {
+		visibility: visible !important;
+		width: 248px !important;
+		background-color: transparent !important;
+		position: fixed !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		top: auto !important;
+		bottom: 62px !important;
+		right: 2px !important;
+		left: auto !important;
+	}
+
+	table[width="100%"]~* form>table>tbody>tr>td>label {
+		top: 0;
+	}
+
+	table[width="100%"]~* form[name^="Post"] tr:nth-of-type(3)>td:nth-of-type(3),
+	table[width="100%"]~* form tr:nth-of-type(3)>td:nth-of-type(3) {
+		font-size: 0px !important;
+		color: transparent !important;
+	}
+
+	table[width="100%"]~* form[name^="post"] textarea.inputtext {
+		height: 79px !important;
+		width: 248px !important;
+	}
+
+	table[width="100%"]~* form[name^="Post"] label:first-of-type {
+		display: none !important;
+	}
+
+	table[width="100%"]~* form[name^="Post"] label:last-of-type {
+		text-align: right !important;
+		position: absolute !important;
+		bottom: 3px !important;
+		right: 55px !important;
+	}
+	
+	table[width="100%"]~* form[name^="post"] tr .postblock b {
+		right: 3px;
+	}
+
+	table[width="100%"]~* form[name^="post"] tr:nth-of-type(3n) .postblock b {
+		right: 54px;
 /* End */
 
 /*[[helpertext]]*/
