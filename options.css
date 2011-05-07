@@ -258,16 +258,19 @@ none
 	table[width="100%"]~* form[name^="post"] input[name="sub"],
 	table[width="100%"]~* form[name^="post"] textarea.inputtext,
 	table[width="100%"]~* form[name^="post"] td>input,
+	table[width="100%"]~* form[name^="post"] div>input,
 	table[width="100%"]~* form[name^="post"] .recaptchatable {
 		margin-top: 1px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] td>input[name="upfile"] {
+	table[width="100%"]~* form[name^="post"] td>input[name="upfile"],
+	table[width="100%"]~* form[name^="post"] div>input[name="upfile"] {
 		margin: 2px 0 0 !important;
 	}
 
 	table[width="100%"]~* form[name^="post"] textarea.inputtext,
 	table[width="100%"]~* form[name^="post"] td>input,
+	table[width="100%"]~* form[name^="post"] div>input,
 	table[width="100%"]~* .recaptchatable,
 	table[width="100%"]~* form[name^="post"] input[name="recaptcha_response_field"]	{
 		width: 248px !important;
