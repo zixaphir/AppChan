@@ -35,8 +35,8 @@ This style is designed for the following browsers, ordered alphabetically:
 
 @-moz-document domain("4chan.org") {
 /*[[helpertext]]*/
-	[name="delform"]>div.thread>br,
-	[name="delform"]>br,
+	div.thread>br[clear="left"],
+	[name="delform"]>br[clear="left"],
 	body>br,
 	body>hr,
 	div[lock=off],
@@ -344,6 +344,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	input[name="recaptcha_response_field"] {
 		outline: none !important;
+		box-shadow: none !important;
 	}
 
 /* Postform Labels */
@@ -474,10 +475,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 1px 0 1px 0 !important;
 	}
 
-	.postarea form[name^="post"] td>input[name="upfile"] {
-		margin: 2px 0 0 !important;
-	}
-
 	form[name^="post"] input[type="text"],
 	form[name^="post"] input[type="password"],
 	input[type="file"][name="upfile"]>input[type="text"],
@@ -558,7 +555,6 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	form[name^="post"] input[type=file][name="upfile"] {
 		width: 300px !important;
-		margin: 0 !important;
 	}
 
 	.recaptchatable td.recaptcha_image_cell,
@@ -583,7 +579,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.postarea form[name^="post"] #recaptcha_widget_div {
-		height: 67px !important;
+		height: 68px !important;
 		width: 248px !important;
 	}
 
@@ -892,14 +888,14 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#backwash_tooltip,
 	#popup,
-	div[id^=ref] {
+	div[id^="ref"] {
 		visibility: visible;
 		z-index: 10 !important;
 	}
 
 	#backwash_tooltip img,
 	#popup img,
-	div[id^=ref] img {
+	div[id^="ref"] img {
 		max-width: 300px;
 		height: auto !important;
 	}

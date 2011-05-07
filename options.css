@@ -211,7 +211,7 @@ none
 	}
 
 	table[width="100%"]~* form[name^="post"] #recaptcha_widget_div {
-		height: 67px !important;
+		height: 69px !important;
 		width: 248px !important;
 	}
 
@@ -250,7 +250,7 @@ none
 		margin-bottom: 0px !important;
 	}
 
-	table[width="100%"]~* table {
+	table[width="100%"]~*[id^="q"] table {
 		border-collapse: collapse !important;
 		width: 248px !important;
 	}
@@ -261,11 +261,6 @@ none
 	table[width="100%"]~* form[name^="post"] div>input,
 	table[width="100%"]~* form[name^="post"] .recaptchatable {
 		margin-top: 1px !important;
-	}
-
-	table[width="100%"]~* form[name^="post"] td>input[name="upfile"],
-	table[width="100%"]~* form[name^="post"] div>input[name="upfile"] {
-		margin: 2px 0 0 !important;
 	}
 
 	table[width="100%"]~* form[name^="post"] textarea.inputtext,
@@ -324,7 +319,7 @@ none
 	table[width="100%"]~* form[name^="Post"] label:last-of-type {
 		text-align: right !important;
 		position: absolute !important;
-		bottom: 3px !important;
+		bottom: 0px !important;
 		right: 55px !important;
 	}
 
@@ -334,6 +329,12 @@ none
 
 	table[width="100%"]~* form[name^="post"] tr:nth-of-type(3n) .postblock b {
 		right: 54px;
+	}
+
+	table[width="100%"]~* form[name^="post"] label {
+	/* Spoiler Image label */
+		bottom: 0;
+		right: 55px;
 /* End */
 
 /*[[helpertext]]*/
