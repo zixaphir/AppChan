@@ -73,7 +73,7 @@
 	.postername,
 	.commentpostername {
 		color: #7c2d2d !important;
-		font-weight: normal !important;
+		font-weight: 400 !important;
 	}
 
 	.postertrip {
