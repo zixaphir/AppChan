@@ -211,7 +211,7 @@ none
 	}
 
 	table[width="100%"]~* form[name^="post"] #recaptcha_widget_div {
-		height: 69px !important;
+		height: 68px !important;
 		width: 248px !important;
 	}
 

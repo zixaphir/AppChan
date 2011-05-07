@@ -226,6 +226,14 @@
 	#maxchars {
 		color: rgba(255,255,255,0.2) !important;
 	}
+	
+	input:-moz-placeholder {
+		color: #000 !important;
+	}
+	
+	input:-webkit-placeholder {
+		color: #555 !important;
+	}
 
 	#ft li,
 	#ft ul,

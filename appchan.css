@@ -539,7 +539,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postarea form[name^="post"] input[name="sub"],
 	.postarea form[name^="post"] textarea.inputtext,
 	.postarea form[name^="post"] td>input,
-	.postarea form[name^="post"] .recaptchatable {
+	.postarea form[name^="post"] .recaptchatable,
+	.postarea form[name^="post"] input[name="recaptcha_response_field"] {
 		margin-top: 1px !important;
 	}
 
@@ -568,7 +569,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.recaptcha_input_area {
-		padding: 1px 0 0 0 !important;
+		padding: 0 !important;
 	}
 
 	.postarea form[name^="post"] .recaptcha_image_cell>center,
