@@ -45,13 +45,13 @@
 	* {
 		color: #ccc !important;
 	}
-	
+
 	input:-moz-placeholder {
-		color: #ccc !important; !important;
+		color: #ccc !important;
 	}
-	
+
 	input:-webkit-placeholder {
-		color: #ccc !important; !important;
+		color: #ccc !important;
 	}
 
 	div.logo,

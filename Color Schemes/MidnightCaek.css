@@ -245,11 +245,11 @@
 	#maxchars {
 		color: rgba(255,255,255,0.2) !important;
 	}
-	
+
 	input:-moz-placeholder {
 		color: rgba(255,255,255,0.2) !important;
 	}
-	
+
 	input:-webkit-placeholder {
 		color: rgba(255,255,255,0.2) !important;
 	}
