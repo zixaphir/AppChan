@@ -201,7 +201,7 @@ none
 		display: none !important;
 	}
 	
-	#qr.auto:not(:hover) form {
+	table[width="100%"]~#qr.auto:not(:hover) form {
 		display: block !important;
 	}
 	
