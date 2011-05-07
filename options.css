@@ -200,11 +200,11 @@ none
 	table[width="100%"]~.postarea * {
 		display: none !important;
 	}
-	
+
 	table[width="100%"]~#qr.auto:not(:hover) form {
 		display: block !important;
 	}
-	
+
 	table[width="100%"]~* form[name^="post"] input[type="file"][name="upfile"] > input[type="text"],
 	table[width="100%"]~* form[name^="post"] input[name="sub"] {
 		width: 197px !important;
@@ -254,14 +254,14 @@ none
 		border-collapse: collapse !important;
 		width: 248px !important;
 	}
-	
+
 	table[width="100%"]~* form[name^="post"] input[name="sub"],
 	table[width="100%"]~* form[name^="post"] textarea.inputtext,
 	table[width="100%"]~* form[name^="post"] td>input,
 	table[width="100%"]~* form[name^="post"] .recaptchatable {
 		margin-top: 1px !important;
 	}
-	
+
 	table[width="100%"]~* form[name^="post"] td>input[name="upfile"] {
 		margin: 2px 0 0 !important;
 	}
@@ -324,7 +324,7 @@ none
 		bottom: 3px !important;
 		right: 55px !important;
 	}
-	
+
 	table[width="100%"]~* form[name^="post"] tr .postblock b {
 		right: 3px;
 	}
