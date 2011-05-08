@@ -69,6 +69,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#quickrep tr:nth-of-type(4) b,
 	#qr.auto:not(:hover) #recaptcha_reload_btn,
 	.deletebuttons input[type="button"],
+	.error:empty,
 	.fill,
 	.notice,
 	.replymode,
@@ -891,6 +892,7 @@ This style is designed for the following browsers, ordered alphabetically:
 /* Reply Previews */
 	#backwash_tooltip, /* /b/ackwash reloaded */
 	#popup, /* 4chanplus */
+	#qp, /* 4chan x Quote Preview */
 	div[id^=ref] /* 4chan4chrome */ {
 		max-width: 70%;
 		visibility: visible;
@@ -898,6 +900,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#backwash_tooltip,
 	#popup,
+	#qp,
 	div[id^="ref"] {
 		visibility: visible;
 		z-index: 10 !important;
@@ -905,6 +908,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#backwash_tooltip img,
 	#popup img,
+	#qp img,
 	div[id^="ref"] img {
 		max-width: 300px;
 		height: auto !important;
@@ -1012,6 +1016,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#backwash_tooltip,
+	#qp,
 	#popup,
 	div[id^=ref],
 	td.reply,

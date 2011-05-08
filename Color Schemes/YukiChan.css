@@ -162,6 +162,7 @@
 	}
 
 	#backwash_tooltip,
+	#qp,
 	#updater:hover,
 	#thread_filter.autohide:hover,
 	#thread_filter:not(.autohide),
@@ -257,6 +258,7 @@
 	div#watcher,
 	div#thread_filter,
 	#backwash_tooltip,
+	#qp,
 	#popup,
 	div[id^=ref] {
 		border-radius: 3px;

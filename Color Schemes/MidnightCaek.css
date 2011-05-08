@@ -168,6 +168,7 @@
 	input[type="submit"]:hover,
 	input[type="file"]>input[type="button"]:hover,
 	#backwash_tooltip,
+	#qp,
 	#updater:hover,
 	#popup,
 	.recaptchatable #recaptcha_response_field:hover,
@@ -292,6 +293,7 @@
 	td.replyhl,
 	#watcher,
 	#thread_filter,
+	#qp,
 	#backwash_tooltip {
 		border-radius: 3px !important;
 	}

@@ -85,6 +85,7 @@
 	}
 
 	#backwash_tooltip,
+	#qp,
 	#popup,
 	div[id^=ref] {
 		background-color: #eee !important;
