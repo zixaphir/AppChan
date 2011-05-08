@@ -67,6 +67,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#recaptcha_whatsthis_btn,
 	#recaptcha_reload_btn *,
 	#quickrep tr:nth-of-type(4) b,
+	#qr.auto:not(:hover) #recaptcha_reload_btn,
 	.deletebuttons input[type="button"],
 	.fill,
 	.notice,
@@ -323,8 +324,26 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#qr {
-		width: 306px !important;
-		padding: 0 10px !important;
+		padding: 1px 2px 2px !important;
+	}
+
+	#qr,
+	#qr input.inputtext:not([name="sub"]),
+	#qr textarea,
+	#qr_captcha,
+	#qr .move,
+	#qr form {
+		width: 300px !important;
+	}
+
+	#qr input.inputtext[name="name"] {
+		width: 190px !important;
+	}
+
+	#qr input.inputtext,
+	#qr input[name="upfile"],
+	#qr textarea {
+		margin-top: 1px !important;
 	}
 
 	.postarea form[name^="post"] {
@@ -607,6 +626,11 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postarea form[name^="post"] #recaptcha_reload_btn {
 		bottom: 62px !important;
 		right: 2px !important;
+	}
+
+	#qr #recaptcha_reload_btn {
+		bottom: 64px !important;
+		right: 4px !important;
 	}
 
 	form[name^="post"] #recaptcha_reload_btn,

@@ -194,15 +194,19 @@ none
 	}
 
 	table[width="100%"]~.postarea,
-	table[width="100%"]~#qr .move,
 	table[width="100%"]~#quickrep .move,
-	table[width="100%"]~[id^="qr"] .move,
+	table[width="100%"]~#qr .move input:not([name="name"]),
 	table[width="100%"]~.postarea * {
 		display: none !important;
 	}
 
 	table[width="100%"]~#qr.auto:not(:hover) form {
 		display: block !important;
+	}
+
+	table[width="100%"]~#qr.auto:not(:hover) > form {
+		overflow: visible !important;
+		height: 228px !important;
 	}
 
 	table[width="100%"]~* form[name^="post"] input[type="file"][name="upfile"] > input[type="text"],
@@ -267,7 +271,11 @@ none
 	table[width="100%"]~* form[name^="post"] td>input,
 	table[width="100%"]~* form[name^="post"] div>input,
 	table[width="100%"]~* .recaptchatable,
-	table[width="100%"]~* form[name^="post"] input[name="recaptcha_response_field"]	{
+	table[width="100%"]~* form[name^="post"] input[name="recaptcha_response_field"],
+	table[width="100%"]~#qr input.inputtext:not([name="sub"]),
+	table[width="100%"]~#qr #qr_captcha,
+	table[width="100%"]~#qr textarea,
+	table[width="100%"]~#qr form {
 		width: 248px !important;
 	}
 
@@ -278,13 +286,17 @@ none
 		text-align: left !important;
 	}
 
-	table[width="100%"]~#qr,
 	table[width="100%"]~#quickrep,
-	table[width="100%"]~[id^="qr"] {
+	table[width="100%"]~#qr .move {
 		visibility: hidden !important;
+		font-size: 0 !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] {
+	#qr .move input[name="name"] {
+		visibility: visible !important;
+	}
+
+	table[width="100%"]~*:not(#qr) form[name^="post"] {
 		visibility: visible !important;
 		width: 248px !important;
 		background-color: transparent !important;
@@ -295,6 +307,14 @@ none
 		bottom: 62px !important;
 		right: 2px !important;
 		left: auto !important;
+	}
+
+	table[width="100%"]~#qr {
+		top: auto !important;
+		bottom: 60px !important;
+		right: 0px !important;
+		left: auto !important;
+		width: 248px !important;
 	}
 
 	table[width="100%"]~* form>table>tbody>tr>td>label {
