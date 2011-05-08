@@ -292,7 +292,7 @@ none
 		font-size: 0 !important;
 	}
 
-	#qr .move input[name="name"] {
+	table[width="100%"]~#qr .move input[name="name"] {
 		visibility: visible !important;
 	}
 
