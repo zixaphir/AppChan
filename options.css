@@ -331,6 +331,7 @@ none
 	table[width="100%"]~* form[name^="post"] textarea.inputtext {
 		height: 79px !important;
 		width: 248px !important;
+		resize: none;
 	}
 
 	table[width="100%"]~* form[name^="Post"] label:first-of-type {
