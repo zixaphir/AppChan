@@ -227,7 +227,7 @@ none
 	}
 
 	table[width="100%"]~* .recaptcha_image_cell>center,
-	table[width="100%"]~* .recaptcha_image_cell, tr[height="73"] td,
+	table[width="100%"]~* .recaptcha_image_cell,
 	table[width="100%"]~* form[name^="post"] tr[height="73"] {
 		height: auto !important;
 	}

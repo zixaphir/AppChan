@@ -538,13 +538,13 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postarea form[name^="post"] textarea {
 		height: 78px !important;
 		font-size: 10pt !important;
-		resize: none;
 		margin: 0 !important;
 	}
 
 	form[name^="post"] textarea {
 		height: 120px !important;
 		margin: 0 !important;
+		resize: none;
 	}
 
 	.postarea td,
