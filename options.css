@@ -200,7 +200,8 @@ none
 		display: none !important;
 	}
 
-	table[width="100%"]~#qr.auto:not(:hover) form {
+	table[width="100%"]~#qr.auto:not(:hover) form,
+	table[width="100%"]~#qr.auto:not(:hover) #recaptcha_reload_btn {
 		display: block !important;
 	}
 
