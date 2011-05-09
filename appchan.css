@@ -482,14 +482,18 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 248px !important;
 	}
 
-	form[name^="post"] input[type="text"],
-	form[name^="post"] input[type="password"],
+	form[name^="post"] input.inputtext,
 	form[name^="post"] input[type="file"][name="upfile"]>input[type="text"],
 	form[name^="post"] textarea {
 		width: 300px !important;
-		padding: 1px 0 1px 0 !important;
 	}
 
+	.inputtext,
+	input[name="upfile"]>input[type="text"] {
+		padding: 3px 0 !important;
+	}
+
+	div.move input,
 	form[name^="post"] input[type="text"],
 	form[name^="post"] input[type="password"],
 	input[type="file"][name="upfile"]>input[type="text"],
@@ -799,7 +803,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	td>.inputtext {
 		height: 17px !important;
-		padding: 0 !important;
+		padding: 2px 0 !important;
 	}
 /* Addons and such */
 	#qr,
