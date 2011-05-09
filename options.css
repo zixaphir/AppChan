@@ -205,18 +205,17 @@ none
 		display: block !important;
 	}
 
-	table[width="100%"]~#qr.auto:not(:hover) > form {
+	table[width="100%"]~#qr.auto > form {
 		overflow: visible !important;
 		height: 228px !important;
 	}
 
 	table[width="100%"]~* form[name^="post"] input[type="file"][name="upfile"] > input[type="text"],
-	table[width="100%"]~* form[name^="post"] input[name="sub"] {
+	table[width="100%"]~* form[name^="post"] input.inputtext[name="sub"] {
 		width: 197px !important;
 	}
 
 	table[width="100%"]~* form[name^="post"] #recaptcha_widget_div {
-		height: 68px !important;
 		width: 248px !important;
 	}
 
@@ -262,15 +261,14 @@ none
 
 	table[width="100%"]~* form[name^="post"] input[name="sub"],
 	table[width="100%"]~* form[name^="post"] textarea.inputtext,
-	table[width="100%"]~* form[name^="post"] td>input,
-	table[width="100%"]~* form[name^="post"] div>input,
+	table[width="100%"]~* form[name^="post"] input.inputtext,
 	table[width="100%"]~* form[name^="post"] .recaptchatable {
 		margin-top: 1px !important;
 	}
 
 	table[width="100%"]~* form[name^="post"] textarea.inputtext,
-	table[width="100%"]~* form[name^="post"] td>input,
-	table[width="100%"]~* form[name^="post"] div>input,
+	table[width="100%"]~* form[name^="post"] input.inputtext,
+	table[width="100%"]~* form[name^="post"] input[name="upfile"],
 	table[width="100%"]~* .recaptchatable,
 	table[width="100%"]~* form[name^="post"] input[name="recaptcha_response_field"],
 	table[width="100%"]~#qr input.inputtext:not([name="sub"]),

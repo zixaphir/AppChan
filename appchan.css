@@ -569,7 +569,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	.fake input[type="file"]::-webkit-file-upload-button,
 	.postarea form[name^="post"] input[name="upfile"] {
-		margin: 1px 0 0 !important;
+		margin: 0 !important;
 		height: 19px !important;
 	}
 
@@ -599,7 +599,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.postarea form[name^="post"] #recaptcha_widget_div {
-		height: 68px !important;
+		height: auto !important
 		width: 248px !important;
 	}
 
