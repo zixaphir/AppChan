@@ -800,11 +800,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	.commentpostername {
 		font-weight: 700 !important;
 	}
-
-	td>.inputtext {
-		height: 17px !important;
-		padding: 2px !important;
-	}
 /* Addons and such */
 	#qr,
 	#quickrep,
