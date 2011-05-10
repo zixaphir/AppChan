@@ -576,7 +576,7 @@ This style is designed for Opera.
 	.postarea .recaptcha_image_cell>center,
 	.postarea .recaptcha_image_cell,
 	tr[height="73"] td,
-	form[name^="post"] tr[height="73"] {
+	tr[height="73"] {
 		height: auto !important;
 	}
 

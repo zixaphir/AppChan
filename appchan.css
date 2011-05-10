@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, MayhemYDG, !K.WeEabo0o, seaweed, disappoint, Kupaka
 
-V. 11
+V. 12
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -599,7 +599,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.postarea form[name^="post"] #recaptcha_widget_div {
-		height: auto !important
+		height: auto !important;
 		width: 248px !important;
 	}
 
