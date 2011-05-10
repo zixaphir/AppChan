@@ -304,7 +304,7 @@ This style is designed for the following browsers, ordered alphabetically:
 /* End of Navigation */
 /* Post Form */
 	.postarea form[name^="post"] {
-		width: 249px;
+		width: 248px;
 	}
 
 	.postarea table {
