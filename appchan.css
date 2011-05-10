@@ -490,7 +490,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	.inputtext,
 	input[name="upfile"]>input[type="text"] {
-		padding: 3px 0 !important;
+		padding: 2px !important;
 	}
 
 	div.move input,
@@ -803,7 +803,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	td>.inputtext {
 		height: 17px !important;
-		padding: 2px 0 !important;
+		padding: 2px !important;
 	}
 /* Addons and such */
 	#qr,
