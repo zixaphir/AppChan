@@ -720,13 +720,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin: 0 !important;
 	}
 
-	form[name="delform"]>table:not(.pages), /* Reply are tables. */
-	div.thread>table, /* Replies are tables. A script like 4chan X is present */
-	.insertedPosts>table, /* 4chanplus inserts new posts in a new div */
-	td.reply, /* Reply cell */
-	td.replyhl /* Highlighted Reply cell */ {
-		width: 100% !important;
-	}
+/*[[ReplyWidth]]*/
 
 	form[name="delform"]>table:not(.pages),
 	div.thread>table,
@@ -763,12 +757,6 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	.doubledash a:hover {
 		background-color: transparent !important;
-	}
-
-	.omittedposts /* X posts and Y image replies omitted. Click Reply to view. */ {
-		clear: both;
-		padding-left: 20px;
-		display: block !important;
 	}
 
 	#updater:hover,
@@ -1056,6 +1044,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#options .move {
 		cursor: default !important;
 	}
+/*[[PagesPosition]]*/
 /*[[ColorScheme]]*/
 /* Adblock */
 	img[src^="http://static.4chan.org/support/"] {
