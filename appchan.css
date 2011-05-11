@@ -48,7 +48,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	form[name="delform"]>br[clear=left]:last-of-type,
 	form[name="delform"]>center,
 	html body span[style="left: 5px; position: absolute;"],
-	html body>a,
+	html body>a:not([style="cursor: pointer; float: right;"]),
 	scrollbarbutton,
 	small,
 	td[style^="padding: "]:not(#backwash_tipcell):not([style="padding: 10px 7px 7px 7px;"]):not([style="padding: 10px 7px 7px;"]),

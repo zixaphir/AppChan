@@ -49,7 +49,10 @@ none
 		display: block !important;
 	}
 /* Fit Content: */
-
+	.doubledash,
+	.doubledash a {
+		position: static;
+	}
 /* End */
 
 /*[[NavBarSticky]]*/
