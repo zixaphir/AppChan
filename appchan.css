@@ -921,10 +921,11 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#popup>img {
-		max-width: 68% !important;
+		max-width: 100% !important;
 	}
 
-	.deletebuttons {
+	.deletebuttons,
+	#popup {
 		position: fixed !important;
 		top: auto !important;
 		right: 2px !important;
