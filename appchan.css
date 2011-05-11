@@ -885,6 +885,10 @@ This style is designed for the following browsers, ordered alphabetically:
 		visibility: visible;
 	}
 
+	#qp {
+		padding: 2px 6px !important;
+	}
+
 	#backwash_tooltip,
 	#popup,
 	#qp,
