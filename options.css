@@ -117,6 +117,31 @@ none
 	}
 /* End */
 
+/*[[PagesPosition]]*/
+/* Side */
+	.pages {
+		padding: 0 !important;
+		visibility: hidden;
+		bottom: 315px !important;
+		width: auto !important;
+		left: auto !important;
+		right: 251px !important;
+		position: fixed;
+		-webkit-transform: rotate(90deg);
+		-webkit-transform-origin: bottom right;
+		-moz-transform: rotate(90deg);
+		-moz-transform-origin: bottom right;
+		letter-spacing: -1px;
+		word-spacing: -6px;
+	}
+
+	.pages a, .pages b, .pages input {
+		visibility: visible;
+	}
+/* Normal: */
+
+/* End */
+
 /*[[PstfrmPstion]]*/
 /* Fixed: */
 		right: 2px !important;
