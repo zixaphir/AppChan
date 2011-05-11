@@ -313,14 +313,14 @@ This style is designed for the following browsers, ordered alphabetically:
 		border-collapse: collapse !important;
 	}
 
-	.postarea td.postblock {
+	form[name^="post"] td.postblock {
 		width: 0 !important;
 	}
 
 	#qr, /* 4chan x's quick reply */
 	#quickrep, /* 4chanplus's quick reply */
 	div[id^="qr"] /* 4chan 4chrome's quick reply */ {
-		width: 326px !important;
+		width: 306px !important;
 		z-index: 5 !important;
 	}
 
@@ -364,13 +364,18 @@ This style is designed for the following browsers, ordered alphabetically:
 
 /* Postform Labels */
 	.boxcontent .postblock,
-	form[name^="post"] .postblock {
+	form[name^="post"] .postblock,
+	#quickrep td.postblock {
 		border: none !important;
 		background-color: transparent !important;
 		font-weight: 200 !important;
 		text-align: right !important;
 		vertical-align: bottom;
 		padding-bottom: 12px !important;
+	}
+
+	#quickrep td.postblock {
+		padding-bottom: 13px !important;
 	}
 
 	#qr form[name^="post"] .postblock b {
@@ -568,8 +573,9 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.fake input[type="file"]::-webkit-file-upload-button,
-	.postarea form[name^="post"] input[name="upfile"] {
-		margin: 0 !important;
+	.postarea form[name^="post"] input[name="upfile"],
+	#quickrep form[name^="post"] input[name="upfile"] {
+		margin: 1px 0 0 !important;
 		height: 19px !important;
 	}
 
@@ -612,6 +618,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#qr tr[height="73"]:nth-of-type(2),
 	#quickrep tr[height="73"] td:nth-of-type(2),
+	#quickrep td.postblock,
 	div[id^="qr"] tr[height="73"]:nth-of-type(2) {
 		padding: 0 !important;
 	}
@@ -789,6 +796,14 @@ This style is designed for the following browsers, ordered alphabetically:
 		font-weight: 700 !important;
 	}
 /* Addons and such */
+	body>a[style="cursor: pointer; float: right;"] {
+		margin-top: 17px;
+	}
+
+	body>div[style="width: 100%;"] {
+		margin-top: 34px;
+	}
+
 	#qr,
 	#quickrep,
 	div[id^="qr"],
