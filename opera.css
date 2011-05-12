@@ -569,10 +569,11 @@ This style is designed for Opera.
 	}
 
 	.postarea form[name^="post"] #recaptcha_widget_div {
-		height: auto !important
 		width: 248px !important;
 	}
 
+	.postarea form[name^="post"] #recaptcha_widget_div,
+	.recaptchatable .recaptcha_image_cell center,
 	.postarea .recaptcha_image_cell>center,
 	.postarea .recaptcha_image_cell,
 	tr[height="73"] td,

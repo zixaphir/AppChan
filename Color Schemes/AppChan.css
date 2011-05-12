@@ -131,11 +131,14 @@
 	}
 
 	#backwash_tooltip,
+	#cc-showpostarea,
 	#qp,
 	#updater:hover,
 	#thread_filter.autohide:hover,
 	#thread_filter:not(.autohide),
 	#popup,
+	.chanchimp,
+	.chanchimp>div,
 	.recaptchatable #recaptcha_response_field:hover,
 	.deletebuttons input[type="password"]:hover,
 	div[id^=ref],
@@ -236,6 +239,7 @@
 		color: rgba(255,255,255,0.2) !important;
 	}
 
+	#cc-showpostarea,
 	#ft li,
 	#ft ul,
 	#options input:not([type="checkbox"]),
@@ -243,6 +247,8 @@
 	#updater input:not([type="checkbox"]),
 	.box-outer,
 	.boxbar,
+	.chanchimp,
+	.chanchimp>div,
 	.inputtext,
 	.deletebuttons input[value=Delete],
 	.recaptcha_image_cell>center>#recaptcha_image,
@@ -255,7 +261,7 @@
 	input[type="submit"],
 	select,
 	textarea {
-		border: none 0 !important;
+		border: none !important;
 	}
 
 	#qr input[type="checkbox"],
@@ -270,7 +276,8 @@
 	}
 
 	.boxcontent dd,
-	#threadwatcher .postblock {
+	#threadwatcher .postblock,
+	.chanchimp * {
 		border-color: #2c2c2c !important;
 	}
 

@@ -162,11 +162,14 @@
 	}
 
 	#backwash_tooltip,
+	#cc-showpostarea,
 	#qp,
 	#updater:hover,
 	#thread_filter.autohide:hover,
 	#thread_filter:not(.autohide),
 	#popup,
+	.chanchimp,
+	.chanchimp>div,
 	div[id^=ref],
 	td.replyhl {
 		background-color: #7a7aa5 !important;
@@ -223,6 +226,7 @@
 		color: #242949 !important;
 	}
 
+	#cc-showpostarea,
 	#ft li,
 	#ft ul,
 	#options input:not([type="checkbox"]),
@@ -230,6 +234,8 @@
 	#updater input:not([type="checkbox"]),
 	.box-outer,
 	.boxbar,
+	.chanchimp,
+	.chanchimp>div,
 	.inputtext,
 	.deletebuttons input[value=Delete],
 	.recaptcha_image_cell>center>#recaptcha_image,
@@ -272,7 +278,8 @@
 	}
 
 	.boxcontent dd,
-	#threadwatcher .postblock {
+	#threadwatcher .postblock,
+	.chanchimp * {
 		border-color: #313c5a !important;
 	}
 

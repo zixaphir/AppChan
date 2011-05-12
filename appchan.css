@@ -190,10 +190,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin-right: 1px !important;
 	}
 
-	.menubutton a {
-		padding: 0 !important;
-	}
-
 	a.yuimenuitemlabel {
 		padding: 0 20px !important;
 	}
@@ -206,10 +202,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	.bd ul,
 	img {
 		border: none !important;
-	}
-
-	#copyright {
-		padding: 0 !important;
 	}
 /* Navigation */
 	#header,
@@ -259,10 +251,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		border: none !important;
 	}
 
-	.pages td {
-		padding: 0 !important;
-	}
-
 	.pages td:nth-of-type(1) {
 		font-size: 9px !important;
 		text-transform: uppercase;
@@ -297,10 +285,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		-moz-transition: background-color .1s linear;
 		border-radius: 9px;
 	}
-
-	#header a {
-		padding: 0 !important;
-	}
 /* End of Navigation */
 /* Post Form */
 	.postarea form[name^="post"] {
@@ -315,6 +299,10 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	form[name^="post"] td.postblock {
 		width: 0 !important;
+	}
+
+	#cc-newpostarea {
+		height: 260px !important;
 	}
 
 	#qr, /* 4chan x's quick reply */
@@ -339,6 +327,15 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#qr input.inputtext[name="name"] {
 		width: 190px !important;
+	}
+
+	.chanchimp form[name^="post"] input.inputtext,
+	.chanchimp form[name^="post"] input[type="file"][name="upfile"] > input[type="text"] {
+		width: 200px !important;
+	}
+
+	.chanchimp form[name^="post"] textarea {
+		width: 596px !important;
 	}
 
 	#qr input.inputtext,
@@ -583,18 +580,9 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 300px !important;
 	}
 
-	.recaptchatable td.recaptcha_image_cell,
-	td[style="padding-left: 7px;"] {
-		padding: 0 !important;
-	}
-
 	#recaptcha_image img,
 	#quick_recaptcha_image img {
 		opacity: 0.5;
-	}
-
-	.recaptcha_input_area {
-		padding: 0 !important;
 	}
 
 	.postarea form[name^="post"] .recaptcha_image_cell>center,
@@ -615,17 +603,22 @@ This style is designed for the following browsers, ordered alphabetically:
 	form[name^="post"] tr[height="73"] {
 		height: auto !important;
 	}
-
-	#qr tr[height="73"]:nth-of-type(2),
-	#quickrep tr[height="73"] td:nth-of-type(2),
-	#quickrep td.postblock,
-	div[id^="qr"] tr[height="73"]:nth-of-type(2) {
-		padding: 0 !important;
-	}
 /*[[CaptchaReload]]*/
 	.postarea form[name^="post"] #recaptcha_reload_btn {
 		bottom: 62px !important;
 		right: 2px !important;
+	}
+
+	#cc-newpostarea form[name^="post"] #recaptcha_reload_btn,
+	#cc-newpostarea2 form[name^="post"] #recaptcha_reload_btn {
+		bottom: 13px !important;
+		left: 290px !important;
+		right: auto !important;
+	}
+
+	#cc-newpostarea2 form[name^="post"] #recaptcha_reload_btn {
+		left: 288px !important;
+		bottom: 34px !important;
 	}
 
 	#qr #recaptcha_reload_btn {
@@ -667,6 +660,10 @@ This style is designed for the following browsers, ordered alphabetically:
 		bottom: 0;
 		right: 55px;
 		vertical-align: bottom;
+	}
+
+	.chanchimp form[name^="post"] label {
+		position: static;
 	}
 
 	#qr>form[name^="post"] label,
@@ -799,7 +796,19 @@ This style is designed for the following browsers, ordered alphabetically:
 		border: none !important;
 	}
 
-	#qr td {
+	#copyright,
+	#header a,
+	#qr td,
+	#qr tr[height="73"]:nth-of-type(2),
+	#quickrep tr[height="73"] td:nth-of-type(2),
+	#quickrep td.postblock,
+	.recaptcha_input_area,
+	.menubutton a,
+	.chanchimp>div,
+	.pages td,
+	.recaptchatable td.recaptcha_image_cell,
+	td[style="padding-left: 7px;"],
+	div[id^="qr"] tr[height="73"]:nth-of-type(2) {
 		padding: 0 !important;
 	}
 

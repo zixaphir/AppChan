@@ -87,7 +87,8 @@
 	}
 
 	.boxcontent dd,
-	#threadwatcher .postblock {
+	#threadwatcher .postblock,
+	.chanchimp * {
 		border-color: #4f4f4f !important;
 	}
 
@@ -125,6 +126,7 @@
 		color: #000 !important;
 	}
 
+	#cc-showpostarea,
 	#ft li,
 	#ft ul,
 	#options input:not([type="checkbox"]),
@@ -132,6 +134,8 @@
 	#updater input:not([type="checkbox"]),
 	.box-outer,
 	.boxbar,
+	.chanchimp,
+	.chanchimp>div,
 	.inputtext,
 	.deletebuttons input[value=Delete],
 	.recaptcha_image_cell>center>#recaptcha_image,
