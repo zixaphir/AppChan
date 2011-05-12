@@ -54,6 +54,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	td[style^="padding: "]:not(#backwash_tipcell):not([style="padding: 10px 7px 7px 7px;"]):not([style="padding: 10px 7px 7px;"]),
 	td.rules,
 	th,
+	#4chan_ext_nav_top,
 	#footer *:not(#navbot),
 	#ft li.fill,
 	#navbot *,
@@ -126,13 +127,14 @@ This style is designed for the following browsers, ordered alphabetically:
 		border: 1px solid;
 	}
 
-	html,
-	body {
-		margin: 0 !important;
-	}
-
 	form[name="delform"]>table[align=right]:last-of-type {
 		visibility: hidden;
+	}
+
+	span[id^="4chan_ext_right"],
+	a.yuimenuitemlabel:hover,
+	.doubledash a:hover {
+		background-color: transparent !important;
 	}
 /*[[boardlogo]]*/
 	div.logo img {
@@ -179,6 +181,17 @@ This style is designed for the following browsers, ordered alphabetically:
 		clear: both;
 	}
 /* Front Page */
+	.bd,
+	.bd ul,
+	img,
+	.pages,
+	.pages *,
+	#qr,
+	#quickrep,
+	div[id^="qr"],
+	table.reply[style^="clear: both"],
+	td.postblock,
+	span[id^="4chan_ext_right"],
 	.boxcontent>hr,
 	h3 {
 		border: none !important;
@@ -192,16 +205,6 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	a.yuimenuitemlabel {
 		padding: 0 20px !important;
-	}
-
-	a.yuimenuitemlabel:hover {
-		background-color: transparent !important;
-	}
-
-	.bd,
-	.bd ul,
-	img {
-		border: none !important;
 	}
 /* Navigation */
 	#header,
@@ -244,11 +247,6 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#navbot {
 		font-size: 0 !important;
-	}
-
-	.pages,
-	.pages * {
-		border: none !important;
 	}
 
 	.pages td:nth-of-type(1) {
@@ -307,7 +305,8 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#qr, /* 4chan x's quick reply */
 	#quickrep, /* 4chanplus's quick reply */
-	div[id^="qr"] /* 4chan 4chrome's quick reply */ {
+	div[id^="qr"], /* 4chan 4chrome's quick reply */
+	div[id^="4chan_ext_iqr"] /* 4chan Extension's quick reply */ {
 		width: 306px !important;
 		z-index: 5 !important;
 	}
@@ -354,15 +353,16 @@ This style is designed for the following browsers, ordered alphabetically:
 /*[[PstfrmPstion]]*/
 	}
 
-	input[name="recaptcha_response_field"] {
+	form[name^="post"] input[name="recaptcha_response_field"] {
 		outline: none !important;
 		box-shadow: none !important;
 	}
 
 /* Postform Labels */
 	.boxcontent .postblock,
+	#quickrep td.postblock,
 	form[name^="post"] .postblock,
-	#quickrep td.postblock {
+	div[id^="4chan_ext_iqr"] .postblock {
 		border: none !important;
 		background-color: transparent !important;
 		font-weight: 200 !important;
@@ -731,6 +731,13 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin: 0 0 20px !important;
 	}
 
+	html,
+	body,
+	form[name="delform"] span[id^="4chan_ext_right"] a img,
+	form[name="delform"] a img[class*="chan_ext_tothreadstartbutton"] {
+		margin: 0 !important;
+	}
+
 	.filesize {
 		margin-top: 17px !important;
 	}
@@ -745,10 +752,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		visibility: visible;
 		position: absolute;
 		right: 255px;
-	}
-
-	.doubledash a:hover {
-		background-color: transparent !important;
 	}
 
 	#updater:hover,
@@ -787,13 +790,6 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	body>div[style="width: 100%;"] {
 		margin-top: 34px;
-	}
-
-	#qr,
-	#quickrep,
-	div[id^="qr"],
-	table.reply[style^="clear: both"] {
-		border: none !important;
 	}
 
 	#copyright,
@@ -942,7 +938,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.navlinks,
-	#navlinks {
+	#navlinks,
+	span[id^="4chan_ext_right"] {
 		right: 255px !important;
 	}
 
@@ -950,6 +947,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		top: 0 !important;
 		z-index: 3 !important;
 	}
+
 /* Sidebar 4chan x options */
 	#options {
 		position: fixed !important;
@@ -1097,10 +1095,6 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	.postarea tr:nth-of-type(2) .postblock b:after {
 		content: "";
-	}
-
-	td.postblock {
-		border: none !important;
 	}
 }
 
