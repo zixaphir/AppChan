@@ -1,5 +1,5 @@
 /*
-AppChan by Zixaphir, MayhemYDG, !K.WeEabo0o, seaweed, disappoint, Kupaka
+AppChan by Zixaphir, MayhemYDG, !K.WeEabo0o, seaweedchan, disappoint, Kupaka
 
 V. 13
 
@@ -110,6 +110,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	scrollbar,
 	scrollcorner {
 		-moz-appearance: none !important;
+		-o-appearance: none !important;
 		width: 10px !important;
 		height: 10px !important;
 	}
@@ -124,7 +125,23 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	thumb {
 		-moz-appearance: none !important;
+		-o-appearance: none !important;
 		border: 1px solid;
+	}
+
+	::-webkit-selection{
+		background:#aaa;
+		color:#101010;
+	}
+
+	::-moz-selection{
+		background:#aaa;
+		color:#101010;
+	}
+
+	::selection{
+		background:#aaa;
+		color:#101010;
 	}
 
 	form[name="delform"]>table[align=right]:last-of-type {
@@ -148,6 +165,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		opacity: 0.3;
 		-webkit-transition: opacity .5s ease-in-out .5s;
 		-moz-transition: opacity .5s ease-in-out .5s;
+		-o-transition: opacity .5s ease-in-out .5s;
 	}
 
 	div.logo img:hover {
@@ -157,6 +175,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	div.logo img:hover {
 		-webkit-transition: opacity .5s ease-in;
 		-moz-transition: opacity .5s ease-in;
+		-o-transition: opacity .5s ease-in;
 	}
 
 	div.logo font[size="5"] span {
@@ -257,7 +276,9 @@ This style is designed for the following browsers, ordered alphabetically:
 	.pages a,
 	.pages b,
 	.pages input {
+		-webkit-appearance: none;
 		-moz-appearance: none;
+		-o-appearance: none;
 		display: inline-block;
 		font-size: 12px !important;
 		text-align: center;
@@ -276,6 +297,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	.new {
 		-webkit-transition: background-color .1s linear;
 		-moz-transition: background-color .1s linear;
+		-o-transition: background-color .1s linear;
 		border-radius: 9px;
 	}
 /* End of Navigation */
@@ -452,8 +474,9 @@ This style is designed for the following browsers, ordered alphabetically:
 	input[type="submit"],
 	select,
 	textarea {
-		-moz-appearance: none;
 		-webkit-appearance: none;
+		-moz-appearance: none;
+		-o-appearance: none;
 	}
 
 	.inputtext {
@@ -687,16 +710,18 @@ This style is designed for the following browsers, ordered alphabetically:
 	#qr label input,
 	.boxcontent input,
 	.boxcontent textarea {
-		-moz-appearance: none;
 		-webkit-appearance: button;
+		-moz-appearance: none;
+		-o-appearance: none;
 		border: 0 !important;
 	}
 
 	input[type=checkbox],
 	.reply input[type=checkbox],
 	#options input[type=checkbox] {
-		-moz-appearance: none;
 		-webkit-appearance: button !important;
+		-moz-appearance: none;
+		-o-appearance: none;
 		width: 12px !important;
 		height: 12px !important;
 		cursor: pointer !important;
@@ -973,8 +998,9 @@ This style is designed for the following browsers, ordered alphabetically:
 	#thread_filter {
 		padding: 3px 0;
 		border: 0 !important;
-		-moz-border-radius: 0;
 		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		-o-border-radius: 0;
 		border-radius: 0;
 		font-size: 12px !important;
 		z-index: 4 !important;
@@ -1038,6 +1064,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 1px 0;
 		overflow: hidden;
 		-moz-border-radius: 0;
+		-o-border-radius: 0;
 		-webkit-border-radius: 0;
 		z-index: 2 !important;
 	}
@@ -1107,6 +1134,9 @@ This style is designed for the following browsers, ordered alphabetically:
 		display: -moz-box;
 		-moz-box-pack: center;
 		-moz-box-align: center;
+		display: -o-box;
+		-o-box-pack: center;
+		-o-box-align: center;
 	}
 
 	#doc,

@@ -137,6 +137,147 @@ none
 	#boardsMenu {
 		bottom: 46px !important;
 	}
+/* Slideout */
+	#header {
+		position: absolute !important;
+	}
+
+	.pages {
+		padding: 0 !important;
+	}
+
+	#navbot:after {
+		position: fixed !important;
+		display: block !important;
+		left: auto !important;
+		top: 0px !important;
+		height: 16px !important;
+		width: 80px;
+		border-width: 0 1px 1px 0 !important;
+		font-size: 10px !important;
+		color: #ddd !important;
+		vertical-align: bottom !important;
+		text-align: center !important;
+		opacity: 0.5 !important;
+		-webkit-transition: all 0.3s ease-in-out !important;
+		-moz-transition: all 0.3s ease-in-out !important;
+		-o-transition: all 0.3s ease-in-out !important;
+		content: "-Navigation-";
+	}
+	#navbot:hover:after {
+		top: 41px !important;
+		z-index: 1;
+		border: none !important;
+		opacity: 1 !important;
+		background: none !important;
+	}
+	#navbot:hover {
+		top: 0px !important;
+	}
+	#navbot {
+		visibility: visible !important;
+		position: fixed !important;
+		top: -61px !important;
+		left: 0px !important;
+		right: auto !important;
+		z-index: 2;
+		padding: 0 10px 20px 10px !important;
+		border-width: 0 1px 1px 0 !important;
+		width: 310px !important;
+		height: 40px !important;
+		text-align: center !important;
+		-webkit-transition: all 0.3s ease-in-out !important;
+		-moz-transition: all 0.3s ease-in-out !important;
+		-o-transition: all 0.3s ease-in-out !important;
+	}
+/* Slideout Invert */
+	#header,
+	.pages {
+		position: fixed !important;
+	}
+
+	.navlinks {
+		padding-top: 14px;
+	}
+
+	table[width="100%"]~.navlinks {
+		padding-top: 0;
+	}
+
+	#header {
+		top: auto !important;
+		bottom: 0 !important;
+	}
+
+	.pages {
+		bottom: auto !important;
+		top: 0 !important;
+	}
+
+	#navbar {
+		margin-left: -265px !important;
+		bottom: 16px !important;
+		height: 26px !important;
+	}
+
+	#boardsMenu {
+		bottom: 46px !important;
+	}
+	#header {
+		position: absolute !important;
+	}
+
+	.pages {
+		padding: 0 !important;
+	}
+
+	#navbot:after {
+		position: fixed !important;
+		display: block !important;
+		left: auto !important;
+		bottom: 0px !important;
+		height: 16px !important;
+		width: 80px;
+		border-width: 0 1px 1px 0 !important;
+		font-size: 10px !important;
+		color: #ddd !important;
+		vertical-align: bottom !important;
+		text-align: center !important;
+		opacity: 0.5 !important;
+		-webkit-transition: all 0.3s ease-in-out !important;
+		-moz-transition: all 0.3s ease-in-out !important;
+		-o-transition: all 0.3s ease-in-out !important;
+		content: "-Navigation-";
+	}
+
+	#navbot:hover:after {
+		bottom: 41px !important;
+		z-index: 1;
+		border: none !important;
+		opacity: 1 !important;
+		background: none !important;
+	}
+
+	#navbot:hover {
+		bottom: 0px !important;
+	}
+
+	#navbot {
+		visibility: visible !important;
+		position: fixed !important;
+		bottom: -61px !important;
+		left: 0px !important;
+		right: auto !important;
+		z-index: 2;
+		padding: 0 10px 20px 10px !important;
+		border-width: 0 1px 1px 0 !important;
+		width: 310px !important;
+		height: 40px !important;
+		text-align: center !important;
+		-webkit-transition: all 0.3s ease-in-out !important;
+		-moz-transition: all 0.3s ease-in-out !important;
+		-o-transition: all 0.3s ease-in-out !important;
+	}
 /* End */
 
 /*[[PagesPosition]]*/
@@ -153,6 +294,8 @@ none
 		-webkit-transform-origin: bottom right;
 		-moz-transform: rotate(90deg);
 		-moz-transform-origin: bottom right;
+		-o-transform: rotate(90deg);
+		-o-transform-origin: bottom right;
 		letter-spacing: -1px;
 		word-spacing: -6px;
 	}
@@ -172,12 +315,14 @@ none
 		right: -233px !important;
 		-webkit-transition: right .3s ease-in-out 3s;
 		-moz-transition: right .3s ease-in-out 3s;
+		-o-transition: right .3s ease-in-out 3s;
 	}
 
 	.postarea form[name="post"]:hover {
 		right: 2px !important;
 		-webkit-transition: right .3s linear;
 		-moz-transition: right .3s linear;
+		-o-transition: right .3s linear;
 	}
 
 	.postarea form[name="post"] tr:nth-child(4) {
@@ -192,19 +337,23 @@ none
 		right: -248px !important;
 		-webkit-transition: right .3s ease-in-out 3s;
 		-moz-transition: right .3s ease-in-out 3s;
+		-o-transition: right .3s ease-in-out 3s;
 	}
 
 	.postarea form[name="post"]:hover {
 		right: 2px !important;
 		-webkit-transition: right .3s linear;
 		-moz-transition: right .3s linear;
+		-o-transition: right .3s linear;
 	}
 
 	.postarea form[name="post"]:after {
-		-moz-transform: rotate(-90deg);
-		-moz-transform-origin: bottom left;
 		-webkit-transform: rotate(-90deg);
 		-webkit-transform-origin: bottom left;
+		-moz-transform: rotate(-90deg);
+		-moz-transform-origin: bottom left;
+		-o-transform: rotate(-90deg);
+		-o-transform-origin: bottom left;
 		width: 210px;
 		display: block;
 		font-size: 10px !important;
@@ -213,12 +362,16 @@ none
 		margin-bottom: 18px;
 		opacity: 1;
 		content: "POST FORM - POST FORM - POST FORM";
+		-webkit-transition: all .3s ease-in-out 3s;
 		-moz-transition: all .3s ease-in-out 3s;
+		-o-transition: all .3s ease-in-out 3s;
 	}
 
 	.postarea form[name="post"]:hover:after {
 		opacity: 0;
+		-webkit-transition: all .3s linear;
 		-moz-transition: all .3s linear;
+		-o-transition: all .3s linear;
 	}
 
 	.postarea form[name="post"] tr:nth-child(4) {
@@ -235,12 +388,14 @@ none
 		opacity: 0.2;
 		-webkit-transition: opacity .3s ease-in-out 3s;
 		-moz-transition: opacity .3s ease-in-out 3s;
+		-o-transition: opacity .3s ease-in-out 3s;
 	}
 
 	.postarea form[name="post"]:hover {
 		opacity: 1;
 		-webkit-transition: opacity .3s linear;
 		-moz-transition: opacity .3s linear;
+		-o-transition: opacity .3s linear;
 /* Use Quick Reply instead: */
 		right: 2px !important;
 	}
