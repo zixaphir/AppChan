@@ -106,6 +106,8 @@
 		background: #333 !important;
 	}
 
+	div[id^="4chan_ext_iqr"],
+	div[id^="4chan_ext_iqr"] *,
 	#header,
 	#options input,
 	#qr,
@@ -132,6 +134,8 @@
 
 	#backwash_tooltip,
 	#cc-showpostarea,
+	#twi_table_div,
+	#twi_table_div *,
 	#qp,
 	#updater:hover,
 	#thread_filter.autohide:hover,
@@ -245,6 +249,8 @@
 	#options input:not([type="checkbox"]),
 	#qr table .recaptchatable #recaptcha_image,
 	#updater input:not([type="checkbox"]),
+	#twi_table_div,
+	#twi_table_div *,
 	.box-outer,
 	.boxbar,
 	.chanchimp,
@@ -281,7 +287,8 @@
 		border-color: #2c2c2c !important;
 	}
 
-	#watcher .move {
+	#watcher .move,
+	#twi_table_div .postblock {
 		border-bottom: 1px #2c2c2c solid !important;
 	}
 

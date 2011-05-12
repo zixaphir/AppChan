@@ -214,7 +214,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		font-size: 0 !important;
 		color: transparent !important;
 		width: auto !important;
-		height: 17px !important;
 	}
 
 	#header>#navtop {
@@ -261,10 +260,9 @@ This style is designed for the following browsers, ordered alphabetically:
 		-moz-appearance: none;
 		display: inline-block;
 		font-size: 12px !important;
-		height: 14px !important;
 		text-align: center;
 		margin: 0 1px;
-		min-width: 14px;
+		min-width: 12px;
 		border: 0 none !important;
 		padding: 0 !important;
 		background: none transparent !important;

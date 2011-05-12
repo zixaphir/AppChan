@@ -43,6 +43,8 @@
 	#options input:not([type="checkbox"]),
 	#qr table .recaptchatable #recaptcha_image,
 	#updater input:not([type="checkbox"]),
+	#twi_table_div,
+	#twi_table_div *,
 	.box-outer,
 	.boxbar,
 	.chanchimp,
@@ -118,7 +120,8 @@
 		border-color: #fff !important;
 	}
 
-	#watcher .move {
+	#watcher .move,
+	#twi_table_div .postblock {
 		border-bottom: 1px #fff solid !important;
 	}
 

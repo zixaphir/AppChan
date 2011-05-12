@@ -69,7 +69,15 @@
 	.reply>*,
 	.reply>*>*,
 	.reply>*>*>* {
-		background-color:#3a3a39 !important;
+		background-color: #3a3a39 !important;
+	}
+
+	.spoiler:not(:hover),
+	.spoiler:not(:hover) .unkfunc,
+	.spoiler:not(:hover) a,
+	.spoiler:not(:hover) * {
+		/* Fixes text spoilers */
+		background-color: #000 !important;
 	}
 
 	form[name="delform"] .reply td,
@@ -92,7 +100,8 @@
 		border-color: #4f4f4f !important;
 	}
 
-	#watcher .move {
+	#watcher .move,
+	#twi_table_div .postblock {
 		border-bottom: 1px #4f4f4f solid !important;
 	}
 
@@ -132,6 +141,8 @@
 	#options input:not([type="checkbox"]),
 	#qr table .recaptchatable #recaptcha_image,
 	#updater input:not([type="checkbox"]),
+	#twi_table_div,
+	#twi_table_div *,
 	.box-outer,
 	.boxbar,
 	.chanchimp,

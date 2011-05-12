@@ -167,6 +167,8 @@
 	#updater:hover,
 	#thread_filter.autohide:hover,
 	#thread_filter:not(.autohide),
+	#twi_table_div,
+	#twi_table_div *,
 	#popup,
 	.chanchimp,
 	.chanchimp>div,
@@ -232,6 +234,8 @@
 	#options input:not([type="checkbox"]),
 	#qr table .recaptchatable #recaptcha_image,
 	#updater input:not([type="checkbox"]),
+	#twi_table_div,
+	#twi_table_div *,
 	.box-outer,
 	.boxbar,
 	.chanchimp,
@@ -283,7 +287,8 @@
 		border-color: #313c5a !important;
 	}
 
-	#watcher .move {
+	#watcher .move,
+	#twi_table_div .postblock {
 		border-bottom: 1px #313c5a solid !important;
 	}
 
