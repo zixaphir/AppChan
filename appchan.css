@@ -261,11 +261,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		display: inline-block;
 		font-size: 12px !important;
 		text-align: center;
-		margin: 0 1px;
-		min-width: 12px;
-		border: 0 none !important;
-		padding: 0 !important;
-		background: none transparent !important;
+		border: none !important;
+		margin: 0 1px 0 2px;
 		text-align: center;
 	}
 
