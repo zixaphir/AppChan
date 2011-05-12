@@ -904,9 +904,15 @@ This style is designed for the following browsers, ordered alphabetically:
 	#backwash_tooltip,
 	#popup,
 	#qp,
-	div[id^="ref"] {
+	div[id^="ref"],
+	#cc-quotedcontainer_t {
 		visibility: visible;
 		z-index: 10 !important;
+	}
+
+	#cc-newpostarea,
+	#cc-newpostarea2 {
+		z-index: 9 !important;
 	}
 
 	#backwash_tooltip img,
