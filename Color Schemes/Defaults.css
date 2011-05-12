@@ -114,6 +114,8 @@
 		color: rgba(0,0,0,0.5) !important;
 	}
 
+	#navbot,
+	#navbot:after,
 	#watcher .move,
 	#threadwatcher .postblock,
 	.chanchimp * {
@@ -132,6 +134,8 @@
 	}
 
 	#header,
+	#navbot,
+	#navbot:after,
 	.pages,
 	.postarea form[name="post"]:after {
 		background-color: #fff !important;

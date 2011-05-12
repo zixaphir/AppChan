@@ -18,6 +18,21 @@
 		background: #3a3a39;
 	}
 
+	::-webkit-selection{
+		background:#ccc;
+		color:#3a3a39;
+	}
+
+	::-moz-selection{
+		background:#ccc;
+		color:#3a3a39;
+	}
+
+	::selection{
+		background:#ccc;
+		color:#3a3a39;
+	}
+
 	thumb:active {
 		background: #111 !important;
 	}

@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, MayhemYDG, !K.WeEabo0o, seaweedchan, disappoint, Kupaka
 
-V. 13
+V. 13t
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -54,10 +54,9 @@ This style is designed for the following browsers, ordered alphabetically:
 	td[style^="padding: "]:not(#backwash_tipcell):not([style="padding: 10px 7px 7px 7px;"]):not([style="padding: 10px 7px 7px;"]),
 	td.rules,
 	th,
-	#4chan_ext_nav_top,
-	#footer *:not(#navbot),
+	[id="4chan_ext_nav_top"],
+	#footer>*:not(#navbot),
 	#ft li.fill,
-	#navbot *,
 	#popular-threads,
 	#recaptcha_logo,
 	#recaptcha_tagline,
@@ -127,21 +126,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		-moz-appearance: none !important;
 		-o-appearance: none !important;
 		border: 1px solid;
-	}
-
-	::-webkit-selection{
-		background:#aaa;
-		color:#101010;
-	}
-
-	::-moz-selection{
-		background:#aaa;
-		color:#101010;
-	}
-
-	::selection{
-		background:#aaa;
-		color:#101010;
 	}
 
 	form[name="delform"]>table[align=right]:last-of-type {

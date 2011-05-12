@@ -191,17 +191,12 @@ none
 		-o-transition: all 0.3s ease-in-out !important;
 	}
 /* Slideout Invert */
-	#header,
 	.pages {
 		position: fixed !important;
 	}
 
-	.navlinks {
-		padding-top: 14px;
-	}
-
-	table[width="100%"]~.navlinks {
-		padding-top: 0;
+	#header {
+		position: absolute !important;
 	}
 
 	#header {
@@ -212,22 +207,6 @@ none
 	.pages {
 		bottom: auto !important;
 		top: 0 !important;
-	}
-
-	#navbar {
-		margin-left: -265px !important;
-		bottom: 16px !important;
-		height: 26px !important;
-	}
-
-	#boardsMenu {
-		bottom: 46px !important;
-	}
-	#header {
-		position: absolute !important;
-	}
-
-	.pages {
 		padding: 0 !important;
 	}
 
@@ -285,6 +264,7 @@ none
 	.pages {
 		padding: 0 !important;
 		visibility: hidden;
+		top: auto !important;
 		bottom: 311px !important;
 		width: auto !important;
 		left: auto !important;

@@ -18,6 +18,21 @@
 		background: #1c1c1c;
 	}
 
+	::-webkit-selection{
+		background:#aaa;
+		color:#101010;
+	}
+
+	::-moz-selection{
+		background:#aaa;
+		color:#101010;
+	}
+
+	::selection{
+		background:#aaa;
+		color:#101010;
+	}
+
 	scrollbar,
 	scrollcorner {
 		background: #1c1c1c;

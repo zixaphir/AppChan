@@ -19,6 +19,21 @@
 		border: 1px solid #313c5a !important;
 	}
 
+	::-webkit-selection{
+		background:#313c5a;
+		color:#5f608b;
+	}
+
+	::-moz-selection{
+		background:#313c5a;
+		color:#5f608b;
+	}
+
+	::selection{
+		background:#313c5a;
+		color:#5f608b;
+	}
+
 	scrollbar,
 	scrollcorner {
 		background: #686a99 !important;

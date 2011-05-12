@@ -21,6 +21,21 @@
 		background: #262626;
 	}
 
+	::-webkit-selection{
+		background:#aaa;
+		color:#101010;
+	}
+
+	::-moz-selection{
+		background:#aaa;
+		color:#101010;
+	}
+
+	::selection{
+		background:#aaa;
+		color:#101010;
+	}
+
 	*,
 	#updater #count:not(.new):after,
 	#imgControls label:after {
