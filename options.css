@@ -400,7 +400,7 @@ none
 		display: block !important;
 	}
 
-	table[width="100%"]~#qr.auto > form {
+	table[width="100%"]~#qr.auto > #qr_form {
 		overflow: visible !important;
 		height: 228px !important;
 	}
@@ -526,6 +526,7 @@ none
 
 	table[width="100%"]~* form[name^="post"] textarea.inputtext {
 		height: 78px !important;
+		min-height: 78px !important;
 		width: 248px !important;
 		resize: none;
 	}
