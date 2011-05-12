@@ -1132,17 +1132,32 @@ This style is designed for the following browsers, ordered alphabetically:
 @-moz-document domain("images.4chan.org"),
 url("http://www.4chan.org/banned") {
 	html {
-		display: table;
+		display: table !important;
 	}
 
 	body {
-		display: table-cell;
-		vertical-align: middle;
+		display: table-cell !important;
+		vertical-align: middle !important;
+	}
+
+	html,
+	body {
+		height: 100% !important;
+	}
+
+	html,
+	body,
+	img {
+		margin: auto !important;
+	}
+
+	#doc {
+		width: 65% !important;
+		min-width: 800px !important;
 	}
 
 	img {
-		display: block;
-		margin: auto;
+		display: block !important;
 	}
 
 	#ft ul {
@@ -1150,8 +1165,12 @@ url("http://www.4chan.org/banned") {
 	}
 
 	#ft li {
-		float: none !important;
+		float: none !important !important;
 		display: inline-block !important;
+	}
+
+	b {
+		font-weight: 800 !important;
 	}
 }
 
