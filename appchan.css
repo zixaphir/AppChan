@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, MayhemYDG, !K.WeEabo0o, seaweedchan, disappoint, Kupaka
 
-V. 14
+V. 15
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -269,7 +269,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		border: none !important;
 		text-align: center;
 	}
-
+/*[[CompactNavigation]]*/
 	.pages input {
 		margin-bottom: 2px !important;
 	}
