@@ -193,21 +193,12 @@ none
 /* Slideout Invert */
 	.pages {
 		position: fixed !important;
-	}
-
-	#header {
-		position: absolute !important;
-	}
-
-	#header {
-		top: auto !important;
-		bottom: 0 !important;
-	}
-
-	.pages {
 		bottom: auto !important;
 		top: 0 !important;
-		padding: 0 !important;
+	}
+
+	#header {
+		display: none !important;
 	}
 
 	#navbot:after {
@@ -230,7 +221,6 @@ none
 	}
 
 	#navbot:hover:after {
-		bottom: 41px !important;
 		z-index: 1;
 		border: none !important;
 		opacity: 1 !important;
