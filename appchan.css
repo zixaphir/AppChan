@@ -540,6 +540,7 @@ This style is designed for the following browsers, ordered alphabetically:
 /* End of the file upload input */
 	.postarea form[name^="post"] textarea {
 		height: 78px !important;
+		min-height: 78px !important;
 		font-size: 10pt !important;
 		margin: 0 !important;
 	}
