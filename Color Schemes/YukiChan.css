@@ -136,6 +136,8 @@
 	}
 
 	#header,
+	#navbot,
+	#navbot:after,
 	#options input,
 	#options input[type=checkbox],
 	#qr,
@@ -281,6 +283,8 @@
 		border-radius: 3px;
 	}
 
+	#navbot,
+	#navbot:after,
 	.boxcontent dd,
 	#threadwatcher .postblock,
 	.chanchimp * {

@@ -143,6 +143,8 @@
 	input[type="submit"]:hover,
 	input[type="file"]>input[type="button"]:hover,
 	#header,
+	#navbot,
+	#navbot:after,
 	#options input,
 	#qr,
 	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
@@ -253,12 +255,13 @@
 		color: rgba(255,255,255,0.2) !important;
 	}
 
-	input:-moz-placeholder {
-		color: rgba(255,255,255,0.2) !important;
+	#qr form[name^="post"] input:-moz-placeholder {
+		color: #000 !important;
+		font-size: 12px !important;
 	}
 
-	input:-webkit-placeholder {
-		color: rgba(255,255,255,0.2) !important;
+	#qr form[name^="post"] input:-webkit-placeholder {
+		color: #000 !important;
 	}
 
 	#cc-showpostarea,

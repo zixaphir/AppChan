@@ -94,6 +94,8 @@
 		border: 0 !important;
 	}
 
+	#navbot,
+	#navbot:after,
 	.boxcontent dd,
 	#threadwatcher .postblock,
 	.chanchimp * {
