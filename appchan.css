@@ -545,9 +545,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	form[name^="post"] textarea {
-		height: 120px !important;
+		min-height: 100px !important;
 		margin: 0 !important;
-		resize: none;
 	}
 
 	.postarea td,

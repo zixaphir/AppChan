@@ -525,7 +525,7 @@ none
 	}
 
 	table[width="100%"]~* form[name^="post"] textarea.inputtext {
-		height: 79px !important;
+		height: 78px !important;
 		width: 248px !important;
 		resize: none;
 	}
