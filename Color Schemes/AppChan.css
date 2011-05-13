@@ -86,7 +86,8 @@
 		color: #444 !important;
 	}
 
-	a.backlink {
+	a.backlink,
+	a.forwardlink {
 		color: #4f5f8f !important;
 	}
 
