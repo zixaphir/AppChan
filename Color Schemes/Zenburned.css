@@ -62,6 +62,7 @@
 	.pages b,
 	.postarea tr:nth-child(4)>.postblock>b:after,
 	.reply,
+	.replyhl,
 	#backwash_tooltip,
 	#imgControls label:after,
 	#qp,
