@@ -104,6 +104,7 @@
 	div.postarea,
 	input,
 	td.deletebuttons,
+	textarea,
 	.logo,
 	.pages b,
 	.reply,
@@ -253,8 +254,8 @@
 		color: #242949 !important;
 	}
 
-	#qr input::webkit-input-placeholder,
-	#qr textarea::webkit-input-placeholder {
+	#qr input::-webkit-input-placeholder,
+	#qr textarea::-webkit-input-placeholder {
 		color: #242949 !important;
 	}
 

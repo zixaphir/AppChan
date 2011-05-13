@@ -58,6 +58,7 @@
 	div.postarea,
 	input,
 	td.deletebuttons,
+	textarea,
 	.logo,
 	.pages b,
 	.postarea tr:nth-child(4)>.postblock>b:after,
@@ -76,8 +77,8 @@
 		color: #888 !important;
 	}
 
-	#qr input::webkit-input-placeholder,
-	#qr textarea::webkit-input-placeholder {
+	#qr input::-webkit-input-placeholder,
+	#qr textarea::-webkit-input-placeholder {
 		color: #888 !important;
 	}
 
