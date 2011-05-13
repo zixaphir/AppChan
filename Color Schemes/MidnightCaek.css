@@ -51,11 +51,17 @@
 		background: -moz-linear-gradient(top, rgba(255,255,255,.4), rgba(255,255,255,0.2)) !important;
 	}
 
-	*,
-	#updater #count:not(.new):after,
-	#imgControls label:after {
+	body,
+	body>form,
+	input,
+	div.postarea,
+	td.deletebuttons,
+	.logo,
+	.pages b,
+	.reply,
+	#imgControls label:after,
+	#updater #count:not(.new):after {
 		color: #909090 !important;
-
 	}
 
 	div.postarea>form td:nth-of-type(3)>label,
@@ -267,16 +273,22 @@
 	.postarea tr:nth-child(4) .postblock b,
 	.postarea form[name^="post"]:after,
 	#maxchars {
-		color: rgba(255,255,255,0.2) !important;
+		color: rgba(255,255,255,0.1) !important;
 	}
 
-	#qr form[name^="post"] input:-moz-placeholder {
-		color: #000 !important;
-		font-size: 12px !important;
+	#qr input:-moz-placeholder,
+	#qr textarea:-moz-placeholder {
+		color: rgba(255,255,255,0.1) !important;
 	}
 
-	#qr form[name^="post"] input:-webkit-placeholder {
-		color: #000 !important;
+	#qr input:-webkit-placeholder,
+	#qr textarea:-webkit-placeholder {
+		color: rgba(255,255,255,0.1) !important;
+	}
+
+	#qr input:placeholder,
+	#qr textarea:placeholder {
+		color: rgba(255,255,255,0.1) !important;
 	}
 
 	#cc-showpostarea,

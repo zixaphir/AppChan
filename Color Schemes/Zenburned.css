@@ -53,20 +53,33 @@
 		background-color: #3f3f3f !important;
 	}
 
-
-	#updater #count:not(.new):after,
-	#imgControls label:after,
+	body,
+	body>form,
+	div.postarea,
+	input,
+	td.deletebuttons,
+	.logo,
+	.pages b,
 	.postarea tr:nth-child(4)>.postblock>b:after,
-	* {
+	.reply,
+	#imgControls label:after,
+	#updater #count:not(.new):after {
 		color: #ccc !important;
 	}
 
-	input:-moz-placeholder {
-		color: #ccc !important;
+	#qr input:-moz-placeholder,
+	#qr textarea:-moz-placeholder {
+		color: #888 !important;
 	}
 
-	input:-webkit-placeholder {
-		color: #ccc !important;
+	#qr input:-webkit-placeholder,
+	#qr textarea:-webkit-placeholder {
+		color: #888 !important;
+	}
+
+	#qr input:placeholder,
+	#qr textarea:placeholder {
+		color: #888 !important;
 	}
 
 	div.logo,

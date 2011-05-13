@@ -97,11 +97,18 @@
 		color: #613 !important;
 	}
 
-	*,
-	#updater #count:not(.new):after,
-	#imgControls label:after,
 	a:hover,
-	a:active {
+	a:active,
+	body,
+	body>form,
+	div.postarea,
+	input,
+	td.deletebuttons,
+	.logo,
+	.pages b,
+	.reply,
+	#updater #count:not(.new):after,
+	#imgControls label:after {
 		color: #1e1f3d !important;
 	}
 
@@ -237,11 +244,18 @@
 		color: #242949 !important;
 	}
 
-	input:-moz-placeholder {
+	#qr input:-moz-placeholder,
+	#qr textarea:-moz-placeholder {
 		color: #242949 !important;
 	}
 
-	input:-webkit-placeholder {
+	#qr input:-webkit-placeholder,
+	#qr textarea:-webkit-placeholder {
+		color: #242949 !important;
+	}
+
+	#qr input:placeholder,
+	#qr textarea:placeholder {
 		color: #242949 !important;
 	}
 

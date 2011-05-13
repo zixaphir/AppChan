@@ -106,11 +106,18 @@
 		color: rgba(0,0,0,0.5) !important;
 	}
 
-	input:-moz-placeholder {
+	#qr input:-moz-placeholder,
+	#qr textarea:-moz-placeholder {
 		color: rgba(0,0,0,0.5) !important;
 	}
 
-	input:-webkit-placeholder {
+	#qr input:-webkit-placeholder,
+	#qr textarea:-webkit-placeholder {
+		color: rgba(0,0,0,0.5) !important;
+	}
+
+	#qr input:placeholder,
+	#qr textarea:placeholder {
 		color: rgba(0,0,0,0.5) !important;
 	}
 

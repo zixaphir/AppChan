@@ -36,9 +36,16 @@
 		color:#101010;
 	}
 
-	*,
-	#updater #count:not(.new):after,
-	#imgControls label:after {
+	body,
+	body>form,
+	div.postarea,
+	input,
+	td.deletebuttons,
+	.logo,
+	.pages b,
+	.reply,
+	#imgControls label:after,
+	#updater #count:not(.new):after {
 		color: #aaa !important;
 	}
 
@@ -252,12 +259,19 @@
 		color: rgba(255,255,255,0.2) !important;
 	}
 
-	form[name^="post"] input:-moz-placeholder {
-		color: rgba(255,255,255,0.2) !important;
+	#qr input:-moz-placeholder,
+	#qr textarea:-moz-placeholder {
+		color: rgba(255,255,255,0.1) !important;
 	}
 
-	form[name^="post"] input:-webkit-placeholder {
-		color: rgba(255,255,255,0.2) !important;
+	#qr input:-webkit-placeholder,
+	#qr textarea:-webkit-placeholder {
+		color: rgba(255,255,255,0.1) !important;
+	}
+
+	#qr input:placeholder,
+	#qr textarea:placeholder {
+		color: rgba(255,255,255,0.1) !important;
 	}
 
 	#cc-showpostarea,
