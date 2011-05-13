@@ -253,8 +253,8 @@
 		color: #242949 !important;
 	}
 
-	#qr input:-webkit-placeholder,
-	#qr textarea:-webkit-placeholder {
+	#qr input::webkit-input-placeholder,
+	#qr textarea::webkit-input-placeholder {
 		color: #242949 !important;
 	}
 

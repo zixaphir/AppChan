@@ -286,8 +286,8 @@
 		color: rgba(255,255,255,0.1) !important;
 	}
 
-	#qr input:-webkit-placeholder,
-	#qr textarea:-webkit-placeholder {
+	#qr input::webkit-input-placeholder,
+	#qr textarea::webkit-input-placeholder {
 		color: rgba(255,255,255,0.1) !important;
 	}
 
