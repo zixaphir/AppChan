@@ -59,7 +59,10 @@
 	.logo,
 	.pages b,
 	.reply,
+	#backwash_tooltip,
 	#imgControls label:after,
+	#qp,
+	#twi_table_div
 	#updater #count:not(.new):after {
 		color: #909090 !important;
 	}

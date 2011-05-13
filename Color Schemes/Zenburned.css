@@ -62,7 +62,10 @@
 	.pages b,
 	.postarea tr:nth-child(4)>.postblock>b:after,
 	.reply,
+	#backwash_tooltip,
 	#imgControls label:after,
+	#qp,
+	#twi_table_div
 	#updater #count:not(.new):after {
 		color: #ccc !important;
 	}

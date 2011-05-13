@@ -107,8 +107,11 @@
 	.logo,
 	.pages b,
 	.reply,
-	#updater #count:not(.new):after,
-	#imgControls label:after {
+	#backwash_tooltip,
+	#imgControls label:after,
+	#qp,
+	#twi_table_div
+	#updater #count:not(.new):after {
 		color: #1e1f3d !important;
 	}
 
