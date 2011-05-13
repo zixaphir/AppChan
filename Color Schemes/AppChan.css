@@ -48,7 +48,7 @@
 	#backwash_tooltip,
 	#imgControls label:after,
 	#qp,
-	#twi_table_div
+	#twi_table_div,
 	#updater #count:not(.new):after {
 		color: #aaa !important;
 	}
