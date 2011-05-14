@@ -102,8 +102,8 @@
 	body,
 	body>form,
 	div.postarea,
-	input,
 	html body span[style="left: 5px; position: absolute;"] a,
+	input,
 	select,
 	td.deletebuttons,
 	textarea,
@@ -115,6 +115,7 @@
 	.replyhl,
 	#backwash_tooltip,
 	#imgControls label:after,
+	#navbot:after,
 	#qp,
 	#twi_table_div,
 	#updater #count:not(.new):after {

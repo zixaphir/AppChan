@@ -54,6 +54,7 @@
 	.replyhl,
 	#backwash_tooltip,
 	#imgControls label:after,
+	#navbot:after,
 	#qp,
 	#twi_table_div,
 	#updater #count:not(.new):after {

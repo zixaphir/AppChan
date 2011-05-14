@@ -157,7 +157,6 @@ none
 		width: 80px;
 		border-width: 0 1px 1px 0 !important;
 		font-size: 10px !important;
-		color: #ddd !important;
 		vertical-align: bottom !important;
 		text-align: center !important;
 		opacity: 0.5 !important;
@@ -177,12 +176,13 @@ none
 		top: 0px !important;
 	}
 	#navbot {
-		visibility: hidden !important;
+		visibility: visible !important;
 		position: fixed !important;
 		top: -61px !important;
 		left: 0px !important;
 		right: auto !important;
 		z-index: 2;
+		color: transparent !important;
 		padding: 0 10px 20px 10px !important;
 		border-width: 0 1px 1px 0 !important;
 		width: 310px !important;
@@ -191,10 +191,6 @@ none
 		-webkit-transition: all 0.3s ease-in-out !important;
 		-moz-transition: all 0.3s ease-in-out !important;
 		-o-transition: all 0.3s ease-in-out !important;
-	}
-
-	#navbot a {
-		visibility: visible !important;
 	}
 /* Slideout Invert */
 	.pages {
@@ -212,12 +208,11 @@ none
 		position: fixed !important;
 		display: block !important;
 		left: auto !important;
-		bottom: 0px !important;
+		bottom: 0 !important;
 		height: 16px !important;
 		width: 80px;
 		border-width: 0 1px 1px 0 !important;
 		font-size: 10px !important;
-		color: #ddd !important;
 		vertical-align: bottom !important;
 		text-align: center !important;
 		opacity: 0.5 !important;
@@ -239,11 +234,12 @@ none
 	}
 
 	#navbot {
-		visibility: hidden !important;
+		visibility: visible !important;
 		position: fixed !important;
 		bottom: -61px !important;
 		left: 0px !important;
 		right: auto !important;
+		color: transparent !important;
 		z-index: 2;
 		padding: 0 10px 20px 10px !important;
 		border-width: 0 1px 1px 0 !important;
@@ -253,10 +249,6 @@ none
 		-webkit-transition: all 0.3s ease-in-out !important;
 		-moz-transition: all 0.3s ease-in-out !important;
 		-o-transition: all 0.3s ease-in-out !important;
-	}
-
-	#navbot a {
-		visibility: visible !important;
 	}
 /* End */
 
@@ -707,18 +699,23 @@ none
 	}
 
 	html body span[style="left: 5px; position: absolute;"] a {
+		cursor: default;
 		position: fixed !important;
 		top: auto;
-		right: 155px;
+		right: 192px;
 		bottom: 42px;
 		left: auto !important;
 		visibility: visible;
-		height: 19px !important;
+		height: 14px !important;
+		width: 58px !important;
 		margin: 0 !important;
 		padding: 0 !important;
 		font-size: 9px !important;
 		text-transform: uppercase;
-		vertical-align: bottom;
+		vertical-align: bottom !important;
+		padding-top: 5px !important;
+		border-radius: 0 !important;
+		text-align: center;
 	}
 /* No: */
 	html body span[style="left: 5px; position: absolute;"] {
