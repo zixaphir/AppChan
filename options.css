@@ -177,7 +177,7 @@ none
 		top: 0px !important;
 	}
 	#navbot {
-		visibility: visible !important;
+		visibility: hidden !important;
 		position: fixed !important;
 		top: -61px !important;
 		left: 0px !important;
@@ -191,6 +191,10 @@ none
 		-webkit-transition: all 0.3s ease-in-out !important;
 		-moz-transition: all 0.3s ease-in-out !important;
 		-o-transition: all 0.3s ease-in-out !important;
+	}
+
+	#navbot a {
+		visibility: visible !important;
 	}
 /* Slideout Invert */
 	.pages {
@@ -235,7 +239,7 @@ none
 	}
 
 	#navbot {
-		visibility: visible !important;
+		visibility: hidden !important;
 		position: fixed !important;
 		bottom: -61px !important;
 		left: 0px !important;
@@ -249,6 +253,10 @@ none
 		-webkit-transition: all 0.3s ease-in-out !important;
 		-moz-transition: all 0.3s ease-in-out !important;
 		-o-transition: all 0.3s ease-in-out !important;
+	}
+
+	#navbot a {
+		visibility: visible !important;
 	}
 /* End */
 
