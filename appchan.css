@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, MayhemYDG, !K.WeEabo0o, seaweedchan, disappoint, Kupaka
 
-V. 17
+V. 18
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -337,12 +337,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 596px !important;
 	}
 
-	#qr input.inputtext,
-	#qr input[name="upfile"],
-	#qr textarea {
-		margin-top: 1px !important;
-	}
-
 	.postarea form[name^="post"] {
 		/* Post From Positioning */
 		position: fixed !important;
@@ -557,12 +551,16 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 0 !important;
 	}
 
-	#thread_filter input,
 	.postarea form[name^="post"] input[name="sub"],
 	.postarea form[name^="post"] textarea.inputtext,
 	.postarea form[name^="post"] td>input,
 	.postarea form[name^="post"] .recaptchatable,
-	.postarea form[name^="post"] input[name="recaptcha_response_field"] {
+	.postarea form[name^="post"] input[name="recaptcha_response_field"],
+	#com_submit,
+	#qr input.inputtext,
+	#qr input[name="upfile"],
+	#qr textarea,
+	#thread_filter input {
 		margin-top: 1px !important;
 	}
 
