@@ -1148,8 +1148,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 }
 
-@-moz-document domain("images.4chan.org"),
-url("http://www.4chan.org/banned") {
+@-moz-document /*[[CenteredImages]]*/ url("http://www.4chan.org/banned") {
 	html {
 		display: table !important;
 	}
