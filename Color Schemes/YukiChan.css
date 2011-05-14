@@ -71,7 +71,7 @@
 	.commentpostername,
 	.postertrip,
 	.abbr,
-	.doubledash a,
+	.replyhider a,
 	td.reply,
 	td.replyhl {
 		color: #313c5a !important;
@@ -103,8 +103,10 @@
 	body>form,
 	div.postarea,
 	input,
+	select,
 	td.deletebuttons,
 	textarea,
+	.abbr,
 	.logo,
 	.omittedposts,
 	.pages b,

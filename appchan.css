@@ -68,6 +68,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#quickrep tr:nth-of-type(4) b,
 	#qr.auto:not(:hover) #recaptcha_reload_btn,
 	.deletebuttons input[type="button"],
+	.doubledash,
 	.error:empty,
 	.fill,
 	.notice,
@@ -133,7 +134,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	span[id^="4chan_ext_right"],
 	a.yuimenuitemlabel:hover,
-	.doubledash a:hover {
+	.replyhider a:hover {
 		background-color: transparent !important;
 	}
 /*[[boardlogo]]*/
@@ -744,14 +745,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin-top: 17px !important;
 	}
 /*[[expandfile]]*/
-	.doubledash {
-		visibility: hidden;
-		font-size: 0 !important;
-		color: transparent !important;
-	}
-
-	.doubledash a {
-		visibility: visible;
+	.replyhider a {
 		position: absolute;
 		right: 255px;
 	}

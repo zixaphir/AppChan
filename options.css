@@ -50,7 +50,8 @@ none
 	}
 /* Fit Content: */
 	.doubledash,
-	.doubledash a {
+	.doubledash a,
+	.replyhider a {
 		position: static;
 	}
 /* End */

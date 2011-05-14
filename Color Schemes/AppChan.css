@@ -40,8 +40,10 @@
 	body>form,
 	div.postarea,
 	input,
+	select,
 	td.deletebuttons,
 	textarea,
+	.abbr,
 	.logo,
 	.omittedposts,
 	.pages b,
@@ -66,11 +68,11 @@
 		color: #666 !important;
 	}
 
-	.doubledash a {
+	.replyhider a {
 		color: #222 !important;
 	}
 
-	.doubledash a:hover {
+	.replyhider a:hover {
 		color: #555 !important;
 	}
 
