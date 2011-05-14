@@ -20,18 +20,18 @@
 	}
 
 	::-webkit-selection{
-		background:#313c5a;
-		color:#5f608b;
+		background: #313c5a;
+		color: #5f608b;
 	}
 
 	::-moz-selection{
-		background:#313c5a;
-		color:#5f608b;
+		background: #313c5a;
+		color: #5f608b;
 	}
 
 	::selection{
-		background:#313c5a;
-		color:#5f608b;
+		background: #313c5a;
+		color: #5f608b;
 	}
 
 	scrollbar,
@@ -106,6 +106,7 @@
 	td.deletebuttons,
 	textarea,
 	.logo,
+	.omittedposts,
 	.pages b,
 	.reply,
 	.replyhl,
