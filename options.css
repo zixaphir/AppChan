@@ -685,6 +685,35 @@ none
 	}
 /* End */
 
+/*[[ReturnButton]]*/
+/* Yes: */
+	html body span[style="left: 5px; position: absolute;"]:nth-of-type(0) {
+		display: none;
+	}
+
+	html body span[style="left: 5px; position: absolute;"] {
+		font-size: 0 !important;
+		visibility: hidden;
+	}
+
+	html body span[style="left: 5px; position: absolute;"] a {
+		position: fixed !important;
+		top: auto;
+		right: 155px;
+		bottom: 42px;
+		left: auto !important;
+		visibility: visible;
+	}
+
+	html body span[style="left: 5px; position: absolute;"] a:after {
+		content: " to Board ";
+	}
+/* No: */
+	html body span[style="left: 5px; position: absolute;"] {
+		display: none;
+	}
+/* End */
+
 /*[[CustomScrollbars]]*/
 /* Yes: */
 
