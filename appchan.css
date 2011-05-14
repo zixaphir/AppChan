@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, MayhemYDG, !K.WeEabo0o, seaweedchan, disappoint, Kupaka
 
-V. 15
+V. 16
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -47,7 +47,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	form[name="delform"]>br:last-of-type,
 	form[name="delform"]>br[clear=left]:last-of-type,
 	form[name="delform"]>center,
-	html body span[style="left: 5px; position: absolute;"],
 	html body>a:not([style="cursor: pointer; float: right;"]),
 	scrollbarbutton,
 	small,

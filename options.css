@@ -203,6 +203,7 @@ none
 	}
 
 	#navbot:after {
+		cursor: default;
 		position: fixed !important;
 		display: block !important;
 		left: auto !important;
@@ -687,7 +688,7 @@ none
 
 /*[[ReturnButton]]*/
 /* Yes: */
-	html body span[style="left: 5px; position: absolute;"]:nth-of-type(0) {
+	html body>span[style="left: 5px; position: absolute;"]:nth-of-type(0) {
 		display: none;
 	}
 
