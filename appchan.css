@@ -514,6 +514,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#com_submit,
 	input[type="file"]>input[type="button"] {
 	/* Fancy formatting for all our postform buttons */
+		cursor: default !important;
 		width: 50px !important;
 		height: 19px !important;
 		margin: 0 !important;

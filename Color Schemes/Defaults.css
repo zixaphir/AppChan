@@ -59,6 +59,7 @@
 	#qr_captcha input,
 	input[type="file"]>input[type="button"],
 	input[type="submit"],
+	html body span[style="left: 5px; position: absolute;"] a,
 	select,
 	textarea,
 	#qr input[type="checkbox"],
@@ -175,7 +176,8 @@
 	}
 
 	form[name="delform"]>div:not(.thread) select,
-	.pages input[type="submit"] {
+	.pages input[type="submit"],
+	html body span[style="left: 5px; position: absolute;"] a {
 		margin: 0 !important;
 		height: 17px !important;
 	}

@@ -169,7 +169,6 @@
 
 	div[id^="4chan_ext_iqr"],
 	div[id^="4chan_ext_iqr"]>*,
-	#com_submit:hover,
 	input[type="submit"]:hover,
 	input[type="file"]>input[type="button"]:hover,
 	#header,
@@ -198,6 +197,7 @@
 		background-color: #101010 !important;
 	}
 
+	html body span[style="left: 5px; position: absolute;"] a:hover,
 	#com_submit:hover,
 	#cc-showpostarea,
 	#twi_table_div,
@@ -221,6 +221,7 @@
 		background-color: #181818 !important;
 	}
 
+	html body span[style="left: 5px; position: absolute;"] a,
 	input[type="submit"],
 	#com_submit,
 	input[type="file"]>input[type="button"],

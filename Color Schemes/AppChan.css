@@ -38,6 +38,7 @@
 
 	body,
 	body>form,
+	html body span[style="left: 5px; position: absolute;"] a,
 	div.postarea,
 	input,
 	select,
@@ -223,16 +224,18 @@
 		border-right-color: #393939 !important;
 	}
 
-	#com_submit:hover,
-	input[type="submit"]:hover,
-	input[type="file"]>input[type="button"]:hover {
-		background-color: #363636 !important;
-	}
-
+	html body span[style="left: 5px; position: absolute;"] a,
 	input[type="submit"],
 	#com_submit,
 	input[type="file"]>input[type="button"] {
 		background-color: #303030 !important;
+	}
+
+	html body span[style="left: 5px; position: absolute;"] a:hover,
+	#com_submit:hover,
+	input[type="submit"]:hover,
+	input[type="file"]>input[type="button"]:hover {
+		background-color: #363636 !important;
 	}
 
 	thumb:hover {

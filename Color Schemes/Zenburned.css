@@ -57,6 +57,7 @@
 	body>form,
 	div.postarea,
 	input,
+	html body span[style="left: 5px; position: absolute;"] a,
 	select,
 	td.deletebuttons,
 	textarea,
@@ -195,6 +196,7 @@
 	#qr_captcha input,
 	input[type="file"]>input[type="button"],
 	input[type="submit"],
+	html body span[style="left: 5px; position: absolute;"] a,
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -211,6 +213,7 @@
 	#updater input:not([type="checkbox"]):focus,
 	#thread_filter textarea:focus,
 	#options input:focus,
+	html body span[style="left: 5px; position: absolute;"] a:focus,
 	textarea:focus {
 		border: 1px solid #9988ee !important;
 	}

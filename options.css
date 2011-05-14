@@ -713,10 +713,12 @@ none
 		bottom: 42px;
 		left: auto !important;
 		visibility: visible;
-	}
-
-	html body span[style="left: 5px; position: absolute;"] a:after {
-		content: " to Board ";
+		height: 19px !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		font-size: 9px !important;
+		text-transform: uppercase;
+		vertical-align: bottom;
 	}
 /* No: */
 	html body span[style="left: 5px; position: absolute;"] {

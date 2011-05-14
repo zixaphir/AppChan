@@ -103,6 +103,7 @@
 	body>form,
 	div.postarea,
 	input,
+	html body span[style="left: 5px; position: absolute;"] a,
 	select,
 	td.deletebuttons,
 	textarea,
@@ -154,6 +155,7 @@
 	.top-box,
 	.yuimenuitem-selected,
 	h2,
+	html body span[style="left: 5px; position: absolute;"] a,
 	input,
 	input[type="file"]>input[type="button"],
 	input[type="submit"],
@@ -213,6 +215,7 @@
 	.deletebuttons input[type="password"]:focus,
 	input:focus,
 	input[type="submit"]:focus,
+	html body span[style="left: 5px; position: absolute;"] a:focus,
 	textarea:focus {
 		background-color: #5f608b !important;
 	}
@@ -289,6 +292,7 @@
 	#qr_captcha input,
 	input[type="file"]>input[type="button"],
 	input[type="submit"],
+	html body span[style="left: 5px; position: absolute;"] a,
 	select,
 	textarea {
 		border: 1px solid #313c5a !important;
