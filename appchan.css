@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, MayhemYDG, !K.WeEabo0o, seaweedchan, disappoint, Kupaka
 
-V. 21
+V. 22
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -991,6 +991,10 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#options .column ul>li:first-of-type {
 		background-color: #333 !important;
+	}
+	
+	#options .column ul>li {
+		padding: 0 3px !important;
 	}
 
 	#options textarea {

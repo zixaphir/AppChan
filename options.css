@@ -575,16 +575,19 @@ none
 /* Yes: */
 
 /* No: */
+	#qr div input:-moz-placeholder,
 	#qr form input:-moz-placeholder,
 	#qr form textarea:-moz-placeholder {
 		color: transparent !important;
 	}
 
-	#qr form input:-webkit-placeholder,
-	#qr form textarea:-webkit-placeholder {
+	#qr div input::-webkit-input-placeholder,
+	#qr form input::-webkit-input-placeholder,
+	#qr form textarea::-webkit-input-placeholder {
 		color: transparent !important;
 	}
 
+	#qr div input:placeholder,
 	#qr form input:placeholder,
 	#qr form textarea:placeholder {
 		color: transparent !important;
