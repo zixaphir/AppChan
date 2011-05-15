@@ -300,10 +300,21 @@
 		text-shadow: -1px -1px 3px #5f608b, 1px 1px 3px #5f608b, 1px -1px 3px #5f608b, -1px 1px 3px #5f608b;
 	}
 
+	form[name^="post"] input[type="file"][name="upfile"] {
+		margin: 0 -1px -1px !important;
+		height: 21px !important;
+	}
+
 	.fake input[type="file"]::-webkit-file-upload-button,
 	input[name="upfile"] {
 		border: 1px solid #313c5a !important;
 		text-shadow: -1px -1px 3px #5f608b, 1px 1px 3px #5f608b, 1px -1px 3px #5f608b, -1px 1px 3px #5f608b;
+	}
+
+	.fake input[type="file"]::-webkit-file-upload-button,
+	form[name^="post"] input[type="file"][name="upfile"] {
+		margin: 0 -1px -1px !important;
+		height: 21px !important;
 	}
 
 	td.reply,

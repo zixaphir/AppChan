@@ -67,9 +67,20 @@
 		border: 1px solid #ccc !important;
 	}
 
+	form[name^="post"] input[type="file"][name="upfile"] {
+		margin: 0 -1px -1px !important;
+		height: 21px !important;
+	}
+
 	.fake input[type="file"]::-webkit-file-upload-button,
 	input[name="upfile"] {
 		border: 1px solid #ccc !important;
+	}
+
+	.fake input[type="file"]::-webkit-file-upload-button,
+	form[name^="post"] input[type="file"][name="upfile"] {
+		margin: 0 -1px -1px !important;
+		height: 21px !important;
 	}
 
 	#qr input[type="checkbox"],

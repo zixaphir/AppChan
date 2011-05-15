@@ -826,18 +826,12 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#navbar {
 		margin-left: -265px !important;
-		bottom: 18px !important;
 		height: 26px !important;
-	}
-
-	table[width="100%"]~#navbar {
-		bottom: 0 !important;
 	}
 
 	#crntBoard {
 		height: 24px !important;
 	}
-
 /* Expand Images div */
 	#imgControls {
 		position: fixed;
