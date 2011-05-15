@@ -175,6 +175,10 @@
 		color: #000 !important;
 	}
 
+	input[type="file"]::-webkit-file-upload-button {
+		color: #000 !important;
+	}
+
 	#cc-showpostarea,
 	#ft li,
 	#ft ul,

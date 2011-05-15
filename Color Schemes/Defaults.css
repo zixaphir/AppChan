@@ -89,7 +89,8 @@
 	}
 
 	#updater #count:not(.new):after,
-	#imgControls label:after {
+	#imgControls label:after,
+	#navbot:after {
 		color: #000 !important;
 	}
 

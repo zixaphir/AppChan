@@ -133,7 +133,7 @@
 	input[type="file"]::-webkit-file-upload-button {
 		background: transparent;
 		border: 2px solid #5f608b !important;
-		color: #1e1f3d !important;
+		color: #313c5a !important;
 		text-shadow: -1px -1px 2px #5f608b, 1px 1px 2px #5f608b, 1px -1px 2px #5f608b, -1px 1px 2px #5f608b;
 	}
 
