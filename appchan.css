@@ -968,6 +968,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#options .column {
 		width: auto !important;
 		float: none !important;
+		margin: 0 !important;
 		text-align: left;
 	}
 
@@ -978,7 +979,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		-webkit-transition: height 500ms ease-in-out 500ms !important;
 		-moz-transition: height 500ms ease-in-out 500ms !important;
 		-o-transition: height 500ms ease-in-out 500ms !important;
-		border: 2px solid;
+		border: 1px solid;
 	}
 
 	#options .column ul:hover {

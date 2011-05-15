@@ -352,6 +352,8 @@
 
 	td.reply,
 	td.replyhl,
+	#options,
+	#options ul,
 	#watcher,
 	#thread_filter,
 	#qp,
