@@ -41,6 +41,8 @@
 	#ft li,
 	#ft ul,
 	#options input:not([type="checkbox"]),
+	#options textarea,
+	#options .column ul>li:first-of-type,
 	#qr table .recaptchatable #recaptcha_image,
 	#updater input:not([type="checkbox"]),
 	#twi_table_div,
@@ -140,6 +142,10 @@
 	#threadwatcher .postblock,
 	.chanchimp * {
 		border-color: #fff !important;
+	}
+	
+	#options .column ul {
+		border-color: #ccc !important;
 	}
 
 	#watcher .move,

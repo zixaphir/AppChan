@@ -964,6 +964,37 @@ This style is designed for the following browsers, ordered alphabetically:
 		right: 230px;
 		font-size: 20px !important;
 	}
+
+	#options .column {
+		width: auto !important;
+		float: none !important;
+		text-align: left;
+	}
+
+	#options .column ul {
+		margin-top: 3px !important;
+		overflow: hidden;
+		height: 16px;
+		-webkit-transition: height 500ms ease-in-out 500ms !important;
+		-moz-transition: height 500ms ease-in-out 500ms !important;
+		-o-transition: height 500ms ease-in-out 500ms !important;
+		border: 2px solid;
+	}
+
+	#options .column ul:hover {
+		height: 180px;
+		-webkit-transition: height 500ms ease-in-out !important;
+		-moz-transition: height 500ms ease-in-out !important;
+		-o-transition: height 500ms ease-in-out !important;
+	}
+
+	#options .column ul>li:first-of-type {
+		background-color: #333 !important;
+	}
+
+	#options textarea {
+		width: 238px !important;
+	}
 /* End of Sidebar 4chan x options */
 /*[[fixedFilter]]*/
 	#thread_filter {

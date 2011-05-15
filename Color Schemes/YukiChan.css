@@ -172,7 +172,9 @@
 	#navbot,
 	#navbot:after,
 	#options input,
+	#options textarea,
 	#options input[type=checkbox],
+	#options .column ul>li:first-of-type,
 	#qr,
 	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
 	#quickrep,
@@ -339,6 +341,7 @@
 	#navbot,
 	#navbot:after,
 	.boxcontent dd,
+	#options .column ul,
 	#threadwatcher .postblock,
 	.chanchimp * {
 		border-color: #313c5a !important;

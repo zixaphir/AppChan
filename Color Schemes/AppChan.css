@@ -46,10 +46,12 @@
 	textarea,
 	.abbr,
 	.commentpostername,
+	.filetitle,
 	.logo,
 	.omittedposts,
 	.pages b,
 	.postername,
+	.postertrip,
 	.reply,
 	.replyhl,
 	#backwash_tooltip,
@@ -147,6 +149,8 @@
 	#navbot,
 	#navbot:after,
 	#options input,
+	#options textarea,
+	#options .column ul>li:first-of-type,
 	#qr,
 	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
 	#quickrep,
@@ -328,6 +332,7 @@
 	}
 
 	.boxcontent dd,
+	#options .column ul,
 	#threadwatcher .postblock,
 	.chanchimp * {
 		border-color: #2c2c2c !important;

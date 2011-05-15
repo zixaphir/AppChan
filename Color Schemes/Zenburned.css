@@ -135,6 +135,7 @@
 	#navbot,
 	#navbot:after,
 	.boxcontent dd,
+	#options .column ul,
 	#threadwatcher .postblock,
 	.chanchimp * {
 		border-color: #4f4f4f !important;
@@ -183,6 +184,8 @@
 	#ft li,
 	#ft ul,
 	#options input:not([type="checkbox"]),
+	#options textarea,
+	#options .column ul>li:first-of-type,
 	#qr table .recaptchatable #recaptcha_image,
 	#updater input:not([type="checkbox"]),
 	#twi_table_div,
