@@ -33,6 +33,15 @@ none
 "Helvetica"
 /* END */
 
+/*[[FontSize]]*/
+/* Small */
+12px
+/* Medium */
+15px
+/* Large */
+18px
+/* END */
+
 /*[[ReplyWidth]]*/
 /* Fit Width: */
 	form[name="delform"]>table:not(.pages), /* Reply are tables. */
