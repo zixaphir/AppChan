@@ -333,7 +333,7 @@ none
 		position: fixed !important;
 		right: 2px !important;
 		bottom: 171px !important;
-/* Slideout 2: REQUIRES UBUNTU FONT + FX4, buggy in Chrome */
+/* Slideout 2: FX4, buggy in Chrome */
 		right: -248px !important;
 		-webkit-transition: right .3s ease-in-out 3s;
 		-moz-transition: right .3s ease-in-out 3s;
