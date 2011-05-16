@@ -442,7 +442,8 @@ none
 	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center>#recaptcha_image,
 	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center>#quick_recaptcha_image,
 	table[width="100%"]~* form[name^="post"] #recaptcha_image img,
-	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center>#quick_recaptcha_image img {
+	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center>#quick_recaptcha_image img,
+	table[width="100%"]~#qr img {
 		width: 248px !important;
 		height: 47px !important;
 	}
@@ -493,6 +494,7 @@ none
 	table[width="100%"]~* #r_captcha_div input {
 		width: 248px !important;
 		text-align: left !important;
+	}
 	}
 
 	table[width="100%"]~#quickrep,
