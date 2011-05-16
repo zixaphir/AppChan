@@ -85,7 +85,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	* {
 	/* Defaults of all elements */
-		font: 12px /*[[Font]]*/ !important;
+		font: /*[[FontSize]]*/ /*[[Font]]*/ !important;
 		text-decoration: none !important;
 	}
 
@@ -943,7 +943,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#options {
 		position: fixed !important;
 		top: 17px !important;
-		bottom: 2px !important;
+		bottom: auto !important;
 		right: 2px !important;
 		left: auto !important;
 		border: 0 !important;
