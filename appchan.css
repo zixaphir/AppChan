@@ -163,7 +163,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	div.logo font[size="5"] span {
-		font-size: 28px !important;
+		font-size: 220% !important;
 	}
 
 	body>span>div {
@@ -252,7 +252,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.pages td:nth-of-type(1) {
-		font-size: 9px !important;
+		font-size: 75% !important;
 		text-transform: uppercase;
 	}
 
@@ -264,7 +264,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		-moz-appearance: none;
 		-o-appearance: none;
 		display: inline-block;
-		font-size: 12px !important;
+		font-size: /*[[FontSize]]*/ !important;
 		text-align: center;
 		border: none !important;
 		text-align: center;
@@ -376,7 +376,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	form[name^="post"] .postblock b,
 	#maxchars /* 4chanplus's Character Counter */ {
 		position: absolute;
-		font-size: 9px !important;
+		font-size: 75% !important;
 		text-transform: uppercase;
 		z-index: 2;
 	}
@@ -395,7 +395,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.postarea tr:nth-child(4) .postblock b:after {
-		font-size: 9px !important;
+		font-size: 75% !important;
 		content: 'NEW THREAD' !important;
 	}
 
@@ -519,7 +519,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		height: 19px !important;
 		margin: 0 !important;
 		padding: 0 !important;
-		font-size: 9px !important;
+		font-size: 75% !important;
 		text-transform: uppercase;
 		vertical-align: bottom;
 	}
@@ -536,7 +536,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postarea form[name^="post"] textarea {
 		height: 78px !important;
 		min-height: 78px !important;
-		font-size: 10pt !important;
+		font-size: /*[[FontSize]]*/ !important;
 		margin: 0 !important;
 	}
 
@@ -656,7 +656,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	/* Spoiler Image label */
 		position: absolute;
 		top: auto;
-		font-size: 12px !important;
+		font-size: /*[[FontSize]]*/ !important;
 		bottom: 0;
 		right: 55px;
 		vertical-align: bottom;
@@ -675,7 +675,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#autonoko /* 4chanplus's autonoko */ {
 		position: absolute;
-		font-size: 12px !important;
+		font-size: /*[[FontSize]]*/ !important;
 		right: 91px;
 		display: none;
 	}
@@ -839,7 +839,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		right: 106px;
 		bottom: auto !important;
 		width: 145px;
-		font-size: 12px !important;
+		font-size: /*[[FontSize]]*/ !important;
 		z-index: 2;
 	}
 
@@ -851,12 +851,12 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#imgControls label {
-		font-size: 0px !important;
+		font-size: 0 !important;
 		color: transparent  !important;
 	}
 
 	#imgControls label:after {
-		font-size: 12px !important;
+		font-size: /*[[FontSize]]*/ !important;
 		content: "Expand";
 	}
 
@@ -870,7 +870,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#imgControls select>option {
-		font-size: 10px !important;
+		font-size: 80% !important;
 	}
 /* End of Expand Images div */
 /* Reply Previews */
@@ -954,7 +954,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#options .move {
 		text-decoration: underline !important;
-		font-size: 16px !important;
+		font-size: 125% !important;
 	}
 
 	#options .move a {
@@ -962,7 +962,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		position: fixed;
 		top: 22px;
 		right: 230px;
-		font-size: 20px !important;
+		font-size: 160% !important;
 	}
 
 	#options .column {
@@ -1009,7 +1009,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		-moz-border-radius: 0;
 		-o-border-radius: 0;
 		border-radius: 0;
-		font-size: 12px !important;
+		font-size: /*[[FontSize]]*/ !important;
 		z-index: 4 !important;
 	}
 
@@ -1019,7 +1019,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		top: 0 !important;
 		bottom: auto !important;
 		border: 0 !important;
-		font-size: 12px;
+		font-size: /*[[FontSize]]*/;
 		overflow: hidden;
 		z-index: 5 !important;
 		padding-bottom: 2px;
@@ -1031,15 +1031,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#updater #count:not(.new):after {
-		font-size: 12px !important;
+		font-size: /*[[FontSize]]*/ !important;
 		content: "+0";
-	}
-
-	#updater .error {
-		position: fixed;
-		top: 0;
-		right: 10px;
-		font-size: 48pt;
 	}
 
 	#watcher /* 4chan x thread watcher */ {

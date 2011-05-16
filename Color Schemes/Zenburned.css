@@ -62,10 +62,13 @@
 	td.deletebuttons,
 	textarea,
 	.abbr,
+	.boxbar,
+	.boxcontent,
 	.logo,
 	.omittedposts,
 	.pages b,
 	.postarea tr:nth-child(4)>.postblock>b:after,
+	.postblock,
 	.reply,
 	.replyhl,
 	#backwash_tooltip,
@@ -164,7 +167,8 @@
 		color: #c0bed1 !important;
 	}
 
-	.postertrip {
+	.postertrip,
+	.trip {
 		color: #8cd0d3 !important;
 	}
 

@@ -60,9 +60,12 @@
 	td.deletebuttons,
 	textarea,
 	.abbr,
+	.boxbar,
+	.boxcontent,
 	.logo,
 	.omittedposts,
 	.pages b,
+	.postblock,
 	.reply,
 	.replyhl,
 	#backwash_tooltip,
@@ -107,7 +110,8 @@
 		font-weight: 400 !important;
 	}
 
-	.postertrip {
+	.postertrip,
+	.trip {
 		color: #3e7157 !important;
 	}
 
