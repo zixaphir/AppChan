@@ -1199,7 +1199,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#ft li {
-		float: none !important !important;
+		float: none !important;
 		display: inline-block !important;
 	}
 
