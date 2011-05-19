@@ -54,6 +54,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	td.rules,
 	th,
 	[id="4chan_ext_nav_top"],
+	#autonoko /* FIXME */,
 	#footer>*:not(#navbot),
 	#ft li.fill,
 	#popular-threads,
@@ -68,6 +69,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#quickrep tr:nth-of-type(4) b,
 	#qr.auto:not(:hover) #recaptcha_reload_btn,
 	.deletebuttons input[type="button"],
+	.deletebuttons br,
 	.doubledash,
 	.error:empty,
 	.fill,
@@ -646,13 +648,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		right: 70px;
 	}
 
-	#autonoko /* 4chanplus's autonoko */ {
-		position: absolute;
-		font-size: /*[[FontSize]]*/ !important;
-		right: 91px;
-		display: none;
-	}
-
 	div.postarea>form td:nth-of-type(3)>label input,
 	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
 	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
@@ -892,15 +887,11 @@ This style is designed for the following browsers, ordered alphabetically:
 		position: fixed !important;
 		top: auto !important;
 		right: 2px !important;
-		bottom: 22px !important;
+		bottom: 23px !important;
 		left: auto !important;
 		visibility: visible !important;
 	}
 /* End of Reply Previews */
-	.deletebuttons br {
-		display: none !important;
-	}
-
 	.deletebuttons {
 		visibility: hidden !important;
 		font-size: 0 !important;
