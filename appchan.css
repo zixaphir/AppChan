@@ -465,7 +465,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background-image: none !important;
 	}
 
-	.deletebuttons input[type="password"] {
+	.deletebuttons .inputtext {
 		height: 19px !important;
 	}
 
@@ -927,8 +927,37 @@ This style is designed for the following browsers, ordered alphabetically:
 		visibility: visible !important;
 	}
 /* End of Reply Previews */
-	.deletebuttons br {
-		display: inline !important;
+	td.deletebuttons br {
+		display: none !important;
+	}
+
+	td.deletebuttons {
+		visibility: hidden !important;
+		font-size: 0 !important;
+	}
+
+	td.deletebuttons * {
+		visibility: visible !important;
+	}
+
+	td.deletebuttons input[type='checkbox'] {
+		position: absolute;
+		right: 106px;
+		bottom: 2px;
+	}
+
+	td.deletebuttons:after {
+		visibility: visible !important;
+		position: absolute;
+		right: 57px;
+		bottom: 2px;
+		font-size: 12px !important;
+		content: "File Only";
+	}
+
+	td.deletebuttons .inputtext {
+		width: 197px;
+		margin-right: 1px !important;
 	}
 
 	.navlinks,
