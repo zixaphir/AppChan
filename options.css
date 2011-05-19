@@ -463,6 +463,7 @@ none
 
 	table[width="100%"]~* form[name^="Post"] {
 		margin-bottom: 0px !important;
+		z-index: 2 !important;
 	}
 
 	table[width="100%"]~*[id^="q"] table {

@@ -957,17 +957,15 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 238px !important;
 	}
 
-	#options .move {
-		text-decoration: underline !important;
+	#options .move,
+	#options .move a {
+		text-align: left !important;
 		font-size: 125% !important;
 	}
-
+	
 	#options .move a {
-	/* Close Button */
-		position: fixed;
-		top: 22px;
-		right: 230px;
-		font-size: 160% !important;
+		float: right;
+		line-height: 18px;
 	}
 
 	#options .column {
