@@ -8,6 +8,19 @@
 /*[[CustomScrollbars]]*/thumb:hover { background: #ccc; }
 /*[[CustomScrollbars]]*/thumb:active { background: #aaa; }
 
+	form table tbody>tr:nth-of-type(2) td[align="right"] {
+		display: table-cell !important;
+		visibility: visible !important;
+		position: fixed !important;
+		font-size: 0 !important;
+		bottom: 42px;
+		right: 1px;
+	}
+
+	form table tbody>tr:nth-of-type(2) td[align="right"] a {
+		margin-left: 2px !important;
+	}
+
 	#cc-showpostarea,
 	#ft li,
 	#ft ul,
@@ -69,13 +82,6 @@
 
 	.pages b {
 		background: rgba(0,0,0,0.3) !important;
-	}
-
-	#header a:hover,
-	.pages input:hover,
-	a:hover {
-	/* URL bubbles */
-		background: rgba(0,0,0,.2) !important;
 	}
 
 	#backwash_tooltip,

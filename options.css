@@ -725,7 +725,7 @@ none
 	}
 
 	html body span[style="left: 5px; position: absolute;"] a {
-		cursor: default;
+		cursor: default !important;
 		position: fixed !important;
 		top: auto;
 		right: 192px;

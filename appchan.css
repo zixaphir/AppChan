@@ -24,7 +24,10 @@ This style is designed for the following browsers, ordered alphabetically:
 @-moz-document domain(boards.4chan.org), domain(rs.4chan.org) {
 /* Silhouette / Background Image */
 	html, body {
-		background: /*[[background]]*/ no-repeat fixed 100% 100% !important;
+		background-image: /*[[background]]*/ !important;
+		background-repeat: no-repeat !important;
+		background-attachment: fixed !important;
+		background-position: 100% 100% !important;
 	}
 
 	body {
