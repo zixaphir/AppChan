@@ -145,6 +145,8 @@
 
 	#boards h3,
 	#boardsMenu,
+	#filter.autohide:hover,
+	#filter:not(.autohide),
 	#ft li,
 	#ft ul,
 	#navbar,
@@ -177,6 +179,8 @@
 	div[id^="4chan_ext_iqr"]>*,
 	input[type="submit"]:hover,
 	input[type="file"]>input[type="button"]:hover,
+	#filter input,
+	#filter textarea,
 	#header,
 	#navbot,
 	#navbot:after,
@@ -244,6 +248,7 @@
 	input[type=checkbox],
 	#options input[type=checkbox] {
 		border-radius: 6px !important;
+		-o-border-radius: 6px !important;
 		border: 1px solid #3c3c3c !important;
 		background: #000 !important;
 	}
@@ -262,13 +267,14 @@
 		border-right-color: #393939 !important;
 	}
 
-
 	td[style="border: 1px dashed;"],
-	td.reply>tr>td.reply {
+	td.reply>tr>td.reply,
+	.inline {
 		/* Inline Quotes */
 		background-color: rgba(0,0,0,0.1) !important;
 		border: none !important;
 		border-radius: 3px !important;
+		-o-border-radius: 3px !important;
 	}
 
 	.pages b {
@@ -356,6 +362,7 @@
 
 	td.reply,
 	td.replyhl,
+	#filter,
 	#options,
 	#options ul,
 	#watcher,
@@ -383,6 +390,8 @@
 		bottom: 171px !important; /* Borders change the dimensions of the postform slightly. */
 	}
 
+	#filter input,
+	#filter textarea,
 	#thread_filter input,
 	#thread_filter textarea,
 	#updater input,

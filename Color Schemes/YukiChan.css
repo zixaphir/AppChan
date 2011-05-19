@@ -172,6 +172,8 @@
 		background-color: #686a99 !important;
 	}
 
+	#filter input,
+	#filter textarea,
 	#header,
 	#navbot,
 	#navbot:after,
@@ -204,6 +206,8 @@
 
 	#backwash_tooltip,
 	#cc-showpostarea,
+	#filter.autohide:hover,
+	#filter:not(.autohide),
 	#qp,
 	#updater:hover,
 	#thread_filter.autohide:hover,
@@ -325,6 +329,7 @@
 
 	td.reply,
 	td.replyhl,
+	div#filter,
 	div#options,
 	div#navbar,
 	div#popup,
