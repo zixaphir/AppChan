@@ -1,41 +1,12 @@
 /* Defaults: */
-	::-webkit-scrollbar-thumb {
-		border: 1px solid #aaa;
-		background: #fff;
-	}
-
-	::-webkit-scrollbar-thumb:hover {
-		background: #ccc;
-	}
-
-	::-webkit-scrollbar-thumb:active {
-		background: #aaa;
-	}
-
-	::-webkit-scrollbar-track-piece,
-	::-webkit-scrollbar-corner,
-	::-webkit-scrollbar-resizer {
-		background: #ccc;
-	}
-
-	thumb {
-		-moz-appearance: none !important;
-		border: 1px solid #aaa;
-		background: #fff;
-	}
-
-	thumb:hover {
-		background: #ccc;
-	}
-
-	thumb:active {
-		background: #aaa;
-	}
-
-	scrollbar,
-	scrollcorner {
-		background: #ccc !important;
-	}
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb { border: 1px solid #aaa; background: #fff; }
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:hover { background: #ccc; }
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:active { background: #aaa; }
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer {background: #ccc; }
+/*[[CustomScrollbars]]*/scrollbar, scrollcorner { background: #ccc !important; }
+/*[[CustomScrollbars]]*/thumb { -moz-appearance: none !important; border: 1px solid #aaa; background: #fff; }
+/*[[CustomScrollbars]]*/thumb:hover { background: #ccc; }
+/*[[CustomScrollbars]]*/thumb:active { background: #aaa; }
 
 	#cc-showpostarea,
 	#ft li,

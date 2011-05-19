@@ -1,37 +1,25 @@
 /* AppChan: */
-	::-webkit-scrollbar-thumb {
-		border: #2c2c2c !important;
-	}
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb { border: #2c2c2c !important; }
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:hover { background: #3f3f3f; }
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:active { background: #111; }
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #333; }
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb { background: #262626; }
+/*[[CustomScrollbars]]*/scrollbar, scrollcorner { background: #333 !important; }
+/*[[CustomScrollbars]]*/thumb { border-color: #333 !important; background: #262626; }
+/*[[CustomScrollbars]]*/thumb:active { background: #111 !important; }
+/*[[CustomScrollbars]]*/thumb:hover { background: #3f3f3f; }
 
-	::-webkit-scrollbar-thumb:hover {
-		background: #3f3f3f;
-	}
-
-	::-webkit-scrollbar-thumb:active {
-		background: #111;
-	}
-
-	::-webkit-scrollbar-track-piece,
-	::-webkit-scrollbar-corner,
-	::-webkit-scrollbar-resizer {
-		background: #333;
-	}
-
-	::-webkit-scrollbar-thumb {
-		background: #262626;
-	}
-
-	::-webkit-selection{
+	::-webkit-selection {
 		background: #aaa;
 		color: #101010;
 	}
 
-	::-moz-selection{
+	::-moz-selection {
 		background: #aaa;
 		color: #101010;
 	}
 
-	::selection{
+	::selection {
 		background: #aaa;
 		color: #101010;
 	}
@@ -146,11 +134,6 @@
 		background-color: #333 !important;
 	}
 
-	scrollbar,
-	scrollcorner {
-		background: #333 !important;
-	}
-
 	div[id^="4chan_ext_iqr"],
 	div[id^="4chan_ext_iqr"] *,
 	#filter input,
@@ -228,14 +211,8 @@
 	}
 
 	input[type=checkbox]:checked,
-	#options input[type=checkbox]:checked,
-	thumb:active {
+	#options input[type=checkbox]:checked{
 		background: #111 !important;
-	}
-
-	thumb {
-		border-color: #333 !important;
-		background: #262626;
 	}
 
 	#crntBoard {
@@ -254,10 +231,6 @@
 	input[type="submit"]:hover,
 	input[type="file"]>input[type="button"]:hover {
 		background-color: #363636 !important;
-	}
-
-	thumb:hover {
-		background: #3f3f3f;
 	}
 
 	td[style="border: 1px dashed;"],

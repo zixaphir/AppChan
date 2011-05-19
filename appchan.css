@@ -21,7 +21,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	* Google Chrome 10 or higher / Chromium latest / Canary latest
 	* Mozilla Firefox 4.x or higher / Aurora latest / Nightly latest
 */
-/*[[CustomScrollbars]]*/
 @-moz-document domain(boards.4chan.org), domain(rs.4chan.org) {
 /* Silhouette / Background Image */
 	html, body {
@@ -90,44 +89,15 @@ This style is designed for the following browsers, ordered alphabetically:
 		text-decoration: none !important;
 	}
 
-	::-webkit-scrollbar {
-		width: 10px !important;
-		height: 10px !important;
-	}
 
-	::-webkit-scrollbar-thumb {
-		border: 1px solid;
-	}
-
-	::-webkit-scrollbar-track-piece:vertical {
-		border-left: 0;
-	}
-
-	::-webkit-scrollbar-track-piece:horizontal {
-		border-top: 0;
-	}
-
-	scrollbar,
-	scrollcorner {
-		-moz-appearance: none !important;
-		-o-appearance: none !important;
-		width: 10px !important;
-		height: 10px !important;
-	}
-
-	scrollbar[orient="vertical"] {
-		border-left: 0;
-	}
-
-	scrollbar[orient="horizontal"] {
-		border-top: 0;
-	}
-
-	thumb {
-		-moz-appearance: none !important;
-		-o-appearance: none !important;
-		border: 1px solid;
-	}
+/*[[CustomScrollbars]]*/::-webkit-scrollbar { width: 10px !important; height: 10px !important; }
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb { border: 1px solid; }
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-track-piece:vertical { border-left: 0; }
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-track-piece:horizontal { border-top: 0; }
+/*[[CustomScrollbars]]*/scrollbar, scrollcorner { -moz-appearance: none !important; -o-appearance: none !important; width: 10px !important; height: 10px !important; }
+/*[[CustomScrollbars]]*/scrollbar[orient="vertical"] { border-left: 0; }
+/*[[CustomScrollbars]]*/scrollbar[orient="horizontal"] { border-top: 0; }
+/*[[CustomScrollbars]]*/thumb { -moz-appearance: none !important; -o-appearance: none !important; border: 1px solid; }
 
 	form[name="delform"]>table[align=right]:last-of-type {
 		visibility: hidden;
@@ -927,26 +897,26 @@ This style is designed for the following browsers, ordered alphabetically:
 		visibility: visible !important;
 	}
 /* End of Reply Previews */
-	td.deletebuttons br {
+	.deletebuttons br {
 		display: none !important;
 	}
 
-	td.deletebuttons {
+	.deletebuttons {
 		visibility: hidden !important;
 		font-size: 0 !important;
 	}
 
-	td.deletebuttons * {
+	.deletebuttons * {
 		visibility: visible !important;
 	}
 
-	td.deletebuttons input[type='checkbox'] {
+	.deletebuttons input[type='checkbox'] {
 		position: absolute;
 		right: 106px;
 		bottom: 2px;
 	}
 
-	td.deletebuttons:after {
+	.deletebuttons:after {
 		visibility: visible !important;
 		position: absolute;
 		right: 57px;
@@ -955,7 +925,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		content: "File Only";
 	}
 
-	td.deletebuttons .inputtext {
+	.deletebuttons .inputtext {
 		width: 197px;
 		margin-right: 1px !important;
 	}

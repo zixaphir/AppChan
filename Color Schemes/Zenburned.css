@@ -1,22 +1,11 @@
 /* Zenburned */
-	::-webkit-scrollbar-thumb {
-		border: 1px solid #4f4f4f !important;
-		background: #3f3f3f;
-	}
-
-	::-webkit-scrollbar-thumb:hover {
-		background: #4f4f4f;
-	}
-
-	::-webkit-scrollbar-thumb:active {
-		background: #111;
-	}
-
-	::-webkit-scrollbar-track-piece,
-	::-webkit-scrollbar-corner,
-	::-webkit-scrollbar-resizer {
-		background: #3a3a39;
-	}
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb { border: 1px solid #4f4f4f !important; background: #3f3f3f; }
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:hover { background: #4f4f4f; }
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:active { background: #111; }
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #3a3a39; }
+/*[[CustomScrollbars]]*/scrollbar, scrollcorner { background: #000 !important; }
+/*[[CustomScrollbars]]*/thumb { border-color: #4f4f4f !important; background: #3f3f3f; }
+/*[[CustomScrollbars]]*/thumb:active { background: #111 !important; }
 
 	::-webkit-selection{
 		background: #ccc;
@@ -31,20 +20,6 @@
 	::selection{
 		background: #ccc;
 		color: #3a3a39;
-	}
-
-	thumb:active {
-		background: #111 !important;
-	}
-
-	thumb {
-		border-color: #4f4f4f !important;
-		background: #3f3f3f;
-	}
-
-	scrollbar,
-	scrollcorner {
-		background: #000 !important;
 	}
 
 	*,
