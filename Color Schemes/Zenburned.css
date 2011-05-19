@@ -80,6 +80,10 @@
 		color: #ccc !important;
 	}
 
+	div.logo font {
+		text-shadow: #3f3f3f 1px 1px 2px, #3f3f3f -1px -1px 2px, #3f3f3f 1px -1px 2px, #3f3f3f -1px 1px 2px;
+	}
+
 	#qr input:-moz-placeholder,
 	#qr textarea:-moz-placeholder {
 		color: #888 !important;

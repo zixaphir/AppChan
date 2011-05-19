@@ -77,6 +77,10 @@
 		color: #909090 !important;
 	}
 
+	div.logo font {
+		text-shadow: #101010 1px 1px 2px, #101010 -1px -1px 2px, #101010 1px -1px 2px, #101010 -1px 1px 2px;
+	}
+
 	div.postarea>form td:nth-of-type(3)>label,
 	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
 	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
