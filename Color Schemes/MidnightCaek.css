@@ -258,7 +258,7 @@
 
 	td[style="border: 1px dashed;"],
 	td.reply>tr>td.reply,
-	.inline {
+	.inline td.reply {
 		/* Inline Quotes */
 		background-color: rgba(0,0,0,0.1) !important;
 		border: none !important;
