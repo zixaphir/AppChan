@@ -205,6 +205,7 @@
 	input[type="file"]>input[type="button"]
 	input[type="submit"]:hover,
 	td.replyhl,
+	tr.replyhl,
 	textarea:hover {
 		background-color: #181818 !important;
 	}
@@ -221,8 +222,10 @@
 		background-color: #202020 !important;
 	}
 
-	input[type=checkbox],
-	#options input[type=checkbox] {
+	input[type='checkbox'],
+	#options input[type='checkbox'],
+	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox'],
+	#qr label input[type='checkbox'] {
 		border-radius: 6px !important;
 		-o-border-radius: 6px !important;
 		border: 1px solid #3c3c3c !important;
@@ -230,12 +233,16 @@
 	}
 
 	input[type=checkbox]:active,
-	#options input[type=checkbox]:active {
+	#options input[type=checkbox]:active,
+	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:active,
+	#qr label input[type='checkbox']:active {
 		background: #000 !important;
 	}
 
 	input[type=checkbox]:checked,
-	#options input[type=checkbox]:checked {
+	#options input[type=checkbox]:checked,
+	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:checked,
+	#qr label input[type='checkbox']:checked {
 		background: #3c3c3c !important;
 	}
 

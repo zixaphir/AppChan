@@ -186,6 +186,7 @@
 	input[type="file"]>input[type="button"]
 	input[type="submit"]:hover,
 	td.replyhl,
+	tr.replyhl,
 	textarea:hover {
 		background-color: #393939 !important;
 	}
@@ -199,19 +200,25 @@
 	}
 
 	input[type=checkbox],
-	#options input[type=checkbox] {
+	#options input[type=checkbox],
+	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox'],
+	#qr label input {
 		border-radius: 2px !important;
 		-o-border-radius: 2px !important;
 		background: #444 !important;
 	}
 
 	input[type=checkbox]:active,
-	#options input[type=checkbox]:active {
+	#options input[type=checkbox]:active,
+	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:active,
+	#qr label input:active {
 		background: #aaa !important;
 	}
 
 	input[type=checkbox]:checked,
-	#options input[type=checkbox]:checked{
+	#options input[type=checkbox]:checked,
+	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:checked,
+	#qr label input:checked {
 		background: #111 !important;
 	}
 

@@ -49,7 +49,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	form[name="delform"]>hr:nth-last-of-type(2),
 	form[name="delform"]>br:last-of-type,
 	form[name="delform"]>br[clear=left]:last-of-type,
-	form[name="delform"]>center,
 	html body>a:not([style="cursor: pointer; float: right;"]),
 	scrollbarbutton,
 	small,
@@ -999,7 +998,8 @@ This style is designed for the following browsers, ordered alphabetically:
 /* End of Sidebar 4chan x options */
 /*[[fixedFilter]]*/
 	#filter,
-	#thread_filter {
+	#thread_filter,
+	#stats {
 		padding: 3px 0;
 		border: 0 !important;
 		-webkit-border-radius: 0;
@@ -1008,6 +1008,15 @@ This style is designed for the following browsers, ordered alphabetically:
 		border-radius: 0;
 		font-size: /*[[FontSize]]*/ !important;
 		z-index: 4 !important;
+	}
+
+	#stats {
+		position: fixed !important;
+		top: 17px !important;
+		right: 2px !important;
+		bottom: auto !important;
+		left: auto !important;
+		cursor: default !important;
 	}
 
 	#updater {

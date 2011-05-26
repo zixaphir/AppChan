@@ -47,7 +47,8 @@
 	.abbr,
 	.replyhider a,
 	td.reply,
-	td.replyhl {
+	td.replyhl,
+	tr.replyhl {
 		color: #313c5a !important;
 	}
 

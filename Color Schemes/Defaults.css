@@ -49,7 +49,9 @@
 	select,
 	textarea,
 	#qr input[type="checkbox"],
-	input[type="checkbox"] {
+	input[type="checkbox"],
+	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox'],
+	#qr label input	{
 		border: 1px solid #ccc !important;
 	}
 
@@ -76,7 +78,11 @@
 
 	#updater #count:not(.new):after,
 	#imgControls label:after,
-	#navbot:after {
+	#navbot:after,
+	div.postarea>form td:nth-of-type(3)>label,
+	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
+	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
+	#autonoko {
 		color: #000 !important;
 	}
 
