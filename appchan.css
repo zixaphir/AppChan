@@ -1090,7 +1090,8 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#watcher .move,
 	#updater .move,
-	#options .move {
+	#options .move,
+	#stats .move {
 		cursor: default !important;
 	}
 /*[[PagesPosition]]*/
