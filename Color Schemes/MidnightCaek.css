@@ -210,6 +210,12 @@
 		background-color: #181818 !important;
 	}
 
+	.qphl {
+		-webkit-outline-radius: 3px;
+		-moz-outline-radius: 3px;
+		-o-outline-radius: 3px;
+	}
+
 	html body span[style="left: 5px; position: absolute;"] a,
 	input[type="submit"],
 	#com_submit,
