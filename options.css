@@ -53,36 +53,6 @@ padding: 0 252px 0 2px !important;
 padding: 0 2px 0 2px !important;
 /* End */
 
-/*[[ReplyWidth]]*/
-/* Fit Width: */
-	form[name="delform"]>table:not(.pages), /* Reply are tables. */
-	div.thread>table, /* Replies are tables. A script like 4chan X is present */
-	.insertedPosts>table, /* 4chanplus inserts new posts in a new div */
-	td.reply, /* Reply cell */
-	td.replyhl /* Highlighted Reply cell */ {
-		width: 100% !important;
-	}
-
-	.omittedposts /* X posts and Y image replies omitted. Click Reply to view. */ {
-		clear: both;
-		padding-left: 20px;
-		display: block !important;
-	}
-/* Fit Content: */
-	.doubledash,
-	.doubledash a,
-	.replyhider a {
-		position: static;
-	}
-/* End */
-
-/*[[TransparentReplies]]*/
-/* Yes: */
-
-/* No: */
-//
-/* End */
-
 /*[[NavBarSticky]]*/
 /* Yes: */
 	#header,
@@ -297,6 +267,252 @@ padding: 0 2px 0 2px !important;
 	}
 /* End */
 
+/*[[CrntBrdHlt]]*/
+/* Yes: */
+/* Current Board Navigation Highlight, mostly based off of CSS from 4chan ~ Momiji by !K.WeEabo0o. */
+@-moz-document url-prefix(http://boards.4chan.org/a/) {
+	#navtop>a[href*="/a/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/a/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/b/) {
+	#navtop>a[href*="/b/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/b/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/c/) {
+	#navtop>a[href*="/c/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/c/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/d/) {
+	#navtop>a[href*="/d/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/d/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/e/) {
+	#navtop>a[href*="/e/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/e/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/g/) {
+	#navtop>a[href*="/g/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/g/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/gif/) {
+	#navtop>a[href*="/gif/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/gif/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/h/) {
+	#navtop>a[href*="/h/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/h/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/hr/) {
+	#navtop>a[href*="/hr/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/hr/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/k/) {
+	#navtop>a[href*="/k/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/k/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/m/) {
+	#navtop>a[href*="/m/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/m/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/o/) {
+	#navtop>a[href*="/o/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/o/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/p/) {
+	#navtop>a[href*="/p/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/p/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/r/) {
+	#navtop>a[href*="/r/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/r/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/s/) {
+	#navtop>a[href*="/s/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/s/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/t/) {
+	#navtop>a[href*="/t/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/t/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/u/) {
+	#navtop>a[href*="/u/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/u"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/v/) {
+	#navtop>a[href*="/v/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/v/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/w/) {
+	#navtop>a[href*="/w/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/w/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/wg/) {
+	#navtop>a[href*="/wg/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/wg/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/i/) {
+	#navtop>a[href*="/i/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/i/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/ic/) {
+	#navtop>a[href*="/ic/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/ic/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/cm/) {
+	#navtop>a[href*="/cm/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/cm/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/y/) {
+	#navtop>a[href*="/y/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/y/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/3/) {
+	#navtop>a[href*="/3/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/3/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/adv/) {
+	#navtop>a[href*="/adv/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/adv/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/an/) {
+	#navtop>a[href*="/an/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/an/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/cgl/) {
+	#navtop>a[href*="/cgl/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/cgl/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/ck/) {
+	#navtop>a[href*="/ck/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important;}
+	#navtop>a[href*="/ck/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/co/) {
+	#navtop>a[href*="/co/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/co/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/fa/) {
+	#navtop>a[href*="/fa/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/fa/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/fit/) {
+	#navtop>a[href*="/fit/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/fit/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/int/) {
+	#navtop>a[href*="/int/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/int/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/jp/) {
+	#navtop>a[href*="/jp/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/jp/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/lit/) {
+	#navtop>a[href*="/lit/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/lit/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/mu/) {
+	#navtop>a[href*="/mu/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/mu/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/n/) {
+	#navtop>a[href*="/n/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/n/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/po/) {
+	#navtop>a[href*="/po/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/po/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/sci/) {
+	#navtop>a[href*="/sci/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/sci/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/soc/) {
+	#navtop>a[href*="/soc/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/soc/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/sp/) {
+	#navtop>a[href*="/sp/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/sp/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/tg/) {
+	#navtop>a[href*="/tg/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/tg/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/toy/) {
+	#navtop>a[href*="/toy/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/toy/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/trv/) {
+	#navtop>a[href*="/trv/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/trv/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/tv/) {
+	#navtop>a[href*="/tv/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/tv/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/vp/) {
+	#navtop>a[href*="/vp/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/vp/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://rs.4chan.org/) {
+	#navtop>a[href*="rs."] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="rs."]:hover { background: rgba(255,255,255,.15) !important; }
+}
+
+@-moz-document url-prefix(http://boards.4chan.org/x/) {
+	#navtop>a[href*="/x/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*="/x/"]:hover { background: rgba(255,255,255,.15) !important; }
+}
+/* No: */
+
+/* End */
+
 /*[[PagesPosition]]*/
 /* Side */
 	.pages {
@@ -324,6 +540,39 @@ padding: 0 2px 0 2px !important;
 	}
 /* Normal: */
 
+/* End */
+
+/*[[boardlogo]]*/
+/* Board Name */
+	div.logo {
+		position: fixed !important;
+		right: 2px !important;
+		bottom: 370px !important;
+		width: 248px !important;
+		z-index: 1;
+		text-align: center;
+	}
+
+	div.logo img {
+		display: none;
+	}
+/* Logo */
+	div.logo>*:not(img) {
+		display: none;
+	}
+/* Board Name + Logo */
+	div.logo {
+		position: fixed !important;
+		right: 2px !important;
+		bottom: 393px !important;
+		width: 248px !important;
+		z-index: 1;
+		text-align: center;
+	}
+/* Hide Both */
+	div.logo {
+		display: none;
+	}
 /* End */
 
 /*[[PstfrmPstion]]*/
@@ -625,6 +874,103 @@ padding: 0 2px 0 2px !important;
 	.postblock,
 /* End */
 
+/*[[CaptchaReload]]*/
+/* Custom Captcha Reload Image: */
+	#quickrep .refreshBtn,
+	#recaptcha_reload_btn,
+	.refreshBtn {
+		position: absolute !important;
+		height: 0 !important;
+		width: 0 !important;
+		padding: 12px 0 0 12px !important;
+		background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAQAAAD8fJRsAAAAZ0lEQVR4XgXAsQ0BUQCA4c8kSrOo70KntAgxgkl05CV2sMOVEo2ofgEAYAIAdp6SRQBwkSQJgL3kbJYEwPC1BgArIFcAwAvIFgAcBQwAQAawQZK7g0UmAJKPt+QEAPlJHmYA4AYA8AeJKy3vtXoiawAAAABJRU5ErkJggg==") no-repeat !important;
+		overflow: hidden;
+		z-index: 1 !important;
+	}
+/* None: */
+	#quickrep .refreshBtn,
+	#recaptcha_reload_btn,
+	.refreshBtn {
+		display: none;
+	}
+/* End */
+
+/*[[ReturnButton]]*/
+/* Yes: */
+	html body>span[style="left: 5px; position: absolute;"]:nth-of-type(0) {
+		display: none;
+	}
+
+	html body span[style="left: 5px; position: absolute;"] {
+		font-size: 0 !important;
+		visibility: hidden;
+	}
+
+	html body span[style="left: 5px; position: absolute;"] a {
+		cursor: default !important;
+		position: fixed !important;
+		top: auto;
+		right: 192px;
+		bottom: 43px;
+		left: auto !important;
+		visibility: visible;
+		height: 14px !important;
+		width: 58px !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		font-size: 9px !important;
+		text-transform: uppercase;
+		vertical-align: bottom !important;
+		padding-top: 5px !important;
+		border-radius: 0 !important;
+		text-align: center;
+	}
+/* No: */
+	html body span[style="left: 5px; position: absolute;"] {
+		display: none;
+	}
+/* End */
+
+/*[[ReplyWidth]]*/
+/* Fit Width: */
+	form[name="delform"]>table:not(.pages), /* Reply are tables. */
+	div.thread>table, /* Replies are tables. A script like 4chan X is present */
+	.insertedPosts>table, /* 4chanplus inserts new posts in a new div */
+	td.reply, /* Reply cell */
+	td.replyhl /* Highlighted Reply cell */ {
+		width: 100% !important;
+	}
+
+	.omittedposts /* X posts and Y image replies omitted. Click Reply to view. */ {
+		clear: both;
+		padding-left: 20px;
+		display: block !important;
+	}
+/* Fit Content: */
+	.doubledash,
+	.doubledash a,
+	.replyhider a {
+		position: static;
+	}
+/* End */
+
+/*[[TransparentReplies]]*/
+/* Yes: */
+
+/* No: */
+//
+/* End */
+
+/*[[sageidentifier]]*/
+/* Sage Image: */
+		content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAABa1BMVEUAAACqrKiCgYIAAAAAAAAAAACHmX5pgl5NUEx/hnx4hXRSUVMiIyKwrbFzn19SbkZ1d3OvtqtpaWhcX1ooMyRsd2aWkZddkEV8vWGcpZl+kHd7jHNdYFuRmI4bHRthaV5WhUFsfGZReUBFZjdJazpGVUBnamYfHB9TeUMzSSpHgS1cY1k1NDUyOC8yWiFywVBoh1lDSEAZHBpucW0ICQgUHhBjfFhCRUA+QTtEQUUBAQFyo1praWspKigWFRZHU0F6j3E9Oz5VWFN0j2hncWONk4sAAABASDxJWkJKTUgAAAAvNC0fJR0DAwMAAAA9QzoWGhQAAAA8YytvrFOJsnlqyT9oqExqtkdrsExpsUsqQx9rpVJDbzBBbi5utk9jiFRuk11iqUR64k5Wf0JIZTpadk5om1BkyjmF1GRNY0FheFdXpjVXhz86XSp2yFJwslR3w1NbxitbtDWW5nNnilhFXTtYqDRwp1dSijiJ7H99AAAAUnRSTlMAJTgNGQml71ypu3cPEN/RDh8HBbOwQN7wVg4CAQZ28vs9EDluXjo58Ge8xwMy0P3+rV8cT73sawEdTv63NAa3rQwo4cUdAl3hWQSWvS8qqYsjEDiCzAAAAIVJREFUeNpFx7GKAQAYAOD/A7GbZVAWZTBZFGQw6LyCF/MIkiTdcOmWSzYbJVE2u1KX0J1v+8QDv/EkyS0yXF/NgeEILiHfyc74mICTQltqYXBeAWU9HGxU09YqqEvAElGjyZYjPyLqitjzHSEiGkrsfMWr0VLe+oy/djGP//YwfbeP8bN3Or0bkqEVblAAAAAASUVORK5CYII=");
+/* Sage Text: */
+		content: " (sage) ";
+		color: #e42217 !important;
+/* None: */
+
+/* End */
+
 /*[[expandfile]]*/
 /* Yes: */
 	.filesize span {
@@ -694,75 +1040,6 @@ padding: 0 2px 0 2px !important;
 	}
 /* End */
 
-/*[[boardlogo]]*/
-/* Board Name */
-	div.logo {
-		position: fixed !important;
-		right: 2px !important;
-		bottom: 370px !important;
-		width: 248px !important;
-		z-index: 1;
-		text-align: center;
-	}
-
-	div.logo img {
-		display: none;
-	}
-/* Logo */
-	div.logo>*:not(img) {
-		display: none;
-	}
-/* Board Name + Logo */
-	div.logo {
-		position: fixed !important;
-		right: 2px !important;
-		bottom: 393px !important;
-		width: 248px !important;
-		z-index: 1;
-		text-align: center;
-	}
-/* Hide Both */
-	div.logo {
-		display: none;
-	}
-/* End */
-
-/*[[ReturnButton]]*/
-/* Yes: */
-	html body>span[style="left: 5px; position: absolute;"]:nth-of-type(0) {
-		display: none;
-	}
-
-	html body span[style="left: 5px; position: absolute;"] {
-		font-size: 0 !important;
-		visibility: hidden;
-	}
-
-	html body span[style="left: 5px; position: absolute;"] a {
-		cursor: default !important;
-		position: fixed !important;
-		top: auto;
-		right: 192px;
-		bottom: 43px;
-		left: auto !important;
-		visibility: visible;
-		height: 14px !important;
-		width: 58px !important;
-		margin: 0 !important;
-		padding: 0 !important;
-		font-size: 9px !important;
-		text-transform: uppercase;
-		vertical-align: bottom !important;
-		padding-top: 5px !important;
-		border-radius: 0 !important;
-		text-align: center;
-	}
-/* No: */
-	html body span[style="left: 5px; position: absolute;"] {
-		display: none;
-	}
-/* End */
-
 /*[[CenteredImages]]*/
 /* Yes: */
 domain("images.4chan.org"),
@@ -776,281 +1053,4 @@ domain("images.4chan.org"),
 	
 /* No: */
 // 
-/* End */
-
-/*[[CaptchaReload]]*/
-/* Custom Captcha Reload Image: */
-	#quickrep .refreshBtn,
-	#recaptcha_reload_btn,
-	.refreshBtn {
-		position: absolute !important;
-		height: 0 !important;
-		width: 0 !important;
-		padding: 12px 0 0 12px !important;
-		background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAQAAAD8fJRsAAAAZ0lEQVR4XgXAsQ0BUQCA4c8kSrOo70KntAgxgkl05CV2sMOVEo2ofgEAYAIAdp6SRQBwkSQJgL3kbJYEwPC1BgArIFcAwAvIFgAcBQwAQAawQZK7g0UmAJKPt+QEAPlJHmYA4AYA8AeJKy3vtXoiawAAAABJRU5ErkJggg==") no-repeat !important;
-		overflow: hidden;
-		z-index: 1 !important;
-	}
-/* None: */
-	#quickrep .refreshBtn,
-	#recaptcha_reload_btn,
-	.refreshBtn {
-		display: none;
-	}
-/* End */
-
-/*[[sageidentifier]]*/
-/* Sage Image: */
-		content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAABa1BMVEUAAACqrKiCgYIAAAAAAAAAAACHmX5pgl5NUEx/hnx4hXRSUVMiIyKwrbFzn19SbkZ1d3OvtqtpaWhcX1ooMyRsd2aWkZddkEV8vWGcpZl+kHd7jHNdYFuRmI4bHRthaV5WhUFsfGZReUBFZjdJazpGVUBnamYfHB9TeUMzSSpHgS1cY1k1NDUyOC8yWiFywVBoh1lDSEAZHBpucW0ICQgUHhBjfFhCRUA+QTtEQUUBAQFyo1praWspKigWFRZHU0F6j3E9Oz5VWFN0j2hncWONk4sAAABASDxJWkJKTUgAAAAvNC0fJR0DAwMAAAA9QzoWGhQAAAA8YytvrFOJsnlqyT9oqExqtkdrsExpsUsqQx9rpVJDbzBBbi5utk9jiFRuk11iqUR64k5Wf0JIZTpadk5om1BkyjmF1GRNY0FheFdXpjVXhz86XSp2yFJwslR3w1NbxitbtDWW5nNnilhFXTtYqDRwp1dSijiJ7H99AAAAUnRSTlMAJTgNGQml71ypu3cPEN/RDh8HBbOwQN7wVg4CAQZ28vs9EDluXjo58Ge8xwMy0P3+rV8cT73sawEdTv63NAa3rQwo4cUdAl3hWQSWvS8qqYsjEDiCzAAAAIVJREFUeNpFx7GKAQAYAOD/A7GbZVAWZTBZFGQw6LyCF/MIkiTdcOmWSzYbJVE2u1KX0J1v+8QDv/EkyS0yXF/NgeEILiHfyc74mICTQltqYXBeAWU9HGxU09YqqEvAElGjyZYjPyLqitjzHSEiGkrsfMWr0VLe+oy/djGP//YwfbeP8bN3Or0bkqEVblAAAAAASUVORK5CYII=");
-/* Sage Text: */
-		content: " (sage) ";
-		color: #e42217 !important;
-/* None: */
-
-/* End */
-
-/*[[CrntBrdHlt]]*/
-/* Yes: */
-/* Current Board Navigation Highlight, mostly based off of CSS from 4chan ~ Momiji by !K.WeEabo0o. */
-@-moz-document url-prefix(http://boards.4chan.org/a/) {
-	#navtop>a[href*="/a/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/a/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/b/) {
-	#navtop>a[href*="/b/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/b/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/c/) {
-	#navtop>a[href*="/c/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/c/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/d/) {
-	#navtop>a[href*="/d/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/d/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/e/) {
-	#navtop>a[href*="/e/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/e/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/g/) {
-	#navtop>a[href*="/g/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/g/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/gif/) {
-	#navtop>a[href*="/gif/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/gif/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/h/) {
-	#navtop>a[href*="/h/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/h/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/hr/) {
-	#navtop>a[href*="/hr/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/hr/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/k/) {
-	#navtop>a[href*="/k/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/k/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/m/) {
-	#navtop>a[href*="/m/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/m/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/o/) {
-	#navtop>a[href*="/o/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/o/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/p/) {
-	#navtop>a[href*="/p/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/p/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/r/) {
-	#navtop>a[href*="/r/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/r/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/s/) {
-	#navtop>a[href*="/s/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/s/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/t/) {
-	#navtop>a[href*="/t/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/t/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/u/) {
-	#navtop>a[href*="/u/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/u"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/v/) {
-	#navtop>a[href*="/v/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/v/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/w/) {
-	#navtop>a[href*="/w/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/w/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/wg/) {
-	#navtop>a[href*="/wg/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/wg/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/i/) {
-	#navtop>a[href*="/i/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/i/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/ic/) {
-	#navtop>a[href*="/ic/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/ic/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/cm/) {
-	#navtop>a[href*="/cm/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/cm/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/y/) {
-	#navtop>a[href*="/y/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/y/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/3/) {
-	#navtop>a[href*="/3/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/3/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/adv/) {
-	#navtop>a[href*="/adv/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/adv/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/an/) {
-	#navtop>a[href*="/an/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/an/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/cgl/) {
-	#navtop>a[href*="/cgl/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/cgl/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/ck/) {
-	#navtop>a[href*="/ck/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important;}
-	#navtop>a[href*="/ck/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/co/) {
-	#navtop>a[href*="/co/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/co/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/fa/) {
-	#navtop>a[href*="/fa/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/fa/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/fit/) {
-	#navtop>a[href*="/fit/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/fit/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/int/) {
-	#navtop>a[href*="/int/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/int/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/jp/) {
-	#navtop>a[href*="/jp/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/jp/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/lit/) {
-	#navtop>a[href*="/lit/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/lit/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/mu/) {
-	#navtop>a[href*="/mu/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/mu/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/n/) {
-	#navtop>a[href*="/n/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/n/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/po/) {
-	#navtop>a[href*="/po/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/po/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/sci/) {
-	#navtop>a[href*="/sci/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/sci/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/soc/) {
-	#navtop>a[href*="/soc/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/soc/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/sp/) {
-	#navtop>a[href*="/sp/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/sp/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/tg/) {
-	#navtop>a[href*="/tg/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/tg/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/toy/) {
-	#navtop>a[href*="/toy/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/toy/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/trv/) {
-	#navtop>a[href*="/trv/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/trv/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/tv/) {
-	#navtop>a[href*="/tv/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/tv/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/vp/) {
-	#navtop>a[href*="/vp/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/vp/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://rs.4chan.org/) {
-	#navtop>a[href*="rs."] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="rs."]:hover { background: rgba(255,255,255,.15) !important; }
-}
-
-@-moz-document url-prefix(http://boards.4chan.org/x/) {
-	#navtop>a[href*="/x/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/x/"]:hover { background: rgba(255,255,255,.15) !important; }
-}
-/* No: */
-
 /* End */
