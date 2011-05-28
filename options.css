@@ -49,8 +49,18 @@ none
 /*[[Margin]]*/
 /* Yes: */
 padding: 0 252px 0 2px !important;
+	}
+
+	.replyhider a {
+		position: absolute;
+		right: 255px;
 /* No: */
 padding: 0 2px 0 2px !important;
+	}
+
+	.replyhider a {
+		position: absolute;
+		right: 5px;
 /* End */
 
 /*[[StickyNavigation]]*/

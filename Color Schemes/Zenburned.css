@@ -60,7 +60,10 @@
 /*[[TransparentReplies]]*/		background-color: rgba(55,55,55,0.5) !important;
 	}
 
-	div.logo font {
+	div.logo font,
+	.op>blockquote,
+	.thread>blockquote,
+	form[name='delform']>blockquote {
 		text-shadow: #3f3f3f 1px 1px 2px, #3f3f3f -1px -1px 2px, #3f3f3f 1px -1px 2px, #3f3f3f -1px 1px 2px;
 	}
 

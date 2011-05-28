@@ -119,7 +119,10 @@
 		color: rgba(0,0,0,0.5) !important;
 	}
 
-	div.logo font {
+	div.logo font,
+	.op>blockquote,
+	.thread>blockquote,
+	form[name='delform']>blockquote {
 		text-shadow: #fff 1px 1px 2px, #fff -1px -1px 2px, #fff 1px -1px 2px, #fff -1px 1px 2px;
 	}
 

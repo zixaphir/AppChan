@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, MayhemYDG, !K.WeEabo0o, seaweedchan, disappoint, Kupaka
 
-V. 32
+V. 33
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -714,11 +714,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin-top: 17px !important;
 	}
 /*[[expandfile]]*/
-	.replyhider a {
-		position: absolute;
-		right: 255px;
-	}
-
 	#filter.autohide:hover,
 	#filter:not(.autohide),
 	#updater:hover,

@@ -49,7 +49,10 @@
 		color: #909090 !important;
 	}
 
-	div.logo font {
+	div.logo font,
+	.op>blockquote,
+	.thread>blockquote,
+	form[name='delform']>blockquote {
 		text-shadow: #101010 1px 1px 2px, #101010 -1px -1px 2px, #101010 1px -1px 2px, #101010 -1px 1px 2px;
 	}
 
