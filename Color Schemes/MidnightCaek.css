@@ -210,6 +210,14 @@
 		background-color: #181818 !important;
 	}
 
+	td.reply {
+/*[[TransparentReplies]]*/		background-color: rgba(255,255,255,0.05) !important;
+	}
+
+	td.replyhl {
+/*[[TransparentReplies]]*/		background-color: rgba(255,255,255,0.025) !important;
+	}
+
 	.qphl {
 		-webkit-outline-radius: 3px;
 		-moz-outline-radius: 3px;

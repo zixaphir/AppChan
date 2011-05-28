@@ -200,6 +200,14 @@
 		background-color: #7a7aa5 !important;
 	}
 
+	td.reply {
+/*[[TransparentReplies]]*/		background-color: rgba(166,176,255,0.12) !important;
+	}
+
+	td.replyhl {
+/*[[TransparentReplies]]*/		background-color: rgba(230,230,255,0.20) !important;
+	}
+
 	.recaptchatable #recaptcha_response_field:focus,
 	.deletebuttons input[type="password"]:focus,
 	input:focus,

@@ -31,7 +31,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	body {
-		padding: 0 252px 0 2px !important;
+/*[[Margin]]*/
 	}
 }
 
@@ -56,7 +56,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	td.rules,
 	th,
 	[id="4chan_ext_nav_top"],
-	#autonoko /* FIXME */,
+	#autonoko, /* FIXME */
 	#footer>*:not(#navbot),
 	#ft li.fill,
 	#popular-threads,

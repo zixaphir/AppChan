@@ -55,6 +55,11 @@
 		color: #ccc !important;
 	}
 
+	td.reply,
+	td.replyhl {
+/*[[TransparentReplies]]*/		background-color: rgba(0,0,0,0.08) !important;
+	}
+
 	div.logo font {
 		text-shadow: #3f3f3f 1px 1px 2px, #3f3f3f -1px -1px 2px, #3f3f3f 1px -1px 2px, #3f3f3f -1px 1px 2px;
 	}
