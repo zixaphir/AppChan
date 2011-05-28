@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, MayhemYDG, !K.WeEabo0o, seaweedchan, disappoint, Kupaka
 
-V. 30
+V. 31
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -199,7 +199,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		position: static !important;
 		width: 100% !important;
 	}
-/*[[NavBarSticky]]*/
+/*[[StickyNavigation]]*/
 	#header,
 	.pages {
 		left: 0 !important;
@@ -319,7 +319,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin: 0 !important;
 		padding: 0 !important;
 		bottom: 63px !important;
-/*[[PstfrmPstion]]*/
+/*[[PostForm]]*/
 	}
 /*[[QuickReply]]*/
 	form[name^="post"] input[name="recaptcha_response_field"] {
@@ -1221,4 +1221,4 @@ domain("sys.4chan.org") {
 		background-image: none !important;
 	}
 }
-/*[[CrntBrdHlt]]*/
+/*[[BoardHighlight]]*/

@@ -3,13 +3,13 @@
 /* End */
 
 /*[[background]]*/
-/* Yuki Nagato: */
+/* Yuki Nagato [s]: */
 url('http://i.imgur.com/Un9LT.png')
-/* Yuki Nagato (+Pantsu): */
+/* Yuki Nagato (+Pantsu) [s]: */
 url('http://i.imgur.com/hPb5E.png')
-/* Horo: */
+/* Horo [s]: */
 url('http://i.imgur.com/4xcQf.png')
-/* Original Horo: */
+/* Original Horo [s]: */
 url('http://i.imgur.com/5qN2B.png')
 /* Kagamine Rin: */
 url('http://i.imgur.com/usbZ0.png')
@@ -53,7 +53,7 @@ padding: 0 252px 0 2px !important;
 padding: 0 2px 0 2px !important;
 /* End */
 
-/*[[NavBarSticky]]*/
+/*[[StickyNavigation]]*/
 /* Yes: */
 	#header,
 	.pages {
@@ -267,7 +267,7 @@ padding: 0 2px 0 2px !important;
 	}
 /* End */
 
-/*[[CrntBrdHlt]]*/
+/*[[BoardHighlight]]*/
 /* Yes: */
 /* Current Board Navigation Highlight, mostly based off of CSS from 4chan ~ Momiji by !K.WeEabo0o. */
 @-moz-document url-prefix(http://boards.4chan.org/a/) {
@@ -575,7 +575,7 @@ padding: 0 2px 0 2px !important;
 	}
 /* End */
 
-/*[[PstfrmPstion]]*/
+/*[[PostForm]]*/
 /* Fixed: */
 		right: 2px !important;
 /* Slideout */
