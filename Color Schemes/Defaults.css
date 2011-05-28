@@ -123,7 +123,7 @@
 	.op>blockquote,
 	.thread>blockquote,
 	form[name='delform']>blockquote {
-		text-shadow: #fff 1px 1px 2px, #fff -1px -1px 2px, #fff 1px -1px 2px, #fff -1px 1px 2px;
+		text-shadow: #fff 1px 0 2px, #fff -1px 0 2px, #fff 0 -1px 2px, #fff 0 1px 2px;
 	}
 
 	#navbot,

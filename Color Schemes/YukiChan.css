@@ -104,7 +104,7 @@
 	.op>blockquote,
 	.thread>blockquote,
 	form[name='delform']>blockquote {
-		text-shadow: #5f608b 1px 1px 2px, #5f608b -1px -1px 2px, #5f608b 1px -1px 2px, #5f608b -1px 1px 2px;
+		text-shadow: #5f608b 1px 0 2px, #5f608b -1px 0 2px, #5f608b 0 -1px 2px, #5f608b 0 1px 2px;
 	}
 
 	div.postarea>form td:nth-of-type(3)>label,
