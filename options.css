@@ -1603,6 +1603,16 @@ padding: 0 2px 0 2px !important;
 	}
 /* End */
 
+/*[[DeleteButtons]]*/
+/* Yes: */
+	.deletebuttons,
+/* No: */
+	input[type='checkbox'][value='delete'] {
+		display: none;
+	}
+
+/* End */
+
 /*[[ReplyWidth]]*/
 /* Fit Width: */
 	form[name="delform"]>table:not(.pages), /* Reply are tables. */

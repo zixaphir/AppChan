@@ -879,7 +879,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		max-width: 100% !important;
 	}
 
-	.deletebuttons,
+	/*[[DeleteButtons]]*/
 	#popup {
 		position: fixed !important;
 		top: auto !important;
