@@ -192,11 +192,11 @@
 	}
 
 	td.reply {
-/*[[TransparentReplies]]*/		background-color: rgba(255,255,255,0.03) !important;
+/*[[TransparentReplies]]*/		background-color: rgba(56,56,56,0.5) !important;
 	}
 
 	td.replyhl {
-/*[[TransparentReplies]]*/		background-color: rgba(255,255,255,0.05) !important;
+/*[[TransparentReplies]]*/		background-color: rgba(70,70,70,0.5) !important;
 	}
 
 	.recaptchatable #recaptcha_response_field:focus,

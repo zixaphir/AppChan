@@ -57,7 +57,7 @@
 
 	td.reply,
 	td.replyhl {
-/*[[TransparentReplies]]*/		background-color: rgba(0,0,0,0.08) !important;
+/*[[TransparentReplies]]*/		background-color: rgba(55,55,55,0.5) !important;
 	}
 
 	div.logo font {

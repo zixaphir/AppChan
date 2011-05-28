@@ -211,11 +211,11 @@
 	}
 
 	td.reply {
-/*[[TransparentReplies]]*/		background-color: rgba(255,255,255,0.05) !important;
+/*[[TransparentReplies]]*/		background-color: rgba(38,38,38,0.5) !important;
 	}
 
 	td.replyhl {
-/*[[TransparentReplies]]*/		background-color: rgba(255,255,255,0.025) !important;
+/*[[TransparentReplies]]*/		background-color: rgba(30,30,30,0.5) !important;
 	}
 
 	.qphl {

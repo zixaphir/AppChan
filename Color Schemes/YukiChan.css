@@ -201,11 +201,11 @@
 	}
 
 	td.reply {
-/*[[TransparentReplies]]*/		background-color: rgba(166,176,255,0.12) !important;
+/*[[TransparentReplies]]*/		background-color: rgba(110,112,160,0.5) !important;
 	}
 
 	td.replyhl {
-/*[[TransparentReplies]]*/		background-color: rgba(230,230,255,0.20) !important;
+/*[[TransparentReplies]]*/		background-color: rgba(125,126,170,0.5) !important;
 	}
 
 	.recaptchatable #recaptcha_response_field:focus,
