@@ -1091,6 +1091,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /*[[PagesPosition]]*/
 /*[[ColorScheme]]*/
+/*[[RoundedCorners]]*/
 /* Adblock */
 	img[src^="http://static.4chan.org/support/"] {
 		display: none;
