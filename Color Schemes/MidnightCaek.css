@@ -28,7 +28,7 @@
 	html body span[style="left: 5px; position: absolute;"] a,
 	input,
 	div.postarea,
-	form[name="post"]:after
+	form[name="post"]:after,
 	select,
 	td.deletebuttons,
 	textarea,
