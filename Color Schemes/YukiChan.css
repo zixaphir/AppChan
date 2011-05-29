@@ -223,7 +223,6 @@
 	input[type="checkbox"] {
 		background: rgba(104,106,153,.4) !important;
 		border: 1px solid #313c5a !important;
-		border-radius: 2px !important;
 	}
 
 	#crntBoard {
@@ -316,26 +315,6 @@
 		height: 21px !important;
 	}
 
-	td.reply,
-	td.replyhl,
-	div#filter,
-	div#options,
-	div#navbar,
-	div#popup,
-	div#boardsMenu
-	div#watcher,
-	div#thread_filter,
-	#backwash_tooltip,
-	#qp,
-	#popup,
-	div[id^=ref] {
-		border-radius: 3px;
-	}
-
-	select {
-		border-radius: 3px;
-	}
-
 	#navbot,
 	#navbot:after,
 	.boxcontent dd,
@@ -354,7 +333,6 @@
 		background-color: #686a99 !important;
 		border: #313c5a solid;
 		border-width: 1px 1px 0 1px;
-		border-radius: 6px 6px 0 0;
 	}
 
 	.postarea form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,

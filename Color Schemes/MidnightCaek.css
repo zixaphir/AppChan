@@ -243,8 +243,6 @@
 	#options input[type='checkbox'],
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox'],
 	#qr label input[type='checkbox'] {
-		border-radius: 6px !important;
-		-o-border-radius: 6px !important;
 		border: 1px solid #3c3c3c !important;
 		background: #000 !important;
 	}
@@ -273,8 +271,6 @@
 		/* Inline Quotes */
 		background-color: rgba(0,0,0,0.1) !important;
 		border: none !important;
-		border-radius: 3px !important;
-		-o-border-radius: 3px !important;
 	}
 
 	.pages b {
@@ -360,30 +356,8 @@
 		border-bottom: 1px #101010 solid !important;
 	}
 
-	td.reply,
-	td.replyhl,
-	#filter,
-	#options,
-	#options ul,
-	#watcher,
-	#thread_filter,
-	#qp,
-	#backwash_tooltip,
-	#twi_table_div {
-		border-radius: 3px !important;
-	}
-
-	.postarea input[name="name"] {
-		border-radius: 6px 0 0 0 !important;
-	}
-
-	.postarea input[name="pwd"] {
-		border-radius: 0 0 0 6px !important;
-	}
-
 	.postarea form[name="post"]:after {
 		background-color: #1c1c1c !important;
-		border-radius: 6px 6px 0 0;
 	}
 
 	.postarea textarea:focus {
