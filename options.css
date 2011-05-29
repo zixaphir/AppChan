@@ -731,7 +731,7 @@ padding: 0 2px 0 2px !important;
 		height: 47px !important;
 	}
 
-	table[width="100%"]~* .error {
+	table[width="100%"]~[id^='q'] .error {
 		visibility: visible !important;
 		position: fixed !important;
 		bottom: 62px !important;
@@ -913,7 +913,7 @@ padding: 0 2px 0 2px !important;
 		height: 47px !important;
 	}
 
-	table[width="100%"]~* .error {
+	table[width="100%"]~[id^='q'] .error {
 		visibility: visible !important;
 		position: fixed !important;
 		bottom: 62px !important;
@@ -1126,7 +1126,7 @@ padding: 0 2px 0 2px !important;
 		height: 47px !important;
 	}
 
-	table[width="100%"]~* .error {
+	table[width="100%"]~[id^='q'] .error {
 		visibility: visible !important;
 		position: fixed !important;
 		bottom: 62px !important;
@@ -1366,7 +1366,7 @@ padding: 0 2px 0 2px !important;
 		height: 47px !important;
 	}
 
-	table[width="100%"]~* .error {
+	table[width="100%"]~[id^='q'] .error {
 		visibility: visible !important;
 		position: fixed !important;
 		bottom: 62px !important;
@@ -1608,7 +1608,8 @@ padding: 0 2px 0 2px !important;
 	.deletebuttons,
 /* No: */
 	input[type='checkbox'][value='delete'],
-	.deletebuttons * {
+	.deletebuttons *,
+	.deletebuttons:after {
 		display: none;
 	}
 
