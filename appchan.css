@@ -974,6 +974,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#options .column ul:hover {
 		height: 180px;
+		overflow: auto;
 		-webkit-transition: height 500ms ease-in-out !important;
 		-moz-transition: height 500ms ease-in-out !important;
 		-o-transition: height 500ms ease-in-out !important;
