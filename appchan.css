@@ -256,7 +256,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		-webkit-transition: background-color .1s linear;
 		-moz-transition: background-color .1s linear;
 		-o-transition: background-color .1s linear;
-		border-radius: 9px;
 	}
 /* End of Navigation */
 /* Post Form */
@@ -1066,12 +1065,12 @@ This style is designed for the following browsers, ordered alphabetically:
 	#watcher,
 	#threadwatcher /* 4chan4chrome's threadwatcher */ {
 		border: 0 !important;
-		border-radius: 0;
 		padding: 1px 0;
 		overflow: hidden;
+		-webkit-border-radius: 0;
 		-moz-border-radius: 0;
 		-o-border-radius: 0;
-		-webkit-border-radius: 0;
+		border-radius: 0;
 		z-index: 2 !important;
 	}
 

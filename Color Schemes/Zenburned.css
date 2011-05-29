@@ -210,6 +210,11 @@
 		height: 19px !important;
 	}
 
+	html body span[style="left: 5px; position: absolute;"] a {
+		height: 12px !important;
+		width: 56px !important;
+	}
+
 	.deletebuttons>input[type="submit"]:focus,
 	input[type="text"]:focus,
 	input[type="password"]:focus,

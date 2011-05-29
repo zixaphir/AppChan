@@ -1689,6 +1689,13 @@ padding: 0 2px 0 2px !important;
 		-o-border-radius: 3px !important;
 	}
 
+	.pages b,
+	.pages input,
+	a,
+	.new {
+		border-radius: 9px;
+	}
+
 	.postarea form[name="post"]:after {
 		border-radius: 6px 6px 0 0;
 		-o-border-radius: 6px 6px 0 0 !important;
@@ -1723,6 +1730,13 @@ padding: 0 2px 0 2px !important;
 	.inline td.reply {
 		border-radius: 3px !important;
 		-o-border-radius: 3px !important;
+	}
+
+	.pages b,
+	.pages input,
+	a,
+	.new {
+		border-radius: 9px;
 	}
 
 	.postarea form[name="post"]:after {

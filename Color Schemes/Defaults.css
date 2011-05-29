@@ -55,6 +55,11 @@
 		border: 1px solid #ccc !important;
 	}
 
+	html body span[style="left: 5px; position: absolute;"] a {
+		height: 12px !important;
+		width: 56px !important;
+	}
+
 	form[name^='post'] input[type="file"][name="upfile"] {
 		margin: 0 -1px -1px !important;
 		height: 21px !important;
