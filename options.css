@@ -1607,11 +1607,13 @@ padding: 0 2px 0 2px !important;
 /* Yes: */
 	.deletebuttons,
 /* No: */
-	input[type='checkbox'][value='delete'] {
+	input[type='checkbox'][value='delete'],
+	.deletebuttons * {
 		display: none;
 	}
 
-	form[name^='Post'] input[type='password'].inputtext {
+	form[name^='post'] input[type='password'].inputtext,
+	form[name^='post'] tr:nth-of-type(7) td.postblock  {
 		visibility: hidden;
 	}
 
