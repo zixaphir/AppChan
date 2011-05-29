@@ -887,9 +887,13 @@ This style is designed for the following browsers, ordered alphabetically:
 		position: fixed !important;
 		top: auto !important;
 		right: 2px !important;
-		bottom: 23px !important;
+		bottom: 43px;
 		left: auto !important;
 		visibility: visible !important;
+	}
+
+	#popup {
+		bottom: 24px;
 	}
 /* End of Reply Previews */
 	.deletebuttons {
@@ -917,7 +921,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.deletebuttons .inputtext {
-		width: 197px;
+		width: 138px;
 		margin-right: 1px !important;
 	}
 
@@ -952,7 +956,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		text-align: left !important;
 		font-size: 125% !important;
 	}
-	
+
 	#options .move a {
 		float: right;
 		line-height: 18px;
@@ -982,7 +986,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		-moz-transition: height 500ms ease-in-out !important;
 		-o-transition: height 500ms ease-in-out !important;
 	}
-	
+
 	#options .column ul>li {
 		padding: 0 3px !important;
 	}

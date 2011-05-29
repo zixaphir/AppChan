@@ -13,8 +13,8 @@
 		visibility: visible !important;
 		position: fixed !important;
 		font-size: 0 !important;
-		bottom: 42px;
-		right: 1px;
+		bottom: 24px;
+		right: 2px;
 	}
 
 	form table tbody>tr:nth-of-type(2) td[align="right"] a {
@@ -62,8 +62,9 @@
 		width: 56px !important;
 	}
 
-	form[name^='post'] input[type="file"][name="upfile"] {
-		margin: -1px -1px !important;
+	form[name^='post'] input[type="file"][name="upfile"],
+	#qr input[type="file"][name="upfile"] {
+		margin: 0 -1px -1px !important;
 		height: 21px !important;
 	}
 
@@ -140,7 +141,7 @@
 	.chanchimp * {
 		border-color: #fff !important;
 	}
-	
+
 	#options .column ul {
 		border-color: #ccc !important;
 	}

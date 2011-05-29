@@ -232,7 +232,8 @@
 		border: 1px solid #9988ee !important;
 	}
 
-	form[name^='post'] input[type="file"][name="upfile"] {
+	form[name^='post'] input[type="file"][name="upfile"],
+	#qr input[type="file"][name="upfile"] {
 		margin: 0 -1px -1px !important;
 		height: 21px !important;
 	}

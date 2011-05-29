@@ -1683,7 +1683,7 @@ padding: 0 2px 0 2px !important;
 	#thread_filter,
 	#qp,
 	#backwash_tooltip,
-	#twi_table_div 
+	#twi_table_div
 	td[style="border: 1px dashed;"],
 	td.reply>tr>td.reply,
 	.inline td.reply {
@@ -1726,7 +1726,7 @@ padding: 0 2px 0 2px !important;
 	#thread_filter,
 	#qp,
 	#backwash_tooltip,
-	#twi_table_div 
+	#twi_table_div
 	td[style="border: 1px dashed;"],
 	td.reply>tr>td.reply,
 	.inline td.reply {
@@ -1841,7 +1841,7 @@ domain("images.4chan.org"),
 
 /*[[CustomScrollbars]]*/
 /* Yes: */
-	
+
 /* No: */
-// 
+//
 /* End */
