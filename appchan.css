@@ -24,7 +24,8 @@ This style is designed for the following browsers, ordered alphabetically:
 @-moz-document domain(boards.4chan.org), domain(rs.4chan.org) {
 /* Silhouette / Background Image */
 	html, body {
-		background-image: /*[[background]]*/ !important;
+		background-image: /*[[background]]*/, none !important;
+						  /* Mascot, background */
 /*
 Some NSFW alternatives. ;)
 	Horo - http://imgur.com/1FNDI
@@ -32,9 +33,9 @@ Some NSFW alternatives. ;)
 	Kinomoto Sakura - http://i.imgur.com/ueK6W.png
 	Yuki Nagato - http://i.imgur.com/Cy6wF.png
 */
-		background-repeat: no-repeat !important;
-		background-attachment: fixed !important;
-		background-position: 100% 100% !important;
+		background-repeat: no-repeat, no-repeat !important;
+		background-attachment: fixed, fixed !important;
+		background-position: 100% 100%, 70% !important;
 	}
 
 	body {
