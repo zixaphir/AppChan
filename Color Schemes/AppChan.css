@@ -202,6 +202,10 @@
 /*[[TransparentReplies]]*/		background-color: rgba(70,70,70,0.5) !important;
 	}
 
+	.qphl {
+		outline-color: #627c8d !important;
+	}
+
 	.recaptchatable #recaptcha_response_field:focus,
 	.deletebuttons input[type="password"]:focus,
 	input:focus,
@@ -348,7 +352,7 @@
 		border-bottom: 1px #2c2c2c solid !important;
 	}
 
-	.postarea form[name="post"]:after {
+	form[name="post"]:after {
 		background-color: #333 !important;
 		border-radius: 6px 6px 0 0;
 		-o-border-radius: 6px 6px 0 0;

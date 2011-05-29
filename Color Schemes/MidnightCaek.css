@@ -28,6 +28,7 @@
 	html body span[style="left: 5px; position: absolute;"] a,
 	input,
 	div.postarea,
+	form[name="post"]:after
 	select,
 	td.deletebuttons,
 	textarea,
@@ -222,9 +223,7 @@
 	}
 
 	.qphl {
-		-webkit-outline-radius: 3px;
-		-moz-outline-radius: 3px;
-		-o-outline-radius: 3px;
+		outline-color: #627c8d !important;
 	}
 
 	html body span[style="left: 5px; position: absolute;"] a,
@@ -354,10 +353,6 @@
 	#watcher .move,
 	#twi_table_div .postblock {
 		border-bottom: 1px #101010 solid !important;
-	}
-
-	.postarea form[name="post"]:after {
-		background-color: #1c1c1c !important;
 	}
 
 	.postarea textarea:focus {

@@ -1691,6 +1691,12 @@ padding: 0 2px 0 2px !important;
 		border-radius: 6px 6px 0 0;
 		-o-border-radius: 6px 6px 0 0 !important;
 	}
+
+	.qphl {
+		-webkit-outline-radius: 3px;
+		-moz-outline-radius: 3px;
+		-o-outline-radius: 3px;
+	}
 /* ...and circle checkboxes */
 	input[type='checkbox'],
 	#options input[type='checkbox'],
@@ -1721,6 +1727,12 @@ padding: 0 2px 0 2px !important;
 		border-radius: 6px 6px 0 0;
 		-o-border-radius: 6px 6px 0 0 !important;
 	}
+
+	.qphl {
+		-webkit-outline-radius: 3px;
+		-moz-outline-radius: 3px;
+		-o-outline-radius: 3px;
+	}
 /* No: */
 
 /*[[sageidentifier]]*/
@@ -1742,7 +1754,6 @@ padding: 0 2px 0 2px !important;
 
 	.filesize span:after {
 		content: attr(title);
-		font-size: /*[[FontSize]]*/ !important;
 		visibility: visible;
 	}
 /* No: */

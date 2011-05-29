@@ -60,6 +60,10 @@
 /*[[TransparentReplies]]*/		background-color: rgba(55,55,55,0.5) !important;
 	}
 
+	.qphl {
+		outline-color: #627c8d !important;
+	}
+
 	div.logo font,
 	.op>blockquote,
 	.thread>blockquote,
@@ -260,7 +264,7 @@
 		border: 0 !important;
 	}
 
-	.postarea form[name="post"]:after {
+	form[name="post"]:after {
 		background-color: #3f3f3f !important;
 		border: #888 solid;
 		border-width: 1px 1px 0 1px;
