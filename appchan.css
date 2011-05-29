@@ -260,7 +260,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /* End of Navigation */
 /* Post Form */
-	.postarea form[name^="post"] {
+	.postarea form[name^='post'] {
 		width: 248px;
 	}
 
@@ -270,7 +270,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		border-collapse: collapse !important;
 	}
 
-	form[name^="post"] td.postblock {
+	form[name^='post'] td.postblock {
 		width: 0 !important;
 	}
 
@@ -303,16 +303,16 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 190px !important;
 	}
 
-	.chanchimp form[name^="post"] input.inputtext,
-	.chanchimp form[name^="post"] input[type="file"][name="upfile"] > input[type="text"] {
+	.chanchimp form[name^='post'] input.inputtext,
+	.chanchimp form[name^='post'] input[type="file"][name="upfile"] > input[type="text"] {
 		width: 200px !important;
 	}
 
-	.chanchimp form[name^="post"] textarea {
+	.chanchimp form[name^='post'] textarea {
 		width: 596px !important;
 	}
 
-	.postarea form[name^="post"] {
+	.postarea form[name^='post'] {
 		/* Post From Positioning */
 		position: fixed !important;
 		z-index: 2;
@@ -322,7 +322,7 @@ This style is designed for the following browsers, ordered alphabetically:
 /*[[PostForm]]*/
 	}
 /*[[QuickReply]]*/
-	form[name^="post"] input[name="recaptcha_response_field"] {
+	form[name^='post'] input[name="recaptcha_response_field"] {
 		outline: none !important;
 		box-shadow: none !important;
 	}
@@ -330,7 +330,7 @@ This style is designed for the following browsers, ordered alphabetically:
 /* Postform Labels */
 	.boxcontent .postblock,
 	#quickrep td.postblock,
-	form[name^="post"] .postblock,
+	form[name^='post'] .postblock,
 	div[id^="4chan_ext_iqr"] .postblock {
 		border: none !important;
 		background-color: transparent !important;
@@ -344,11 +344,11 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding-bottom: 13px !important;
 	}
 
-	#qr form[name^="post"] .postblock b {
+	#qr form[name^='post'] .postblock b {
 		margin-top: -13px !important;
 	}
 
-	form[name^="post"] .postblock b,
+	form[name^='post'] .postblock b,
 	#maxchars /* 4chanplus's Character Counter */ {
 		position: absolute;
 		font-size: 75% !important;
@@ -356,11 +356,11 @@ This style is designed for the following browsers, ordered alphabetically:
 		z-index: 2;
 	}
 /* Custom Postform Labels */
-	form[name^="post"] tr:nth-of-type(1) .postblock b:after {
+	form[name^='post'] tr:nth-of-type(1) .postblock b:after {
 		content: "#TRIPCODE##SECURETRIP";
 	}
 
-	form[name^="post"] tr:nth-of-type(2) .postblock b:after {
+	form[name^='post'] tr:nth-of-type(2) .postblock b:after {
 		content: " | NOKO | SAGE";
 	}
 
@@ -378,35 +378,35 @@ This style is designed for the following browsers, ordered alphabetically:
 		content: 'REPLY' !important;
 	}
 
-	.postarea form[name^="post"] tr .postblock b {
+	.postarea form[name^='post'] tr .postblock b {
 		right: 3px;
 		margin-top: -1px;
 	}
 
 	.fake input[type="file"]::-webkit-file-upload-button,
-	.postarea form[name^="post"] tr .postblock b {
+	.postarea form[name^='post'] tr .postblock b {
 		margin-top: -2px;
 	}
 
-	.postarea form[name^="post"] tr:nth-of-type(3n) .postblock b {
+	.postarea form[name^='post'] tr:nth-of-type(3n) .postblock b {
 		right: 54px;
 	}
 
-	form[name^="post"] tr .postblock b {
+	form[name^='post'] tr .postblock b {
 		right: 16px;
 	}
 
-	form[name^="post"] tr:nth-of-type(3n) .postblock b {
+	form[name^='post'] tr:nth-of-type(3n) .postblock b {
 		right: 67px;
 	}
 
 	.fake input[type="file"]::-webkit-file-upload-button, /* Cheating. Firefox Stylish will ignore this block */
-	.postarea form[name^="post"] tr:nth-of-type(6) .postblock b {
+	.postarea form[name^='post'] tr:nth-of-type(6) .postblock b {
 		right: 3px !important;
 	}
 
 	.fake input[type="file"]::-webkit-file-upload-button,
-	form[name^="post"] tr:nth-of-type(6) .postblock b {
+	form[name^='post'] tr:nth-of-type(6) .postblock b {
 		right: 16px;
 	}
 /* End of Post Form Labels */
@@ -448,15 +448,15 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin-left: 0 !important;
 	}
 
-	.postarea form[name^="post"] input[type="text"],
-	.postarea form[name^="post"] input[type="password"],
-	.postarea form[name^="post"] textarea {
+	.postarea form[name^='post'] input[type="text"],
+	.postarea form[name^='post'] input[type="password"],
+	.postarea form[name^='post'] textarea {
 		width: 248px !important;
 	}
 
-	form[name^="post"] input.inputtext,
-	form[name^="post"] input[type="file"][name="upfile"]>input[type="text"],
-	form[name^="post"] textarea {
+	form[name^='post'] input.inputtext,
+	form[name^='post'] input[type="file"][name="upfile"]>input[type="text"],
+	form[name^='post'] textarea {
 		width: 300px !important;
 	}
 
@@ -466,20 +466,20 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	div.move input,
-	form[name^="post"] input[type="text"],
-	form[name^="post"] input[type="password"],
+	form[name^='post'] input[type="text"],
+	form[name^='post'] input[type="password"],
 	input[type="file"][name="upfile"]>input[type="text"],
 	input[type="file"]>input[type="button"] {
 		height: 19px !important;
 	}
 
-	.postarea form[name^="post"] input[type="file"][name="upfile"]>input[type="text"],
-	.postarea form[name^="post"] input[name="sub"] {
+	.postarea form[name^='post'] input[type="file"][name="upfile"]>input[type="text"],
+	.postarea form[name^='post'] input[name="sub"] {
 		width: 197px !important;
 	}
 
-	form[name^="post"] input[name="sub"],
-	form[name^="post"] input[type="file"][name="upfile"]>input[type="text"] {
+	form[name^='post'] input[name="sub"],
+	form[name^='post'] input[type="file"][name="upfile"]>input[type="text"] {
 		width: 249px !important;
 		margin: 0 1px 0 0 !important;
 		vertical-align: bottom;
@@ -508,14 +508,14 @@ This style is designed for the following browsers, ordered alphabetically:
 		text-transform: uppercase;
 	}
 /* End of the file upload input */
-	.postarea form[name^="post"] textarea {
+	.postarea form[name^='post'] textarea {
 		height: 78px !important;
 		min-height: 78px !important;
 		font-size: /*[[FontSize]]*/ !important;
 		margin: 0 !important;
 	}
 
-	form[name^="post"] textarea {
+	form[name^='post'] textarea {
 		min-height: 100px !important;
 		margin: 0 !important;
 	}
@@ -527,11 +527,11 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 0 !important;
 	}
 
-	.postarea form[name^="post"] input[name="sub"],
-	.postarea form[name^="post"] textarea.inputtext,
-	.postarea form[name^="post"] td>input,
-	.postarea form[name^="post"] .recaptchatable,
-	.postarea form[name^="post"] input[name="recaptcha_response_field"],
+	.postarea form[name^='post'] input[name="sub"],
+	.postarea form[name^='post'] textarea.inputtext,
+	.postarea form[name^='post'] td>input,
+	.postarea form[name^='post'] .recaptchatable,
+	.postarea form[name^='post'] input[name="recaptcha_response_field"],
 	#com_submit,
 	#filter input,
 	#qr input.inputtext,
@@ -541,18 +541,18 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin-top: 1px !important;
 	}
 
-	.postarea form[name^="post"] td>input[name="upfile"] {
+	.postarea form[name^='post'] td>input[name="upfile"] {
 		width: 248px !important;
 	}
 
 	.fake input[type="file"]::-webkit-file-upload-button,
-	.postarea form[name^="post"] input[name="upfile"],
-	#quickrep form[name^="post"] input[name="upfile"] {
+	.postarea form[name^='post'] input[name="upfile"],
+	#quickrep form[name^='post'] input[name="upfile"] {
 		margin: 1px 0 0 !important;
 		height: 19px !important;
 	}
 
-	form[name^="post"] input[type=file][name="upfile"] {
+	form[name^='post'] input[type=file][name="upfile"] {
 		width: 300px !important;
 	}
 
@@ -562,14 +562,14 @@ This style is designed for the following browsers, ordered alphabetically:
 		opacity: 0.5;
 	}
 
-	.postarea form[name^="post"] .recaptcha_image_cell>center,
+	.postarea form[name^='post'] .recaptcha_image_cell>center,
 	#r_captcha_div img,
 	#r_captcha_div input {
 		width: 248px !important;
 		text-align: left !important;
 	}
 
-	.postarea form[name^="post"] #recaptcha_widget_div {
+	.postarea form[name^='post'] #recaptcha_widget_div {
 		height: auto !important;
 		width: 248px !important;
 	}
@@ -577,23 +577,23 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postarea .recaptcha_image_cell>center,
 	.postarea .recaptcha_image_cell,
 	tr[height="73"] td,
-	form[name^="post"] tr[height="73"] {
+	form[name^='post'] tr[height="73"] {
 		height: auto !important;
 	}
 /*[[CaptchaReload]]*/
-	.postarea form[name^="post"] #recaptcha_reload_btn {
+	.postarea form[name^='post'] #recaptcha_reload_btn {
 		bottom: 62px !important;
 		right: 2px !important;
 	}
 
-	#cc-newpostarea form[name^="post"] #recaptcha_reload_btn,
-	#cc-newpostarea2 form[name^="post"] #recaptcha_reload_btn {
+	#cc-newpostarea form[name^='post'] #recaptcha_reload_btn,
+	#cc-newpostarea2 form[name^='post'] #recaptcha_reload_btn {
 		bottom: 13px !important;
 		left: 290px !important;
 		right: auto !important;
 	}
 
-	#cc-newpostarea2 form[name^="post"] #recaptcha_reload_btn {
+	#cc-newpostarea2 form[name^='post'] #recaptcha_reload_btn {
 		left: 288px !important;
 		bottom: 34px !important;
 	}
@@ -603,7 +603,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		right: 4px !important;
 	}
 
-	form[name^="post"] #recaptcha_reload_btn,
+	form[name^='post'] #recaptcha_reload_btn,
 	.refreshBtn {
 		bottom: 76px !important;
 		right: 15px !important;
@@ -623,13 +623,13 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 /* Spoiler Image Checkbox */
-	form[name^="post"] tr:nth-of-type(3)>td:nth-of-type(3) {
+	form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3) {
 	/* Removes the brackets around Spoiler Image */
 		font-size: 0 !important;
 		color: transparent;
 	}
 
-	form[name^="post"] label {
+	form[name^='post'] label {
 	/* Spoiler Image label */
 		position: absolute;
 		top: auto;
@@ -639,12 +639,12 @@ This style is designed for the following browsers, ordered alphabetically:
 		vertical-align: bottom;
 	}
 
-	.chanchimp form[name^="post"] label {
+	.chanchimp form[name^='post'] label {
 		position: static;
 	}
 
-	#qr>form[name^="post"] label,
-	#quickrep>form[name^="post"] label,
+	#qr>form[name^='post'] label,
+	#quickrep>form[name^='post'] label,
 	[id^="qr"] label {
 		bottom: 14px;
 		right: 70px;
@@ -658,7 +658,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		vertical-align: middle;
 	}
 
-	form[name^="post"] td:nth-of-type(3)>label input,
+	form[name^='post'] td:nth-of-type(3)>label input,
 	#qr label input,
 	.boxcontent input,
 	.boxcontent textarea {

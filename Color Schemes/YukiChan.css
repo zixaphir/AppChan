@@ -248,9 +248,9 @@
 	}
 
 	a,
-	form[name^="post"] .postblock b,
+	form[name^='post'] .postblock b,
 	.postarea tr:nth-child(4)>.postblock>b:after,
-	.postarea form[name^="post"]:after,
+	.postarea form[name^='post']:after,
 	#maxchars {
 		color: #242949 !important;
 	}
@@ -299,7 +299,7 @@
 		text-shadow: -1px -1px 3px #5f608b, 1px 1px 3px #5f608b, 1px -1px 3px #5f608b, -1px 1px 3px #5f608b;
 	}
 
-	form[name^="post"] input[type="file"][name="upfile"] {
+	form[name^='post'] input[type="file"][name="upfile"] {
 		margin: 0 -1px -1px !important;
 		height: 21px !important;
 	}
@@ -311,7 +311,7 @@
 	}
 
 	.fake input[type="file"]::-webkit-file-upload-button,
-	form[name^="post"] input[type="file"][name="upfile"] {
+	form[name^='post'] input[type="file"][name="upfile"] {
 		margin: 0 -1px -1px !important;
 		height: 21px !important;
 	}
@@ -357,14 +357,14 @@
 		border-radius: 6px 6px 0 0;
 	}
 
-	.postarea form[name^="post"] .recaptcha_image_cell>center>#recaptcha_image,
-	.postarea form[name^="post"] #recaptcha_image img {
+	.postarea form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
+	.postarea form[name^='post'] #recaptcha_image img {
 		width: 246px !important;
 		height: 45px !important;
 	}
 
-	form[name^="post"] .recaptcha_image_cell>center>#recaptcha_image,
-	form[name^="post"] #recaptcha_image img {
+	form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
+	form[name^='post'] #recaptcha_image img {
 		width: 298px !important;
 		height: 55px !important;
 	}

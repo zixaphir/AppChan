@@ -701,16 +701,16 @@ padding: 0 2px 0 2px !important;
 		height: 227px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] input[type="file"][name="upfile"] > input[type="text"],
-	table[width="100%"]~* form[name^="post"] input.inputtext[name="sub"] {
+	table[width="100%"]~* form[name^='post'] input[type="file"][name="upfile"] > input[type="text"],
+	table[width="100%"]~* form[name^='post'] input.inputtext[name="sub"] {
 		width: 197px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] #recaptcha_widget_div {
+	table[width="100%"]~* form[name^='post'] #recaptcha_widget_div {
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] #recaptcha_reload_btn,
+	table[width="100%"]~* form[name^='post'] #recaptcha_reload_btn,
 	table[width="100%"]~* body > table ~ .refreshBtn {
 		bottom: 63px !important;
 		right: 1px !important;
@@ -718,14 +718,14 @@ padding: 0 2px 0 2px !important;
 
 	table[width="100%"]~* .recaptcha_image_cell>center,
 	table[width="100%"]~* .recaptcha_image_cell,
-	table[width="100%"]~* form[name^="post"] tr[height="73"] {
+	table[width="100%"]~* form[name^='post'] tr[height="73"] {
 		height: auto !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center>#recaptcha_image,
-	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center>#quick_recaptcha_image,
-	table[width="100%"]~* form[name^="post"] #recaptcha_image img,
-	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center>#quick_recaptcha_image img,
+	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
+	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image,
+	table[width="100%"]~* form[name^='post'] #recaptcha_image img,
+	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image img,
 	table[width="100%"]~#qr img {
 		width: 248px !important;
 		height: 47px !important;
@@ -744,7 +744,7 @@ padding: 0 2px 0 2px !important;
 		color: #000 !important;
 	}
 
-	table[width="100%"]~* form[name^="Post"] {
+	table[width="100%"]~* form[name^='post'] {
 		margin-bottom: 0px !important;
 		z-index: 2 !important;
 	}
@@ -754,18 +754,18 @@ padding: 0 2px 0 2px !important;
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] input[name="sub"],
-	table[width="100%"]~* form[name^="post"] textarea.inputtext,
-	table[width="100%"]~* form[name^="post"] input.inputtext,
-	table[width="100%"]~* form[name^="post"] .recaptchatable {
+	table[width="100%"]~* form[name^='post'] input[name="sub"],
+	table[width="100%"]~* form[name^='post'] textarea.inputtext,
+	table[width="100%"]~* form[name^='post'] input.inputtext,
+	table[width="100%"]~* form[name^='post'] .recaptchatable {
 		margin-top: 1px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] textarea.inputtext,
-	table[width="100%"]~* form[name^="post"] input.inputtext,
-	table[width="100%"]~* form[name^="post"] input[name="upfile"],
+	table[width="100%"]~* form[name^='post'] textarea.inputtext,
+	table[width="100%"]~* form[name^='post'] input.inputtext,
+	table[width="100%"]~* form[name^='post'] input[name="upfile"],
 	table[width="100%"]~* .recaptchatable,
-	table[width="100%"]~* form[name^="post"] input[name="recaptcha_response_field"],
+	table[width="100%"]~* form[name^='post'] input[name="recaptcha_response_field"],
 	table[width="100%"]~#qr input.inputtext:not([name="sub"]),
 	table[width="100%"]~#qr #qr_captcha,
 	table[width="100%"]~#qr textarea,
@@ -773,7 +773,7 @@ padding: 0 2px 0 2px !important;
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center,
+	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center,
 	table[width="100%"]~* #r_captcha_div img,
 	table[width="100%"]~* #r_captcha_div input {
 		width: 248px !important;
@@ -790,7 +790,7 @@ padding: 0 2px 0 2px !important;
 		visibility: visible !important;
 	}
 
-	table[width="100%"]~*:not(#qr) form[name^="post"] {
+	table[width="100%"]~*:not(#qr) form[name^='post'] {
 		visibility: visible !important;
 		width: 248px !important;
 		background-color: transparent !important;
@@ -816,49 +816,49 @@ padding: 0 2px 0 2px !important;
 		top: 0;
 	}
 
-	table[width="100%"]~* form[name^="Post"] tr:nth-of-type(3)>td:nth-of-type(3),
+	table[width="100%"]~* form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3),
 	table[width="100%"]~* form tr:nth-of-type(3)>td:nth-of-type(3) {
 		font-size: 0 !important;
 		color: transparent !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] textarea.inputtext {
+	table[width="100%"]~* form[name^='post'] textarea.inputtext {
 		height: 78px !important;
 		min-height: 78px !important;
 		width: 248px !important;
 		resize: none;
 	}
 
-	table[width="100%"]~* form[name^="Post"] label:first-of-type {
+	table[width="100%"]~* form[name^='post'] label:first-of-type {
 		display: none !important;
 	}
 
-	table[width="100%"]~* form[name^="Post"] label:last-of-type {
+	table[width="100%"]~* form[name^='post'] label:last-of-type {
 		text-align: right !important;
 		position: absolute !important;
 		bottom: 0px !important;
 		right: 55px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] tr .postblock b {
+	table[width="100%"]~* form[name^='post'] tr .postblock b {
 		right: 3px;
 	}
 
-	table[width="100%"]~* form[name^="post"] tr:nth-of-type(3n) .postblock b {
+	table[width="100%"]~* form[name^='post'] tr:nth-of-type(3n) .postblock b {
 		right: 54px;
 	}
 
 	.fake input[type="file"]::-webkit-file-upload-button, /* Cheating. Firefox Stylish will ignore this block */
-	table[width="100%"]~* form[name^="post"] tr:nth-of-type(6) .postblock b {
+	table[width="100%"]~* form[name^='post'] tr:nth-of-type(6) .postblock b {
 		right: 3px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] #maxchars {
+	table[width="100%"]~* form[name^='post'] #maxchars {
 		bottom: 110px;
 		right: 3px;
 	}
 
-	table[width="100%"]~* form[name^="post"] label {
+	table[width="100%"]~* form[name^='post'] label {
 	/* Spoiler Image label */
 		top: auto !important;
 		bottom: 0 !important;
@@ -883,16 +883,16 @@ padding: 0 2px 0 2px !important;
 		height: 227px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] input[type="file"][name="upfile"] > input[type="text"],
-	table[width="100%"]~* form[name^="post"] input.inputtext[name="sub"] {
+	table[width="100%"]~* form[name^='post'] input[type="file"][name="upfile"] > input[type="text"],
+	table[width="100%"]~* form[name^='post'] input.inputtext[name="sub"] {
 		width: 197px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] #recaptcha_widget_div {
+	table[width="100%"]~* form[name^='post'] #recaptcha_widget_div {
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] #recaptcha_reload_btn,
+	table[width="100%"]~* form[name^='post'] #recaptcha_reload_btn,
 	table[width="100%"]~* body > table ~ .refreshBtn {
 		bottom: 63px !important;
 		right: 1px !important;
@@ -900,14 +900,14 @@ padding: 0 2px 0 2px !important;
 
 	table[width="100%"]~* .recaptcha_image_cell>center,
 	table[width="100%"]~* .recaptcha_image_cell,
-	table[width="100%"]~* form[name^="post"] tr[height="73"] {
+	table[width="100%"]~* form[name^='post'] tr[height="73"] {
 		height: auto !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center>#recaptcha_image,
-	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center>#quick_recaptcha_image,
-	table[width="100%"]~* form[name^="post"] #recaptcha_image img,
-	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center>#quick_recaptcha_image img,
+	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
+	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image,
+	table[width="100%"]~* form[name^='post'] #recaptcha_image img,
+	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image img,
 	table[width="100%"]~#qr img {
 		width: 248px !important;
 		height: 47px !important;
@@ -926,7 +926,7 @@ padding: 0 2px 0 2px !important;
 		color: #000 !important;
 	}
 
-	table[width="100%"]~* form[name^="Post"] {
+	table[width="100%"]~* form[name^='post'] {
 		margin-bottom: 0px !important;
 		z-index: 2 !important;
 	}
@@ -936,18 +936,18 @@ padding: 0 2px 0 2px !important;
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] input[name="sub"],
-	table[width="100%"]~* form[name^="post"] textarea.inputtext,
-	table[width="100%"]~* form[name^="post"] input.inputtext,
-	table[width="100%"]~* form[name^="post"] .recaptchatable {
+	table[width="100%"]~* form[name^='post'] input[name="sub"],
+	table[width="100%"]~* form[name^='post'] textarea.inputtext,
+	table[width="100%"]~* form[name^='post'] input.inputtext,
+	table[width="100%"]~* form[name^='post'] .recaptchatable {
 		margin-top: 1px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] textarea.inputtext,
-	table[width="100%"]~* form[name^="post"] input.inputtext,
-	table[width="100%"]~* form[name^="post"] input[name="upfile"],
+	table[width="100%"]~* form[name^='post'] textarea.inputtext,
+	table[width="100%"]~* form[name^='post'] input.inputtext,
+	table[width="100%"]~* form[name^='post'] input[name="upfile"],
 	table[width="100%"]~* .recaptchatable,
-	table[width="100%"]~* form[name^="post"] input[name="recaptcha_response_field"],
+	table[width="100%"]~* form[name^='post'] input[name="recaptcha_response_field"],
 	table[width="100%"]~#qr input.inputtext:not([name="sub"]),
 	table[width="100%"]~#qr #qr_captcha,
 	table[width="100%"]~#qr textarea,
@@ -955,7 +955,7 @@ padding: 0 2px 0 2px !important;
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center,
+	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center,
 	table[width="100%"]~* #r_captcha_div img,
 	table[width="100%"]~* #r_captcha_div input {
 		width: 248px !important;
@@ -972,7 +972,7 @@ padding: 0 2px 0 2px !important;
 		visibility: visible !important;
 	}
 
-	table[width="100%"]~*:not(#qr) form[name^="post"] {
+	table[width="100%"]~*:not(#qr) form[name^='post'] {
 		visibility: visible !important;
 		width: 248px !important;
 		background-color: transparent !important;
@@ -1000,7 +1000,7 @@ padding: 0 2px 0 2px !important;
 		-o-transition: right .3s ease-in-out 3s;
 	}
 
-	table[width="100%"]~*:not(#qr) form[name^="post"]:hover {
+	table[width="100%"]~*:not(#qr) form[name^='post']:hover {
 		right: 2px !important;
 		-webkit-transition: right .3s linear;
 		-moz-transition: right .3s linear;
@@ -1029,49 +1029,49 @@ padding: 0 2px 0 2px !important;
 		top: 0;
 	}
 
-	table[width="100%"]~* form[name^="Post"] tr:nth-of-type(3)>td:nth-of-type(3),
+	table[width="100%"]~* form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3),
 	table[width="100%"]~* form tr:nth-of-type(3)>td:nth-of-type(3) {
 		font-size: 0 !important;
 		color: transparent !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] textarea.inputtext {
+	table[width="100%"]~* form[name^='post'] textarea.inputtext {
 		height: 78px !important;
 		min-height: 78px !important;
 		width: 248px !important;
 		resize: none;
 	}
 
-	table[width="100%"]~* form[name^="Post"] label:first-of-type {
+	table[width="100%"]~* form[name^='post'] label:first-of-type {
 		display: none !important;
 	}
 
-	table[width="100%"]~* form[name^="Post"] label:last-of-type {
+	table[width="100%"]~* form[name^='post'] label:last-of-type {
 		text-align: right !important;
 		position: absolute !important;
 		bottom: 0px !important;
 		right: 55px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] tr .postblock b {
+	table[width="100%"]~* form[name^='post'] tr .postblock b {
 		right: 3px;
 	}
 
-	table[width="100%"]~* form[name^="post"] tr:nth-of-type(3n) .postblock b {
+	table[width="100%"]~* form[name^='post'] tr:nth-of-type(3n) .postblock b {
 		right: 54px;
 	}
 
 	.fake input[type="file"]::-webkit-file-upload-button, /* Cheating. Firefox Stylish will ignore this block */
-	table[width="100%"]~* form[name^="post"] tr:nth-of-type(6) .postblock b {
+	table[width="100%"]~* form[name^='post'] tr:nth-of-type(6) .postblock b {
 		right: 3px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] #maxchars {
+	table[width="100%"]~* form[name^='post'] #maxchars {
 		bottom: 110px;
 		right: 3px;
 	}
 
-	table[width="100%"]~* form[name^="post"] label {
+	table[width="100%"]~* form[name^='post'] label {
 	/* Spoiler Image label */
 		top: auto !important;
 		bottom: 0 !important;
@@ -1096,16 +1096,16 @@ padding: 0 2px 0 2px !important;
 		height: 227px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] input[type="file"][name="upfile"] > input[type="text"],
-	table[width="100%"]~* form[name^="post"] input.inputtext[name="sub"] {
+	table[width="100%"]~* form[name^='post'] input[type="file"][name="upfile"] > input[type="text"],
+	table[width="100%"]~* form[name^='post'] input.inputtext[name="sub"] {
 		width: 197px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] #recaptcha_widget_div {
+	table[width="100%"]~* form[name^='post'] #recaptcha_widget_div {
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] #recaptcha_reload_btn,
+	table[width="100%"]~* form[name^='post'] #recaptcha_reload_btn,
 	table[width="100%"]~* body > table ~ .refreshBtn {
 		bottom: 63px !important;
 		right: 1px !important;
@@ -1113,14 +1113,14 @@ padding: 0 2px 0 2px !important;
 
 	table[width="100%"]~* .recaptcha_image_cell>center,
 	table[width="100%"]~* .recaptcha_image_cell,
-	table[width="100%"]~* form[name^="post"] tr[height="73"] {
+	table[width="100%"]~* form[name^='post'] tr[height="73"] {
 		height: auto !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center>#recaptcha_image,
-	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center>#quick_recaptcha_image,
-	table[width="100%"]~* form[name^="post"] #recaptcha_image img,
-	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center>#quick_recaptcha_image img,
+	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
+	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image,
+	table[width="100%"]~* form[name^='post'] #recaptcha_image img,
+	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image img,
 	table[width="100%"]~#qr img {
 		width: 248px !important;
 		height: 47px !important;
@@ -1139,7 +1139,7 @@ padding: 0 2px 0 2px !important;
 		color: #000 !important;
 	}
 
-	table[width="100%"]~* form[name^="Post"] {
+	table[width="100%"]~* form[name^='post'] {
 		margin-bottom: 0px !important;
 		z-index: 2 !important;
 	}
@@ -1149,18 +1149,18 @@ padding: 0 2px 0 2px !important;
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] input[name="sub"],
-	table[width="100%"]~* form[name^="post"] textarea.inputtext,
-	table[width="100%"]~* form[name^="post"] input.inputtext,
-	table[width="100%"]~* form[name^="post"] .recaptchatable {
+	table[width="100%"]~* form[name^='post'] input[name="sub"],
+	table[width="100%"]~* form[name^='post'] textarea.inputtext,
+	table[width="100%"]~* form[name^='post'] input.inputtext,
+	table[width="100%"]~* form[name^='post'] .recaptchatable {
 		margin-top: 1px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] textarea.inputtext,
-	table[width="100%"]~* form[name^="post"] input.inputtext,
-	table[width="100%"]~* form[name^="post"] input[name="upfile"],
+	table[width="100%"]~* form[name^='post'] textarea.inputtext,
+	table[width="100%"]~* form[name^='post'] input.inputtext,
+	table[width="100%"]~* form[name^='post'] input[name="upfile"],
 	table[width="100%"]~* .recaptchatable,
-	table[width="100%"]~* form[name^="post"] input[name="recaptcha_response_field"],
+	table[width="100%"]~* form[name^='post'] input[name="recaptcha_response_field"],
 	table[width="100%"]~#qr input.inputtext:not([name="sub"]),
 	table[width="100%"]~#qr #qr_captcha,
 	table[width="100%"]~#qr textarea,
@@ -1168,7 +1168,7 @@ padding: 0 2px 0 2px !important;
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center,
+	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center,
 	table[width="100%"]~* #r_captcha_div img,
 	table[width="100%"]~* #r_captcha_div input {
 		width: 248px !important;
@@ -1185,7 +1185,7 @@ padding: 0 2px 0 2px !important;
 		visibility: visible !important;
 	}
 
-	table[width="100%"]~*:not(#qr) form[name^="post"] {
+	table[width="100%"]~*:not(#qr) form[name^='post'] {
 		visibility: visible !important;
 		width: 248px !important;
 		background-color: transparent !important;
@@ -1213,7 +1213,7 @@ padding: 0 2px 0 2px !important;
 		-o-transition: right .3s ease-in-out 3s;
 	}
 
-	table[width="100%"]~*:not(#qr) form[name^="post"]:hover {
+	table[width="100%"]~*:not(#qr) form[name^='post']:hover {
 		right: 2px !important;
 		-webkit-transition: right .3s linear;
 		-moz-transition: right .3s linear;
@@ -1269,49 +1269,49 @@ padding: 0 2px 0 2px !important;
 		top: 0;
 	}
 
-	table[width="100%"]~* form[name^="Post"] tr:nth-of-type(3)>td:nth-of-type(3),
+	table[width="100%"]~* form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3),
 	table[width="100%"]~* form tr:nth-of-type(3)>td:nth-of-type(3) {
 		font-size: 0 !important;
 		color: transparent !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] textarea.inputtext {
+	table[width="100%"]~* form[name^='post'] textarea.inputtext {
 		height: 78px !important;
 		min-height: 78px !important;
 		width: 248px !important;
 		resize: none;
 	}
 
-	table[width="100%"]~* form[name^="Post"] label:first-of-type {
+	table[width="100%"]~* form[name^='post'] label:first-of-type {
 		display: none !important;
 	}
 
-	table[width="100%"]~* form[name^="Post"] label:last-of-type {
+	table[width="100%"]~* form[name^='post'] label:last-of-type {
 		text-align: right !important;
 		position: absolute !important;
 		bottom: 0px !important;
 		right: 55px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] tr .postblock b {
+	table[width="100%"]~* form[name^='post'] tr .postblock b {
 		right: 3px;
 	}
 
-	table[width="100%"]~* form[name^="post"] tr:nth-of-type(3n) .postblock b {
+	table[width="100%"]~* form[name^='post'] tr:nth-of-type(3n) .postblock b {
 		right: 54px;
 	}
 
 	.fake input[type="file"]::-webkit-file-upload-button, /* Cheating. Firefox Stylish will ignore this block */
-	table[width="100%"]~* form[name^="post"] tr:nth-of-type(6) .postblock b {
+	table[width="100%"]~* form[name^='post'] tr:nth-of-type(6) .postblock b {
 		right: 3px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] #maxchars {
+	table[width="100%"]~* form[name^='post'] #maxchars {
 		bottom: 110px;
 		right: 3px;
 	}
 
-	table[width="100%"]~* form[name^="post"] label {
+	table[width="100%"]~* form[name^='post'] label {
 	/* Spoiler Image label */
 		top: auto !important;
 		bottom: 0 !important;
@@ -1336,16 +1336,16 @@ padding: 0 2px 0 2px !important;
 		height: 227px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] input[type="file"][name="upfile"] > input[type="text"],
-	table[width="100%"]~* form[name^="post"] input.inputtext[name="sub"] {
+	table[width="100%"]~* form[name^='post'] input[type="file"][name="upfile"] > input[type="text"],
+	table[width="100%"]~* form[name^='post'] input.inputtext[name="sub"] {
 		width: 197px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] #recaptcha_widget_div {
+	table[width="100%"]~* form[name^='post'] #recaptcha_widget_div {
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] #recaptcha_reload_btn,
+	table[width="100%"]~* form[name^='post'] #recaptcha_reload_btn,
 	table[width="100%"]~* body > table ~ .refreshBtn {
 		bottom: 63px !important;
 		right: 1px !important;
@@ -1353,14 +1353,14 @@ padding: 0 2px 0 2px !important;
 
 	table[width="100%"]~* .recaptcha_image_cell>center,
 	table[width="100%"]~* .recaptcha_image_cell,
-	table[width="100%"]~* form[name^="post"] tr[height="73"] {
+	table[width="100%"]~* form[name^='post'] tr[height="73"] {
 		height: auto !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center>#recaptcha_image,
-	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center>#quick_recaptcha_image,
-	table[width="100%"]~* form[name^="post"] #recaptcha_image img,
-	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center>#quick_recaptcha_image img,
+	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
+	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image,
+	table[width="100%"]~* form[name^='post'] #recaptcha_image img,
+	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image img,
 	table[width="100%"]~#qr img {
 		width: 248px !important;
 		height: 47px !important;
@@ -1379,7 +1379,7 @@ padding: 0 2px 0 2px !important;
 		color: #000 !important;
 	}
 
-	table[width="100%"]~* form[name^="Post"] {
+	table[width="100%"]~* form[name^='post'] {
 		margin-bottom: 0px !important;
 		z-index: 2 !important;
 	}
@@ -1389,18 +1389,18 @@ padding: 0 2px 0 2px !important;
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] input[name="sub"],
-	table[width="100%"]~* form[name^="post"] textarea.inputtext,
-	table[width="100%"]~* form[name^="post"] input.inputtext,
-	table[width="100%"]~* form[name^="post"] .recaptchatable {
+	table[width="100%"]~* form[name^='post'] input[name="sub"],
+	table[width="100%"]~* form[name^='post'] textarea.inputtext,
+	table[width="100%"]~* form[name^='post'] input.inputtext,
+	table[width="100%"]~* form[name^='post'] .recaptchatable {
 		margin-top: 1px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] textarea.inputtext,
-	table[width="100%"]~* form[name^="post"] input.inputtext,
-	table[width="100%"]~* form[name^="post"] input[name="upfile"],
+	table[width="100%"]~* form[name^='post'] textarea.inputtext,
+	table[width="100%"]~* form[name^='post'] input.inputtext,
+	table[width="100%"]~* form[name^='post'] input[name="upfile"],
 	table[width="100%"]~* .recaptchatable,
-	table[width="100%"]~* form[name^="post"] input[name="recaptcha_response_field"],
+	table[width="100%"]~* form[name^='post'] input[name="recaptcha_response_field"],
 	table[width="100%"]~#qr input.inputtext:not([name="sub"]),
 	table[width="100%"]~#qr #qr_captcha,
 	table[width="100%"]~#qr textarea,
@@ -1408,7 +1408,7 @@ padding: 0 2px 0 2px !important;
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] .recaptcha_image_cell>center,
+	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center,
 	table[width="100%"]~* #r_captcha_div img,
 	table[width="100%"]~* #r_captcha_div input {
 		width: 248px !important;
@@ -1425,7 +1425,7 @@ padding: 0 2px 0 2px !important;
 		visibility: visible !important;
 	}
 
-	table[width="100%"]~*:not(#qr) form[name^="post"] {
+	table[width="100%"]~*:not(#qr) form[name^='post'] {
 		visibility: visible !important;
 		width: 248px !important;
 		background-color: transparent !important;
@@ -1469,49 +1469,49 @@ padding: 0 2px 0 2px !important;
 		top: 0;
 	}
 
-	table[width="100%"]~* form[name^="Post"] tr:nth-of-type(3)>td:nth-of-type(3),
+	table[width="100%"]~* form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3),
 	table[width="100%"]~* form tr:nth-of-type(3)>td:nth-of-type(3) {
 		font-size: 0 !important;
 		color: transparent !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] textarea.inputtext {
+	table[width="100%"]~* form[name^='post'] textarea.inputtext {
 		height: 78px !important;
 		min-height: 78px !important;
 		width: 248px !important;
 		resize: none;
 	}
 
-	table[width="100%"]~* form[name^="Post"] label:first-of-type {
+	table[width="100%"]~* form[name^='post'] label:first-of-type {
 		display: none !important;
 	}
 
-	table[width="100%"]~* form[name^="Post"] label:last-of-type {
+	table[width="100%"]~* form[name^='post'] label:last-of-type {
 		text-align: right !important;
 		position: absolute !important;
 		bottom: 0px !important;
 		right: 55px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] tr .postblock b {
+	table[width="100%"]~* form[name^='post'] tr .postblock b {
 		right: 3px;
 	}
 
-	table[width="100%"]~* form[name^="post"] tr:nth-of-type(3n) .postblock b {
+	table[width="100%"]~* form[name^='post'] tr:nth-of-type(3n) .postblock b {
 		right: 54px;
 	}
 
 	.fake input[type="file"]::-webkit-file-upload-button, /* Cheating. Firefox Stylish will ignore this block */
-	table[width="100%"]~* form[name^="post"] tr:nth-of-type(6) .postblock b {
+	table[width="100%"]~* form[name^='post'] tr:nth-of-type(6) .postblock b {
 		right: 3px !important;
 	}
 
-	table[width="100%"]~* form[name^="post"] #maxchars {
+	table[width="100%"]~* form[name^='post'] #maxchars {
 		bottom: 110px;
 		right: 3px;
 	}
 
-	table[width="100%"]~* form[name^="post"] label {
+	table[width="100%"]~* form[name^='post'] label {
 	/* Spoiler Image label */
 		top: auto !important;
 		bottom: 0 !important;
@@ -1609,6 +1609,10 @@ padding: 0 2px 0 2px !important;
 /* No: */
 	input[type='checkbox'][value='delete'] {
 		display: none;
+	}
+
+	form[name^='Post'] input[type='password'].inputtext {
+		visibility: hidden;
 	}
 
 /* End */
