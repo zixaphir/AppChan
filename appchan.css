@@ -982,10 +982,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		-moz-transition: height 500ms ease-in-out !important;
 		-o-transition: height 500ms ease-in-out !important;
 	}
-
-	#options .column ul>li:first-of-type {
-		background-color: #333 !important;
-	}
 	
 	#options .column ul>li {
 		padding: 0 3px !important;

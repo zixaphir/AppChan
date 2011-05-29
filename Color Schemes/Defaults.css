@@ -28,6 +28,7 @@
 	#options textarea,
 	#options .column ul>li:first-of-type,
 	#qr table .recaptchatable #recaptcha_image,
+	#qr img,
 	#updater input:not([type="checkbox"]),
 	#twi_table_div,
 	#twi_table_div *,
@@ -56,12 +57,13 @@
 	}
 
 	html body span[style="left: 5px; position: absolute;"] a {
-		height: 12px !important;
+		height: 14px !important;
+		padding-top: 3px !important;
 		width: 56px !important;
 	}
 
 	form[name^='post'] input[type="file"][name="upfile"] {
-		margin: 0 -1px -1px !important;
+		margin: -1px -1px !important;
 		height: 21px !important;
 	}
 
@@ -172,25 +174,27 @@
 	}
 
 	#recaptcha_image img,
-	#quick_recaptcha_image img {
+	#quick_recaptcha_image img,
+	#qr img {
 		opacity: 1 !important;
 	}
 
 	.postarea form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
-	.postarea form[name^='post'] #recaptcha_image img {
+	.postarea form[name^='post'] #recaptcha_image img,
+	#qr img {
 		width: 246px !important;
 		height: 45px !important;
 	}
 
 	form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
-	form[name^='post'] #recaptcha_image img {
+	form[name^='post'] #recaptcha_image img,
+	#qr img {
 		width: 298px !important;
 		height: 55px !important;
 	}
 
 	form[name="delform"]>div:not(.thread) select,
-	.pages input[type="submit"],
-	html body span[style="left: 5px; position: absolute;"] a {
+	.pages input[type="submit"] {
 		margin: 0 !important;
 		height: 17px !important;
 	}
