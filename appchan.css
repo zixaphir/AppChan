@@ -269,6 +269,7 @@ Some NSFW alternatives. ;)
 /* Post Form */
 	.postarea form[name^='post'] {
 		width: 248px;
+		height: 247px;
 	}
 
 	.postarea table {

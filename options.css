@@ -1622,13 +1622,10 @@ padding: 0 2px 0 2px !important;
 		visibility: hidden;
 	}
 /* Remove Password Inputs: */
+	form[name^='post'] input[type='password'].inputtext,
+	form[name^='post'] tr:nth-of-type(7) td.postblock ,
 	.deletebuttons input.inputtext {
 		display: none;
-	}
-
-	form[name^='post'] input[type='password'].inputtext,
-	form[name^='post'] tr:nth-of-type(7) td.postblock  {
-		visibility: hidden;
 	}
 
 	.deletebuttons,
