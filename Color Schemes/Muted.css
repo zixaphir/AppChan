@@ -2,10 +2,10 @@
 /*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb { border: #101010 !important; background: #262626; }
 /*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:hover { background: #3f3f3f; }
 /*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:active { background: #111; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #ccc; }
-/*[[CustomScrollbars]]*/scrollbar, scrollcorner { background: #ccc; }
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #dfdfdf; }
+/*[[CustomScrollbars]]*/scrollbar, scrollcorner { background: #dfdfdf; }
 /*[[CustomScrollbars]]*/thumb:active { background: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
-/*[[CustomScrollbars]]*/thumb { border-color: #ccc !important; background: #aaa; }
+/*[[CustomScrollbars]]*/thumb { border-color: #dfdfdf !important; background: #aaa; }
 /*[[CustomScrollbars]]*/thumb:hover { background: -moz-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
 
 	::-webkit-selection {
@@ -54,7 +54,7 @@
 	.op>blockquote,
 	.thread>blockquote,
 	form[name='delform']>blockquote {
-		text-shadow: #dfdfdf 1px 0 2px, #dfdfdf -1px 0 2px, #dfdfdf 0 -1px 2px, #dfdfdf 0 1px 2px;
+		text-shadow: #fcfcfc 1px 0 2px, #fcfcfc -1px 0 2px, #fcfcfc 0 -1px 2px, #fcfcfc 0 1px 2px;
 	}
 
 	div.postarea>form td:nth-of-type(3)>label,
@@ -69,7 +69,7 @@
 	}
 
 	.replyhider a {
-		color: #ccc !important;
+		color: #dfdfdf !important;
 	}
 
 	.replyhider a:hover {
@@ -144,6 +144,7 @@
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	.yuimenuitem-selected,
+	form[name^='post']:after,
 	h2,
 	input,
 	input[type="file"]>input[type="button"],
@@ -152,7 +153,7 @@
 	td.postblock,
 	td.reply,
 	textarea {
-		background-color: #ccc !important;
+		background-color: #dfdfdf !important;
 	}
 
 	div[id^="4chan_ext_iqr"],
@@ -186,7 +187,7 @@
 	div.postarea>form td:nth-of-type(3)>label input,
 	div[id^=qr],
 	table.reply[style^="clear: both"] {
-		background-color: #dfdfdf !important;
+		background-color: #fcfcfc !important;
 	}
 
 	html body span[style="left: 5px; position: absolute;"] a:hover,
@@ -262,7 +263,7 @@
 	}
 
 	#crntBoard {
-		border-right-color: #dfdfdf !important;
+		border-right-color: #fcfcfc !important;
 	}
 
 	td[style="border: 1px dashed;"],
@@ -349,12 +350,12 @@
 	#options .column ul,
 	#threadwatcher .postblock,
 	.chanchimp * {
-		border-color: #dfdfdf !important;
+		border-color: #fcfcfc !important;
 	}
 
 	#watcher .move,
 	#twi_table_div .postblock {
-		border-bottom: 1px #dfdfdf solid !important;
+		border-bottom: 1px #fcfcfc solid !important;
 	}
 
 	.postarea textarea:focus {
