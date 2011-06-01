@@ -550,6 +550,7 @@ padding: 0 2px 0 2px !important;
 		-o-transform-origin: bottom right;
 		letter-spacing: -1px;
 		word-spacing: -6px;
+		z-index: 6 !important;
 	}
 
 	.pages a, .pages b, .pages input {
