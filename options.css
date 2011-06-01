@@ -6,17 +6,17 @@
 /* Yuki Nagato [s]: */
 url('http://i.imgur.com/Un9LT.png')
 /* Yuki Nagato (+Pantsu) [s]: */
-url('http://i.imgur.com/hPb5E.png')
+url('http://i.imgur.com/7wrLq.png')
 /* Horo [s]: */
 url('http://i.imgur.com/4xcQf.png')
 /* Original Horo [s]: */
 url('http://i.imgur.com/5qN2B.png')
 /* Kagamine Rin: */
-url('http://i.imgur.com/usbZ0.png')
+url('http://i.imgur.com/QuMsg.png')
 /* Kinomoto Sakura: */
-url('http://i.imgur.com/CVuge.png')
+url('http://i.imgur.com/yaayD.png')
 /* Shana: */
-url('http://i.imgur.com/TtMMD.png')
+url('http://i.imgur.com/k3fgX.png')
 /* None: */
 none
 /* End */
@@ -1739,7 +1739,7 @@ padding: 0 2px 0 2px !important;
 		border-radius: 9px;
 	}
 
-	.postarea form[name='post']:after {
+	form[name^='post']:after {
 		border-radius: 6px 6px 0 0;
 		-o-border-radius: 6px 6px 0 0 !important;
 	}
