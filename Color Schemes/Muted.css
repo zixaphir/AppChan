@@ -1,0 +1,384 @@
+/* Muted */
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb { border: #101010 !important; background: #262626; }
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:hover { background: #3f3f3f; }
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:active { background: #111; }
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #ccc; }
+/*[[CustomScrollbars]]*/scrollbar, scrollcorner { background: #ccc; }
+/*[[CustomScrollbars]]*/thumb:active { background: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
+/*[[CustomScrollbars]]*/thumb { border-color: #ccc !important; background: #aaa; }
+/*[[CustomScrollbars]]*/thumb:hover { background: -moz-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
+
+	::-webkit-selection {
+		background: #101010;
+		color: #aaa;
+	}
+
+	::-moz-selection {
+		background: #101010;
+		color: #aaa;
+	}
+
+	::selection {
+		background: #101010;
+		color: #aaa;
+	}
+
+	body,
+	body>form,
+	html body span[style="left: 5px; position: absolute;"] a,
+	input,
+	div.postarea,
+	form[name="post"]:after,
+	select,
+	td.deletebuttons,
+	textarea,
+	.abbr,
+	.boxbar,
+	.boxcontent,
+	.logo,
+	.omittedposts,
+	.pages b,
+	.postblock,
+	.reply,
+	.replyhl,
+	#backwash_tooltip,
+	#imgControls label:after,
+	#navbot:after,
+	#qp,
+	#twi_table_div,
+	#updater #count:not(.new):after {
+		color: #000 !important;
+	}
+
+	div.logo font,
+	.op>blockquote,
+	.thread>blockquote,
+	form[name='delform']>blockquote {
+		text-shadow: #dfdfdf 1px 0 2px, #dfdfdf -1px 0 2px, #dfdfdf 0 -1px 2px, #dfdfdf 0 1px 2px;
+	}
+
+	div.postarea>form td:nth-of-type(3)>label,
+	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
+	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
+	#autonoko {
+		color: #333;
+	}
+
+	input[type="file"]::-webkit-file-upload-button {
+		color: #555 !important;
+	}
+
+	.replyhider a {
+		color: #ccc !important;
+	}
+
+	.replyhider a:hover {
+		color: #555 !important;
+	}
+
+	a {
+		color: #57577b !important;
+	}
+
+	a:hover {
+		color: #47475b !important;
+	}
+
+	.postername,
+	.commentpostername {
+		color: #7c2d2d !important;
+		font-weight: 400 !important;
+	}
+
+	.postertrip,
+	.trip {
+		color: #3e7157 !important;
+	}
+
+
+	a:hover,
+	.postername a:hover,
+	.commentpostername a:hover,
+	a:hover .postertrip {
+		color: #444 !important;
+	}
+
+	a.backlink,
+	a.forwardlink {
+		color: #47475b !important;
+	}
+
+	.filetitle,
+	.replytitle {
+		color: #aaa !important;
+		font-weight: 700 !important;
+	}
+
+	.unkfunc {
+		color: #789922 !important;
+	}
+
+	a.quotelink {
+		color: #47475b !important;
+	}
+
+
+	#boards h3,
+	#boardsMenu,
+	#filter.autohide:hover,
+	#filter:not(.autohide),
+	#ft li,
+	#ft ul,
+	#navbar,
+	#options,
+	#popup,
+	#threadwatcher,
+	#threadwatcher .postblock,
+	#watcher,
+	#thread_filter.autohide:hover,
+	#thread_filter:not(.autohide),
+	.box-outer,
+	.boxbar,
+	.deletebuttons input[value=Delete],
+	.recaptcha_image_cell>center>#recaptcha_image,
+	.recaptchatable #recaptcha_response_field,
+	.top-box,
+	.yuimenuitem-selected,
+	h2,
+	input,
+	input[type="file"]>input[type="button"],
+	input[type="submit"],
+	select,
+	td.postblock,
+	td.reply,
+	textarea {
+		background-color: #ccc !important;
+	}
+
+	div[id^="4chan_ext_iqr"],
+	div[id^="4chan_ext_iqr"]>*,
+	input[type="submit"]:hover,
+	input[type="file"]>input[type="button"]:hover,
+	#filter input,
+	#filter textarea,
+	#header,
+	#navbot,
+	#navbot:after,
+	#options input,
+	#options textarea,
+	#options .column ul>li:first-of-type,
+	#qr,
+	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
+	#quickrep,
+	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
+	#qr label input,
+	#thread_filter input,
+	#thread_filter textarea,
+	#updater input,
+	.bd,
+	.boxcontent>hr,
+	.boxcontent input,
+	.boxcontent textarea,
+	.pages,
+	h3,
+	html,
+	body,
+	div.postarea>form td:nth-of-type(3)>label input,
+	div[id^=qr],
+	table.reply[style^="clear: both"] {
+		background-color: #dfdfdf !important;
+	}
+
+	html body span[style="left: 5px; position: absolute;"] a:hover,
+	#com_submit:hover,
+	#cc-showpostarea,
+	#twi_table_div,
+	#twi_table_div *,
+	input[type="submit"]:hover,
+	input[type="file"]>input[type="button"]:hover,
+	#backwash_tooltip,
+	#qp,
+	#updater:hover,
+	#popup,
+	.chanchimp,
+	.chanchimp>div,
+	.recaptchatable #recaptcha_response_field:hover,
+	.deletebuttons input[type="password"]:hover,
+	div[id^=ref],
+	input:hover,
+	input[type="file"]>input[type="button"]
+	input[type="submit"]:hover,
+	td.replyhl,
+	tr.replyhl,
+	textarea:hover {
+		background-color: #dcdcdc !important;
+	}
+//
+//	td.reply {
+///*[[TransparentReplies]]*/		background-color: rgba(38,38,38,0.5) !important;
+//	}
+//
+//	td.replyhl {
+///*[[TransparentReplies]]*/		background-color: rgba(30,30,30,0.5) !important;
+//	}
+//
+
+	.qphl {
+		outline-color: #627c8d !important;
+	}
+
+	html body span[style="left: 5px; position: absolute;"] a,
+	input[type="submit"],
+	#com_submit,
+	input[type="file"]>input[type="button"],
+	.recaptchatable #recaptcha_response_field:focus,
+	.deletebuttons input[type="password"]:focus,
+	input:focus,
+	input[type="submit"]:focus,
+	textarea:focus {
+		background-color: #cfcfcf !important;
+	}
+
+	input[type='checkbox'],
+	#options input[type='checkbox'],
+	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox'],
+	#qr label input[type='checkbox'] {
+		border: 1px solid #3c3c3c !important;
+		background: #fff !important;
+	}
+
+	input[type=checkbox]:active,
+	#options input[type=checkbox]:active,
+	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:active,
+	#qr label input[type='checkbox']:active {
+		background: #fff !important;
+	}
+
+	input[type=checkbox]:checked,
+	#options input[type=checkbox]:checked,
+	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:checked,
+	#qr label input[type='checkbox']:checked {
+		background: #aaa !important;
+	}
+
+	#crntBoard {
+		border-right-color: #dfdfdf !important;
+	}
+
+	td[style="border: 1px dashed;"],
+	td.reply>tr>td.reply,
+	.inline td.reply {
+		/* Inline Quotes */
+		background-color: rgba(255,255,255,0.1) !important;
+		border: none !important;
+	}
+
+	.pages b {
+		background: rgba(255,255,255,0.2) !important;
+	}
+
+	#header a:hover,
+	.pages input:hover,
+	a:hover {
+	/* URL bubbles */
+		background: rgba(255,255,255,.2) !important;
+	}
+
+	form[name^='post'] .postblock b,
+	.postarea tr:nth-child(4) .postblock b,
+	.postarea form[name^='post']:after,
+	#maxchars {
+		color: rgba(0,0,0,0.5) !important;
+	}
+
+	#qr input:-moz-placeholder,
+	#qr textarea:-moz-placeholder {
+		color: rgba(0,0,0,0.5) !important;
+	}
+
+	#qr input::-webkit-input-placeholder,
+	#qr textarea::-webkit-input-placeholder {
+		color: rgba(0,0,0,0.5) !important;
+	}
+
+	#qr input:placeholder,
+	#qr textarea:placeholder {
+		color: rgba(0,0,0,0.5) !important;
+	}
+
+	#cc-showpostarea,
+	#ft li,
+	#ft ul,
+	#options input:not([type="checkbox"]),
+	#qr table .recaptchatable #recaptcha_image,
+	#updater input:not([type="checkbox"]),
+	#twi_table_div,
+	#twi_table_div *,
+	.box-outer,
+	.boxbar,
+	.chanchimp,
+	.chanchimp>div,
+	.inputtext,
+	.deletebuttons input[value=Delete],
+	.recaptcha_image_cell>center>#recaptcha_image,
+	.recaptchatable #recaptcha_response_field,
+	.top-box,
+	h2,
+	input:not([type="checkbox"]),
+	#qr_captcha input,
+	input[type="file"]>input[type="button"],
+	input[type="submit"],
+	select,
+	textarea {
+		border: none !important;
+	}
+
+	#recaptcha_image img,
+	#quick_recaptcha_image img,
+	#qr img {
+		opacity: 0.95 !important;
+	}
+
+	.postarea form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
+	.postarea form[name^='post'] #recaptcha_image img {
+		width: 248px !important;
+		height: 47px !important;
+	}
+
+	.boxcontent dd,
+	#options .column ul,
+	#threadwatcher .postblock,
+	.chanchimp * {
+		border-color: #dfdfdf !important;
+	}
+
+	#watcher .move,
+	#twi_table_div .postblock {
+		border-bottom: 1px #dfdfdf solid !important;
+	}
+
+	.postarea textarea:focus {
+		bottom: 171px !important; /* Borders change the dimensions of the postform slightly. */
+	}
+
+	#filter input,
+	#filter textarea,
+	#thread_filter input,
+	#thread_filter textarea,
+	#updater input,
+	#options input,
+	#qr,
+	#quickrep,
+	div[id^=qr],
+	table.reply[style^="clear: both"] {
+		border: none !important;
+	}
+
+	form[name="delform"]>div:not(.thread) select {
+		margin: 1px 0 0 0 !important;
+	}
+
+	form[name="delform"]>div:not(.thread) select,
+	.pages input[type="submit"] {
+		height: 15px !important;
+	}
