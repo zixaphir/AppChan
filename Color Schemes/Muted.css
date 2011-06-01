@@ -216,10 +216,12 @@
 
 	td.reply {
 /*[[TransparentReplies]]*/		background-color: rgba(186,186,186,0.5) !important;
+/*[[TransparentReplies]]*/		text-shadow: #d0d0d0 1px 0 2px, #d0d0d0 -1px 0 2px, #d0d0d0 0 -1px 2px, #d0d0d0 0 1px 2px;
 	}
 
 	td.replyhl {
 /*[[TransparentReplies]]*/		background-color: rgba(212,212,212,0.5) !important;
+/*[[TransparentReplies]]*/		text-shadow: #ddd 1px 0 2px, #ddd -1px 0 2px, #ddd 0 -1px 2px, #ddd 0 1px 2px;
 	}
 
 	.qphl {
