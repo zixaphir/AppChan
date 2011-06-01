@@ -85,6 +85,7 @@ Some NSFW alternatives. ;)
 	.fill,
 	.notice,
 	.replymode,
+	.pages td:nth-of-type(2n-1),
 	.postarea form>div,
 	.postarea>form:first-child>table>tbody>tr:last-of-type,
 	.postarea .refreshBtn,
