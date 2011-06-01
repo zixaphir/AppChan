@@ -1,12 +1,12 @@
 /* Muted */
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb { border: #101010 !important; background: #262626; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:hover { background: #3f3f3f; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:active { background: #111; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #dfdfdf; }
-/*[[CustomScrollbars]]*/scrollbar, scrollcorner { background: #dfdfdf; }
-/*[[CustomScrollbars]]*/thumb:active { background: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
-/*[[CustomScrollbars]]*/thumb { border-color: #dfdfdf !important; background: #aaa; }
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb { border: #e7e7e7 !important; background: #aaa; }
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:hover { background: -webkit-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:active { background: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
+/*[[CustomScrollbars]]*/::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #e7e7e7; }
+/*[[CustomScrollbars]]*/thumb { border-color: #e7e7e7 !important; background: #aaa; }
 /*[[CustomScrollbars]]*/thumb:hover { background: -moz-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
+/*[[CustomScrollbars]]*/thumb:active { background: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
+/*[[CustomScrollbars]]*/scrollbar, scrollcorner { background: #e7e7e7 !important; }
 
 	::-webkit-selection {
 		background: #101010;
@@ -54,7 +54,7 @@
 	.op>blockquote,
 	.thread>blockquote,
 	form[name='delform']>blockquote {
-		text-shadow: #fcfcfc 1px 0 2px, #fcfcfc -1px 0 2px, #fcfcfc 0 -1px 2px, #fcfcfc 0 1px 2px;
+		text-shadow: #e7e7e7 1px 0 2px, #e7e7e7 -1px 0 2px, #e7e7e7 0 -1px 2px, #e7e7e7 0 1px 2px;
 	}
 
 	div.postarea>form td:nth-of-type(3)>label,
@@ -69,11 +69,11 @@
 	}
 
 	.replyhider a {
-		color: #dfdfdf !important;
+		color: #aaa !important;
 	}
 
 	.replyhider a:hover {
-		color: #555 !important;
+		color: #fff !important;
 	}
 
 	a {
@@ -87,7 +87,6 @@
 	.postername,
 	.commentpostername {
 		color: #7c2d2d !important;
-		font-weight: 400 !important;
 	}
 
 	.postertrip,
@@ -153,7 +152,7 @@
 	td.postblock,
 	td.reply,
 	textarea {
-		background-color: #dfdfdf !important;
+		background-color: #d0d0d0 !important;
 	}
 
 	div[id^='4chan_ext_iqr'],
@@ -212,7 +211,7 @@
 	td.replyhl,
 	tr.replyhl,
 	textarea:hover {
-		background-color: #dcdcdc !important;
+		background-color: #ddd !important;
 	}
 //
 //	td.reply {
@@ -263,7 +262,7 @@
 	}
 
 	#crntBoard {
-		border-right-color: #fcfcfc !important;
+		border-right-color: #e7e7e7 !important;
 	}
 
 	td[style='border: 1px dashed;'],
@@ -275,14 +274,14 @@
 	}
 
 	.pages b {
-		background: rgba(255,255,255,0.2) !important;
+		background: rgba(255,255,255,0.5) !important;
 	}
 
 	#header a:hover,
 	.pages input:hover,
 	a:hover {
 	/* URL bubbles */
-		background: rgba(255,255,255,.2) !important;
+		background: rgba(255,255,255,.5) !important;
 	}
 
 	form[name^='post'] .postblock b,
@@ -350,12 +349,12 @@
 	#options .column ul,
 	#threadwatcher .postblock,
 	.chanchimp * {
-		border-color: #fcfcfc !important;
+		border-color: #e7e7e7 !important;
 	}
 
 	#watcher .move,
 	#twi_table_div .postblock {
-		border-bottom: 1px #fcfcfc solid !important;
+		border-bottom: 1px #e7e7e7 solid !important;
 	}
 
 	.postarea textarea:focus {
