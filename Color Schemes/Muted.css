@@ -25,10 +25,10 @@
 
 	body,
 	body>form,
-	html body span[style="left: 5px; position: absolute;"] a,
+	html body span[style='left: 5px; position: absolute;'] a,
 	input,
 	div.postarea,
-	form[name="post"]:after,
+	form[name='post']:after,
 	select,
 	td.deletebuttons,
 	textarea,
@@ -64,7 +64,7 @@
 		color: #333;
 	}
 
-	input[type="file"]::-webkit-file-upload-button {
+	input[type='file']::-webkit-file-upload-button {
 		color: #555 !important;
 	}
 
@@ -147,8 +147,8 @@
 	form[name^='post']:after,
 	h2,
 	input,
-	input[type="file"]>input[type="button"],
-	input[type="submit"],
+	input[type='file']>input[type='button'],
+	input[type='submit'],
 	select,
 	td.postblock,
 	td.reply,
@@ -156,10 +156,10 @@
 		background-color: #dfdfdf !important;
 	}
 
-	div[id^="4chan_ext_iqr"],
-	div[id^="4chan_ext_iqr"]>*,
-	input[type="submit"]:hover,
-	input[type="file"]>input[type="button"]:hover,
+	div[id^='4chan_ext_iqr'],
+	div[id^='4chan_ext_iqr']>*,
+	input[type='submit']:hover,
+	input[type='file']>input[type='button']:hover,
 	#filter input,
 	#filter textarea,
 	#header,
@@ -186,17 +186,17 @@
 	body,
 	div.postarea>form td:nth-of-type(3)>label input,
 	div[id^=qr],
-	table.reply[style^="clear: both"] {
-		background-color: #fcfcfc !important;
+	table.reply[style^='clear: both'] {
+		background-color: #e7e7e7 !important;
 	}
 
-	html body span[style="left: 5px; position: absolute;"] a:hover,
+	html body span[style='left: 5px; position: absolute;'] a:hover,
 	#com_submit:hover,
 	#cc-showpostarea,
 	#twi_table_div,
 	#twi_table_div *,
-	input[type="submit"]:hover,
-	input[type="file"]>input[type="button"]:hover,
+	input[type='submit']:hover,
+	input[type='file']>input[type='button']:hover,
 	#backwash_tooltip,
 	#qp,
 	#updater:hover,
@@ -204,11 +204,11 @@
 	.chanchimp,
 	.chanchimp>div,
 	.recaptchatable #recaptcha_response_field:hover,
-	.deletebuttons input[type="password"]:hover,
+	.deletebuttons input[type='password']:hover,
 	div[id^=ref],
 	input:hover,
-	input[type="file"]>input[type="button"]
-	input[type="submit"]:hover,
+	input[type='file']>input[type='button']
+	input[type='submit']:hover,
 	td.replyhl,
 	tr.replyhl,
 	textarea:hover {
@@ -228,14 +228,14 @@
 		outline-color: #627c8d !important;
 	}
 
-	html body span[style="left: 5px; position: absolute;"] a,
-	input[type="submit"],
+	html body span[style='left: 5px; position: absolute;'] a,
+	input[type='submit'],
 	#com_submit,
-	input[type="file"]>input[type="button"],
+	input[type='file']>input[type='button'],
 	.recaptchatable #recaptcha_response_field:focus,
-	.deletebuttons input[type="password"]:focus,
+	.deletebuttons input[type='password']:focus,
 	input:focus,
-	input[type="submit"]:focus,
+	input[type='submit']:focus,
 	textarea:focus {
 		background-color: #cfcfcf !important;
 	}
@@ -266,7 +266,7 @@
 		border-right-color: #fcfcfc !important;
 	}
 
-	td[style="border: 1px dashed;"],
+	td[style='border: 1px dashed;'],
 	td.reply>tr>td.reply,
 	.inline td.reply {
 		/* Inline Quotes */
@@ -310,9 +310,9 @@
 	#cc-showpostarea,
 	#ft li,
 	#ft ul,
-	#options input:not([type="checkbox"]),
+	#options input:not([type='checkbox']),
 	#qr table .recaptchatable #recaptcha_image,
-	#updater input:not([type="checkbox"]),
+	#updater input:not([type='checkbox']),
 	#twi_table_div,
 	#twi_table_div *,
 	.box-outer,
@@ -325,10 +325,10 @@
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	h2,
-	input:not([type="checkbox"]),
+	input:not([type='checkbox']),
 	#qr_captcha input,
-	input[type="file"]>input[type="button"],
-	input[type="submit"],
+	input[type='file']>input[type='button'],
+	input[type='submit'],
 	select,
 	textarea {
 		border: none !important;
@@ -371,15 +371,15 @@
 	#qr,
 	#quickrep,
 	div[id^=qr],
-	table.reply[style^="clear: both"] {
+	table.reply[style^='clear: both'] {
 		border: none !important;
 	}
 
-	form[name="delform"]>div:not(.thread) select {
+	form[name='delform']>div:not(.thread) select {
 		margin: 1px 0 0 0 !important;
 	}
 
-	form[name="delform"]>div:not(.thread) select,
-	.pages input[type="submit"] {
+	form[name='delform']>div:not(.thread) select,
+	.pages input[type='submit'] {
 		height: 15px !important;
 	}

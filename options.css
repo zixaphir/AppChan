@@ -24,19 +24,19 @@ none
 /*[[Font]]*/
 /* Don't Care: */
 /* Common Linux font, web font, common Windows font, common OS X font, common font */
-"Ubuntu", "Droid Sans", "Terminus", "Calibri", "Lucida Grande", "Helvetica"
+'Ubuntu', 'Droid Sans', 'Terminus', 'Calibri', 'Lucida Grande', 'Helvetica'
 /* Ubuntu: */
-"Ubuntu"
+'Ubuntu'
 /* Droid Sans: */
-"Droid Sans"
+'Droid Sans'
 /* Terminus: */
-"Terminus"
+'Terminus'
 /* Calibri: */
-"Calibri"
+'Calibri'
 /* Lucidia Grande */
-"Lucida Grande"
+'Lucida Grande'
 /* Helvetica */
-"Helvetica"
+'Helvetica'
 /* END */
 
 /*[[FontSize]]*/
@@ -101,7 +101,7 @@ padding: 0 2px 0 2px !important;
 		height: 26px !important;
 	}
 
-	table[width="100%"]~#navbar {
+	table[width='100%']~#navbar {
 		bottom: 0 !important;
 	}
 
@@ -109,7 +109,7 @@ padding: 0 2px 0 2px !important;
 		bottom: 46px !important;
 	}
 
-	table[width="100%"]~#navbar #boardsMenu {
+	table[width='100%']~#navbar #boardsMenu {
 		bottom: 26px !important;
 	}
 /* No: */
@@ -130,7 +130,7 @@ padding: 0 2px 0 2px !important;
 		padding-top: 14px;
 	}
 
-	table[width="100%"]~.navlinks {
+	table[width='100%']~.navlinks {
 		padding-top: 0;
 	}
 
@@ -178,7 +178,7 @@ padding: 0 2px 0 2px !important;
 		-webkit-transition: all 0.3s ease-in-out !important;
 		-moz-transition: all 0.3s ease-in-out !important;
 		-o-transition: all 0.3s ease-in-out !important;
-		content: "-Navigation-";
+		content: '-Navigation-';
 	}
 	#navbot:hover:after {
 		top: 41px !important;
@@ -234,7 +234,7 @@ padding: 0 2px 0 2px !important;
 		-webkit-transition: all 0.3s ease-in-out !important;
 		-moz-transition: all 0.3s ease-in-out !important;
 		-o-transition: all 0.3s ease-in-out !important;
-		content: "-Navigation-";
+		content: '-Navigation-';
 	}
 
 	#navbot:hover:after {
@@ -289,243 +289,243 @@ padding: 0 2px 0 2px !important;
 /* Yes: */
 /* Current Board Navigation Highlight, mostly based off of CSS from 4chan ~ Momiji by !K.WeEabo0o. */
 @-moz-document url-prefix(http://boards.4chan.org/a/) {
-	#navtop>a[href*="/a/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/a/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/a/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/a/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/b/) {
-	#navtop>a[href*="/b/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/b/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/b/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/b/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/c/) {
-	#navtop>a[href*="/c/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/c/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/c/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/c/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/d/) {
-	#navtop>a[href*="/d/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/d/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/d/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/d/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/e/) {
-	#navtop>a[href*="/e/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/e/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/e/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/e/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/g/) {
-	#navtop>a[href*="/g/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/g/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/g/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/g/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/gif/) {
-	#navtop>a[href*="/gif/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/gif/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/gif/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/gif/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/h/) {
-	#navtop>a[href*="/h/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/h/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/h/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/h/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/hr/) {
-	#navtop>a[href*="/hr/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/hr/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/hr/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/hr/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/k/) {
-	#navtop>a[href*="/k/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/k/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/k/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/k/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/m/) {
-	#navtop>a[href*="/m/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/m/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/m/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/m/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/o/) {
-	#navtop>a[href*="/o/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/o/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/o/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/o/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/p/) {
-	#navtop>a[href*="/p/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/p/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/p/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/p/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/r/) {
-	#navtop>a[href*="/r/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/r/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/r/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/r/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/s/) {
-	#navtop>a[href*="/s/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/s/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/s/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/s/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/t/) {
-	#navtop>a[href*="/t/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/t/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/t/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/t/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/u/) {
-	#navtop>a[href*="/u/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/u"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/u/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/u']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/v/) {
-	#navtop>a[href*="/v/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/v/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/v/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/v/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/w/) {
-	#navtop>a[href*="/w/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/w/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/w/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/w/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/wg/) {
-	#navtop>a[href*="/wg/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/wg/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/wg/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/wg/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/i/) {
-	#navtop>a[href*="/i/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/i/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/i/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/i/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/ic/) {
-	#navtop>a[href*="/ic/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/ic/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/ic/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/ic/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/cm/) {
-	#navtop>a[href*="/cm/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/cm/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/cm/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/cm/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/y/) {
-	#navtop>a[href*="/y/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/y/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/y/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/y/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/3/) {
-	#navtop>a[href*="/3/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/3/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/3/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/3/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/adv/) {
-	#navtop>a[href*="/adv/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/adv/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/adv/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/adv/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/an/) {
-	#navtop>a[href*="/an/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/an/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/an/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/an/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/cgl/) {
-	#navtop>a[href*="/cgl/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/cgl/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/cgl/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/cgl/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/ck/) {
-	#navtop>a[href*="/ck/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important;}
-	#navtop>a[href*="/ck/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/ck/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important;}
+	#navtop>a[href*='/ck/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/co/) {
-	#navtop>a[href*="/co/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/co/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/co/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/co/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/fa/) {
-	#navtop>a[href*="/fa/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/fa/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/fa/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/fa/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/fit/) {
-	#navtop>a[href*="/fit/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/fit/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/fit/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/fit/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/int/) {
-	#navtop>a[href*="/int/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/int/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/int/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/int/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/jp/) {
-	#navtop>a[href*="/jp/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/jp/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/jp/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/jp/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/lit/) {
-	#navtop>a[href*="/lit/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/lit/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/lit/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/lit/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/mu/) {
-	#navtop>a[href*="/mu/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/mu/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/mu/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/mu/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/n/) {
-	#navtop>a[href*="/n/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/n/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/n/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/n/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/po/) {
-	#navtop>a[href*="/po/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/po/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/po/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/po/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/sci/) {
-	#navtop>a[href*="/sci/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/sci/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/sci/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/sci/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/soc/) {
-	#navtop>a[href*="/soc/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/soc/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/soc/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/soc/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/sp/) {
-	#navtop>a[href*="/sp/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/sp/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/sp/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/sp/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/tg/) {
-	#navtop>a[href*="/tg/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/tg/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/tg/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/tg/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/toy/) {
-	#navtop>a[href*="/toy/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/toy/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/toy/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/toy/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/trv/) {
-	#navtop>a[href*="/trv/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/trv/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/trv/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/trv/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/tv/) {
-	#navtop>a[href*="/tv/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/tv/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/tv/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/tv/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/vp/) {
-	#navtop>a[href*="/vp/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/vp/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/vp/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/vp/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://rs.4chan.org/) {
-	#navtop>a[href*="rs."] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="rs."]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='rs.'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='rs.']:hover { background: rgba(255,255,255,.15) !important; }
 }
 
 @-moz-document url-prefix(http://boards.4chan.org/x/) {
-	#navtop>a[href*="/x/"] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
-	#navtop>a[href*="/x/"]:hover { background: rgba(255,255,255,.15) !important; }
+	#navtop>a[href*='/x/'] { background: rgba(0,0,0,0.3) !important; color: #ccc !important; font-weight: 700 !important; }
+	#navtop>a[href*='/x/']:hover { background: rgba(255,255,255,.15) !important; }
 }
 /* No: */
 
@@ -603,14 +603,14 @@ padding: 0 2px 0 2px !important;
 		-o-transition: right .3s ease-in-out 3s;
 	}
 
-	.postarea form[name="post"]:hover {
+	.postarea form[name='post']:hover {
 		right: 2px !important;
 		-webkit-transition: right .3s linear;
 		-moz-transition: right .3s linear;
 		-o-transition: right .3s linear;
 	}
 
-	.postarea form[name="post"] tr:nth-child(4) {
+	.postarea form[name='post'] tr:nth-child(4) {
 		height: 79px !important;
 	}
 
@@ -625,14 +625,14 @@ padding: 0 2px 0 2px !important;
 		-o-transition: right .3s ease-in-out 3s;
 	}
 
-	.postarea form[name="post"]:hover {
+	.postarea form[name='post']:hover {
 		right: 2px !important;
 		-webkit-transition: right .3s linear;
 		-moz-transition: right .3s linear;
 		-o-transition: right .3s linear;
 	}
 
-	.postarea form[name="post"]:after {
+	.postarea form[name='post']:after {
 		-webkit-transform: rotate(-90deg);
 		-webkit-transform-origin: bottom left;
 		-moz-transform: rotate(-90deg);
@@ -647,20 +647,20 @@ padding: 0 2px 0 2px !important;
 		margin-bottom: 18px;
 		opacity: 1;
 		text-align: center;
-		content: "POST FORM - POST FORM - POST FORM";
+		content: 'POST FORM - POST FORM - POST FORM';
 		-webkit-transition: all .3s ease-in-out 3s;
 		-moz-transition: all .3s ease-in-out 3s;
 		-o-transition: all .3s ease-in-out 3s;
 	}
 
-	.postarea form[name="post"]:hover:after {
+	.postarea form[name='post']:hover:after {
 		opacity: 0;
 		-webkit-transition: all .3s linear;
 		-moz-transition: all .3s linear;
 		-o-transition: all .3s linear;
 	}
 
-	.postarea form[name="post"] tr:nth-child(4) {
+	.postarea form[name='post'] tr:nth-child(4) {
 		height: 79px !important;
 	}
 
@@ -677,7 +677,7 @@ padding: 0 2px 0 2px !important;
 		-o-transition: opacity .3s ease-in-out 3s;
 	}
 
-	.postarea form[name="post"]:hover {
+	.postarea form[name='post']:hover {
 		opacity: 1;
 		-webkit-transition: opacity .3s linear;
 		-moz-transition: opacity .3s linear;
@@ -686,55 +686,55 @@ padding: 0 2px 0 2px !important;
 
 /*[[QuickReply]]*/
 /* Yes: */
-	table[width="100%"]~.postarea,
-	table[width="100%"]~#quickrep .move,
-	table[width="100%"]~#qr .move input:not([name="name"]),
-	table[width="100%"]~.postarea * {
+	table[width='100%']~.postarea,
+	table[width='100%']~#quickrep .move,
+	table[width='100%']~#qr .move input:not([name='name']),
+	table[width='100%']~.postarea * {
 		display: none !important;
 	}
 
-	table[width="100%"]~#qr.auto:not(:hover) form,
-	table[width="100%"]~#qr.auto:not(:hover) #recaptcha_reload_btn {
+	table[width='100%']~#qr.auto:not(:hover) form,
+	table[width='100%']~#qr.auto:not(:hover) #recaptcha_reload_btn {
 		display: block !important;
 	}
 
-	table[width="100%"]~#qr > #qr_form,
-	table[width="100%"]~#qr.auto > #qr_form {
+	table[width='100%']~#qr > #qr_form,
+	table[width='100%']~#qr.auto > #qr_form {
 		overflow: visible !important;
 		height: 227px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] input[type="file"][name="upfile"] > input[type="text"],
-	table[width="100%"]~* form[name^='post'] input.inputtext[name="sub"] {
+	table[width='100%']~* form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
+	table[width='100%']~* form[name^='post'] input.inputtext[name='sub'] {
 		width: 197px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] #recaptcha_widget_div {
+	table[width='100%']~* form[name^='post'] #recaptcha_widget_div {
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] #recaptcha_reload_btn,
-	table[width="100%"]~* body > table ~ .refreshBtn {
+	table[width='100%']~* form[name^='post'] #recaptcha_reload_btn,
+	table[width='100%']~* body > table ~ .refreshBtn {
 		bottom: 63px !important;
 		right: 1px !important;
 	}
 
-	table[width="100%"]~* .recaptcha_image_cell>center,
-	table[width="100%"]~* .recaptcha_image_cell,
-	table[width="100%"]~* form[name^='post'] tr[height="73"] {
+	table[width='100%']~* .recaptcha_image_cell>center,
+	table[width='100%']~* .recaptcha_image_cell,
+	table[width='100%']~* form[name^='post'] tr[height='73'] {
 		height: auto !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
-	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image,
-	table[width="100%"]~* form[name^='post'] #recaptcha_image img,
-	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image img,
-	table[width="100%"]~#qr img {
+	table[width='100%']~* form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
+	table[width='100%']~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image,
+	table[width='100%']~* form[name^='post'] #recaptcha_image img,
+	table[width='100%']~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image img,
+	table[width='100%']~#qr img {
 		width: 248px !important;
 		height: 47px !important;
 	}
 
-	table[width="100%"]~[id^='q'] .error {
+	table[width='100%']~[id^='q'] .error {
 		visibility: visible !important;
 		position: fixed !important;
 		bottom: 63px !important;
@@ -747,53 +747,53 @@ padding: 0 2px 0 2px !important;
 		color: #000 !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] {
+	table[width='100%']~* form[name^='post'] {
 		margin-bottom: 0px !important;
 		z-index: 2 !important;
 	}
 
-	table[width="100%"]~*[id^="q"] table {
+	table[width='100%']~*[id^='q'] table {
 		border-collapse: collapse !important;
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] input[name="sub"],
-	table[width="100%"]~* form[name^='post'] textarea.inputtext,
-	table[width="100%"]~* form[name^='post'] input.inputtext,
-	table[width="100%"]~* form[name^='post'] .recaptchatable {
+	table[width='100%']~* form[name^='post'] input[name='sub'],
+	table[width='100%']~* form[name^='post'] textarea.inputtext,
+	table[width='100%']~* form[name^='post'] input.inputtext,
+	table[width='100%']~* form[name^='post'] .recaptchatable {
 		margin-top: 1px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] textarea.inputtext,
-	table[width="100%"]~* form[name^='post'] input.inputtext,
-	table[width="100%"]~* form[name^='post'] input[name="upfile"],
-	table[width="100%"]~* .recaptchatable,
-	table[width="100%"]~* form[name^='post'] input[name="recaptcha_response_field"],
-	table[width="100%"]~#qr input.inputtext:not([name="sub"]),
-	table[width="100%"]~#qr #qr_captcha,
-	table[width="100%"]~#qr textarea,
-	table[width="100%"]~#qr form {
+	table[width='100%']~* form[name^='post'] textarea.inputtext,
+	table[width='100%']~* form[name^='post'] input.inputtext,
+	table[width='100%']~* form[name^='post'] input[name='upfile'],
+	table[width='100%']~* .recaptchatable,
+	table[width='100%']~* form[name^='post'] input[name='recaptcha_response_field'],
+	table[width='100%']~#qr input.inputtext:not([name='sub']),
+	table[width='100%']~#qr #qr_captcha,
+	table[width='100%']~#qr textarea,
+	table[width='100%']~#qr form {
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center,
-	table[width="100%"]~* #r_captcha_div img,
-	table[width="100%"]~* #r_captcha_div input {
+	table[width='100%']~* form[name^='post'] .recaptcha_image_cell>center,
+	table[width='100%']~* #r_captcha_div img,
+	table[width='100%']~* #r_captcha_div input {
 		width: 248px !important;
 		text-align: left !important;
 	}
 
-	table[width="100%"]~#quickrep,
-	table[width="100%"]~#qr .move {
+	table[width='100%']~#quickrep,
+	table[width='100%']~#qr .move {
 		visibility: hidden !important;
 		font-size: 0 !important;
 	}
 
-	table[width="100%"]~#qr .move input[name="name"] {
+	table[width='100%']~#qr .move input[name='name'] {
 		visibility: visible !important;
 	}
 
-	table[width="100%"]~*:not(#qr) form[name^='post'] {
+	table[width='100%']~*:not(#qr) form[name^='post'] {
 		visibility: visible !important;
 		width: 248px !important;
 		background-color: transparent !important;
@@ -806,7 +806,7 @@ padding: 0 2px 0 2px !important;
 		left: auto !important;
 	}
 
-	table[width="100%"]~#qr {
+	table[width='100%']~#qr {
 		top: auto !important;
 		bottom: 60px !important;
 		right: 0px !important;
@@ -815,108 +815,108 @@ padding: 0 2px 0 2px !important;
 		background-color: transparent !important;
 	}
 
-	table[width="100%"]~* form>table>tbody>tr>td>label {
+	table[width='100%']~* form>table>tbody>tr>td>label {
 		top: 0;
 	}
 
-	table[width="100%"]~* form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3),
-	table[width="100%"]~* form tr:nth-of-type(3)>td:nth-of-type(3) {
+	table[width='100%']~* form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3),
+	table[width='100%']~* form tr:nth-of-type(3)>td:nth-of-type(3) {
 		font-size: 0 !important;
 		color: transparent !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] textarea.inputtext {
+	table[width='100%']~* form[name^='post'] textarea.inputtext {
 		height: 78px !important;
 		min-height: 78px !important;
 		width: 248px !important;
 		resize: none;
 	}
 
-	table[width="100%"]~* form[name^='post'] label:first-of-type {
+	table[width='100%']~* form[name^='post'] label:first-of-type {
 		display: none !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] label:last-of-type {
+	table[width='100%']~* form[name^='post'] label:last-of-type {
 		text-align: right !important;
 		position: absolute !important;
 		bottom: 0px !important;
 		right: 55px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] tr .postblock b {
+	table[width='100%']~* form[name^='post'] tr .postblock b {
 		right: 3px;
 	}
 
-	table[width="100%"]~* form[name^='post'] tr:nth-of-type(3n) .postblock b {
+	table[width='100%']~* form[name^='post'] tr:nth-of-type(3n) .postblock b {
 		right: 54px;
 	}
 
-	.fake input[type="file"]::-webkit-file-upload-button, /* Cheating. Firefox Stylish will ignore this block */
-	table[width="100%"]~* form[name^='post'] tr:nth-of-type(6) .postblock b {
+	.fake input[type='file']::-webkit-file-upload-button, /* Cheating. Firefox Stylish will ignore this block */
+	table[width='100%']~* form[name^='post'] tr:nth-of-type(6) .postblock b {
 		right: 3px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] #maxchars {
+	table[width='100%']~* form[name^='post'] #maxchars {
 		bottom: 110px;
 		right: 3px;
 	}
 
-	table[width="100%"]~* form[name^='post'] label {
+	table[width='100%']~* form[name^='post'] label {
 	/* Spoiler Image label */
 		top: auto !important;
 		bottom: 0 !important;
 		right: 55px !important;
 	}
 /* ...and slideout: */
-	table[width="100%"]~.postarea,
-	table[width="100%"]~#quickrep .move,
-	table[width="100%"]~#qr .move input:not([name="name"]),
-	table[width="100%"]~.postarea * {
+	table[width='100%']~.postarea,
+	table[width='100%']~#quickrep .move,
+	table[width='100%']~#qr .move input:not([name='name']),
+	table[width='100%']~.postarea * {
 		display: none !important;
 	}
 
-	table[width="100%"]~#qr.auto:not(:hover) form,
-	table[width="100%"]~#qr.auto:not(:hover) #recaptcha_reload_btn {
+	table[width='100%']~#qr.auto:not(:hover) form,
+	table[width='100%']~#qr.auto:not(:hover) #recaptcha_reload_btn {
 		display: block !important;
 	}
 
-	table[width="100%"]~#qr > #qr_form,
-	table[width="100%"]~#qr.auto > #qr_form {
+	table[width='100%']~#qr > #qr_form,
+	table[width='100%']~#qr.auto > #qr_form {
 		overflow: visible !important;
 		height: 227px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] input[type="file"][name="upfile"] > input[type="text"],
-	table[width="100%"]~* form[name^='post'] input.inputtext[name="sub"] {
+	table[width='100%']~* form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
+	table[width='100%']~* form[name^='post'] input.inputtext[name='sub'] {
 		width: 197px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] #recaptcha_widget_div {
+	table[width='100%']~* form[name^='post'] #recaptcha_widget_div {
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] #recaptcha_reload_btn,
-	table[width="100%"]~* body > table ~ .refreshBtn {
+	table[width='100%']~* form[name^='post'] #recaptcha_reload_btn,
+	table[width='100%']~* body > table ~ .refreshBtn {
 		bottom: 63px !important;
 		right: 1px !important;
 	}
 
-	table[width="100%"]~* .recaptcha_image_cell>center,
-	table[width="100%"]~* .recaptcha_image_cell,
-	table[width="100%"]~* form[name^='post'] tr[height="73"] {
+	table[width='100%']~* .recaptcha_image_cell>center,
+	table[width='100%']~* .recaptcha_image_cell,
+	table[width='100%']~* form[name^='post'] tr[height='73'] {
 		height: auto !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
-	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image,
-	table[width="100%"]~* form[name^='post'] #recaptcha_image img,
-	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image img,
-	table[width="100%"]~#qr img {
+	table[width='100%']~* form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
+	table[width='100%']~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image,
+	table[width='100%']~* form[name^='post'] #recaptcha_image img,
+	table[width='100%']~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image img,
+	table[width='100%']~#qr img {
 		width: 248px !important;
 		height: 47px !important;
 	}
 
-	table[width="100%"]~[id^='q'] .error {
+	table[width='100%']~[id^='q'] .error {
 		visibility: visible !important;
 		position: fixed !important;
 		bottom: 63px !important;
@@ -929,53 +929,53 @@ padding: 0 2px 0 2px !important;
 		color: #000 !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] {
+	table[width='100%']~* form[name^='post'] {
 		margin-bottom: 0px !important;
 		z-index: 2 !important;
 	}
 
-	table[width="100%"]~*[id^="q"] table {
+	table[width='100%']~*[id^='q'] table {
 		border-collapse: collapse !important;
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] input[name="sub"],
-	table[width="100%"]~* form[name^='post'] textarea.inputtext,
-	table[width="100%"]~* form[name^='post'] input.inputtext,
-	table[width="100%"]~* form[name^='post'] .recaptchatable {
+	table[width='100%']~* form[name^='post'] input[name='sub'],
+	table[width='100%']~* form[name^='post'] textarea.inputtext,
+	table[width='100%']~* form[name^='post'] input.inputtext,
+	table[width='100%']~* form[name^='post'] .recaptchatable {
 		margin-top: 1px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] textarea.inputtext,
-	table[width="100%"]~* form[name^='post'] input.inputtext,
-	table[width="100%"]~* form[name^='post'] input[name="upfile"],
-	table[width="100%"]~* .recaptchatable,
-	table[width="100%"]~* form[name^='post'] input[name="recaptcha_response_field"],
-	table[width="100%"]~#qr input.inputtext:not([name="sub"]),
-	table[width="100%"]~#qr #qr_captcha,
-	table[width="100%"]~#qr textarea,
-	table[width="100%"]~#qr form {
+	table[width='100%']~* form[name^='post'] textarea.inputtext,
+	table[width='100%']~* form[name^='post'] input.inputtext,
+	table[width='100%']~* form[name^='post'] input[name='upfile'],
+	table[width='100%']~* .recaptchatable,
+	table[width='100%']~* form[name^='post'] input[name='recaptcha_response_field'],
+	table[width='100%']~#qr input.inputtext:not([name='sub']),
+	table[width='100%']~#qr #qr_captcha,
+	table[width='100%']~#qr textarea,
+	table[width='100%']~#qr form {
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center,
-	table[width="100%"]~* #r_captcha_div img,
-	table[width="100%"]~* #r_captcha_div input {
+	table[width='100%']~* form[name^='post'] .recaptcha_image_cell>center,
+	table[width='100%']~* #r_captcha_div img,
+	table[width='100%']~* #r_captcha_div input {
 		width: 248px !important;
 		text-align: left !important;
 	}
 
-	table[width="100%"]~#quickrep,
-	table[width="100%"]~#qr .move {
+	table[width='100%']~#quickrep,
+	table[width='100%']~#qr .move {
 		visibility: hidden !important;
 		font-size: 0 !important;
 	}
 
-	table[width="100%"]~#qr .move input[name="name"] {
+	table[width='100%']~#qr .move input[name='name'] {
 		visibility: visible !important;
 	}
 
-	table[width="100%"]~*:not(#qr) form[name^='post'] {
+	table[width='100%']~*:not(#qr) form[name^='post'] {
 		visibility: visible !important;
 		width: 248px !important;
 		background-color: transparent !important;
@@ -991,7 +991,7 @@ padding: 0 2px 0 2px !important;
 		-o-transition: right .3s ease-in-out 3s;
 	}
 
-	table[width="100%"]~#qr {
+	table[width='100%']~#qr {
 		top: auto !important;
 		bottom: 60px !important;
 		left: auto !important;
@@ -1003,133 +1003,133 @@ padding: 0 2px 0 2px !important;
 		-o-transition: right .3s ease-in-out 3s;
 	}
 
-	table[width="100%"]~*:not(#qr) form[name^='post']:hover {
+	table[width='100%']~*:not(#qr) form[name^='post']:hover {
 		right: 2px !important;
 		-webkit-transition: right .3s linear;
 		-moz-transition: right .3s linear;
 		-o-transition: right .3s linear;
 	}
 
-	table[width="100%"]~#qr:hover {
+	table[width='100%']~#qr:hover {
 		right: 0 !important;
 		-webkit-transition: right .3s linear;
 		-moz-transition: right .3s linear;
 		-o-transition: right .3s linear;
 	}
 
-	table[width="100%"]~* form[name="post"] tr:nth-child(4),
-	table[width="100%"]~* form[name="post"]>div:nth-of-type(3) {
+	table[width='100%']~* form[name='post'] tr:nth-child(4),
+	table[width='100%']~* form[name='post']>div:nth-of-type(3) {
 		height: 79px !important;
 	}
 
-	table[width="100%"]~* form[name="post"] textarea:focus {
+	table[width='100%']~* form[name='post'] textarea:focus {
 		position: fixed !important;
 		right: 2px !important;
 		bottom: 170px !important;
 	}
 
-	table[width="100%"]~* form>table>tbody>tr>td>label {
+	table[width='100%']~* form>table>tbody>tr>td>label {
 		top: 0;
 	}
 
-	table[width="100%"]~* form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3),
-	table[width="100%"]~* form tr:nth-of-type(3)>td:nth-of-type(3) {
+	table[width='100%']~* form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3),
+	table[width='100%']~* form tr:nth-of-type(3)>td:nth-of-type(3) {
 		font-size: 0 !important;
 		color: transparent !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] textarea.inputtext {
+	table[width='100%']~* form[name^='post'] textarea.inputtext {
 		height: 78px !important;
 		min-height: 78px !important;
 		width: 248px !important;
 		resize: none;
 	}
 
-	table[width="100%"]~* form[name^='post'] label:first-of-type {
+	table[width='100%']~* form[name^='post'] label:first-of-type {
 		display: none !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] label:last-of-type {
+	table[width='100%']~* form[name^='post'] label:last-of-type {
 		text-align: right !important;
 		position: absolute !important;
 		bottom: 0px !important;
 		right: 55px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] tr .postblock b {
+	table[width='100%']~* form[name^='post'] tr .postblock b {
 		right: 3px;
 	}
 
-	table[width="100%"]~* form[name^='post'] tr:nth-of-type(3n) .postblock b {
+	table[width='100%']~* form[name^='post'] tr:nth-of-type(3n) .postblock b {
 		right: 54px;
 	}
 
-	.fake input[type="file"]::-webkit-file-upload-button, /* Cheating. Firefox Stylish will ignore this block */
-	table[width="100%"]~* form[name^='post'] tr:nth-of-type(6) .postblock b {
+	.fake input[type='file']::-webkit-file-upload-button, /* Cheating. Firefox Stylish will ignore this block */
+	table[width='100%']~* form[name^='post'] tr:nth-of-type(6) .postblock b {
 		right: 3px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] #maxchars {
+	table[width='100%']~* form[name^='post'] #maxchars {
 		bottom: 110px;
 		right: 3px;
 	}
 
-	table[width="100%"]~* form[name^='post'] label {
+	table[width='100%']~* form[name^='post'] label {
 	/* Spoiler Image label */
 		top: auto !important;
 		bottom: 0 !important;
 		right: 55px !important;
 	}
 /* ...and tabbed slideout (buggy in Chrome) */
-	table[width="100%"]~.postarea,
-	table[width="100%"]~#quickrep .move,
-	table[width="100%"]~#qr .move input:not([name="name"]),
-	table[width="100%"]~.postarea * {
+	table[width='100%']~.postarea,
+	table[width='100%']~#quickrep .move,
+	table[width='100%']~#qr .move input:not([name='name']),
+	table[width='100%']~.postarea * {
 		display: none !important;
 	}
 
-	table[width="100%"]~#qr.auto:not(:hover) form,
-	table[width="100%"]~#qr.auto:not(:hover) #recaptcha_reload_btn {
+	table[width='100%']~#qr.auto:not(:hover) form,
+	table[width='100%']~#qr.auto:not(:hover) #recaptcha_reload_btn {
 		display: block !important;
 	}
 
-	table[width="100%"]~#qr > #qr_form,
-	table[width="100%"]~#qr.auto > #qr_form {
+	table[width='100%']~#qr > #qr_form,
+	table[width='100%']~#qr.auto > #qr_form {
 		overflow: visible !important;
 		height: 227px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] input[type="file"][name="upfile"] > input[type="text"],
-	table[width="100%"]~* form[name^='post'] input.inputtext[name="sub"] {
+	table[width='100%']~* form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
+	table[width='100%']~* form[name^='post'] input.inputtext[name='sub'] {
 		width: 197px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] #recaptcha_widget_div {
+	table[width='100%']~* form[name^='post'] #recaptcha_widget_div {
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] #recaptcha_reload_btn,
-	table[width="100%"]~* body > table ~ .refreshBtn {
+	table[width='100%']~* form[name^='post'] #recaptcha_reload_btn,
+	table[width='100%']~* body > table ~ .refreshBtn {
 		bottom: 63px !important;
 		right: 1px !important;
 	}
 
-	table[width="100%"]~* .recaptcha_image_cell>center,
-	table[width="100%"]~* .recaptcha_image_cell,
-	table[width="100%"]~* form[name^='post'] tr[height="73"] {
+	table[width='100%']~* .recaptcha_image_cell>center,
+	table[width='100%']~* .recaptcha_image_cell,
+	table[width='100%']~* form[name^='post'] tr[height='73'] {
 		height: auto !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
-	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image,
-	table[width="100%"]~* form[name^='post'] #recaptcha_image img,
-	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image img,
-	table[width="100%"]~#qr img {
+	table[width='100%']~* form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
+	table[width='100%']~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image,
+	table[width='100%']~* form[name^='post'] #recaptcha_image img,
+	table[width='100%']~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image img,
+	table[width='100%']~#qr img {
 		width: 248px !important;
 		height: 47px !important;
 	}
 
-	table[width="100%"]~[id^='q'] .error {
+	table[width='100%']~[id^='q'] .error {
 		visibility: visible !important;
 		position: fixed !important;
 		bottom: 63px !important;
@@ -1142,53 +1142,53 @@ padding: 0 2px 0 2px !important;
 		color: #000 !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] {
+	table[width='100%']~* form[name^='post'] {
 		margin-bottom: 0px !important;
 		z-index: 2 !important;
 	}
 
-	table[width="100%"]~*[id^="q"] table {
+	table[width='100%']~*[id^='q'] table {
 		border-collapse: collapse !important;
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] input[name="sub"],
-	table[width="100%"]~* form[name^='post'] textarea.inputtext,
-	table[width="100%"]~* form[name^='post'] input.inputtext,
-	table[width="100%"]~* form[name^='post'] .recaptchatable {
+	table[width='100%']~* form[name^='post'] input[name='sub'],
+	table[width='100%']~* form[name^='post'] textarea.inputtext,
+	table[width='100%']~* form[name^='post'] input.inputtext,
+	table[width='100%']~* form[name^='post'] .recaptchatable {
 		margin-top: 1px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] textarea.inputtext,
-	table[width="100%"]~* form[name^='post'] input.inputtext,
-	table[width="100%"]~* form[name^='post'] input[name="upfile"],
-	table[width="100%"]~* .recaptchatable,
-	table[width="100%"]~* form[name^='post'] input[name="recaptcha_response_field"],
-	table[width="100%"]~#qr input.inputtext:not([name="sub"]),
-	table[width="100%"]~#qr #qr_captcha,
-	table[width="100%"]~#qr textarea,
-	table[width="100%"]~#qr form {
+	table[width='100%']~* form[name^='post'] textarea.inputtext,
+	table[width='100%']~* form[name^='post'] input.inputtext,
+	table[width='100%']~* form[name^='post'] input[name='upfile'],
+	table[width='100%']~* .recaptchatable,
+	table[width='100%']~* form[name^='post'] input[name='recaptcha_response_field'],
+	table[width='100%']~#qr input.inputtext:not([name='sub']),
+	table[width='100%']~#qr #qr_captcha,
+	table[width='100%']~#qr textarea,
+	table[width='100%']~#qr form {
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center,
-	table[width="100%"]~* #r_captcha_div img,
-	table[width="100%"]~* #r_captcha_div input {
+	table[width='100%']~* form[name^='post'] .recaptcha_image_cell>center,
+	table[width='100%']~* #r_captcha_div img,
+	table[width='100%']~* #r_captcha_div input {
 		width: 248px !important;
 		text-align: left !important;
 	}
 
-	table[width="100%"]~#quickrep,
-	table[width="100%"]~#qr .move {
+	table[width='100%']~#quickrep,
+	table[width='100%']~#qr .move {
 		visibility: hidden !important;
 		font-size: 0 !important;
 	}
 
-	table[width="100%"]~#qr .move input[name="name"] {
+	table[width='100%']~#qr .move input[name='name'] {
 		visibility: visible !important;
 	}
 
-	table[width="100%"]~*:not(#qr) form[name^='post'] {
+	table[width='100%']~*:not(#qr) form[name^='post'] {
 		visibility: visible !important;
 		width: 248px !important;
 		background-color: transparent !important;
@@ -1204,7 +1204,7 @@ padding: 0 2px 0 2px !important;
 		-o-transition: right .3s ease-in-out 3s;
 	}
 
-	table[width="100%"]~#qr {
+	table[width='100%']~#qr {
 		top: auto !important;
 		bottom: 60px !important;
 		left: auto !important;
@@ -1216,21 +1216,21 @@ padding: 0 2px 0 2px !important;
 		-o-transition: right .3s ease-in-out 3s;
 	}
 
-	table[width="100%"]~*:not(#qr) form[name^='post']:hover {
+	table[width='100%']~*:not(#qr) form[name^='post']:hover {
 		right: 2px !important;
 		-webkit-transition: right .3s linear;
 		-moz-transition: right .3s linear;
 		-o-transition: right .3s linear;
 	}
 
-	table[width="100%"]~#qr:hover {
+	table[width='100%']~#qr:hover {
 		right: 0 !important;
 		-webkit-transition: right .3s linear;
 		-moz-transition: right .3s linear;
 		-o-transition: right .3s linear;
 	}
 
-	table[width="100%"]~* form[name="post"]:after {
+	table[width='100%']~* form[name='post']:after {
 		-webkit-transform: rotate(-90deg);
 		-webkit-transform-origin: bottom left;
 		-moz-transform: rotate(-90deg);
@@ -1245,132 +1245,132 @@ padding: 0 2px 0 2px !important;
 		margin-bottom: 18px;
 		opacity: 1;
 		text-align: center;
-		content: "POST FORM - POST FORM - POST FORM";
+		content: 'POST FORM - POST FORM - POST FORM';
 		-webkit-transition: all .3s ease-in-out 3s;
 		-moz-transition: all .3s ease-in-out 3s;
 		-o-transition: all .3s ease-in-out 3s;
 	}
 
-	table[width="100%"]~* form[name="post"]:hover:after {
+	table[width='100%']~* form[name='post']:hover:after {
 		opacity: 0;
 		-webkit-transition: all .3s linear;
 		-moz-transition: all .3s linear;
 		-o-transition: all .3s linear;
 	}
 
-	table[width="100%"]~* form[name="post"] tr:nth-child(4),
-	table[width="100%"]~* form[name="post"]>div:nth-of-type(3) {
+	table[width='100%']~* form[name='post'] tr:nth-child(4),
+	table[width='100%']~* form[name='post']>div:nth-of-type(3) {
 		height: 79px !important;
 	}
 
-	table[width="100%"]~* form[name="post"] textarea:focus {
+	table[width='100%']~* form[name='post'] textarea:focus {
 		position: fixed !important;
 		right: 2px !important;
 		bottom: 170px !important;
 	}
 
-	table[width="100%"]~* form>table>tbody>tr>td>label {
+	table[width='100%']~* form>table>tbody>tr>td>label {
 		top: 0;
 	}
 
-	table[width="100%"]~* form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3),
-	table[width="100%"]~* form tr:nth-of-type(3)>td:nth-of-type(3) {
+	table[width='100%']~* form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3),
+	table[width='100%']~* form tr:nth-of-type(3)>td:nth-of-type(3) {
 		font-size: 0 !important;
 		color: transparent !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] textarea.inputtext {
+	table[width='100%']~* form[name^='post'] textarea.inputtext {
 		height: 78px !important;
 		min-height: 78px !important;
 		width: 248px !important;
 		resize: none;
 	}
 
-	table[width="100%"]~* form[name^='post'] label:first-of-type {
+	table[width='100%']~* form[name^='post'] label:first-of-type {
 		display: none !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] label:last-of-type {
+	table[width='100%']~* form[name^='post'] label:last-of-type {
 		text-align: right !important;
 		position: absolute !important;
 		bottom: 0px !important;
 		right: 55px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] tr .postblock b {
+	table[width='100%']~* form[name^='post'] tr .postblock b {
 		right: 3px;
 	}
 
-	table[width="100%"]~* form[name^='post'] tr:nth-of-type(3n) .postblock b {
+	table[width='100%']~* form[name^='post'] tr:nth-of-type(3n) .postblock b {
 		right: 54px;
 	}
 
-	.fake input[type="file"]::-webkit-file-upload-button, /* Cheating. Firefox Stylish will ignore this block */
-	table[width="100%"]~* form[name^='post'] tr:nth-of-type(6) .postblock b {
+	.fake input[type='file']::-webkit-file-upload-button, /* Cheating. Firefox Stylish will ignore this block */
+	table[width='100%']~* form[name^='post'] tr:nth-of-type(6) .postblock b {
 		right: 3px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] #maxchars {
+	table[width='100%']~* form[name^='post'] #maxchars {
 		bottom: 110px;
 		right: 3px;
 	}
 
-	table[width="100%"]~* form[name^='post'] label {
+	table[width='100%']~* form[name^='post'] label {
 	/* Spoiler Image label */
 		top: auto !important;
 		bottom: 0 !important;
 		right: 55px !important;
 	}
 /* ...and fade: */
-	table[width="100%"]~.postarea,
-	table[width="100%"]~#quickrep .move,
-	table[width="100%"]~#qr .move input:not([name="name"]),
-	table[width="100%"]~.postarea * {
+	table[width='100%']~.postarea,
+	table[width='100%']~#quickrep .move,
+	table[width='100%']~#qr .move input:not([name='name']),
+	table[width='100%']~.postarea * {
 		display: none !important;
 	}
 
-	table[width="100%"]~#qr.auto:not(:hover) form,
-	table[width="100%"]~#qr.auto:not(:hover) #recaptcha_reload_btn {
+	table[width='100%']~#qr.auto:not(:hover) form,
+	table[width='100%']~#qr.auto:not(:hover) #recaptcha_reload_btn {
 		display: block !important;
 	}
 
-	table[width="100%"]~#qr > #qr_form,
-	table[width="100%"]~#qr.auto > #qr_form {
+	table[width='100%']~#qr > #qr_form,
+	table[width='100%']~#qr.auto > #qr_form {
 		overflow: visible !important;
 		height: 227px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] input[type="file"][name="upfile"] > input[type="text"],
-	table[width="100%"]~* form[name^='post'] input.inputtext[name="sub"] {
+	table[width='100%']~* form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
+	table[width='100%']~* form[name^='post'] input.inputtext[name='sub'] {
 		width: 197px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] #recaptcha_widget_div {
+	table[width='100%']~* form[name^='post'] #recaptcha_widget_div {
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] #recaptcha_reload_btn,
-	table[width="100%"]~* body > table ~ .refreshBtn {
+	table[width='100%']~* form[name^='post'] #recaptcha_reload_btn,
+	table[width='100%']~* body > table ~ .refreshBtn {
 		bottom: 63px !important;
 		right: 1px !important;
 	}
 
-	table[width="100%"]~* .recaptcha_image_cell>center,
-	table[width="100%"]~* .recaptcha_image_cell,
-	table[width="100%"]~* form[name^='post'] tr[height="73"] {
+	table[width='100%']~* .recaptcha_image_cell>center,
+	table[width='100%']~* .recaptcha_image_cell,
+	table[width='100%']~* form[name^='post'] tr[height='73'] {
 		height: auto !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
-	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image,
-	table[width="100%"]~* form[name^='post'] #recaptcha_image img,
-	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image img,
-	table[width="100%"]~#qr img {
+	table[width='100%']~* form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
+	table[width='100%']~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image,
+	table[width='100%']~* form[name^='post'] #recaptcha_image img,
+	table[width='100%']~* form[name^='post'] .recaptcha_image_cell>center>#quick_recaptcha_image img,
+	table[width='100%']~#qr img {
 		width: 248px !important;
 		height: 47px !important;
 	}
 
-	table[width="100%"]~[id^='q'] .error {
+	table[width='100%']~[id^='q'] .error {
 		visibility: visible !important;
 		position: fixed !important;
 		bottom: 63px !important;
@@ -1383,53 +1383,53 @@ padding: 0 2px 0 2px !important;
 		color: #000 !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] {
+	table[width='100%']~* form[name^='post'] {
 		margin-bottom: 0px !important;
 		z-index: 2 !important;
 	}
 
-	table[width="100%"]~*[id^="q"] table {
+	table[width='100%']~*[id^='q'] table {
 		border-collapse: collapse !important;
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] input[name="sub"],
-	table[width="100%"]~* form[name^='post'] textarea.inputtext,
-	table[width="100%"]~* form[name^='post'] input.inputtext,
-	table[width="100%"]~* form[name^='post'] .recaptchatable {
+	table[width='100%']~* form[name^='post'] input[name='sub'],
+	table[width='100%']~* form[name^='post'] textarea.inputtext,
+	table[width='100%']~* form[name^='post'] input.inputtext,
+	table[width='100%']~* form[name^='post'] .recaptchatable {
 		margin-top: 1px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] textarea.inputtext,
-	table[width="100%"]~* form[name^='post'] input.inputtext,
-	table[width="100%"]~* form[name^='post'] input[name="upfile"],
-	table[width="100%"]~* .recaptchatable,
-	table[width="100%"]~* form[name^='post'] input[name="recaptcha_response_field"],
-	table[width="100%"]~#qr input.inputtext:not([name="sub"]),
-	table[width="100%"]~#qr #qr_captcha,
-	table[width="100%"]~#qr textarea,
-	table[width="100%"]~#qr form {
+	table[width='100%']~* form[name^='post'] textarea.inputtext,
+	table[width='100%']~* form[name^='post'] input.inputtext,
+	table[width='100%']~* form[name^='post'] input[name='upfile'],
+	table[width='100%']~* .recaptchatable,
+	table[width='100%']~* form[name^='post'] input[name='recaptcha_response_field'],
+	table[width='100%']~#qr input.inputtext:not([name='sub']),
+	table[width='100%']~#qr #qr_captcha,
+	table[width='100%']~#qr textarea,
+	table[width='100%']~#qr form {
 		width: 248px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] .recaptcha_image_cell>center,
-	table[width="100%"]~* #r_captcha_div img,
-	table[width="100%"]~* #r_captcha_div input {
+	table[width='100%']~* form[name^='post'] .recaptcha_image_cell>center,
+	table[width='100%']~* #r_captcha_div img,
+	table[width='100%']~* #r_captcha_div input {
 		width: 248px !important;
 		text-align: left !important;
 	}
 
-	table[width="100%"]~#quickrep,
-	table[width="100%"]~#qr .move {
+	table[width='100%']~#quickrep,
+	table[width='100%']~#qr .move {
 		visibility: hidden !important;
 		font-size: 0 !important;
 	}
 
-	table[width="100%"]~#qr .move input[name="name"] {
+	table[width='100%']~#qr .move input[name='name'] {
 		visibility: visible !important;
 	}
 
-	table[width="100%"]~*:not(#qr) form[name^='post'] {
+	table[width='100%']~*:not(#qr) form[name^='post'] {
 		visibility: visible !important;
 		width: 248px !important;
 		background-color: transparent !important;
@@ -1442,25 +1442,25 @@ padding: 0 2px 0 2px !important;
 		left: auto !important;
 	}
 
-	table[width="100%"]~#qr,
-	table[width="100%"]~#quickrep,
-	table[width="100%"]~[id^="qr"] {
+	table[width='100%']~#qr,
+	table[width='100%']~#quickrep,
+	table[width='100%']~[id^='qr'] {
 		opacity: 0.2;
 		-webkit-transition: opacity .3s ease-in-out 3s;
 		-moz-transition: opacity .3s ease-in-out 3s;
 		-o-transition: opacity .3s ease-in-out 3s;
 	}
 
-	table[width="100%"]~#qr:hover,
-	table[width="100%"]~#quickrep:hover,
-	table[width="100%"]~[id^="qr"]:hover {
+	table[width='100%']~#qr:hover,
+	table[width='100%']~#quickrep:hover,
+	table[width='100%']~[id^='qr']:hover {
 		opacity: 1;
 		-webkit-transition: opacity .3s linear;
 		-moz-transition: opacity .3s linear;
 		-o-transition: opacity .3s linear;
 	}
 
-	table[width="100%"]~#qr {
+	table[width='100%']~#qr {
 		top: auto !important;
 		bottom: 60px !important;
 		right: 0px !important;
@@ -1469,53 +1469,53 @@ padding: 0 2px 0 2px !important;
 		background-color: transparent !important;
 	}
 
-	table[width="100%"]~* form>table>tbody>tr>td>label {
+	table[width='100%']~* form>table>tbody>tr>td>label {
 		top: 0;
 	}
 
-	table[width="100%"]~* form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3),
-	table[width="100%"]~* form tr:nth-of-type(3)>td:nth-of-type(3) {
+	table[width='100%']~* form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3),
+	table[width='100%']~* form tr:nth-of-type(3)>td:nth-of-type(3) {
 		font-size: 0 !important;
 		color: transparent !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] textarea.inputtext {
+	table[width='100%']~* form[name^='post'] textarea.inputtext {
 		height: 78px !important;
 		min-height: 78px !important;
 		width: 248px !important;
 		resize: none;
 	}
 
-	table[width="100%"]~* form[name^='post'] label:first-of-type {
+	table[width='100%']~* form[name^='post'] label:first-of-type {
 		display: none !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] label:last-of-type {
+	table[width='100%']~* form[name^='post'] label:last-of-type {
 		text-align: right !important;
 		position: absolute !important;
 		bottom: 0px !important;
 		right: 55px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] tr .postblock b {
+	table[width='100%']~* form[name^='post'] tr .postblock b {
 		right: 3px;
 	}
 
-	table[width="100%"]~* form[name^='post'] tr:nth-of-type(3n) .postblock b {
+	table[width='100%']~* form[name^='post'] tr:nth-of-type(3n) .postblock b {
 		right: 54px;
 	}
 
-	.fake input[type="file"]::-webkit-file-upload-button, /* Cheating. Firefox Stylish will ignore this block */
-	table[width="100%"]~* form[name^='post'] tr:nth-of-type(6) .postblock b {
+	.fake input[type='file']::-webkit-file-upload-button, /* Cheating. Firefox Stylish will ignore this block */
+	table[width='100%']~* form[name^='post'] tr:nth-of-type(6) .postblock b {
 		right: 3px !important;
 	}
 
-	table[width="100%"]~* form[name^='post'] #maxchars {
+	table[width='100%']~* form[name^='post'] #maxchars {
 		bottom: 110px;
 		right: 3px;
 	}
 
-	table[width="100%"]~* form[name^='post'] label {
+	table[width='100%']~* form[name^='post'] label {
 	/* Spoiler Image label */
 		top: auto !important;
 		bottom: 0 !important;
@@ -1559,7 +1559,7 @@ padding: 0 2px 0 2px !important;
 		height: 0 !important;
 		width: 0 !important;
 		padding: 12px 0 0 12px !important;
-		background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAQAAAD8fJRsAAAAZ0lEQVR4XgXAsQ0BUQCA4c8kSrOo70KntAgxgkl05CV2sMOVEo2ofgEAYAIAdp6SRQBwkSQJgL3kbJYEwPC1BgArIFcAwAvIFgAcBQwAQAawQZK7g0UmAJKPt+QEAPlJHmYA4AYA8AeJKy3vtXoiawAAAABJRU5ErkJggg==") no-repeat !important;
+		background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAQAAAD8fJRsAAAAZ0lEQVR4XgXAsQ0BUQCA4c8kSrOo70KntAgxgkl05CV2sMOVEo2ofgEAYAIAdp6SRQBwkSQJgL3kbJYEwPC1BgArIFcAwAvIFgAcBQwAQAawQZK7g0UmAJKPt+QEAPlJHmYA4AYA8AeJKy3vtXoiawAAAABJRU5ErkJggg==') no-repeat !important;
 		overflow: hidden;
 		z-index: 1 !important;
 	}
@@ -1573,16 +1573,16 @@ padding: 0 2px 0 2px !important;
 
 /*[[ReturnButton]]*/
 /* Yes: */
-	html body>span[style="left: 5px; position: absolute;"]:nth-of-type(0) {
+	html body>span[style='left: 5px; position: absolute;']:nth-of-type(0) {
 		display: none;
 	}
 
-	html body span[style="left: 5px; position: absolute;"] {
+	html body span[style='left: 5px; position: absolute;'] {
 		font-size: 0 !important;
 		visibility: hidden;
 	}
 
-	html body span[style="left: 5px; position: absolute;"] a {
+	html body span[style='left: 5px; position: absolute;'] a {
 		cursor: default !important;
 		position: fixed !important;
 		top: auto;
@@ -1602,7 +1602,7 @@ padding: 0 2px 0 2px !important;
 		text-align: center;
 	}
 /* No: */
-	html body span[style="left: 5px; position: absolute;"] {
+	html body span[style='left: 5px; position: absolute;'] {
 		display: none;
 	}
 /* End */
@@ -1633,7 +1633,7 @@ padding: 0 2px 0 2px !important;
 
 /*[[ReplyWidth]]*/
 /* Fit Width: */
-	form[name="delform"]>table:not(.pages), /* Reply are tables. */
+	form[name='delform']>table:not(.pages), /* Reply are tables. */
 	div.thread>table, /* Replies are tables. A script like 4chan X is present */
 	.insertedPosts>table, /* 4chanplus inserts new posts in a new div */
 	td.reply, /* Reply cell */
@@ -1681,7 +1681,7 @@ padding: 0 2px 0 2px !important;
 	#qp,
 	#backwash_tooltip,
 	#twi_table_div
-	td[style="border: 1px dashed;"],
+	td[style='border: 1px dashed;'],
 	td.reply>tr>td.reply,
 	.inline td.reply {
 		border-radius: 3px !important;
@@ -1695,7 +1695,7 @@ padding: 0 2px 0 2px !important;
 		border-radius: 9px;
 	}
 
-	.postarea form[name="post"]:after {
+	form[name^='post']:after {
 		border-radius: 6px 6px 0 0;
 		-o-border-radius: 6px 6px 0 0 !important;
 	}
@@ -1724,7 +1724,7 @@ padding: 0 2px 0 2px !important;
 	#qp,
 	#backwash_tooltip,
 	#twi_table_div
-	td[style="border: 1px dashed;"],
+	td[style='border: 1px dashed;'],
 	td.reply>tr>td.reply,
 	.inline td.reply {
 		border-radius: 3px !important;
@@ -1738,7 +1738,7 @@ padding: 0 2px 0 2px !important;
 		border-radius: 9px;
 	}
 
-	.postarea form[name="post"]:after {
+	.postarea form[name='post']:after {
 		border-radius: 6px 6px 0 0;
 		-o-border-radius: 6px 6px 0 0 !important;
 	}
@@ -1752,9 +1752,9 @@ padding: 0 2px 0 2px !important;
 
 /*[[sageidentifier]]*/
 /* Sage Image: */
-		content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAABa1BMVEUAAACqrKiCgYIAAAAAAAAAAACHmX5pgl5NUEx/hnx4hXRSUVMiIyKwrbFzn19SbkZ1d3OvtqtpaWhcX1ooMyRsd2aWkZddkEV8vWGcpZl+kHd7jHNdYFuRmI4bHRthaV5WhUFsfGZReUBFZjdJazpGVUBnamYfHB9TeUMzSSpHgS1cY1k1NDUyOC8yWiFywVBoh1lDSEAZHBpucW0ICQgUHhBjfFhCRUA+QTtEQUUBAQFyo1praWspKigWFRZHU0F6j3E9Oz5VWFN0j2hncWONk4sAAABASDxJWkJKTUgAAAAvNC0fJR0DAwMAAAA9QzoWGhQAAAA8YytvrFOJsnlqyT9oqExqtkdrsExpsUsqQx9rpVJDbzBBbi5utk9jiFRuk11iqUR64k5Wf0JIZTpadk5om1BkyjmF1GRNY0FheFdXpjVXhz86XSp2yFJwslR3w1NbxitbtDWW5nNnilhFXTtYqDRwp1dSijiJ7H99AAAAUnRSTlMAJTgNGQml71ypu3cPEN/RDh8HBbOwQN7wVg4CAQZ28vs9EDluXjo58Ge8xwMy0P3+rV8cT73sawEdTv63NAa3rQwo4cUdAl3hWQSWvS8qqYsjEDiCzAAAAIVJREFUeNpFx7GKAQAYAOD/A7GbZVAWZTBZFGQw6LyCF/MIkiTdcOmWSzYbJVE2u1KX0J1v+8QDv/EkyS0yXF/NgeEILiHfyc74mICTQltqYXBeAWU9HGxU09YqqEvAElGjyZYjPyLqitjzHSEiGkrsfMWr0VLe+oy/djGP//YwfbeP8bN3Or0bkqEVblAAAAAASUVORK5CYII=");
+		content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAABa1BMVEUAAACqrKiCgYIAAAAAAAAAAACHmX5pgl5NUEx/hnx4hXRSUVMiIyKwrbFzn19SbkZ1d3OvtqtpaWhcX1ooMyRsd2aWkZddkEV8vWGcpZl+kHd7jHNdYFuRmI4bHRthaV5WhUFsfGZReUBFZjdJazpGVUBnamYfHB9TeUMzSSpHgS1cY1k1NDUyOC8yWiFywVBoh1lDSEAZHBpucW0ICQgUHhBjfFhCRUA+QTtEQUUBAQFyo1praWspKigWFRZHU0F6j3E9Oz5VWFN0j2hncWONk4sAAABASDxJWkJKTUgAAAAvNC0fJR0DAwMAAAA9QzoWGhQAAAA8YytvrFOJsnlqyT9oqExqtkdrsExpsUsqQx9rpVJDbzBBbi5utk9jiFRuk11iqUR64k5Wf0JIZTpadk5om1BkyjmF1GRNY0FheFdXpjVXhz86XSp2yFJwslR3w1NbxitbtDWW5nNnilhFXTtYqDRwp1dSijiJ7H99AAAAUnRSTlMAJTgNGQml71ypu3cPEN/RDh8HBbOwQN7wVg4CAQZ28vs9EDluXjo58Ge8xwMy0P3+rV8cT73sawEdTv63NAa3rQwo4cUdAl3hWQSWvS8qqYsjEDiCzAAAAIVJREFUeNpFx7GKAQAYAOD/A7GbZVAWZTBZFGQw6LyCF/MIkiTdcOmWSzYbJVE2u1KX0J1v+8QDv/EkyS0yXF/NgeEILiHfyc74mICTQltqYXBeAWU9HGxU09YqqEvAElGjyZYjPyLqitjzHSEiGkrsfMWr0VLe+oy/djGP//YwfbeP8bN3Or0bkqEVblAAAAAASUVORK5CYII=');
 /* Sage Text: */
-		content: " (sage) ";
+		content: ' (sage) ';
 		color: #e42217 !important;
 /* None: */
 
@@ -1796,9 +1796,9 @@ padding: 0 2px 0 2px !important;
 		width: 248px;
 	}
 
-	#filter:not(.autohide) a[title="Auto-hide dialog box"]:after,
-	#thread_filter:not(.autohide) a[title="Auto-hide dialog box"]:after {
-		content: " - SET THIS!!";
+	#filter:not(.autohide) a[title='Auto-hide dialog box']:after,
+	#thread_filter:not(.autohide) a[title='Auto-hide dialog box']:after {
+		content: ' - SET THIS!!';
 	}
 /* Locked Bottom: */
 	#filter,
@@ -1816,9 +1816,9 @@ padding: 0 2px 0 2px !important;
 		cursor: default !important;
 	}
 
-	#filter:not(.autohide) a[title="Auto-hide dialog box"]:after
-	#thread_filter:not(.autohide) a[title="Auto-hide dialog box"]:after {
-		content: " - SET THIS!!";
+	#filter:not(.autohide) a[title='Auto-hide dialog box']:after
+	#thread_filter:not(.autohide) a[title='Auto-hide dialog box']:after {
+		content: ' - SET THIS!!';
 	}
 /* Moveable */
 	#filter,
@@ -1830,7 +1830,7 @@ padding: 0 2px 0 2px !important;
 
 /*[[CenteredImages]]*/
 /* Yes: */
-domain("images.4chan.org"),
+domain('images.4chan.org'),
 
 /* No: */
 

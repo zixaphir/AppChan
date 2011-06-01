@@ -32,7 +32,7 @@
 	body>form,
 	div.postarea,
 	input,
-	html body span[style="left: 5px; position: absolute;"] a,
+	html body span[style='left: 5px; position: absolute;'] a,
 	select,
 	td.deletebuttons,
 	textarea,
@@ -114,8 +114,8 @@
 		background-color: #000 !important;
 	}
 
-	form[name="delform"] .reply td,
-	form[name="delform"] .replyhl td {
+	form[name='delform'] .reply td,
+	form[name='delform'] .replyhl td {
 		border: 1px solid #4f4f4f !important;
 	}
 
@@ -173,19 +173,19 @@
 		color: #000 !important;
 	}
 
-	input[type="file"]::-webkit-file-upload-button {
+	input[type='file']::-webkit-file-upload-button {
 		color: #000 !important;
 	}
 
 	#cc-showpostarea,
 	#ft li,
 	#ft ul,
-	#options input:not([type="checkbox"]),
+	#options input:not([type='checkbox']),
 	#options textarea,
 	#options .column ul>li:first-of-type,
 	#qr table .recaptchatable #recaptcha_image,
 	#qr img,
-	#updater input:not([type="checkbox"]),
+	#updater input:not([type='checkbox']),
 	#twi_table_div,
 	#twi_table_div *,
 	.box-outer,
@@ -198,11 +198,11 @@
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	h2,
-	input:not([type="checkbox"]),
+	input:not([type='checkbox']),
 	#qr_captcha input,
-	input[type="file"]>input[type="button"],
-	input[type="submit"],
-	html body span[style="left: 5px; position: absolute;"] a,
+	input[type='file']>input[type='button'],
+	input[type='submit'],
+	html body span[style='left: 5px; position: absolute;'] a,
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -211,46 +211,46 @@
 		height: 19px !important;
 	}
 
-	html body span[style="left: 5px; position: absolute;"] a {
+	html body span[style='left: 5px; position: absolute;'] a {
 		height: 14px !important;
 		padding-top: 3px !important;
 		width: 56px !important;
 	}
 
-	.deletebuttons>input[type="submit"]:focus,
-	input[type="text"]:focus,
-	input[type="password"]:focus,
-	input:not([type="checkbox"]):not([name="upfile"]):focus,
-	#filter input:not([type="checkbox"]):focus,
+	.deletebuttons>input[type='submit']:focus,
+	input[type='text']:focus,
+	input[type='password']:focus,
+	input:not([type='checkbox']):not([name='upfile']):focus,
+	#filter input:not([type='checkbox']):focus,
 	#filter textarea:focus,
-	#thread_filter input:not([type="checkbox"]):focus,
-	#updater input:not([type="checkbox"]):focus,
+	#thread_filter input:not([type='checkbox']):focus,
+	#updater input:not([type='checkbox']):focus,
 	#thread_filter textarea:focus,
 	#options input:focus,
-	html body span[style="left: 5px; position: absolute;"] a:focus,
+	html body span[style='left: 5px; position: absolute;'] a:focus,
 	textarea:focus {
 		border: 1px solid #9988ee !important;
 	}
 
-	form[name^='post'] input[type="file"][name="upfile"],
-	#qr input[type="file"][name="upfile"] {
+	form[name^='post'] input[type='file'][name='upfile'],
+	#qr input[type='file'][name='upfile'] {
 		margin: 0 -1px -1px !important;
 		height: 21px !important;
 	}
 
-	.fake input[type="file"]::-webkit-file-upload-button,
-	input[name="upfile"] {
+	.fake input[type='file']::-webkit-file-upload-button,
+	input[name='upfile'] {
 		border: 1px solid #888 !important;
 	}
 
-	.fake input[type="file"]::-webkit-file-upload-button,
-	form[name^='post'] input[type="file"][name="upfile"] {
+	.fake input[type='file']::-webkit-file-upload-button,
+	form[name^='post'] input[type='file'][name='upfile'] {
 		margin: 0 -1px -1px !important;
 		height: 21px !important;
 	}
 
-	.fake input[type="file"]::-webkit-file-upload-button,
-	input[name="upfile"]:focus {
+	.fake input[type='file']::-webkit-file-upload-button,
+	input[name='upfile']:focus {
 		border: 1px solid #9988ee !important;
 	}
 
@@ -272,7 +272,7 @@
 		border: 0 !important;
 	}
 
-	form[name="post"]:after {
+	form[name='post']:after {
 		background-color: #3f3f3f !important;
 		border: #888 solid;
 		border-width: 1px 1px 0 1px;
@@ -293,8 +293,8 @@
 		height: 55px !important;
 	}
 
-	form[name="delform"]>div:not(.thread) select,
-	.pages input[type="submit"] {
+	form[name='delform']>div:not(.thread) select,
+	.pages input[type='submit'] {
 		margin: 0 !important;
 		height: 17px !important;
 	}

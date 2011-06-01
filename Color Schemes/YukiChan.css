@@ -23,8 +23,8 @@
 		color: #5f608b;
 	}
 
-	input[type="checkbox"]:checked,
-	#options input[type="checkbox"]:checked{
+	input[type='checkbox']:checked,
+	#options input[type='checkbox']:checked{
 		background: rgba(255,255,255,.4) !important;
 	}
 
@@ -58,13 +58,13 @@
 
 	.postername,
 	.commentpostername,
-	table .commentpostername a.linkmail[href$="sage"]:after {
+	table .commentpostername a.linkmail[href$='sage']:after {
 		font-weight: 700;
 	}
 
-	b[style="color:red;"],
-	.commentpostername span[style="color:#800080"],
-	b[style="color:red;"] {
+	b[style='color:red;'],
+	.commentpostername span[style='color:#800080'],
+	b[style='color:red;'] {
 		color: #000 !important;
 	}
 
@@ -77,7 +77,7 @@
 	body,
 	body>form,
 	div.postarea,
-	html body span[style="left: 5px; position: absolute;"] a,
+	html body span[style='left: 5px; position: absolute;'] a,
 	input,
 	select,
 	td.deletebuttons,
@@ -115,7 +115,7 @@
 		text-shadow: -1px -1px 2px #5f608b, 1px 1px 2px #5f608b, 1px -1px 2px #5f608b, -1px 1px 2px #5f608b;
 	}
 
-	input[type="file"]::-webkit-file-upload-button {
+	input[type='file']::-webkit-file-upload-button {
 		background: transparent;
 		border: 2px solid #5f608b !important;
 		color: #313c5a !important;
@@ -129,7 +129,7 @@
 	#navbar,
 	#options,
 	#popup,
-	#qr input[type="checkbox"],
+	#qr input[type='checkbox'],
 	#threadwatcher,
 	#threadwatcher .postblock,
 	#watcher,
@@ -142,15 +142,15 @@
 	.top-box,
 	.yuimenuitem-selected,
 	h2,
-	html body span[style="left: 5px; position: absolute;"] a,
+	html body span[style='left: 5px; position: absolute;'] a,
 	input,
-	input[type="file"]>input[type="button"],
-	input[type="submit"],
+	input[type='file']>input[type='button'],
+	input[type='submit'],
 	select,
 	td.postblock,
 	td.reply,
 	textarea,
-	input[type="checkbox"] {
+	input[type='checkbox'] {
 		background-color: #686a99 !important;
 	}
 
@@ -182,7 +182,7 @@
 	body,
 	div.postarea>form td:nth-of-type(3)>label input,
 	div[id^=qr],
-	table.reply[style^="clear: both"] {
+	table.reply[style^='clear: both'] {
 		background-color: #5f608b !important;
 	}
 
@@ -217,15 +217,15 @@
 	}
 
 	.recaptchatable #recaptcha_response_field:focus,
-	.deletebuttons input[type="password"]:focus,
+	.deletebuttons input[type='password']:focus,
 	input:focus,
-	input[type="submit"]:focus,
-	html body span[style="left: 5px; position: absolute;"] a:focus,
+	input[type='submit']:focus,
+	html body span[style='left: 5px; position: absolute;'] a:focus,
 	textarea:focus {
 		background-color: #5f608b !important;
 	}
 
-	input[type="checkbox"] {
+	input[type='checkbox'] {
 		background: rgba(104,106,153,.4) !important;
 		border: 1px solid #313c5a !important;
 	}
@@ -277,10 +277,10 @@
 	#cc-showpostarea,
 	#ft li,
 	#ft ul,
-	#options input:not([type="checkbox"]),
+	#options input:not([type='checkbox']),
 	#qr table .recaptchatable #recaptcha_image,
 	#qr img,
-	#updater input:not([type="checkbox"]),
+	#updater input:not([type='checkbox']),
 	#twi_table_div,
 	#twi_table_div *,
 	.box-outer,
@@ -293,37 +293,37 @@
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	h2,
-	input:not([type="checkbox"]),
+	input:not([type='checkbox']),
 	#qr_captcha input,
-	input[type="file"]>input[type="button"],
-	input[type="submit"],
-	html body span[style="left: 5px; position: absolute;"] a,
+	input[type='file']>input[type='button'],
+	input[type='submit'],
+	html body span[style='left: 5px; position: absolute;'] a,
 	select,
 	textarea {
 		border: 1px solid #313c5a !important;
 		text-shadow: -1px -1px 3px #5f608b, 1px 1px 3px #5f608b, 1px -1px 3px #5f608b, -1px 1px 3px #5f608b;
 	}
 
-	html body span[style="left: 5px; position: absolute;"] a {
+	html body span[style='left: 5px; position: absolute;'] a {
 		height: 14px !important;
 		padding-top: 3px !important;
 		width: 56px !important;
 	}
 
-	form[name^='post'] input[type="file"][name="upfile"],
-	#qr input[type="file"][name="upfile"] {
+	form[name^='post'] input[type='file'][name='upfile'],
+	#qr input[type='file'][name='upfile'] {
 		margin: 0 -1px -1px !important;
 		height: 21px !important;
 	}
 
-	.fake input[type="file"]::-webkit-file-upload-button,
-	input[name="upfile"] {
+	.fake input[type='file']::-webkit-file-upload-button,
+	input[name='upfile'] {
 		border: 1px solid #313c5a !important;
 		text-shadow: -1px -1px 3px #5f608b, 1px 1px 3px #5f608b, 1px -1px 3px #5f608b, -1px 1px 3px #5f608b;
 	}
 
-	.fake input[type="file"]::-webkit-file-upload-button,
-	form[name^='post'] input[type="file"][name="upfile"] {
+	.fake input[type='file']::-webkit-file-upload-button,
+	form[name^='post'] input[type='file'][name='upfile'] {
 		margin: 0 -1px -1px !important;
 		height: 21px !important;
 	}
@@ -342,7 +342,7 @@
 		border-bottom: 1px #313c5a solid !important;
 	}
 
-	form[name="post"]:after {
+	form[name='post']:after {
 		background-color: #686a99 !important;
 		border: #313c5a solid;
 		border-width: 1px 1px 0 1px;
@@ -362,8 +362,8 @@
 		height: 55px !important;
 	}
 
-	form[name="delform"]>div:not(.thread) select,
-	.pages input[type="submit"] {
+	form[name='delform']>div:not(.thread) select,
+	.pages input[type='submit'] {
 		margin: 0 !important;
 		height: 17px !important;
 	}
