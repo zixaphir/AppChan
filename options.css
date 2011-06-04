@@ -55,12 +55,6 @@ none
 padding: 0 252px 0 2px !important;
 	}
 
-	.op>blockquote,
-	.thread>blockquote,
-	form[name='delform']>blockquote {
-		text-shadow: none !important;
-	}
-
 	.replyhider a {
 		position: absolute;
 		right: 255px;

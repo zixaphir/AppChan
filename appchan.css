@@ -89,7 +89,6 @@ Some NSFW alternatives. ;)
 	.postarea form>div,
 	.postarea>form:first-child>table>tbody>tr:last-of-type,
 	.postarea .refreshBtn,
-	.yui-g,
 	.yui-menu-shadow,
 	.warnicon {
 	/* Cleanup */
@@ -891,7 +890,6 @@ Some NSFW alternatives. ;)
 	#popup>img {
 		max-width: 100% !important;
 	}
-
 /*[[DeleteButtons]]*/
 	#popup {
 		position: fixed !important;
@@ -1229,6 +1227,14 @@ domain('rs.4chan.org'),
 domain('sys.4chan.org') {
 	html, body {
 		background-image: none !important;
+	}
+}
+
+@-moz-document url('http://www.4chan.org/'),
+url('http://www.4chan.org/#'),
+url('http://www.4chan.org') {
+	.yui-g {
+		display: none !important;
 	}
 }
 /*[[BoardHighlight]]*/

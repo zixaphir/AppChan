@@ -65,10 +65,10 @@
 		outline-color: #627c8d !important;
 	}
 
-	div.logo font,
-	.op>blockquote,
-	.thread>blockquote,
-	form[name='delform']>blockquote {
+/*[[TransparentReplies]]*/	.op>blockquote,
+/*[[TransparentReplies]]*/	.thread>blockquote,
+/*[[TransparentReplies]]*/	form[name='delform']>blockquote,
+	div.logo font  {
 		text-shadow: #3f3f3f 1px 0 2px, #3f3f3f -1px 0 2px, #3f3f3f 0 -1px 2px, #3f3f3f 0 1px 2px;
 	}
 
@@ -209,7 +209,6 @@
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		border: 1px solid #888 !important;
-		height: 19px !important;
 	}
 
 	html body span[style='left: 5px; position: absolute;'] a {

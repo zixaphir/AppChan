@@ -152,7 +152,7 @@
 	td.postblock,
 	td.reply,
 	textarea {
-		background-color: #d0d0d0 !important;
+		background-color: #efefef !important;
 	}
 
 	div[id^='4chan_ext_iqr'],
@@ -186,7 +186,7 @@
 	div.postarea>form td:nth-of-type(3)>label input,
 	div[id^=qr],
 	table.reply[style^='clear: both'] {
-		background-color: #e7e7e7 !important;
+		background-color: #fefefe !important;
 	}
 
 	html body span[style='left: 5px; position: absolute;'] a:hover,
@@ -211,18 +211,18 @@
 	td.replyhl,
 	tr.replyhl,
 	textarea:hover {
-		background-color: #ddd !important;
+		background-color: #f6f6f6 !important;
 	}
 
-	td.reply {
-/*[[TransparentReplies]]*/		background-color: rgba(186,186,186,0.5) !important;
-/*[[TransparentReplies]]*/		text-shadow: #d0d0d0 1px 0 2px, #d0d0d0 -1px 0 2px, #d0d0d0 0 -1px 2px, #d0d0d0 0 1px 2px;
-	}
-
-	td.replyhl {
-/*[[TransparentReplies]]*/		background-color: rgba(212,212,212,0.5) !important;
-/*[[TransparentReplies]]*/		text-shadow: #ddd 1px 0 2px, #ddd -1px 0 2px, #ddd 0 -1px 2px, #ddd 0 1px 2px;
-	}
+//	td.reply {
+///*[[TransparentReplies]]*/		background-color: rgba(186,186,186,0.5) !important;
+//*[[TransparentReplies]]*/		text-shadow: #efefef 1px 0 2px, #efefef -1px 0 2px, #efefef 0 -1px 2px, #efefef 0 1px 2px;
+//	}
+//
+//	td.replyhl {
+//*[[TransparentReplies]]*/		background-color: rgba(212,212,212,0.5) !important;
+//*[[TransparentReplies]]*/		text-shadow: #f6f6f6 1px 0 2px, #f6f6f6 -1px 0 2px, #f6f6f6 0 -1px 2px, #f6f6f6 0 1px 2px;
+//	}
 
 	.qphl {
 		outline-color: #627c8d !important;
