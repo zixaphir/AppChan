@@ -925,6 +925,7 @@ Some NSFW alternatives. ;)
 	.deletebuttons {
 		visibility: hidden !important;
 		font-size: 0 !important;
+		padding: 0 !important;
 	}
 
 	.deletebuttons * {
