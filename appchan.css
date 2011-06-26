@@ -638,7 +638,6 @@ Some NSFW alternatives. ;)
 	}
 
 	form[name^='post'] input[name='email']+label {
-	/* Spoiler Image label */
 		position: absolute;
 		top: auto;
 		font-size: /*[[FontSize]]*/ !important;
@@ -649,6 +648,14 @@ Some NSFW alternatives. ;)
 
 	form[name^='post'] #com_submit+label {
 		position: absolute;
+	}
+	
+	.postarea #com_submit+label {
+		top: auto;
+		font-size: /*[[FontSize]]*/ !important;
+		bottom: 0;
+		right: 55px;
+		vertical-align: bottom;
 	}
 
 	.chanchimp form[name^='post'] label {
