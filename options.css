@@ -829,17 +829,6 @@ padding: 0 2px 0 2px !important;
 		resize: none;
 	}
 
-	table[width='100%']~* form[name^='post'] label:first-of-type {
-		display: none !important;
-	}
-
-	table[width='100%']~* form[name^='post'] label:last-of-type {
-		text-align: right !important;
-		position: absolute !important;
-		bottom: 0px !important;
-		right: 55px !important;
-	}
-
 	table[width='100%']~* form[name^='post'] tr .postblock b {
 		right: 3px;
 	}
@@ -858,10 +847,16 @@ padding: 0 2px 0 2px !important;
 		right: 3px;
 	}
 
-	table[width='100%']~* form[name^='post'] label {
+	table[width='100%']~* form[name^='post'] input[name='email']+label {
 	/* Spoiler Image label */
 		top: auto !important;
-		bottom: 0 !important;
+		bottom: 4px !important;
+		right: 55px !important;
+	}
+
+	table[width='100%']~* form[name^='post'] #com_submit+label {
+	/* Spoiler Image label */
+		top: auto !important;
 		right: 55px !important;
 	}
 /* ...and slideout: */
@@ -1042,14 +1037,9 @@ padding: 0 2px 0 2px !important;
 		resize: none;
 	}
 
-	table[width='100%']~* form[name^='post'] label:first-of-type {
-		display: none !important;
-	}
-
-	table[width='100%']~* form[name^='post'] label:last-of-type {
-		text-align: right !important;
+	table[width='100%']~* form[name^='post'] input[name='email']+label {
 		position: absolute !important;
-		bottom: 0px !important;
+		bottom: 4px !important;
 		right: 55px !important;
 	}
 
@@ -1071,10 +1061,10 @@ padding: 0 2px 0 2px !important;
 		right: 3px;
 	}
 
-	table[width='100%']~* form[name^='post'] label {
+	table[width='100%']~* form[name^='post'] input[name='email']+label {
 	/* Spoiler Image label */
 		top: auto !important;
-		bottom: 0 !important;
+		bottom: 4px !important;
 		right: 55px !important;
 	}
 /* ...and tabbed slideout (buggy in Chrome) */
@@ -1283,17 +1273,6 @@ padding: 0 2px 0 2px !important;
 		resize: none;
 	}
 
-	table[width='100%']~* form[name^='post'] label:first-of-type {
-		display: none !important;
-	}
-
-	table[width='100%']~* form[name^='post'] label:last-of-type {
-		text-align: right !important;
-		position: absolute !important;
-		bottom: 0px !important;
-		right: 55px !important;
-	}
-
 	table[width='100%']~* form[name^='post'] tr .postblock b {
 		right: 3px;
 	}
@@ -1312,10 +1291,10 @@ padding: 0 2px 0 2px !important;
 		right: 3px;
 	}
 
-	table[width='100%']~* form[name^='post'] label {
+	table[width='100%']~* form[name^='post'] input[name='email']+label {
 	/* Spoiler Image label */
 		top: auto !important;
-		bottom: 0 !important;
+		bottom: 4px !important;
 		right: 55px !important;
 	}
 /* ...and fade: */
@@ -1483,17 +1462,6 @@ padding: 0 2px 0 2px !important;
 		resize: none;
 	}
 
-	table[width='100%']~* form[name^='post'] label:first-of-type {
-		display: none !important;
-	}
-
-	table[width='100%']~* form[name^='post'] label:last-of-type {
-		text-align: right !important;
-		position: absolute !important;
-		bottom: 0px !important;
-		right: 55px !important;
-	}
-
 	table[width='100%']~* form[name^='post'] tr .postblock b {
 		right: 3px;
 	}
@@ -1512,10 +1480,10 @@ padding: 0 2px 0 2px !important;
 		right: 3px;
 	}
 
-	table[width='100%']~* form[name^='post'] label {
+	table[width='100%']~* form[name^='post'] input[name='email']+label {
 	/* Spoiler Image label */
 		top: auto !important;
-		bottom: 0 !important;
+		bottom: 4px !important;
 		right: 55px !important;
 	}
 /* No: */

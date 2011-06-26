@@ -637,7 +637,7 @@ Some NSFW alternatives. ;)
 		color: transparent;
 	}
 
-	form[name^='post'] label {
+	form[name^='post'] input[name='email']+label {
 	/* Spoiler Image label */
 		position: absolute;
 		top: auto;
@@ -647,15 +647,26 @@ Some NSFW alternatives. ;)
 		vertical-align: bottom;
 	}
 
+	form[name^='post'] #com_submit+label {
+		position: absolute;
+	}
+
 	.chanchimp form[name^='post'] label {
 		position: static;
 	}
 
-	#qr>form[name^='post'] label,
-	#quickrep>form[name^='post'] label,
-	[id^='qr'] label {
-		bottom: 14px;
+	#qr>form[name^='post'] input[name='email']+label,
+	#quickrep>form[name^='post'] input[name='email']+label,
+	[id^='qr'] input[name='email']+label {
+		bottom: 4px;
 		right: 70px;
+	}
+
+	#qr>form[name^='post'] #com_submit+label,
+	#quickrep>form[name^='post'] #com_submit+label,
+	[id^='qr'] #com_submit+label {
+		top: auto !important;
+		right: 55px !important;
 	}
 
 	div.postarea>form td:nth-of-type(3)>label input,
