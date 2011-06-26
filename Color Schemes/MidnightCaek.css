@@ -130,7 +130,6 @@
 	#ft li,
 	#ft ul,
 	#navbar,
-	#options,
 	#popup,
 	#threadwatcher,
 	#threadwatcher .postblock,
@@ -140,6 +139,7 @@
 	.box-outer,
 	.boxbar,
 	.deletebuttons input[value=Delete],
+	.dialog,
 	.recaptcha_image_cell>center>#recaptcha_image,
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
@@ -166,7 +166,7 @@
 	#navbot:after,
 	#options input,
 	#options textarea,
-	#options .column ul>li:first-of-type,
+	#options ul>li:first-of-type,
 	#qr,
 	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
 	#quickrep,
@@ -346,7 +346,7 @@
 	}
 
 	.boxcontent dd,
-	#options .column ul,
+	#options ul,
 	#threadwatcher .postblock,
 	.chanchimp * {
 		border-color: #101010 !important;

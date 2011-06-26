@@ -947,38 +947,12 @@ Some NSFW alternatives. ;)
 /*[[ReturnButton]]*/
 
 /* Sidebar 4chan x options */
-	#options {
-		position: fixed !important;
-		top: 17px !important;
-		bottom: auto !important;
-		right: 2px !important;
-		left: auto !important;
-		border: 0 !important;
+	#overlay {
 		z-index: 99 !important;
-		text-align: right !important;
-		width: 238px !important;
 	}
 
-	#options .move,
-	#options .move a {
-		text-align: left !important;
-		font-size: 125% !important;
-	}
-
-	#options .move a {
-		float: right;
-		line-height: 18px;
-	}
-
-	#options .column {
-		width: auto !important;
-		float: none !important;
-		margin: 0 !important;
-		text-align: left;
-	}
-
-	#options .column ul {
-		margin-top: 3px !important;
+	#options ul {
+		margin: 3px 0 !important;
 		overflow: hidden;
 		height: 16px;
 		-webkit-transition: height 500ms ease-in-out 500ms !important;
@@ -987,7 +961,7 @@ Some NSFW alternatives. ;)
 		border: 1px solid;
 	}
 
-	#options .column ul:hover {
+	#options ul:hover {
 		height: 180px;
 		overflow: auto;
 		-webkit-transition: height 500ms ease-in-out !important;
@@ -995,12 +969,8 @@ Some NSFW alternatives. ;)
 		-o-transition: height 500ms ease-in-out !important;
 	}
 
-	#options .column ul>li {
+	#options ul>li {
 		padding: 0 3px !important;
-	}
-
-	#options textarea {
-		width: 238px !important;
 	}
 /* End of Sidebar 4chan x options */
 /*[[fixedFilter]]*/

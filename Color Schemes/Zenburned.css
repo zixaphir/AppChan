@@ -122,7 +122,6 @@
 
 	td.reply,
 	td.replyhl,
-	#options,
 	#navbar,
 	#popup,
 	#boardsMenu {
@@ -132,7 +131,7 @@
 	#navbot,
 	#navbot:after,
 	.boxcontent dd,
-	#options .column ul,
+	#options ul,
 	#threadwatcher .postblock,
 	.chanchimp * {
 		border-color: #4f4f4f !important;
@@ -183,7 +182,7 @@
 	#ft ul,
 	#options input:not([type='checkbox']),
 	#options textarea,
-	#options .column ul>li:first-of-type,
+	#options ul>li:first-of-type,
 	#qr table .recaptchatable #recaptcha_image,
 	#qr img,
 	#updater input:not([type='checkbox']),

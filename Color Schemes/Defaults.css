@@ -26,7 +26,7 @@
 	#ft ul,
 	#options input:not([type='checkbox']),
 	#options textarea,
-	#options .column ul>li:first-of-type,
+	#options ul>li:first-of-type,
 	#qr table .recaptchatable #recaptcha_image,
 	#qr img,
 	#updater input:not([type='checkbox']),
@@ -142,7 +142,7 @@
 		border-color: #fff !important;
 	}
 
-	#options .column ul {
+	#options ul {
 		border-color: #ccc !important;
 	}
 
@@ -167,7 +167,6 @@
 
 	td.reply,
 	td.replyhl,
-	#options,
 	#navbar,
 	#popup,
 	#boardsMenu {

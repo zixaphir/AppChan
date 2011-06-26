@@ -127,7 +127,6 @@
 	#ft li,
 	#ft ul,
 	#navbar,
-	#options,
 	#popup,
 	#qr input[type='checkbox'],
 	#threadwatcher,
@@ -136,6 +135,7 @@
 	.box-outer,
 	.boxbar,
 	.deletebuttons input[value=Delete],
+	.dialog,
 	.recaptcha_image_cell>center>#recaptcha_image,
 	#qr img,
 	.recaptchatable #recaptcha_response_field,
@@ -162,7 +162,7 @@
 	#options input,
 	#options textarea,
 	#options input[type=checkbox],
-	#options .column ul>li:first-of-type,
+	#options ul>li:first-of-type,
 	#qr,
 	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
 	#quickrep,
@@ -333,7 +333,7 @@
 	#navbot,
 	#navbot:after,
 	.boxcontent dd,
-	#options .column ul,
+	#options ul,
 	#threadwatcher .postblock,
 	.chanchimp * {
 		border-color: #313c5a !important;
