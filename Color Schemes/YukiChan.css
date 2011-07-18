@@ -101,8 +101,8 @@
 	}
 
 /*[[TransparentReplies]]*/	.op>blockquote,
-/*[[TransparentReplies]]*/	.thread>blockquote,
-/*[[TransparentReplies]]*/	form[name='delform']>blockquote,
+	.thread>blockquote,
+	form[name='delform']>blockquote, /**/
 	div.logo font  {
 		text-shadow: #5f608b 1px 0 2px, #5f608b -1px 0 2px, #5f608b 0 -1px 2px, #5f608b 0 1px 2px;
 	}
@@ -162,7 +162,6 @@
 	#options input,
 	#options textarea,
 	#options input[type=checkbox],
-	#options ul>li:first-of-type,
 	#qr,
 	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
 	#quickrep,
@@ -204,15 +203,15 @@
 		background-color: #7a7aa5 !important;
 	}
 
-	td.reply {
-/*[[TransparentReplies]]*/		background-color: rgba(110,112,160,0.5) !important;
-/*[[TransparentReplies]]*/		text-shadow: #686a99 1px 0 2px, #686a99 -1px 0 2px, #686a99 0 -1px 2px, #686a99 0 1px 2px;
+/*[[TransparentReplies]]*/	td.reply {
+		background-color: rgba(110,112,160,0.5) !important;
+		text-shadow: #686a99 1px 0 2px, #686a99 -1px 0 2px, #686a99 0 -1px 2px, #686a99 0 1px 2px;
 	}
 
 	td.replyhl {
-/*[[TransparentReplies]]*/		background-color: rgba(125,126,170,0.5) !important;
-/*[[TransparentReplies]]*/		text-shadow: #7a7aa5 1px 0 2px, #7a7aa5 -1px 0 2px, #7a7aa5 0 -1px 2px, #7a7aa5 0 1px 2px;
-	}
+		background-color: rgba(125,126,170,0.5) !important;
+		text-shadow: #7a7aa5 1px 0 2px, #7a7aa5 -1px 0 2px, #7a7aa5 0 -1px 2px, #7a7aa5 0 1px 2px;
+	}/**/
 
 	.qphl {
 		outline-color: #313c5a !important;

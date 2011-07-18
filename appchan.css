@@ -55,8 +55,6 @@ Some NSFW alternatives. ;)
 	form table tbody>tr:nth-of-type(2) td[align='right'],
 	form[name='delform']>hr:last-of-type,
 	form[name='delform']>hr:nth-last-of-type(2),
-	form[name='delform']>br:last-of-type,
-	form[name='delform']>br[clear=left]:last-of-type,
 	html body>a:not([style='cursor: pointer; float: right;']),
 	scrollbarbutton,
 	small,

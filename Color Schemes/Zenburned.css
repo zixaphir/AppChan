@@ -55,19 +55,19 @@
 		color: #ccc !important;
 	}
 
-	td.reply,
+/*[[TransparentReplies]]*/	td.reply,
 	td.replyhl {
-/*[[TransparentReplies]]*/		background-color: rgba(55,55,55,0.5) !important;
-/*[[TransparentReplies]]*/		text-shadow: #3a3a39 1px 0 2px, #3a3a39 -1px 0 2px, #3a3a39 0 -1px 2px, #3a3a39 0 1px 2px;
-	}
+		background-color: rgba(55,55,55,0.5) !important;
+		text-shadow: #3a3a39 1px 0 2px, #3a3a39 -1px 0 2px, #3a3a39 0 -1px 2px, #3a3a39 0 1px 2px;
+	}/**/
 
 	.qphl {
 		outline-color: #627c8d !important;
 	}
 
 /*[[TransparentReplies]]*/	.op>blockquote,
-/*[[TransparentReplies]]*/	.thread>blockquote,
-/*[[TransparentReplies]]*/	form[name='delform']>blockquote,
+	.thread>blockquote,
+	form[name='delform']>blockquote, /**/
 	div.logo font  {
 		text-shadow: #3f3f3f 1px 0 2px, #3f3f3f -1px 0 2px, #3f3f3f 0 -1px 2px, #3f3f3f 0 1px 2px;
 	}
@@ -182,7 +182,6 @@
 	#ft ul,
 	#options input:not([type='checkbox']),
 	#options textarea,
-	#options ul>li:first-of-type,
 	#qr table .recaptchatable #recaptcha_image,
 	#qr img,
 	#updater input:not([type='checkbox']),

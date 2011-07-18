@@ -51,8 +51,8 @@
 	}
 
 /*[[TransparentReplies]]*/	.op>blockquote,
-/*[[TransparentReplies]]*/	.thread>blockquote,
-/*[[TransparentReplies]]*/	form[name='delform']>blockquote,
+	.thread>blockquote,
+	form[name='delform']>blockquote, /**/
 	div.logo font {
 		text-shadow: #101010 1px 0 2px, #101010 -1px 0 2px, #101010 0 -1px 2px, #101010 0 1px 2px;
 	}
@@ -166,7 +166,6 @@
 	#navbot:after,
 	#options input,
 	#options textarea,
-	#options ul>li:first-of-type,
 	#qr,
 	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
 	#quickrep,
@@ -214,15 +213,15 @@
 		background-color: #181818 !important;
 	}
 
-	td.reply {
-/*[[TransparentReplies]]*/		background-color: rgba(38,38,38,0.5) !important;
-/*[[TransparentReplies]]*/		text-shadow: #1c1c1c 1px 0 2px, #1c1c1c -1px 0 2px, #1c1c1c 0 -1px 2px, #1c1c1c 0 1px 2px;
+/*[[TransparentReplies]]*/	td.reply {
+		background-color: rgba(38,38,38,0.5) !important;
+		text-shadow: #1c1c1c 1px 0 2px, #1c1c1c -1px 0 2px, #1c1c1c 0 -1px 2px, #1c1c1c 0 1px 2px;
 	}
 
 	td.replyhl {
-/*[[TransparentReplies]]*/		background-color: rgba(30,30,30,0.5) !important;
-/*[[TransparentReplies]]*/		text-shadow: #181818 1px 0 2px, #181818 -1px 0 2px, #181818 0 -1px 2px, #181818 0 1px 2px;
-	}
+		background-color: rgba(30,30,30,0.5) !important;
+		text-shadow: #181818 1px 0 2px, #181818 -1px 0 2px, #181818 0 -1px 2px, #181818 0 1px 2px;
+	}/**/
 
 	.qphl {
 		outline-color: #627c8d !important;
