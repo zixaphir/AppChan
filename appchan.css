@@ -544,7 +544,7 @@ Some NSFW alternatives. ;)
 	#qr input[name='upfile'],
 	#qr textarea,
 	#thread_filter input {
-		margin-top: 1px !important;
+		margin: 0 1px 0 0 !important;
 	}
 
 	.postarea form[name^='post'] td>input[name='upfile'] {
