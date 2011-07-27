@@ -1092,8 +1092,9 @@ Some NSFW alternatives. ;)
 /*[[PagesPosition]]*/
 /*[[ColorScheme]]*/
 /*[[RoundedCorners]]*/
-/* Adblock */
-	img[src^='http://static.4chan.org/support/'] {
+/* Adblock, YouTube Autoplay Block */
+	img[src^='http://static.4chan.org/support/'],
+	embed[src*='&autoplay=1'] {
 		display: none;
 	}
 }
