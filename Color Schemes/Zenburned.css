@@ -253,8 +253,9 @@
 	}
 
 	tr .postblock b,
-	.postarea form[name^='post']:after,
-	label {
+	.postarea form[name^='post']:before,
+	label,
+	#qr:before {
 		background: none !important;
 	}
 
@@ -270,7 +271,8 @@
 		border: 0 !important;
 	}
 
-	form[name='post']:after {
+	form[name^='post']:before,
+	#qr:before {
 		background-color: #3f3f3f !important;
 		border: #888 solid;
 		border-width: 1px 1px 0 1px;

@@ -28,7 +28,7 @@
 	html body span[style='left: 5px; position: absolute;'] a,
 	input,
 	div.postarea,
-	form[name='post']:after,
+	form[name^='post']:after,
 	select,
 	td.deletebuttons,
 	textarea,
@@ -45,6 +45,7 @@
 	#imgControls label:after,
 	#navbot:after,
 	#qp,
+	#qr:before,
 	#twi_table_div,
 	#updater #count:not(.new):after {
 		color: #000 !important;
@@ -130,6 +131,7 @@
 	#ft ul,
 	#navbar,
 	#popup,
+	#qr:before,
 	#threadwatcher,
 	#threadwatcher .postblock,
 	#watcher,
@@ -143,7 +145,7 @@
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	.yuimenuitem-selected,
-	form[name^='post']:after,
+	form[name^='post']:before,
 	h2,
 	input,
 	input[type='file']>input[type='button'],

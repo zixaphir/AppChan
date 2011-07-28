@@ -105,8 +105,9 @@
 	}
 
 	form[name^='post'] .postblock b,
-	.postarea form[name^='post']:after,
+	.postarea form[name^='post']:before,
 	#maxchars,
+	#qr:before,
 	.postarea tr:nth-child(4) .postblock b:after {
 		color: rgba(0,0,0,0.5) !important;
 	}
@@ -150,7 +151,8 @@
 		border-bottom: 1px #fff solid !important;
 	}
 
-	form[name='post']:after {
+	form[name^='post']:before,
+	#qr:before {
 		border: #ccc solid;
 		border-width: 1px 1px 0 1px;
 		border-radius: 6px 6px 0 0;
@@ -160,7 +162,7 @@
 	#navbot,
 	#navbot:after,
 	.pages,
-	form[name='post']:after {
+	form[name^='post']:before {
 		background-color: #fff !important;
 	}
 

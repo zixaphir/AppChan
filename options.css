@@ -631,19 +631,19 @@ padding: 0 2px 0 2px !important;
 		-o-transition: right .3s linear;
 	}
 
-	.postarea form[name='post']:after {
+	.postarea form[name='post']:before {
 		-webkit-transform: rotate(-90deg);
 		-webkit-transform-origin: bottom left;
 		-moz-transform: rotate(-90deg);
 		-moz-transform-origin: bottom left;
 		-o-transform: rotate(-90deg);
 		-o-transform-origin: bottom left;
+		margin-left: -210px;
+		margin-right: 260px;
+		margin-bottom: -20px;
 		width: 210px;
 		display: block;
 		font-size: 10px !important;
-		margin-right: 40px !important;
-		margin-top: -31px !important;
-		margin-bottom: 18px;
 		opacity: 1;
 		text-align: center;
 		content: 'POST FORM - POST FORM - POST FORM';
@@ -652,7 +652,7 @@ padding: 0 2px 0 2px !important;
 		-o-transition: all .3s ease-in-out 3s;
 	}
 
-	.postarea form[name='post']:hover:after {
+	.postarea form[name='post']:hover:before {
 		opacity: 0;
 		-webkit-transition: all .3s linear;
 		-moz-transition: all .3s linear;
@@ -1224,19 +1224,20 @@ padding: 0 2px 0 2px !important;
 		-o-transition: right .3s linear;
 	}
 
-	table[width='100%']~* form[name='post']:after {
+	table[width='100%']~*:not(#qr) form[name='post']:before,
+	table[width='100%']~#qr:before {
 		-webkit-transform: rotate(-90deg);
-		-webkit-transform-origin: bottom left;
+		-webkit-transform-origin: bottom right;
 		-moz-transform: rotate(-90deg);
-		-moz-transform-origin: bottom left;
+		-moz-transform-origin: bottom right;
 		-o-transform: rotate(-90deg);
-		-o-transform-origin: bottom left;
-		width: 245px;
+		-o-transform-origin: bottom right;
+		margin-left: -210px;
+		margin-right: 260px;
+		margin-bottom: -20px;
+		width: 210px;
 		display: block;
 		font-size: 10px !important;
-		margin-right: 40px !important;
-		margin-top: -31px !important;
-		margin-bottom: 18px;
 		opacity: 1;
 		text-align: center;
 		content: 'POST FORM - POST FORM - POST FORM';
@@ -1245,7 +1246,8 @@ padding: 0 2px 0 2px !important;
 		-o-transition: all .3s ease-in-out 3s;
 	}
 
-	table[width='100%']~* form[name='post']:hover:after {
+	table[width='100%']~*:not(#qr) form[name='post']:hover:before,
+	table[width='100%']~#qr:hover:before {
 		opacity: 0;
 		-webkit-transition: all .3s linear;
 		-moz-transition: all .3s linear;

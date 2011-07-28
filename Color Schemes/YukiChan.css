@@ -255,8 +255,9 @@
 	a,
 	form[name^='post'] .postblock b,
 	.postarea tr:nth-child(4)>.postblock>b:after,
-	.postarea form[name^='post']:after,
-	#maxchars {
+	.postarea form[name^='post']:before,
+	#maxchars,
+	#qr:before	{
 		color: #242949 !important;
 	}
 
@@ -343,7 +344,8 @@
 		border-bottom: 1px #313c5a solid !important;
 	}
 
-	form[name='post']:after {
+	form[name^='post']:before,
+	#qr:before {
 		background-color: #686a99 !important;
 		border: #313c5a solid;
 		border-width: 1px 1px 0 1px;

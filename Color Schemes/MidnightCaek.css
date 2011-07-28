@@ -28,7 +28,7 @@
 	html body span[style='left: 5px; position: absolute;'] a,
 	input,
 	div.postarea,
-	form[name='post']:after,
+	form[name^='post']:before,
 	select,
 	td.deletebuttons,
 	textarea,
@@ -197,13 +197,15 @@
 	input[type='file']>input[type='button']:hover,
 	#backwash_tooltip,
 	#qp,
+	#qr:before,
 	#updater:hover,
 	#popup,
 	.chanchimp,
 	.chanchimp>div,
-	.recaptchatable #recaptcha_response_field:hover,
 	.deletebuttons input[type='password']:hover,
+	.recaptchatable #recaptcha_response_field:hover,
 	div[id^=ref],
+	form[name^='post']:before,
 	input:hover,
 	input[type='file']>input[type='button']
 	input[type='submit']:hover,
@@ -211,6 +213,12 @@
 	tr.replyhl,
 	textarea:hover {
 		background-color: #181818 !important;
+	}
+
+	#qr:before,
+	form[name^='post']:before {
+		border-radius: 6px 6px 0 0;
+		-o-border-radius: 6px 6px 0 0;
 	}
 
 /*[[TransparentReplies]]*/	td.reply {
@@ -290,25 +298,26 @@
 	}
 
 	form[name^='post'] .postblock b,
+	form[name^='post']:before,
 	.postarea tr:nth-child(4) .postblock b,
-	.postarea form[name^='post']:after,
-	#maxchars {
-		color: rgba(255,255,255,0.1) !important;
+	#maxchars,
+	#qr:before {
+		color: rgba(255,255,255,0.3) !important;
 	}
 
 	#qr input:-moz-placeholder,
 	#qr textarea:-moz-placeholder {
-		color: rgba(255,255,255,0.1) !important;
+		color: rgba(255,255,255,0.3) !important;
 	}
 
 	#qr input::-webkit-input-placeholder,
 	#qr textarea::-webkit-input-placeholder {
-		color: rgba(255,255,255,0.1) !important;
+		color: rgba(255,255,255,0.3) !important;
 	}
 
 	#qr input:placeholder,
 	#qr textarea:placeholder {
-		color: rgba(255,255,255,0.1) !important;
+		color: rgba(255,255,255,0.3) !important;
 	}
 
 	#cc-showpostarea,
