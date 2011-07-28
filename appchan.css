@@ -208,7 +208,7 @@ Some NSFW alternatives. ;)
 /*[[StickyNavigation]]*/
 	#header,
 	.pages {
-		left: 0 !important;
+		left: 2px !important;
 		right: 250px !important;
 		z-index: 3;
 	}
@@ -218,7 +218,7 @@ Some NSFW alternatives. ;)
 		text-align: center !important;
 		border-spacing: 0 !important;
 		padding-right: 250px !important;
-		right: 0 !important;
+		right: 2px !important;
 		z-index: 1;
 	}
 
@@ -350,7 +350,8 @@ Some NSFW alternatives. ;)
 		padding-bottom: 13px !important;
 	}
 
-	#qr form[name^='post'] .postblock b {
+	#qr form[name^='post'] .postblock b,
+	#quickrep form[name^='post'] .postblock b {
 		margin-top: -13px !important;
 	}
 
@@ -544,7 +545,7 @@ Some NSFW alternatives. ;)
 	#qr input[name='upfile'],
 	#qr textarea,
 	#thread_filter input {
-		margin: 0 1px 0 0 !important;
+		margin-top: 1px !important;
 	}
 
 	.postarea form[name^='post'] td>input[name='upfile'] {
