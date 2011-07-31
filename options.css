@@ -1079,7 +1079,7 @@ padding: 0 2px 0 2px !important;
 		bottom: 4px !important;
 		right: 55px !important;
 	}
-/* ...and tabbed slideout (buggy in Chrome) */
+/* ...and tabbed slideout (No transitions in Chrome) */
 	table[width='100%']~.postarea,
 	table[width='100%']~#quickrep .move,
 	table[width='100%']~#qr .move input:not([name='name']),
