@@ -1098,7 +1098,7 @@ Extra Lain is fine too. ;3
 /*[[RoundedCorners]]*/
 /* Adblock, YouTube Autoplay Block */
 	img[src^='http://static.4chan.org/support/'],
-	embed[src*='&autoplay=1'] {
+	embed[src*='autoplay=1'] {
 		display: none;
 	}
 }
