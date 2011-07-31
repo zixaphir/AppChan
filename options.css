@@ -753,7 +753,12 @@ padding: 0 2px 0 2px !important;
 
 	table[width='100%']~*[id^='q'] table {
 		border-collapse: collapse !important;
+		border-spacing: 0px !important;
 		width: 248px !important;
+	}
+
+	table[width='100%']~*[id^='q'] table td {
+		padding: 0 !important;
 	}
 
 	table[width='100%']~* form[name^='post'] input[name='sub'],
@@ -930,7 +935,12 @@ padding: 0 2px 0 2px !important;
 
 	table[width='100%']~*[id^='q'] table {
 		border-collapse: collapse !important;
+		border-spacing: 0px !important;
 		width: 248px !important;
+	}
+
+	table[width='100%']~*[id^='q'] table td {
+		padding: 0 !important;
 	}
 
 	table[width='100%']~* form[name^='post'] input[name='sub'],
@@ -1375,7 +1385,12 @@ padding: 0 2px 0 2px !important;
 
 	table[width='100%']~*[id^='q'] table {
 		border-collapse: collapse !important;
+		border-spacing: 0px !important;
 		width: 248px !important;
+	}
+
+	table[width='100%']~*[id^='q'] table td {
+		padding: 0 !important;
 	}
 
 	table[width='100%']~* form[name^='post'] input[name='sub'],
