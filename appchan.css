@@ -732,6 +732,10 @@ Extra Lain is fine too. ;3
 		margin: 0 0 20px !important;
 	}
 
+	form[name='delform'] blockquote a img {
+		margin: 0 !important;
+	}
+
 	html,
 	body,
 	form[name='delform'] span[id^='4chan_ext_right'] a img,
