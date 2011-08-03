@@ -1,4 +1,18 @@
 /* Yotsuba B */
+/*[[CustomScrollbars]]*/
+	::-webkit-scrollbar-thumb { border: 1px solid #b7c5d9; background: #eef2ff; }
+	::-webkit-scrollbar-thumb:hover { background: #d6bad0; }
+	::-webkit-scrollbar-thumb:active { background: #eef2ff; }
+	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer {background: #d6daf0; }
+	scrollbar, scrollcorner { background: #d6daf0 !important; }
+	thumb { -moz-appearance: none !important; border: 1px solid #b7c5d9; background: #fff; }
+	thumb:hover { background: #d6bad0; }
+	thumb:active { background: #eef2ff; }
+/**/
+
+	* {
+		outline: none !important;
+	}
 
 	html,
 	body {
@@ -118,11 +132,13 @@
 	#ft ul,
 	#navbar,
 	#popup,
+	#qr:before,
 	#threadwatcher,
 	#threadwatcher .postblock,
 	#watcher,
 	#thread_filter.autohide:hover,
 	#thread_filter:not(.autohide),
+	#updater:hover,
 	.box-outer,
 	.boxbar,
 	.deletebuttons input[value=Delete],
@@ -130,6 +146,7 @@
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	.yuimenuitem-selected,
+	form[name^='post']:before,
 	h2,
 	select,
 	td.postblock,
@@ -148,17 +165,15 @@
 	#twi_table_div *,
 	#backwash_tooltip,
 	#qp,
-	#qr:before,
-	#updater:hover,
 	#popup,
 	.chanchimp,
 	.chanchimp>div,
-	.deletebuttons input[type='password']:hover,
+	.deletebuttons input:hover,
 	.recaptchatable #recaptcha_response_field:hover,
 	div[id^=ref],
-	form[name^='post']:before,
 	input:hover,
 	input[type='submit']:hover,
+	input[type='file']>input[type='button']:hover,
 	td.replyhl,
 	tr.replyhl,
 	textarea:hover {
@@ -167,8 +182,6 @@
 
 	div[id^='4chan_ext_iqr'],
 	div[id^='4chan_ext_iqr']>*,
-	input[type='submit']:hover,
-	input[type='file']>input[type='button']:hover,
 	#filter input,
 	#filter textarea,
 	#header,
@@ -229,9 +242,22 @@
 	.recaptchatable #recaptcha_response_field:focus,
 	.deletebuttons input[type='password']:focus,
 	input:focus,
+	input.inputtext:focus,
 	input[type='submit']:focus,
 	textarea:focus {
 		border: 1px solid #98e !important;
+	}
+
+	td.reply {
+		border:1px solid #b7c5d9 !important;
+		border-left: none !important;
+		border-top: none !important;
+	}
+
+	td.replyhl {
+		border: 1px solid #ba9dbf !important;
+		border-left: none !important;
+		border-top: none !important;
 	}
 
 	input[type='checkbox'],
@@ -252,7 +278,7 @@
 	#options input[type=checkbox]:checked,
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:checked,
 	#qr label input[type='checkbox']:checked {
-		background: #3c3c3c !important;
+		background: #bcc0d4 !important;
 	}
 
 	#crntBoard {
@@ -335,7 +361,7 @@
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox'],
 	#qr label input[type='checkbox'],
 	html body span[style='left: 5px; position: absolute;'] a {
-		border: 1px solid #aaa !important;
+		border: 1px solid #b7c5d9 !important;
 	}
 
 	html body span[style='left: 5px; position: absolute;'] a {
@@ -348,6 +374,19 @@
 	#qr input[type='file'][name='upfile'] {
 		margin: 0 -1px -1px !important;
 		height: 21px !important;
+	}
+
+	.fake input[type='file']::-webkit-file-upload-button,
+	form[name^='post'] input[type='file'][name='upfile'],
+	#qr input[type='file'][name='upfile'] {
+		margin: 1px 0 0 !important;
+		height: 19px !important;
+	}
+
+	#recaptcha_image img,
+	#quick_recaptcha_image img,
+	#qr img {
+		opacity: 1 !important;
 	}
 
 	.postarea form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
@@ -392,11 +431,8 @@
 		border: none !important;
 	}
 
-	form[name='delform']>div:not(.thread) select {
-		margin: 1px 0 0 0 !important;
-	}
-
 	form[name='delform']>div:not(.thread) select,
 	.pages input[type='submit'] {
-		height: 15px !important;
+		margin: 0 !important;
+		height: 17px !important;
 	}

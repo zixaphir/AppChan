@@ -1,12 +1,14 @@
 /* YukiChan */
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #686a99 !important; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb { background: #5f608b !important; -webkit-border-radius: 10px !important; border: 1px solid #313c5a !important; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:hover { background: #4f507b !important; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:active { background: rgba(255,255,255,.4) !important; }
-/*[[CustomScrollbars]]*/scrollbar, scrollcorner { background: #686a99 !important; }
-/*[[CustomScrollbars]]*/thumb { background: #5f608b !important; border-radius: 10px !important; border: 1px solid #313c5a !important; }
-/*[[CustomScrollbars]]*/thumb:hover { background: #4f507b !important; }
-/*[[CustomScrollbars]]*/thumb:active { background: rgba(255,255,255,.4) !important; }
+/*[[CustomScrollbars]]*/
+	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #686a99 !important; }
+	::-webkit-scrollbar-thumb { background: #5f608b !important; -webkit-border-radius: 10px !important; border: 1px solid #313c5a !important; }
+	::-webkit-scrollbar-thumb:hover { background: #4f507b !important; }
+	::-webkit-scrollbar-thumb:active { background: rgba(255,255,255,.4) !important; }
+	scrollbar, scrollcorner { background: #686a99 !important; }
+	thumb { background: #5f608b !important; border-radius: 10px !important; border: 1px solid #313c5a !important; }
+	thumb:hover { background: #4f507b !important; }
+	thumb:active { background: rgba(255,255,255,.4) !important; }
+/**/
 
 	::-webkit-selection {
 		background: #313c5a;
@@ -328,9 +330,9 @@
 	}
 
 	.fake input[type='file']::-webkit-file-upload-button,
-	form[name^='post'] input[type='file'][name='upfile'] {
-		margin: 0 -1px -1px !important;
-		height: 21px !important;
+	form[name^='post'] input[type='file'][name='upfile'],
+	#qr input[type='file'][name='upfile'] {
+		margin: 1px 0 0 !important;
 	}
 
 	#navbot,

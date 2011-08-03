@@ -1,12 +1,14 @@
 /* Midnight Caek */
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb { border: #101010 !important; background: #262626; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:hover { background: #3f3f3f; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:active { background: #111; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #1c1c1c; }
-/*[[CustomScrollbars]]*/scrollbar, scrollcorner { background: #1c1c1c; }
-/*[[CustomScrollbars]]*/thumb:active { background: -moz-linear-gradient(top, rgba(255,255,255,0.3), rgba(255,255,255,0.1)) !important; }
-/*[[CustomScrollbars]]*/thumb { border-color: #101010 !important; background: #262626; }
-/*[[CustomScrollbars]]*/thumb:hover { background: -moz-linear-gradient(top, rgba(255,255,255,.4), rgba(255,255,255,0.2)) !important; }
+/*[[CustomScrollbars]]*/
+	::-webkit-scrollbar-thumb { border: #101010 !important; background: #262626; }
+	::-webkit-scrollbar-thumb:hover { background: #3f3f3f; }
+	::-webkit-scrollbar-thumb:active { background: #111; }
+	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #1c1c1c; }
+	scrollbar, scrollcorner { background: #1c1c1c; }
+	thumb:active { background: -moz-linear-gradient(top, rgba(255,255,255,0.3), rgba(255,255,255,0.1)) !important; }
+	thumb { border-color: #101010 !important; background: #262626; }
+	thumb:hover { background: -moz-linear-gradient(top, rgba(255,255,255,.4), rgba(255,255,255,0.2)) !important; }
+/**/
 
 	::-webkit-selection {
 		background: #aaa;

@@ -1,11 +1,13 @@
 /* Zenburned */
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb { border: 1px solid #4f4f4f !important; background: #3f3f3f; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:hover { background: #4f4f4f; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:active { background: #111; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #313c36; }
-/*[[CustomScrollbars]]*/scrollbar, scrollcorner { background: #000 !important; }
-/*[[CustomScrollbars]]*/thumb { border-color: #4f4f4f !important; background: #3f3f3f; }
-/*[[CustomScrollbars]]*/thumb:active { background: #111 !important; }
+/*[[CustomScrollbars]]*/
+	::-webkit-scrollbar-thumb { border: 1px solid #4f4f4f !important; background: #3f3f3f; }
+	::-webkit-scrollbar-thumb:hover { background: #4f4f4f; }
+	::-webkit-scrollbar-thumb:active { background: #111; }
+	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #313c36; }
+	scrollbar, scrollcorner { background: #000 !important; }
+	thumb { border-color: #4f4f4f !important; background: #3f3f3f; }
+	thumb:active { background: #111 !important; }
+/**/
 
 	::-webkit-selection {
 		background: #dcdccc;
@@ -246,6 +248,7 @@
 	.recaptchatable #recaptcha_response_field:focus,
 	.deletebuttons input[type='password']:focus,
 	input:focus,
+	input.inputtext:focus,
 	input[type='submit']:focus,
 	textarea:focus {
 		border: 1px solid #98e !important;
@@ -359,6 +362,25 @@
 		height: 14px !important;
 		padding-top: 3px !important;
 		width: 56px !important;
+	}
+
+	form[name^='post'] input[type='file'][name='upfile'],
+	#qr input[type='file'][name='upfile'] {
+		margin: 0 -1px -1px !important;
+		height: 21px !important;
+	}
+
+	.fake input[type='file']::-webkit-file-upload-button,
+	form[name^='post'] input[type='file'][name='upfile'],
+	#qr input[type='file'][name='upfile'] {
+		margin: 1px 0 0 !important;
+		height: 19px !important;
+	}
+
+	#recaptcha_image img,
+	#quick_recaptcha_image img,
+	#qr img {
+		opacity: 1 !important;
 	}
 
 	.postarea form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,

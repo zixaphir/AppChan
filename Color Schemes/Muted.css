@@ -1,12 +1,14 @@
 /* Muted */
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb { border: #e7e7e7 !important; background: #aaa; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:hover { background: -webkit-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:active { background: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #e7e7e7; }
-/*[[CustomScrollbars]]*/thumb { border-color: #e7e7e7 !important; background: #aaa; }
-/*[[CustomScrollbars]]*/thumb:hover { background: -moz-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
-/*[[CustomScrollbars]]*/thumb:active { background: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
-/*[[CustomScrollbars]]*/scrollbar, scrollcorner { background: #e7e7e7 !important; }
+/*[[CustomScrollbars]]*/
+	::-webkit-scrollbar-thumb { border: #e7e7e7 !important; background: #aaa; }
+	::-webkit-scrollbar-thumb:hover { background: -webkit-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
+	::-webkit-scrollbar-thumb:active { background: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
+	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #e7e7e7; }
+	thumb { border-color: #e7e7e7 !important; background: #aaa; }
+	thumb:hover { background: -moz-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
+	thumb:active { background: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
+	scrollbar, scrollcorner { background: #e7e7e7 !important; }
+/**/
 
 	::-webkit-selection {
 		background: #101010;

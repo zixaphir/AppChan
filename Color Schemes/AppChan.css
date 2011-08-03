@@ -1,13 +1,15 @@
 /* AppChan: */
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb { border: #2c2c2c !important; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:hover { background: #3f3f3f; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb:active { background: #111; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #333; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb { background: #262626; }
-/*[[CustomScrollbars]]*/scrollbar, scrollcorner { background: #333 !important; }
-/*[[CustomScrollbars]]*/thumb { border-color: #333 !important; background: #262626; }
-/*[[CustomScrollbars]]*/thumb:active { background: #111 !important; }
-/*[[CustomScrollbars]]*/thumb:hover { background: #3f3f3f; }
+/*[[CustomScrollbars]]*/
+	::-webkit-scrollbar-thumb { border: #2c2c2c !important; }
+	::-webkit-scrollbar-thumb:hover { background: #3f3f3f; }
+	::-webkit-scrollbar-thumb:active { background: #111; }
+	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #333; }
+	::-webkit-scrollbar-thumb { background: #262626; }
+	scrollbar, scrollcorner { background: #333 !important; }
+	thumb { border-color: #333 !important; background: #262626; }
+	thumb:active { background: #111 !important; }
+	thumb:hover { background: #3f3f3f; }
+/**/
 
 	::-webkit-selection {
 		background: #aaa;
