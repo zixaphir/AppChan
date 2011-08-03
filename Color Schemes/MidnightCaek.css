@@ -95,8 +95,6 @@
 		color: #3e7157 !important;
 	}
 
-
-	a:hover,
 	.postername a:hover,
 	.commentpostername a:hover,
 	a:hover .postertrip {
@@ -105,7 +103,11 @@
 
 	a.backlink,
 	a.forwardlink {
-		color: #47475b !important;
+		color: #424247 !important;
+	}
+
+	a.forwardlink {
+		font-weight: 800 !important;
 	}
 
 	.filetitle,
@@ -139,7 +141,6 @@
 	.box-outer,
 	.boxbar,
 	.deletebuttons input[value=Delete],
-	.dialog,
 	.recaptcha_image_cell>center>#recaptcha_image,
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
@@ -173,7 +174,7 @@
 	#qr label input,
 	#thread_filter input,
 	#thread_filter textarea,
-	#updater input,
+	#updater input:not([type='checkbox']),
 	.bd,
 	.boxcontent>hr,
 	.boxcontent input,
@@ -363,6 +364,11 @@
 	#watcher .move,
 	#twi_table_div .postblock {
 		border-bottom: 1px #101010 solid !important;
+	}
+
+	hr {
+		border-top: 1px solid #1c1c1c !important;
+/*[[PostSeparationHR]]*/
 	}
 
 	.postarea textarea:focus {

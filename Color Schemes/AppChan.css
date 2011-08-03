@@ -100,6 +100,10 @@
 		color: #4f5f8f !important;
 	}
 
+	a.forwardlink {
+		font-weight: 800 !important;
+	}
+
 	.span.filetitle,
 	.replytitle {
 		color: #909090 !important;
@@ -121,7 +125,6 @@
 	.box-outer,
 	.boxbar,
 	.deletebuttons input[value=Delete],
-	.dialog,
 	.recaptcha_image_cell>center>#recaptcha_image,
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
@@ -153,7 +156,7 @@
 	#qr label input,
 	#thread_filter input,
 	#thread_filter textarea,
-	#updater input,
+	#updater input:not([type='checkbox']),
 	.bd,
 	.boxcontent>hr,
 	.boxcontent input,
@@ -351,6 +354,11 @@
 	#watcher .move,
 	#twi_table_div .postblock {
 		border-bottom: 1px #2c2c2c solid !important;
+	}
+
+	hr {
+		border-top: 1px solid #333 !important;
+/*[[PostSeparationHR]]*/
 	}
 
 	form[name^='post']:before,

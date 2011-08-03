@@ -616,7 +616,7 @@ padding: 0 2px 0 2px !important;
 	.postarea textarea:focus {
 		position: fixed !important;
 		right: 2px !important;
-		bottom: 171px !important;
+		bottom: 170px !important;
 /* Tabbed Slideout: Transitions only in Firefox > 4 */
 		right: -248px !important;
 		-webkit-transition: right .3s ease-in-out 3s;
@@ -638,8 +638,8 @@ padding: 0 2px 0 2px !important;
 		-moz-transform-origin: bottom right;
 		-o-transform: rotate(-90deg);
 		-o-transform-origin: bottom right;
-		margin-left: -210px; /* I have no idea why Firefox halves this. */
-		margin-right: 260px; /* I have no idea why Firefox halves this and Chrome ignores it. */
+		margin-left: -212px; /* I have no idea why Firefox halves this. */
+		margin-right: 264px; /* I have no idea why Firefox halves this and Chrome ignores it. */
 		margin-bottom: -20px;
 		width: 210px;
 		display: inline-block; /* I have no idea why this is the only one that rotates and obeys margins in Chrome? */
@@ -666,7 +666,7 @@ padding: 0 2px 0 2px !important;
 	.postarea textarea:focus {
 		position: fixed !important;
 		right: 2px !important;
-		bottom: 172px !important;
+		bottom: 171px !important;
 		z-index: 3;
 /* Transparent to Opaque: */
 		right: 2px !important;
@@ -1029,7 +1029,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~* form[name='post'] textarea:focus {
 		position: fixed !important;
 		right: 2px !important;
-		bottom: 170px !important;
+		bottom: 171px !important;
 	}
 
 	table[width='100%']~* form>table>tbody>tr>td>label {
@@ -1242,8 +1242,8 @@ padding: 0 2px 0 2px !important;
 		-moz-transform-origin: bottom right;
 		-o-transform: rotate(-90deg);
 		-o-transform-origin: bottom right;
-		margin-left: -210px;
-		margin-right: 260px;
+		margin-left: -212px;
+		margin-right: 264px;
 		margin-bottom: -20px;
 		width: 210px;
 		display: block;
@@ -1537,6 +1537,13 @@ padding: 0 2px 0 2px !important;
 	}
 
 	.postblock,
+/* End */
+
+/*[[PostSeparationHR]]*/
+/* Yes: */
+
+/* No: */
+		border: none !important;
 /* End */
 
 /*[[CaptchaReload]]*/

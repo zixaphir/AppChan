@@ -8,6 +8,10 @@
 /*[[CustomScrollbars]]*/thumb:hover { background: #ccc; }
 /*[[CustomScrollbars]]*/thumb:active { background: #aaa; }
 
+	a.forwardlink {
+		font-weight: 800 !important;
+	}
+
 	form table tbody>tr:nth-of-type(2) td[align='right'] {
 		display: table-cell !important;
 		visibility: visible !important;
@@ -149,6 +153,10 @@
 	#watcher .move,
 	#twi_table_div .postblock {
 		border-bottom: 1px #fff solid !important;
+	}
+
+	hr {
+/*[[PostSeparationHR]]*/
 	}
 
 	form[name^='post']:before,
