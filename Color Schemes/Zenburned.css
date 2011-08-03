@@ -123,7 +123,6 @@
 		color: #efdcbc !important;
 	}
 
-
 	#boards h3,
 	#boardsMenu,
 	#filter.autohide:hover,
@@ -354,6 +353,12 @@
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		border: 1px solid #888 !important;
+	}
+
+	html body span[style='left: 5px; position: absolute;'] a {
+		height: 14px !important;
+		padding-top: 3px !important;
+		width: 56px !important;
 	}
 
 	.postarea form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
