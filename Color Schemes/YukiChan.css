@@ -8,17 +8,17 @@
 /*[[CustomScrollbars]]*/thumb:hover { background: #4f507b !important; }
 /*[[CustomScrollbars]]*/thumb:active { background: rgba(255,255,255,.4) !important; }
 
-	::-webkit-selection{
+	::-webkit-selection {
 		background: #313c5a;
 		color: #5f608b;
 	}
 
-	::-moz-selection{
+	::-moz-selection {
 		background: #313c5a;
 		color: #5f608b;
 	}
 
-	::selection{
+	::selection {
 		background: #313c5a;
 		color: #5f608b;
 	}
