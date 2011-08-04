@@ -10,7 +10,6 @@
 	thumb:active { background: #111 !important; }
 	thumb:hover { background: #3f3f3f; }
 /**/
-
 	::-webkit-selection {
 		background: #aaa;
 		color: #101010;

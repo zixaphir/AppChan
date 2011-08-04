@@ -9,7 +9,6 @@
 	thumb:active { background: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
 	scrollbar, scrollcorner { background: #e7e7e7 !important; }
 /**/
-
 	::-webkit-selection {
 		background: #101010;
 		color: #aaa;

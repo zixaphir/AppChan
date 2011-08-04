@@ -9,7 +9,6 @@
 	thumb { border-color: #101010 !important; background: #262626; }
 	thumb:hover { background: -moz-linear-gradient(top, rgba(255,255,255,.4), rgba(255,255,255,0.2)) !important; }
 /**/
-
 	::-webkit-selection {
 		background: #aaa;
 		color: #101010;

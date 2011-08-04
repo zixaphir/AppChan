@@ -1100,6 +1100,9 @@ Extra Lain is fine too. ;3
 /*[[PagesPosition]]*/
 /*[[ColorScheme]]*/
 /*[[RoundedCorners]]*/
+	.filesize~a[target='_blank']:hover {
+		background: none !important;
+	}
 /* Adblock, YouTube Autoplay Block */
 	img[src^='http://static.4chan.org/support/'],
 	embed[src*='autoplay=1'],
