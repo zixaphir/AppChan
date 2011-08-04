@@ -721,24 +721,18 @@ Extra Lain is fine too. ;3
 		border-spacing: 0 !important;
 	}
 
-	form[name='delform'] a img {
+	form[name='delform'] .filesize+br+a[target='_blank'] a img {
 		border: 0;
 		float: left;
 		margin: 0 20px 20px !important;
 	}
 
-	form[name='delform'] a img+img {
+	form[name='delform'] .filesize+br+a[target='_blank'] a img+img {
 		margin: 0 0 20px !important;
 	}
 
-	form[name='delform'] blockquote a img {
-		margin: 0 !important;
-	}
-
 	html,
-	body,
-	form[name='delform'] span[id^='4chan_ext_right'] a img,
-	form[name='delform'] a img[class*='chan_ext_tothreadstartbutton'] {
+	body {
 		margin: 0 !important;
 	}
 
@@ -969,9 +963,7 @@ Extra Lain is fine too. ;3
 		top: 0 !important;
 		z-index: 3 !important;
 	}
-
 /*[[ReturnButton]]*/
-
 /* Sidebar 4chan x options */
 	#overlay {
 		z-index: 99 !important;
@@ -1100,7 +1092,7 @@ Extra Lain is fine too. ;3
 /*[[PagesPosition]]*/
 /*[[ColorScheme]]*/
 /*[[RoundedCorners]]*/
-	.filesize~a[target='_blank']:hover {
+	.filesize+br+a[target='_blank']:hover {
 		background: none !important;
 	}
 /* Adblock, YouTube Autoplay Block */
