@@ -822,6 +822,39 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~* form>table>tbody>tr>td>label {
 		top: 0;
 	}
+	
+	table[width='100%']~#qr #qr_form {
+		display: block !important;
+		position: relative;
+	}
+	
+	table[width='100%']~#qr a[name='captcha'] {
+		position: absolute;
+		bottom: 93px;
+		right: 5px;
+		color: #000 !important;
+		cursor: default;
+		
+	}
+
+	table[width='100%']~#qr a[name='captcha']:hover {
+		color: #000 !important;
+		background: transparent !important;
+	}
+	
+	table[width='100%']~#qr a[name='add'] {
+		font-size: 0 !important;
+		visibility: hidden;
+		position: absolute;
+		bottom: 24px;
+		right: 55px;
+	}
+	
+	table[width='100%']~#qr a[name='add']:after {
+		font-size: 12px !important;
+		visibility: visible !important;
+		content: "+";
+	}
 
 	table[width='100%']~* form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3),
 	table[width='100%']~* form tr:nth-of-type(3)>td:nth-of-type(3) {
@@ -1034,6 +1067,39 @@ padding: 0 2px 0 2px !important;
 
 	table[width='100%']~* form>table>tbody>tr>td>label {
 		top: 0;
+	}
+	
+	table[width='100%']~#qr #qr_form {
+		display: block !important;
+		position: relative;
+	}
+	
+	table[width='100%']~#qr a[name='captcha'] {
+		position: absolute;
+		bottom: 93px;
+		right: 5px;
+		color: #000 !important;
+		cursor: default;
+		
+	}
+
+	table[width='100%']~#qr a[name='captcha']:hover {
+		color: #000 !important;
+		background: transparent !important;
+	}
+	
+	table[width='100%']~#qr a[name='add'] {
+		font-size: 0 !important;
+		visibility: hidden;
+		position: absolute;
+		bottom: 24px;
+		right: 55px;
+	}
+	
+	table[width='100%']~#qr a[name='add']:after {
+		font-size: 12px !important;
+		visibility: visible !important;
+		content: "+";
 	}
 
 	table[width='100%']~* form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3),
@@ -1278,6 +1344,39 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~* form>table>tbody>tr>td>label {
 		top: 0;
 	}
+	
+	table[width='100%']~#qr #qr_form {
+		display: block !important;
+		position: relative;
+	}
+	
+	table[width='100%']~#qr a[name='captcha'] {
+		position: absolute;
+		bottom: 93px;
+		right: 5px;
+		color: #000 !important;
+		cursor: default;
+		
+	}
+
+	table[width='100%']~#qr a[name='captcha']:hover {
+		color: #000 !important;
+		background: transparent !important;
+	}
+	
+	table[width='100%']~#qr a[name='add'] {
+		font-size: 0 !important;
+		visibility: hidden;
+		position: absolute;
+		bottom: 24px;
+		right: 55px;
+	}
+	
+	table[width='100%']~#qr a[name='add']:after {
+		font-size: 12px !important;
+		visibility: visible !important;
+		content: "+";
+	}
 
 	table[width='100%']~* form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3),
 	table[width='100%']~* form tr:nth-of-type(3)>td:nth-of-type(3) {
@@ -1471,6 +1570,39 @@ padding: 0 2px 0 2px !important;
 
 	table[width='100%']~* form>table>tbody>tr>td>label {
 		top: 0;
+	}
+	
+	table[width='100%']~#qr #qr_form {
+		display: block !important;
+		position: relative;
+	}
+	
+	table[width='100%']~#qr a[name='captcha'] {
+		position: absolute;
+		bottom: 93px;
+		right: 5px;
+		color: #000 !important;
+		cursor: default;
+		
+	}
+
+	table[width='100%']~#qr a[name='captcha']:hover {
+		color: #000 !important;
+		background: transparent !important;
+	}
+	
+	table[width='100%']~#qr a[name='add'] {
+		font-size: 0 !important;
+		visibility: hidden;
+		position: absolute;
+		bottom: 24px;
+		right: 55px;
+	}
+	
+	table[width='100%']~#qr a[name='add']:after {
+		font-size: 12px !important;
+		visibility: visible !important;
+		content: "+";
 	}
 
 	table[width='100%']~* form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3),
