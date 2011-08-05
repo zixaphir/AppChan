@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, MayhemYDG, !K.WeEabo0o, seaweedchan, disappoint, Kupaka
 
-Revision 42
+Revision 43
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -311,6 +311,10 @@ Extra Lain is fine too. ;3
 
 	#qr input.inputtext[name='name'] {
 		width: 190px !important;
+	}
+	
+	#files {
+		margin: -1px 0 1px 0 !important;
 	}
 
 	.chanchimp form[name^='post'] input.inputtext,

@@ -704,8 +704,13 @@ padding: 0 2px 0 2px !important;
 	}
 
 	table[width='100%']~* form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
-	table[width='100%']~* form[name^='post'] input.inputtext[name='sub'] {
+	table[width='100%']~* form[name^='post'] input.inputtext[name='sub'],
+	table[width='100%']~* #files  input[type='file'][name='upfile'] > input[type='text'] {
 		width: 197px !important;
+	}
+	
+	table[width='100%']~* #files  input[type='file'][name='upfile'] > input[type='text'] {
+		margin-right: 1px;
 	}
 
 	table[width='100%']~* form[name^='post'] #recaptcha_widget_div {
@@ -919,8 +924,13 @@ padding: 0 2px 0 2px !important;
 	}
 
 	table[width='100%']~* form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
-	table[width='100%']~* form[name^='post'] input.inputtext[name='sub'] {
+	table[width='100%']~* form[name^='post'] input.inputtext[name='sub'],
+	table[width='100%']~* #files  input[type='file'][name='upfile'] > input[type='text'] {
 		width: 197px !important;
+	}
+	
+	table[width='100%']~* #files  input[type='file'][name='upfile'] > input[type='text'] {
+		margin-right: 1px;
 	}
 
 	table[width='100%']~* form[name^='post'] #recaptcha_widget_div {
@@ -1165,8 +1175,13 @@ padding: 0 2px 0 2px !important;
 	}
 
 	table[width='100%']~* form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
-	table[width='100%']~* form[name^='post'] input.inputtext[name='sub'] {
+	table[width='100%']~* form[name^='post'] input.inputtext[name='sub'],
+	table[width='100%']~* #files  input[type='file'][name='upfile'] > input[type='text'] {
 		width: 197px !important;
+	}
+	
+	table[width='100%']~* #files  input[type='file'][name='upfile'] > input[type='text'] {
+		margin-right: 1px;
 	}
 
 	table[width='100%']~* form[name^='post'] #recaptcha_widget_div {
@@ -1435,8 +1450,13 @@ padding: 0 2px 0 2px !important;
 	}
 
 	table[width='100%']~* form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
-	table[width='100%']~* form[name^='post'] input.inputtext[name='sub'] {
+	table[width='100%']~* form[name^='post'] input.inputtext[name='sub'],
+	table[width='100%']~* #files  input[type='file'][name='upfile'] > input[type='text'] {
 		width: 197px !important;
+	}
+	
+	table[width='100%']~* #files  input[type='file'][name='upfile'] > input[type='text'] {
+		margin-right: 1px;
 	}
 
 	table[width='100%']~* form[name^='post'] #recaptcha_widget_div {
