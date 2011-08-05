@@ -494,7 +494,8 @@ Extra Lain is fine too. ;3
 	}
 
 	form[name^='post'] input[name='sub'],
-	form[name^='post'] input[type='file'][name='upfile']>input[type='text'] {
+	form[name^='post'] input[type='file'][name='upfile']>input[type='text'],
+	#files input[type='file'][name='upfile']>input[type='text'] {
 		width: 249px !important;
 		margin: 0 1px 0 0 !important;
 		vertical-align: bottom;
@@ -552,6 +553,7 @@ Extra Lain is fine too. ;3
 	#qr input.inputtext,
 	#qr input[name='upfile'],
 	#qr textarea,
+	#qr img,
 	#thread_filter input {
 		margin-top: 1px !important;
 	}

@@ -700,7 +700,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~#qr > #qr_form,
 	table[width='100%']~#qr.auto > #qr_form {
 		overflow: visible !important;
-		height: 227px !important;
+		height: 228px !important;
 	}
 
 	table[width='100%']~* form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
@@ -920,7 +920,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~#qr > #qr_form,
 	table[width='100%']~#qr.auto > #qr_form {
 		overflow: visible !important;
-		height: 227px !important;
+		height: 228px !important;
 	}
 
 	table[width='100%']~* form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
@@ -1171,7 +1171,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~#qr > #qr_form,
 	table[width='100%']~#qr.auto > #qr_form {
 		overflow: visible !important;
-		height: 227px !important;
+		height: 228px !important;
 	}
 
 	table[width='100%']~* form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
@@ -1446,7 +1446,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~#qr > #qr_form,
 	table[width='100%']~#qr.auto > #qr_form {
 		overflow: visible !important;
-		height: 227px !important;
+		height: 228px !important;
 	}
 
 	table[width='100%']~* form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
