@@ -728,13 +728,13 @@ Extra Lain is fine too. ;3
 		border-spacing: 0 !important;
 	}
 
-	form[name='delform'] .filesize+br+a[target='_blank'] a img {
+	form[name='delform'] .filesize+br+a[target='_blank'] img {
 		border: 0;
 		float: left;
 		margin: 0 20px 20px !important;
 	}
 
-	form[name='delform'] .filesize+br+a[target='_blank'] a img+img {
+	form[name='delform'] .filesize+br+a[target='_blank'] img+img {
 		margin: 0 0 20px !important;
 	}
 

@@ -28,13 +28,15 @@ none
 /*[[Font]]*/
 /* Don't Care: */
 /* Common Linux font, web font, common Windows font, common OS X font, common font */
-'Ubuntu', 'Droid Sans', 'Terminus', 'Calibri', 'Lucida Grande', 'Helvetica'
+'Ubuntu', 'Droid Sans', 'Terminus', 'Segoe UI', 'Calibri', 'Lucida Grande', 'Helvetica'
 /* Ubuntu: */
 'Ubuntu'
 /* Droid Sans: */
 'Droid Sans'
 /* Terminus: */
 'Terminus'
+/* Segoe UI */
+'Segoe UI'
 /* Calibri: */
 'Calibri'
 /* Lucidia Grande */

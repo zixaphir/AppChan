@@ -64,7 +64,7 @@
 	.thread>blockquote,
 	form[name='delform']>blockquote, /**/
 	div.logo font {
-		text-shadow: #565f6e 1px 0 2px, #565f6e -1px 0 2px, #565f6e 0 -1px 2px, #565f6e 0 1px 2px !important;;
+		text-shadow: #565f6e 1px 0 2px, #565f6e -1px 0 2px, #565f6e 0 -1px 2px, #565f6e 0 1px 2px !important;
 	}
 
 	div.postarea>form td:nth-of-type(3)>label,
@@ -95,16 +95,12 @@
 	.commentpostername {
 		color: #9ad7da !important;
 		font-weight: bold !important;
-		text-shadow: rgba(30, 30, 30, .37) 0 0 3px, rgba(30, 30, 30, .7) 0 1px 0 !important;
+		text-shadow: rgba(30, 30, 30, .37) 0 0 3px, rgba(30, 30, 30, .7) 0 1px 0;
 	}
 
 	.postertrip {
-		color: #9ad7da !important;
+		color: #acf !important;
 		font-weight: bold !important;
-	}
-
-	.trip {
-		color: #3e7157 !important;
 	}
 
 	a:hover,
@@ -116,7 +112,7 @@
 
 	a.backlink,
 	a.forwardlink {
-		color: #39acb3 !important;
+		color: #49bcc3 !important;
 	}
 
 	a.forwardlink {
@@ -253,30 +249,30 @@
 	#options input[type='checkbox'],
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox'],
 	#qr label input[type='checkbox'] {
-			color: #aaa !important;
-			border: 1px solid hsla(0,0%,50%,.5) !important;
-			background: hsla(0,0%,100%,.1) !important;
+		color: #aaa !important;
+		border: 1px solid hsla(0,0%,50%,.5) !important;
+		background: hsla(0,0%,100%,.1) !important;
 	}
 
 	input[type="checkbox"]:hover,
 	input[type="checkbox"]:hover:active {
-			background: hsla(0,0%,50%,.2) !important;
-			-moz-transition: background .3s ease-out;
+		background: hsla(0,0%,50%,.2) !important;
+		-moz-transition: background .3s ease-out;
 	}
 
 	input[type=checkbox]:active,
 	#options input[type=checkbox]:active,
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:active,
 	#qr label input[type='checkbox']:active {
-			background: hsla(0,0%,100%,.1) !important;
+		background: hsla(0,0%,100%,.1) !important;
 	}
 
 	input[type=checkbox]:checked,
 	#options input[type=checkbox]:checked,
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:checked,
 	#qr label input[type='checkbox']:checked {
-			border: 1px solid hsla(0,0%,100%,.8) !important;
-			background: hsla(0,0%,100%,.5) !important;
+		border: 1px solid hsla(0,0%,100%,.8) !important;
+		background: hsla(0,0%,100%,.5) !important;
 	}
 
 	#crntBoard {
