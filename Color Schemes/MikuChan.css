@@ -1,27 +1,31 @@
 /* MikuChan */
 /*[[CustomScrollbars]]*/
-	::-webkit-scrollbar-thumb { border: #101010 !important; background: #262626; }
-	::-webkit-scrollbar-thumb:hover { background: #3f3f3f; }
-	::-webkit-scrollbar-thumb:active { background: #111; }
-	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #1c1c1c; }
-	scrollbar, scrollcorner { background: #1c1c1c; }
+	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: -webkit-linear-gradient(top, rgba(255,255,255,0.3), rgba(255,255,255,0.1)); }
+	::-webkit-scrollbar-thumb { border: #565f6e !important; background: -webkit-linear-gradient(top, rgba(255,255,255,.4), rgba(255,255,255,0.2)); }
+	::-webkit-scrollbar-thumb:hover { background: #565f6e; }
+	::-webkit-scrollbar-thumb:active { background: #707781; }
+	scrollbar, scrollcorner { background: #808791; }
 	thumb:active { background: -moz-linear-gradient(top, rgba(255,255,255,0.3), rgba(255,255,255,0.1)) !important; }
-	thumb { border-color: #101010 !important; background: #262626; }
-	thumb:hover { background: -moz-linear-gradient(top, rgba(255,255,255,.4), rgba(255,255,255,0.2)) !important; }
+	thumb { border-color: #565f6e !important; background: -moz-linear-gradient(top, rgba(255,255,255,.4), rgba(255,255,255,0.2)); }
+	thumb:hover { background: #707781 !important; }
 /**/
 	::-webkit-selection {
-		background: #aaa;
-		color: #101010;
+		background: #ced5db;
+		color: #808791;
 	}
 
 	::-moz-selection {
-		background: #aaa;
-		color: #101010;
+		background: #ced5db;
+		color: #808791;
 	}
 
 	::selection {
-		background: #aaa;
-		color: #101010;
+		background: #ced5db;
+		color: #808791;
+	}
+
+	* {
+		text-shadow: rgba(30, 30, 30, .37) 0 0 3px, rgba(30, 30, 30, .7) 0 1px 0 !important
 	}
 
 	body,
@@ -45,17 +49,22 @@
 	#backwash_tooltip,
 	#imgControls label:after,
 	#navbot:after,
+	#qr:before,
 	#qp,
 	#twi_table_div,
 	#updater #count:not(.new):after {
 		color: #ced5db !important;
 	}
 
+	html body span[style='left: 5px; position: absolute;'] a {
+		font-weight: 400 !important;
+	}
+
 /*[[TransparentReplies]]*/	.op>blockquote,
 	.thread>blockquote,
 	form[name='delform']>blockquote, /**/
 	div.logo font {
-		text-shadow: #101010 1px 0 2px, #101010 -1px 0 2px, #101010 0 -1px 2px, #101010 0 1px 2px;
+		text-shadow: #565f6e 1px 0 2px, #565f6e -1px 0 2px, #565f6e 0 -1px 2px, #565f6e 0 1px 2px !important;;
 	}
 
 	div.postarea>form td:nth-of-type(3)>label,
@@ -86,6 +95,7 @@
 	.commentpostername {
 		color: #9ad7da !important;
 		font-weight: bold !important;
+		text-shadow: rgba(30, 30, 30, .37) 0 0 3px, rgba(30, 30, 30, .7) 0 1px 0 !important;
 	}
 
 	.postertrip {
@@ -106,24 +116,20 @@
 
 	a.backlink,
 	a.forwardlink {
-		color: #299ca3 !important;
+		color: #39acb3 !important;
 	}
 
 	a.forwardlink {
-		font-weight: 800 !important;
+		text-decoration: underline !important;
 	}
 
 	.filetitle,
 	.replytitle {
-		color: #909090 !important;
+		color: rgba(255,255,255,0.6) !important;
 	}
 
 	.unkfunc {
-		color: #9ad7da !important;
-	}
-
-	a.quotelink {
-		color: #47475b !important;
+		color: #8ac7da !important;
 	}
 
 	#boards h3,
@@ -141,15 +147,12 @@
 	#thread_filter:not(.autohide),
 	.box-outer,
 	.boxbar,
-	.deletebuttons input[value=Delete],
 	.recaptcha_image_cell>center>#recaptcha_image,
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	.yuimenuitem-selected,
 	h2,
 	input,
-	input[type='file']>input[type='button'],
-	input[type='submit'],
 	select,
 	td.postblock,
 	td.reply,
@@ -164,13 +167,12 @@
 	#twi_table_div *,
 	#backwash_tooltip,
 	#qp,
-	#qr:before,
 	#updater:hover,
 	#popup,
 	.chanchimp,
 	.chanchimp>div,
+	.deletebuttons input[value=Delete],
 	div[id^=ref],
-	form[name^='post']:before,
 	input:hover,
 	input[type='file']>input[type='button'],
 	td.replyhl,
@@ -180,7 +182,7 @@
 	input[type='submit'],
 	#com_submit,
 	input[type='file']>input[type='button'] {
-		background-color: #56545c !important;
+		background-color: #707781 !important;
 		border-radius: 5px/2px !important;
 	}
 
@@ -244,29 +246,37 @@
 	}/**/
 
 	.qphl {
-		outline-color: #627c8d !important;
+		outline-color: #ced5db !important;
 	}
 
 	input[type='checkbox'],
 	#options input[type='checkbox'],
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox'],
 	#qr label input[type='checkbox'] {
-		border: 1px solid #3c3c3c !important;
-		background: #000 !important;
+			color: #aaa !important;
+			border: 1px solid hsla(0,0%,50%,.5) !important;
+			background: hsla(0,0%,100%,.1) !important;
+	}
+
+	input[type="checkbox"]:hover,
+	input[type="checkbox"]:hover:active {
+			background: hsla(0,0%,50%,.2) !important;
+			-moz-transition: background .3s ease-out;
 	}
 
 	input[type=checkbox]:active,
 	#options input[type=checkbox]:active,
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:active,
 	#qr label input[type='checkbox']:active {
-		background: #000 !important;
+			background: hsla(0,0%,100%,.1) !important;
 	}
 
 	input[type=checkbox]:checked,
 	#options input[type=checkbox]:checked,
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:checked,
 	#qr label input[type='checkbox']:checked {
-		background: #3c3c3c !important;
+			border: 1px solid hsla(0,0%,100%,.8) !important;
+			background: hsla(0,0%,100%,.5) !important;
 	}
 
 	#crntBoard {
@@ -350,22 +360,22 @@
 	.postarea tr:nth-child(4) .postblock b,
 	#maxchars,
 	#qr:before {
-		color: rgba(255,255,255,0.3) !important;
+		color: rgba(255,255,255,0.4) !important;
 	}
 
 	#qr input:-moz-placeholder,
 	#qr textarea:-moz-placeholder {
-		color: rgba(255,255,255,0.3) !important;
+		color: rgba(255,255,255,0.4) !important;
 	}
 
 	#qr input::-webkit-input-placeholder,
 	#qr textarea::-webkit-input-placeholder {
-		color: rgba(255,255,255,0.3) !important;
+		color: rgba(255,255,255,0.4) !important;
 	}
 
 	#qr input:placeholder,
 	#qr textarea:placeholder {
-		color: rgba(255,255,255,0.3) !important;
+		color: rgba(255,255,255,0.4) !important;
 	}
 
 	#cc-showpostarea,
@@ -405,16 +415,16 @@
 	#options ul,
 	#threadwatcher .postblock,
 	.chanchimp * {
-		border-color: #101010 !important;
+		border-color: #565f6e !important;
 	}
 
 	#watcher .move,
 	#twi_table_div .postblock {
-		border-bottom: 1px #101010 solid !important;
+		border-bottom: 1px #565f6e solid !important;
 	}
 
 	hr {
-		border-top: 1px solid #1c1c1c !important;
+		border-top: 1px solid #707781 !important;
 /*[[PostSeparationHR]]*/
 	}
 
