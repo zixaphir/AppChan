@@ -33,7 +33,6 @@
 	.abbr,
 	.boxbar,
 	.boxcontent,
-	.logo,
 	.omittedposts,
 	.pages b,
 	.postblock,
@@ -46,6 +45,10 @@
 	#twi_table_div,
 	#updater #count:not(.new):after {
 		color: #000 !important;
+	}
+
+	.logo {
+		color: #af0a0f !important;
 	}
 
 /*[[TransparentReplies]]*/	.op>blockquote,

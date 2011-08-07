@@ -816,6 +816,7 @@ padding: 0 2px 0 2px !important;
 	}
 
 	table[width='100%']~#qr {
+		overflow: visible !important;
 		top: auto !important;
 		bottom: 60px !important;
 		right: 0px !important;
@@ -833,21 +834,15 @@ padding: 0 2px 0 2px !important;
 		position: relative;
 	}
 	
-	table[width='100%']~#qr a[name='captcha'] {
+	table[width='100%']~#qr .captcha {
 		position: absolute;
-		bottom: 93px;
+		bottom: 43px;
 		right: 5px;
-		color: #000 !important;
 		cursor: default;
 		
 	}
-
-	table[width='100%']~#qr a[name='captcha']:hover {
-		color: #000 !important;
-		background: transparent !important;
-	}
 	
-	table[width='100%']~#qr a[name='add'] {
+	table[width='100%']~#qr a[name='attach'] {
 		font-size: 0 !important;
 		visibility: hidden;
 		position: absolute;
@@ -855,7 +850,7 @@ padding: 0 2px 0 2px !important;
 		right: 55px;
 	}
 	
-	table[width='100%']~#qr a[name='add']:after {
+	table[width='100%']~#qr a[name='attach']:after {
 		font-size: 12px !important;
 		visibility: visible !important;
 		content: "+";
@@ -1039,6 +1034,7 @@ padding: 0 2px 0 2px !important;
 	}
 
 	table[width='100%']~#qr {
+		overflow: visible !important;
 		top: auto !important;
 		bottom: 60px !important;
 		left: auto !important;
@@ -1084,21 +1080,15 @@ padding: 0 2px 0 2px !important;
 		position: relative;
 	}
 	
-	table[width='100%']~#qr a[name='captcha'] {
+	table[width='100%']~#qr .captcha {
 		position: absolute;
-		bottom: 93px;
+		bottom: 43px;
 		right: 5px;
-		color: #000 !important;
 		cursor: default;
 		
 	}
-
-	table[width='100%']~#qr a[name='captcha']:hover {
-		color: #000 !important;
-		background: transparent !important;
-	}
 	
-	table[width='100%']~#qr a[name='add'] {
+	table[width='100%']~#qr a[name='attach'] {
 		font-size: 0 !important;
 		visibility: hidden;
 		position: absolute;
@@ -1106,7 +1096,7 @@ padding: 0 2px 0 2px !important;
 		right: 55px;
 	}
 	
-	table[width='100%']~#qr a[name='add']:after {
+	table[width='100%']~#qr a[name='attach']:after {
 		font-size: 12px !important;
 		visibility: visible !important;
 		content: "+";
@@ -1290,6 +1280,7 @@ padding: 0 2px 0 2px !important;
 	}
 
 	table[width='100%']~#qr {
+		overflow: visible !important;
 		top: auto !important;
 		bottom: 60px !important;
 		left: auto !important;
@@ -1365,21 +1356,15 @@ padding: 0 2px 0 2px !important;
 		position: relative;
 	}
 	
-	table[width='100%']~#qr a[name='captcha'] {
+	table[width='100%']~#qr .captcha {
 		position: absolute;
-		bottom: 93px;
+		bottom: 43px;
 		right: 5px;
-		color: #000 !important;
 		cursor: default;
 		
 	}
-
-	table[width='100%']~#qr a[name='captcha']:hover {
-		color: #000 !important;
-		background: transparent !important;
-	}
 	
-	table[width='100%']~#qr a[name='add'] {
+	table[width='100%']~#qr a[name='attach'] {
 		font-size: 0 !important;
 		visibility: hidden;
 		position: absolute;
@@ -1387,7 +1372,7 @@ padding: 0 2px 0 2px !important;
 		right: 55px;
 	}
 	
-	table[width='100%']~#qr a[name='add']:after {
+	table[width='100%']~#qr a[name='attach']:after {
 		font-size: 12px !important;
 		visibility: visible !important;
 		content: "+";
@@ -1580,6 +1565,7 @@ padding: 0 2px 0 2px !important;
 	}
 
 	table[width='100%']~#qr {
+		overflow: visible !important;
 		top: auto !important;
 		bottom: 60px !important;
 		right: 0px !important;
@@ -1597,21 +1583,15 @@ padding: 0 2px 0 2px !important;
 		position: relative;
 	}
 	
-	table[width='100%']~#qr a[name='captcha'] {
+	table[width='100%']~#qr .captcha {
 		position: absolute;
-		bottom: 93px;
+		bottom: 43px;
 		right: 5px;
-		color: #000 !important;
 		cursor: default;
 		
 	}
-
-	table[width='100%']~#qr a[name='captcha']:hover {
-		color: #000 !important;
-		background: transparent !important;
-	}
 	
-	table[width='100%']~#qr a[name='add'] {
+	table[width='100%']~#qr a[name='attach'] {
 		font-size: 0 !important;
 		visibility: hidden;
 		position: absolute;
@@ -1619,7 +1599,7 @@ padding: 0 2px 0 2px !important;
 		right: 55px;
 	}
 	
-	table[width='100%']~#qr a[name='add']:after {
+	table[width='100%']~#qr a[name='attach']:after {
 		font-size: 12px !important;
 		visibility: visible !important;
 		content: "+";
