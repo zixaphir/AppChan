@@ -861,8 +861,12 @@ Some more risque alternatives. ;)
 /* Expand Images div */
 	#imgControls {
 		position: fixed;
+		left: 2px !important;
+		right: auto !important;
+/*[[ChangeAlign]]*/
+		left: auto !important;
+		right: 106px;/**/
 		top: 0;
-		right: 106px;
 		bottom: auto !important;
 		width: 145px;
 		font-size: /*[[FontSize]]*/ !important;
