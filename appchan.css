@@ -938,16 +938,25 @@ Some more risque alternatives. ;)
 		max-width: 100% !important;
 	}
 /*[[DeleteButtons]]*/
-	#popup {
+
+	.deletebuttons {
 		position: fixed !important;
 		top: auto !important;
-		right: 2px !important;
-		bottom: 43px;
+		left: 2px !important;
+		right: auto !important;
+/*[[ChangeAlign]]*/
 		left: auto !important;
+		right: 2px !important;/**/
+		bottom: 43px;
 		visibility: visible !important;
 	}
 
 	#popup {
+		position: fixed !important;
+		top: auto !important;
+		left: auto !important;
+		right: 2px !important;
+		visibility: visible !important;
 		bottom: 24px;
 	}
 /* End of Reply Previews */

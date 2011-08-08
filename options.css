@@ -1910,7 +1910,7 @@ padding: 0 2px 0 2px !important;
 
 /*[[DeleteButtons]]*/
 /* Yes: */
-	.deletebuttons,
+
 /* No: */
 	input[type='checkbox'][value='delete'],
 	.deletebuttons *,
@@ -1928,8 +1928,6 @@ padding: 0 2px 0 2px !important;
 	.deletebuttons input.inputtext {
 		display: none;
 	}
-
-	.deletebuttons,
 /* End */
 
 /*[[ReplyWidth]]*/
