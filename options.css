@@ -87,7 +87,9 @@ padding: 0 2px 0 2px !important;
 	}
 
 	.pages {
-		padding: 0 250px 0 0 !important;
+		padding: 0 0 0 250px !important;
+/*[[ChangeAlign]]*/	
+		padding: 0 250px 0 0 !important;/**/
 	}
 
 	.navlinks {
@@ -104,7 +106,12 @@ padding: 0 2px 0 2px !important;
 	}
 
 	#navbar {
+		margin-left: auto !important;
+		margin-right: -265px !important;
+/*[[ChangeAlign]]*/	
+		margin-right: auto !important;
 		margin-left: -265px !important;
+/**/
 		bottom: 16px !important;
 		height: 26px !important;
 	}
@@ -153,7 +160,12 @@ padding: 0 2px 0 2px !important;
 	}
 
 	#navbar {
+		margin-left: auto !important;
+		margin-right: -265px !important;
+/*[[ChangeAlign]]*/	
+		margin-right: auto !important;
 		margin-left: -265px !important;
+/**/
 		bottom: 16px !important;
 		height: 26px !important;
 	}
@@ -2058,6 +2070,9 @@ padding: 0 2px 0 2px !important;
 		.commentpostername a.linkmail[href$='sega']:after {
 			content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAALBAMAAAD2A3K8AAAAMFBMVEUAAACMjpOChImytLmdnqMrKzDIyM55dnkODQ94foQ7PkXm5Olsb3VUUVVhZmw8Sl6klHLxAAAAAXRSTlMAQObYZgAAANFJREFUGJVjYIACRiUlJUUGDHBk4syTkxQwhO3/rQ/4ZYsuymi3YEFUqAhC4LCJZJGIi1uimKKjk3KysbOxsaMnAwNLyqoopaXhttf2it1anrJqke1pr1DlBAZhicLnM5YXZ4RWlIYoezx0zrjYqG6czCDsYRzxIko6Q/qFaKy0690Ij0MxN8K2MIhJXF+hsfxJxuwdpYGVaUU3Mm5bqgKFOZOFit3Vp23J3pgsqLxFUXpLtlD5bgcGBs45794dn6mkOVFQUOjNmXPPz8ysOcAAANw6SHLtrqolAAAAAElFTkSuQmCC');
 		}
+/* No: */
+
+/* End */
 
 /*[[sageidentifier]]*/
 /* Sage Image: */

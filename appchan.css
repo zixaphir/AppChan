@@ -1153,6 +1153,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 	embed[src*='autoplay=true'] {
 		display: none;
 	}
+/*[[MagicMode]]*/
 }
 
 @-moz-document domain(rs.4chan.org) {
