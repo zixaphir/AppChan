@@ -946,7 +946,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 	.deletebuttons {
 		position: fixed !important;
 		top: auto !important;
-		left: 53px !important;
+		left: 61px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
