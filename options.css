@@ -710,8 +710,8 @@ padding: 0 2px 0 2px !important;
 		-moz-transform-origin: bottom left;
 		-o-transform: rotate(90deg);
 		-o-transform-origin: bottom left;
-		margin-left: -212px; /* I have no idea why Firefox halves this. */
-		margin-right: 264px; /* I have no idea why Firefox halves this and Chrome ignores it. */
+		margin-left: 250px;
+		margin-right: 264px;
 		margin-bottom: -20px;
 /*[[ChangeAlign]]*/
 		-webkit-transform: rotate(-90deg);
@@ -1474,6 +1474,15 @@ padding: 0 2px 0 2px !important;
 
 	table[width='100%']~*:not(#qr) form[name='post']:before,
 	table[width='100%']~#qr:before {
+		-webkit-transform: rotate(90deg);
+		-webkit-transform-origin: bottom left;
+		-moz-transform: rotate(90deg);
+		-moz-transform-origin: bottom left;
+		-o-transform: rotate(90deg);
+		-o-transform-origin: bottom left;
+		margin-left: 250px;
+		margin-right: -232px;
+/*[[ChangeAlign]]*/
 		-webkit-transform: rotate(-90deg);
 		-webkit-transform-origin: bottom right;
 		-moz-transform: rotate(-90deg);
@@ -1481,7 +1490,7 @@ padding: 0 2px 0 2px !important;
 		-o-transform: rotate(-90deg);
 		-o-transform-origin: bottom right;
 		margin-left: -212px;
-		margin-right: 264px;
+		margin-right: 264px;/**/
 		margin-bottom: -20px;
 		width: 210px;
 		display: block;
