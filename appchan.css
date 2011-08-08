@@ -126,7 +126,11 @@ Some more risque alternatives. ;)
 /*[[boardlogo]]*/
 	div.logo img {
 		position: fixed !important;
-		right: 2px !important;
+		left: 2px !important;
+		right: auto !important;
+/*[[ChangeAlign]]*/
+		left: auto !important;
+		right: 2px !important;/**/
 		bottom: 310px !important;
 		width: 248px !important;
 		height: 83px !important;
@@ -156,9 +160,12 @@ Some more risque alternatives. ;)
 	 /* 4watch */
 		position: fixed !important;
 		top: auto !important;
-		left: auto !important;
 		bottom: 440px !important;
-		right: 0 !important;
+		left: 0 !important;
+		right: auto !important;
+/*[[ChangeAlign]]*/
+		left: auto !important;
+		right: 0 !important;/**/
 		width: 248px;
 	}
 
@@ -213,8 +220,11 @@ Some more risque alternatives. ;)
 /*[[StickyNavigation]]*/
 	#header,
 	.pages {
+		left: 250px !important;
+		right: 2px !important;
+/*[[ChangeAlign]]*/
 		left: 2px !important;
-		right: 250px !important;
+		right: 250px !important;/**/
 		z-index: 3;
 	}
 
@@ -222,8 +232,14 @@ Some more risque alternatives. ;)
 		width: 100% !important;
 		text-align: center !important;
 		border-spacing: 0 !important;
-		padding-right: 250px !important;
+		left: 2px !important;
+		right: auto !important;
+		padding-left: 250px !important;
+/*[[ChangeAlign]]*/
+		left: auto !important;
 		right: 2px !important;
+		padding-right: 250px !important;
+		padding-left: 0 !important;/**/
 		z-index: 1;
 	}
 
@@ -1016,15 +1032,23 @@ Some more risque alternatives. ;)
 	#stats {
 		position: fixed !important;
 		top: 17px !important;
+		right: auto !important;
+		left: 200px !important;
+/*[[ChangeAlign]]*/
 		right: 4px !important;
+		left: auto !important;/**/
+		width: 46px !important;
+		text-align: right !important;
 		bottom: auto !important;
-		left: auto !important;
 		cursor: default !important;
 	}
 
 	#updater {
+		right: auto !important;
+		left: 220px !important;
+/*[[ChangeAlign]]*/
 		right: 2px !important;
-		left: auto !important;
+		left: auto !important;/**/
 		top: 0 !important;
 		bottom: auto !important;
 		border: 0 !important;
@@ -1047,9 +1071,12 @@ Some more risque alternatives. ;)
 	#watcher /* 4chan x thread watcher */ {
 		position: fixed !important;
 		top: 17px !important;
+		right: auto !important;
+		left: 2px !important;
+/*[[ChangeAlign]]*/
 		right: 2px !important;
+		left: auto !important;/**/
 		bottom: auto !important;
-		left: auto !important;
 		width: 248px !important;
 	}
 
