@@ -107,13 +107,13 @@ Some more risque alternatives. ;)
 
 
 /*[[CustomScrollbars]]*/::-webkit-scrollbar { width: 10px !important; height: 10px !important; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-thumb { border: 1px solid; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-track-piece:vertical { border-left: 0; }
-/*[[CustomScrollbars]]*/::-webkit-scrollbar-track-piece:horizontal { border-top: 0; }
-/*[[CustomScrollbars]]*/scrollbar, scrollcorner { -moz-appearance: none !important; -o-appearance: none !important; width: 10px !important; height: 10px !important; }
-/*[[CustomScrollbars]]*/scrollbar[orient='vertical'] { border-left: 0; }
-/*[[CustomScrollbars]]*/scrollbar[orient='horizontal'] { border-top: 0; }
-/*[[CustomScrollbars]]*/thumb { -moz-appearance: none !important; -o-appearance: none !important; border: 1px solid; }
+::-webkit-scrollbar-thumb { border: 1px solid; }
+::-webkit-scrollbar-track-piece:vertical { border-left: 0; }
+::-webkit-scrollbar-track-piece:horizontal { border-top: 0; }
+scrollbar, scrollcorner { -moz-appearance: none !important; -o-appearance: none !important; width: 10px !important; height: 10px !important; }
+scrollbar[orient='vertical'] { border-left: 0; }
+scrollbar[orient='horizontal'] { border-top: 0; }
+thumb { -moz-appearance: none !important; -o-appearance: none !important; border: 1px solid; }/**/
 
 	form[name='delform']>table[align=right]:last-of-type {
 		visibility: hidden;
