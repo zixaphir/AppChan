@@ -62,7 +62,8 @@ none
 
 /*[[Margin]]*/
 /* Yes: */
-padding: 0 252px 0 2px !important;
+padding: 0 2px 0 252px !important;
+/*[[ChangeAlign]]*/padding: 0 252px 0 2px !important;/**/
 	}
 
 	.replyhider a {

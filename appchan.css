@@ -40,7 +40,8 @@ Some more risque alternatives. ;)
 */
 		background-repeat: no-repeat, no-repeat !important;
 		background-attachment: fixed, fixed !important;
-		background-position: 100% 100%, 70% !important;
+		background-position: 0% 100%, 70% !important;
+		/*[[ChangeAlign]]*/background-position: 100% 100%, 70% !important;/**/
 	}
 
 	body {
@@ -826,8 +827,11 @@ Some more risque alternatives. ;)
 
 	#navtopr {
 		position: fixed;
+		left: 150px !important;
+		right: auto !important;
+/*[[ChangeAlign]]*/
 		right: 55px !important;
-		left: auto !important;
+		left: auto !important;/**/
 		top: 0 !important;
 		bottom: auto !important;
 		font-size: 0 !important;
