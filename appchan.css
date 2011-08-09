@@ -1320,6 +1320,12 @@ domain('sys.4chan.org') {
 	}
 }
 
+@-moz-document domain('status.4chan.org') {
+	#header {
+		position: static !important;
+	}
+}
+
 @-moz-document url('http://www.4chan.org/'),
 url('http://www.4chan.org/#'),
 url('http://www.4chan.org') {
