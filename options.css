@@ -942,15 +942,17 @@ padding: 0 2px 0 2px !important;
 		font-size: 0 !important;
 		visibility: hidden;
 		position: absolute;
-		bottom: 24px;
+		bottom: 23px;
 		right: 55px;
 	}
 
 	table[width='100%']~#qr a[name='attach']:after {
 		font-size: 12px !important;
+		display: block;
 		visibility: visible !important;
 		width: 16px;
 		content: "+";
+		text-align: center;
 	}
 
 	table[width='100%']~* form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3),
@@ -1212,15 +1214,17 @@ padding: 0 2px 0 2px !important;
 		font-size: 0 !important;
 		visibility: hidden;
 		position: absolute;
-		bottom: 24px;
+		bottom: 23px;
 		right: 55px;
 	}
 
 	table[width='100%']~#qr a[name='attach']:after {
 		font-size: 12px !important;
+		display: block;
 		visibility: visible !important;
 		width: 16px;
 		content: "+";
+		text-align: center;
 	}
 
 	table[width='100%']~* form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3),
@@ -1521,15 +1525,17 @@ padding: 0 2px 0 2px !important;
 		font-size: 0 !important;
 		visibility: hidden;
 		position: absolute;
-		bottom: 24px;
+		bottom: 23px;
 		right: 55px;
 	}
 
 	table[width='100%']~#qr a[name='attach']:after {
 		font-size: 12px !important;
+		display: block;
 		visibility: visible !important;
 		width: 16px;
 		content: "+";
+		text-align: center;
 	}
 
 	table[width='100%']~* form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3),
@@ -1760,15 +1766,17 @@ padding: 0 2px 0 2px !important;
 		font-size: 0 !important;
 		visibility: hidden;
 		position: absolute;
-		bottom: 24px;
+		bottom: 23px;
 		right: 55px;
 	}
 
 	table[width='100%']~#qr a[name='attach']:after {
 		font-size: 12px !important;
+		display: block;
 		visibility: visible !important;
 		width: 16px;
 		content: "+";
+		text-align: center;
 	}
 
 	table[width='100%']~* form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3),
