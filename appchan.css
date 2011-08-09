@@ -899,7 +899,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		right: auto !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
-		right: 106px;/**/
+		right: 106px !important;/**/
 		top: 0;
 		bottom: auto !important;
 		width: 145px;

@@ -647,12 +647,9 @@ padding: 0 2px 0 2px !important;
 /*[[ChangeAlign]]*/
 		right: -233px !important;
 		left: auto !important;/**/
-		-webkit-transition: right .3s ease-in-out 3s;
-		-moz-transition: right .3s ease-in-out 3s;
-		-o-transition: right .3s ease-in-out 3s;
-		-webkit-transition: left .3s ease-in-out 3s;
-		-moz-transition: left .3s ease-in-out 3s;
-		-o-transition: left .3s ease-in-out 3s;
+		-webkit-transition: all .3s ease-in-out 3s;
+		-moz-transition: all .3s ease-in-out 3s;
+		-o-transition: all .3s ease-in-out 3s;
 	}
 
 	.postarea form[name='post']:hover {
@@ -661,12 +658,9 @@ padding: 0 2px 0 2px !important;
 /*[[ChangeAlign]]*/
 		right: 2px !important;
 		left: auto !important;/**/
-		-webkit-transition: right .3s linear;
-		-moz-transition: right .3s linear;
-		-o-transition: right .3s linear;
-		-webkit-transition: left .3s linear;
-		-moz-transition: left .3s linear;
-		-o-transition: left .3s linear;
+		-webkit-transition: all .3s linear;
+		-moz-transition: all .3s linear;
+		-o-transition: all .3s linear;
 	}
 
 	.postarea form[name='post'] tr:nth-child(4) {
@@ -687,12 +681,9 @@ padding: 0 2px 0 2px !important;
 /*[[ChangeAlign]]*/
 		right: -248px !important;
 		left: auto !important;/**/
-		-webkit-transition: right .3s ease-in-out 3s;
-		-moz-transition: right .3s ease-in-out 3s;
-		-o-transition: right .3s ease-in-out 3s;
-		-webkit-transition: left .3s ease-in-out 3s;
-		-moz-transition: left .3s ease-in-out 3s;
-		-o-transition: left .3s ease-in-out 3s;
+		-webkit-transition: all .3s ease-in-out 3s;
+		-moz-transition: all .3s ease-in-out 3s;
+		-o-transition: all .3s ease-in-out 3s;
 	}
 
 	.postarea form[name='post']:hover {
@@ -701,12 +692,9 @@ padding: 0 2px 0 2px !important;
 /*[[ChangeAlign]]*/
 		right: 2px !important;
 		left: auto !important;/**/
-		-webkit-transition: right .3s linear;
-		-moz-transition: right .3s linear;
-		-o-transition: right .3s linear;
-		-webkit-transition: left .3s linear;
-		-moz-transition: left .3s linear;
-		-o-transition: left .3s linear;
+		-webkit-transition: all .3s linear;
+		-moz-transition: all .3s linear;
+		-o-transition: all .3s linear;
 	}
 
 	.postarea form[name='post']:before {
@@ -1142,12 +1130,9 @@ padding: 0 2px 0 2px !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: -233px !important;/**/
-		-webkit-transition: right .3s ease-in-out 3s;
-		-moz-transition: right .3s ease-in-out 3s;
-		-o-transition: right .3s ease-in-out 3s;
-		-webkit-transition: left .3s ease-in-out 3s;
-		-moz-transition: left .3s ease-in-out 3s;
-		-o-transition: left .3s ease-in-out 3s;
+		-webkit-transition: all .3s ease-in-out 3s;
+		-moz-transition: all .3s ease-in-out 3s;
+		-o-transition: all .3s ease-in-out 3s;
 	}
 
 	table[width='100%']~#qr {
@@ -1161,12 +1146,9 @@ padding: 0 2px 0 2px !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: -235px !important;/**/
-		-webkit-transition: right .3s ease-in-out 3s;
-		-moz-transition: right .3s ease-in-out 3s;
-		-o-transition: right .3s ease-in-out 3s;
-		-webkit-transition: left .3s ease-in-out 3s;
-		-moz-transition: left .3s ease-in-out 3s;
-		-o-transition: left .3s ease-in-out 3s;
+		-webkit-transition: all .3s ease-in-out 3s;
+		-moz-transition: all .3s ease-in-out 3s;
+		-o-transition: all .3s ease-in-out 3s;
 	}
 
 	table[width='100%']~*:not(#qr) form[name^='post']:hover {
@@ -1175,12 +1157,9 @@ padding: 0 2px 0 2px !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: 2px !important;/**/
-		-webkit-transition: right .3s linear;
-		-moz-transition: right .3s linear;
-		-o-transition: right .3s linear;
-		-webkit-transition: left .3s linear;
-		-moz-transition: left .3s linear;
-		-o-transition: left .3s linear;
+		-webkit-transition: all .3s linear;
+		-moz-transition: all .3s linear;
+		-o-transition: all .3s linear;
 	}
 
 	table[width='100%']~#qr:hover {
@@ -1189,12 +1168,9 @@ padding: 0 2px 0 2px !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: 0 !important;/**/
-		-webkit-transition: right .3s linear;
-		-moz-transition: right .3s linear;
-		-o-transition: right .3s linear;
-		-webkit-transition: left .3s linear;
-		-moz-transition: left .3s linear;
-		-o-transition: left .3s linear;
+		-webkit-transition: all .3s linear;
+		-moz-transition: all .3s linear;
+		-o-transition: all .3s linear;
 	}
 
 	table[width='100%']~* form[name='post'] tr:nth-child(4),
@@ -1423,12 +1399,9 @@ padding: 0 2px 0 2px !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: -248px !important;/**/
-		-webkit-transition: right .3s ease-in-out 3s;
-		-moz-transition: right .3s ease-in-out 3s;
-		-o-transition: right .3s ease-in-out 3s;
-		-webkit-transition: left .3s ease-in-out 3s;
-		-moz-transition: left .3s ease-in-out 3s;
-		-o-transition: left .3s ease-in-out 3s;
+		-webkit-transition: all .3s ease-in-out 3s;
+		-moz-transition: all .3s ease-in-out 3s;
+		-o-transition: all .3s ease-in-out 3s;
 	}
 
 	table[width='100%']~#qr {
@@ -1442,12 +1415,9 @@ padding: 0 2px 0 2px !important;
 		width: 248px !important;/**/
 		background-color: transparent !important;
 		right: -250px !important;
-		-webkit-transition: right .3s ease-in-out 3s;
-		-moz-transition: right .3s ease-in-out 3s;
-		-o-transition: right .3s ease-in-out 3s;
-		-webkit-transition: left .3s ease-in-out 3s;
-		-moz-transition: left .3s ease-in-out 3s;
-		-o-transition: left .3s ease-in-out 3s;
+		-webkit-transition: all .3s ease-in-out 3s;
+		-moz-transition: all .3s ease-in-out 3s;
+		-o-transition: all .3s ease-in-out 3s;
 	}
 
 	table[width='100%']~*:not(#qr) form[name^='post']:hover {
@@ -1456,12 +1426,9 @@ padding: 0 2px 0 2px !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: 2px !important;/**/
-		-webkit-transition: right .3s linear;
-		-moz-transition: right .3s linear;
-		-o-transition: right .3s linear;
-		-webkit-transition: left .3s linear;
-		-moz-transition: left .3s linear;
-		-o-transition: left .3s linear;
+		-webkit-transition: all .3s linear;
+		-moz-transition: all .3s linear;
+		-o-transition: all .3s linear;
 	}
 
 	table[width='100%']~#qr:hover {
@@ -1470,12 +1437,9 @@ padding: 0 2px 0 2px !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: 0 !important;/**/
-		-webkit-transition: right .3s linear;
-		-moz-transition: right .3s linear;
-		-o-transition: right .3s linear;
-		-webkit-transition: left .3s linear;
-		-moz-transition: left .3s linear;
-		-o-transition: left .3s linear;
+		-webkit-transition: all .3s linear;
+		-moz-transition: all .3s linear;
+		-o-transition: all .3s linear;
 	}
 
 	table[width='100%']~*:not(#qr) form[name='post']:before,
