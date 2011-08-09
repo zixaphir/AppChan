@@ -381,6 +381,11 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		outline: none !important;
 		box-shadow: none !important;
 	}
+	
+	#files a {
+		margin-left: -64px !important;
+		vertical-align: top !important;
+	}
 
 /* Postform Labels */
 	.boxcontent .postblock,
