@@ -1062,17 +1062,26 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 
 	#updater {
 		right: auto !important;
-		left: 220px !important;
+		left: 215px !important;
 /*[[ChangeAlign]]*/
 		right: 2px !important;
 		left: auto !important;/**/
 		top: 0 !important;
 		bottom: auto !important;
+		width: 33px !important;
 		border: 0 !important;
 		font-size: /*[[FontSize]]*/;
 		overflow: hidden;
 		z-index: 5 !important;
 		padding-bottom: 2px;
+	}
+
+	#updater:hover {
+		width: 150px !important;
+		left: 98px !important;
+/*[[ChangeAlign]]*/
+		right: 2px !important;
+		left: auto !important;/**/
 	}
 
 	#updater #count:not(.new) {

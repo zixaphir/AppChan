@@ -2101,6 +2101,43 @@ padding: 0 2px 0 2px !important;
 /* End */
 
 /*[[fixedFilter]]*/
+/* Locked in Thread Watcher / Top */
+	#filter,
+	#thread_filter {
+		position: fixed !important;
+		top: 17px !important;
+		left: 160px !important;
+		right: auto !important;
+		/*[[ChangeAlign]]*/
+		left: auto !important;
+		right: 2px !important;/**/
+		bottom: auto !important;
+	}
+
+	#filter>div:first-child,
+	#thread_filter>div:first-child  {
+		cursor: default !important;
+	}
+
+	#filter.autohide:not(:hover),
+	#thread_filter.autohide:not(:hover) {
+		width: 148px !important;
+		text-align: right;
+	}
+
+	#filter.autohide:hover,
+	#thread_filter.autohide:hover {
+		width: 248px !important;
+		left: 2px !important;
+		/*[[ChangeAlign]]*/
+		left: auto !important;
+		right: 2px !important;/**/
+	}
+
+	#filter:not(.autohide) a[title='Auto-hide dialog box']:after,
+		#thread_filter:not(.autohide) a[title='Auto-hide dialog box']:after {
+		content: ' - SET THIS!!';
+	}
 /* Locked Bottom: */
 	#filter,
 	#thread_filter {
