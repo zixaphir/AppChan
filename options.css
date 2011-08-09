@@ -949,6 +949,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~#qr a[name='attach']:after {
 		font-size: 12px !important;
 		visibility: visible !important;
+		width: 16px;
 		content: "+";
 	}
 
@@ -1218,6 +1219,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~#qr a[name='attach']:after {
 		font-size: 12px !important;
 		visibility: visible !important;
+		width: 16px;
 		content: "+";
 	}
 
@@ -1526,6 +1528,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~#qr a[name='attach']:after {
 		font-size: 12px !important;
 		visibility: visible !important;
+		width: 16px;
 		content: "+";
 	}
 
@@ -1764,6 +1767,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~#qr a[name='attach']:after {
 		font-size: 12px !important;
 		visibility: visible !important;
+		width: 16px;
 		content: "+";
 	}
 
