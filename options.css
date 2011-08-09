@@ -88,7 +88,7 @@ padding: 0 2px 0 2px !important;
 
 	.pages {
 		padding: 0 0 0 250px !important;
-/*[[ChangeAlign]]*/	
+/*[[ChangeAlign]]*/
 		padding: 0 250px 0 0 !important;/**/
 	}
 
@@ -108,7 +108,7 @@ padding: 0 2px 0 2px !important;
 	#navbar {
 		margin-left: auto !important;
 		margin-right: -265px !important;
-/*[[ChangeAlign]]*/	
+/*[[ChangeAlign]]*/
 		margin-right: auto !important;
 		margin-left: -265px !important;
 /**/
@@ -162,7 +162,7 @@ padding: 0 2px 0 2px !important;
 	#navbar {
 		margin-left: auto !important;
 		margin-right: -265px !important;
-/*[[ChangeAlign]]*/	
+/*[[ChangeAlign]]*/
 		margin-right: auto !important;
 		margin-left: -265px !important;
 /**/
@@ -187,6 +187,8 @@ padding: 0 2px 0 2px !important;
 		position: fixed !important;
 		display: block !important;
 		left: auto !important;
+		right: 0 !important;
+/*[[ChangeAlign]]*/right: auto !important;/**/
 		top: 0px !important;
 		height: 16px !important;
 		width: 80px;
@@ -245,6 +247,8 @@ padding: 0 2px 0 2px !important;
 		position: fixed !important;
 		display: block !important;
 		left: auto !important;
+		right: 0 !important;
+/*[[ChangeAlign]]*/right: auto !important;/**/
 		bottom: 0 !important;
 		height: 16px !important;
 		width: 80px;
@@ -799,7 +803,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~* #files  input[type='file'][name='upfile'] > input[type='text'] {
 		width: 197px !important;
 	}
-	
+
 	table[width='100%']~* #files  input[type='file'][name='upfile'] > input[type='text'] {
 		margin-right: 1px;
 	}
@@ -928,20 +932,20 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~* form>table>tbody>tr>td>label {
 		top: 0;
 	}
-	
+
 	table[width='100%']~#qr #qr_form {
 		display: block !important;
 		position: relative;
 	}
-	
+
 	table[width='100%']~#qr .captcha {
 		position: absolute;
 		bottom: 43px;
 		right: 5px;
 		cursor: default;
-		
+
 	}
-	
+
 	table[width='100%']~#qr a[name='attach'] {
 		font-size: 0 !important;
 		visibility: hidden;
@@ -949,7 +953,7 @@ padding: 0 2px 0 2px !important;
 		bottom: 24px;
 		right: 55px;
 	}
-	
+
 	table[width='100%']~#qr a[name='attach']:after {
 		font-size: 12px !important;
 		visibility: visible !important;
@@ -1025,7 +1029,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~* #files  input[type='file'][name='upfile'] > input[type='text'] {
 		width: 197px !important;
 	}
-	
+
 	table[width='100%']~* #files  input[type='file'][name='upfile'] > input[type='text'] {
 		margin-right: 1px;
 	}
@@ -1209,20 +1213,20 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~* form>table>tbody>tr>td>label {
 		top: 0;
 	}
-	
+
 	table[width='100%']~#qr #qr_form {
 		display: block !important;
 		position: relative;
 	}
-	
+
 	table[width='100%']~#qr .captcha {
 		position: absolute;
 		bottom: 43px;
 		right: 5px;
 		cursor: default;
-		
+
 	}
-	
+
 	table[width='100%']~#qr a[name='attach'] {
 		font-size: 0 !important;
 		visibility: hidden;
@@ -1230,7 +1234,7 @@ padding: 0 2px 0 2px !important;
 		bottom: 24px;
 		right: 55px;
 	}
-	
+
 	table[width='100%']~#qr a[name='attach']:after {
 		font-size: 12px !important;
 		visibility: visible !important;
@@ -1306,7 +1310,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~* #files  input[type='file'][name='upfile'] > input[type='text'] {
 		width: 197px !important;
 	}
-	
+
 	table[width='100%']~* #files  input[type='file'][name='upfile'] > input[type='text'] {
 		margin-right: 1px;
 	}
@@ -1529,20 +1533,20 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~* form>table>tbody>tr>td>label {
 		top: 0;
 	}
-	
+
 	table[width='100%']~#qr #qr_form {
 		display: block !important;
 		position: relative;
 	}
-	
+
 	table[width='100%']~#qr .captcha {
 		position: absolute;
 		bottom: 43px;
 		right: 5px;
 		cursor: default;
-		
+
 	}
-	
+
 	table[width='100%']~#qr a[name='attach'] {
 		font-size: 0 !important;
 		visibility: hidden;
@@ -1550,7 +1554,7 @@ padding: 0 2px 0 2px !important;
 		bottom: 24px;
 		right: 55px;
 	}
-	
+
 	table[width='100%']~#qr a[name='attach']:after {
 		font-size: 12px !important;
 		visibility: visible !important;
@@ -1620,7 +1624,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~* #files  input[type='file'][name='upfile'] > input[type='text'] {
 		width: 197px !important;
 	}
-	
+
 	table[width='100%']~* #files  input[type='file'][name='upfile'] > input[type='text'] {
 		margin-right: 1px;
 	}
@@ -1767,20 +1771,20 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~* form>table>tbody>tr>td>label {
 		top: 0;
 	}
-	
+
 	table[width='100%']~#qr #qr_form {
 		display: block !important;
 		position: relative;
 	}
-	
+
 	table[width='100%']~#qr .captcha {
 		position: absolute;
 		bottom: 43px;
 		right: 5px;
 		cursor: default;
-		
+
 	}
-	
+
 	table[width='100%']~#qr a[name='attach'] {
 		font-size: 0 !important;
 		visibility: hidden;
@@ -1788,7 +1792,7 @@ padding: 0 2px 0 2px !important;
 		bottom: 24px;
 		right: 55px;
 	}
-	
+
 	table[width='100%']~#qr a[name='attach']:after {
 		font-size: 12px !important;
 		visibility: visible !important;

@@ -330,7 +330,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 	#qr input.inputtext[name='name'] {
 		width: 190px !important;
 	}
-	
+
 	#files {
 		margin: -1px 0 1px 0 !important;
 	}
@@ -676,7 +676,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 	form[name^='post'] #com_submit+label {
 		position: absolute;
 	}
-	
+
 	.postarea #com_submit+label {
 		top: auto;
 		font-size: /*[[FontSize]]*/ !important;

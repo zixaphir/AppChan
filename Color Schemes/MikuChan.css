@@ -154,7 +154,7 @@
 	td.postblock,
 	td.reply,
 	textarea {
-		background: #808791 !important; 
+		background: #808791 !important;
 		border-radius: 5px/2px !important;
 	}
 
@@ -309,7 +309,7 @@
 	.spoiler a {
 		-moz-transition: all .5s .1s !important;
 	}
-	
+
 	.spoiler,
 	.spoiler:before {
 		background-color:#565f6e !important;
@@ -317,12 +317,12 @@
 		text-shadow: #565f6e 0 0 3px, #565f6e 0 1px 0 !important;
 		border-radius: 5px/2px !important;
 	}
-	
+
 	.spoiler .unkfunc,
 	.spoiler a {
 		color: transparent !important;
 	}
-	
+
 	.spoiler:hover,
 	span.spoiler:hover,
 	.hborderform *:not(a):not(font):not(b){
@@ -330,22 +330,22 @@
 		background-color: transparent !important;
 		text-shadow: rgba(30, 30, 30, .37) 0 0 3px, rgba(30, 30, 30, .7) 0 1px 0 !important;
 	}
-	
-	
+
+
 	.spoiler:hover .unkfunc,
 	span.spoiler:hover .unkfunc,
 	.hborderform *:not(a):not(font):not(b) {
-		color:#387080 !important;	
+		color:#387080 !important;
 		background-color: transparent !important;
 	}
-	
+
 	spoiler:hover a,
 	span.spoiler:hover a {
 		color:#4e747d !important;
 		background-color: transparent !important;
 	}
-	
-	
+
+
 	spoiler:hover quotelink,
 	span.spoiler:hover quotelink {
 		color:#6d549c !important;
