@@ -776,8 +776,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 	form[name='delform']>table:not(.pages),
 	div.thread>table,
 	.insertedPosts>table {
-		margin: 2px 0 0 !important;
-		border-spacing: 0 !important;
+		border-spacing: 0 1px !important;
 	}
 
 	form[name='delform'] .filesize+br+a[target='_blank'] img {
