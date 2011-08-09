@@ -381,6 +381,12 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		outline: none !important;
 		box-shadow: none !important;
 	}
+
+	.captcha {
+		position: absolute;
+		right: 7px;
+		margin-top: 2px;
+	}
 	
 	#files a {
 		margin-left: -64px !important;
