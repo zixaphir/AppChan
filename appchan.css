@@ -1096,13 +1096,13 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 
 	#updater {
 		right: auto !important;
-		left: 215px !important;
+		left: 190px !important;
 /*[[ChangeAlign]]*/
 		right: 2px !important;
 		left: auto !important;/**/
 		top: 0 !important;
 		bottom: auto !important;
-		width: 33px !important;
+		width: 58px !important;
 		border: 0 !important;
 		font-size: /*[[FontSize]]*/;
 		overflow: hidden;
