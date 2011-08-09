@@ -1050,11 +1050,11 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		position: fixed !important;
 		top: 17px !important;
 		right: auto !important;
-		left: 200px !important;
+		left: 150px !important;
 /*[[ChangeAlign]]*/
 		right: 4px !important;
 		left: auto !important;/**/
-		width: 46px !important;
+		width: 96px !important;
 		text-align: right !important;
 		bottom: auto !important;
 		cursor: default !important;
