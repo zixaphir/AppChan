@@ -1878,7 +1878,7 @@ padding: 0 2px 0 2px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
-		right: 192px;/**/
+		right: 192px !important;/**/
 		bottom: 43px;
 		visibility: visible;
 		height: 14px !important;
