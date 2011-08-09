@@ -2110,9 +2110,9 @@ padding: 0 2px 0 2px !important;
 	#thread_filter {
 		position: fixed !important;
 		top: 17px !important;
-		left: 160px !important;
+		left: 2px !important;
 		right: auto !important;
-		/*[[ChangeAlign]]*/
+/*[[ChangeAlign]]*/
 		left: auto !important;
 		right: 2px !important;/**/
 		bottom: auto !important;
@@ -2125,7 +2125,7 @@ padding: 0 2px 0 2px !important;
 
 	#filter.autohide:not(:hover),
 	#thread_filter.autohide:not(:hover) {
-		width: 148px !important;
+		width: 248px !important;
 		text-align: right;
 	}
 
