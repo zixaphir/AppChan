@@ -1025,7 +1025,8 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 	.navlinks,
 	#navlinks,
 	span[id^='4chan_ext_right'] {
-		right: 255px !important;
+	right: 5px !important;
+/*[[ChangeAlign]]*/		right: 255px !important;/**/
 	}
 
 	#navlinks {
