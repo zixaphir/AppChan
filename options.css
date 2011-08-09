@@ -2014,7 +2014,8 @@ padding: 0 2px 0 2px !important;
 	.pages b,
 	.pages input,
 	a,
-	.new {
+	.new,
+	table[width='100%']~#qr a[name='attach']:after {
 		border-radius: 9px;
 	}
 
@@ -2057,7 +2058,8 @@ padding: 0 2px 0 2px !important;
 	.pages b,
 	.pages input,
 	a,
-	.new {
+	.new,
+	table[width='100%']~#qr a[name='attach']:after {
 		border-radius: 9px;
 	}
 
