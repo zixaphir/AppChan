@@ -749,9 +749,9 @@ padding: 0 2px 0 2px !important;
 		left: auto !important;/**/
 /* Transparent to Opaque: */
 		right: auto !important;
-		left: -248px !important;
+		left: 2px !important;
 /*[[ChangeAlign]]*/
-		right: -248px !important;
+		right: 2px !important;
 		left: auto !important;/**/
 		opacity: 0.2;
 		-webkit-transition: opacity .3s ease-in-out 3s;
