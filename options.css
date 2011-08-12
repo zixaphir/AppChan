@@ -676,7 +676,6 @@ padding: 0 2px 0 2px !important;
 /*[[ChangeAlign]]*/
 		right: 2px !important;
 		left: auto !important;/**/
-		bottom: 170px !important;
 /* Tabbed Slideout: Transitions only in Firefox > 4 */
 		right: auto !important;
 		left: -249px !important;
@@ -748,7 +747,6 @@ padding: 0 2px 0 2px !important;
 /*[[ChangeAlign]]*/
 		right: 2px !important;
 		left: auto !important;/**/
-		bottom: 170px !important;
 /* Transparent to Opaque: */
 		right: auto !important;
 		left: -248px !important;
@@ -1190,7 +1188,6 @@ padding: 0 2px 0 2px !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: 2px !important;/**/
-		bottom: 171px !important;
 	}
 
 	table[width='100%']~* form>table>tbody>tr>td>label {
@@ -1501,7 +1498,6 @@ padding: 0 2px 0 2px !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: 2px !important;/**/
-		bottom: 171px !important;
 	}
 
 	table[width='100%']~* form>table>tbody>tr>td>label {
