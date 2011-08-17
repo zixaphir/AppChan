@@ -783,7 +783,8 @@ padding: 0 2px 0 2px !important;
 	}
 
 	table[width='100%']~#qr > #qr_form,
-	table[width='100%']~#qr.auto > #qr_form {
+	table[width='100%']~#qr.auto > #qr_form,
+	table[width='100%']~#qr:not(:hover) > #autohide:checked ~ .autohide	{
 		overflow: visible !important;
 		height: 228px !important;
 	}
@@ -1012,7 +1013,8 @@ padding: 0 2px 0 2px !important;
 	}
 
 	table[width='100%']~#qr > #qr_form,
-	table[width='100%']~#qr.auto > #qr_form {
+	table[width='100%']~#qr.auto > #qr_form,
+	table[width='100%']~#qr:not(:hover) > #autohide:checked ~ .autohide {
 		overflow: visible !important;
 		height: 228px !important;
 	}
@@ -1283,7 +1285,8 @@ padding: 0 2px 0 2px !important;
 	}
 
 	table[width='100%']~#qr > #qr_form,
-	table[width='100%']~#qr.auto > #qr_form {
+	table[width='100%']~#qr.auto > #qr_form,
+	table[width='100%']~#qr:not(:hover) > #autohide:checked ~ .autohide {
 		overflow: visible !important;
 		height: 228px !important;
 	}
@@ -1587,7 +1590,8 @@ padding: 0 2px 0 2px !important;
 	}
 
 	table[width='100%']~#qr > #qr_form,
-	table[width='100%']~#qr.auto > #qr_form {
+	table[width='100%']~#qr.auto > #qr_form,
+	table[width='100%']~#qr:not(:hover) > #autohide:checked ~ .autohide {
 		overflow: visible !important;
 		height: 228px !important;
 	}
