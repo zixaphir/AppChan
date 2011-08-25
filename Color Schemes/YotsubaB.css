@@ -158,7 +158,7 @@
 	input[type='submit'],
 	#com_submit,
 	input[type='file']>input[type='button'],
-	table[width='100%']~#qr a[name='attach']:after {
+	table[width='100%']~#qr a#attach:after {
 		background-color: #d6daf0 !important;
 	}
 

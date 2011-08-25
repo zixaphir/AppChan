@@ -183,7 +183,7 @@
 	h3,
 	html,
 	body,
-	table[width='100%']~#qr a[name='attach']:after,
+	table[width='100%']~#qr a#attach:after,
 	div.postarea>form td:nth-of-type(3)>label input,
 	div[id^=qr],
 	table.reply[style^='clear: both'] {

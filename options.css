@@ -933,15 +933,15 @@ padding: 0 2px 0 2px !important;
 		position: relative;
 	}
 
-	table[width='100%']~#qr .captcha {
+	table[width='100%']~#qr #captchas {
 		position: absolute;
-		bottom: 43px;
+		bottom: 23px;
 		right: 5px;
 		cursor: default;
 
 	}
 
-	table[width='100%']~#qr a[name='attach'] {
+	table[width='100%']~#qr a#attach {
 		font-size: 0 !important;
 		visibility: hidden;
 		position: absolute;
@@ -949,7 +949,7 @@ padding: 0 2px 0 2px !important;
 		right: 55px;
 	}
 
-	table[width='100%']~#qr a[name='attach']:after {
+	table[width='100%']~#qr a#attach:after {
 		font-size: 12px !important;
 		display: block;
 		visibility: visible !important;
@@ -1209,15 +1209,15 @@ padding: 0 2px 0 2px !important;
 		position: relative;
 	}
 
-	table[width='100%']~#qr .captcha {
+	table[width='100%']~#qr #captchas {
 		position: absolute;
-		bottom: 43px;
+		bottom: 23px;
 		right: 5px;
 		cursor: default;
 
 	}
 
-	table[width='100%']~#qr a[name='attach'] {
+	table[width='100%']~#qr a#attach {
 		font-size: 0 !important;
 		visibility: hidden;
 		position: absolute;
@@ -1225,7 +1225,7 @@ padding: 0 2px 0 2px !important;
 		right: 55px;
 	}
 
-	table[width='100%']~#qr a[name='attach']:after {
+	table[width='100%']~#qr a#attach:after {
 		font-size: 12px !important;
 		display: block;
 		visibility: visible !important;
@@ -1524,15 +1524,15 @@ padding: 0 2px 0 2px !important;
 		position: relative;
 	}
 
-	table[width='100%']~#qr .captcha {
+	table[width='100%']~#qr #captchas {
 		position: absolute;
-		bottom: 43px;
+		bottom: 23px;
 		right: 5px;
 		cursor: default;
 
 	}
 
-	table[width='100%']~#qr a[name='attach'] {
+	table[width='100%']~#qr a#attach {
 		font-size: 0 !important;
 		visibility: hidden;
 		position: absolute;
@@ -1540,7 +1540,7 @@ padding: 0 2px 0 2px !important;
 		right: 55px;
 	}
 
-	table[width='100%']~#qr a[name='attach']:after {
+	table[width='100%']~#qr a#attach:after {
 		font-size: 12px !important;
 		display: block;
 		visibility: visible !important;
@@ -1770,15 +1770,15 @@ padding: 0 2px 0 2px !important;
 		position: relative;
 	}
 
-	table[width='100%']~#qr .captcha {
+	table[width='100%']~#qr #captchas {
 		position: absolute;
-		bottom: 43px;
+		bottom: 23px;
 		right: 5px;
 		cursor: default;
 
 	}
 
-	table[width='100%']~#qr a[name='attach'] {
+	table[width='100%']~#qr a#attach {
 		font-size: 0 !important;
 		visibility: hidden;
 		position: absolute;
@@ -1786,7 +1786,7 @@ padding: 0 2px 0 2px !important;
 		right: 55px;
 	}
 
-	table[width='100%']~#qr a[name='attach']:after {
+	table[width='100%']~#qr a#attach:after {
 		font-size: 12px !important;
 		display: block;
 		visibility: visible !important;
@@ -2011,7 +2011,7 @@ padding: 0 2px 0 2px !important;
 	.pages input,
 	a,
 	.new,
-	table[width='100%']~#qr a[name='attach']:after {
+	table[width='100%']~#qr a#attach:after {
 		border-radius: 9px;
 	}
 
@@ -2055,7 +2055,7 @@ padding: 0 2px 0 2px !important;
 	.pages input,
 	a,
 	.new,
-	table[width='100%']~#qr a[name='attach']:after {
+	table[width='100%']~#qr a#attach:after {
 		border-radius: 9px;
 	}
 
