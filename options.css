@@ -792,7 +792,7 @@ padding: 0 2px 0 2px !important;
 
 	table[width='100%']~#qr:not(:hover) > #autohide:checked ~ .autohide {
 		overflow: visible !important;
-		height: 249px !important;
+		height: auto !important;
 	}
 
 	table[width='100%']~* form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
@@ -1026,7 +1026,7 @@ padding: 0 2px 0 2px !important;
 
 	table[width='100%']~#qr:not(:hover) > #autohide:checked ~ .autohide {
 		overflow: visible !important;
-		height: 249px !important;
+		height: auto !important;
 	}
 
 	table[width='100%']~* form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
@@ -1302,7 +1302,7 @@ padding: 0 2px 0 2px !important;
 
 	table[width='100%']~#qr:not(:hover) > #autohide:checked ~ .autohide {
 		overflow: visible !important;
-		height: 249px !important;
+		height: auto !important;
 	}
 
 	table[width='100%']~* form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
@@ -1611,7 +1611,7 @@ padding: 0 2px 0 2px !important;
 
 	table[width='100%']~#qr:not(:hover) > #autohide:checked ~ .autohide {
 		overflow: visible !important;
-		height: 249px !important;
+		height: auto !important;
 	}
 
 	table[width='100%']~* form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
@@ -1946,7 +1946,8 @@ padding: 0 2px 0 2px !important;
 	}
 /* Remove Password Inputs: */
 	form[name^='post'] input[type='password'].inputtext,
-	form[name^='post'] tr:nth-of-type(7) td.postblock ,
+	form[name^='post'] tr:nth-of-type(7) td.postblock,
+	#qr input[type='password'].inputtext,
 	.deletebuttons input.inputtext {
 		display: none;
 	}
