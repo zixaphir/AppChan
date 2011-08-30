@@ -29,7 +29,7 @@
 	html body span[style='left: 5px; position: absolute;'] a,
 	input,
 	div.postarea,
-	form[name^='post']:after,
+	form[name^='post']::after,
 	select,
 	td.deletebuttons,
 	textarea,
@@ -43,12 +43,12 @@
 	.reply,
 	.replyhl,
 	#backwash_tooltip,
-	#imgControls label:after,
-	#navbot:after,
+	#imgControls label::after,
+	#navbot::after,
 	#qp,
-	#qr:before,
+	#qr::before,
 	#twi_table_div,
-	#updater #count:not(.new):after {
+	#updater #count:not(.new)::after {
 		color: #000 !important;
 	}
 
@@ -136,7 +136,7 @@
 	#navbar,
 	#options .dialog,
 	#popup,
-	#qr:before,
+	#qr::before,
 	#threadwatcher,
 	#threadwatcher .postblock,
 	#watcher,
@@ -149,7 +149,7 @@
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	.yuimenuitem-selected,
-	form[name^='post']:before,
+	form[name^='post']::before,
 	h2,
 	input,
 	input[type='file']>input[type='button'],
@@ -169,7 +169,7 @@
 	#filter textarea,
 	#header,
 	#navbot,
-	#navbot:after,
+	#navbot::after,
 	#options input,
 	#options textarea,
 	#qr,
@@ -191,7 +191,7 @@
 	body,
 	div.postarea>form td:nth-of-type(3)>label input,
 	div[id^=qr],
-	table[width='100%']~#qr a#attach:after,
+	table[width='100%']~#qr a#attach::after,
 	table.reply[style^='clear: both'] {
 		background-color: #fefefe !important;
 	}
@@ -294,7 +294,7 @@
 
 	form[name^='post'] .postblock b,
 	.postarea tr:nth-child(4) .postblock b,
-	.postarea form[name^='post']:after,
+	.postarea form[name^='post']::after,
 	#maxchars {
 		color: rgba(0,0,0,0.5) !important;
 	}

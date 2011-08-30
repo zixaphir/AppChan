@@ -186,7 +186,7 @@ padding: 0 2px 0 2px !important;
 		padding: 0 !important;
 	}
 
-	#navbot:after {
+	#navbot::after {
 		cursor: default;
 		position: fixed !important;
 		display: block !important;
@@ -206,7 +206,7 @@ padding: 0 2px 0 2px !important;
 		-o-transition: all 0.3s ease-in-out !important;
 		content: '-Navigation-';
 	}
-	#navbot:hover:after {
+	#navbot:hover::after {
 		top: 41px !important;
 		z-index: 1;
 		border: none !important;
@@ -248,7 +248,7 @@ padding: 0 2px 0 2px !important;
 		display: none !important;
 	}
 
-	#navbot:after {
+	#navbot::after {
 		cursor: default;
 		position: fixed !important;
 		display: block !important;
@@ -269,7 +269,7 @@ padding: 0 2px 0 2px !important;
 		content: '-Navigation-';
 	}
 
-	#navbot:hover:after {
+	#navbot:hover::after {
 		z-index: 1;
 		border: none !important;
 		opacity: 1 !important;
@@ -700,7 +700,7 @@ padding: 0 2px 0 2px !important;
 		-o-transition: right .3s linear, left .3s linear;
 	}
 
-	.postarea form[name='post']:before {
+	.postarea form[name='post']::before {
 		-webkit-transform: rotate(90deg);
 		-webkit-transform-origin: bottom left;
 		-moz-transform: rotate(90deg);
@@ -731,7 +731,7 @@ padding: 0 2px 0 2px !important;
 		-o-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
 	}
 
-	.postarea form[name='post']:hover:before {
+	.postarea form[name='post']:hover::before {
 		opacity: 0;
 		-webkit-transition: right .3s linear, left .3s linear;
 		-moz-transition: right .3s linear, left .3s linear;
@@ -951,7 +951,7 @@ padding: 0 2px 0 2px !important;
 		right: 55px;
 	}
 
-	table[width='100%']~#qr a#attach:after {
+	table[width='100%']~#qr a#attach::after {
 		font-size: 12px !important;
 		display: block;
 		visibility: visible !important;
@@ -1227,7 +1227,7 @@ padding: 0 2px 0 2px !important;
 		right: 55px;
 	}
 
-	table[width='100%']~#qr a#attach:after {
+	table[width='100%']~#qr a#attach::after {
 		font-size: 12px !important;
 		display: block;
 		visibility: visible !important;
@@ -1464,8 +1464,8 @@ padding: 0 2px 0 2px !important;
 		-o-transition: right .3s linear, left .3s linear;
 	}
 
-	table[width='100%']~*:not(#qr) form[name='post']:before,
-	table[width='100%']~#qr:before {
+	table[width='100%']~*:not(#qr) form[name='post']::before,
+	table[width='100%']~#qr::before {
 		-webkit-transform: rotate(90deg);
 		-webkit-transform-origin: bottom left;
 		-moz-transform: rotate(90deg);
@@ -1495,8 +1495,8 @@ padding: 0 2px 0 2px !important;
 		-o-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
 	}
 
-	table[width='100%']~*:not(#qr) form[name='post']:hover:before,
-	table[width='100%']~#qr:hover:before {
+	table[width='100%']~*:not(#qr) form[name='post']:hover::before,
+	table[width='100%']~#qr:hover::before {
 		opacity: 0;
 		-webkit-transition: right .3s linear, left .3s linear;
 		-moz-transition: right .3s linear, left .3s linear;
@@ -1542,7 +1542,7 @@ padding: 0 2px 0 2px !important;
 		right: 55px;
 	}
 
-	table[width='100%']~#qr a#attach:after {
+	table[width='100%']~#qr a#attach::after {
 		font-size: 12px !important;
 		display: block;
 		visibility: visible !important;
@@ -1788,7 +1788,7 @@ padding: 0 2px 0 2px !important;
 		right: 55px;
 	}
 
-	table[width='100%']~#qr a#attach:after {
+	table[width='100%']~#qr a#attach::after {
 		font-size: 12px !important;
 		display: block;
 		visibility: visible !important;
@@ -1936,7 +1936,7 @@ padding: 0 2px 0 2px !important;
 /* No: */
 	input[type='checkbox'][value='delete'],
 	.deletebuttons *,
-	.deletebuttons:after {
+	.deletebuttons::after {
 		display: none;
 	}
 
@@ -2014,11 +2014,11 @@ padding: 0 2px 0 2px !important;
 	.pages input,
 	a,
 	.new,
-	table[width='100%']~#qr a#attach:after {
+	table[width='100%']~#qr a#attach::after {
 		border-radius: 9px;
 	}
 
-	form[name^='post']:after {
+	form[name^='post']::after {
 		border-radius: 6px 6px 0 0;
 		-o-border-radius: 6px 6px 0 0 !important;
 	}
@@ -2058,11 +2058,11 @@ padding: 0 2px 0 2px !important;
 	.pages input,
 	a,
 	.new,
-	table[width='100%']~#qr a#attach:after {
+	table[width='100%']~#qr a#attach::after {
 		border-radius: 9px;
 	}
 
-	form[name^='post']:after {
+	form[name^='post']::after {
 		border-radius: 6px 6px 0 0;
 		-o-border-radius: 6px 6px 0 0 !important;
 	}
@@ -2093,7 +2093,7 @@ padding: 0 2px 0 2px !important;
 		visibility: hidden;
 	}
 
-	.filesize span:after {
+	.filesize span::after {
 		content: attr(title);
 		visibility: visible;
 	}
@@ -2135,8 +2135,8 @@ padding: 0 2px 0 2px !important;
 		right: 2px !important;/**/
 	}
 
-	#filter:not(.autohide) a[title='Auto-hide dialog box']:after,
-		#thread_filter:not(.autohide) a[title='Auto-hide dialog box']:after {
+	#filter:not(.autohide) a[title='Auto-hide dialog box']::after,
+		#thread_filter:not(.autohide) a[title='Auto-hide dialog box']::after {
 		content: ' - SET THIS!!';
 	}
 /* Locked Bottom: */
@@ -2158,8 +2158,8 @@ padding: 0 2px 0 2px !important;
 		cursor: default !important;
 	}
 
-	#filter:not(.autohide) a[title='Auto-hide dialog box']:after
-	#thread_filter:not(.autohide) a[title='Auto-hide dialog box']:after {
+	#filter:not(.autohide) a[title='Auto-hide dialog box']::after
+	#thread_filter:not(.autohide) a[title='Auto-hide dialog box']::after {
 		content: ' - SET THIS!!';
 	}
 /* Moveable */
@@ -2187,11 +2187,11 @@ domain('images.4chan.org'),
 
 /*[[MagicMode]]*/
 /* Yes: */
-		.commentpostername a.linkmail[href$='neko']:after {
+		.commentpostername a.linkmail[href$='neko']::after {
 			content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAARCAMAAAAIRmf1AAACoFBMVEUAAABnUFZoUVddU1T6+PvFwLzn4eFXVlT/+vZpZGCgm5dKU1Cfnpz//flbWljr5uLp5OCalpNZWFb//f3r6+n28ff9+PRaVVH59Pr//vr38vj57/Dp7eyjn5zq8O5aVVJbYV9nVFhjUFRiWFlZVlFgZGOboJzm5uZhamfz9/bt8fDw6+drb26bl5j/8/lkX1z06uldWFS5r61UT0tfWlbDwr3Ew76moqNRTU7Mx8P75OpeY19pWl1XW1qzr6x5eHaLiojv7+1UT0xIU0uzqadVS0nV0MxkZGT5+PPk497///ra29Xq5eFtY2H28e2hnJignJlUUE1dXV2vrqxkY2FkYF/m3d5vZmfDuruhl5aZlJHx8O75+PZWVVP29vT/9fTj3trv6ubh5eRdXFqTkpBOTUtqZmX88/RMQ0T78vPEvr7HwcHDwsDq6ef///3Gx8H++fXEv7tZWVedmZZXXVudnJp0c3FZU1f79fnb1dlXUVVjXWFrZmy8t7359/qLj455e3q4s69vamZjX1zy4+avpaReWFz/+f1NR0vu6Ozp4+f48/lnYmi8ur3Iw7/69fHz7+xbV1SZmJZVUk1ZV1zq5ez++f/c196uqbDn4uj9+P7z7vRVVVXt6ORiXl/OycXHw8CPi4ihoJ5aWF3/+v/k3+axrLOsp67LzMZYU1m2sq9dWF5WUU1WUk/Au7eYlJGqpqObmphYVV749f7p5Or38fPu6OpiXFz38fH79vLz7urv6+hhYF5cWWKal6D//f/Z09Xg29exraqbl5RqaW6kpKTq5uPv7Of/+PDj29D//vP18Ozs5+OloJymoZ1ZVVJZWVlkYF2hnpmblIyspJmVjYKQi4enop5STUlRTUpcWUhqY1BgWT9ZUjhcV1NiXVkkhke3AAAABHRSTlMA5vjapJ+a9wAAAP9JREFUGBk9wA1EAwEAhuHv3dTQAkLiUlJFJWF0QDLFYDRXIMkomBgxNIYxhOk4wwCqQhQjxgxSGIsALFA5BiYbMZHajz1oJlx51sBJpf6Gd3zONcrqm/r1W8ByK0r+XV1LXyOLLnjW6hMGpu0u1IzPSdO17DgrGC6AadrVodGcDQYbhguP6wAvAaC0BRZQalkUQ8UQDz5tAof0XbejOFcV5xiUoCfjj3O/nf0ZbqAMPYmzU18KSDaRQ08qnfw+B2JNdAEQt2O5vctUGjhoIBU4ygPsj2Vh5zYopDK73hsirdkPTwGCbSHpiYFwYVVC/17pCFSBeUmoqwYQuZtWxx+BVEz0LeVKIQAAAABJRU5ErkJggg==');
 		}
 
-		.commentpostername a.linkmail[href$='sega']:after {
+		.commentpostername a.linkmail[href$='sega']::after {
 			content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAALBAMAAAD2A3K8AAAAMFBMVEUAAACMjpOChImytLmdnqMrKzDIyM55dnkODQ94foQ7PkXm5Olsb3VUUVVhZmw8Sl6klHLxAAAAAXRSTlMAQObYZgAAANFJREFUGJVjYIACRiUlJUUGDHBk4syTkxQwhO3/rQ/4ZYsuymi3YEFUqAhC4LCJZJGIi1uimKKjk3KysbOxsaMnAwNLyqoopaXhttf2it1anrJqke1pr1DlBAZhicLnM5YXZ4RWlIYoezx0zrjYqG6czCDsYRzxIko6Q/qFaKy0690Ij0MxN8K2MIhJXF+hsfxJxuwdpYGVaUU3Mm5bqgKFOZOFit3Vp23J3pgsqLxFUXpLtlD5bgcGBs45794dn6mkOVFQUOjNmXPPz8ysOcAAANw6SHLtrqolAAAAAElFTkSuQmCC');
 		}
 /* No: */

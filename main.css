@@ -428,11 +428,11 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		z-index: 2;
 	}
 /* Custom Postform Labels */
-	form[name^='post'] tr:nth-of-type(1) .postblock b:after {
+	form[name^='post'] tr:nth-of-type(1) .postblock b::after {
 		content: '#TRIPCODE##SECURETRIP';
 	}
 
-	form[name^='post'] tr:nth-of-type(2) .postblock b:after {
+	form[name^='post'] tr:nth-of-type(2) .postblock b::after {
 		content: ' | NOKO | SAGE';
 	}
 
@@ -441,12 +441,12 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		color: transparent !important;
 	}
 
-	.postarea tr:nth-child(4) .postblock b:after {
+	.postarea tr:nth-child(4) .postblock b::after {
 		font-size: 75% !important;
 		content: 'NEW THREAD' !important;
 	}
 
-	table[width='100%']~.postarea tr:nth-child(4) .postblock b:after {
+	table[width='100%']~.postarea tr:nth-child(4) .postblock b::after {
 		content: 'REPLY' !important;
 	}
 
@@ -803,7 +803,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		margin-top: 17px !important;
 	}
 /*[[expandfile]]*/
-	.filesize span:after {
+	.filesize span::after {
 		font-size: /*[[FontSize]]*/ !important;
 	}
 
@@ -815,7 +815,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		border: 0 !important;
 	}
 
-	.commentpostername a.linkmail[href$='sage']:after {
+	.commentpostername a.linkmail[href$='sage']::after {
 /*[[sageidentifier]]*/
 	}
 
@@ -923,7 +923,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		color: transparent  !important;
 	}
 
-	#imgControls label:after {
+	#imgControls label::after {
 		font-size: /*[[FontSize]]*/ !important;
 		content: 'Expand';
 	}
@@ -1018,7 +1018,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		bottom: 2px;
 	}
 
-	.deletebuttons:after {
+	.deletebuttons::after {
 		visibility: visible !important;
 		position: absolute;
 		right: 57px;
@@ -1128,7 +1128,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		color: transparent !important;
 	}
 
-	#updater #count:not(.new):after {
+	#updater #count:not(.new)::after {
 		font-size: /*[[FontSize]]*/ !important;
 		content: '+0';
 	}
@@ -1220,11 +1220,11 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		width: 100% !important;
 	}
 
-	.postarea tr:nth-of-type(1) .postblock b:after {
+	.postarea tr:nth-of-type(1) .postblock b::after {
 		content: '';
 	}
 
-	.postarea tr:nth-of-type(2) .postblock b:after {
+	.postarea tr:nth-of-type(2) .postblock b::after {
 		content: '';
 	}
 }

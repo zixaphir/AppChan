@@ -26,7 +26,7 @@
 	html body span[style='left: 5px; position: absolute;'] a,
 	input,
 	div.postarea,
-	form[name^='post']:before,
+	form[name^='post']::before,
 	select,
 	td.deletebuttons,
 	textarea,
@@ -39,11 +39,11 @@
 	.reply,
 	.replyhl,
 	#backwash_tooltip,
-	#imgControls label:after,
-	#navbot:after,
+	#imgControls label::after,
+	#navbot::after,
 	#qp,
 	#twi_table_div,
-	#updater #count:not(.new):after {
+	#updater #count:not(.new)::after {
 		color: #000 !important;
 	}
 
@@ -135,7 +135,7 @@
 	#navbar,
 	#options .dialog,
 	#popup,
-	#qr:before,
+	#qr::before,
 	#threadwatcher,
 	#threadwatcher .postblock,
 	#watcher,
@@ -149,7 +149,7 @@
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	.yuimenuitem-selected,
-	form[name^='post']:before,
+	form[name^='post']::before,
 	h2,
 	select,
 	td.postblock,
@@ -158,7 +158,7 @@
 	input[type='submit'],
 	#com_submit,
 	input[type='file']>input[type='button'],
-	table[width='100%']~#qr a#attach:after {
+	table[width='100%']~#qr a#attach::after {
 		background-color: #d6daf0 !important;
 	}
 
@@ -190,7 +190,7 @@
 	#filter textarea,
 	#header,
 	#navbot,
-	#navbot:after,
+	#navbot::after,
 	#options input,
 	#options textarea,
 	#qr,
@@ -223,8 +223,8 @@
 		background-color: #eef2ff !important;
 	}
 
-	#qr:before,
-	form[name^='post']:before {
+	#qr::before,
+	form[name^='post']::before {
 		border-radius: 6px 6px 0 0;
 		-o-border-radius: 6px 6px 0 0;
 	}
@@ -314,10 +314,10 @@
 	}
 
 	form[name^='post'] .postblock b,
-	form[name^='post']:before,
+	form[name^='post']::before,
 	.postarea tr:nth-child(4) .postblock b,
 	#maxchars,
-	#qr:before {
+	#qr::before {
 		color: rgba(0,0,0,0.5) !important;
 	}
 

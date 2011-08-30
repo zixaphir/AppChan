@@ -29,7 +29,7 @@
 	html body span[style='left: 5px; position: absolute;'] a,
 	input,
 	div.postarea,
-	form[name^='post']:before,
+	form[name^='post']::before,
 	select,
 	td.deletebuttons,
 	textarea,
@@ -43,11 +43,11 @@
 	.reply,
 	.replyhl,
 	#backwash_tooltip,
-	#imgControls label:after,
-	#navbot:after,
+	#imgControls label::after,
+	#navbot::after,
 	#qp,
 	#twi_table_div,
-	#updater #count:not(.new):after {
+	#updater #count:not(.new)::after {
 		color: #909090 !important;
 	}
 
@@ -165,7 +165,7 @@
 	#filter textarea,
 	#header,
 	#navbot,
-	#navbot:after,
+	#navbot::after,
 	#options input,
 	#options textarea,
 	#qr,
@@ -186,7 +186,7 @@
 	body,
 	div.postarea>form td:nth-of-type(3)>label input,
 	div[id^=qr],
-	table[width='100%']~#qr a#attach:after,
+	table[width='100%']~#qr a#attach::after,
 	table.reply[style^='clear: both'] {
 		background-color: #101010 !important;
 	}
@@ -200,7 +200,7 @@
 	input[type='file']>input[type='button']:hover,
 	#backwash_tooltip,
 	#qp,
-	#qr:before,
+	#qr::before,
 	#updater:hover,
 	#popup,
 	.chanchimp,
@@ -208,7 +208,7 @@
 	.deletebuttons input[type='password']:hover,
 	.recaptchatable #recaptcha_response_field:hover,
 	div[id^=ref],
-	form[name^='post']:before,
+	form[name^='post']::before,
 	input:hover,
 	input[type='file']>input[type='button']
 	input[type='submit']:hover,
@@ -218,8 +218,8 @@
 		background-color: #181818 !important;
 	}
 
-	#qr:before,
-	form[name^='post']:before {
+	#qr::before,
+	form[name^='post']::before {
 		border-radius: 6px 6px 0 0;
 		-o-border-radius: 6px 6px 0 0;
 	}
@@ -301,10 +301,10 @@
 	}
 
 	form[name^='post'] .postblock b,
-	form[name^='post']:before,
+	form[name^='post']::before,
 	.postarea tr:nth-child(4) .postblock b,
 	#maxchars,
-	#qr:before {
+	#qr::before {
 		color: rgba(255,255,255,0.3) !important;
 	}
 

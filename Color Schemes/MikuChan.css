@@ -33,7 +33,7 @@
 	html body span[style='left: 5px; position: absolute;'] a,
 	input,
 	div.postarea,
-	form[name^='post']:before,
+	form[name^='post']::before,
 	select,
 	td.deletebuttons,
 	textarea,
@@ -47,12 +47,12 @@
 	.reply,
 	.replyhl,
 	#backwash_tooltip,
-	#imgControls label:after,
-	#navbot:after,
-	#qr:before,
+	#imgControls label::after,
+	#navbot::after,
+	#qr::before,
 	#qp,
 	#twi_table_div,
-	#updater #count:not(.new):after {
+	#updater #count:not(.new)::after {
 		color: #ced5db !important;
 	}
 
@@ -189,7 +189,7 @@
 	#filter textarea,
 	#header,
 	#navbot,
-	#navbot:after,
+	#navbot::after,
 	#options input,
 	#options textarea,
 	#qr,
@@ -215,7 +215,7 @@
 	.deletebuttons input[type='password']:focus,
 	input:focus,
 	input[type='submit']:focus,
-	table[width='100%']~#qr a#attach:after,
+	table[width='100%']~#qr a#attach::after,
 	textarea:focus {
 		background-color: #565f6e !important;
 	}
@@ -227,8 +227,8 @@
 		background-color: #ffa4fa !important;
 	}
 
-	#qr:before,
-	form[name^='post']:before {
+	#qr::before,
+	form[name^='post']::before {
 		border-radius: 6px 6px 0 0;
 		-o-border-radius: 6px 6px 0 0;
 	}
@@ -312,7 +312,7 @@
 	}
 
 	.spoiler,
-	.spoiler:before {
+	.spoiler::before {
 		background-color:#565f6e !important;
 		color: transparent !important; padding: 0px 2px 0px 2px !important;
 		text-shadow: #565f6e 0 0 3px, #565f6e 0 1px 0 !important;
@@ -354,10 +354,10 @@
 	}
 
 	form[name^='post'] .postblock b,
-	form[name^='post']:before,
+	form[name^='post']::before,
 	.postarea tr:nth-child(4) .postblock b,
 	#maxchars,
-	#qr:before {
+	#qr::before {
 		color: rgba(255,255,255,0.4) !important;
 	}
 

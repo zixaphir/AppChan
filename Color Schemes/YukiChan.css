@@ -63,7 +63,7 @@
 
 	.postername,
 	.commentpostername,
-	table .commentpostername a.linkmail[href$='sage']:after {
+	table .commentpostername a.linkmail[href$='sage']::after {
 		font-weight: 700;
 	}
 
@@ -97,11 +97,11 @@
 	.reply,
 	.replyhl,
 	#backwash_tooltip,
-	#imgControls label:after,
-	#navbot:after,
+	#imgControls label::after,
+	#navbot::after,
 	#qp,
 	#twi_table_div,
-	#updater #count:not(.new):after {
+	#updater #count:not(.new)::after {
 		color: #1e1f3d !important;
 	}
 
@@ -163,7 +163,7 @@
 	#filter textarea,
 	#header,
 	#navbot,
-	#navbot:after,
+	#navbot::after,
 	#options input,
 	#options textarea,
 	#options input[type=checkbox],
@@ -186,7 +186,7 @@
 	body,
 	div.postarea>form td:nth-of-type(3)>label input,
 	div[id^=qr],
-	table[width='100%']~#qr a#attach:after,
+	table[width='100%']~#qr a#attach::after,
 	table.reply[style^='clear: both'] {
 		background-color: #5f608b !important;
 	}
@@ -260,10 +260,10 @@
 
 	a,
 	form[name^='post'] .postblock b,
-	.postarea tr:nth-child(4)>.postblock>b:after,
-	.postarea form[name^='post']:before,
+	.postarea tr:nth-child(4)>.postblock>b::after,
+	.postarea form[name^='post']::before,
 	#maxchars,
-	#qr:before	{
+	#qr::before	{
 		color: #242949 !important;
 	}
 
@@ -337,7 +337,7 @@
 	}
 
 	#navbot,
-	#navbot:after,
+	#navbot::after,
 	.boxcontent dd,
 	#options ul,
 	#threadwatcher .postblock,
@@ -355,8 +355,8 @@
 /*[[PostSeparationHR]]*/
 	}
 
-	form[name^='post']:before,
-	#qr:before {
+	form[name^='post']::before,
+	#qr::before {
 		background-color: #686a99 !important;
 		border: #313c5a solid;
 		border-width: 1px 1px 0 1px;
