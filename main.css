@@ -360,7 +360,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 	}
 
 	#files {
-		margin: -1px 0 1px 0 !important;
+		margin: 0 !important;
 	}
 
 	.chanchimp form[name^='post'] input.inputtext,
