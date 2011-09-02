@@ -1,12 +1,11 @@
 /* Solarized: */
 /*
-	::-webkit-scrollbar-thumb { border: #2c2c2c !important; }
 	::-webkit-scrollbar-thumb:hover { background: #3f3f3f; }
 	::-webkit-scrollbar-thumb:active { background: #111; }
-	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #333; }
-	::-webkit-scrollbar-thumb { background: #262626; }
-	scrollbar, scrollcorner { background: #333 !important; }
-	thumb { border-color: #333 !important; background: #262626; }
+	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #002B36; }
+	::-webkit-scrollbar-thumb { background: #073642; border: #002B36 !important; }
+	scrollbar, scrollcorner { background: #002B36 !important; }
+	thumb { border-color: #002B36 !important; background: #073642; }
 	thumb:active { background: #111 !important; }
 	thumb:hover { background: #3f3f3f; }
 /**/
@@ -96,6 +95,16 @@
 		color: #d33682 !important;
 	}
 
+	.postername,
+	.commentpostername {
+		color: #586e75 !important;
+	}
+
+	.postertrip,
+	.trip {
+		color: #2aa198 !important;
+	}
+
 	a.backlink,
 	a.forwardlink {
 		color: #4f5f8f !important;
@@ -108,6 +117,11 @@
 	.span.filetitle,
 	.replytitle {
 		color: #909090 !important;
+	}
+
+	a .postertrip,
+	a .trip {
+		color: #cb4b16 !important;
 	}
 
 	.unkfunc {
