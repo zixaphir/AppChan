@@ -996,8 +996,9 @@ padding: 0 2px 0 2px !important;
 
 	table[width='100%']~* form[name^='post'] input[name='email']+label {
 	/* Spoiler Image label */
+		position: fixed !important;
 		top: auto !important;
-		bottom: -18px !important;
+		bottom: 25px !important;
 		right: 5px !important;
 	}
 
@@ -1272,11 +1273,21 @@ padding: 0 2px 0 2px !important;
 		bottom: 110px;
 		right: 3px;
 	}
-
+/* Spoiler Image label */
 	table[width='100%']~* form[name^='post'] input[name='email']+label {
-	/* Spoiler Image label */
+		-webkit-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
+		-moz-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
+		-o-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
+		position: fixed !important;
 		top: auto !important;
-		bottom: -18px !important;
+		bottom: 25px !important;
+		right: -245px !important;
+	}
+
+	table[width='100%']~* form[name^='post']:hover input[name='email']+label {
+		-webkit-transition: right .3s linear, left .3s linear;
+		-moz-transition: right .3s linear, left .3s linear;
+		-o-transition: right .3s linear, left .3s linear;
 		right: 5px !important;
 	}
 /* ...and tabbed slideout (No transitions in Chrome) */
@@ -1584,11 +1595,21 @@ padding: 0 2px 0 2px !important;
 		bottom: 110px;
 		right: 3px;
 	}
-
+/* Spoiler Image label */
 	table[width='100%']~* form[name^='post'] input[name='email']+label {
-	/* Spoiler Image label */
+		-webkit-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
+		-moz-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
+		-o-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
+		position: fixed !important;
 		top: auto !important;
-		bottom: -18px !important;
+		bottom: 25px !important;
+		right: -245px !important;
+	}
+
+	table[width='100%']~* form[name^='post']:hover input[name='email']+label {
+		-webkit-transition: right .3s linear, left .3s linear;
+		-moz-transition: right .3s linear, left .3s linear;
+		-o-transition: right .3s linear, left .3s linear;
 		right: 5px !important;
 	}
 /* ...and fade: */
@@ -1836,8 +1857,9 @@ padding: 0 2px 0 2px !important;
 
 	table[width='100%']~* form[name^='post'] input[name='email']+label {
 	/* Spoiler Image label */
+		position: fixed !important;
 		top: auto !important;
-		bottom: -18px !important;
+		bottom: 25px !important;
 		right: 5px !important;
 	}
 /* No: */
