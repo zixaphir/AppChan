@@ -790,9 +790,11 @@ padding: 0 2px 0 2px !important;
 		height: 228px !important;
 	}
 
-	table[width='100%']~#qr:not(:hover) > #autohide:checked ~ .autohide {
+	table[width='100%']~#qr:not(:hover) > #autohide:checked ~ .autohide,
+	table[width='100%']~#qr > #autohide:checked ~ .autohide {
 		overflow: visible !important;
 		height: auto !important;
+		min-height: 249px;
 	}
 
 	table[width='100%']~* form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
@@ -994,8 +996,8 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~* form[name^='post'] input[name='email']+label {
 	/* Spoiler Image label */
 		top: auto !important;
-		bottom: 4px !important;
-		right: 55px !important;
+		bottom: -18px !important;
+		right: 5px !important;
 	}
 
 	table[width='100%']~* form[name^='post'] #com_submit+label {
@@ -1024,9 +1026,11 @@ padding: 0 2px 0 2px !important;
 		height: 228px !important;
 	}
 
-	table[width='100%']~#qr:not(:hover) > #autohide:checked ~ .autohide {
+	table[width='100%']~#qr:not(:hover) > #autohide:checked ~ .autohide,
+	table[width='100%']~#qr > #autohide:checked ~ .autohide {
 		overflow: visible !important;
 		height: auto !important;
+		min-height: 249px;
 	}
 
 	table[width='100%']~* form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
@@ -1249,12 +1253,6 @@ padding: 0 2px 0 2px !important;
 		resize: none;
 	}
 
-	table[width='100%']~* form[name^='post'] input[name='email']+label {
-		position: absolute !important;
-		bottom: 4px !important;
-		right: 55px !important;
-	}
-
 	table[width='100%']~* form[name^='post'] tr .postblock b {
 		right: 3px;
 	}
@@ -1276,8 +1274,8 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~* form[name^='post'] input[name='email']+label {
 	/* Spoiler Image label */
 		top: auto !important;
-		bottom: 4px !important;
-		right: 55px !important;
+		bottom: -18px !important;
+		right: 5px !important;
 	}
 /* ...and tabbed slideout (No transitions in Chrome) */
 	table[width='100%']~.postarea,
@@ -1300,9 +1298,11 @@ padding: 0 2px 0 2px !important;
 		height: 228px !important;
 	}
 
-	table[width='100%']~#qr:not(:hover) > #autohide:checked ~ .autohide {
+	table[width='100%']~#qr:not(:hover) > #autohide:checked ~ .autohide,
+	table[width='100%']~#qr > #autohide:checked ~ .autohide {
 		overflow: visible !important;
 		height: auto !important;
+		min-height: 249px;
 	}
 
 	table[width='100%']~* form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
@@ -1585,8 +1585,8 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~* form[name^='post'] input[name='email']+label {
 	/* Spoiler Image label */
 		top: auto !important;
-		bottom: 4px !important;
-		right: 55px !important;
+		bottom: -18px !important;
+		right: 5px !important;
 	}
 /* ...and fade: */
 	table[width='100%']~.postarea,
@@ -1609,9 +1609,11 @@ padding: 0 2px 0 2px !important;
 		height: 228px !important;
 	}
 
-	table[width='100%']~#qr:not(:hover) > #autohide:checked ~ .autohide {
+	table[width='100%']~#qr:not(:hover) > #autohide:checked ~ .autohide,
+	table[width='100%']~#qr > #autohide:checked ~ .autohide {
 		overflow: visible !important;
 		height: auto !important;
+		min-height: 249px;
 	}
 
 	table[width='100%']~* form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
