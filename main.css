@@ -93,7 +93,7 @@ Some more risque alternatives. ;)
 	th,
 	[id='4chan_ext_nav_top'],
 	#autonoko, /* FIXME */
-	#footer>*:not(#navbot),
+	#footer>*:not(#navbot):not(center),
 	#ft li.fill,
 	#popular-threads,
 	#recaptcha_logo,
@@ -1207,6 +1207,15 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 
 @-moz-document domain(rs.4chan.org) {
 /* /rs/ hacks */
+	table.pages td:nth-of-type(2n-1) {
+		display: table-cell !important;
+	}
+
+	#footer>center,
+	#footer>center * {
+		visibility: visible !important;
+	}
+
 	.postarea {
 		margin-top: 20px !important;
 	}
