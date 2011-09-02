@@ -47,6 +47,7 @@
 	.reply,
 	.replyhl,
 	#backwash_tooltip,
+	#header .title,
 	#imgControls label::after,
 	#navbot::after,
 	#qr::before,

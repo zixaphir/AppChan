@@ -1,13 +1,13 @@
 /* Yotsuba B */
 /*[[CustomScrollbars]]*/
 	::-webkit-scrollbar-thumb { border: 1px solid #b7c5d9; background: #eef2ff; }
-	::-webkit-scrollbar-thumb:hover { background: #d6bad0; }
-	::-webkit-scrollbar-thumb:active { background: #eef2ff; }
+	::-webkit-scrollbar-thumb:hover { background: -webkit-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
+	::-webkit-scrollbar-thumb:active { background: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
 	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer {background: #d6daf0; }
 	scrollbar, scrollcorner { background: #d6daf0 !important; }
 	thumb { -moz-appearance: none !important; border: 1px solid #b7c5d9; background: #fff; }
-	thumb:hover { background: #d6bad0; }
-	thumb:active { background: #eef2ff; }
+	thumb:hover { background: -moz-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
+	thumb:active { background: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
 /**/
 	* {
 		outline: none !important;
@@ -39,6 +39,7 @@
 	.reply,
 	.replyhl,
 	#backwash_tooltip,
+	#header .title,
 	#imgControls label::after,
 	#navbot::after,
 	#qp,

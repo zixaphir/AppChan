@@ -1,10 +1,9 @@
 /* AppChan: */
 /*[[CustomScrollbars]]*/
-	::-webkit-scrollbar-thumb { border: #2c2c2c !important; }
 	::-webkit-scrollbar-thumb:hover { background: #3f3f3f; }
 	::-webkit-scrollbar-thumb:active { background: #111; }
 	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #333; }
-	::-webkit-scrollbar-thumb { background: #262626; }
+	::-webkit-scrollbar-thumb { background: #262626; border: #2c2c2c !important; }
 	scrollbar, scrollcorner { background: #333 !important; }
 	thumb { border-color: #333 !important; background: #262626; }
 	thumb:active { background: #111 !important; }
@@ -48,6 +47,7 @@
 	.replyhl,
 	.trip
 	#backwash_tooltip,
+	#header .title,
 	#imgControls label::after,
 	#navbot::after,
 	#qp,
