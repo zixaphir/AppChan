@@ -791,7 +791,8 @@ padding: 0 2px 0 2px !important;
 	}
 
 	table[width='100%']~#qr:not(:hover) > #autohide:checked ~ .autohide,
-	table[width='100%']~#qr > #autohide:checked ~ .autohide {
+	table[width='100%']~#qr > #autohide:checked ~ .autohide,
+	table[width='100%']~#qr > #autohide ~ .autohide	{
 		overflow: visible !important;
 		height: auto !important;
 		min-height: 249px;
@@ -1027,7 +1028,8 @@ padding: 0 2px 0 2px !important;
 	}
 
 	table[width='100%']~#qr:not(:hover) > #autohide:checked ~ .autohide,
-	table[width='100%']~#qr > #autohide:checked ~ .autohide {
+	table[width='100%']~#qr > #autohide:checked ~ .autohide,
+	table[width='100%']~#qr > #autohide ~ .autohide	{
 		overflow: visible !important;
 		height: auto !important;
 		min-height: 249px;
@@ -1299,7 +1301,8 @@ padding: 0 2px 0 2px !important;
 	}
 
 	table[width='100%']~#qr:not(:hover) > #autohide:checked ~ .autohide,
-	table[width='100%']~#qr > #autohide:checked ~ .autohide {
+	table[width='100%']~#qr > #autohide:checked ~ .autohide,
+	table[width='100%']~#qr > #autohide ~ .autohide	{
 		overflow: visible !important;
 		height: auto !important;
 		min-height: 249px;
@@ -1610,7 +1613,8 @@ padding: 0 2px 0 2px !important;
 	}
 
 	table[width='100%']~#qr:not(:hover) > #autohide:checked ~ .autohide,
-	table[width='100%']~#qr > #autohide:checked ~ .autohide {
+	table[width='100%']~#qr > #autohide:checked ~ .autohide,
+	table[width='100%']~#qr > #autohide ~ .autohide	{
 		overflow: visible !important;
 		height: auto !important;
 		min-height: 249px;
