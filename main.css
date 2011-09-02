@@ -824,6 +824,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 	.spoiler:not(:hover) a {
 		/* Fixes text spoilers */
 		color: #000 !important;
+		text-shadow: none !important;
 	}
 
 	.span.filetitle,
