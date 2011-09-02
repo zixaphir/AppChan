@@ -1831,8 +1831,8 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~* form[name^='post'] input[name='email']+label {
 	/* Spoiler Image label */
 		top: auto !important;
-		bottom: 4px !important;
-		right: 55px !important;
+		bottom: -18px !important;
+		right: 5px !important;
 	}
 /* No: */
 
