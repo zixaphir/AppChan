@@ -11,7 +11,7 @@ url('http://i.imgur.com/7wrLq.png')
 url('http://i.imgur.com/4xcQf.png')
 /* Original Horo [s]: */
 url('http://i.imgur.com/5qN2B.png')
-/* Kagamine Rin: */
+/* Kagamine Rin (sorry Wizbro): */
 url('http://i.imgur.com/QuMsg.png')
 /* Kinomoto Sakura: */
 url('http://i.imgur.com/yaayD.png')
@@ -37,14 +37,16 @@ none
 
 /*[[Font]]*/
 /* Don't Care: */
-/* Common Linux font, web font, common Windows font 1, commont WIndows font 2, common OS X font, common font */
-'Ubuntu', 'Droid Sans', 'Terminus', 'Segoe UI', 'Calibri', 'Lucida Grande', 'Helvetica'
+/* Common Linux font 1, web font, monospace font, common GNU/Linux font 2, common Windows font 1, common Windows font 2, common OS X font, common font */
+'Ubuntu', 'Droid Sans', 'Terminus', 'DejaVu Sans', 'Segoe UI', 'Calibri', 'Lucida Grande', 'Helvetica'
 /* Ubuntu: */
 'Ubuntu'
 /* Droid Sans: */
 'Droid Sans'
 /* Terminus: */
 'Terminus'
+/* DejaVu Sans */
+'DejaVu Sans'
 /* Segoe UI */
 'Segoe UI'
 /* Calibri: */
