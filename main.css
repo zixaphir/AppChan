@@ -504,6 +504,9 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
    body > form #imgControls {
         z-index: 98 !important;
     }
+   #imageType {
+     border: none !important;
+    }
 /* End of Image Hover and Image Expansion */ 
 	#ft li,
 	#ft ul,
