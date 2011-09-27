@@ -46,8 +46,11 @@ This style is designed for the following browsers, ordered alphabetically:
 */
 @-moz-document domain(boards.4chan.org), domain(rs.4chan.org) {
 /* Silhouette / Background Image */
-	html, body {
-		background-image: /*[[background]]*/, none !important;
+	body::after {
+		content: /*[[background]]*/ !important;
+		position: fixed !important;
+		right: 0px !important;
+		bottom: 312px !important;
 						  /* Mascot, background */
 /*
 Extras are fine too. ;3
@@ -62,10 +65,6 @@ Some more risque alternatives. ;)
 	Kinomoto Sakura - http://i.imgur.com/ueK6W.png
 	Yuki Nagato - http://i.imgur.com/Cy6wF.png
 */
-		background-repeat: no-repeat, no-repeat !important;
-		background-attachment: fixed, fixed !important;
-		background-position: 0% 100%, 70% !important;
-		/*[[ChangeAlign]]*/background-position: 100% 100%, 70% !important;/**/
 	}
 
 	body {
