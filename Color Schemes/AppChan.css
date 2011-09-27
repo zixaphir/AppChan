@@ -23,6 +23,9 @@
 		background: #aaa;
 		color: #101010;
 	}
+	body {
+background-image: none !important;
+	}
 
 	body,
 	body>form,

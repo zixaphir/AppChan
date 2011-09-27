@@ -1,5 +1,5 @@
 /*
-AppChan by Zixaphir, MayhemYDG, !K.WeEabo0o, seaweedchan, disappoint, Kupaka, ubuntufriend, shadertest, anonymous
+AppChan by Zixaphir, seaweed !Ponyo.2wFe, MayhemYDG, !K.WeEabo0o, disappoint, Kupaka, ubuntufriend, anonymous
 
 Revision 65
 
@@ -46,26 +46,25 @@ This style is designed for the following browsers, ordered alphabetically:
 */
 @-moz-document domain(boards.4chan.org), domain(rs.4chan.org) {
 /* Silhouette / Background Image */
-	html, body {
-		background-image: /*[[background]]*/, none !important;
+	body::after {
+		content: /*[[background]]*/ !important;
+		position: fixed !important;
+		right: 0px !important;
+		bottom: 312px !important;
 						  /* Mascot, background */
 /*
 Extras are fine too. ;3
 	Ika Mutsume - http://i.imgur.com/rKT7L.png
-	Lain - http://i.imgur.com/pF6HR.png
-	Miku - http://i.imgur.com/lFEuh.png
+	Lain - http://i.imgur.com/hIBLa.png
+	Miku - http://i.imgur.com/H1pgZ.png
 	
 Some more risque alternatives. ;)
-	Horo - http://imgur.com/1FNDI
-	Horo 2 - http://i.imgur.com/4LxlX.png
-	Ika Musume - http://i.imgur.com/8rOlU.png
-	Kinomoto Sakura - http://i.imgur.com/ueK6W.png
-	Yuki Nagato - http://i.imgur.com/Cy6wF.png
+	Horo - http://i.imgur.com/6f8wd.png
+	Horo 2 - http://i.imgur.com/KJLui.png
+	Ika Musume - http://i.imgur.com/PeckP.png
+	Kinomoto Sakura - http://i.imgur.com/C7OuW.png
+	Yuki Nagato - http://i.imgur.com/2BUww.png
 */
-		background-repeat: no-repeat, no-repeat !important;
-		background-attachment: fixed, fixed !important;
-		background-position: 0% 100%, 70% !important;
-		/*[[ChangeAlign]]*/background-position: 100% 100%, 70% !important;/**/
 	}
 
 	body {
@@ -250,7 +249,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 /*[[ChangeAlign]]*/
 		left: 2px !important;
 		right: 250px !important;/**/
-		z-index: 3;
+		z-index: 98;
 	}
 
 	.pages {
@@ -378,7 +377,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		z-index: 2;
 		margin: 0 !important;
 		padding: 0 !important;
-		bottom: 63px !important;
+		bottom: 67px !important;
 /*[[PostForm]]*/
 	}
 /*[[QuickReply]]*/
@@ -482,6 +481,33 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		right: 16px;
 	}
 /* End of Post Form Labels */
+/* Image Hover and Image Expansion */
+/*[[ihover]]*/
+    #qp {
+    z-index: 99 !important;
+    }
+    #iHover {
+    z-index: 99 !important;
+    }
+    body > table ~ form .reply a > img {
+        position: relative !important;
+        top: 0px !important;
+        z-index: 97 !important;
+    }
+
+    .filesize ~ a > img + img {
+        position: relative !important;
+        top: 0px !important;
+        z-index: 97 !important;
+    }
+
+   body > form #imgControls {
+        z-index: 98 !important;
+    }
+   #imageType {
+     border: none !important;
+    }
+/* End of Image Hover and Image Expansion */ 
 	#ft li,
 	#ft ul,
 	#options input:not([type='checkbox']),
@@ -539,7 +565,6 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 
 	div.move input,
 	form[name^='post'] input[type='text'],
-	form[name^='post'] input[type='password'],
 	input[type='file'][name='upfile']>input[type='text'],
 	input[type='file']>input[type='button'] {
 		height: 19px !important;
@@ -653,6 +678,9 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 	tr[height='73'] td,
 	form[name^='post'] tr[height='73'] {
 		height: auto !important;
+	}
+input[type="password"] {
+	height: 1.75em !important;
 	}
 /*[[CaptchaReload]]*/
 	.postarea form[name^='post'] #recaptcha_reload_btn {
@@ -815,7 +843,8 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		border: 0 !important;
 	}
 
-	.commentpostername a.linkmail[href$='sage']::after {
+	.commentpostername a.linkmail[href*='sage']::after, .commentpostername a.linkmail[href*='Sage']::after,
+	.commentpostername a.linkmail[href*='SAGE']::after {
 /*[[sageidentifier]]*/
 	}
 
@@ -957,7 +986,6 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 
 	#backwash_tooltip,
 	#popup,
-	#qp,
 	div[id^='ref'],
 	#cc-quotedcontainer_t {
 		visibility: visible;
