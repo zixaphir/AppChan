@@ -23,7 +23,9 @@
 		background: #aaa;
 		color: #101010;
 	}
-
+	body {
+background-image: none !important;
+	}
 	body,
 	body>form,
 	html body span[style='left: 5px; position: absolute;'] a,
