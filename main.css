@@ -814,7 +814,8 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		border: 0 !important;
 	}
 
-	.commentpostername a.linkmail[href$='sage']::after {
+	.commentpostername a.linkmail[href*='sage']::after, .commentpostername a.linkmail[href*='Sage']::after,
+	.commentpostername a.linkmail[href*='SAGE']::after {
 /*[[sageidentifier]]*/
 	}
 
