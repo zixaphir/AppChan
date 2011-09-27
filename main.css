@@ -249,7 +249,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 /*[[ChangeAlign]]*/
 		left: 2px !important;
 		right: 250px !important;/**/
-		z-index: 3;
+		z-index: 98;
 	}
 
 	.pages {
