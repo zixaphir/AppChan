@@ -4,33 +4,33 @@
 
 /*[[background]]*/
 /* Yuki Nagato [s]: */
-url('http://i.imgur.com/Un9LT.png')
+url('http://i.imgur.com/Nupc8.png')
 /* Yuki Nagato (+Pantsu) [s]: */
-url('http://i.imgur.com/7wrLq.png')
+url('http://i.imgur.com/A3aFp.png')
 /* Horo [s]: */
-url('http://i.imgur.com/4xcQf.png')
+url('http://i.imgur.com/i6LMi.png')
 /* Original Horo [s]: */
-url('http://i.imgur.com/5qN2B.png')
+url('http://i.imgur.com/TQ6pJ.png')
 /* Kagamine Rin: */
-url('http://i.imgur.com/QuMsg.png')
+url('http://i.imgur.com/fXXd2.png')
 /* Kinomoto Sakura: */
-url('http://i.imgur.com/yaayD.png')
+url('http://i.imgur.com/pn1GB.png')
 /* Shana: */
 url('http://i.imgur.com/k3fgX.png')
 /* Ika Musume: */
-url('http://i.imgur.com/uewrp.png')
+url('http://i.imgur.com/uUhGG.png')
 /* Iwakura Lain: */
-url('http://i.imgur.com/DXy3i.png')
+url('http://i.imgur.com/AfjG9.png')
 /* Samus Aran: */
-url('http://i.imgur.com/ldd0C.png')
+url('http://i.imgur.com/34viJ.png')
 /* Hatsune Miku: */
-url('http://i.imgur.com/kz5dH.png')
+url('http://i.imgur.com/vE3FJ.png')
 /* Li Syaoran: */
-url('http://i.imgur.com/Tuasr.png')
+url('http://i.imgur.com/GySuy.png')
 /* Koiwai Yotsuba: */
-url('http://i.imgur.com/hVHFP.png')
+url('http://i.imgur.com/1MyDM.png')
 /* BLACK ROCK SHOOTER */
-url('http://i.imgur.com/wNaWY.png')
+url('http://i.imgur.com/VidKo.png')
 /* None: */
 none
 /* End */
@@ -67,20 +67,6 @@ none
 /*[[Margin]]*/
 /* Yes: */
 padding: 0 2px 0 252px !important;
-/*[[ChangeAlign]]*/padding: 0 252px 0 2px !important;/**/
-	}
-
-	.replyhider a {
-		position: absolute;
-		right: 5px;
-/*[[ChangeAlign]]*/		right: 255px;/**/
-/* No: */
-padding: 0 2px 0 2px !important;
-	}
-
-	.replyhider a {
-		position: absolute;
-		right: 5px;
 /* End */
 
 /*[[StickyNavigation]]*/
