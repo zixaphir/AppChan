@@ -481,6 +481,28 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		right: 16px;
 	}
 /* End of Post Form Labels */
+/* Image Hover and Image Expansion */
+/*[[ihover]]*/
+    #iHover {
+    z-index: 99 !important;
+    }
+    body > table ~ form .reply a > img {
+        position: relative !important;
+        top: 0px !important;
+        z-index: 97 !important;
+    }
+
+    .filesize ~ a > img + img {
+        position: relative !important;
+        top: 0px !important;
+        z-index: 97 !important;
+    }
+
+   body > form #imgControls {
+        z-index: 98 !important;
+        background-color: #101010 !important;
+    }
+/* End of Image Hover and Image Expansion */ 
 	#ft li,
 	#ft ul,
 	#options input:not([type='checkbox']),
