@@ -23,7 +23,9 @@
 		background: #313c5a;
 		color: #5f608b;
 	}
-
+	body {
+background-image: none !important;
+	}
 	input[type='checkbox']:checked,
 	#options input[type='checkbox']:checked{
 		background: rgba(255,255,255,.4) !important;
