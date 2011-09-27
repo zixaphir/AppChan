@@ -249,7 +249,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 /*[[ChangeAlign]]*/
 		left: 2px !important;
 		right: 250px !important;/**/
-		z-index: 3;
+		z-index: 98;
 	}
 
 	.pages {
@@ -483,6 +483,9 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 /* End of Post Form Labels */
 /* Image Hover and Image Expansion */
 /*[[ihover]]*/
+    #qp {
+    z-index: 99 !important;
+    }
     #iHover {
     z-index: 99 !important;
     }
@@ -979,7 +982,6 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 
 	#backwash_tooltip,
 	#popup,
-	#qp,
 	div[id^='ref'],
 	#cc-quotedcontainer_t {
 		visibility: visible;
