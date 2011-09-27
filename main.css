@@ -377,7 +377,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		z-index: 2;
 		margin: 0 !important;
 		padding: 0 !important;
-		bottom: 63px !important;
+		bottom: 67px !important;
 /*[[PostForm]]*/
 	}
 /*[[QuickReply]]*/
@@ -565,7 +565,6 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 
 	div.move input,
 	form[name^='post'] input[type='text'],
-	form[name^='post'] input[type='password'],
 	input[type='file'][name='upfile']>input[type='text'],
 	input[type='file']>input[type='button'] {
 		height: 19px !important;
@@ -679,6 +678,9 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 	tr[height='73'] td,
 	form[name^='post'] tr[height='73'] {
 		height: auto !important;
+	}
+input[type="password"] {
+	height: 1.75em !important;
 	}
 /*[[CaptchaReload]]*/
 	.postarea form[name^='post'] #recaptcha_reload_btn {
