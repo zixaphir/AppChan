@@ -292,32 +292,10 @@
 
 	td[style='border: 1px dashed;'],
 	td.reply>tr>td.reply,
-	.inline td.reply,
-	.inline .inline .inline td.reply,
-	.inline .inline .inline .inline .inline td.reply,
-	.inline .inline .inline .inline .inline .inline .inline td.reply,
-	.inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply,
-	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply,
-	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply,
-	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply,
-	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply,
-	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply {
+	.inline td.reply {
 		/* Inline Quotes */
-		background-color: rgba(255,255,255,0.2) !important;
-		border: 1px solid rgba(128,128,128,0.5) !important;
-	}
-	
-	.inline .inline td.reply,
-	.inline .inline .inline .inline td.reply,
-	.inline .inline .inline .inline .inline .inline td.reply,
-	.inline .inline .inline .inline .inline .inline .inline .inline td.reply,
-	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply,
-	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply,
-	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply,
-	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply,
-	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply,
-	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply {
-		background-color: #d6daf0 !important; 
+		background-color: rgba(0,0,0,0.1) !important;
+		border: none !important;
 	}
 
 	.pages b {
