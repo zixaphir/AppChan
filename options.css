@@ -1918,6 +1918,12 @@ padding: 0 2px 0 2px !important;
 		display: none;
 	}
 /* End */
+/*[[redtext]]*/
+/* Show */
+none
+/* Hide */
+	display: none !important;
+/* End */
 
 /*[[ReturnButton]]*/
 /* Yes: */

@@ -295,6 +295,12 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		border: none !important;
 		text-align: center;
 	}
+/* moot's announcements */
+	font[color="red"] {
+		/*[[redtext]]*/
+		position: relative !important;
+		top: 10px !important;
+	}
 /*[[CompactNavigation]]*/
 	.pages input {
 		margin-bottom: 2px !important;

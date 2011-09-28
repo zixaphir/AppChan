@@ -51,7 +51,8 @@ background-image: none !important;
 	#qp,
 	#qr::before,
 	#twi_table_div,
-	#updater #count:not(.new)::after {
+	#updater #count:not(.new)::after,
+	font[color="red"] {
 		color: #000 !important;
 	}
 
