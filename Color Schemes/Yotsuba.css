@@ -1,17 +1,17 @@
-/* Yotsuba */
-/*[[CustomScrollbars]]*/
-	::-webkit-scrollbar-thumb { border: 1px solid #b7c5d9; background: #eef2ff; }
-	::-webkit-scrollbar-thumb:hover { background: -webkit-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
-	::-webkit-scrollbar-thumb:active { background: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
-	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer {background: #d6daf0; }
-	scrollbar, scrollcorner { background: #d6daf0 !important; }
-	thumb { -moz-appearance: none !important; border: 1px solid #b7c5d9; background: #fff; }
-	thumb:hover { background: -moz-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
-	thumb:active { background: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
-/**/
+/* Yotsuba A + B */
 }
 /* Yotsuba A */
 @-moz-document url-prefix('http://boards.4chan.org/b/'), url-prefix('http://boards.4chan.org/d/'), url-prefix('http://boards.4chan.org/e/'), url-prefix('http://boards.4chan.org/f/'), url-prefix('http://boards.4chan.org/gif/'), url-prefix('http://boards.4chan.org/h/'), url-prefix('http://boards.4chan.org/hr/'), url-prefix('http://boards.4chan.org/r/'), url-prefix('http://boards.4chan.org/s/'), url-prefix('http://boards.4chan.org/t/'), url-prefix('http://boards.4chan.org/u/'), url-prefix('http://boards.4chan.org/wg/'), url-prefix('http://boards.4chan.org/i/'), url-prefix('http://boards.4chan.org/ic/'), url-prefix('http://boards.4chan.org/y/'), url-prefix('http://boards.4chan.org/soc/')  {
+/*[[CustomScrollbars]]*/
+	::-webkit-scrollbar-thumb { border: 1px solid #D9BFB7; background: #eef2ff; }
+	::-webkit-scrollbar-thumb:hover { background: -webkit-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
+	::-webkit-scrollbar-thumb:active { background: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
+	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer {background: #F0E0D6; }
+	scrollbar, scrollcorner { background: #F0E0D6 !important; }
+	thumb { -moz-appearance: none !important; border: 1px solid #D9BFB7; background: #fff; }
+	thumb:hover { background: -moz-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
+	thumb:active { background: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
+/**/
 	body {
 		background: url("http://static.4chan.org/image/fade.png") repeat-x scroll center top #EEF2FF !important;
 	}
@@ -229,6 +229,16 @@
 /* Yotsuba B */
 
 @-moz-document url-prefix('http://boards.4chan.org/v/'), url-prefix('http://boards.4chan.org/g/'), url-prefix('http://boards.4chan.org/a/'), url-prefix('http://boards.4chan.org/c/'), url-prefix('http://boards.4chan.org/k/'), url-prefix('http://boards.4chan.org/m/'), url-prefix('http://boards.4chan.org/o/'), url-prefix('http://boards.4chan.org/p/'), url-prefix('http://boards.4chan.org/w/'), url-prefix('http://boards.4chan.org/cm/'), url-prefix('http://boards.4chan.org/3/'), url-prefix('http://boards.4chan.org/adv/'), url-prefix('http://boards.4chan.org/an/'), url-prefix('http://boards.4chan.org/cgl/'), url-prefix('http://boards.4chan.org/ck/'), url-prefix('http://boards.4chan.org/co/'), url-prefix('http://boards.4chan.org/fa/'), url-prefix('http://boards.4chan.org/fit/'), url-prefix('http://boards.4chan.org/int/'), url-prefix('http://boards.4chan.org/jp/'), url-prefix('http://boards.4chan.org/lit/'), url-prefix('http://boards.4chan.org/mu/'), url-prefix('http://boards.4chan.org/n/'), url-prefix('http://boards.4chan.org/po/'), url-prefix('http://boards.4chan.org/sci/'), url-prefix('http://boards.4chan.org/sp/'), url-prefix('http://boards.4chan.org/tg/'), url-prefix('http://boards.4chan.org/toy/'), url-prefix('http://boards.4chan.org/trv/'), url-prefix('http://boards.4chan.org/tv/'), url-prefix('http://boards.4chan.org/vp/'), url-prefix('http://boards.4chan.org/s/') {
+/*[[CustomScrollbars]]*/
+	::-webkit-scrollbar-thumb { border: 1px solid #b7c5d9; background: #eef2ff; }
+	::-webkit-scrollbar-thumb:hover { background: -webkit-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
+	::-webkit-scrollbar-thumb:active { background: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
+	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer {background: #d6daf0; }
+	scrollbar, scrollcorner { background: #d6daf0 !important; }
+	thumb { -moz-appearance: none !important; border: 1px solid #b7c5d9; background: #fff; }
+	thumb:hover { background: -moz-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
+	thumb:active { background: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
+/**/
 	body {
 		background: url("http://static.4chan.org/image/fade-blue.png") repeat-x scroll center top #EEF2FF !important;
 	}
