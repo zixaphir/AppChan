@@ -50,7 +50,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		content: /*[[background]]*/ !important;
 		position: fixed !important;
 		right: 0px !important;
-		bottom: 312px !important;
+		bottom: 269px !important;
 						  /* Mascot, background */
 /*
 Extras are fine too. ;3
@@ -383,7 +383,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		z-index: 2;
 		margin: 0 !important;
 		padding: 0 !important;
-		bottom: 67px !important;
+		bottom: 24px !important;
 /*[[PostForm]]*/
 	}
 /*[[QuickReply]]*/
@@ -805,8 +805,14 @@ input[type="password"] {
 		cursor: pointer !important;
 	}
 /* Posts */
+	form[name='delform'] br[clear='left'],
+	form[name='delform'] br[clear='left'] ~ * {
+		position: fixed !important;
+		bottom: -500px !important;
+	}
+
 	form[name='delform'] {
-		padding: 17px 0 !important;
+		padding: 17px 0 0 !important;
 		margin: 0 !important;
 	}
 
@@ -1024,7 +1030,7 @@ input[type="password"] {
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: 2px !important;/**/
-		bottom: 43px;
+		bottom: 0px;
 		visibility: visible !important;
 	}
 

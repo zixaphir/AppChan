@@ -919,7 +919,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~#qr {
 		overflow: visible !important;
 		top: auto !important;
-		bottom: 61px !important;
+		bottom: 18px !important;
 		right: auto !important;
 		left: 0 !important;
 /*[[ChangeAlign]]*/
@@ -1945,8 +1945,8 @@ none
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: 192px !important;/**/
-		bottom: 43px;
-		visibility: visible;
+		bottom: 0px;
+		visibility: visible !important;
 		height: 14px !important;
 		width: 58px !important;
 		margin: 0 !important;
