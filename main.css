@@ -298,7 +298,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 	font[color="red"] {
 		/*[[redtext]]*/
 		position: relative !important;
-		top: 10px !important;
+		top: 20px !important;
 	}
 /*[[CompactNavigation]]*/
 	.pages input {
@@ -804,18 +804,13 @@ input[type="password"] {
 		cursor: pointer !important;
 	}
 /* Posts */
-	#footer {
-		position: fixed !important;
-		bottom: -500px !important;
-	}
 	form[name='delform'] {
-		padding: 17px 0 !important;
-		margin: 0 0 3px !important;
+		padding: 17px 0 0 0 !important;
+		margin: 0 0 0px !important;
 	}
-   	form[name='delform'] br[clear='left'],
-	form[name='delform'] br[clear='left'] ~ * {
-   		 position: fixed !important;
-    		 bottom: -500px !important;
+   	form[name='delform'] br[clear='left'] {
+   		 position: fixed;
+    		 bottom: -500px;
 	}
 
 /*[[ReplyWidth]]*/

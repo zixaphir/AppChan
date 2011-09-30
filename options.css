@@ -44,7 +44,7 @@ none
 /* Droid Sans: */
 'Droid Sans'
 /* Terminus: */
-'Terminus'
+'Terminus', 'Segoe UI', 'Calibri'
 /* Segoe UI */
 'Segoe UI'
 /* Calibri: */
@@ -192,7 +192,8 @@ padding: 0 2px 0 2px !important;
 		display: block !important;
 		left: auto !important;
 		right: 0 !important;
-/*[[ChangeAlign]]*/right: auto !important;/**/
+		z-index: 98 !important;
+/*[[ChangeAlign]]*/	right: auto !important;/**/
 		top: 0px !important;
 		height: 16px !important;
 		width: 80px;
@@ -208,14 +209,15 @@ padding: 0 2px 0 2px !important;
 	}
 	#navbot:hover::after {
 		top: 41px !important;
-		z-index: 1;
 		border: none !important;
 		opacity: 1 !important;
 		background: none !important;
+		z-index: 98 !important;
 	}
 
 	#navbot:hover {
 		top: 0px !important;
+		z-index: 98 !important;
 	}
 
 	#navbot {
@@ -226,7 +228,6 @@ padding: 0 2px 0 2px !important;
 		right: 0px !important;
 /*[[ChangeAlign]]*/		left: 0px !important;
 		right: auto !important;/**/
-		z-index: 2;
 		color: transparent !important;
 		padding: 0 10px 20px 10px !important;
 		border-width: 0 1px 1px 0 !important;
@@ -267,10 +268,11 @@ padding: 0 2px 0 2px !important;
 		-moz-transition: all 0.3s ease-in-out !important;
 		-o-transition: all 0.3s ease-in-out !important;
 		content: '-Navigation-';
+		z-index: 98;
 	}
 
 	#navbot:hover::after {
-		z-index: 1;
+		z-index: 98;
 		border: none !important;
 		opacity: 1 !important;
 		background: none !important;
