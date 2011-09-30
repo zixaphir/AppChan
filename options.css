@@ -255,6 +255,7 @@ padding: 0 2px 0 2px !important;
 		display: block !important;
 		left: auto !important;
 		right: 0 !important;
+		z-index: 98 !important;
 /*[[ChangeAlign]]*/right: auto !important;/**/
 		bottom: 0 !important;
 		height: 16px !important;
@@ -272,7 +273,7 @@ padding: 0 2px 0 2px !important;
 	}
 
 	#navbot:hover::after {
-		z-index: 98;
+		z-index: 98 !important;
 		border: none !important;
 		opacity: 1 !important;
 		background: none !important;
@@ -280,6 +281,7 @@ padding: 0 2px 0 2px !important;
 
 	#navbot:hover {
 		bottom: 0px !important;
+		z-index: 98 !important;
 	}
 
 	#navbot {
@@ -291,7 +293,6 @@ padding: 0 2px 0 2px !important;
 /*[[ChangeAlign]]*/		left: 0px !important;
 		right: auto !important;/**/
 		color: transparent !important;
-		z-index: 2;
 		padding: 0 10px 20px 10px !important;
 		border-width: 0 1px 1px 0 !important;
 		width: 310px !important;
