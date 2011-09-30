@@ -805,16 +805,13 @@ input[type="password"] {
 		cursor: pointer !important;
 	}
 /* Posts */
-	br[clear="left"] {
-		display: none !important;
-	}
 	#footer {
 		position: fixed !important;
 		bottom: -500px !important;
 	}
 	form[name='delform'] {
 		padding: 17px 0 !important;
-		margin: 0 0 -122px !important;
+		margin: 0 0 2px !important;
 	}
    	form[name='delform'] br[clear='left'],
 	form[name='delform'] br[clear='left'] ~ * {
