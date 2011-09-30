@@ -1965,12 +1965,9 @@ none
 /* End */
 
 /*[[DeleteButtons]]*/
-/* Show: */
-/* ...And Hide Password Field: */
-	.deletebuttons input[name="pwd"] {
-		display: none !important;
-	}
-/* Hide: */
+/* Yes: */
+
+/* No: */
 	input[type='checkbox'][value='delete'],
 	.deletebuttons *,
 	.deletebuttons::after {
@@ -1980,6 +1977,10 @@ none
 	form[name^='post'] input[type='password'].inputtext,
 	form[name^='post'] tr:nth-of-type(7) td.postblock  {
 		visibility: hidden;
+	}
+/* Remove Password Inputs: */
+	.deletebuttons input[name="pwd"] {
+		display: none !important;
 	}
 /* End */
 
