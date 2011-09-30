@@ -92,6 +92,10 @@ padding: 0 2px 0 2px !important;
 
 	.pages {
 		padding: 0 0 0 250px !important;
+	#navbot {
+		position: fixed !important;
+		top: -61px !important;
+	}
 /*[[ChangeAlign]]*/
 		padding: 0 250px 0 0 !important;/**/
 	}
@@ -138,6 +142,10 @@ padding: 0 2px 0 2px !important;
 
 	.pages {
 		padding: 0 !important;
+	}
+	#navbot {
+		position: fixed !important;
+		top: -61px !important;
 	}
 /* Invert */
 	#header,
