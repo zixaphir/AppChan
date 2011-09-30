@@ -1078,7 +1078,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~[id^='q'] .error {
 		visibility: visible !important;
 		position: fixed !important;
-		bottom: 63px !important;
+		bottom: 269px !important;
 		height: 19px !important;
 		width: 248px !important;
 		right: auto !important;
@@ -1089,6 +1089,7 @@ padding: 0 2px 0 2px !important;
 		top: auto !important;
 		background-color: #aaa !important;
 		color: #000 !important;
+		font-size: 11px !important;
 	}
 
 	table[width='100%']~* form[name^='post'] {
@@ -1361,7 +1362,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~[id^='q'] .error {
 		visibility: visible !important;
 		position: fixed !important;
-		bottom: 63px !important;
+		bottom: 269px !important;
 		height: 19px !important;
 		width: 248px !important;
 		left: 2px !important;
@@ -1372,6 +1373,7 @@ padding: 0 2px 0 2px !important;
 		left: auto !important;
 		background-color: #aaa !important;
 		color: #000 !important;
+		font-size: 11px !important;
 	}
 
 	table[width='100%']~* form[name^='post'] {
@@ -1683,7 +1685,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~[id^='q'] .error {
 		visibility: visible !important;
 		position: fixed !important;
-		bottom: 63px !important;
+		bottom: 269px !important;
 		height: 19px !important;
 		width: 248px !important;
 		left: 2px !important;
@@ -1694,6 +1696,7 @@ padding: 0 2px 0 2px !important;
 		top: auto !important;
 		background-color: #aaa !important;
 		color: #000 !important;
+		font-size: 11px !important;
 	}
 
 	table[width='100%']~* form[name^='post'] {
