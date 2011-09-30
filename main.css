@@ -242,8 +242,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		width: 100% !important;
 	}
 /*[[StickyNavigation]]*/
-	#header,
-	.pages {
+	#header {
 		left: 250px !important;
 		right: 2px !important;
 /*[[ChangeAlign]]*/
@@ -1035,6 +1034,7 @@ input[type="password"] {
 		right: 2px !important;/**/
 		bottom: 0px;
 		visibility: visible !important;
+		z-index: 2;
 	}
 
 	#popup {
