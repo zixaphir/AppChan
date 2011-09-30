@@ -185,6 +185,10 @@ padding: 0 2px 0 2px !important;
 	#boardsMenu {
 		bottom: 46px !important;
 	}
+	#navbot {
+		position: fixed !important;
+		top: -61px !important;
+	}
 /* Slideout */
 	#header {
 		position: absolute !important;
