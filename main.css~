@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, seaweed !Ponyo.2wFe, MayhemYDG, !K.WeEabo0o, disappoint, Kupaka, ubuntufriend, anonymous
 
-Revision 69
+Revision 68
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -805,16 +805,15 @@ input[type="password"] {
 		cursor: pointer !important;
 	}
 /* Posts */
-	br:last-of-type, br[clear="left"] {
-		display: none !important;
-	}
-	#footer {
+	form[name='delform'] br[clear='left'],
+	form[name='delform'] br[clear='left'] ~ * {
 		position: fixed !important;
 		bottom: -500px !important;
 	}
+
 	form[name='delform'] {
-		padding: 17px 0 !important;
-		margin: 0 0 2px !important;
+		padding: 17px 0 0 !important;
+		margin: 0 !important;
 	}
 
 /*[[ReplyWidth]]*/
