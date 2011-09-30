@@ -242,8 +242,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		width: 100% !important;
 	}
 /*[[StickyNavigation]]*/
-	#header,
-	.pages {
+	#header {
 		left: 250px !important;
 		right: 2px !important;
 /*[[ChangeAlign]]*/
@@ -811,7 +810,7 @@ input[type="password"] {
 	}
 	form[name='delform'] {
 		padding: 17px 0 !important;
-		margin: 0 0 2px !important;
+		margin: 0 0 3px !important;
 	}
    	form[name='delform'] br[clear='left'],
 	form[name='delform'] br[clear='left'] ~ * {
@@ -1035,6 +1034,7 @@ input[type="password"] {
 		right: 2px !important;/**/
 		bottom: 0px;
 		visibility: visible !important;
+		z-index: 2;
 	}
 
 	#popup {

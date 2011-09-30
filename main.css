@@ -810,7 +810,7 @@ input[type="password"] {
 	}
 	form[name='delform'] {
 		padding: 17px 0 !important;
-		margin: 0 0 2px !important;
+		margin: 0 0 3px !important;
 	}
    	form[name='delform'] br[clear='left'],
 	form[name='delform'] br[clear='left'] ~ * {
