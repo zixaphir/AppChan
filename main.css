@@ -808,9 +808,9 @@ input[type="password"] {
 		padding: 17px 0 0 0 !important;
 		margin: 0 0 0px !important;
 	}
-   	form[name='delform'] br[clear='left'] {
-   		 position: fixed;
-    		 bottom: -500px;
+   	form[name='delform'] br[clear='left'], form[name='delform'] hr, form[name='delform'] center  {
+   		position: fixed;
+    	bottom: -500px;
 	}
 
 /*[[ReplyWidth]]*/
