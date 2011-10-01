@@ -15,9 +15,6 @@
 	body {
 		background: url("http://static.4chan.org/image/fade.png") repeat-x scroll center top #FFFFEE !important;
 	}
-	.pages td b {
-		color: #D87D7F !important;
-	}
 	.logo {  
 		text-shadow: 1px 1px 1px #222 !important; 
 	}
@@ -287,14 +284,11 @@
 	td.replyhl { 
 		border: 1px solid #5765B5 !important; 
 	}
-	.pages td b {
-		color: #D3D7EF !important;
-	}
 	.logo {  
-		text-shadow: 2px 2px 2px #888 !important; 
+		text-shadow: 1px 1px 1px #222 !important; 
 	}
 	.logo b span {  
-		text-shadow: 2px 2px 2px #888 !important; 
+		text-shadow: 1px 1px 1px #222 !important; 
 	}
 	#boards h3,
 	#boardsMenu,
