@@ -489,10 +489,13 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 /* Image Hover and Image Expansion */
 /*[[ihover]]*/
     #qp {
-    z-index: 99 !important;
+		z-index: 99 !important;
     }
+	.exPopup {
+		z-index: 99 !important;
+	}
     #iHover {
-    z-index: 99 !important;
+		z-index: 99 !important;
     }
     body > table ~ form .reply a > img {
         position: relative !important;
