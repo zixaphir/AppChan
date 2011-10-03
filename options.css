@@ -14,7 +14,7 @@ url('http://i.imgur.com/TQ6pJ.png')
 /* Kagamine Rin: */
 url('http://i.imgur.com/fXXd2.png')
 /* Kinomoto Sakura: */
-url('http://i.imgur.com/pn1GB.png')
+url('http://i.imgur.com/Ve0hl.png')
 /* Shana: */
 url('http://i.imgur.com/k3fgX.png')
 /* Ika Musume: */
@@ -43,8 +43,8 @@ none
 'Ubuntu'
 /* Droid Sans: */
 'Droid Sans'
-/* Terminus: */
-'Terminus'
+/* Monospace */
+'Terminus', 'monospace'
 /* Segoe UI */
 'Segoe UI'
 /* Calibri: */
@@ -92,6 +92,10 @@ padding: 0 2px 0 2px !important;
 
 	.pages {
 		padding: 0 0 0 250px !important;
+	#navbot {
+		position: fixed !important;
+		top: -61px !important;
+	}
 /*[[ChangeAlign]]*/
 		padding: 0 250px 0 0 !important;/**/
 	}
@@ -139,6 +143,10 @@ padding: 0 2px 0 2px !important;
 	.pages {
 		padding: 0 !important;
 	}
+	#navbot {
+		position: fixed !important;
+		top: -61px !important;
+	}
 /* Invert */
 	#header,
 	.pages {
@@ -177,6 +185,10 @@ padding: 0 2px 0 2px !important;
 	#boardsMenu {
 		bottom: 46px !important;
 	}
+	#navbot {
+		position: fixed !important;
+		top: -61px !important;
+	}
 /* Slideout */
 	#header {
 		position: absolute !important;
@@ -192,7 +204,8 @@ padding: 0 2px 0 2px !important;
 		display: block !important;
 		left: auto !important;
 		right: 0 !important;
-/*[[ChangeAlign]]*/right: auto !important;/**/
+		z-index: 98 !important;
+/*[[ChangeAlign]]*/	right: auto !important;/**/
 		top: 0px !important;
 		height: 16px !important;
 		width: 80px;
@@ -208,14 +221,15 @@ padding: 0 2px 0 2px !important;
 	}
 	#navbot:hover::after {
 		top: 41px !important;
-		z-index: 1;
 		border: none !important;
 		opacity: 1 !important;
 		background: none !important;
+		z-index: 98 !important;
 	}
 
 	#navbot:hover {
 		top: 0px !important;
+		z-index: 98 !important;
 	}
 
 	#navbot {
@@ -226,7 +240,6 @@ padding: 0 2px 0 2px !important;
 		right: 0px !important;
 /*[[ChangeAlign]]*/		left: 0px !important;
 		right: auto !important;/**/
-		z-index: 2;
 		color: transparent !important;
 		padding: 0 10px 20px 10px !important;
 		border-width: 0 1px 1px 0 !important;
@@ -254,6 +267,7 @@ padding: 0 2px 0 2px !important;
 		display: block !important;
 		left: auto !important;
 		right: 0 !important;
+		z-index: 98 !important;
 /*[[ChangeAlign]]*/right: auto !important;/**/
 		bottom: 0 !important;
 		height: 16px !important;
@@ -267,10 +281,11 @@ padding: 0 2px 0 2px !important;
 		-moz-transition: all 0.3s ease-in-out !important;
 		-o-transition: all 0.3s ease-in-out !important;
 		content: '-Navigation-';
+		z-index: 98;
 	}
 
 	#navbot:hover::after {
-		z-index: 1;
+		z-index: 98 !important;
 		border: none !important;
 		opacity: 1 !important;
 		background: none !important;
@@ -278,6 +293,7 @@ padding: 0 2px 0 2px !important;
 
 	#navbot:hover {
 		bottom: 0px !important;
+		z-index: 98 !important;
 	}
 
 	#navbot {
@@ -289,7 +305,6 @@ padding: 0 2px 0 2px !important;
 /*[[ChangeAlign]]*/		left: 0px !important;
 		right: auto !important;/**/
 		color: transparent !important;
-		z-index: 2;
 		padding: 0 10px 20px 10px !important;
 		border-width: 0 1px 1px 0 !important;
 		width: 310px !important;
@@ -606,7 +621,7 @@ padding: 0 2px 0 2px !important;
 /*[[ChangeAlign]]*/
 		right: 2px !important;
 		left: auto !important;/**/
-		bottom: 370px !important;
+		bottom: 327px !important;
 		width: 248px !important;
 		z-index: 1;
 		text-align: center;
@@ -627,7 +642,7 @@ padding: 0 2px 0 2px !important;
 /*[[ChangeAlign]]*/
 		right: 2px !important;
 		left: auto !important;/**/
-		bottom: 393px !important;
+		bottom: 353px !important;
 		width: 248px !important;
 		z-index: 1;
 		text-align: center;
@@ -836,7 +851,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~[id^='q'] .error {
 		visibility: visible !important;
 		position: fixed !important;
-		bottom: 63px !important;
+		bottom: 269px !important;
 		height: 19px !important;
 		width: 248px !important;
 		right: auto !important;
@@ -847,6 +862,7 @@ padding: 0 2px 0 2px !important;
 		top: auto !important;
 		background-color: #aaa !important;
 		color: #000 !important;
+		font-size: 11px !important;
 	}
 
 	table[width='100%']~* form[name^='post'] {
@@ -919,7 +935,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~#qr {
 		overflow: visible !important;
 		top: auto !important;
-		bottom: 61px !important;
+		bottom: 18px !important;
 		right: auto !important;
 		left: 0 !important;
 /*[[ChangeAlign]]*/
@@ -1074,7 +1090,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~[id^='q'] .error {
 		visibility: visible !important;
 		position: fixed !important;
-		bottom: 63px !important;
+		bottom: 269px !important;
 		height: 19px !important;
 		width: 248px !important;
 		right: auto !important;
@@ -1085,6 +1101,7 @@ padding: 0 2px 0 2px !important;
 		top: auto !important;
 		background-color: #aaa !important;
 		color: #000 !important;
+		font-size: 11px !important;
 	}
 
 	table[width='100%']~* form[name^='post'] {
@@ -1160,7 +1177,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~#qr {
 		overflow: visible !important;
 		top: auto !important;
-		bottom: 61px !important;
+		bottom: 18px !important;
 		width: 248px !important;
 		background-color: transparent !important;
 		left: -235px !important;
@@ -1357,7 +1374,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~[id^='q'] .error {
 		visibility: visible !important;
 		position: fixed !important;
-		bottom: 63px !important;
+		bottom: 269px !important;
 		height: 19px !important;
 		width: 248px !important;
 		left: 2px !important;
@@ -1368,6 +1385,7 @@ padding: 0 2px 0 2px !important;
 		left: auto !important;
 		background-color: #aaa !important;
 		color: #000 !important;
+		font-size: 11px !important;
 	}
 
 	table[width='100%']~* form[name^='post'] {
@@ -1443,7 +1461,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~#qr {
 		overflow: visible !important;
 		top: auto !important;
-		bottom: 61px !important;
+		bottom: 18px !important;
 		left: -250px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
@@ -1679,7 +1697,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~[id^='q'] .error {
 		visibility: visible !important;
 		position: fixed !important;
-		bottom: 63px !important;
+		bottom: 269px !important;
 		height: 19px !important;
 		width: 248px !important;
 		left: 2px !important;
@@ -1690,6 +1708,7 @@ padding: 0 2px 0 2px !important;
 		top: auto !important;
 		background-color: #aaa !important;
 		color: #000 !important;
+		font-size: 11px !important;
 	}
 
 	table[width='100%']~* form[name^='post'] {
@@ -1780,7 +1799,7 @@ padding: 0 2px 0 2px !important;
 	table[width='100%']~#qr {
 		overflow: visible !important;
 		top: auto !important;
-		bottom: 61px !important;
+		bottom: 18px !important;
 		left: 0 !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
@@ -1918,6 +1937,12 @@ padding: 0 2px 0 2px !important;
 		display: none;
 	}
 /* End */
+/*[[redtext]]*/
+/* Show */
+none
+/* Hide */
+	display: none !important;
+/* End */
 
 /*[[ReturnButton]]*/
 /* Yes: */
@@ -1939,8 +1964,8 @@ padding: 0 2px 0 2px !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: 192px !important;/**/
-		bottom: 43px;
-		visibility: visible;
+		bottom: 0px;
+		visibility: visible !important;
 		height: 14px !important;
 		width: 58px !important;
 		margin: 0 !important;
@@ -1959,9 +1984,12 @@ padding: 0 2px 0 2px !important;
 /* End */
 
 /*[[DeleteButtons]]*/
-/* Yes: */
-
-/* No: */
+/* Show: */
+/* ...And Hide Password Field: */
+	.deletebuttons input[name="pwd"] {
+		display: none !important;
+	}
+/* Hide: */
 	input[type='checkbox'][value='delete'],
 	.deletebuttons *,
 	.deletebuttons::after {
@@ -1971,13 +1999,6 @@ padding: 0 2px 0 2px !important;
 	form[name^='post'] input[type='password'].inputtext,
 	form[name^='post'] tr:nth-of-type(7) td.postblock  {
 		visibility: hidden;
-	}
-/* Remove Password Inputs: */
-	form[name^='post'] input[type='password'].inputtext,
-	form[name^='post'] tr:nth-of-type(7) td.postblock,
-	#qr input[type='password'].inputtext,
-	.deletebuttons input.inputtext {
-		display: none;
 	}
 /* End */
 

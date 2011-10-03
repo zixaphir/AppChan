@@ -50,7 +50,8 @@ background-image: none !important;
 	#navbot::after,
 	#qp,
 	#twi_table_div,
-	#updater #count:not(.new)::after {
+	#updater #count:not(.new)::after, 
+	font[color="red"] {
 		color: #909090 !important;
 	}
 

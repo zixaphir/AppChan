@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, seaweed !Ponyo.2wFe, MayhemYDG, !K.WeEabo0o, disappoint, Kupaka, ubuntufriend, anonymous
 
-Revision 65
+Revision 69
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -50,7 +50,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		content: /*[[background]]*/ !important;
 		position: fixed !important;
 		right: 0px !important;
-		bottom: 312px !important;
+		bottom: 269px !important;
 						  /* Mascot, background */
 /*
 Extras are fine too. ;3
@@ -62,7 +62,7 @@ Some more risque alternatives. ;)
 	Horo - http://i.imgur.com/6f8wd.png
 	Horo 2 - http://i.imgur.com/KJLui.png
 	Ika Musume - http://i.imgur.com/PeckP.png
-	Kinomoto Sakura - http://i.imgur.com/C7OuW.png
+	Kinomoto Sakura - http://i.imgur.com/Rdk9s.png
 	Yuki Nagato - http://i.imgur.com/2BUww.png
 */
 	}
@@ -242,8 +242,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		width: 100% !important;
 	}
 /*[[StickyNavigation]]*/
-	#header,
-	.pages {
+	#header {
 		left: 250px !important;
 		right: 2px !important;
 /*[[ChangeAlign]]*/
@@ -294,6 +293,12 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		text-align: center;
 		border: none !important;
 		text-align: center;
+	}
+/* moot's announcements */
+	font[color="red"] {
+		/*[[redtext]]*/
+		position: relative !important;
+		top: 20px !important;
 	}
 /*[[CompactNavigation]]*/
 	.pages input {
@@ -377,7 +382,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		z-index: 2;
 		margin: 0 !important;
 		padding: 0 !important;
-		bottom: 67px !important;
+		bottom: 24px !important;
 /*[[PostForm]]*/
 	}
 /*[[QuickReply]]*/
@@ -484,10 +489,13 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 /* Image Hover and Image Expansion */
 /*[[ihover]]*/
     #qp {
-    z-index: 99 !important;
+		z-index: 99 !important;
     }
+	.exPopup {
+		z-index: 99 !important;
+	}
     #iHover {
-    z-index: 99 !important;
+		z-index: 99 !important;
     }
     body > table ~ form .reply a > img {
         position: relative !important;
@@ -800,8 +808,12 @@ input[type="password"] {
 	}
 /* Posts */
 	form[name='delform'] {
-		padding: 17px 0 !important;
-		margin: 0 !important;
+		padding: 17px 0 0 0 !important;
+		margin: 0 0 0px !important;
+	}
+   	body > table ~ form[name='delform'] br[clear='left'], form[name='delform'] center  {
+   		position: fixed;
+    	bottom: -500px;
 	}
 
 /*[[ReplyWidth]]*/
@@ -869,10 +881,6 @@ input[type="password"] {
 		font-weight: 700 !important;
 	}
 /* Addons and such */
-	body>a[style='cursor: pointer; float: right;'] {
-		margin-top: 17px;
-	}
-
 	body>div[style='width: 100%;'] {
 		margin-top: 34px;
 	}
@@ -1018,8 +1026,9 @@ input[type="password"] {
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: 2px !important;/**/
-		bottom: 43px;
+		bottom: 0px;
 		visibility: visible !important;
+		z-index: 2;
 	}
 
 	#popup {
@@ -1073,7 +1082,57 @@ input[type="password"] {
 		z-index: 3 !important;
 	}
 /*[[ReturnButton]]*/
-/* Sidebar 4chan x options */
+/* AutoPager */
+	#autoPagerBorderPaging {
+		position: fixed !important;
+		right: 300px !important;
+		bottom: 0px !important;
+		z-index: 99 !important;
+	}
+	.autoPagerS br {
+		display: none !important;
+	}
+	.autoPagerS * {
+		font-size: 13px !important;
+	}
+	.autoPagerS {
+		background: none !important;
+	}
+	.autoPagerS img {
+		display: none !important;
+	}
+	.autoPagerS[id^="apBreakStart"] {
+		background: none !important;
+		width: 400px !important;
+		position: relative !important;
+		padding: 0px !important;
+		bottom: 20px !important;
+		text-align: left !important;
+		line-height:15px !important;
+		height:15px !important;
+		margin: auto !important;
+	}
+	div.autoPagerS img {
+		display: none !important;
+	}
+	.autoPagerS[id^="apBreakStart"]:not(a) {
+		word-spacing: -2px !important;
+	}
+	.autoPagerS[id^="apBreakStart"] a:first-of-type {
+		visibility: hidden !important;
+	}
+	.autoPagerS[id^="apBreakStart"] a:last-of-type {
+		position: relative !important;
+		right: 5px !important;
+	}
+	.autoPagerS[id^="apBreakStart"]::after {
+		font-size: 13px !important;
+		position: relative !important;
+		right: 233px !important;
+		content: "AutoPager:" !important;
+		word-wrap: none !important;
+		}
+/* 4chan x options */
 	#overlay {
 		z-index: 99 !important;
 	}
@@ -1099,7 +1158,7 @@ input[type="password"] {
 	#options ul>li {
 		padding: 0 3px !important;
 	}
-/* End of Sidebar 4chan x options */
+/* End of 4chan x options */
 /*[[fixedFilter]]*/
 	#filter,
 	#thread_filter,
@@ -1218,6 +1277,28 @@ input[type="password"] {
 	#stats .move {
 		cursor: default !important;
 	}
+/* 4sight */
+	body>a[style='cursor: pointer; float: right;'] {
+		position: fixed;
+		top: 0;
+		left: 254px;
+		/*[[ChangeAlign]]*/
+		right: 254px;
+		left: auto !important;/**/
+		z-index: 999;
+	}
+
+	table[style='width: 100%; height: 300px; text-align: center; table-layout: fixed; border-collapse: collapse;'] {
+		height: 700px !important;
+	}
+
+	div[style='height: 300px; overflow-y: auto;'] {
+		height: 700px !important;
+	}
+
+	#fs_preview {
+		height: 700px !important;
+	}
 /*[[PagesPosition]]*/
 /*[[ColorScheme]]*/
 /*[[RoundedCorners]]*/
@@ -1323,12 +1404,14 @@ input[type="password"] {
 	html,
 	body {
 		height: 100% !important;
+	    min-width: 101% !important;
+	    overflow-y:scroll;
 	}
 
-	html,
-	body,
+	
 	img {
 		margin: auto !important;
+		overflow: auto !important;
 	}
 
 	#doc {
