@@ -881,10 +881,6 @@ input[type="password"] {
 		font-weight: 700 !important;
 	}
 /* Addons and such */
-	body>a[style='cursor: pointer; float: right;'] {
-		margin-top: 17px;
-	}
-
 	body>div[style='width: 100%;'] {
 		margin-top: 34px;
 	}
@@ -1280,6 +1276,28 @@ input[type="password"] {
 	#options .move,
 	#stats .move {
 		cursor: default !important;
+	}
+/* 4sight */
+	body>a[style='cursor: pointer; float: right;'] {
+		position: fixed;
+		top: 0;
+		left: 254px;
+		/*[[ChangeAlign]]*/
+		right: 254px;
+		left: auto !important;/**/
+		z-index: 999;
+	}
+
+	table[style='width: 100%; height: 300px; text-align: center; table-layout: fixed; border-collapse: collapse;'] {
+		height: 700px !important;
+	}
+
+	div[style='height: 300px; overflow-y: auto;'] {
+		height: 700px !important;
+	}
+
+	#fs_preview {
+		height: 700px !important;
 	}
 /*[[PagesPosition]]*/
 /*[[ColorScheme]]*/
