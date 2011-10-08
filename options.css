@@ -1882,7 +1882,9 @@ padding: 0 2px 0 2px !important;
 		right: 5px !important;
 	}
 /* No: */
-
+	#qr {
+		z-index: 99 !important;
+	}
 /* End */
 
 /*[[helpertext]]*/
