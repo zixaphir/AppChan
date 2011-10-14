@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, seaweed !Ponyo.2wFe, MayhemYDG, !K.WeEabo0o, disappoint, Kupaka, ubuntufriend, anonymous
 
-Revision 70
+Revision 71
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -160,7 +160,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: 2px !important;/**/
-		bottom: 310px !important;
+		top: 40px !important;
 		width: 248px !important;
 		height: 83px !important;
 		margin: 0 !important;
@@ -252,7 +252,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		right: 2px !important;
 /*[[ChangeAlign]]*/
 		left: 2px !important;
-		right: 250px !important;/**/
+		right: 253px !important;/**/
 		z-index: 98;
 	}
 
@@ -518,8 +518,11 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
         z-index: 98 !important;
     }
    #imageType {
-     border: none !important;
-    }
+     width: 50px !important;
+     position: relative !important;
+     bottom: 1px !important;
+     background: none !important;
+   }
 /* End of Image Hover and Image Expansion */ 
 	#ft li,
 	#ft ul,
@@ -946,11 +949,11 @@ input[type="password"] {
 		right: auto !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
-		right: 106px !important;/**/
+		right: 136px !important;/**/
 		top: 0;
 		bottom: auto !important;
-		width: 145px;
-		font-size: /*[[FontSize]]*/ !important;
+		width: 115px;
+		font-size: 13px !important;
 		z-index: 2;
 	}
 
@@ -1180,11 +1183,11 @@ input[type="password"] {
 
 	#stats {
 		position: fixed !important;
-		top: 17px !important;
+		top: -3px !important;
 		right: auto !important;
 		left: 150px !important;
 /*[[ChangeAlign]]*/
-		right: 4px !important;
+		right: 40px !important;
 		left: auto !important;/**/
 		width: 96px !important;
 		text-align: right !important;
