@@ -535,7 +535,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
      width: 70px !important;
      position: relative !important;
      bottom: 1px !important;
-     right: 5px !important;
+     right: 15px !important;
      background: none !important;
    }
 /* End of Image Hover and Image Expansion */ 
@@ -929,7 +929,7 @@ input[type="password"] {
 		left: 150px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
-		right: 95px !important;
+		right: 85px !important;
 		left: auto !important;/**/
 		top: 0 !important;
 		bottom: auto !important;
@@ -964,10 +964,10 @@ input[type="password"] {
 		right: auto !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
-		right: 121px !important;/**/
+		right: 111px !important;/**/
 		top: 0;
 		bottom: auto !important;
-		width: 130px;
+		width: 140px;
 		font-size: 13px !important;
 		z-index: 2;
 	}
