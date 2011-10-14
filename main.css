@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, seaweed !Ponyo.2wFe, MayhemYDG, !K.WeEabo0o, disappoint, Kupaka, ubuntufriend, anonymous
 
-Revision 71
+Revision 72
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -129,9 +129,17 @@ Some more risque alternatives. ;)
 
 	* {
 	/* Defaults of all elements */
-		font: /*[[FontSize]]*/ /*[[Font]]*/ !important;
+		font-family: /*[[Font]]*/ !important;
+		text-decoration: none !important;
+	}/*[[FontSize]]*/ 
+	td.reply, a, td, fieldset, blockquote, .rules, textarea {
+		font-size: /*[[FontSize]]*/ !important;
 		text-decoration: none !important;
 	}
+	input {
+		font-size: 13px !important;
+		text-decoration: none !important;
+	 }
 
 
 /*[[CustomScrollbars]]*/::-webkit-scrollbar { width: 10px !important; height: 10px !important; }
@@ -181,8 +189,15 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		-o-transition: opacity .5s ease-in;
 	}
 
+
 	div.logo font[size='5'] span {
-		font-size: 220% !important;
+		font-size: 30px !important;
+                font-weight: 400 !important;
+	}
+
+	div.logo font[size='1'] {
+		font-size: 13px !important;
+
 	}
 
 	body>span>div {
