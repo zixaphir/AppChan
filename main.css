@@ -518,6 +518,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
         z-index: 98 !important;
     }
    #imageType {
+     border: none !important;
      width: 40px !important;
      position: relative !important;
      bottom: 1px !important;
