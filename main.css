@@ -518,7 +518,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
         z-index: 98 !important;
     }
    #imageType {
-     width: 50px !important;
+     width: 40px !important;
      position: relative !important;
      bottom: 1px !important;
      background: none !important;
@@ -914,7 +914,7 @@ input[type="password"] {
 		left: 150px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
-		right: 55px !important;
+		right: 100px !important;
 		left: auto !important;/**/
 		top: 0 !important;
 		bottom: auto !important;
@@ -949,10 +949,10 @@ input[type="password"] {
 		right: auto !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
-		right: 136px !important;/**/
+		right: 141px !important;/**/
 		top: 0;
 		bottom: auto !important;
-		width: 115px;
+		width: 110px;
 		font-size: 13px !important;
 		z-index: 2;
 	}
