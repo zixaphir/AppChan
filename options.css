@@ -310,6 +310,7 @@ none
 		border-width: 0 1px 1px 0 !important;
 		width: 310px !important;
 		height: 40px !important;
+		word-spacing: -2px !important;
 		text-align: center !important;
 		-webkit-transition: all 0.3s ease-in-out !important;
 		-moz-transition: all 0.3s ease-in-out !important;
