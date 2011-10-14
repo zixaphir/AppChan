@@ -292,9 +292,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		padding-top: 0 !important;
 	}
 
-	#navbot {
-		font-size: 0 !important;
-	}
+	
 
 	.pages td:nth-of-type(1) {
 		font-size: 75% !important;
