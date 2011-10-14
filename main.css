@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, seaweed !Ponyo.2wFe, MayhemYDG, !K.WeEabo0o, disappoint, Kupaka, ubuntufriend, anonymous
 
-Revision 72
+Revision 73
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -1302,10 +1302,10 @@ input[type="password"] {
 /* 4sight */
 	body>a[style='cursor: pointer; float: right;'] {
 		position: fixed;
-		top: 0;
-		left: 254px;
+		top:20px;
+		left: 20px;
 		/*[[ChangeAlign]]*/
-		right: 254px;
+		right: 20px !important;
 		left: auto !important;/**/
 		z-index: 999;
 	}
@@ -1320,6 +1320,10 @@ input[type="password"] {
 
 	#fs_preview {
 		height: 700px !important;
+	}
+	#fs_search {
+		min-width: 138px !important;
+		max-width: 138px !important;
 	}
 /*[[PagesPosition]]*/
 /*[[ColorScheme]]*/
