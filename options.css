@@ -64,9 +64,7 @@ none
 
 /*[[{Margin]]*/
 /* Enabled: */
-    padding: 0 /*[[MarginCenter]]*/px 0 252px !important;
-    /*[[ChangeAlign]]*/padding: 0 252px 0 /*[[MarginCenter]]*/px !important;/**/
-  }
+    /*[[MarginCenter]]*/
   .replyhider a {
     position: absolute;
     right: 5px;
@@ -80,9 +78,16 @@ none
 /* End */
 /*[[MarginCenter]]*/
 /* No */
-2
-/* Yes */
-150
+    padding: 0 2px 0 252px !important;
+    /*[[ChangeAlign]]*/padding: 0 252px 0 2px !important;/**/
+  }
+/* Completely Centered */
+    padding: 0 25% 0 25% !important;
+  }
+/* Slightly, retain Sidebar alignment */
+    padding: 0 150px 0 252px !important;
+    /*[[ChangeAlign]]*/padding: 0 252px 0 150px !important;/**/
+  }
 /* End */
 /*[[StickyNavigation]]*/
 /* Yes: */
@@ -244,6 +249,7 @@ none
 		color: transparent !important;
 		padding: 0 10px 20px 10px !important;
 		border-width: 0 1px 1px 0 !important;
+		word-spacing: -2px !important;
 		width: 310px !important;
 		height: 40px !important;
 		text-align: center !important;
