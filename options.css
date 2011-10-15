@@ -100,7 +100,7 @@ none
 		padding: 0 0 0 250px !important;
 	#navbot {
 		position: fixed !important;
-		top: -61px !important;
+		top: -101px !important;
 	}
 /*[[ChangeAlign]]*/
 		padding: 0 250px 0 0 !important;/**/
@@ -151,7 +151,7 @@ none
 	}
 	#navbot {
 		position: fixed !important;
-		top: -61px !important;
+		top: -101px !important;
 	}
 /* Invert */
 	#header,
@@ -193,7 +193,7 @@ none
 	}
 	#navbot {
 		position: fixed !important;
-		top: -61px !important;
+		top: -101px !important;
 	}
 /* Slideout */
 	#header {
@@ -210,7 +210,7 @@ none
 		display: block !important;
 		left: auto !important;
 		right: 0 !important;
-		z-index: 98 !important;
+		z-index: 97 !important;
 /*[[ChangeAlign]]*/	right: auto !important;/**/
 		top: 0px !important;
 		height: 16px !important;

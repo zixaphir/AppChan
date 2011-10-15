@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, seaweed !Ponyo.2wFe, MayhemYDG, !K.WeEabo0o, disappoint, Kupaka, ubuntufriend, anonymous
 
-Revision 73
+Revision 74
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -136,7 +136,7 @@ Some more risque alternatives. ;)
 		font-size: /*[[FontSize]]*/ !important;
 		text-decoration: none !important;
 	}
-	input {
+	input, #imgControls, #imageType, #header, #header a, #stats, #navbot a {
 		font-size: 13px !important;
 		text-decoration: none !important;
 	 }
@@ -518,13 +518,13 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
     body > table ~ form .reply a > img {
         position: relative !important;
         top: 0px !important;
-        z-index: 97 !important;
+        z-index: 96 !important;
     }
 
     .filesize ~ a > img + img {
         position: relative !important;
         top: 0px !important;
-        z-index: 97 !important;
+        z-index: 96 !important;
     }
 
    body > form #imgControls {
@@ -532,10 +532,10 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
     }
    #imageType {
      border: none !important;
-     width: 70px !important;
+     width: 90px !important;
      position: relative !important;
      bottom: 1px !important;
-     right: 15px !important;
+     right: 0px !important;
      background: none !important;
    }
 /* End of Image Hover and Image Expansion */ 
@@ -929,7 +929,7 @@ input[type="password"] {
 		left: 150px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
-		right: 85px !important;
+		right: 40px !important;
 		left: auto !important;/**/
 		top: 0 !important;
 		bottom: auto !important;
@@ -964,10 +964,10 @@ input[type="password"] {
 		right: auto !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
-		right: 111px !important;/**/
+		right: 101px !important;/**/
 		top: 0;
 		bottom: auto !important;
-		width: 140px;
+		width: 150px;
 		font-size: 13px !important;
 		z-index: 2;
 	}
@@ -1199,7 +1199,7 @@ input[type="password"] {
 		content: "Filter" !important;
 		font-size: 13px !important;
 		position: fixed !important;
-		right: 110px !important;
+		right: 130px !important;
 		top: 20px !important;
 		min-width: 30px !important;
 		max-width: 30px !important;
@@ -1218,11 +1218,11 @@ input[type="password"] {
 
 	#stats {
 		position: fixed !important;
-		top: -3px !important;
+		top: 17px !important;
 		right: auto !important;
 		left: 150px !important;
 /*[[ChangeAlign]]*/
-		right: 35px !important;
+		right: 190px !important;
 		left: auto !important;/**/
 		width: 96px !important;
 		text-align: right !important;
@@ -1275,6 +1275,11 @@ input[type="password"] {
 		bottom: auto !important;
 		width: 248px !important;
 	}
+	#watcher .move {
+		font-size: 0px !important;
+		height: 15px !important;
+	}
+
 
 	#backwash_tooltip,
 	#qp,

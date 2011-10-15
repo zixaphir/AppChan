@@ -180,7 +180,6 @@
 	#backwash_tooltip,
 	#header .title,
 	#imgControls label::after,
-	#navbot::after,
 	#qp,
 	#twi_table_div,
 	#updater #count:not(.new)::after,
@@ -230,8 +229,6 @@
 	div[id^='4chan_ext_iqr']>*,
 	#filter input,
 	#filter textarea,
-	#navbot,
-	#navbot::after,
 	#options input,
 	#options textarea,
 	#qr,
@@ -331,7 +328,7 @@
 	td.replyhl {
 		border: 1px solid #ba9dbf !important;
 	}
-	#header, h3 {
+	#header, h3, #navbot::after, #navbot {
 		background-color: #D2D6EF !important;
 	}
 	.doubledash,
@@ -496,8 +493,6 @@
 	div[id^='4chan_ext_iqr']>*,
 	#filter input,
 	#filter textarea,
-	#navbot,
-	#navbot::after,
 	#options input,
 	#options textarea,
 	#qr,
