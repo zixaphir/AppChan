@@ -223,7 +223,7 @@ none
 		content: '-Navigation-';
 	}
 	#navbot:hover::after {
-		top: 41px !important;
+		top: 51px !important;
 		border: none !important;
 		opacity: 1 !important;
 		background: none !important;
@@ -244,7 +244,7 @@ none
 /*[[ChangeAlign]]*/		left: 0px !important;
 		right: auto !important;/**/
 		color: transparent !important;
-		padding: 0 10px 20px 10px !important;
+		padding: 0 10px 30px 10px !important;
 		border-width: 0 1px 1px 0 !important;
 		word-spacing: -2px !important;
 		width: 310px !important;
@@ -303,7 +303,7 @@ none
 /*[[ChangeAlign]]*/		left: 0px !important;
 		right: auto !important;/**/
 		color: transparent !important;
-		padding: 0 10px 20px 10px !important;
+		padding: 0 10px 30px 10px !important;
 		border-width: 0 1px 1px 0 !important;
 		width: 310px !important;
 		height: 40px !important;
