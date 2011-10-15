@@ -1112,49 +1112,9 @@ input[type="password"] {
 		bottom: 0px !important;
 		z-index: 99 !important;
 	}
-	.autoPagerS br {
-		display: none !important;
-	}
-	.autoPagerS * {
-		font-size: 13px !important;
-	}
 	.autoPagerS {
-		background: none !important;
-	}
-	.autoPagerS img {
 		display: none !important;
 	}
-	.autoPagerS[id^="apBreakStart"] {
-		background: none !important;
-		width: 400px !important;
-		position: relative !important;
-		padding: 0px !important;
-		bottom: 20px !important;
-		text-align: left !important;
-		line-height:15px !important;
-		height:15px !important;
-		margin: auto !important;
-	}
-	div.autoPagerS img {
-		display: none !important;
-	}
-	.autoPagerS[id^="apBreakStart"]:not(a) {
-		word-spacing: -2px !important;
-	}
-	.autoPagerS[id^="apBreakStart"] a:first-of-type {
-		visibility: hidden !important;
-	}
-	.autoPagerS[id^="apBreakStart"] a:last-of-type {
-		position: relative !important;
-		right: 5px !important;
-	}
-	.autoPagerS[id^="apBreakStart"]::after {
-		font-size: 13px !important;
-		position: relative !important;
-		right: 233px !important;
-		content: "AutoPager:" !important;
-		word-wrap: none !important;
-		}
 /* 4chan x options */
 	#overlay {
 		z-index: 99 !important;
