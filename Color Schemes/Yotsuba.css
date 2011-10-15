@@ -1,7 +1,7 @@
 /* Yotsuba A + B */
 }
 /* Yotsuba A */
-@-moz-document regexp(".*\.4chan\.org/b/.*"), regexp(".*\.4chan\.org/d/.*"), regexp(".*\.4chan\.org/e/.*"), regexp(".*\.4chan\.org/f/.*"), regexp(".*\.4chan\.org/gif/.*"), regexp(".*\.4chan\.org/h/.*"), regexp(".*\.4chan\.org/hr/.*"), regexp(".*\.4chan\.org/r/.*"), regexp(".*\.4chan\.org/s/.*"), regexp(".*\.4chan\.org/t/.*"), regexp(".*\.4chan\.org/u/.*"), regexp(".*\.4chan\.org/wg/.*"), regexp(".*\.4chan\.org/i/.*"), regexp(".*\.4chan\.org/ic/.*"), regexp(".*\.4chan\.org/y/.*"), regexp(".*\.4chan\.org/soc/.*") {
+@-moz-document regexp(".*\.4chan\.org/(b|d|e|f|gif|h|hr|r|s|t|u|wg|i|ic|y|soc)/.*") {
 /*[[CustomScrollbars]]*/
 	::-webkit-scrollbar-thumb { border: 1px solid #D9BFB7; background: #eef2ff; }
 	::-webkit-scrollbar-thumb:hover { background: -webkit-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
@@ -166,6 +166,7 @@
 	div.postarea,
 	form[name^='post']::before,
 	select,
+	#navbot::after,
 	td.deletebuttons,
 	.abbr,
 	.boxbar,
@@ -259,8 +260,7 @@
 }
 /* Yotsuba B */
 
-@-moz-document regexp(".*\.4chan\.org/v/.*"), regexp(".*\.4chan\.org/g/.*"), regexp(".*\.4chan\.org/e/.*"), regexp(".*\.4chan\.org/a/.*"), regexp(".*\.4chan\.org/c/.*"), regexp(".*\.4chan\.org/k/.*"), regexp(".*\.4chan\.org/m/.*"), regexp(".*\.4chan\.org/o/.*"), regexp(".*\.4chan\.org/p/.*"), regexp(".*\.4chan\.org/w/.*"), regexp(".*\.4chan\.org/cm/.*"), regexp(".*\.4chan\.org/3/.*"), regexp(".*\.4chan\.org/adv/.*"), regexp(".*\.4chan\.org/an/.*"), regexp(".*\.4chan\.org/cgl/.*"), regexp(".*\.4chan\.org/ck/.*"), regexp(".*\.4chan\.org/co/.*"), regexp(".*\.4chan\.org/fa/.*"), regexp(".*\.4chan\.org/fit/.*"), regexp(".*\.4chan\.org/int/.*"), regexp(".*\.4chan\.org/jp/.*"), regexp(".*\.4chan\.org/lit/.*"), regexp(".*\.4chan\.org/mu/.*"), regexp(".*\.4chan\.org/n/.*"), regexp(".*\.4chan\.org/po/.*"), regexp(".*\.4chan\.org/sci/.*"), regexp(".*\.4chan\.org/sp/.*"), regexp(".*\.4chan\.org/tg/.*"), regexp(".*\.4chan\.org/toy/.*"), regexp(".*\.4chan\.org/trv/.*"), regexp(".*\.4chan\.org/tv/.*"), regexp(".*\.4chan\.org/vip/.*"), regexp(".*\.4chan\.org/s/.*") {
-
+@-moz-document regexp(".*\.4chan\.org/(v|g|a|c|g|k|m|o|p|w|cm|3|adv|an|cgl|ck|co|fa|fit|int|jp|lit|mu|n|po|sci|sp|tg|toy|trv|tv|vp|s)/.*") {
 /*[[CustomScrollbars]]*/
 	::-webkit-scrollbar-thumb { border: 1px solid #b7c5d9; background: #eef2ff; }
 	::-webkit-scrollbar-thumb:hover { background: -webkit-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
