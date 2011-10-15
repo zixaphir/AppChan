@@ -551,6 +551,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 	.top-box,
 	h2,
 	input:not([type='checkbox']),
+	input:not([type='radio']),
 	input[type='file']>input[type='button'],
 	input[type='submit'],
 	select,
@@ -1450,8 +1451,7 @@ input[type="password"] {
 }
 
 @-moz-document url-prefix('http://www.4chan.org'),
-domain('rs.4chan.org'),
-domain('sys.4chan.org') {
+domain('rs.4chan.org') {
 	html, body {
 		background-image: none !important;
 	}
