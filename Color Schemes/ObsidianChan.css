@@ -146,7 +146,7 @@
 	body > form {
 		padding-bottom: 10px !important;
 		border: 1px solid #333 !important;
-		background: rgba(0, 0, 0, 0.4) none !important;
+		background: rgba(0, 0, 0, 0.3) none !important;
 	}
 
 	a.forwardlink {
@@ -175,11 +175,12 @@
 	.box-outer,
 	.boxbar,
 	.deletebuttons input[value=Delete],
-	.recaptcha_image_cell>center>#recaptcha_image,
-	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	.yuimenuitem-selected,
-	h2,
+	h2 {
+		background-color: rgba(0,0,0,0.4) !important;
+	}
+	.recaptchatable #recaptcha_response_field,
 	input,
 	input[type='file']>input[type='button'],
 	input[type='submit'],
@@ -187,7 +188,7 @@
 	td.postblock,
 	td.reply,
 	textarea {
-		background-color: rgba(0,0,0,0.5) !important;
+                background-color: rgba(0,0,0,0.6) !important;
 	}
 
 	div[id^='4chan_ext_iqr'],
