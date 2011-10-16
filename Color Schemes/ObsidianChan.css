@@ -60,7 +60,7 @@
 		color: #000;
 	}
 	body {
-		background: url("http://i55.tinypic.com/5oysub.png") !important;
+		background: url("http://i.imgur.com/sbi8u.png") !important;
 		background-attachment: fixed !important;
 	}
 	body,
@@ -146,7 +146,7 @@
 	body > form {
 		padding-bottom: 10px !important;
 		border: 1px solid #333 !important;
-		background: rgba(0, 0, 0, 0.3) none !important;
+		background: rgba(0, 0, 0, 0.4) none !important;
 	}
 
 	a.forwardlink {
@@ -187,7 +187,7 @@
 	td.postblock,
 	td.reply,
 	textarea {
-		background-color: rgba(0,0,0,0.7) !important;
+		background-color: rgba(0,0,0,0.5) !important;
 	}
 
 	div[id^='4chan_ext_iqr'],
