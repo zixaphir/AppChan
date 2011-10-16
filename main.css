@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, seaweed !Ponyo.2wFe, MayhemYDG, !K.WeEabo0o, disappoint, Kupaka, ubuntufriend, anonymous
 
-Revision 75
+Revision 76
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -131,12 +131,12 @@ Some more risque alternatives. ;)
 	/* Defaults of all elements */
 		font-family: /*[[Font]]*/ !important;
 		text-decoration: none !important;
-	}/*[[FontSize]]*/ 
-	td.reply, a, td, fieldset, blockquote, .rules, textarea {
+	}
+	td.reply, a, td, .filetitle, .filesize, fieldset, blockquote, .rules, textarea, time, .postername, .commentpostername  {
 		font-size: /*[[FontSize]]*/ !important;
 		text-decoration: none !important;
 	}
-	input, #imgControls, #imageType, #header, #header a, #stats, #navbot a {
+	input, #imgControls, #stats, #updater, #navtopr a, label, .filetitle, #imageType, #header, #header a, #stats, #navbot a {
 		font-size: 12px !important;
 		text-decoration: none !important;
 	 }
