@@ -2207,6 +2207,26 @@ padding-bottom: 20px !important;
 		#thread_filter:not(.autohide) a[title='Auto-hide dialog box']::after {
 		content: ' - SET THIS!!';
 	}
+		#thread_filter::before {
+		content: "Filter" !important;
+		font-size: 13px !important;
+		position: fixed !important;
+		right: 130px !important;
+		top: 20px !important;
+		min-width: 30px !important;
+		max-width: 30px !important;
+	}
+	#thread_filter span:first-of-type {
+		font-size: 0px !important;
+	}
+	#thread_filter {
+		position: fixed !important;
+		top: -20px !important;
+	}
+	#thread_filter:hover {
+		position: fixed !important;
+		top: 20px !important;
+	}
 /* Locked Bottom: */
 	#filter,
 	#thread_filter {
@@ -2216,7 +2236,7 @@ padding-bottom: 20px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
-		right: 2px !important;/**/
+		right: 300px !important;/**/
 		bottom: 0 !important;
 		width: 248px;
 	}

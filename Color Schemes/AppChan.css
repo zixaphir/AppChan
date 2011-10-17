@@ -1,4 +1,11 @@
 /* AppChan: */
+	}
+	
+@-moz-document domain('sys.4chan.org') {
+	html, body {
+		background-image: none !important;
+	}
+@-moz-document domain(4chan.org) {
 /*[[CustomScrollbars]]*/
 	::-webkit-scrollbar-thumb:hover { background: #3f3f3f; }
 	::-webkit-scrollbar-thumb:active { background: #111; }
@@ -400,10 +407,3 @@ background-image: none !important;
 	.pages input[type='submit'] {
 		height: 15px !important;
 	}
-	}
-	
-@-moz-document domain('sys.4chan.org') {
-	html, body {
-		background-image: none !important;
-	}
-@-moz-document domain(4chan.org) {

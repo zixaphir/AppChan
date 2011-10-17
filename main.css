@@ -1156,26 +1156,6 @@ input[type="password"] {
 		font-size: /*[[FontSize]]*/ !important;
 		z-index: 4 !important;
 	}
-	#thread_filter::before {
-		content: "Filter" !important;
-		font-size: 13px !important;
-		position: fixed !important;
-		right: 130px !important;
-		top: 20px !important;
-		min-width: 30px !important;
-		max-width: 30px !important;
-	}
-	#thread_filter span:first-of-type {
-		font-size: 0px !important;
-	}
-	#thread_filter {
-		position: fixed !important;
-		top: -20px !important;
-	}
-	#thread_filter:hover {
-		position: fixed !important;
-		top: 20px !important;
-	}
 
 	#stats {
 		position: fixed !important;

@@ -1,4 +1,11 @@
 /* Zenburned */
+	}
+	
+@-moz-document domain('sys.4chan.org') {
+	html, body {
+		background-image: none !important;
+	}
+@-moz-document domain(4chan.org) {
 /*[[CustomScrollbars]]*/
 	::-webkit-scrollbar-thumb { border: 1px solid #4f4f4f !important; background: #3f3f3f; }
 	::-webkit-scrollbar-thumb:hover { background: #4f4f4f; }
@@ -438,10 +445,3 @@ background-image: none !important;
 		margin: 0 !important;
 		height: 17px !important;
 	}
-	}
-	
-@-moz-document domain('sys.4chan.org') {
-	html, body {
-		background-image: none !important;
-	}
-@-moz-document domain(4chan.org) {

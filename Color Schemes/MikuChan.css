@@ -1,4 +1,11 @@
 /* MikuChan */
+	}
+	
+@-moz-document domain('sys.4chan.org') {
+	html, body {
+		background-image: none !important;
+	}
+@-moz-document domain(4chan.org) {
 /*[[CustomScrollbars]]*/
 	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: -webkit-linear-gradient(top, rgba(255,255,255,0.3), rgba(255,255,255,0.1)); }
 	::-webkit-scrollbar-thumb { border: #565f6e !important; background: -webkit-linear-gradient(top, rgba(255,255,255,.4), rgba(255,255,255,0.2)); }
@@ -455,10 +462,3 @@ background-image: none !important;
 	.pages input[type='submit'] {
 		height: 15px !important;
 	}
-	}
-	
-@-moz-document domain('sys.4chan.org') {
-	html, body {
-		background-image: none !important;
-	}
-@-moz-document domain(4chan.org) {
