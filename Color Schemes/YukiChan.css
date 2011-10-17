@@ -1,11 +1,4 @@
 /* YukiChan */
-	}
-	
-@-moz-document domain('sys.4chan.org') {
-	html, body {
-		background-image: none !important;
-	}
-@-moz-document domain(4chan.org) {
 /*[[CustomScrollbars]]*/
 	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #686a99 !important; }
 	::-webkit-scrollbar-thumb { background: #5f608b !important; -webkit-border-radius: 10px !important; border: 1px solid #313c5a !important; }

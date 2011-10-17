@@ -1,11 +1,4 @@
 /* Muted */
-	}
-	
-@-moz-document domain('sys.4chan.org') {
-	html, body {
-		background-image: none !important;
-	}
-@-moz-document domain(4chan.org) {
 /*[[CustomScrollbars]]*/
 	::-webkit-scrollbar-thumb { border: #e7e7e7 !important; background: #aaa; }
 	::-webkit-scrollbar-thumb:hover { background: -webkit-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
