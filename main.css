@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, seaweed !Ponyo.2wFe, MayhemYDG, !K.WeEabo0o, disappoint, Kupaka, ubuntufriend, anonymous
 
-Revision 76
+Revision 77
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -688,12 +688,6 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 
 	form[name^='post'] input[type=file][name='upfile'] {
 		width: 300px !important;
-	}
-
-	#recaptcha_image img,
-	#quick_recaptcha_image img,
-	#qr img {
-		opacity: 0.5;
 	}
 
 	.postarea form[name^='post'] .recaptcha_image_cell>center,
