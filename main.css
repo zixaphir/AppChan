@@ -266,6 +266,9 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		left: 250px !important;
 		right: 2px !important;
 /*[[ChangeAlign]]*/
+                top: 0px !important;
+                padding-top: 1px !important;
+                padding-bottom: 1px !important;
 		left: 2px !important;
 		right: 253px !important;/**/
 		z-index: 98;
