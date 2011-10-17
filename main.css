@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, seaweed !Ponyo.2wFe, MayhemYDG, !K.WeEabo0o, disappoint, Kupaka, ubuntufriend, anonymous
 
-Revision 73
+Revision 76
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -131,13 +131,13 @@ Some more risque alternatives. ;)
 	/* Defaults of all elements */
 		font-family: /*[[Font]]*/ !important;
 		text-decoration: none !important;
-	}/*[[FontSize]]*/ 
-	td.reply, a, td, fieldset, blockquote, .rules, textarea {
+	}
+	td.reply, a, td, .filetitle, .filesize, fieldset, blockquote, .rules, textarea, time, .postername, .commentpostername  {
 		font-size: /*[[FontSize]]*/ !important;
 		text-decoration: none !important;
 	}
-	input {
-		font-size: 13px !important;
+	input, #imgControls, #stats, #updater, #navtopr a, label, .filetitle, #imageType, #header, #header a, #stats, #navbot a {
+		font-size: 12px !important;
 		text-decoration: none !important;
 	 }
 
@@ -521,13 +521,13 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
     body > table ~ form .reply a > img {
         position: relative !important;
         top: 0px !important;
-        z-index: 97 !important;
+        z-index: 96 !important;
     }
 
     .filesize ~ a > img + img {
         position: relative !important;
         top: 0px !important;
-        z-index: 97 !important;
+        z-index: 96 !important;
     }
 
    body > form #imgControls {
@@ -535,10 +535,10 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
     }
    #imageType {
      border: none !important;
-     width: 70px !important;
+     width: 90px !important;
      position: relative !important;
      bottom: 1px !important;
-     right: 15px !important;
+     right: 0px !important;
      background: none !important;
    }
 /* End of Image Hover and Image Expansion */ 
@@ -554,6 +554,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 	.top-box,
 	h2,
 	input:not([type='checkbox']),
+	input:not([type='radio']),
 	input[type='file']>input[type='button'],
 	input[type='submit'],
 	select,
@@ -932,7 +933,7 @@ input[type="password"] {
 		left: 150px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
-		right: 85px !important;
+		right: 40px !important;
 		left: auto !important;/**/
 		top: 0 !important;
 		bottom: auto !important;
@@ -967,10 +968,10 @@ input[type="password"] {
 		right: auto !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
-		right: 111px !important;/**/
+		right: 101px !important;/**/
 		top: 0;
 		bottom: auto !important;
-		width: 140px;
+		width: 150px;
 		font-size: 13px !important;
 		z-index: 2;
 	}
@@ -1115,49 +1116,9 @@ input[type="password"] {
 		bottom: 0px !important;
 		z-index: 99 !important;
 	}
-	.autoPagerS br {
-		display: none !important;
-	}
-	.autoPagerS * {
-		font-size: 13px !important;
-	}
 	.autoPagerS {
-		background: none !important;
-	}
-	.autoPagerS img {
 		display: none !important;
 	}
-	.autoPagerS[id^="apBreakStart"] {
-		background: none !important;
-		width: 400px !important;
-		position: relative !important;
-		padding: 0px !important;
-		bottom: 20px !important;
-		text-align: left !important;
-		line-height:15px !important;
-		height:15px !important;
-		margin: auto !important;
-	}
-	div.autoPagerS img {
-		display: none !important;
-	}
-	.autoPagerS[id^="apBreakStart"]:not(a) {
-		word-spacing: -2px !important;
-	}
-	.autoPagerS[id^="apBreakStart"] a:first-of-type {
-		visibility: hidden !important;
-	}
-	.autoPagerS[id^="apBreakStart"] a:last-of-type {
-		position: relative !important;
-		right: 5px !important;
-	}
-	.autoPagerS[id^="apBreakStart"]::after {
-		font-size: 13px !important;
-		position: relative !important;
-		right: 233px !important;
-		content: "AutoPager:" !important;
-		word-wrap: none !important;
-		}
 /* 4chan x options */
 	#overlay {
 		z-index: 99 !important;
@@ -1198,34 +1159,14 @@ input[type="password"] {
 		font-size: /*[[FontSize]]*/ !important;
 		z-index: 4 !important;
 	}
-	#thread_filter::before {
-		content: "Filter" !important;
-		font-size: 13px !important;
-		position: fixed !important;
-		right: 110px !important;
-		top: 20px !important;
-		min-width: 30px !important;
-		max-width: 30px !important;
-	}
-	#thread_filter span:first-of-type {
-		font-size: 0px !important;
-	}
-	#thread_filter {
-		position: fixed !important;
-		top: -20px !important;
-	}
-	#thread_filter:hover {
-		position: fixed !important;
-		top: 20px !important;
-	}
 
 	#stats {
 		position: fixed !important;
-		top: -3px !important;
+		top: 17px !important;
 		right: auto !important;
 		left: 150px !important;
 /*[[ChangeAlign]]*/
-		right: 35px !important;
+		right: 190px !important;
 		left: auto !important;/**/
 		width: 96px !important;
 		text-align: right !important;
@@ -1278,6 +1219,11 @@ input[type="password"] {
 		bottom: auto !important;
 		width: 248px !important;
 	}
+	#watcher .move {
+		font-size: 0px !important;
+		height: 15px !important;
+	}
+
 
 	#backwash_tooltip,
 	#qp,
@@ -1488,8 +1434,7 @@ input[type="password"] {
 }
 
 @-moz-document url-prefix('http://www.4chan.org'),
-domain('rs.4chan.org'),
-domain('sys.4chan.org') {
+domain('rs.4chan.org') {
 	html, body {
 		background-image: none !important;
 	}

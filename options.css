@@ -49,6 +49,10 @@ none
 'Lucida Grande'
 /* Helvetica */
 'Helvetica'
+/* Futura Lt*/
+'Futura Lt'
+/* Profont */
+'Profont', 'monospace'
 /* END */
 
 /*[[FontSize]]*/
@@ -100,7 +104,7 @@ none
 		padding: 0 0 0 250px !important;
 	#navbot {
 		position: fixed !important;
-		top: -61px !important;
+		top: -101px !important;
 	}
 /*[[ChangeAlign]]*/
 		padding: 0 250px 0 0 !important;/**/
@@ -151,7 +155,7 @@ none
 	}
 	#navbot {
 		position: fixed !important;
-		top: -61px !important;
+		top: -101px !important;
 	}
 /* Invert */
 	#header,
@@ -193,7 +197,7 @@ none
 	}
 	#navbot {
 		position: fixed !important;
-		top: -61px !important;
+		top: -101px !important;
 	}
 /* Slideout */
 	#header {
@@ -210,7 +214,7 @@ none
 		display: block !important;
 		left: auto !important;
 		right: 0 !important;
-		z-index: 98 !important;
+		z-index: 97 !important;
 /*[[ChangeAlign]]*/	right: auto !important;/**/
 		top: 0px !important;
 		height: 15px !important;
@@ -220,13 +224,10 @@ none
 		vertical-align: bottom !important;
 		text-align: center !important;
 		opacity: 0.5 !important;
-		-webkit-transition: all 0.3s ease-in-out !important;
-		-moz-transition: all 0.3s ease-in-out !important;
-		-o-transition: all 0.3s ease-in-out !important;
 		content: '-Navigation-';
 	}
 	#navbot:hover::after {
-		top: 41px !important;
+		top: 51px !important;
 		border: none !important;
 		opacity: 1 !important;
 		background: none !important;
@@ -247,15 +248,12 @@ none
 /*[[ChangeAlign]]*/		left: 0px !important;
 		right: auto !important;/**/
 		color: transparent !important;
-		padding: 0 10px 20px 10px !important;
+		padding: 0 10px 30px 10px !important;
 		border-width: 0 1px 1px 0 !important;
 		word-spacing: -2px !important;
 		width: 310px !important;
 		height: 40px !important;
 		text-align: center !important;
-		-webkit-transition: all 0.3s ease-in-out !important;
-		-moz-transition: all 0.3s ease-in-out !important;
-		-o-transition: all 0.3s ease-in-out !important;
 	}
 /* Slideout Invert */
 	.pages {
@@ -284,9 +282,6 @@ none
 		vertical-align: bottom !important;
 		text-align: center !important;
 		opacity: 0.5 !important;
-		-webkit-transition: all 0.3s ease-in-out !important;
-		-moz-transition: all 0.3s ease-in-out !important;
-		-o-transition: all 0.3s ease-in-out !important;
 		content: '-Navigation-';
 		z-index: 98;
 	}
@@ -306,21 +301,18 @@ none
 	#navbot {
 		visibility: visible !important;
 		position: fixed !important;
-		bottom: -61px !important;
+		bottom: -101px !important;
 		left: auto !important;
 		right: 0px !important;
 /*[[ChangeAlign]]*/		left: 0px !important;
 		right: auto !important;/**/
 		color: transparent !important;
-		padding: 0 10px 20px 10px !important;
+		padding: 0 10px 30px 10px !important;
 		border-width: 0 1px 1px 0 !important;
 		width: 310px !important;
 		height: 40px !important;
 		word-spacing: -2px !important;
 		text-align: center !important;
-		-webkit-transition: all 0.3s ease-in-out !important;
-		-moz-transition: all 0.3s ease-in-out !important;
-		-o-transition: all 0.3s ease-in-out !important;
 	}
 /* End */
 
@@ -2215,6 +2207,26 @@ padding-bottom: 20px !important;
 		#thread_filter:not(.autohide) a[title='Auto-hide dialog box']::after {
 		content: ' - SET THIS!!';
 	}
+		#thread_filter::before {
+		content: "Filter" !important;
+		font-size: 13px !important;
+		position: fixed !important;
+		right: 130px !important;
+		top: 20px !important;
+		min-width: 30px !important;
+		max-width: 30px !important;
+	}
+	#thread_filter span:first-of-type {
+		font-size: 0px !important;
+	}
+	#thread_filter {
+		position: fixed !important;
+		top: -20px !important;
+	}
+	#thread_filter:hover {
+		position: fixed !important;
+		top: 20px !important;
+	}
 /* Locked Bottom: */
 	#filter,
 	#thread_filter {
@@ -2224,7 +2236,7 @@ padding-bottom: 20px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
-		right: 2px !important;/**/
+		right: 300px !important;/**/
 		bottom: 0 !important;
 		width: 248px;
 	}

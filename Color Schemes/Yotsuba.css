@@ -1,7 +1,7 @@
 /* Yotsuba A + B */
 }
 /* Yotsuba A */
-@-moz-document url-prefix('http://boards.4chan.org/b/'), url-prefix('http://boards.4chan.org/d/'), url-prefix('http://boards.4chan.org/e/'), url-prefix('http://boards.4chan.org/f/'), url-prefix('http://boards.4chan.org/gif/'), url-prefix('http://boards.4chan.org/h/'), url-prefix('http://boards.4chan.org/hr/'), url-prefix('http://boards.4chan.org/r/'), url-prefix('http://boards.4chan.org/s/'), url-prefix('http://boards.4chan.org/t/'), url-prefix('http://boards.4chan.org/u/'), url-prefix('http://boards.4chan.org/wg/'), url-prefix('http://boards.4chan.org/i/'), url-prefix('http://boards.4chan.org/ic/'), url-prefix('http://boards.4chan.org/y/'), url-prefix('http://boards.4chan.org/soc/')  {
+@-moz-document regexp(".*\.4chan\.org/(b|d|e|f|gif|h|hr|r|s|t|u|wg|i|ic|y|soc)/.*") {
 /*[[CustomScrollbars]]*/
 	::-webkit-scrollbar-thumb { border: 1px solid #D9BFB7; background: #eef2ff; }
 	::-webkit-scrollbar-thumb:hover { background: -webkit-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
@@ -40,8 +40,6 @@
 	.box-outer,
 	.boxbar,
 	.deletebuttons input[value=Delete],
-	.recaptcha_image_cell>center>#recaptcha_image,
-	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	.yuimenuitem-selected,
 	form[name^='post']::before,
@@ -168,6 +166,7 @@
 	div.postarea,
 	form[name^='post']::before,
 	select,
+	#navbot::after,
 	td.deletebuttons,
 	.abbr,
 	.boxbar,
@@ -180,7 +179,6 @@
 	#backwash_tooltip,
 	#header .title,
 	#imgControls label::after,
-	#navbot::after,
 	#qp,
 	#twi_table_div,
 	#updater #count:not(.new)::after,
@@ -230,8 +228,6 @@
 	div[id^='4chan_ext_iqr']>*,
 	#filter input,
 	#filter textarea,
-	#navbot,
-	#navbot::after,
 	#options input,
 	#options textarea,
 	#qr,
@@ -264,7 +260,7 @@
 }
 /* Yotsuba B */
 
-@-moz-document url-prefix('http://boards.4chan.org/v/'), url-prefix('http://boards.4chan.org/g/'), url-prefix('http://boards.4chan.org/a/'), url-prefix('http://boards.4chan.org/c/'), url-prefix('http://boards.4chan.org/k/'), url-prefix('http://boards.4chan.org/m/'), url-prefix('http://boards.4chan.org/o/'), url-prefix('http://boards.4chan.org/p/'), url-prefix('http://boards.4chan.org/w/'), url-prefix('http://boards.4chan.org/cm/'), url-prefix('http://boards.4chan.org/3/'), url-prefix('http://boards.4chan.org/adv/'), url-prefix('http://boards.4chan.org/an/'), url-prefix('http://boards.4chan.org/cgl/'), url-prefix('http://boards.4chan.org/ck/'), url-prefix('http://boards.4chan.org/co/'), url-prefix('http://boards.4chan.org/fa/'), url-prefix('http://boards.4chan.org/fit/'), url-prefix('http://boards.4chan.org/int/'), url-prefix('http://boards.4chan.org/jp/'), url-prefix('http://boards.4chan.org/lit/'), url-prefix('http://boards.4chan.org/mu/'), url-prefix('http://boards.4chan.org/n/'), url-prefix('http://boards.4chan.org/po/'), url-prefix('http://boards.4chan.org/sci/'), url-prefix('http://boards.4chan.org/sp/'), url-prefix('http://boards.4chan.org/tg/'), url-prefix('http://boards.4chan.org/toy/'), url-prefix('http://boards.4chan.org/trv/'), url-prefix('http://boards.4chan.org/tv/'), url-prefix('http://boards.4chan.org/vp/'), url-prefix('http://boards.4chan.org/s/') {
+@-moz-document regexp(".*\.4chan\.org/(v|g|a|c|g|k|m|o|p|w|cm|3|adv|an|cgl|ck|co|fa|fit|int|jp|lit|mu|n|po|sci|sp|tg|toy|trv|tv|vp|s)/.*") {
 /*[[CustomScrollbars]]*/
 	::-webkit-scrollbar-thumb { border: 1px solid #b7c5d9; background: #eef2ff; }
 	::-webkit-scrollbar-thumb:hover { background: -webkit-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
@@ -309,8 +305,6 @@
 	.box-outer,
 	.boxbar,
 	.deletebuttons input[value=Delete],
-	.recaptcha_image_cell>center>#recaptcha_image,
-	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	.yuimenuitem-selected,
 	form[name^='post']::before,
@@ -331,7 +325,7 @@
 	td.replyhl {
 		border: 1px solid #ba9dbf !important;
 	}
-	#header, h3 {
+	#header, h3, #navbot::after, #navbot {
 		background-color: #D2D6EF !important;
 	}
 	.doubledash,
@@ -496,8 +490,6 @@
 	div[id^='4chan_ext_iqr']>*,
 	#filter input,
 	#filter textarea,
-	#navbot,
-	#navbot::after,
 	#options input,
 	#options textarea,
 	#qr,
@@ -529,7 +521,7 @@
 	}/**/
 }
 
-@-moz-document domain('boards.4chan.org') {
+@-moz-document domain(4chan.org) {
 	* {
 		outline: none !important;
 	}
@@ -590,6 +582,7 @@
 	table.reply[style^='clear: both'],
 	input,
 	textarea,
+	.recaptchatable #recaptcha_response_field,
 	.recaptchatable #recaptcha_response_field:focus,
 	.deletebuttons input[type='password']:focus,
 	input:focus,
