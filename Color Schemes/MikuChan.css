@@ -24,9 +24,6 @@
 		color: #808791;
 	}
 
-	* {
-		text-shadow: rgba(30, 30, 30, .37) 0 0 3px, rgba(30, 30, 30, .7) 0 1px 0 !important;
-	}
 	body {
 background-image: none !important;
 	}
@@ -99,7 +96,6 @@ background-image: none !important;
 	.commentpostername {
 		color: #9ad7da !important;
 		font-weight: bold !important;
-		text-shadow: rgba(30, 30, 30, .37) 0 0 3px, rgba(30, 30, 30, .7) 0 1px 0;
 	}
 
 	.postertrip {
