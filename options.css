@@ -1,4 +1,4 @@
-/*[[ColorScheme]]*/
+*[[ColorScheme]]*/
 /* See './Color Schemes/' */
 /* End */
 
@@ -2276,7 +2276,7 @@ domain('images.4chan.org'),
 /*[[TransparentThreadWatcher]]*/
 /* Yes: */
 	*>#watcher{
-		background-color: transparent;
+		background-color: transparent !important;
 	}
 /* No: */
 
