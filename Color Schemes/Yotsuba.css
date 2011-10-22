@@ -60,7 +60,7 @@
 	td.replyhl {
 		border: 1px solid #ba9dbf !important;
 	}
-	#header, h3 {
+	#header {
 		background-color: #FED7B1 !important;
 	}
 	.doubledash,
@@ -325,7 +325,7 @@
 	td.replyhl {
 		border: 1px solid #ba9dbf !important;
 	}
-	#header, h3, #navbot::after, #navbot {
+	#header, #navbot::after, #navbot {
 		background-color: #D2D6EF !important;
 	}
 	.doubledash,

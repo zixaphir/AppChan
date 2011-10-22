@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, seaweed !Ponyo.2wFe, MayhemYDG, !K.WeEabo0o, disappoint, Kupaka, ubuntufriend, anonymous
 
-Revision 78
+Revision 79
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
@@ -271,6 +271,8 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
                 padding-bottom: 1px !important;
 		left: 2px !important;
 		right: 253px !important;/**/
+	}
+	#navtop {
 		z-index: 98;
 	}
 
@@ -933,7 +935,7 @@ input[type="password"] {
 		bottom: auto !important;
 		font-size: 0 !important;
 		color: transparent !important;
-		z-index: 3 !important;
+		z-index: 96 !important;
 	}
 
 	#navbar,
@@ -1196,6 +1198,7 @@ input[type="password"] {
 /*[[ChangeAlign]]*/
 		right: 2px !important;
 		left: auto !important;/**/
+		z-index: 99 !important;
 	}
 
 	#updater #count:not(.new) {
@@ -1277,7 +1280,7 @@ input[type="password"] {
 		/*[[ChangeAlign]]*/
 		right: 20px !important;
 		left: auto !important;/**/
-		z-index: 999;
+		z-index: 96;
 	}
 
 	table[style='width: 100%; height: 300px; text-align: center; table-layout: fixed; border-collapse: collapse;'] {

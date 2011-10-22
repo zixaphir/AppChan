@@ -52,7 +52,7 @@
     -moz-appearance: none !important;
         border:1px solid #CCC !important;
     }
-	#header, h3, #navbot, #navbot::after {
+	#header, #navbot, #navbot::after {
 		background-color: #DDD !important;
 	}
 	.doubledash,
