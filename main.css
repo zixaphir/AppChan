@@ -1103,6 +1103,12 @@ input[type="password"] {
 		z-index: 3 !important;
 	}
 /*[[ReturnButton]]*/
+/* File Clearer support */
+      .clearbutton {
+	      position: fixed !important;
+	      bottom: 45px !important;
+	      right: 55px !important;
+	}
 /* AutoPager */
 	#autoPagerBorderPaging {
 		position: fixed !important;
@@ -1288,6 +1294,9 @@ input[type="password"] {
 	#fs_search {
 		min-width: 138px !important;
 		max-width: 138px !important;
+	}
+	.postarea form[name^='post'] {
+		margin-bottom: -2px !important;
 	}
 /*[[PagesPosition]]*/
 /*[[ColorScheme]]*/
