@@ -408,6 +408,11 @@ Some more risque alternatives. ;)
 		font-size: /*[[FontSize]]*/ !important;
 	}
 
+	.deletebuttons .inputtext,
+	input[type='password'],
+	#qr form[name^='post'] input.inputtext,
+	#qr form[name^='post'] [name='upfile'] > input,
+	#qr #recaptcha_widget_div input,
 	.postarea form[name^='post'] input.inputtext,
 	form[name^='post'] input[name='upfile'] > input,
 	#files input[name='upfile'] > input,
@@ -645,10 +650,6 @@ Some more risque alternatives. ;)
 		background-image: none !important;
 	}
 
-	.deletebuttons .inputtext {
-		height: 19px !important;
-	}
-
 	#qr {
 		width: 300px;
 		padding: 2px;
@@ -686,13 +687,6 @@ Some more risque alternatives. ;)
 
 	#qr input[type=file][name='upfile'] {
 		width: 300px !important;
-	}
-
-	input[type='password'],
-	#qr form[name^='post'] input.inputtext,
-	#qr form[name^='post'] [name='upfile'] > input,
-	#qr #recaptcha_widget_div input {
-		height: 19px !important;
 	}
 /*[[CaptchaReload]]*/
 	.postarea form[name^='post'] #recaptcha_reload_btn {
