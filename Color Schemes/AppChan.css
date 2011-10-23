@@ -28,7 +28,7 @@ background-image: none !important;
 	}
 
 	body,
-	body>form,
+	body > form,
 	html body span[style='left: 5px; position: absolute;'] a,
 	div.postarea,
 	input,
@@ -60,16 +60,16 @@ background-image: none !important;
 		color: #aaa !important;
 	}
 
-/*[[TransparentReplies]]*/	.op>blockquote,
-	.thread>blockquote,
-	form[name='delform']>blockquote, /**/
+/*[[TransparentReplies]]*/	.op > blockquote,
+	.thread > blockquote,
+	form[name='delform'] > blockquote, /**/
 	div.logo font  {
 		text-shadow: #2c2c2c 1px 0 2px, #2c2c2c -1px 0 2px, #2c2c2c 0 -1px 2px, #2c2c2c 0 1px 2px;
 	}
 
-	div.postarea>form td:nth-of-type(3)>label,
-	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
-	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
+	div.postarea > form td:nth-of-type(3) > label,
+	#qr > form tr:nth-of-type(3) > td:nth-of-type(3) > label,
+	#quickrep > form tr:nth-of-type(3) > td:nth-of-type(3) > label,
 	#autonoko {
 		color: #888;
 	}
@@ -131,13 +131,13 @@ background-image: none !important;
 	.box-outer,
 	.boxbar,
 	.deletebuttons input[value=Delete],
-	.recaptcha_image_cell>center>#recaptcha_image,
+	.recaptcha_image_cell > center > #recaptcha_image,
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	.yuimenuitem-selected,
 	h2,
 	input,
-	input[type='file']>input[type='button'],
+	input[type='file'] > input[type='button'],
 	input[type='submit'],
 	select,
 	td.postblock,
@@ -156,21 +156,21 @@ background-image: none !important;
 	#options input,
 	#options textarea,
 	#qr,
-	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
+	#qr > form tr:nth-of-type(3) > td:nth-of-type(3) > label input,
 	#quickrep,
-	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
+	#quickrep > form tr:nth-of-type(3) > td:nth-of-type(3) > label input,
 	#qr label input,
 	#thread_filter input,
 	#thread_filter textarea,
 	#updater input:not([type='checkbox']),
 	.bd,
-	.boxcontent>hr,
+	.boxcontent > hr,
 	.boxcontent input,
 	.boxcontent textarea,
 	.pages,
 	html,
 	body,
-	div.postarea>form td:nth-of-type(3)>label input,
+	div.postarea > form td:nth-of-type(3) > label input,
 	div[id^=qr],
 	table[width='100%']~#qr a#attach::after,
 	table.reply[style^='clear: both'] {
@@ -189,12 +189,12 @@ background-image: none !important;
 	#thread_filter:not(.autohide),
 	#popup,
 	.chanchimp,
-	.chanchimp>div,
+	.chanchimp > div,
 	.recaptchatable #recaptcha_response_field:hover,
 	.deletebuttons input[type='password']:hover,
 	div[id^=ref],
 	input:hover,
-	input[type='file']>input[type='button']
+	input[type='file'] > input[type='button']
 	input[type='submit']:hover,
 	td.replyhl,
 	tr.replyhl,
@@ -226,7 +226,7 @@ background-image: none !important;
 
 	input[type=checkbox],
 	#options input[type=checkbox],
-	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox'],
+	form[name^='post'] td:nth-of-type(3)  >  label input[type='checkbox'],
 	#qr label input {
 		border-radius: 2px !important;
 		-o-border-radius: 2px !important;
@@ -235,14 +235,14 @@ background-image: none !important;
 
 	input[type=checkbox]:active,
 	#options input[type=checkbox]:active,
-	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:active,
+	form[name^='post'] td:nth-of-type(3)  >  label input[type='checkbox']:active,
 	#qr label input:active {
 		background: #aaa !important;
 	}
 
 	input[type=checkbox]:checked,
 	#options input[type=checkbox]:checked,
-	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:checked,
+	form[name^='post'] td:nth-of-type(3)  >  label input[type='checkbox']:checked,
 	#qr label input:checked {
 		background: #111 !important;
 	}
@@ -254,19 +254,19 @@ background-image: none !important;
 	html body span[style='left: 5px; position: absolute;'] a,
 	input[type='submit'],
 	#com_submit,
-	input[type='file']>input[type='button'] {
+	input[type='file'] > input[type='button'] {
 		background-color: #303030 !important;
 	}
 
 	html body span[style='left: 5px; position: absolute;'] a:hover,
 	#com_submit:hover,
 	input[type='submit']:hover,
-	input[type='file']>input[type='button']:hover {
+	input[type='file'] > input[type='button']:hover {
 		background-color: #363636 !important;
 	}
 
 	td[style='border: 1px dashed;'],
-	td.reply>tr>td.reply,
+	td.reply > tr > td.reply,
 	.inline td.reply {
 		/* Inline Quotes */
 		background-color: rgba(0,0,0,0.1) !important;
@@ -323,16 +323,16 @@ background-image: none !important;
 	.box-outer,
 	.boxbar,
 	.chanchimp,
-	.chanchimp>div,
+	.chanchimp > div,
 	.inputtext,
 	.deletebuttons input[value=Delete],
-	.recaptcha_image_cell>center>#recaptcha_image,
+	.recaptcha_image_cell > center > #recaptcha_image,
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	h2,
 	input:not([type='checkbox']),
 	#qr_captcha input,
-	input[type='file']>input[type='button'],
+	input[type='file'] > input[type='button'],
 	input[type='submit'],
 	select,
 	textarea {
@@ -344,7 +344,7 @@ background-image: none !important;
 		border: none !important;
 	}
 
-	.postarea form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
+	.postarea form[name^='post'] .recaptcha_image_cell > center > #recaptcha_image,
 	.postarea form[name^='post'] #recaptcha_image img {
 		width: 248px !important;
 		height: 47px !important;
@@ -391,11 +391,11 @@ background-image: none !important;
 		border: none !important;
 	}
 
-	form[name='delform']>div:not(.thread) select {
+	form[name='delform'] > div:not(.thread) select {
 		margin: 1px 0 0 0 !important;
 	}
 
-	form[name='delform']>div:not(.thread) select,
+	form[name='delform'] > div:not(.thread) select,
 	.pages input[type='submit'] {
 		height: 15px !important;
 	}

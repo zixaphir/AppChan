@@ -79,17 +79,17 @@ Some more risque alternatives. ;)
 
 @-moz-document domain('4chan.org') {
 /*[[helpertext]]*/
-	body>br,
-	body>hr,
+	body > br,
+	body > hr,
 	div[lock=off],
 	div[lock=on],
 	div.logo br:nth-of-type(1),
-	div.thread.stub > .omittedposts,
+	div.thread.stub  >  .omittedposts,
 	div#logo,
-	form table tbody>tr:nth-of-type(2) td[align='right'],
-	form[name='delform']>hr:last-of-type,
-	form[name='delform']>hr:nth-last-of-type(2),
-	html body>a:not([style='cursor: pointer; float: right;']),
+	form table tbody > tr:nth-of-type(2) td[align='right'],
+	form[name='delform'] > hr:last-of-type,
+	form[name='delform'] > hr:nth-last-of-type(2),
+	html body > a:not([style='cursor: pointer; float: right;']),
 	scrollbarbutton,
 	small,
 	td[style^='padding: ']:not(#backwash_tipcell):not([style='padding: 10px 7px 7px 7px;']):not([style='padding: 10px 7px 7px;']),
@@ -97,7 +97,7 @@ Some more risque alternatives. ;)
 	th,
 	[id='4chan_ext_nav_top'],
 	#autonoko, /* FIXME */
-	#footer>*:not(#navbot):not(center),
+	#footer > *:not(#navbot):not(center),
 	#ft li.fill,
 	#popular-threads,
 	#recaptcha_logo,
@@ -118,8 +118,8 @@ Some more risque alternatives. ;)
 	.notice,
 	.replymode,
 	.pages td:nth-of-type(2n-1),
-	.postarea form>div,
-	.postarea>form:first-child>table>tbody>tr:last-of-type,
+	.postarea form > div,
+	.postarea > form:first-child > table > tbody > tr:last-of-type,
 	.postarea .refreshBtn,
 	.yui-menu-shadow,
 	.warnicon {
@@ -152,7 +152,7 @@ Some more risque alternatives. ;)
 	scrollbar[orient='horizontal'] { border-top: 0; }
 	thumb { -moz-appearance: none !important; -o-appearance: none !important; border: 1px solid; }/**/
 
-	form[name='delform']>table[align=right]:last-of-type {
+	form[name='delform'] > table[align=right]:last-of-type {
 		visibility: hidden;
 	}
 
@@ -201,7 +201,7 @@ Some more risque alternatives. ;)
 
 	}
 
-	body>span>div {
+	body > span > div {
 	 /* 4watch */
 		position: fixed !important;
 		top: auto !important;
@@ -233,7 +233,7 @@ Some more risque alternatives. ;)
 	table.reply[style^='clear: both'],
 	td.postblock,
 	span[id^='4chan_ext_right'],
-	.boxcontent>hr,
+	.boxcontent > hr,
 	h3 {
 		border: none !important;
 	}
@@ -249,7 +249,7 @@ Some more risque alternatives. ;)
 	}
 /* Navigation */
 	#header,
-	#header>#navtop, /* Top Navigation */
+	#header > #navtop, /* Top Navigation */
 	.pages /* Bottom Navigation */ {
 		text-align: center !important;
 		font-size: 0 !important;
@@ -257,7 +257,7 @@ Some more risque alternatives. ;)
 		width: auto !important;
 	}
 
-	#header>#navtop {
+	#header > #navtop {
 	/* cripple the positioning of the top navigation */
 		position: static !important;
 		width: 100% !important;
@@ -390,7 +390,7 @@ Some more risque alternatives. ;)
 	}
 
 	.chanchimp form[name^='post'] input.inputtext,
-	.chanchimp form[name^='post'] input[type='file'][name='upfile'] > input[type='text'] {
+	.chanchimp form[name^='post'] input[type='file'][name='upfile']  >  input[type='text'] {
 		width: 200px !important;
 	}
 
@@ -462,7 +462,7 @@ Some more risque alternatives. ;)
 		content: ' | NOKO | SAGE';
 	}
 
-	.postarea tbody>tr:nth-child(4) .postblock b {
+	.postarea tbody > tr:nth-child(4) .postblock b {
 		font-size: 0 !important;
 		color: transparent !important;
 	}
@@ -519,19 +519,19 @@ Some more risque alternatives. ;)
     #iHover {
 		z-index: 99 !important;
     }
-    body > table ~ form .reply a > img {
+    body  >  table ~ form .reply a  >  img {
         position: relative !important;
         top: 0px !important;
         z-index: 96 !important;
     }
 
-    .filesize ~ a > img + img {
+    .filesize ~ a  >  img + img {
         position: relative !important;
         top: 0px !important;
         z-index: 96 !important;
     }
 
-   body > form #imgControls {
+   body  >  form #imgControls {
         z-index: 98 !important;
     }
    #imageType {
@@ -550,13 +550,13 @@ Some more risque alternatives. ;)
 	.box-outer,
 	.boxbar,
 	.deletebuttons input[value=Delete],
-	.recaptcha_image_cell>center>#recaptcha_image,
+	.recaptcha_image_cell > center > #recaptcha_image,
 	[name='recaptcha_response_field'],
 	.top-box,
 	h2,
 	input:not([type='checkbox']),
 	input:not([type='radio']),
-	input[type='file']>input[type='button'],
+	input[type='file'] > input[type='button'],
 	input[type='submit'],
 	select,
 	textarea {
@@ -577,7 +577,7 @@ Some more risque alternatives. ;)
 		height: 19px !important;
 	}
 
-	.recaptcha_image_cell>center>#recaptcha_image {
+	.recaptcha_image_cell > center > #recaptcha_image {
 		background-color: transparent !important;
 		margin-left: 0 !important;
 	}
@@ -589,31 +589,31 @@ Some more risque alternatives. ;)
 	}
 
 	form[name^='post'] input.inputtext,
-	form[name^='post'] input[type='file'][name='upfile']>input[type='text'],
+	form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
 	form[name^='post'] textarea {
 		width: 300px !important;
 	}
 
 	.inputtext,
-	input[name='upfile']>input[type='text'] {
+	input[name='upfile'] > input[type='text'] {
 		padding: 2px !important;
 	}
 
 	div.move input,
 	form[name^='post'] input[type='text'],
-	input[type='file'][name='upfile']>input[type='text'],
-	input[type='file']>input[type='button'] {
+	input[type='file'][name='upfile'] > input[type='text'],
+	input[type='file'] > input[type='button'] {
 		height: 19px !important;
 	}
 
-	.postarea form[name^='post'] input[type='file'][name='upfile']>input[type='text'],
+	.postarea form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
 	.postarea form[name^='post'] input[name='sub'] {
 		width: 197px !important;
 	}
 
 	form[name^='post'] input[name='sub'],
-	form[name^='post'] input[type='file'][name='upfile']>input[type='text'],
-	#files input[type='file'][name='upfile']>input[type='text'] {
+	form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
+	#files input[type='file'][name='upfile'] > input[type='text'] {
 		width: 249px !important;
 		margin: 0 1px 0 0 !important;
 		vertical-align: bottom;
@@ -621,7 +621,7 @@ Some more risque alternatives. ;)
 
 	input[type='submit'],
 	#com_submit,
-	input[type='file']>input[type='button'] {
+	input[type='file'] > input[type='button'] {
 	/* Fancy formatting for all our postform buttons */
 		cursor: default !important;
 		width: 50px !important;
@@ -663,7 +663,7 @@ Some more risque alternatives. ;)
 
 	.postarea form[name^='post'] input[name='sub'],
 	.postarea form[name^='post'] textarea.inputtext,
-	.postarea form[name^='post'] td>input,
+	.postarea form[name^='post'] td > input,
 	.postarea form[name^='post'] .recaptchatable,
 	.postarea form[name^='post'] input[name='recaptcha_response_field'],
 	#com_submit,
@@ -676,7 +676,7 @@ Some more risque alternatives. ;)
 		margin-top: 1px !important;
 	}
 
-	.postarea form[name^='post'] td>input[name='upfile'] {
+	.postarea form[name^='post'] td > input[name='upfile'] {
 		width: 248px !important;
 	}
 
@@ -691,7 +691,7 @@ Some more risque alternatives. ;)
 		width: 300px !important;
 	}
 
-	.postarea form[name^='post'] .recaptcha_image_cell>center,
+	.postarea form[name^='post'] .recaptcha_image_cell > center,
 	#r_captcha_div img,
 	#r_captcha_div input {
 		width: 248px !important;
@@ -703,7 +703,7 @@ Some more risque alternatives. ;)
 		width: 248px !important;
 	}
 
-	.postarea .recaptcha_image_cell>center,
+	.postarea .recaptcha_image_cell > center,
 	.postarea .recaptcha_image_cell,
 	tr[height='73'] td,
 	form[name^='post'] tr[height='73'] {
@@ -742,7 +742,7 @@ input[type="password"] {
 		right: 15px !important;
 	}
 
-	#dragarea>div:nth-of-type(2) {
+	#dragarea > div:nth-of-type(2) {
 		width: 260px !important;
 	}
 
@@ -751,12 +751,12 @@ input[type="password"] {
 		right: 12px;
 	}
 
-	#quickrep td>table {
+	#quickrep td > table {
 		border-spacing: 0;
 	}
 
 /* Spoiler Image Checkbox */
-	form[name^='post'] tr:nth-of-type(3)>td:nth-of-type(3) {
+	form[name^='post'] tr:nth-of-type(3) > td:nth-of-type(3) {
 	/* Removes the brackets around Spoiler Image */
 		font-size: 0 !important;
 		color: transparent;
@@ -787,29 +787,29 @@ input[type="password"] {
 		position: static;
 	}
 
-	#qr>form[name^='post'] input[name='email']+label,
-	#quickrep>form[name^='post'] input[name='email']+label,
+	#qr > form[name^='post'] input[name='email']+label,
+	#quickrep > form[name^='post'] input[name='email']+label,
 	[id^='qr'] input[name='email']+label {
 		bottom: 4px;
 		right: 70px;
 	}
 
-	#qr>form[name^='post'] #com_submit+label,
-	#quickrep>form[name^='post'] #com_submit+label,
+	#qr > form[name^='post'] #com_submit+label,
+	#quickrep > form[name^='post'] #com_submit+label,
 	[id^='qr'] #com_submit+label {
 		top: auto !important;
 		right: 55px !important;
 	}
 
-	div.postarea>form td:nth-of-type(3)>label input,
-	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
-	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
-	form[name='delform']>div:not(.thread) input,
+	div.postarea > form td:nth-of-type(3) > label input,
+	#qr > form tr:nth-of-type(3) > td:nth-of-type(3) > label input,
+	#quickrep > form tr:nth-of-type(3) > td:nth-of-type(3) > label input,
+	form[name='delform'] > div:not(.thread) input,
 	.deletebuttons input[type='checkbox'] {
 		vertical-align: middle;
 	}
 
-	form[name^='post'] td:nth-of-type(3)>label input,
+	form[name^='post'] td:nth-of-type(3) > label input,
 	#qr label input,
 	.boxcontent input,
 	.boxcontent textarea {
@@ -834,7 +834,7 @@ input[type="password"] {
 		padding: 17px 0 0 0 !important;
 		margin: 0 0 0px !important;
 	}
-   	body > table ~ form[name='delform'] br[clear='left'], form[name='delform'] center  {
+   	body  >  table ~ form[name='delform'] br[clear='left'], form[name='delform'] center  {
    		position: fixed;
     	bottom: -500px;
 	}
@@ -871,9 +871,9 @@ input[type="password"] {
 
 /*[[ReplyWidth]]*/
 
-	form[name='delform']>table:not(.pages),
-	div.thread>table,
-	.insertedPosts>table {
+	form[name='delform'] > table:not(.pages),
+	div.thread > table,
+	.insertedPosts > table {
 		border-spacing: 0 1px !important;
 	}
 
@@ -934,7 +934,7 @@ input[type="password"] {
 		font-weight: 700 !important;
 	}
 /* Addons and such */
-	body>div[style='width: 100%;'] {
+	body > div[style='width: 100%;'] {
 		margin-top: 34px;
 	}
 
@@ -946,7 +946,7 @@ input[type="password"] {
 	#quickrep td.postblock,
 	.recaptcha_input_area,
 	.menubutton a,
-	.chanchimp>div,
+	.chanchimp > div,
 	.pages td,
 	.recaptchatable td.recaptcha_image_cell,
 	td[style='padding-left: 7px;'],
@@ -1023,12 +1023,12 @@ input[type="password"] {
 		float: right !important;
 	}
 
-	select>button,
-	select>input {
+	select > button,
+	select > input {
 		opacity: 0;
 	}
 
-	#imgControls select>option {
+	#imgControls select > option {
 		font-size: 80% !important;
 	}
 /* End of Expand Images div */
@@ -1066,7 +1066,7 @@ input[type="password"] {
 		height: auto !important;
 	}
 
-	#popup>img {
+	#popup > img {
 		max-width: 100% !important;
 	}
 /*[[DeleteButtons]]*/
@@ -1174,7 +1174,7 @@ input[type="password"] {
 		-o-transition: height 500ms ease-in-out !important;
 	}
 
-	#options ul>li {
+	#options ul > li {
 		padding: 0 3px !important;
 	}
 /* End of 4chan x options */
@@ -1303,7 +1303,7 @@ input[type="password"] {
 		cursor: default !important;
 	}
 /* 4sight */
-	body>a[style='cursor: pointer; float: right;'] {
+	body > a[style='cursor: pointer; float: right;'] {
 		position: fixed;
 		top:20px;
 		left: 20px;
@@ -1352,8 +1352,8 @@ input[type="password"] {
 		display: table-cell !important;
 	}
 
-	#footer>center,
-	#footer>center * {
+	#footer > center,
+	#footer > center * {
 		visibility: visible !important;
 	}
 
