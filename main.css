@@ -13,7 +13,7 @@ http://sam.zoy.org/wtfpl/COPYING or included COPYING for more details.
 
 Included artwork and images are unlicensed (non-free) and are used under
 the following fair use rationale:
-	
+
 1.	The purpose of use is not commercial in nature in any conceivable way.
 
 2.	The included images are already commonly available from various
@@ -62,7 +62,7 @@ Silhouettes (Don't work with light color schemes)
 	Yuki Nagato (+Pantsu) [s] - http://i.imgur.com/A3aFp.png
 	Horo [s] - http://i.imgur.com/i6LMi.png
 	Original Horo [s] - http://i.imgur.com/TQ6pJ.png
-	
+
 Some more risque alternatives. ;)
 	Horo - http://i.imgur.com/6f8wd.png
 	Horo 2 - http://i.imgur.com/KJLui.png
@@ -132,24 +132,25 @@ Some more risque alternatives. ;)
 		font-family: /*[[Font]]*/ !important;
 		text-decoration: none !important;
 	}
+
 	td.reply, a, td, .filetitle, .filesize, fieldset, blockquote, .rules, textarea, time, .postername, .commentpostername  {
 		font-size: /*[[FontSize]]*/ !important;
 		text-decoration: none !important;
 	}
+
 	input, #imgControls, #stats, #updater, #navtopr a, label, .filetitle, #imageType, #header, #header a, #stats, #navbot a {
 		font-size: 12px !important;
 		text-decoration: none !important;
-	 }
+	}
 
-
-/*[[CustomScrollbars]]*/::-webkit-scrollbar { width: 10px !important; height: 10px !important; }
-::-webkit-scrollbar-thumb { border: 1px solid; }
-::-webkit-scrollbar-track-piece:vertical { border-left: 0; }
-::-webkit-scrollbar-track-piece:horizontal { border-top: 0; }
-scrollbar, scrollcorner { -moz-appearance: none !important; -o-appearance: none !important; width: 10px !important; height: 10px !important; }
-scrollbar[orient='vertical'] { border-left: 0; }
-scrollbar[orient='horizontal'] { border-top: 0; }
-thumb { -moz-appearance: none !important; -o-appearance: none !important; border: 1px solid; }/**/
+	/*[[CustomScrollbars]]*/::-webkit-scrollbar { width: 10px !important; height: 10px !important; }
+	::-webkit-scrollbar-thumb { border: 1px solid; }
+	::-webkit-scrollbar-track-piece:vertical { border-left: 0; }
+	::-webkit-scrollbar-track-piece:horizontal { border-top: 0; }
+	scrollbar, scrollcorner { -moz-appearance: none !important; -o-appearance: none !important; width: 10px !important; height: 10px !important; }
+	scrollbar[orient='vertical'] { border-left: 0; }
+	scrollbar[orient='horizontal'] { border-top: 0; }
+	thumb { -moz-appearance: none !important; -o-appearance: none !important; border: 1px solid; }/**/
 
 	form[name='delform']>table[align=right]:last-of-type {
 		visibility: hidden;
@@ -297,8 +298,6 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		padding-top: 0 !important;
 	}
 
-	
-
 	.pages td:nth-of-type(1) {
 		font-size: 75% !important;
 		text-transform: uppercase;
@@ -419,7 +418,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		right: 7px;
 		margin-top: 2px;
 	}
-	
+
 	#files a {
 		margin-left: -64px !important;
 		vertical-align: top !important;
@@ -543,7 +542,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
      right: 0px !important;
      background: none !important;
    }
-/* End of Image Hover and Image Expansion */ 
+/* End of Image Hover and Image Expansion */
 	#ft li,
 	#ft ul,
 	#options input:not([type='checkbox']),
@@ -710,6 +709,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 	form[name^='post'] tr[height='73'] {
 		height: auto !important;
 	}
+
 input[type="password"] {
 	height: 1.75em !important;
 	}
@@ -837,6 +837,36 @@ input[type="password"] {
    	body > table ~ form[name='delform'] br[clear='left'], form[name='delform'] center  {
    		position: fixed;
     	bottom: -500px;
+	}
+	form[name='delform'] td.reply,
+	form[name='delform'] td.replyhl {
+	   display: inline-block;
+	   position: relative !important;
+	}
+
+	td .container,
+	#qp .container {
+	   position: absolute;
+	   bottom: 5px;
+	   right: 5px;
+	}
+
+	.op .container {
+	   display: block;
+	}
+
+	.container::before {
+	   content: "Quoted by: ";
+	   font-size: inherit;
+	}
+
+	.op .container::before {
+	   margin-left: 50px;
+	}
+
+	.reply .container ~ blockquote,
+	.replyhl .container ~ blockquote {
+		margin: 12px 40px 20px;
 	}
 
 /*[[ReplyWidth]]*/
@@ -1410,7 +1440,7 @@ input[type="password"] {
 	    overflow-y:scroll;
 	}
 
-	
+
 	img {
 		margin: auto !important;
 		overflow: auto !important;
