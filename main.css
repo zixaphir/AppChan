@@ -838,6 +838,30 @@ input[type="password"] {
    		position: fixed;
     	bottom: -500px;
 	}
+	form[name='delform'] td.reply,
+	form[name='delform'] td.replyhl {
+	   display: inline-block;
+	   position: relative !important;
+	}
+
+	td .container,
+	#qp .container {
+	   position: absolute;
+	   bottom: 5px;
+	   right: 5px;
+	}
+	
+	.op .container {
+	   display: block;
+	}
+	
+	.container::before {
+	   content: "Quoted by: ";
+	}
+	
+	.op .container::before {
+	   margin-left: 50px;
+	}
 
 /*[[ReplyWidth]]*/
 
