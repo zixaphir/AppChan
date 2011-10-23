@@ -13,7 +13,7 @@ http://sam.zoy.org/wtfpl/COPYING or included COPYING for more details.
 
 Included artwork and images are unlicensed (non-free) and are used under
 the following fair use rationale:
-	
+
 1.	The purpose of use is not commercial in nature in any conceivable way.
 
 2.	The included images are already commonly available from various
@@ -62,7 +62,7 @@ Silhouettes (Don't work with light color schemes)
 	Yuki Nagato (+Pantsu) [s] - http://i.imgur.com/A3aFp.png
 	Horo [s] - http://i.imgur.com/i6LMi.png
 	Original Horo [s] - http://i.imgur.com/TQ6pJ.png
-	
+
 Some more risque alternatives. ;)
 	Horo - http://i.imgur.com/6f8wd.png
 	Horo 2 - http://i.imgur.com/KJLui.png
@@ -297,7 +297,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		padding-top: 0 !important;
 	}
 
-	
+
 
 	.pages td:nth-of-type(1) {
 		font-size: 75% !important;
@@ -419,7 +419,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		right: 7px;
 		margin-top: 2px;
 	}
-	
+
 	#files a {
 		margin-left: -64px !important;
 		vertical-align: top !important;
@@ -543,7 +543,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
      right: 0px !important;
      background: none !important;
    }
-/* End of Image Hover and Image Expansion */ 
+/* End of Image Hover and Image Expansion */
 	#ft li,
 	#ft ul,
 	#options input:not([type='checkbox']),
@@ -850,15 +850,15 @@ input[type="password"] {
 	   bottom: 5px;
 	   right: 5px;
 	}
-	
+
 	.op .container {
 	   display: block;
 	}
-	
+
 	.container::before {
 	   content: "Quoted by: ";
 	}
-	
+
 	.op .container::before {
 	   margin-left: 50px;
 	}
@@ -1434,7 +1434,7 @@ input[type="password"] {
 	    overflow-y:scroll;
 	}
 
-	
+
 	img {
 		margin: auto !important;
 		overflow: auto !important;

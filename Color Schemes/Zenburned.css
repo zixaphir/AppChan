@@ -157,8 +157,8 @@ background-image: none !important;
 	td.postblock,
 	td.reply,
 	textarea,
-	#main, 
-	#optionsbar, 
+	#main,
+	#optionsbar,
 	#options .dialog {
 		background-color: #313c36 !important;
 	}
