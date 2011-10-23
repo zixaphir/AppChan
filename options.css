@@ -452,14 +452,11 @@ none
 		left: auto !important;/**/
 	}
 /* Tabbed Slideout: Transitions only in Firefox > 4 */
-		right: auto !important;
-		left: -249px !important;
-/*[[ChangeAlign]]*/
 	.postarea form[name^='post'] {
 		right: auto !important;
-		left: -233px !important;
+		left: -248px !important;
 /*[[ChangeAlign]]*/
-		right: -233px !important;
+		right: -248px !important;
 		left: auto !important;/**/
 		-webkit-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
 		-moz-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
@@ -841,11 +838,11 @@ none
 	#qr {
 		overflow: visible !important;
 		position: fixed;
-		left: -233px !important;
+		left: -248px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
-		right: -233px !important;/**/
+		right: -248px !important;/**/
 		top: auto !important;
 		bottom: 20px !important;
 		width: 248px !important;
