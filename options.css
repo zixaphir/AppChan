@@ -68,30 +68,30 @@ none
 
 /*[[{Margin]]*/
 /* Enabled: */
-    /*[[MarginCenter]]*/
-  .replyhider a {
-    position: absolute;
-    right: 5px;
-/*[[ChangeAlign]]*/    right: 255px;/**/
+	/*[[MarginCenter]]*/
+ .replyhider a {
+	position: absolute;
+	right: 5px;
+/*[[ChangeAlign]]*/	right: 255px;/**/
 /* Disabled: */
-    padding: 0 2px 0 2px !important;
-  }
-  .replyhider a {
-    position: absolute;
-    right: 5px;
+	padding: 0 2px 0 2px !important;
+ }
+ .replyhider a {
+	position: absolute;
+	right: 5px;
 /* End */
 /*[[MarginCenter]]*/
 /* No */
-    padding: 0 2px 0 252px !important;
-    /*[[ChangeAlign]]*/padding: 0 252px 0 2px !important;/**/
-  }
+	padding: 0 2px 0 252px !important;
+	/*[[ChangeAlign]]*/padding: 0 252px 0 2px !important;/**/
+ }
 /* Completely Centered */
-    padding: 0 25% 0 25% !important;
-  }
+	padding: 0 25% 0 25% !important;
+ }
 /* Slightly, retain Sidebar alignment */
-    padding: 0 150px 0 252px !important;
-    /*[[ChangeAlign]]*/padding: 0 252px 0 150px !important;/**/
-  }
+	padding: 0 150px 0 252px !important;
+	/*[[ChangeAlign]]*/padding: 0 252px 0 150px !important;/**/
+ }
 /* End */
 /*[[StickyNavigation]]*/
 /* Yes: */
@@ -451,7 +451,7 @@ none
 		right: 2px !important;
 		left: auto !important;/**/
 	}
-/* Tabbed Slideout: Transitions only in Firefox  >  4 */
+/* Tabbed Slideout: Transitions only in Firefox > 4 */
 		right: auto !important;
 		left: -249px !important;
 /*[[ChangeAlign]]*/
@@ -561,9 +561,9 @@ none
 		height: 20px !important;
 	}
 
-	#qr:not(:hover)  >  #autohide:checked ~ .autohide,
-	#qr  > #autohide:checked ~ .autohide,
-	#qr  > #autohide ~ .autohide	{
+	#qr:not(:hover) > #autohide:checked ~ .autohide,
+	#qr > #autohide:checked ~ .autohide,
+	#qr > #autohide ~ .autohide	{
 		overflow: visible !important;
 		height: auto !important;
 	}
@@ -685,9 +685,9 @@ none
 		height: 20px !important;
 	}
 
-	#qr:not(:hover)  >  #autohide:checked ~ .autohide,
-	#qr  > #autohide:checked ~ .autohide,
-	#qr  > #autohide ~ .autohide	{
+	#qr:not(:hover) > #autohide:checked ~ .autohide,
+	#qr > #autohide:checked ~ .autohide,
+	#qr > #autohide ~ .autohide	{
 		overflow: visible !important;
 		height: auto !important;
 	}
@@ -829,9 +829,9 @@ none
 		height: 20px !important;
 	}
 
-	#qr:not(:hover)  >  #autohide:checked ~ .autohide,
-	#qr  > #autohide:checked ~ .autohide,
-	#qr  > #autohide ~ .autohide	{
+	#qr:not(:hover) > #autohide:checked ~ .autohide,
+	#qr > #autohide:checked ~ .autohide,
+	#qr > #autohide ~ .autohide	{
 		overflow: visible !important;
 		height: auto !important;
 	}
@@ -1009,9 +1009,9 @@ none
 		height: 20px !important;
 	}
 
-	#qr:not(:hover)  >  #autohide:checked ~ .autohide,
-	#qr  > #autohide:checked ~ .autohide,
-	#qr  > #autohide ~ .autohide	{
+	#qr:not(:hover) > #autohide:checked ~ .autohide,
+	#qr > #autohide:checked ~ .autohide,
+	#qr > #autohide ~ .autohide	{
 		overflow: visible !important;
 		height: auto !important;
 	}
@@ -1252,7 +1252,7 @@ none
 	}
 
 	form[name^='post'] input[type='password'].inputtext,
-	form[name^='post'] tr:nth-of-type(7) td.postblock  {
+	form[name^='post'] tr:nth-of-type(7) td.postblock {
 		visibility: hidden;
 	}
 /* End */
@@ -1308,7 +1308,7 @@ padding-bottom: 20px !important;
 /* Yes: */
 	input[type='checkbox'],
 	#options input[type='checkbox'],
-	form[name^='post'] td:nth-of-type(3)  >  label input[type='checkbox'],
+	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox'],
 	#qr label input[type='checkbox'] {
 		border-radius: 2px !important;
 		-o-border-radius: 2px !important;
@@ -1352,7 +1352,7 @@ padding-bottom: 20px !important;
 /* ...and circle checkboxes */
 	input[type='checkbox'],
 	#options input[type='checkbox'],
-	form[name^='post'] td:nth-of-type(3)  >  label input[type='checkbox'],
+	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox'],
 	#qr label input[type='checkbox'] {
 		border-radius: 6px !important;
 		-o-border-radius: 6px !important;
@@ -1437,7 +1437,7 @@ padding-bottom: 20px !important;
 	}
 
 	#filter > div:first-child,
-	#thread_filter > div:first-child  {
+	#thread_filter > div:first-child {
 		cursor: default !important;
 	}
 
@@ -1495,7 +1495,7 @@ padding-bottom: 20px !important;
 	}
 
 	#filter > div:first-child ,
-	#thread_filter > div:first-child  {
+	#thread_filter > div:first-child {
 		cursor: default !important;
 	}
 

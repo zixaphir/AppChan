@@ -15,11 +15,11 @@
 	body {
 		background: url("http://static.4chan.org/image/fade.png") repeat-x scroll center top #FFFFEE !important;
 	}
-	.logo {  
-		text-shadow: 1px 1px 1px #222 !important; 
+	.logo {
+		text-shadow: 1px 1px 1px #222 !important;
 	}
-	.logo b span {  
-		text-shadow: 1px 1px 1px #222 !important; 
+	.logo b span {
+		text-shadow: 1px 1px 1px #222 !important;
 	}
 	#boards h3,
 	#boardsMenu,
@@ -50,13 +50,13 @@
 	html body span[style='left: 5px; position: absolute;'] a,
 	input[type='submit'],
 	#com_submit,
-	input[type='file']>input[type='button'],
+	input[type='file'] > input[type='button'],
 	table[width='100%']~#qr a#attach::after {
 		background-color: #F0E0D6 !important;
 	}
-    td.reply {
-        border:1px solid #D9BFB7 !important;
-    }
+	td.reply {
+		border:1px solid #D9BFB7 !important;
+	}
 	td.replyhl {
 		border: 1px solid #ba9dbf !important;
 	}
@@ -68,7 +68,7 @@
 		color: #D9BFB7 !important;
 	}
 	td[style='border: 1px dashed;'],
-	td.reply>tr>td.reply,
+	td.reply > tr > td.reply,
 	.inline td.reply,
 	.inline .inline .inline td.reply,
 	.inline .inline .inline .inline .inline td.reply,
@@ -84,7 +84,7 @@
 		border: 1px solid rgba(128,128,128,0.5) !important;
 		-moz-box-shadow: 5px 5px 5px rgba(128,128,128,0.5) !important;
 		-webkit-box-shadow: 5px 5px 5px rgba(128,128,128,0.5) !important;
-        box-shadow: 5px 5px 5px rgba(128,128,128,0.5) !important;
+		box-shadow: 5px 5px 5px rgba(128,128,128,0.5) !important;
 	}
 	.inline .inline td.reply,
 	.inline .inline .inline .inline td.reply,
@@ -96,7 +96,7 @@
 	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply,
 	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply,
 	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply {
-		background-color: #F0E0D6 !important; 
+		background-color: #F0E0D6 !important;
 	}
 	.pages b {
 		background: #F0E0D6 !important;
@@ -124,16 +124,16 @@
 	.box-outer,
 	.boxbar,
 	.chanchimp,
-	.chanchimp>div,
+	.chanchimp > div,
 	.inputtext,
 	.deletebuttons input[value=Delete],
-	.recaptcha_image_cell>center>#recaptcha_image,
+	.recaptcha_image_cell > center > #recaptcha_image,
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	h2,
 	input:not([type='checkbox']),
 	#qr_captcha input,
-	input[type='file']>input[type='button'],
+	input[type='file'] > input[type='button'],
 	input[type='submit'],
 	select,
 	textarea,
@@ -161,7 +161,7 @@
 		color: #000 !important;
 	}
 	body,
-	body>form,
+	body > form,
 	html body span[style='left: 5px; position: absolute;'] a,
 	div.postarea,
 	form[name^='post']::before,
@@ -196,13 +196,13 @@
 	#backwash_tooltip,
 	#popup,
 	.chanchimp,
-	.chanchimp>div,
+	.chanchimp > div,
 	.deletebuttons input:hover,
 	.recaptchatable #recaptcha_response_field:hover,
 	div[id^=ref],
 	input:hover,
 	input[type='submit']:hover,
-	input[type='file']>input[type='button']:hover,
+	input[type='file'] > input[type='button']:hover,
 	td.replyhl,
 	tr.replyhl,
 	textarea:hover {
@@ -225,27 +225,27 @@
 		border-bottom: 1px #FFFFEE solid !important;
 	}
 	div[id^='4chan_ext_iqr'],
-	div[id^='4chan_ext_iqr']>*,
+	div[id^='4chan_ext_iqr'] > *,
 	#filter input,
 	#filter textarea,
 	#options input,
 	#options textarea,
 	#qr,
-	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
+	#qr > form tr:nth-of-type(3) > td:nth-of-type(3) > label input,
 	#quickrep,
-	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
+	#quickrep > form tr:nth-of-type(3) > td:nth-of-type(3) > label input,
 	#qr label input,
 	#thread_filter input,
 	#thread_filter textarea,
 	#updater input:not([type='checkbox']),
 	.bd,
-    	.pages,
+		.pages,
 	input[type='submit'] {
 		background-color: #FFFFEE !important;
 	}
-/*[[TransparentReplies]]*/	.op>blockquote,
-	.thread>blockquote,
-	form[name='delform']>blockquote, /**/
+/*[[TransparentReplies]]*/	.op > blockquote,
+	.thread > blockquote,
+	form[name='delform'] > blockquote, /**/
 	div.logo font {
 		text-shadow: #FFFFEE 1px 0 2px, #FFFFEE -1px 0 2px, #FFFFEE 0 -1px 2px, #FFFFEE 0 1px 2px;
 	}
@@ -274,17 +274,17 @@
 	body {
 		background: url("http://static.4chan.org/image/fade-blue.png") repeat-x scroll center top #EEF2FF !important;
 	}
-	td.reply, td.replyhl {  
-		border: 1px solid #5765B5 !important; 
+	td.reply, td.replyhl {
+		border: 1px solid #5765B5 !important;
 	}
-	td.replyhl { 
-		border: 1px solid #5765B5 !important; 
+	td.replyhl {
+		border: 1px solid #5765B5 !important;
 	}
-	.logo {  
-		text-shadow: 1px 1px 1px #222 !important; 
+	.logo {
+		text-shadow: 1px 1px 1px #222 !important;
 	}
-	.logo b span {  
-		text-shadow: 1px 1px 1px #222 !important; 
+	.logo b span {
+		text-shadow: 1px 1px 1px #222 !important;
 	}
 	#boards h3,
 	#boardsMenu,
@@ -315,13 +315,13 @@
 	html body span[style='left: 5px; position: absolute;'] a,
 	input[type='submit'],
 	#com_submit,
-	input[type='file']>input[type='button'],
+	input[type='file'] > input[type='button'],
 	table[width='100%']~#qr a#attach::after {
 		background-color: #d6daf0 !important;
 	}
 	td.reply {
-        border:1px solid #B7C5D9 !important;
-    }
+		border:1px solid #B7C5D9 !important;
+	}
 	td.replyhl {
 		border: 1px solid #ba9dbf !important;
 	}
@@ -333,7 +333,7 @@
 		color: #B7C5D9 !important;
 	}
 	td[style='border: 1px dashed;'],
-	td.reply>tr>td.reply,
+	td.reply > tr > td.reply,
 	.inline td.reply,
 	.inline .inline .inline td.reply,
 	.inline .inline .inline .inline .inline td.reply,
@@ -349,7 +349,7 @@
 		border: 1px solid rgba(128,128,128,0.5) !important;
 		-moz-box-shadow: 5px 5px 5px rgba(128,128,128,0.5) !important;
 		-webkit-box-shadow: 5px 5px 5px rgba(128,128,128,0.5) !important;
-        box-shadow: 5px 5px 5px rgba(128,128,128,0.5) !important;
+		box-shadow: 5px 5px 5px rgba(128,128,128,0.5) !important;
 	}
 	.inline .inline td.reply,
 	.inline .inline .inline .inline td.reply,
@@ -361,7 +361,7 @@
 	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply,
 	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply,
 	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply {
-		background-color: #d6daf0 !important; 
+		background-color: #d6daf0 !important;
 	}
 	.pages b {
 		background: #d6daf0 !important;
@@ -389,16 +389,16 @@
 	.box-outer,
 	.boxbar,
 	.chanchimp,
-	.chanchimp>div,
+	.chanchimp > div,
 	.inputtext,
 	.deletebuttons input[value=Delete],
-	.recaptcha_image_cell>center>#recaptcha_image,
+	.recaptcha_image_cell > center > #recaptcha_image,
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	h2,
 	input:not([type='checkbox']),
 	#qr_captcha input,
-	input[type='file']>input[type='button'],
+	input[type='file'] > input[type='button'],
 	input[type='submit'],
 	select,
 	textarea,
@@ -423,7 +423,7 @@
 		font-weight: 800 !important;
 	}
 	body,
-	body>form,
+	body > form,
 	html body span[style='left: 5px; position: absolute;'] a,
 	input,
 	div.postarea,
@@ -461,13 +461,13 @@
 	#qp,
 	#popup,
 	.chanchimp,
-	.chanchimp>div,
+	.chanchimp > div,
 	.deletebuttons input:hover,
 	.recaptchatable #recaptcha_response_field:hover,
 	div[id^=ref],
 	input:hover,
 	input[type='submit']:hover,
-	input[type='file']>input[type='button']:hover,
+	input[type='file'] > input[type='button']:hover,
 	td.replyhl,
 	tr.replyhl,
 	textarea:hover {
@@ -487,27 +487,27 @@
 		border-bottom: 1px #eef2ff solid !important;
 	}
 	div[id^='4chan_ext_iqr'],
-	div[id^='4chan_ext_iqr']>*,
+	div[id^='4chan_ext_iqr'] > *,
 	#filter input,
 	#filter textarea,
 	#options input,
 	#options textarea,
 	#qr,
-	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
+	#qr > form tr:nth-of-type(3) > td:nth-of-type(3) > label input,
 	#quickrep,
-	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
+	#quickrep > form tr:nth-of-type(3) > td:nth-of-type(3) > label input,
 	#qr label input,
 	#thread_filter input,
 	#thread_filter textarea,
 	#updater input:not([type='checkbox']),
 	.bd,
-    .pages,
+	.pages,
 	input[type='submit'] {
 		background-color: #eef2ff !important;
 	}
-/*[[TransparentReplies]]*/	.op>blockquote,
-	.thread>blockquote,
-	form[name='delform']>blockquote, /**/
+/*[[TransparentReplies]]*/	.op > blockquote,
+	.thread > blockquote,
+	form[name='delform'] > blockquote, /**/
 	div.logo font {
 		text-shadow: #eef2ff 1px 0 2px, #eef2ff -1px 0 2px, #eef2ff 0 -1px 2px, #eef2ff 0 1px 2px;
 	}
@@ -535,9 +535,9 @@
 		background: #bcc0d4 !important;
 	}
 
-	div.postarea>form td:nth-of-type(3)>label,
-	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
-	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
+	div.postarea > form td:nth-of-type(3) > label,
+	#qr > form tr:nth-of-type(3) > td:nth-of-type(3) > label,
+	#quickrep > form tr:nth-of-type(3) > td:nth-of-type(3) > label,
 	#autonoko {
 		color: #444;
 	}
@@ -574,10 +574,10 @@
 	.unkfunc {
 		color: #789922 !important;
 	}
-	.boxcontent>hr,
+	.boxcontent > hr,
 	.boxcontent input,
 	.boxcontent textarea,
-	div.postarea>form td:nth-of-type(3)>label input,
+	div.postarea > form td:nth-of-type(3) > label input,
 	div[id^=qr],
 	table.reply[style^='clear: both'],
 	input,
@@ -656,12 +656,12 @@
 	#qr img {
 		opacity: 1 !important;
 	}
-	.postarea form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
+	.postarea form[name^='post'] .recaptcha_image_cell > center > #recaptcha_image,
 	.postarea form[name^='post'] #recaptcha_image img {
 		width: 246px !important;
 		height: 45px !important;
 	}
-	form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
+	form[name^='post'] .recaptcha_image_cell > center > #recaptcha_image,
 	form[name^='post'] #recaptcha_image img {
 		width: 298px !important;
 		height: 55px !important;
@@ -685,7 +685,7 @@
 	table.reply[style^='clear: both'] {
 		border: none !important;
 	}
-	form[name='delform']>div:not(.thread) select,
+	form[name='delform'] > div:not(.thread) select,
 	.pages input[type='submit'] {
 		margin: 0 !important;
 		height: 17px !important;

@@ -83,7 +83,7 @@ Some more risque alternatives. ;)
 	div[lock=off],
 	div[lock=on],
 	div.logo br:nth-of-type(1),
-	div.thread.stub  >  .omittedposts,
+	div.thread.stub > .omittedposts,
 	div#logo,
 	form table tbody > tr:nth-of-type(2) td[align='right'],
 	form[name='delform'] > hr:last-of-type,
@@ -132,7 +132,7 @@ Some more risque alternatives. ;)
 		text-decoration: none !important;
 	}
 
-	td.reply, a, td, .filetitle, .filesize, fieldset, blockquote, .rules, textarea, time, .postername, .commentpostername  {
+	td.reply, a, td, .filetitle, .filesize, fieldset, blockquote, .rules, textarea, time, .postername, .commentpostername {
 		font-size: /*[[FontSize]]*/ !important;
 		text-decoration: none !important;
 	}
@@ -192,7 +192,7 @@ Some more risque alternatives. ;)
 
 	div.logo font[size='5'] span {
 		font-size: 30px !important;
-                font-weight: 400 !important;
+				font-weight: 400 !important;
 	}
 
 	div.logo font[size='1'] {
@@ -265,9 +265,9 @@ Some more risque alternatives. ;)
 	#header {
 		left: 250px !important;
 		right: 2px !important;
-        top: 0px !important;
-        padding-top: 1px !important;
-        padding-bottom: 1px !important;
+		top: 0px !important;
+		padding-top: 1px !important;
+		padding-bottom: 1px !important;
 /*[[ChangeAlign]]*/
 		left: 2px !important;
 		right: 253px !important;/**/
@@ -504,7 +504,7 @@ Some more risque alternatives. ;)
 	#usernameText + input {
 		width: 101px !important;
 	}
-	
+
 	.postarea form[name^='post'] > table td:not(.postblock) {
 		font-size: 0 !important;
 		color: transparent;
@@ -614,42 +614,42 @@ Some more risque alternatives. ;)
 	}
 /* Image Hover and Image Expansion */
 /*[[ihover]]*/
-    #qp {
+	#qp {
 		z-index: 99 !important;
-    }
+	}
 
 	.exPopup {
 		z-index: 99 !important;
 	}
 
-    #iHover {
+	#iHover {
 		z-index: 99 !important;
-    }
+	}
 
-    body  >  table ~ form .reply a  >  img {
-        position: relative !important;
-        top: 0px !important;
-        z-index: 96 !important;
-    }
+	body > table ~ form .reply a > img {
+		position: relative !important;
+		top: 0px !important;
+		z-index: 96 !important;
+	}
 
-    .filesize ~ a  >  img + img {
-        position: relative !important;
-        top: 0px !important;
-        z-index: 96 !important;
-    }
+	.filesize ~ a > img + img {
+		position: relative !important;
+		top: 0px !important;
+		z-index: 96 !important;
+	}
 
-   body  >  form #imgControls {
-        z-index: 98 !important;
-    }
+	body > form #imgControls {
+		z-index: 98 !important;
+	}
 
-   #imageType {
-     border: none !important;
-     width: 90px !important;
-     position: relative !important;
-     bottom: 1px !important;
-     right: 0px !important;
-     background: none !important;
-   }
+	#imageType {
+		border: none !important;
+		width: 90px !important;
+		position: relative !important;
+		bottom: 1px !important;
+		right: 0px !important;
+		background: none !important;
+	}
 /* End of Image Hover and Image Expansion */
 	.top-box .menubutton {
 		background-image: none !important;
@@ -798,9 +798,9 @@ Some more risque alternatives. ;)
 		padding: 17px 0 0 0 !important;
 		margin: 0 0 0px !important;
 	}
-   	body  >  table ~ form[name='delform'] br[clear='left'], form[name='delform'] center  {
-   		position: fixed;
-    	bottom: -500px;
+	body > table ~ form[name='delform'] br[clear='left'], form[name='delform'] center {
+		position: fixed;
+		bottom: -500px;
 	}
 
 	form[name='delform'] td.reply,
@@ -976,7 +976,7 @@ Some more risque alternatives. ;)
 
 	#imgControls label {
 		font-size: 0 !important;
-		color: transparent  !important;
+		color: transparent !important;
 	}
 
 	#imgControls label::after {
@@ -1101,10 +1101,10 @@ Some more risque alternatives. ;)
 	}
 /*[[ReturnButton]]*/
 /* File Clearer support */
-      .clearbutton {
-	      position: fixed !important;
-	      bottom: 45px !important;
-	      right: 55px !important;
+	.clearbutton {
+		position: fixed !important;
+		bottom: 45px !important;
+		right: 55px !important;
 	}
 /* AutoPager */
 	#autoPagerBorderPaging {
@@ -1401,8 +1401,8 @@ Some more risque alternatives. ;)
 	html,
 	body {
 		height: 100% !important;
-	    min-width: 101% !important;
-	    overflow-y:scroll;
+		min-width: 101% !important;
+		overflow-y:scroll;
 	}
 
 
