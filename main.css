@@ -369,36 +369,28 @@ Some more risque alternatives. ;)
 	.postarea form[name^='post'] > table {
 		position: fixed;
 		top: auto;
-		right: -220px;
 		left: auto;
 		bottom: 20px;
 		width: 248px !important;
 		margin: 0 !important;
-		-webkit-transition: right .3s ease-in-out 3s;
-		-moz-transition: right .3s ease-in-out 3s;
-		-o-transition: right .3s ease-in-out 3s;
 	}
 
 	.postarea form[name^='post'] > table > tbody > tr > td {
 		padding: 0 !important;
 	}
 /* Slideout on hover */
+	.postarea form[name^='post'] > table {
+		right: -220px;
+		-webkit-transition: right .3s ease-in-out 3s;
+		-moz-transition: right .3s ease-in-out 3s;
+		-o-transition: right .3s ease-in-out 3s;
+	}
+
 	.postarea form[name^='post'] > table:hover {
 		right: 2px;
 		-webkit-transition: right .3s linear;
 		-moz-transition: right .3s linear;
 		-o-transition: right .3s linear;
-	}
-/* Post Form Buttons */
-	#com_submit,
-	.postarea form[name^='post'] [name='upfile'] > input[type='button'],
-	#usernameText + input /* Last.fm button */ {
-		margin: 1px -2px 0 1px !important;
-		padding: 0 !important;
-	}
-	
-	.postarea form[name^='post'] [name='upfile'] > input[type='button'] {
-		margin: 1px 0 0 !important;
 	}
 /* Unfuxor the Captcha layout */
 	#recaptcha_widget_div * {
@@ -431,19 +423,13 @@ Some more risque alternatives. ;)
 	#recaptcha_widget_div input,
 	#recaptcha_image,
 	#qr_form img {
-		-moz-appearance: none;
 		margin: 1px 0 0 !important;
 		vertical-align: bottom;
-	}
-/* An input in an element that shouldn't exist */
-	.postarea form[name^='post'] [name='upfile'] > input {
-		margin: 0 !important;
 	}
 /* Width and height of all postarea elements (excluding some captcha elements) */
 	.postarea form[name^='post'] textarea {
 		height: 78px !important;
 		font-size: /*[[FontSize]]*/ !important;
-		margin: 0 !important;
 	}
 
 	.postarea form[name^='post'] input.inputtext,
@@ -467,13 +453,20 @@ Some more risque alternatives. ;)
 	input[type='submit'], /* Any lingering buttons */
 	#com_submit /* Submit Button */,
 	.postarea form[name^='post'] [name='upfile'] > input[type='button'] /* Browse Button (Fx*) */ {
-		width: 62px !important;
 		cursor: default !important;
-		margin: 0 !important;
+		width: 50px;
+		height: 19px;
 		padding: 0 !important;
 		font-size: 9px !important;
 		text-transform: uppercase;
 		vertical-align: bottom;
+	}
+
+	#com_submit,
+	.postarea form[name^='post'] [name='upfile'] > input[type='button'],
+	#usernameText + input /* Last.fm button */ {
+		width: 62px !important;
+		margin: 1px 0 0 1px !important;
 	}
 
 	input[type='file']::-webkit-file-upload-button {
@@ -539,7 +532,7 @@ Some more risque alternatives. ;)
 
 /* Postform Labels */
 	.boxcontent .postblock,
-	form[name^='post'] .postblock, {
+	form[name^='post'] .postblock {
 		border: none !important;
 		background-color: transparent !important;
 		font-weight: 200 !important;
@@ -686,8 +679,8 @@ Some more risque alternatives. ;)
 		width: 300px !important;
 	}
 
-input[type="password"] {
-	height: 1.75em !important;
+	input[type="password"] {
+		height: 1.75em !important;
 	}
 /*[[CaptchaReload]]*/
 	.postarea form[name^='post'] #recaptcha_reload_btn {
@@ -759,13 +752,7 @@ input[type="password"] {
 		vertical-align: bottom;
 	}
 
-	.chanchimp form[name^='post'] label {
-		position: static;
-	}
-
-	#qr > form[name^='post'] input[name='email']+label,
-	#quickrep > form[name^='post'] input[name='email']+label,
-	[id^='qr'] input[name='email']+label {
+	#qr > form[name^='post'] input[name='email']+label {
 		bottom: 4px;
 		right: 70px;
 	}
