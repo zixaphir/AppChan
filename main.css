@@ -51,7 +51,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		position: fixed !important;
 		right: 0px !important;
 		bottom: 269px !important;
-						  /* Mascot, background */
 /*
 Extras are fine too. ;3
 	Ika Mutsume - http://i.imgur.com/rKT7L.png
@@ -399,7 +398,8 @@ Some more risque alternatives. ;)
 	.postarea form[name^='post'] textarea,
 	.postarea form[name^='post'] [name='upfile'] > input,
 	.postarea #recaptcha_widget_div input,
-	#qr_form img
+	#qr_form img,
+	#qr .inputtext[type='password'],
 	.postarea #recaptcha_widget_div #recaptcha_image img {
 		margin: 1px 0 0 !important;
 		vertical-align: bottom;
@@ -411,7 +411,8 @@ Some more risque alternatives. ;)
 	}
 
 	.postarea form[name^='post'] input.inputtext,
-	.postarea form[name^='post'] [name='upfile'] > input,
+	form[name^='post'] input[name='upfile'] > input,
+	#files input[name='upfile'] > input,
 	.postarea #recaptcha_widget_div input,
 	#com_submit,
 	#usernameText + input {
@@ -430,7 +431,8 @@ Some more risque alternatives. ;)
 /* Buttons */
 	input[type='submit'], /* Any lingering buttons */
 	#com_submit /* Submit Button */,
-	.postarea form[name^='post'] [name='upfile'] > input[type='button'] /* Browse Button (Fx*) */ {
+	input[type='file'][name='upfile'] > input[type='button'] ,
+	form[name^='post'] [name='upfile'] > input[type='button'] /* Browse Button (Fx*) */ {
 		cursor: default !important;
 		width: 50px;
 		height: 19px;
@@ -441,7 +443,8 @@ Some more risque alternatives. ;)
 	}
 
 	#com_submit,
-	.postarea form[name^='post'] [name='upfile'] > input[type='button'],
+	#files [name='upfile'] > input[type='button'],
+	form[name^='post'] [name='upfile'] > input[type='button'] ,
 	#usernameText + input /* Last.fm button */ {
 		width: 62px !important;
 		margin: 1px 0 0 1px !important;
@@ -462,7 +465,7 @@ Some more risque alternatives. ;)
 		padding: 2px !important;
 	}
 /* Force the file input's CONTAINER to behave as if it were non-existent, e.g. occupies no more space than its contents */
-	.postarea form[name^='post'] input[type='file'][name='upfile'] {
+	input[type='file'][name='upfile'] {
 		height: auto !important;
 		border: none !important;
 		margin-top: 0 !important;
@@ -497,7 +500,6 @@ Some more risque alternatives. ;)
 		font-size: 0 !important;
 		color: transparent;
 	}
-/*[[QuickReply]]*/
 /* Postform Labels */
 	.boxcontent .postblock,
 	form[name^='post'] .postblock {
@@ -569,7 +571,22 @@ Some more risque alternatives. ;)
 	form[name^='post'] tr:nth-of-type(6) .postblock b {
 		right: 16px;
 	}
-/* End of Post Form Labels */
+/* Quick Reply decorations */
+	form[name^='post'] input[name='recaptcha_response_field'] {
+		outline: none !important;
+		box-shadow: none !important;
+	}
+
+	#captchas {
+		position: absolute;
+		right: 7px;
+		margin-top: 2px;
+	}
+
+	#files a {
+		margin: 2px 0 0 -75px !important;
+		vertical-align: top !important;
+	}
 /* Image Hover and Image Expansion */
 /*[[ihover]]*/
     #qp {
@@ -626,7 +643,7 @@ Some more risque alternatives. ;)
 	#qr input[name='sub'],
 	#qr input[type='file'][name='upfile'] > input[type='text'],
 	#files input[type='file'][name='upfile'] > input[type='text'] {
-		width: 249px !important;
+		width: 237px !important;
 		margin: 0 1px 0 0 !important;
 		vertical-align: bottom;
 	}
@@ -1275,6 +1292,8 @@ Some more risque alternatives. ;)
 	}
 /*[[MagicMode]]*/
 }
+
+/*[[QuickReply]]*/
 
 @-moz-document domain(rs.4chan.org) {
 /* /rs/ hacks */
