@@ -132,24 +132,25 @@ Some more risque alternatives. ;)
 		font-family: /*[[Font]]*/ !important;
 		text-decoration: none !important;
 	}
+
 	td.reply, a, td, .filetitle, .filesize, fieldset, blockquote, .rules, textarea, time, .postername, .commentpostername  {
 		font-size: /*[[FontSize]]*/ !important;
 		text-decoration: none !important;
 	}
+
 	input, #imgControls, #stats, #updater, #navtopr a, label, .filetitle, #imageType, #header, #header a, #stats, #navbot a {
 		font-size: 12px !important;
 		text-decoration: none !important;
-	 }
+	}
 
-
-/*[[CustomScrollbars]]*/::-webkit-scrollbar { width: 10px !important; height: 10px !important; }
-::-webkit-scrollbar-thumb { border: 1px solid; }
-::-webkit-scrollbar-track-piece:vertical { border-left: 0; }
-::-webkit-scrollbar-track-piece:horizontal { border-top: 0; }
-scrollbar, scrollcorner { -moz-appearance: none !important; -o-appearance: none !important; width: 10px !important; height: 10px !important; }
-scrollbar[orient='vertical'] { border-left: 0; }
-scrollbar[orient='horizontal'] { border-top: 0; }
-thumb { -moz-appearance: none !important; -o-appearance: none !important; border: 1px solid; }/**/
+	/*[[CustomScrollbars]]*/::-webkit-scrollbar { width: 10px !important; height: 10px !important; }
+	::-webkit-scrollbar-thumb { border: 1px solid; }
+	::-webkit-scrollbar-track-piece:vertical { border-left: 0; }
+	::-webkit-scrollbar-track-piece:horizontal { border-top: 0; }
+	scrollbar, scrollcorner { -moz-appearance: none !important; -o-appearance: none !important; width: 10px !important; height: 10px !important; }
+	scrollbar[orient='vertical'] { border-left: 0; }
+	scrollbar[orient='horizontal'] { border-top: 0; }
+	thumb { -moz-appearance: none !important; -o-appearance: none !important; border: 1px solid; }/**/
 
 	form[name='delform']>table[align=right]:last-of-type {
 		visibility: hidden;
@@ -296,8 +297,6 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 		visibility: hidden;
 		padding-top: 0 !important;
 	}
-
-
 
 	.pages td:nth-of-type(1) {
 		font-size: 75% !important;
@@ -710,6 +709,7 @@ thumb { -moz-appearance: none !important; -o-appearance: none !important; border
 	form[name^='post'] tr[height='73'] {
 		height: auto !important;
 	}
+
 input[type="password"] {
 	height: 1.75em !important;
 	}
