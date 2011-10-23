@@ -655,7 +655,7 @@ none
 
 /*[[PostForm]]*/
 /* Fixed: */
-	.postarea form[name^='post'] > table {
+	.postarea form[name^='post'] {
 		right: auto !important;
 		left: 2px !important;
 /*[[ChangeAlign]]*/
@@ -663,7 +663,7 @@ none
 		left: auto !important;/**/
 	}
 /* Slideout: */
-	.postarea form[name^='post'] > table {
+	.postarea form[name^='post'] {
 		right: auto !important;
 		left: -233px !important;
 /*[[ChangeAlign]]*/
@@ -674,7 +674,7 @@ none
 		-o-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
 	}
 
-	.postarea form[name^='post'] > table:hover {
+	.postarea form[name^='post']:hover {
 		right: auto !important;
 		left: 2px !important;
 /*[[ChangeAlign]]*/
@@ -701,7 +701,7 @@ none
 		right: auto !important;
 		left: -249px !important;
 /*[[ChangeAlign]]*/
-	.postarea form[name^='post'] > table {
+	.postarea form[name^='post'] {
 		right: auto !important;
 		left: -233px !important;
 /*[[ChangeAlign]]*/
@@ -712,7 +712,7 @@ none
 		-o-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
 	}
 
-	.postarea form[name^='post'] > table:hover {
+	.postarea form[name^='post']:hover {
 		right: auto !important;
 		left: 2px !important;
 /*[[ChangeAlign]]*/
@@ -723,7 +723,7 @@ none
 		-o-transition: right .3s linear, left .3s linear;
 	}
 
-	.postarea form[name='post'] > table::before {
+	.postarea form[name='post']::before {
 		-webkit-transform: rotate(90deg);
 		-webkit-transform-origin: bottom left;
 		-moz-transform: rotate(90deg);
@@ -754,7 +754,7 @@ none
 		-o-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
 	}
 
-	.postarea form[name='post'] > table:hover::before {
+	.postarea form[name='post']:hover::before {
 		opacity: 0;
 		-webkit-transition: right .3s linear, left .3s linear;
 		-moz-transition: right .3s linear, left .3s linear;
@@ -773,7 +773,7 @@ none
 		right: 2px !important;
 		left: auto !important;/**/
 /* Transparent to Opaque: */
-	.postarea form[name^='post'] > table {
+	.postarea form[name^='post'] {
 		right: auto !important;
 		left: 2px !important;
 /*[[ChangeAlign]]*/
@@ -785,7 +785,7 @@ none
 		-o-transition: opacity .3s ease-in-out 3s;
 	}
 
-	.postarea form[name='post'] > table:hover {
+	.postarea form[name='post']:hover {
 		opacity: 1;
 		-webkit-transition: opacity .3s linear;
 		-moz-transition: opacity .3s linear;

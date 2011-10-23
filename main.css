@@ -337,12 +337,6 @@ Some more risque alternatives. ;)
 	}
 /* End of Navigation */
 /* Post Form */
-	td.postblock,
-	.postarea form[name^='post'] small, /* Removes '(Password used for file deletion)' */
-	#recaptcha_table tr td:not(:nth-of-type(1)) /* Removes most of the captcha except the captcha image and field */, 
-	.rules {
-		display: none;
-	}
 /* Override OS-specific UI */
 	#ft li,
 	#ft ul,
@@ -366,7 +360,7 @@ Some more risque alternatives. ;)
 		-o-appearance: none;
 	}
 /* The positioning and transitions of the post form */
-	.postarea form[name^='post'] > table {
+	.postarea form[name^='post'] {
 		position: fixed;
 		top: auto;
 		left: auto;
@@ -386,17 +380,13 @@ Some more risque alternatives. ;)
 		height: auto !important;
 	}
 /* Unfuxor the unfuxoring */
-	#recaptcha_widget_div img {
+	.postarea #recaptcha_widget_div img {
 		height: auto !important;
 		width: 248px !important;
 	}
 
-	#recaptcha_widget_div {
+	.postarea #recaptcha_widget_div {
 		height: 68px;
-	}
-	
-	.postarea form[name^='post'] {
-		height: 78px !important;
 	}
 /* Collapse the postarea table for better control over the height and width */
 	.postarea form[name^='post'] table {
@@ -407,9 +397,9 @@ Some more risque alternatives. ;)
 	#qr .move .inputtext,
 	.postarea form[name^='post'] textarea,
 	.postarea form[name^='post'] [name='upfile'] > input,
-	#recaptcha_widget_div input,
-	#recaptcha_image,
-	#qr_form img {
+	.postarea #recaptcha_widget_div input,
+	#qr_form img
+	.postarea #recaptcha_widget_div #recaptcha_image img {
 		margin: 1px 0 0 !important;
 		vertical-align: bottom;
 	}
@@ -421,7 +411,7 @@ Some more risque alternatives. ;)
 
 	.postarea form[name^='post'] input.inputtext,
 	.postarea form[name^='post'] [name='upfile'] > input,
-	#recaptcha_widget_div input,
+	.postarea #recaptcha_widget_div input,
 	#com_submit,
 	#usernameText + input {
 		height: 19px !important;
@@ -482,24 +472,17 @@ Some more risque alternatives. ;)
 		position: absolute;
 	}
 
-	.postarea form[name^='post'] #com_submit + label {
-		top: 50px;
-		right: 70px;
-		vertical-align: bottom;
-	}
-
 	.postarea #com_submit + label {
 		top: auto !important;
-		bottom: 4px !important;
+		bottom: 1px !important;
 		right: 4px !important;
 		vertical-align: bottom;
 	}
 
 	#qr>form[name^='post'] input[name='email']+label {
-		bottom: 4px;
+		bottom: 1px;
 		right: 4px;
 	}
-
 /* /mu/ last.fm userscript support */
 	#usernameText {
 		width: 200px !important;
@@ -719,7 +702,7 @@ Some more risque alternatives. ;)
 		position: absolute;
 		top: auto;
 		font-size: /*[[FontSize]]*/ !important;
-		bottom: 0;
+		bottom: 20px;
 		right: 55px;
 		vertical-align: bottom;
 	}
@@ -785,6 +768,7 @@ Some more risque alternatives. ;)
    		position: fixed;
     	bottom: -500px;
 	}
+
 	form[name='delform'] td.reply,
 	form[name='delform'] td.replyhl {
 	   display: inline-block;
@@ -1271,12 +1255,10 @@ Some more risque alternatives. ;)
 	#fs_preview {
 		height: 700px !important;
 	}
+
 	#fs_search {
 		min-width: 138px !important;
 		max-width: 138px !important;
-	}
-	.postarea form[name^='post'] {
-		margin-bottom: -2px !important;
 	}
 /*[[PagesPosition]]*/
 /*[[ColorScheme]]*/
