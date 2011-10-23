@@ -566,7 +566,6 @@ none
 	#qr  > #autohide ~ .autohide	{
 		overflow: visible !important;
 		height: auto !important;
-		min-height: 249px;
 	}
 
 	#qr {
@@ -579,7 +578,9 @@ none
 		left: auto !important;
 		right: 2px !important;/**/
 		bottom: 20px !important;
+		width: 248px !important;
 		margin: 0 !important;
+		padding: 0 !important;
 	}
 
 	#qr_form {
@@ -607,13 +608,9 @@ none
 		padding: 0 !important;
 	}
 /* Unfuxor the unfuxoring */
-	#qr #recaptcha_widget_div img {
+	#qr img {
 		height: auto !important;
 		width: 248px !important;
-	}
-
-	#qr #recaptcha_widget_div {
-		height: 68px;
 	}
 /* Collapse the postarea table for better control over the height and width */
 	#qr form[name^='post'] table {
@@ -624,8 +621,7 @@ none
 	#qr form[name^='post'] textarea,
 	#qr form[name^='post'] [name='upfile'] > input,
 	#qr #files [name='upfile'] > input,
-	#qr #recaptcha_widget_div input,
-	#qr #recaptcha_widget_div #recaptcha_image img {
+	#qr img {
 		margin: 1px 0 0 !important;
 		vertical-align: bottom;
 	}
@@ -694,21 +690,21 @@ none
 	#qr  > #autohide ~ .autohide	{
 		overflow: visible !important;
 		height: auto !important;
-		min-height: 249px;
 	}
 
 	#qr {
 		overflow: visible !important;
 		position: fixed;
-		top: auto !important;
-		bottom: 20px !important;
-		margin: 0 !important;
-		padding: 0;
 		left: -233px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: -233px !important;/**/
+		top: auto !important;
+		bottom: 20px !important;
+		width: 248px !important;
+		margin: 0 !important;
+		padding: 0;
 		-webkit-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
 		-moz-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
 		-o-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
@@ -750,13 +746,9 @@ none
 		padding: 0 !important;
 	}
 /* Unfuxor the unfuxoring */
-	#qr #recaptcha_widget_div img {
+	#qr img {
 		height: auto !important;
 		width: 248px !important;
-	}
-
-	#qr #recaptcha_widget_div {
-		height: 68px;
 	}
 /* Collapse the postarea table for better control over the height and width */
 	#qr form[name^='post'] table {
@@ -767,8 +759,7 @@ none
 	#qr form[name^='post'] textarea,
 	#qr form[name^='post'] [name='upfile'] > input,
 	#qr #files [name='upfile'] > input,
-	#qr #recaptcha_widget_div input,
-	#qr #recaptcha_widget_div #recaptcha_image img {
+	#qr img {
 		margin: 1px 0 0 !important;
 		vertical-align: bottom;
 	}
@@ -843,20 +834,21 @@ none
 	#qr  > #autohide ~ .autohide	{
 		overflow: visible !important;
 		height: auto !important;
-		min-height: 249px;
 	}
 
 	#qr {
 		overflow: visible !important;
 		position: fixed;
-		top: auto !important;
-		bottom: 20px !important;
-		margin: 0 !important;
 		left: -233px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: -233px !important;/**/
+		top: auto !important;
+		bottom: 20px !important;
+		width: 248px !important;
+		margin: 0 !important;
+		padding: 0 !important;
 		-webkit-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
 		-moz-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
 		-o-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
@@ -935,13 +927,9 @@ none
 		padding: 0 !important;
 	}
 /* Unfuxor the unfuxoring */
-	#qr #recaptcha_widget_div img {
+	#qr img {
 		height: auto !important;
 		width: 248px !important;
-	}
-
-	#qr #recaptcha_widget_div {
-		height: 68px;
 	}
 /* Collapse the postarea table for better control over the height and width */
 	#qr form[name^='post'] table {
@@ -952,8 +940,7 @@ none
 	#qr form[name^='post'] textarea,
 	#qr form[name^='post'] [name='upfile'] > input,
 	#qr #files [name='upfile'] > input,
-	#qr #recaptcha_widget_div input,
-	#qr #recaptcha_widget_div #recaptcha_image img {
+	#qr img {
 		margin: 1px 0 0 !important;
 		vertical-align: bottom;
 	}
@@ -1027,7 +1014,6 @@ none
 	#qr  > #autohide ~ .autohide	{
 		overflow: visible !important;
 		height: auto !important;
-		min-height: 249px;
 	}
 
 	#qr {
@@ -1040,7 +1026,9 @@ none
 		left: auto !important;
 		right: 2px !important;/**/
 		bottom: 20px !important;
+		width: 248px !important;
 		margin: 0 !important;
+		padding: 0 !important;
 		opacity: 0.2;
 		-webkit-transition: opacity .3s ease-in-out 3s;
 		-moz-transition: opacity .3s ease-in-out 3s;
@@ -1079,13 +1067,9 @@ none
 		padding: 0 !important;
 	}
 /* Unfuxor the unfuxoring */
-	#qr #recaptcha_widget_div img {
+	#qr img {
 		height: auto !important;
 		width: 248px !important;
-	}
-
-	#qr #recaptcha_widget_div {
-		height: 68px;
 	}
 /* Collapse the postarea table for better control over the height and width */
 	#qr form[name^='post'] table {
@@ -1096,8 +1080,7 @@ none
 	#qr form[name^='post'] textarea,
 	#qr form[name^='post'] [name='upfile'] > input,
 	#qr #files [name='upfile'] > input,
-	#qr #recaptcha_widget_div input,
-	#qr #recaptcha_widget_div #recaptcha_image img {
+	#qr img {
 		margin: 1px 0 0 !important;
 		vertical-align: bottom;
 	}

@@ -391,14 +391,16 @@ Some more risque alternatives. ;)
 		border-collapse: collapse;
 	}
 /* Formatting for all postarea elements */
-	.postarea form[name^='post'] input:not([type='checkbox']),
+	.postarea form[name^='post'] input:not([type='checkbox']):not([type='file']),
 	#qr .move .inputtext,
 	.postarea form[name^='post'] textarea,
 	.postarea form[name^='post'] [name='upfile'] > input,
 	.postarea #recaptcha_widget_div input,
 	#qr_form img,
 	#qr .inputtext[type='password'],
-	.postarea #recaptcha_widget_div #recaptcha_image img {
+	.postarea #recaptcha_widget_div #recaptcha_image img,
+	#qr textarea,
+	#qr .inputtext {
 		margin: 1px 0 0 !important;
 		vertical-align: bottom;
 	}
@@ -447,7 +449,8 @@ Some more risque alternatives. ;)
 
 	#com_submit,
 	#files [name='upfile'] > input[type='button'],
-	form[name^='post'] [name='upfile'] > input[type='button'] ,
+	form[name^='post'] input[name='upfile'] > input[type='button'],
+	.postarea form[name^='post'] input[name='upfile'] > input[type='button'],
 	#usernameText + input /* Last.fm button */ {
 		width: 62px !important;
 		margin: 1px 0 0 1px !important;
@@ -480,9 +483,10 @@ Some more risque alternatives. ;)
 	}
 
 	.postarea #com_submit + label {
+		font-size: /*[[FontSize]]*/ !important;
 		top: auto !important;
-		bottom: 1px !important;
-		right: 4px !important;
+		bottom: 1px;
+		right: 70px;
 		vertical-align: bottom;
 	}
 
@@ -499,7 +503,7 @@ Some more risque alternatives. ;)
 		width: 101px !important;
 	}
 	
-	.postarea form[name^='post'] > table td {
+	.postarea form[name^='post'] > table td:not(.postblock) {
 		font-size: 0 !important;
 		color: transparent;
 	}
@@ -510,8 +514,7 @@ Some more risque alternatives. ;)
 		background-color: transparent !important;
 		font-weight: 200 !important;
 		text-align: right !important;
-		vertical-align: bottom;
-		padding-bottom: 20px !important;
+		vertical-align: top;
 	}
 
 	form[name^='post'] .postblock b {
@@ -554,7 +557,7 @@ Some more risque alternatives. ;)
 	}
 
 	.postarea form[name^='post'] tr:nth-of-type(3n) .postblock b {
-		right: 54px;
+		right: 69px;
 	}
 
 	form[name^='post'] tr .postblock b {
@@ -562,7 +565,7 @@ Some more risque alternatives. ;)
 	}
 
 	form[name^='post'] tr:nth-of-type(3n) .postblock b {
-		right: 67px;
+		right: 82px;
 	}
 
 	.fake input[type='file']::-webkit-file-upload-button, /* Cheating. Firefox Stylish will ignore this block */
@@ -651,6 +654,7 @@ Some more risque alternatives. ;)
 	}
 
 	#qr {
+		height: auto !important;
 		width: 300px;
 		padding: 2px;
 	}
@@ -670,12 +674,10 @@ Some more risque alternatives. ;)
 	#files input[type='file'][name='upfile'] > input[type='text'] {
 		width: 237px !important;
 		vertical-align: bottom;
-		margin: 1px 0 0 !important;
 	}
 
 	#qr textarea {
 		min-height: 100px !important;
-		margin: 1px 0 0 !important;
 	}
 
 	.postarea td,
@@ -737,25 +739,17 @@ Some more risque alternatives. ;)
 		color: transparent;
 	}
 
-	form[name^='post'] input[name='email']+label {
+	form[name^='post'] input[name='email'] + label {
 		position: absolute;
 		top: auto;
 		font-size: /*[[FontSize]]*/ !important;
 		bottom: 20px;
-		right: 55px;
+		right: 70px;
 		vertical-align: bottom;
 	}
 
-	form[name^='post'] #com_submit+label {
+	form[name^='post'] #com_submit + label {
 		position: absolute;
-	}
-
-	.postarea #com_submit+label {
-		top: auto;
-		font-size: /*[[FontSize]]*/ !important;
-		bottom: 0;
-		right: 55px;
-		vertical-align: bottom;
 	}
 
 	#qr > form[name^='post'] input[name='email']+label {
@@ -763,11 +757,10 @@ Some more risque alternatives. ;)
 		right: 70px;
 	}
 
-	#qr > form[name^='post'] #com_submit+label,
-	#quickrep > form[name^='post'] #com_submit+label,
-	[id^='qr'] #com_submit+label {
+	#qr > form[name^='post'] #com_submit + label,
+	#quickrep > form[name^='post'] #com_submit + label {
 		top: auto !important;
-		right: 55px !important;
+		right: 4px !important;
 	}
 
 	div.postarea > form td:nth-of-type(3) > label input,
