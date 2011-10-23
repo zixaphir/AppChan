@@ -337,98 +337,209 @@ Some more risque alternatives. ;)
 	}
 /* End of Navigation */
 /* Post Form */
-	.postarea form[name^='post'] {
-		width: 248px;
-		height: 247px;
+	td.postblock,
+	.postarea form[name^='post'] small, /* Removes '(Password used for file deletion)' */
+	#recaptcha_table tr td:not(:nth-of-type(1)) /* Removes most of the captcha except the captcha image and field */, 
+	.rules {
+		display: none;
+	}
+/* Override OS-specific UI */
+	#ft li,
+	#ft ul,
+	#options input:not([type='checkbox']),
+	#updater input:not([type='checkbox']),
+	.box-outer,
+	.boxbar,
+	.deletebuttons input[value=Delete],
+	.recaptcha_image_cell > center > #recaptcha_image,
+	[name='recaptcha_response_field'],
+	.top-box,
+	h2,
+	input:not([type='checkbox']),
+	input:not([type='radio']),
+	input[type='file'] > input[type='button'],
+	input[type='submit'],
+	select,
+	textarea {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		-o-appearance: none;
+	}
+/* The positioning and transitions of the post form */
+	.postarea form[name^='post'] > table {
+		position: fixed;
+		top: auto;
+		right: -220px;
+		left: auto;
+		bottom: 20px;
+		width: 248px !important;
+		margin: 0 !important;
+		-webkit-transition: right .3s ease-in-out 3s;
+		-moz-transition: right .3s ease-in-out 3s;
+		-o-transition: right .3s ease-in-out 3s;
 	}
 
-	.postarea table {
+	.postarea form[name^='post'] > table > tbody > tr > td {
 		padding: 0 !important;
-		border-spacing: 0px !important;
-		border-collapse: collapse !important;
+	}
+/* Slideout on hover */
+	.postarea form[name^='post'] > table:hover {
+		right: 2px;
+		-webkit-transition: right .3s linear;
+		-moz-transition: right .3s linear;
+		-o-transition: right .3s linear;
+	}
+/* Post Form Buttons */
+	#com_submit,
+	.postarea form[name^='post'] [name='upfile'] > input[type='button'],
+	#usernameText + input /* Last.fm button */ {
+		margin: 1px -2px 0 1px !important;
+		padding: 0 !important;
+	}
+	
+	.postarea form[name^='post'] [name='upfile'] > input[type='button'] {
+		margin: 1px 0 0 !important;
+	}
+/* Unfuxor the Captcha layout */
+	#recaptcha_widget_div * {
+		margin: 0 !important;
+		padding: 0 !important;
+		height: auto !important;
+	}
+/* Unfuxor the unfuxoring */
+	#recaptcha_widget_div img {
+		height: auto !important;
+		width: 248px !important;
 	}
 
-	form[name^='post'] td.postblock {
-		width: 0 !important;
+	#recaptcha_widget_div {
+		height: 68px;
 	}
-
-	#cc-newpostarea {
-		height: 260px !important;
+	
+	.postarea form[name^='post'] {
+		height: 78px !important;
 	}
-
-	#qr, /* 4chan x's quick reply */
-	#quickrep, /* 4chanplus's quick reply */
-	div[id^='qr'], /* 4chan 4chrome's quick reply */
-	div[id^='4chan_ext_iqr'] /* 4chan Extension's quick reply */ {
-		width: 306px !important;
-		z-index: 5 !important;
+/* Collapse the postarea table for better control over the height and width */
+	.postarea form[name^='post'] table {
+		border-collapse: collapse;
 	}
-
-	#qr form[name='post'] {
-		z-index: auto !important;
+/* Formatting for all postarea elements */
+	.postarea form[name^='post'] input:not([type='checkbox']),
+	#qr .move .inputtext,
+	.postarea form[name^='post'] textarea,
+	.postarea form[name^='post'] [name='upfile'] > input,
+	#recaptcha_widget_div input,
+	#recaptcha_image,
+	#qr_form img {
+		-moz-appearance: none;
+		margin: 1px 0 0 !important;
+		vertical-align: bottom;
 	}
-
-	#qr {
-		padding: 1px 2px 2px !important;
+/* An input in an element that shouldn't exist */
+	.postarea form[name^='post'] [name='upfile'] > input {
+		margin: 0 !important;
 	}
-
-	#qr,
-	#qr input.inputtext:not([name='sub']),
-	#qr textarea,
-	#qr_captcha,
-	#qr .move,
-	#qr form {
-		width: 300px !important;
-	}
-
-	#qr input.inputtext[name='name'] {
-		width: 190px !important;
-	}
-
-	#files {
+/* Width and height of all postarea elements (excluding some captcha elements) */
+	.postarea form[name^='post'] textarea {
+		height: 78px !important;
+		font-size: /*[[FontSize]]*/ !important;
 		margin: 0 !important;
 	}
 
-	.chanchimp form[name^='post'] input.inputtext,
-	.chanchimp form[name^='post'] input[type='file'][name='upfile']  >  input[type='text'] {
+	.postarea form[name^='post'] input.inputtext,
+	.postarea form[name^='post'] [name='upfile'] > input,
+	#recaptcha_widget_div input,
+	#com_submit,
+	#usernameText + input {
+		height: 19px !important;
+	}
+
+	.postarea form[name^='post'] .inputtext,
+	#recaptcha_widget_div input {
+		width: 248px !important;
+	}
+/* File and Subject inputs */
+	.postarea form[name^='post'] .inputtext[name='sub'],
+	.postarea form[name^='post'] [name='upfile'] > input[type='text'] {
+		width: 185px !important;
+	}
+/* Buttons */
+	input[type='submit'], /* Any lingering buttons */
+	#com_submit /* Submit Button */,
+	.postarea form[name^='post'] [name='upfile'] > input[type='button'] /* Browse Button (Fx*) */ {
+		width: 62px !important;
+		cursor: default !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		font-size: 9px !important;
+		text-transform: uppercase;
+		vertical-align: bottom;
+	}
+
+	input[type='file']::-webkit-file-upload-button {
+	/* Webkit's file input box has a different syntax */
+		background: transparent;
+		border: none !important;
+		height: 19px !important;
+		padding: 0 !important;
+		text-transform: uppercase;
+	}
+/* Uniform padding for postarea inputs */
+	.postarea form[name^='post'] .inputtext,
+	.postarea form[name^='post'] [name='upfile'] > input,
+	#recaptcha_widget_div input {
+		padding: 2px !important;
+	}
+/* Force the file input's CONTAINER to behave as if it were non-existent, e.g. occupies no more space than its contents */
+	.postarea form[name^='post'] input[type='file'][name='upfile'] {
+		height: auto !important;
+		border: none !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+	}
+/* Positioning of various postarea checkboxes */
+	.postarea form[name^='post'] label {
+		position: absolute;
+	}
+
+	.postarea form[name^='post'] #com_submit + label {
+		top: 50px;
+		right: 70px;
+		vertical-align: bottom;
+	}
+
+	.postarea #com_submit + label {
+		top: auto !important;
+		bottom: 4px !important;
+		right: 4px !important;
+		vertical-align: bottom;
+	}
+
+	#qr>form[name^='post'] input[name='email']+label {
+		bottom: 4px;
+		right: 4px;
+	}
+
+/* /mu/ last.fm userscript support */
+	#usernameText {
 		width: 200px !important;
 	}
 
-	.chanchimp form[name^='post'] textarea {
-		width: 596px !important;
+	#usernameText + input {
+		width: 101px !important;
 	}
-
-	.postarea form[name^='post'] {
-		/* Post From Positioning */
-		position: fixed !important;
-		z-index: 2;
-		margin: 0 !important;
-		padding: 0 !important;
-		bottom: 24px !important;
+	
+	.postarea form[name^='post'] > table td {
+		font-size: 0 !important;
+		color: transparent;
+	}
 /*[[PostForm]]*/
-	}
+
 /*[[QuickReply]]*/
-	form[name^='post'] input[name='recaptcha_response_field'] {
-		outline: none !important;
-		box-shadow: none !important;
-	}
-
-	#captchas {
-		position: absolute;
-		right: 7px;
-		margin-top: 2px;
-	}
-
-	#files a {
-		margin-left: -64px !important;
-		vertical-align: top !important;
-	}
 
 /* Postform Labels */
 	.boxcontent .postblock,
-	#quickrep td.postblock,
-	form[name^='post'] .postblock,
-	div[id^='4chan_ext_iqr'] .postblock {
+	form[name^='post'] .postblock, {
 		border: none !important;
 		background-color: transparent !important;
 		font-weight: 200 !important;
@@ -437,23 +548,13 @@ Some more risque alternatives. ;)
 		padding-bottom: 12px !important;
 	}
 
-	#quickrep td.postblock {
-		padding-bottom: 13px !important;
-	}
-
-	#qr form[name^='post'] .postblock b,
-	#quickrep form[name^='post'] .postblock b {
-		margin-top: -13px !important;
-	}
-
-	form[name^='post'] .postblock b,
-	#maxchars /* 4chanplus's Character Counter */ {
+	form[name^='post'] .postblock b {
 		position: absolute;
 		font-size: 75% !important;
 		text-transform: uppercase;
 		z-index: 2;
 	}
-/* Custom Postform Labels */
+
 	form[name^='post'] tr:nth-of-type(1) .postblock b::after {
 		content: '#TRIPCODE##SECURETRIP';
 	}
@@ -513,12 +614,15 @@ Some more risque alternatives. ;)
     #qp {
 		z-index: 99 !important;
     }
+
 	.exPopup {
 		z-index: 99 !important;
 	}
+
     #iHover {
 		z-index: 99 !important;
     }
+
     body  >  table ~ form .reply a  >  img {
         position: relative !important;
         top: 0px !important;
@@ -534,6 +638,7 @@ Some more risque alternatives. ;)
    body  >  form #imgControls {
         z-index: 98 !important;
     }
+
    #imageType {
      border: none !important;
      width: 90px !important;
@@ -543,32 +648,6 @@ Some more risque alternatives. ;)
      background: none !important;
    }
 /* End of Image Hover and Image Expansion */
-	#ft li,
-	#ft ul,
-	#options input:not([type='checkbox']),
-	#updater input:not([type='checkbox']),
-	.box-outer,
-	.boxbar,
-	.deletebuttons input[value=Delete],
-	.recaptcha_image_cell > center > #recaptcha_image,
-	[name='recaptcha_response_field'],
-	.top-box,
-	h2,
-	input:not([type='checkbox']),
-	input:not([type='radio']),
-	input[type='file'] > input[type='button'],
-	input[type='submit'],
-	select,
-	textarea {
-		-webkit-appearance: none;
-		-moz-appearance: none;
-		-o-appearance: none;
-	}
-
-	.inputtext {
-		margin: 0 !important;
-	}
-
 	.top-box .menubutton {
 		background-image: none !important;
 	}
@@ -577,79 +656,21 @@ Some more risque alternatives. ;)
 		height: 19px !important;
 	}
 
-	.recaptcha_image_cell > center > #recaptcha_image {
-		background-color: transparent !important;
-		margin-left: 0 !important;
-	}
-
-	.postarea form[name^='post'] input[type='text'],
-	.postarea form[name^='post'] input[type='password'],
-	.postarea form[name^='post'] textarea {
-		width: 248px !important;
-	}
-
-	form[name^='post'] input.inputtext,
-	form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
-	form[name^='post'] textarea {
+	#qr input.inputtext,
+	#qr input[type='file'][name='upfile'] > input[type='text'],
+	#qr textarea {
 		width: 300px !important;
 	}
 
-	.inputtext,
-	input[name='upfile'] > input[type='text'] {
-		padding: 2px !important;
-	}
-
-	div.move input,
-	form[name^='post'] input[type='text'],
-	input[type='file'][name='upfile'] > input[type='text'],
-	input[type='file'] > input[type='button'] {
-		height: 19px !important;
-	}
-
-	.postarea form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
-	.postarea form[name^='post'] input[name='sub'] {
-		width: 197px !important;
-	}
-
-	form[name^='post'] input[name='sub'],
-	form[name^='post'] input[type='file'][name='upfile'] > input[type='text'],
+	#qr input[name='sub'],
+	#qr input[type='file'][name='upfile'] > input[type='text'],
 	#files input[type='file'][name='upfile'] > input[type='text'] {
 		width: 249px !important;
 		margin: 0 1px 0 0 !important;
 		vertical-align: bottom;
 	}
 
-	input[type='submit'],
-	#com_submit,
-	input[type='file'] > input[type='button'] {
-	/* Fancy formatting for all our postform buttons */
-		cursor: default !important;
-		width: 50px !important;
-		height: 19px !important;
-		margin: 0 !important;
-		padding: 0 !important;
-		font-size: 9px !important;
-		text-transform: uppercase;
-		vertical-align: bottom;
-	}
-
-	input[type='file']::-webkit-file-upload-button {
-	/* Webkit's file input box has a different syntax */
-		background: transparent;
-		border: none !important;
-		height: 19px !important;
-		padding: 0 !important;
-		text-transform: uppercase;
-	}
-/* End of the file upload input */
-	.postarea form[name^='post'] textarea {
-		height: 78px !important;
-		min-height: 78px !important;
-		font-size: /*[[FontSize]]*/ !important;
-		margin: 0 !important;
-	}
-
-	form[name^='post'] textarea {
+	#qr textarea {
 		min-height: 100px !important;
 		margin: 0 !important;
 	}
@@ -661,53 +682,8 @@ Some more risque alternatives. ;)
 		padding: 0 !important;
 	}
 
-	.postarea form[name^='post'] input[name='sub'],
-	.postarea form[name^='post'] textarea.inputtext,
-	.postarea form[name^='post'] td > input,
-	.postarea form[name^='post'] .recaptchatable,
-	.postarea form[name^='post'] input[name='recaptcha_response_field'],
-	#com_submit,
-	#filter input,
-	#qr input.inputtext,
-	#qr input[name='upfile'],
-	#qr textarea,
-	#qr img,
-	#thread_filter input {
-		margin-top: 1px !important;
-	}
-
-	.postarea form[name^='post'] td > input[name='upfile'] {
-		width: 248px !important;
-	}
-
-	.fake input[type='file']::-webkit-file-upload-button,
-	.postarea form[name^='post'] input[name='upfile'],
-	#quickrep form[name^='post'] input[name='upfile'] {
-		margin: 1px 0 0 !important;
-		height: 19px !important;
-	}
-
-	form[name^='post'] input[type=file][name='upfile'] {
+	#qr input[type=file][name='upfile'] {
 		width: 300px !important;
-	}
-
-	.postarea form[name^='post'] .recaptcha_image_cell > center,
-	#r_captcha_div img,
-	#r_captcha_div input {
-		width: 248px !important;
-		text-align: left !important;
-	}
-
-	.postarea form[name^='post'] #recaptcha_widget_div {
-		height: auto !important;
-		width: 248px !important;
-	}
-
-	.postarea .recaptcha_image_cell > center,
-	.postarea .recaptcha_image_cell,
-	tr[height='73'] td,
-	form[name^='post'] tr[height='73'] {
-		height: auto !important;
 	}
 
 input[type="password"] {
