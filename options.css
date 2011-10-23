@@ -636,12 +636,6 @@ none
 		font-size: /*[[FontSize]]*/ !important;
 	}
 
-	#qr form[name^='post'] input.inputtext,
-	#qr form[name^='post'] [name='upfile'] > input,
-	#qr #recaptcha_widget_div input {
-		height: 19px !important;
-	}
-
 	#qr form[name^='post'] .inputtext,
 	#qr #files input[type=file][name='upfile'] {
 		width: 248px !important;
@@ -662,23 +656,6 @@ none
 /* #qr Decorations */
 	#qr #qr_form {
 		display: block !important;
-	}
-
-	#qr a#attach {
-		font-size: 0 !important;
-		visibility: hidden;
-		position: absolute;
-		bottom: 24px;
-		right: 75px;
-	}
-
-	#qr a#attach::after {
-		font-size: 12px !important;
-		display: block;
-		visibility: visible !important;
-		width: 16px;
-		content: "+";
-		text-align: center;
 	}
 /* Errors */
 	[id^='q'] .error {
@@ -726,6 +703,7 @@ none
 		top: auto !important;
 		bottom: 20px !important;
 		margin: 0 !important;
+		padding: 0;
 		left: -233px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
@@ -824,26 +802,9 @@ none
 		margin-top: 0 !important;
 		padding: 0 !important;
 	}
-/* #qr Decorations */
+
 	#qr #qr_form {
 		display: block !important;
-	}
-
-	#qr a#attach {
-		font-size: 0 !important;
-		visibility: hidden;
-		position: absolute;
-		bottom: 24px;
-		right: 75px;
-	}
-
-	#qr a#attach::after {
-		font-size: 12px !important;
-		display: block;
-		visibility: visible !important;
-		width: 16px;
-		content: "+";
-		text-align: center;
 	}
 /* Errors */
 	[id^='q'] .error {
@@ -1026,26 +987,8 @@ none
 		margin-top: 0 !important;
 		padding: 0 !important;
 	}
-/* #qr Decorations */
 	#qr #qr_form {
 		display: block !important;
-	}
-
-	#qr a#attach {
-		font-size: 0 !important;
-		visibility: hidden;
-		position: absolute;
-		bottom: 24px;
-		right: 75px;
-	}
-
-	#qr a#attach::after {
-		font-size: 12px !important;
-		display: block;
-		visibility: visible !important;
-		width: 16px;
-		content: "+";
-		text-align: center;
 	}
 /* Errors */
 	[id^='q'] .error {
@@ -1188,26 +1131,9 @@ none
 		margin-top: 0 !important;
 		padding: 0 !important;
 	}
-/* #qr Decorations */
+
 	#qr #qr_form {
 		display: block !important;
-	}
-
-	#qr a#attach {
-		font-size: 0 !important;
-		visibility: hidden;
-		position: absolute;
-		bottom: 24px;
-		right: 75px;
-	}
-
-	#qr a#attach::after {
-		font-size: 12px !important;
-		display: block;
-		visibility: visible !important;
-		width: 16px;
-		content: "+";
-		text-align: center;
 	}
 /* Errors */
 	[id^='q'] .error {

@@ -335,7 +335,6 @@ Some more risque alternatives. ;)
 		-moz-transition: background-color .1s linear;
 		-o-transition: background-color .1s linear;
 	}
-/* End of Navigation */
 /* Post Form */
 /* Override OS-specific UI */
 	#ft li,
@@ -368,11 +367,10 @@ Some more risque alternatives. ;)
 		width: 248px !important;
 		margin: 0 !important;
 	}
-
+/*[[PostForm]]*/
 	.postarea form[name^='post'] > table > tbody > tr > td {
 		padding: 0 !important;
 	}
-/*[[PostForm]]*/
 /* Unfuxor the Captcha layout */
 	#recaptcha_widget_div * {
 		margin: 0 !important;
@@ -449,9 +447,8 @@ Some more risque alternatives. ;)
 		width: 62px !important;
 		margin: 1px 0 0 1px !important;
 	}
-
+/* Webkit's file input box has a different syntax */
 	input[type='file']::-webkit-file-upload-button {
-	/* Webkit's file input box has a different syntax */
 		background: transparent;
 		border: none !important;
 		height: 19px !important;
@@ -465,7 +462,8 @@ Some more risque alternatives. ;)
 		padding: 2px !important;
 	}
 /* Force the file input's CONTAINER to behave as if it were non-existent, e.g. occupies no more space than its contents */
-	input[type='file'][name='upfile'] {
+	input[type='file'][name='upfile'],
+	.postarea input[type='file'][name='upfile'] {
 		height: auto !important;
 		border: none !important;
 		margin-top: 0 !important;
@@ -587,6 +585,23 @@ Some more risque alternatives. ;)
 		margin: 2px 0 0 -75px !important;
 		vertical-align: top !important;
 	}
+
+	#qr a#attach {
+		font-size: 0 !important;
+		visibility: hidden;
+		position: absolute;
+		bottom: 24px;
+		right: 75px;
+	}
+
+	#qr a#attach::after {
+		font-size: 12px !important;
+		display: block;
+		visibility: visible !important;
+		width: 16px;
+		content: "+";
+		text-align: center;
+	}
 /* Image Hover and Image Expansion */
 /*[[ihover]]*/
     #qp {
@@ -634,23 +649,32 @@ Some more risque alternatives. ;)
 		height: 19px !important;
 	}
 
+	#qr {
+		width: 300px;
+		padding: 2px;
+	}
+
 	#qr input.inputtext,
 	#qr input[type='file'][name='upfile'] > input[type='text'],
 	#qr textarea {
 		width: 300px !important;
 	}
 
+	#qr .move .inputtext {
+		width: 198px !important;
+	}
+
 	#qr input[name='sub'],
 	#qr input[type='file'][name='upfile'] > input[type='text'],
 	#files input[type='file'][name='upfile'] > input[type='text'] {
 		width: 237px !important;
-		margin: 0 1px 0 0 !important;
 		vertical-align: bottom;
+		margin: 1px 0 0 !important;
 	}
 
 	#qr textarea {
 		min-height: 100px !important;
-		margin: 0 !important;
+		margin: 1px 0 0 !important;
 	}
 
 	.postarea td,
@@ -664,8 +688,11 @@ Some more risque alternatives. ;)
 		width: 300px !important;
 	}
 
-	input[type="password"] {
-		height: 1.75em !important;
+	input[type='password'],
+	#qr form[name^='post'] input.inputtext,
+	#qr form[name^='post'] [name='upfile'] > input,
+	#qr #recaptcha_widget_div input {
+		height: 19px !important;
 	}
 /*[[CaptchaReload]]*/
 	.postarea form[name^='post'] #recaptcha_reload_btn {
