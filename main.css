@@ -857,10 +857,16 @@ input[type="password"] {
 
 	.container::before {
 	   content: "Quoted by: ";
+	   font-size: inherit;
 	}
 
 	.op .container::before {
 	   margin-left: 50px;
+	}
+
+	.reply .container ~ blockquote,
+	.replyhl .container ~ blockquote {
+		margin: 12px 40px 20px;
 	}
 
 /*[[ReplyWidth]]*/
