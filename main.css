@@ -266,13 +266,14 @@ Some more risque alternatives. ;)
 	#header {
 		left: 250px !important;
 		right: 2px !important;
+        top: 0px !important;
+        padding-top: 1px !important;
+        padding-bottom: 1px !important;
 /*[[ChangeAlign]]*/
-                top: 0px !important;
-                padding-top: 1px !important;
-                padding-bottom: 1px !important;
 		left: 2px !important;
 		right: 253px !important;/**/
 	}
+	#header,
 	#navtop {
 		z-index: 98;
 	}
@@ -840,28 +841,28 @@ input[type="password"] {
 	}
 	form[name='delform'] td.reply,
 	form[name='delform'] td.replyhl {
-	   display: inline-block;
-	   position: relative !important;
+		display: inline-block;
+		position: relative !important;
 	}
 
 	td .container,
 	#qp .container {
-	   position: absolute;
-	   bottom: 5px;
-	   right: 5px;
+		position: absolute;
+		bottom: 5px;
+		right: 5px;
 	}
 
 	.op .container {
-	   display: block;
+		display: block;
 	}
 
 	.container::before {
-	   content: "Quoted by: ";
-	   font-size: inherit;
+		content: "Quoted by: ";
+		font-size: inherit;
 	}
 
 	.op .container::before {
-	   margin-left: 50px;
+		margin-left: 50px;
 	}
 
 	.reply .container ~ blockquote,
