@@ -526,6 +526,7 @@ none
 /*[[ChangeAlign]]*/
 		right: 2px !important;
 		left: auto !important;/**/
+	}
 /* Transparent to Opaque: */
 	.postarea form[name^='post'] {
 		right: auto !important;
@@ -544,6 +545,7 @@ none
 		-webkit-transition: opacity .3s linear;
 		-moz-transition: opacity .3s linear;
 		-o-transition: opacity .3s linear;
+	}
 /* End */
 
 /*[[QuickReply]]*/
