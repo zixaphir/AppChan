@@ -448,8 +448,10 @@ Some more risque alternatives. ;)
 	}
 
 	#com_submit,
-	#files [name='upfile'] > input[type='button'],
+	#qr #com_submit,
+	#qr #files input[name='upfile'] > input[type='button'],
 	form[name^='post'] input[name='upfile'] > input[type='button'],
+	#qr form[name^='post'] input[name='upfile'] > input[type='button'],
 	.postarea form[name^='post'] input[name='upfile'] > input[type='button'],
 	#usernameText + input /* Last.fm button */ {
 		width: 62px !important;
