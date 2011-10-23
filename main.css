@@ -378,20 +378,7 @@ Some more risque alternatives. ;)
 	.postarea form[name^='post'] > table > tbody > tr > td {
 		padding: 0 !important;
 	}
-/* Slideout on hover */
-	.postarea form[name^='post'] > table {
-		right: -220px;
-		-webkit-transition: right .3s ease-in-out 3s;
-		-moz-transition: right .3s ease-in-out 3s;
-		-o-transition: right .3s ease-in-out 3s;
-	}
-
-	.postarea form[name^='post'] > table:hover {
-		right: 2px;
-		-webkit-transition: right .3s linear;
-		-moz-transition: right .3s linear;
-		-o-transition: right .3s linear;
-	}
+/*[[PostForm]]*/
 /* Unfuxor the Captcha layout */
 	#recaptcha_widget_div * {
 		margin: 0 !important;
@@ -526,10 +513,7 @@ Some more risque alternatives. ;)
 		font-size: 0 !important;
 		color: transparent;
 	}
-/*[[PostForm]]*/
-
 /*[[QuickReply]]*/
-
 /* Postform Labels */
 	.boxcontent .postblock,
 	form[name^='post'] .postblock {
