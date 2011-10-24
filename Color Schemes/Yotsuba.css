@@ -51,7 +51,7 @@
 	input[type='submit'],
 	#com_submit,
 	input[type='file'] > input[type='button'],
-	table[width='100%']~#qr a#attach::after {
+	#qr a#attach::after {
 		background-color: #F0E0D6 !important;
 	}
 	td.reply {
@@ -318,7 +318,7 @@
 	input[type='submit'],
 	#com_submit,
 	input[type='file'] > input[type='button'],
-	table[width='100%']~#qr a#attach::after {
+	#qr a#attach::after {
 		background-color: #d6daf0 !important;
 	}
 	td.reply {

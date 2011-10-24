@@ -214,7 +214,7 @@
 	.pages,
 	div.postarea > form td:nth-of-type(3) > label input,
 	div[id^=qr],
-	table[width='100%']~#qr a#attach::after,
+	#qr a#attach::after,
 	table.reply[style^='clear: both'] {
 		background-color: rgba(0,0,0,0.7) !important;
 	}

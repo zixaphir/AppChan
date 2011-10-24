@@ -45,7 +45,7 @@
 	input[type='submit'],
 	#com_submit,
 	input[type='file'] > input[type='button'],
-	table[width='100%']~#qr a#attach::after {
+	#qr a#attach::after {
 		background-color: #DDD !important;
 	}
 	td.reply, td.replyhl {
