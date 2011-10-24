@@ -483,18 +483,29 @@ Some more risque alternatives. ;)
 	.postarea form[name^='post'] label {
 		position: absolute;
 	}
+	
+	form[name^='post'] > table td {
+	   text-align: right;
+	}
 
 	.postarea #com_submit + label {
-		font-size: /*[[FontSize]]*/ !important;
+		font-size: 12px !important;
 		top: auto !important;
 		bottom: 1px;
 		right: 70px;
 		vertical-align: bottom;
 	}
 
-	#qr>form[name^='post'] input[name='email']+label {
+	#qr > form[name^='post'] input[name='email'] + label {
 		bottom: 1px;
 		right: 4px;
+	}
+
+	#qr #com_submit + label {
+		font-size: 12px !important;
+		top: auto !important;
+		right: 70px;
+		margin-top: 2px;
 	}
 /* /mu/ last.fm userscript support */
 	#usernameText {
