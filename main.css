@@ -492,13 +492,13 @@ Some more risque alternatives. ;)
 	.postarea #com_submit + label {
 		font-size: 12px !important;
 		top: auto !important;
-		bottom: 1px;
+		bottom: 2px;
 		right: 70px;
 		vertical-align: bottom;
 	}
 
-	#qr > form[name^='post'] input[name='email'] + label {
-		bottom: 1px;
+	#qr > input[name='email'] + label {
+		bottom: 2px;
 		right: 4px;
 	}
 
@@ -506,7 +506,7 @@ Some more risque alternatives. ;)
 		font-size: 12px !important;
 		top: auto !important;
 		right: 70px;
-		margin-top: 2px;
+		margin-top: 1px;
 	}
 /* /mu/ last.fm userscript support */
 	#usernameText {
