@@ -117,7 +117,6 @@
 	#ft li,
 	#ft ul,
 	#options input:not([type='checkbox']),
-	#qr table .recaptchatable #recaptcha_image,
 	#updater input:not([type='checkbox']),
 	#twi_table_div,
 	#twi_table_div *,
@@ -143,6 +142,9 @@
 	#qr label input[type='checkbox'],
 	html body span[style='left: 5px; position: absolute;'] a {
 		border: 1px solid #CCC !important;
+	}
+	.recaptchatable #recaptcha_image {
+		border: none !important;
 	}
 	.recaptchatable #recaptcha_response_field:focus,
 	.deletebuttons input[type='password']:focus,
@@ -385,16 +387,6 @@
 	#quick_recaptcha_image img,
 	#qr img {
 		opacity: 1 !important;
-	}
-	.postarea form[name^='post'] .recaptcha_image_cell > center > #recaptcha_image,
-	.postarea form[name^='post'] #recaptcha_image img {
-		width: 246px !important;
-		height: 45px !important;
-	}
-	form[name^='post'] .recaptcha_image_cell > center > #recaptcha_image,
-	form[name^='post'] #recaptcha_image img {
-		width: 298px !important;
-		height: 55px !important;
 	}
 	.boxcontent dd,
 	#options ul,

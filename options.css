@@ -641,12 +641,10 @@ none
 	#files input[type='file'][name='upfile'] > input[type='text'] {
 		width: 185px !important;
 	}
-/* Force the file input's CONTAINER to behave as if it were non-existent, e.g. occupies no more space than its contents */
-	#qr form[name^='post'] input[type='file'][name='upfile'] {
-		height: auto !important;
-		border: none !important;
-		margin-top: 0 !important;
-		padding: 0 !important;
+/* Positioning of various postarea checkboxes */
+	#qr a#attach {
+		bottom: 21px;
+		right: 80px;
 	}
 /* #qr Decorations */
 	#qr #qr_form {

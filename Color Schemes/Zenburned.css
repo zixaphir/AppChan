@@ -339,7 +339,6 @@ background-image: none !important;
 	#ft li,
 	#ft ul,
 	#options input:not([type='checkbox']),
-	#qr table .recaptchatable #recaptcha_image,
 	#updater input:not([type='checkbox']),
 	#twi_table_div,
 	#twi_table_div *,
@@ -365,6 +364,10 @@ background-image: none !important;
 		border: 1px solid #888 !important;
 	}
 
+	.recaptchatable #recaptcha_image {
+		border: none !important;
+	}
+
 	html body span[style='left: 5px; position: absolute;'] a {
 		height: 14px !important;
 		padding-top: 3px !important;
@@ -382,18 +385,6 @@ background-image: none !important;
 	#quick_recaptcha_image img,
 	#qr img {
 		opacity: 1 !important;
-	}
-
-	.postarea form[name^='post'] .recaptcha_image_cell > center > #recaptcha_image,
-	.postarea form[name^='post'] #recaptcha_image img {
-		width: 246px !important;
-		height: 45px !important;
-	}
-
-	form[name^='post'] .recaptcha_image_cell > center > #recaptcha_image,
-	form[name^='post'] #recaptcha_image img {
-		width: 298px !important;
-		height: 55px !important;
 	}
 
 	.boxcontent dd,

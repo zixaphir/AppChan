@@ -330,7 +330,6 @@ background-image: none !important;
 	#ft li,
 	#ft ul,
 	#options input:not([type='checkbox']),
-	#qr table .recaptchatable #recaptcha_image,
 	#updater input:not([type='checkbox']),
 	#twi_table_div,
 	#twi_table_div *,
@@ -356,12 +355,6 @@ background-image: none !important;
 	#qr input[type='checkbox'],
 	input[type='checkbox'] {
 		border: none !important;
-	}
-
-	.postarea form[name^='post'] .recaptcha_image_cell > center > #recaptcha_image,
-	.postarea form[name^='post'] #recaptcha_image img {
-		width: 248px !important;
-		height: 47px !important;
 	}
 
 	.boxcontent dd,
