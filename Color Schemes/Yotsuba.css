@@ -143,9 +143,6 @@
 	html body span[style='left: 5px; position: absolute;'] a {
 		border: 1px solid #D9BFB7 !important;
 	}
-	.recaptchatable #recaptcha_image {
-		border: none !important;
-	}
 	.recaptchatable #recaptcha_response_field:focus,
 	.deletebuttons input[type='password']:focus,
 	input:focus,

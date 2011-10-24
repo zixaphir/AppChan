@@ -368,6 +368,11 @@ Some more risque alternatives. ;)
 		margin: 0 !important;
 		z-index: 5;
 	}
+
+	.postarea form[name^='post'] > table,
+	#recaptcha_image {
+		width: 248px !important;
+	}
 /*[[PostForm]]*/
 	.postarea form[name^='post'] > table > tbody > tr > td {
 		padding: 0 !important;
@@ -377,6 +382,10 @@ Some more risque alternatives. ;)
 		margin: 0 !important;
 		padding: 0 !important;
 		height: auto !important;
+	}
+
+	#recaptcha_table #recaptcha_image {
+		border: none !important;
 	}
 /* Unfuxor the unfuxoring */
 	.postarea #recaptcha_widget_div img {

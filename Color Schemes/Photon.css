@@ -126,7 +126,6 @@
 	.chanchimp > div,
 	.inputtext,
 	.deletebuttons input[value=Delete],
-	.recaptcha_image_cell > center > #recaptcha_image,
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	h2,
@@ -142,9 +141,6 @@
 	#qr label input[type='checkbox'],
 	html body span[style='left: 5px; position: absolute;'] a {
 		border: 1px solid #CCC !important;
-	}
-	.recaptchatable #recaptcha_image {
-		border: none !important;
 	}
 	.recaptchatable #recaptcha_response_field:focus,
 	.deletebuttons input[type='password']:focus,
