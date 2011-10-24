@@ -668,6 +668,7 @@ Some more risque alternatives. ;)
 	}
 
 	#qr {
+		z-index: 5;
 		height: auto !important;
 		width: 300px;
 		padding: 2px;
