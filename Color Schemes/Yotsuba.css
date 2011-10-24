@@ -21,6 +21,10 @@
 	.logo b span {
 		text-shadow: 1px 1px 1px #222 !important;
 	}
+	a.backlink,
+	a.forwardlink {
+		color: #aa0000 !important;
+	}
 	#boards h3,
 	#boardsMenu,
 	#filter.autohide:hover,
@@ -284,6 +288,10 @@
 	}
 	.logo b span {
 		text-shadow: 1px 1px 1px #222 !important;
+	}
+	a.backlink,
+	a.forwardlink {
+		color: #0000aa !important;
 	}
 	#boards h3,
 	#boardsMenu,
@@ -562,10 +570,6 @@
 	.commentpostername a:hover,
 	a:hover .postertrip {
 		color: #117743 !important;
-	}
-	a.backlink,
-	a.forwardlink {
-		color: #424247 !important;
 	}
 	a.forwardlink {
 		font-weight: 800 !important;
