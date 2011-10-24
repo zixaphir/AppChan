@@ -474,6 +474,7 @@ Some more risque alternatives. ;)
 	}
 /* Force the file input's CONTAINER to behave as if it were non-existent, e.g. occupies no more space than its contents */
 	input[type='file'][name='upfile'],
+	#qr form[name^='post'] input[type='file'][name='upfile'],
 	.postarea input[type='file'][name='upfile'] {
 		height: auto !important;
 		border: none !important;
@@ -604,8 +605,11 @@ Some more risque alternatives. ;)
 	}
 
 	#files a {
-		margin: 2px 0 0 -75px !important;
-		vertical-align: top !important;
+		position: relative;
+		margin-left: -75px;
+		top: -2px;
+		vertical-align: bottom !important;
+		font-weight: bold;
 	}
 
 	#qr a#attach {
