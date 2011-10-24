@@ -371,12 +371,6 @@ background-image: none !important;
 		width: 56px !important;
 	}
 
-	form[name^='post'] input[type='file'][name='upfile'],
-	#qr input[type='file'][name='upfile'] {
-		margin: 0 -1px -1px !important;
-		height: 21px !important;
-	}
-
 	.fake input[type='file']::-webkit-file-upload-button,
 	form[name^='post'] input[type='file'][name='upfile'],
 	#qr input[type='file'][name='upfile'] {
