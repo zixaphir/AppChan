@@ -366,6 +366,7 @@ Some more risque alternatives. ;)
 		bottom: 20px;
 		width: 248px !important;
 		margin: 0 !important;
+		z-index: 5;
 	}
 /*[[PostForm]]*/
 	.postarea form[name^='post'] > table > tbody > tr > td {
