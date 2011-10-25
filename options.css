@@ -120,7 +120,7 @@ none
 
 	.pages {
 		top: auto !important;
-		bottom: 0 !important;
+		bottom: 1px !important;
 	}
 
 	#navbar {
@@ -135,7 +135,7 @@ none
 	}
 
 	#navbar {
-		bottom: 0 !important;
+		bottom: 1px !important;
 	}
 
 	#boardsMenu {
@@ -173,7 +173,7 @@ none
 
 	#header {
 		top: auto !important;
-		bottom: 0 !important;
+		bottom: 1px !important;
 	}
 
 	.pages {
@@ -274,7 +274,7 @@ none
 		right: 0 !important;
 		z-index: 98 !important;
 /*[[ChangeAlign]]*/right: auto !important;/**/
-		bottom: 0 !important;
+		bottom: 1px !important;
 		height: 15px !important;
 		width: 80px;
 		border-width: 0 1px 1px 0 !important;
@@ -294,7 +294,7 @@ none
 	}
 
 	#navbot:hover {
-		bottom: 0px !important;
+		bottom: 1px !important;
 		z-index: 98 !important;
 	}
 
@@ -577,7 +577,7 @@ none
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: 2px !important;/**/
-		bottom: 20px !important;
+		bottom: 21px !important;
 		width: 248px !important;
 		margin: 0 !important;
 		padding: 0 !important;
@@ -592,16 +592,10 @@ none
 	#qr .inputtext[type='password'] {
 		width: 248px !important;
 	}
-/* Unfuxor the unfuxoring */
-	#qr img {
-		height: 47px !important;
-		width: 248px !important;
-	}
 /* Width and height of all #qr elements (excluding some captcha elements) */
 	#qr textarea {
 		min-height: 0 !important;
 		height: 78px !important;
-		font-size: /*[[FontSize]]*/ !important;
 	}
 
 	#qr form[name^='post'] .inputtext,
@@ -614,7 +608,12 @@ none
 	#files input[type='file'][name='upfile'] > input[type='text'] {
 		width: 185px !important;
 	}
-/* Positioning of various postarea checkboxes */
+
+	#qr img {
+		height: 47px !important;
+		width: 248px !important;
+	}
+/* Positioning "+" for files */
 	#qr a#attach {
 		bottom: 21px;
 		right: 80px;
@@ -668,7 +667,7 @@ none
 		left: auto !important;
 		right: -233px !important;/**/
 		top: auto !important;
-		bottom: 20px !important;
+		bottom: 21px !important;
 		width: 248px !important;
 		margin: 0 !important;
 		padding: 0;
@@ -697,16 +696,10 @@ none
 	#qr .inputtext[type='password'] {
 		width: 248px !important;
 	}
-/* Unfuxor the unfuxoring */
-	#qr img {
-		height: 47px !important;
-		width: 248px !important;
-	}
 /* Width and height of all #qr elements (excluding some captcha elements) */
 	#qr textarea {
 		min-height: 0 !important;
 		height: 78px !important;
-		font-size: /*[[FontSize]]*/ !important;
 	}
 
 	#qr form[name^='post'] .inputtext,
@@ -719,7 +712,12 @@ none
 	#files input[type='file'][name='upfile'] > input[type='text'] {
 		width: 185px !important;
 	}
-/* Positioning of various postarea checkboxes */
+
+	#qr img {
+		height: 47px !important;
+		width: 248px !important;
+	}
+/* Positioning "+" for files */
 	#qr a#attach {
 		bottom: 21px;
 		right: 80px;
@@ -773,7 +771,7 @@ none
 		left: auto !important;
 		right: -248px !important;/**/
 		top: auto !important;
-		bottom: 20px !important;
+		bottom: 21px !important;
 		width: 248px !important;
 		margin: 0 !important;
 		padding: 0 !important;
@@ -839,16 +837,10 @@ none
 	#qr .inputtext[type='password'] {
 		width: 248px !important;
 	}
-/* Unfuxor the unfuxoring */
-	#qr img {
-		height: 47px !important;
-		width: 248px !important;
-	}
 /* Width and height of all #qr elements (excluding some captcha elements) */
 	#qr textarea {
 		min-height: 0 !important;
 		height: 78px !important;
-		font-size: /*[[FontSize]]*/ !important;
 	}
 
 	#qr form[name^='post'] .inputtext,
@@ -861,7 +853,12 @@ none
 	#files input[type='file'][name='upfile'] > input[type='text'] {
 		width: 185px !important;
 	}
-/* Positioning of various postarea checkboxes */
+
+	#qr img {
+		height: 47px !important;
+		width: 248px !important;
+	}
+/* Positioning "+" for files */
 	#qr a#attach {
 		bottom: 21px;
 		right: 80px;
@@ -914,7 +911,7 @@ none
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: 2px !important;/**/
-		bottom: 20px !important;
+		bottom: 21px !important;
 		width: 248px !important;
 		margin: 0 !important;
 		padding: 0 !important;
@@ -940,16 +937,10 @@ none
 	#qr .inputtext[type='password'] {
 		width: 248px !important;
 	}
-/* Unfuxor the unfuxoring */
-	#qr img {
-		height: 47px !important;
-		width: 248px !important;
-	}
 /* Width and height of all #qr elements (excluding some captcha elements) */
 	#qr textarea {
 		min-height: 0 !important;
 		height: 78px !important;
-		font-size: /*[[FontSize]]*/ !important;
 	}
 
 	#qr form[name^='post'] .inputtext,
@@ -962,7 +953,12 @@ none
 	#files input[type='file'][name='upfile'] > input[type='text'] {
 		width: 185px !important;
 	}
-/* Positioning of various postarea checkboxes */
+
+	#qr img {
+		height: 47px !important;
+		width: 248px !important;
+	}
+/* Positioning "+" for files */
 	#qr a#attach {
 		bottom: 21px;
 		right: 80px;
@@ -1068,7 +1064,7 @@ none
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: 192px !important;/**/
-		bottom: 0px;
+		bottom: 1px;
 		visibility: visible !important;
 		height: 14px !important;
 		width: 58px !important;
@@ -1339,7 +1335,7 @@ padding-bottom: 20px !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: 300px !important;/**/
-		bottom: 0 !important;
+		bottom: 1px !important;
 		width: 248px;
 	}
 
