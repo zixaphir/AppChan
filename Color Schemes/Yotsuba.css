@@ -213,6 +213,9 @@
 	}
 	#qp {
 		background-color: #d6bad0 !important;
+		-moz-box-shadow: 5px 5px 5px rgba(128,128,128,0.5) !important;
+		-webkit-box-shadow: 5px 5px 5px rgba(128,128,128,0.5) !important;
+		box-shadow: 5px 5px 5px rgba(128,128,128,0.5) !important;
 	}
 	input[type='checkbox'],
 	#options input[type='checkbox'],
@@ -465,7 +468,6 @@
 	#twi_table_div,
 	#twi_table_div *,
 	#backwash_tooltip,
-	#qp,
 	#popup,
 	.chanchimp,
 	.chanchimp > div,
@@ -479,6 +481,12 @@
 	tr.replyhl,
 	textarea:hover {
 		background-color: #d6bad0 !important;
+	}
+	#qp {
+	    background-color: #d6bad0 !important;
+		-moz-box-shadow: 5px 5px 5px rgba(128,128,128,0.5) !important;
+		-webkit-box-shadow: 5px 5px 5px rgba(128,128,128,0.5) !important;
+		box-shadow: 5px 5px 5px rgba(128,128,128,0.5) !important;
 	}
 	input[type='checkbox'],
 	#options input[type='checkbox'],
