@@ -548,25 +548,26 @@ none
 /*[[QuickReply]]*/
 /* Yes: */
 @-moz-document regexp("http://boards\.4chan\.org/.*/res/.*") {
+/* Remove vanilla post form and remove #qr UI to make it look more like the original post form */
 	.postarea,
 	#qr > input,
 	#qr > a {
 		display: none;
 	}
-
+/* .move contains the name field of the #qr. Here we're making it behave like no more than a container. We also hide the "Quick Reply" text with a hack. */
 	#qr .move {
 		color: transparent !important;
 		font-size: 0 !important;
 		height: 20px !important;
 	}
-
+/* Disable the behavior of #autohide */
 	#qr:not(:hover) > #autohide:checked ~ .autohide,
 	#qr > #autohide:checked ~ .autohide,
 	#qr > #autohide ~ .autohide	{
 		overflow: visible !important;
 		height: auto !important;
 	}
-
+/* Position and Dimensions of the #qr */
 	#qr {
 		overflow: visible !important;
 		position: fixed;
@@ -588,27 +589,12 @@ none
 	}
 
 	#qr .move .inputtext,
-	#recaptcha_widget_div input,
 	#qr .inputtext[type='password'] {
 		width: 248px !important;
-		margin-right: -2px !important; /* Konami Code */
-	}
-
-	#qr form[name^='post'] {
-		position: fixed;
-		top: auto;
-		left: auto;
-		bottom: 20px;
-		width: 248px !important;
-		margin: 0 !important;
-	}
-
-	#qr form[name^='post'] > table > tbody > tr > td {
-		padding: 0 !important;
 	}
 /* Unfuxor the unfuxoring */
 	#qr img {
-		height: auto !important;
+		height: 47px !important;
 		width: 248px !important;
 	}
 /* Width and height of all #qr elements (excluding some captcha elements) */
@@ -633,10 +619,6 @@ none
 		bottom: 21px;
 		right: 80px;
 	}
-/* #qr Decorations */
-	#qr #qr_form {
-		display: block !important;
-	}
 /* Errors */
 	[id^='q'] .error {
 		visibility: visible !important;
@@ -657,25 +639,26 @@ none
 }
 /* ...and slideout: */
 @-moz-document regexp("http://boards\.4chan\.org/.*/res/.*") {
+/* Remove vanilla post form and remove #qr UI to make it look more like the original post form */
 	.postarea,
 	#qr > input,
 	#qr > a {
 		display: none;
 	}
-
+/* .move contains the name field of the #qr. Here we're making it behave like no more than a container. We also hide the "Quick Reply" text with a hack. */
 	#qr .move {
 		color: transparent !important;
 		font-size: 0 !important;
 		height: 20px !important;
 	}
-
+/* Disable the behavior of #autohide */
 	#qr:not(:hover) > #autohide:checked ~ .autohide,
 	#qr > #autohide:checked ~ .autohide,
 	#qr > #autohide ~ .autohide	{
 		overflow: visible !important;
 		height: auto !important;
 	}
-
+/* Position and Dimensions of the #qr */
 	#qr {
 		overflow: visible !important;
 		position: fixed;
@@ -711,27 +694,12 @@ none
 	}
 
 	#qr .move .inputtext,
-	#recaptcha_widget_div input,
 	#qr .inputtext[type='password'] {
 		width: 248px !important;
-		margin-right: -2px !important; /* Konami Code */
-	}
-
-	#qr form[name^='post'] {
-		position: fixed;
-		top: auto;
-		left: auto;
-		bottom: 20px;
-		width: 248px !important;
-		margin: 0 !important;
-	}
-
-	#qr form[name^='post'] > table > tbody > tr > td {
-		padding: 0 !important;
 	}
 /* Unfuxor the unfuxoring */
 	#qr img {
-		height: auto !important;
+		height: 47px !important;
 		width: 248px !important;
 	}
 /* Width and height of all #qr elements (excluding some captcha elements) */
@@ -756,10 +724,6 @@ none
 		bottom: 21px;
 		right: 80px;
 	}
-/* #qr Decorations */
-	#qr #qr_form {
-		display: block !important;
-	}
 /* Errors */
 	[id^='q'] .error {
 		visibility: visible !important;
@@ -780,25 +744,26 @@ none
 }
 /* ...and tabbed slideout (No transitions in Chrome) */
 @-moz-document regexp("http://boards\.4chan\.org/.*/res/.*") {
+/* Remove vanilla post form and remove #qr UI to make it look more like the original post form */
 	.postarea,
 	#qr > input,
 	#qr > a {
 		display: none;
 	}
-
+/* .move contains the name field of the #qr. Here we're making it behave like no more than a container. We also hide the "Quick Reply" text with a hack. */
 	#qr .move {
 		color: transparent !important;
 		font-size: 0 !important;
 		height: 20px !important;
 	}
-
+/* Disable the behavior of #autohide */
 	#qr:not(:hover) > #autohide:checked ~ .autohide,
 	#qr > #autohide:checked ~ .autohide,
 	#qr > #autohide ~ .autohide	{
 		overflow: visible !important;
 		height: auto !important;
 	}
-
+/* Position and Dimensions of the #qr */
 	#qr {
 		overflow: visible !important;
 		position: fixed;
@@ -827,7 +792,7 @@ none
 		-moz-transition: right .3s linear, left .3s linear;
 		-o-transition: right .3s linear, left .3s linear;
 	}
-
+/* Tabbed Text. I'm not exactly sure about the mechanics behind how this works. */
 	#qr::before {
 		-webkit-transform: rotate(90deg);
 		-webkit-transform-origin: bottom left;
@@ -853,16 +818,16 @@ none
 		opacity: 1;
 		text-align: center;
 		content: 'POST FORM - POST FORM - POST FORM';
-		-webkit-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
-		-moz-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
-		-o-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
+		-webkit-transition: opacity .3s ease-in-out 3s;
+		-moz-transition: opacity .3s ease-in-out 3s;
+		-o-transition: opacity .3s ease-in-out 3s;
 	}
 
 	#qr:hover::before {
 		opacity: 0;
-		-webkit-transition: right .3s linear, left .3s linear;
-		-moz-transition: right .3s linear, left .3s linear;
-		-o-transition: right .3s linear, left .3s linear;
+		-webkit-transition: opacity .3s linear;
+		-moz-transition: opacity left .3s linear;
+		-o-transition: opacity .3s linear;
 	}
 
 	#qr_form {
@@ -871,27 +836,12 @@ none
 	}
 
 	#qr .move .inputtext,
-	#recaptcha_widget_div input,
 	#qr .inputtext[type='password'] {
 		width: 248px !important;
-		margin-right: -2px !important; /* Konami Code */
-	}
-
-	#qr form[name^='post'] {
-		position: fixed;
-		top: auto;
-		left: auto;
-		bottom: 20px;
-		width: 248px !important;
-		margin: 0 !important;
-	}
-
-	#qr form[name^='post'] > table > tbody > tr > td {
-		padding: 0 !important;
 	}
 /* Unfuxor the unfuxoring */
 	#qr img {
-		height: auto !important;
+		height: 47px !important;
 		width: 248px !important;
 	}
 /* Width and height of all #qr elements (excluding some captcha elements) */
@@ -915,10 +865,6 @@ none
 	#qr a#attach {
 		bottom: 21px;
 		right: 80px;
-	}
-/* #qr Decorations */
-	#qr #qr_form {
-		display: block !important;
 	}
 /* Errors */
 	[id^='q'] .error {
@@ -991,27 +937,12 @@ none
 	}
 
 	#qr .move .inputtext,
-	#recaptcha_widget_div input,
 	#qr .inputtext[type='password'] {
 		width: 248px !important;
-		margin-right: -2px !important; /* Konami Code */
-	}
-
-	#qr form[name^='post'] {
-		position: fixed;
-		top: auto;
-		left: auto;
-		bottom: 20px;
-		width: 248px !important;
-		margin: 0 !important;
-	}
-
-	#qr form[name^='post'] > table > tbody > tr > td {
-		padding: 0 !important;
 	}
 /* Unfuxor the unfuxoring */
 	#qr img {
-		height: auto !important;
+		height: 47px !important;
 		width: 248px !important;
 	}
 /* Width and height of all #qr elements (excluding some captcha elements) */
@@ -1035,10 +966,6 @@ none
 	#qr a#attach {
 		bottom: 21px;
 		right: 80px;
-	}
-/* #qr Decorations */
-	#qr #qr_form {
-		display: block !important;
 	}
 /* Errors */
 	[id^='q'] .error {
