@@ -132,12 +132,35 @@ Some more risque alternatives. ;)
 		text-decoration: none !important;
 	}
 
-	td.reply, a, td, .filetitle, .filesize, fieldset, blockquote, .rules, textarea, time, .postername, .commentpostername {
+	td.reply,
+	a,
+	td,
+	.filetitle,
+	.filesize,
+	fieldset,
+	blockquote,
+	.rules,
+	textarea,
+	time,
+	.postername,
+	.commentpostername,
+	.container::before {
 		font-size: /*[[FontSize]]*/ !important;
 		text-decoration: none !important;
 	}
 
-	input, #imgControls, #stats, #updater, #navtopr a, label, .filetitle, #imageType, #header, #header a, #stats, #navbot a {
+	input,
+	#imgControls,
+	#stats,
+	#updater,
+	#navtopr a,
+	label,
+	.filetitle,
+	#imageType,
+	#header,
+	#header a,
+	#stats,
+	#navbot a {
 		font-size: 12px !important;
 		text-decoration: none !important;
 	}
@@ -494,7 +517,7 @@ Some more risque alternatives. ;)
 	.postarea form[name^='post'] label {
 		position: absolute;
 	}
-	
+
 	form[name^='post'] > table td {
 	   text-align: right;
 	}
