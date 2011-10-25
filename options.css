@@ -611,19 +611,6 @@ none
 		height: auto !important;
 		width: 248px !important;
 	}
-/* Collapse the postarea table for better control over the height and width */
-	#qr form[name^='post'] table {
-		border-collapse: collapse;
-	}
-/* Formatting for all postarea elements */
-	#qr form[name^='post'] input:not([type='checkbox']),
-	#qr form[name^='post'] textarea,
-	#qr form[name^='post'] [name='upfile'] > input,
-	#qr #files [name='upfile'] > input,
-	#qr img {
-		margin: 1px 0 0 !important;
-		vertical-align: bottom;
-	}
 /* Width and height of all #qr elements (excluding some captcha elements) */
 	#qr textarea {
 		min-height: 0 !important;
@@ -747,30 +734,11 @@ none
 		height: auto !important;
 		width: 248px !important;
 	}
-/* Collapse the postarea table for better control over the height and width */
-	#qr form[name^='post'] table {
-		border-collapse: collapse;
-	}
-/* Formatting for all postarea elements */
-	#qr form[name^='post'] input:not([type='checkbox']),
-	#qr form[name^='post'] textarea,
-	#qr form[name^='post'] [name='upfile'] > input,
-	#qr #files [name='upfile'] > input,
-	#qr img {
-		margin: 1px 0 0 !important;
-		vertical-align: bottom;
-	}
 /* Width and height of all #qr elements (excluding some captcha elements) */
 	#qr textarea {
 		min-height: 0 !important;
 		height: 78px !important;
 		font-size: /*[[FontSize]]*/ !important;
-	}
-
-	#qr form[name^='post'] input.inputtext,
-	#qr form[name^='post'] [name='upfile'] > input,
-	#qr #recaptcha_widget_div input {
-		height: 19px !important;
 	}
 
 	#qr form[name^='post'] .inputtext,
@@ -926,30 +894,11 @@ none
 		height: auto !important;
 		width: 248px !important;
 	}
-/* Collapse the postarea table for better control over the height and width */
-	#qr form[name^='post'] table {
-		border-collapse: collapse;
-	}
-/* Formatting for all postarea elements */
-	#qr form[name^='post'] input:not([type='checkbox']),
-	#qr form[name^='post'] textarea,
-	#qr form[name^='post'] [name='upfile'] > input,
-	#qr #files [name='upfile'] > input,
-	#qr img {
-		margin: 1px 0 0 !important;
-		vertical-align: bottom;
-	}
 /* Width and height of all #qr elements (excluding some captcha elements) */
 	#qr textarea {
 		min-height: 0 !important;
 		height: 78px !important;
 		font-size: /*[[FontSize]]*/ !important;
-	}
-
-	#qr form[name^='post'] input.inputtext,
-	#qr form[name^='post'] [name='upfile'] > input,
-	#qr #recaptcha_widget_div input {
-		height: 19px !important;
 	}
 
 	#qr form[name^='post'] .inputtext,
@@ -1065,30 +1014,11 @@ none
 		height: auto !important;
 		width: 248px !important;
 	}
-/* Collapse the postarea table for better control over the height and width */
-	#qr form[name^='post'] table {
-		border-collapse: collapse;
-	}
-/* Formatting for all postarea elements */
-	#qr form[name^='post'] input:not([type='checkbox']),
-	#qr form[name^='post'] textarea,
-	#qr form[name^='post'] [name='upfile'] > input,
-	#qr #files [name='upfile'] > input,
-	#qr img {
-		margin: 1px 0 0 !important;
-		vertical-align: bottom;
-	}
 /* Width and height of all #qr elements (excluding some captcha elements) */
 	#qr textarea {
 		min-height: 0 !important;
 		height: 78px !important;
 		font-size: /*[[FontSize]]*/ !important;
-	}
-
-	#qr form[name^='post'] input.inputtext,
-	#qr form[name^='post'] [name='upfile'] > input,
-	#qr #recaptcha_widget_div input {
-		height: 19px !important;
 	}
 
 	#qr form[name^='post'] .inputtext,

@@ -144,7 +144,8 @@ Some more risque alternatives. ;)
 	time,
 	.postername,
 	.commentpostername,
-	.container::before {
+	.container::before,
+	#captchas {
 		font-size: /*[[FontSize]]*/ !important;
 		text-decoration: none !important;
 	}
@@ -447,7 +448,6 @@ Some more risque alternatives. ;)
 	input[type='password'],
 	#qr form[name^='post'] input.inputtext,
 	#qr form[name^='post'] [name='upfile'] > input,
-	#qr #recaptcha_widget_div input,
 	.postarea form[name^='post'] input.inputtext,
 	form[name^='post'] input[name='upfile'] > input,
 	#files input[name='upfile'] > input,
@@ -757,11 +757,6 @@ Some more risque alternatives. ;)
 	#cc-newpostarea2 form[name^='post'] #recaptcha_reload_btn {
 		left: 288px !important;
 		bottom: 34px !important;
-	}
-
-	#qr #recaptcha_reload_btn {
-		bottom: 64px !important;
-		right: 4px !important;
 	}
 
 	form[name^='post'] #recaptcha_reload_btn,
