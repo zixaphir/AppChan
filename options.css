@@ -622,7 +622,7 @@ none
 	[id^='q'] .error {
 		visibility: visible !important;
 		position: fixed !important;
-		bottom: 269px !important;
+		bottom: 270px !important;
 		height: 19px !important;
 		width: 248px !important;
 		right: auto !important;
@@ -726,7 +726,7 @@ none
 	[id^='q'] .error {
 		visibility: visible !important;
 		position: fixed !important;
-		bottom: 269px !important;
+		bottom: 270px !important;
 		height: 19px !important;
 		width: 248px !important;
 		right: auto !important;
@@ -867,7 +867,7 @@ none
 	[id^='q'] .error {
 		visibility: visible !important;
 		position: fixed !important;
-		bottom: 269px !important;
+		bottom: 270px !important;
 		height: 19px !important;
 		width: 248px !important;
 		right: auto !important;
@@ -967,7 +967,7 @@ none
 	[id^='q'] .error {
 		visibility: visible !important;
 		position: fixed !important;
-		bottom: 269px !important;
+		bottom: 270px !important;
 		height: 19px !important;
 		width: 248px !important;
 		right: auto !important;
@@ -1379,6 +1379,72 @@ domain('images.4chan.org'),
 
 	.commentpostername a.linkmail[href$='sega']::after {
 		content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAALBAMAAAD2A3K8AAAAMFBMVEUAAACMjpOChImytLmdnqMrKzDIyM55dnkODQ94foQ7PkXm5Olsb3VUUVVhZmw8Sl6klHLxAAAAAXRSTlMAQObYZgAAANFJREFUGJVjYIACRiUlJUUGDHBk4syTkxQwhO3/rQ/4ZYsuymi3YEFUqAhC4LCJZJGIi1uimKKjk3KysbOxsaMnAwNLyqoopaXhttf2it1anrJqke1pr1DlBAZhicLnM5YXZ4RWlIYoezx0zrjYqG6czCDsYRzxIko6Q/qFaKy0690Ij0MxN8K2MIhJXF+hsfxJxuwdpYGVaUU3Mm5bqgKFOZOFit3Vp23J3pgsqLxFUXpLtlD5bgcGBs45794dn6mkOVFQUOjNmXPPz8ysOcAAANw6SHLtrqolAAAAAElFTkSuQmCC');
+	}
+}
+
+@-moz-document url-prefix('http://boards.4chan.org/g/') {
+
+	body div.logo font[size="5"] span,
+	div.logo font[size="1"],
+	div.logo font[size="1"] a {
+	font-size: 0 !important;
+		visibility: hidden !important;
+	}
+
+	div.logo font[size="5"] span:after {
+		font-size: 26px !important;
+		visibility: visible !important;
+		content: "/g/ - !IoliconhOo VS Jordan";
+	}
+
+	div.logo font[size="1"]:after {
+		font-size: 12px !important;
+		visibility: visible !important;
+		content: "HEAVEN OR HELL -- LET'S ROCK";
+	}
+}
+
+@-moz-document url-prefix('http://boards.4chan.org/b/') {
+
+	body div.logo font[size="5"] span,
+	div.logo font[size="1"],
+	div.logo font[size="1"] a {
+	font-size: 0 !important;
+		visibility: hidden !important;
+	}
+
+	div.logo font[size="5"] span:after {
+		font-size: 26px !important;
+		visibility: visible !important;
+		content: "/b/ - Cancer";
+	}
+
+	div.logo font[size="1"]:after {
+		font-size: 12px !important;
+		visibility: visible !important;
+		content: "These be the waters of faggots and strumpets. Be wary, traveller.";
+	}
+}
+
+@-moz-document url-prefix('http://boards.4chan.org/b/') {
+
+	body div.logo font[size="5"] span,
+	div.logo font[size="1"],
+	div.logo font[size="1"] a {
+	font-size: 0 !important;
+		visibility: hidden !important;
+	}
+
+	div.logo font[size="5"] span:after {
+		font-size: 26px !important;
+		visibility: visible !important;
+		content: "/b/ - Cancer";
+	}
+
+	div.logo font[size="1"]:after {
+		font-size: 12px !important;
+		visibility: visible !important;
+		content: "These be the waters of faggots and strumpets. Be wary, traveller.";
 	}
 /* No: */
 

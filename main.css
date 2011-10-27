@@ -15,17 +15,13 @@ Included artwork and images are unlicensed (non-free) and are used under
 the following fair use rationale:
 
 1.	The purpose of use is not commercial in nature in any conceivable way.
-
 2.	The included images are already commonly available from various
 	non-commercial sources.
-
 3.	Included images are low-resolution and are only a portion of the
 	original artwork.
-
 4.	The use of included artwork should not affect the value of the original
 	work or limit the copyright holder's rights or ability to distribute
 	the original.
-
 5.	The original intent of copyright of included images is difficult to
 	discern.
 
@@ -34,15 +30,13 @@ original copyright holders, owned images will be removed from AppChan.
 */
 
 /*
-This style is intended to provide 4chan integration of the following
-addons/userscripts, ordered by priority:
-	* 4chan x + 4chan thread filter + /b/ackwash reloaded
-	* 4chanplus
-	* 4chan 4chrome
+This style is intended to provide integration of 4chan x into 4chan.
 
 This style is designed for the following browsers, ordered alphabetically:
 	* Google Chrome 10 or higher / Chromium latest / Canary latest
-	* Mozilla Firefox 4.x or higher / Aurora latest / Nightly latest
+	* Mozilla Firefox 6.x or higher / Aurora latest / Nightly latest (as of @-moz-document regex)
+
+	Opera support is included, but mostly untested.
 */
 @-moz-document domain(boards.4chan.org), domain(rs.4chan.org) {
 /* Silhouette / Background Image */
@@ -95,7 +89,6 @@ Some more risque alternatives. ;)
 	td.rules,
 	th,
 	[id='4chan_ext_nav_top'],
-	#autonoko, /* FIXME */
 	#footer > *:not(#navbot):not(center),
 	#ft li.fill,
 	#popular-threads,
@@ -126,12 +119,6 @@ Some more risque alternatives. ;)
 		display: none !important;
 	}
 
-	* {
-	/* Defaults of all elements */
-		font-family: /*[[Font]]*/ !important;
-		text-decoration: none !important;
-	}
-
 	td.reply,
 	a,
 	td,
@@ -145,8 +132,10 @@ Some more risque alternatives. ;)
 	.postername,
 	.commentpostername,
 	.container::before,
-	#captchas {
-		font-size: /*[[FontSize]]*/ !important;
+	#captchas,
+	* {
+	/* Defaults of all elements */
+		font-family: /*[[Font]]*/ !important;
 		text-decoration: none !important;
 	}
 
@@ -205,14 +194,10 @@ Some more risque alternatives. ;)
 
 	div.logo img:hover {
 		opacity: 1;
-	}
-
-	div.logo img:hover {
 		-webkit-transition: opacity .5s ease-in;
 		-moz-transition: opacity .5s ease-in;
 		-o-transition: opacity .5s ease-in;
 	}
-
 
 	div.logo font[size='5'] span {
 		font-size: 30px !important;
@@ -382,7 +367,7 @@ Some more risque alternatives. ;)
 		-moz-appearance: none;
 		-o-appearance: none;
 	}
-/* The positioning and transitions of the post form */
+/* Positioning and transitions of the post form */
 	.postarea form[name^='post'] {
 		position: fixed;
 		top: auto;
@@ -411,7 +396,7 @@ Some more risque alternatives. ;)
 	#recaptcha_table #recaptcha_image {
 		border: none !important;
 	}
-/* Unfuxor the unfuxoring */
+
 	.postarea #recaptcha_widget_div img {
 		height: auto !important;
 		width: 248px !important;
@@ -624,7 +609,7 @@ Some more risque alternatives. ;)
 	form[name^='post'] tr:nth-of-type(6) .postblock b {
 		right: 16px;
 	}
-/* Quick Reply decorations */
+/* Quick Reply UI */
 	form[name^='post'] input[name='recaptcha_response_field'] {
 		outline: none !important;
 		box-shadow: none !important;
@@ -698,11 +683,7 @@ Some more risque alternatives. ;)
 		right: 0px !important;
 		background: none !important;
 	}
-/* End of Image Hover and Image Expansion */
-	.top-box .menubutton {
-		background-image: none !important;
-	}
-
+/* #qr dimensions */
 	#qr {
 		z-index: 5;
 		height: auto !important;
@@ -713,6 +694,10 @@ Some more risque alternatives. ;)
 	#qr input.inputtext,
 	#qr input[type='file'][name='upfile'] > input[type='text'],
 	#qr textarea {
+		width: 300px !important;
+	}
+
+	#qr input[type=file][name='upfile'] {
 		width: 300px !important;
 	}
 
@@ -736,10 +721,6 @@ Some more risque alternatives. ;)
 	td.replyhl {
 		z-index: 0;
 		padding: 0 !important;
-	}
-
-	#qr input[type=file][name='upfile'] {
-		width: 300px !important;
 	}
 /*[[CaptchaReload]]*/
 	.postarea form[name^='post'] #recaptcha_reload_btn {
@@ -778,7 +759,11 @@ Some more risque alternatives. ;)
 		border-spacing: 0;
 	}
 
-/* Spoiler Image Checkbox */
+	.top-box .menubutton,
+	.logo {
+		background-image: none !important;
+	}
+/* Post form Checkboxes */
 	form[name^='post'] tr:nth-of-type(3) > td:nth-of-type(3) {
 	/* Removes the brackets around Spoiler Image */
 		font-size: 0 !important;
@@ -857,14 +842,15 @@ Some more risque alternatives. ;)
 		border-spacing: 0 1px !important;
 	}
 
-	form[name='delform'] .filesize+br+a[target='_blank'] img {
+	form[name='delform'] .filesize+br+a[target='_blank'] img, 
+	#qp .filesize+br+a[target='_blank'] img  {
 		border: 0;
 		float: left;
-		margin: 0 20px 30px !important;
+		margin: 0 20px 25px !important;
 	}
 
 	form[name='delform'] .filesize+br+a[target='_blank'] img+img {
-		margin: 0 0 30px !important;
+		margin: 0 0 25px !important;
 	}
 
 	html,
@@ -892,15 +878,14 @@ Some more risque alternatives. ;)
 	.commentpostername a.linkmail[href*='SAGE']::after {
 /*[[sageidentifier]]*/
 	}
-
+/* Fixes text spoilers */
 	.spoiler:not(:hover),
 	.spoiler:not(:hover) .unkfunc,
 	.spoiler:not(:hover) a {
-		/* Fixes text spoilers */
 		color: #000 !important;
 		text-shadow: none !important;
 	}
-
+/* Remove default 'inherit' background declaration */
 	.span.filetitle,
 	.replytitle,
 	.postername,
@@ -947,7 +932,7 @@ Some more risque alternatives. ;)
 		color: transparent !important;
 		z-index: 96 !important;
 	}
-
+/* Strip 4chan+ of shadows and rounded edges */
 	#navbar,
 	#boardsMenu,
 	#popup,
@@ -1002,7 +987,7 @@ Some more risque alternatives. ;)
 	#imgControls select {
 		float: right !important;
 	}
-
+/* Hide UI of the select element */
 	select > button,
 	select > input {
 		opacity: 0;
@@ -1050,7 +1035,6 @@ Some more risque alternatives. ;)
 		max-width: 100% !important;
 	}
 /*[[DeleteButtons]]*/
-
 	.deletebuttons {
 		position: fixed !important;
 		top: auto !important;
@@ -1072,7 +1056,7 @@ Some more risque alternatives. ;)
 		visibility: visible !important;
 		bottom: 24px;
 	}
-/* End of Reply Previews */
+
 	.deletebuttons {
 		visibility: hidden !important;
 		font-size: 0 !important;
@@ -1237,7 +1221,6 @@ Some more risque alternatives. ;)
 		height: 15px !important;
 	}
 
-
 	#backwash_tooltip,
 	#qp,
 	#popup,
@@ -1315,10 +1298,8 @@ Some more risque alternatives. ;)
 	.filesize+br+a[target='_blank']:hover {
 		background: none !important;
 	}
-/* Adblock, YouTube Autoplay Block */
-	img[src^='http://static.4chan.org/support/'],
-	embed[src*='autoplay=1'],
-	embed[src*='autoplay=true'] {
+/* Adblock Minus */
+	img[src^='http://static.4chan.org/support/'] {
 		display: none;
 	}
 /*[[MagicMode]]*/
@@ -1449,9 +1430,8 @@ Some more risque alternatives. ;)
 	}
 }
 
-@-moz-document url-prefix('http://www.4chan.org'),
-domain('rs.4chan.org') {
-	html, body {
+@-moz-document url-prefix('http://www.4chan.org'), domain('rs.4chan.org') {
+	body {
 		background-image: none !important;
 	}
 }
@@ -1465,8 +1445,17 @@ domain('rs.4chan.org') {
 @-moz-document url('http://www.4chan.org/'),
 url('http://www.4chan.org/#'),
 url('http://www.4chan.org') {
+	#announce {
+		max-width: 610px;
+	}
+
 	.yui-g {
 		display: none !important;
 	}
 }
-/*[[BoardHighlight]]*/
+
+@-moz-document url-prefix('http://boards.4chan.org/f/') {
+	form[name="delform"] center {
+		position: static !important;
+	}
+}
