@@ -39,30 +39,12 @@ This style is designed for the following browsers, ordered alphabetically:
 	Opera support is included, but mostly untested.
 */
 @-moz-document domain(boards.4chan.org), domain(rs.4chan.org) {
-/* Silhouette / Background Image */
+/* Mascots (More mascots can be found at https://github.com/zixaphir/AppChan/wiki/Mascots) */
 	body::after {
 		content: /*[[background]]*/ !important;
 		position: fixed !important;
 		right: 0px !important;
 		bottom: 269px !important;
-/*
-Extras are fine too. ;3
-	Ika Mutsume - http://i.imgur.com/rKT7L.png
-	Lain - http://i.imgur.com/hIBLa.png
-	Miku - http://i.imgur.com/H1pgZ.png
-Silhouettes (Don't work with light color schemes)
-	Yuki Nagato [s] - http://i.imgur.com/Nupc8.png
-	Yuki Nagato (+Pantsu) [s] - http://i.imgur.com/A3aFp.png
-	Horo [s] - http://i.imgur.com/i6LMi.png
-	Original Horo [s] - http://i.imgur.com/TQ6pJ.png
-
-Some more risque alternatives. ;)
-	Horo - http://i.imgur.com/6f8wd.png
-	Horo 2 - http://i.imgur.com/KJLui.png
-	Ika Musume - http://i.imgur.com/PeckP.png
-	Kinomoto Sakura - http://i.imgur.com/Rdk9s.png
-	Yuki Nagato - http://i.imgur.com/2BUww.png
-*/
 	}
 
 	body {
