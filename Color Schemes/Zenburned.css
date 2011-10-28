@@ -27,7 +27,7 @@
 background-image: none !important;
 	}
 	body,
-	body>form,
+	body > form,
 	html body span[style='left: 5px; position: absolute;'] a,
 	input,
 	div.postarea,
@@ -55,16 +55,16 @@ background-image: none !important;
 		color: #dcdccc !important;
 	}
 
-/*[[TransparentReplies]]*/	.op>blockquote,
-	.thread>blockquote,
-	form[name='delform']>blockquote, /**/
+/*[[TransparentReplies]]*/	.op > blockquote,
+	.thread > blockquote,
+	form[name='delform'] > blockquote, /**/
 	div.logo font {
 		text-shadow: #3f3f3f 1px 0 2px, #3f3f3f -1px 0 2px, #3f3f3f 0 -1px 2px, #3f3f3f 0 1px 2px;
 	}
 
-	div.postarea>form td:nth-of-type(3)>label,
-	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
-	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label,
+	div.postarea > form td:nth-of-type(3) > label,
+	#qr > form tr:nth-of-type(3) > td:nth-of-type(3) > label,
+	#quickrep > form tr:nth-of-type(3) > td:nth-of-type(3) > label,
 	#autonoko {
 		color: #dcdccc;
 	}
@@ -145,28 +145,27 @@ background-image: none !important;
 	.box-outer,
 	.boxbar,
 	.deletebuttons input[value=Delete],
-	.recaptcha_image_cell>center>#recaptcha_image,
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	.yuimenuitem-selected,
 	h2,
 	input,
-	input[type='file']>input[type='button'],
+	input[type='file'] > input[type='button'],
 	input[type='submit'],
 	select,
 	td.postblock,
 	td.reply,
 	textarea,
-	#main, 
-	#optionsbar, 
+	#main,
+	#optionsbar,
 	#options .dialog {
 		background-color: #313c36 !important;
 	}
 
 	div[id^='4chan_ext_iqr'],
-	div[id^='4chan_ext_iqr']>*,
+	div[id^='4chan_ext_iqr'] > *,
 	input[type='submit']:hover,
-	input[type='file']>input[type='button']:hover,
+	input[type='file'] > input[type='button']:hover,
 	#filter input,
 	#filter textarea,
 	#header,
@@ -175,23 +174,22 @@ background-image: none !important;
 	#options input,
 	#options textarea,
 	#qr,
-	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
+	#qr > form tr:nth-of-type(3) > td:nth-of-type(3) > label input,
 	#quickrep,
-	#quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
+	#quickrep > form tr:nth-of-type(3) > td:nth-of-type(3) > label input,
 	#qr label input,
 	#thread_filter input,
 	#thread_filter textarea,
 	#updater input:not([type='checkbox']),
 	.bd,
-	.boxcontent>hr,
+	.boxcontent > hr,
 	.boxcontent input,
 	.boxcontent textarea,
 	.pages,
-	h3,
 	html,
 	body,
-	table[width='100%']~#qr a#attach::after,
-	div.postarea>form td:nth-of-type(3)>label input,
+	#qr a#attach::after,
+	div.postarea > form td:nth-of-type(3) > label input,
 	div[id^=qr],
 	table.reply[style^='clear: both'] {
 		background-color: #3f3f3f !important;
@@ -203,20 +201,20 @@ background-image: none !important;
 	#twi_table_div,
 	#twi_table_div *,
 	input[type='submit']:hover,
-	input[type='file']>input[type='button']:hover,
+	input[type='file'] > input[type='button']:hover,
 	#backwash_tooltip,
 	#qp,
 	#qr::before,
 	#updater:hover,
 	#popup,
 	.chanchimp,
-	.chanchimp>div,
+	.chanchimp > div,
 	.deletebuttons input[type='password']:hover,
 	.recaptchatable #recaptcha_response_field:hover,
 	div[id^=ref],
 	form[name^='post']::before,
 	input:hover,
-	input[type='file']>input[type='button']
+	input[type='file'] > input[type='button']
 	input[type='submit']:hover,
 	td.replyhl,
 	tr.replyhl,
@@ -249,7 +247,7 @@ background-image: none !important;
 	html body span[style='left: 5px; position: absolute;'] a,
 	input[type='submit'],
 	#com_submit,
-	input[type='file']>input[type='button'] {
+	input[type='file'] > input[type='button'] {
 		background-color: #313c36 !important;
 	}
 
@@ -290,7 +288,7 @@ background-image: none !important;
 	}
 
 	td[style='border: 1px dashed;'],
-	td.reply>tr>td.reply,
+	td.reply > tr > td.reply,
 	.inline td.reply {
 		/* Inline Quotes */
 		background-color: rgba(0,0,0,0.1) !important;
@@ -340,24 +338,22 @@ background-image: none !important;
 	#ft li,
 	#ft ul,
 	#options input:not([type='checkbox']),
-	#qr table .recaptchatable #recaptcha_image,
 	#updater input:not([type='checkbox']),
 	#twi_table_div,
 	#twi_table_div *,
 	.box-outer,
 	.boxbar,
 	.chanchimp,
-	.chanchimp>div,
+	.chanchimp > div,
 	.inputtext,
 	.deletebuttons input[value=Delete],
-	.recaptcha_image_cell>center>#recaptcha_image,
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	h2,
 	html body span[style='left: 5px; position: absolute;'] a,
 	input:not([type='checkbox']),
 	#qr_captcha input,
-	input[type='file']>input[type='button'],
+	input[type='file'] > input[type='button'],
 	input[type='submit'],
 	select,
 	textarea {
@@ -372,12 +368,6 @@ background-image: none !important;
 		width: 56px !important;
 	}
 
-	form[name^='post'] input[type='file'][name='upfile'],
-	#qr input[type='file'][name='upfile'] {
-		margin: 0 -1px -1px !important;
-		height: 21px !important;
-	}
-
 	.fake input[type='file']::-webkit-file-upload-button,
 	form[name^='post'] input[type='file'][name='upfile'],
 	#qr input[type='file'][name='upfile'] {
@@ -389,18 +379,6 @@ background-image: none !important;
 	#quick_recaptcha_image img,
 	#qr img {
 		opacity: 1 !important;
-	}
-
-	.postarea form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
-	.postarea form[name^='post'] #recaptcha_image img {
-		width: 246px !important;
-		height: 45px !important;
-	}
-
-	form[name^='post'] .recaptcha_image_cell>center>#recaptcha_image,
-	form[name^='post'] #recaptcha_image img {
-		width: 298px !important;
-		height: 55px !important;
 	}
 
 	.boxcontent dd,
@@ -433,7 +411,7 @@ background-image: none !important;
 		border: none !important;
 	}
 
-	form[name='delform']>div:not(.thread) select,
+	form[name='delform'] > div:not(.thread) select,
 	.pages input[type='submit'] {
 		margin: 0 !important;
 		height: 17px !important;
