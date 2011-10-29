@@ -41,10 +41,8 @@ This style is designed for the following browsers, ordered alphabetically:
 @-moz-document domain(boards.4chan.org), domain(rs.4chan.org) {
 /* Mascots (More mascots can be found at https://github.com/zixaphir/AppChan/wiki/Mascots) */
 	body::after {
-		content: /*[[background]]*/ !important;
 		position: fixed !important;
-		right: 0px !important;
-		bottom: 269px !important;
+		/*[[Background]]*/
 	}
 
 	body {
