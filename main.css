@@ -111,6 +111,12 @@ This style is designed for the following browsers, ordered alphabetically:
 		display: none !important;
 	}
 
+	* {
+	/* Defaults of all elements */
+		font-family: /*[[Font]]*/ !important;
+		text-decoration: none !important;
+	}
+
 	td.reply,
 	a,
 	td,
@@ -124,11 +130,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postername,
 	.commentpostername,
 	.container::before,
-	#captchas,
-	* {
-	/* Defaults of all elements */
-		font-family: /*[[Font]]*/ !important;
-		text-decoration: none !important;
+	#captchas {
+		font-size: /*[[FontSize]]*/ !important;
 	}
 
 	input,
