@@ -792,9 +792,9 @@ This style is designed for the following browsers, ordered alphabetically:
 		position: absolute;
 	}
 
-	#qr > form[name^='post'] input[name='email']+label {
-		bottom: 4px;
-		right: 70px;
+	#qr_form input[name='email'] + label {
+		bottom: 1px;
+		right: 4px;
 	}
 
 	#qr > form[name^='post'] #com_submit + label,
