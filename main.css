@@ -42,7 +42,7 @@ This style is designed for the following browsers, ordered alphabetically:
 /* Mascots (More mascots can be found at https://github.com/zixaphir/AppChan/wiki/Mascots) */
 	body::after {
 		position: fixed !important;
-		/*[[Background]]*/
+		/*[[background]]*/
 	}
 
 	body {
