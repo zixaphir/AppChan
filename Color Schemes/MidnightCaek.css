@@ -369,10 +369,6 @@ background-image: none !important;
 /*[[PostSeparationHR]]*/
 	}
 
-	.postarea textarea:focus {
-		bottom: 171px !important; /* Borders change the dimensions of the postform slightly. */
-	}
-
 	#filter input,
 	#filter textarea,
 	#thread_filter input,

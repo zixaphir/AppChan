@@ -379,10 +379,6 @@ background-image: none !important;
 		-o-border-radius: 6px 6px 0 0;
 	}
 
-	.postarea textarea:focus {
-		bottom: 171px !important; /* Borders change the dimensions of the postform slightly. */
-	}
-
 	#filter input,
 	#filter textarea,
 	#thread_filter input,

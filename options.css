@@ -453,15 +453,6 @@ none
 	.postarea form[name='post'] tr:nth-child(4) {
 		height: 79px !important;
 	}
-
-	.postarea textarea:focus {
-		position: fixed !important;
-		right: auto !important;
-		left: 2px !important;
-/*[[ChangeAlign]]*/
-		right: 2px !important;
-		left: auto !important;/**/
-	}
 /* Tabbed Slideout: Transitions only in Firefox > 4 */
 	.postarea form[name^='post'] {
 		right: auto !important;
@@ -525,15 +516,6 @@ none
 
 	.postarea form[name='post'] tr:nth-child(4) {
 		height: 79px !important;
-	}
-
-	.postarea textarea:focus {
-		position: fixed !important;
-		right: auto !important;
-		left: 2px !important;
-/*[[ChangeAlign]]*/
-		right: 2px !important;
-		left: auto !important;/**/
 	}
 /* Transparent to Opaque: */
 	.postarea form[name^='post'] {

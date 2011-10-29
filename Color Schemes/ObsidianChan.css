@@ -411,13 +411,9 @@
 
 	form[name^='post']::before,
 	#qr::before {
-		background-color: #333 !important;
+		background-color: #000 !important;
 		border-radius: 6px 6px 0 0;
 		-o-border-radius: 6px 6px 0 0;
-	}
-
-	.postarea textarea:focus {
-		bottom: 171px !important; /* Borders change the dimensions of the postform slightly. */
 	}
 
 	#filter input,
