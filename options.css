@@ -5,60 +5,213 @@
 /*[[background]]*/
 /* Furudo Erika: */
 		content: url('http://i.imgur.com/zLsPY.png');
-		right: 0;
 		bottom: 269px;
+		left: 0;
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+/*[[ChangeAlign]]*/
+		right: 0;
+		left: auto;
+		-moz-transform: scaleX(0);
+        -o-transform: scaleX(0);
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);/**/
 /* Hakase: */
 		content: url('http://i.imgur.com/TBHI6.png');
-		right: 0;
 		bottom: 269px;
+		left: 0;
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+/*[[ChangeAlign]]*/
+		right: 0;
+		left: auto;
+		-moz-transform: scaleX(0);
+        -o-transform: scaleX(0);
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);/**/
 /* Kagamine Rin: */
 		content: url('http://i.imgur.com/fXXd2.png');
-		right: 0;
 		bottom: 269px;
+		left: 0;
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+/*[[ChangeAlign]]*/
+		right: 0;
+		left: auto;
+		-moz-transform: scaleX(0);
+        -o-transform: scaleX(0);
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);/**/
 /* Kinomoto Sakura: */
 		content: url('http://i.imgur.com/Ve0hl.png');
-		right: 0;
 		bottom: 269px;
+		left: 0;
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+/*[[ChangeAlign]]*/
+		right: 0;
+		left: auto;
+		-moz-transform: scaleX(0);
+        -o-transform: scaleX(0);
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);/**/
 /* Shana: */
 		content: url('http://i.imgur.com/k3fgX.png');
+		left: 0;
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+/*[[ChangeAlign]]*/
 		right: 0;
-		bottom: 269px;
+		left: auto;
+		-moz-transform: scaleX(0);
+        -o-transform: scaleX(0);
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);/**/
 /* Ika Musume: */
 		content: url('http://i.imgur.com/uUhGG.png');
-		right: 0;
 		bottom: 269px;
+		left: 0;
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+/*[[ChangeAlign]]*/
+		right: 0;
+		left: auto;
+		-moz-transform: scaleX(0);
+        -o-transform: scaleX(0);
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);/**/
 /* Iwakura Lain: */
 		content: url('http://i.imgur.com/AfjG9.png');
-		right: 0;
 		bottom: 269px;
+		left: 0;
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+/*[[ChangeAlign]]*/
+		right: 0;
+		left: auto;
+		-moz-transform: scaleX(0);
+        -o-transform: scaleX(0);
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);/**/
 /* Samus Aran: */
 		content: url('http://i.imgur.com/34viJ.png');
-		right: 0;
 		bottom: 269px;
+		left: 0;
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+/*[[ChangeAlign]]*/
+		right: 0;
+		left: auto;
+		-moz-transform: scaleX(0);
+        -o-transform: scaleX(0);
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);/**/
 /* Hatsune Miku: */
 		content: url('http://i.imgur.com/vE3FJ.png');
-		right: 0;
 		bottom: 269px;
+		left: 0;
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+/*[[ChangeAlign]]*/
+		right: 0;
+		left: auto;
+		-moz-transform: scaleX(0);
+        -o-transform: scaleX(0);
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);/**/
 /* Li Syaoran: */
 		content: url('http://i.imgur.com/GySuy.png');
-		right: 0;
 		bottom: 269px;
+		left: 0;
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+/*[[ChangeAlign]]*/
+		right: 0;
+		left: auto;
+		-moz-transform: scaleX(0);
+        -o-transform: scaleX(0);
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);/**/
 /* Koiwai Yotsuba: */
 		content: url('http://i.imgur.com/1MyDM.png');
-		right: 0;
 		bottom: 269px;
+		left: 0;
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+/*[[ChangeAlign]]*/
+		right: 0;
+		left: auto;
+		-moz-transform: scaleX(0);
+        -o-transform: scaleX(0);
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);/**/
 /* BLACK ROCK SHOOTER */
 		content: url('http://i.imgur.com/VidKo.png');
-		right: 0;
 		bottom: 269px;
+		left: 0;
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+/*[[ChangeAlign]]*/
+		right: 0;
+		left: auto;
+		-moz-transform: scaleX(0);
+        -o-transform: scaleX(0);
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);/**/
 /* Nagato Yuki */
 		content: url('http://i.imgur.com/ucnzg.png');
-		right: 0;
 		bottom: 269px;
+		left: 0;
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+/*[[ChangeAlign]]*/
+		right: 0;
+		left: auto;
+		-moz-transform: scaleX(0);
+        -o-transform: scaleX(0);
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);/**/
 /* Golden Darkness */
 		content: url('http://i.imgur.com/lYGo4.png');
-		right: 0;
 		bottom: 0;
+		left: 0;
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+/*[[ChangeAlign]]*/
+		right: 0;
+		left: auto;
+		-moz-transform: scaleX(0);
+        -o-transform: scaleX(0);
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);/**/
 /* None: */
 none
 /* End */
