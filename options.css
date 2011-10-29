@@ -5,60 +5,60 @@
 /*[[background]]*/
 /* Furudo Erika: */
 		content: url('http://i.imgur.com/zLsPY.png');
-		right: 0px;
+		right: 0;
 		bottom: 269px;
 /* Hakase: */
 		content: url('http://i.imgur.com/TBHI6.png');
-		right: 0px;
+		right: 0;
 		bottom: 269px;
 /* Kagamine Rin: */
 		content: url('http://i.imgur.com/fXXd2.png');
-		right: 0px;
+		right: 0;
 		bottom: 269px;
 /* Kinomoto Sakura: */
 		content: url('http://i.imgur.com/Ve0hl.png');
-		right: 0px;
+		right: 0;
 		bottom: 269px;
 /* Shana: */
 		content: url('http://i.imgur.com/k3fgX.png');
-		right: 0px;
+		right: 0;
 		bottom: 269px;
 /* Ika Musume: */
 		content: url('http://i.imgur.com/uUhGG.png');
-		right: 0px;
+		right: 0;
 		bottom: 269px;
 /* Iwakura Lain: */
 		content: url('http://i.imgur.com/AfjG9.png');
-		right: 0px;
+		right: 0;
 		bottom: 269px;
 /* Samus Aran: */
 		content: url('http://i.imgur.com/34viJ.png');
-		right: 0px;
+		right: 0;
 		bottom: 269px;
 /* Hatsune Miku: */
 		content: url('http://i.imgur.com/vE3FJ.png');
-		right: 0px;
+		right: 0;
 		bottom: 269px;
 /* Li Syaoran: */
 		content: url('http://i.imgur.com/GySuy.png');
-		right: 0px;
+		right: 0;
 		bottom: 269px;
 /* Koiwai Yotsuba: */
 		content: url('http://i.imgur.com/1MyDM.png');
-		right: 0px;
+		right: 0;
 		bottom: 269px;
 /* BLACK ROCK SHOOTER */
 		content: url('http://i.imgur.com/VidKo.png');
-		right: 0px;
+		right: 0;
 		bottom: 269px;
 /* Nagato Yuki */
 		content: url('http://i.imgur.com/ucnzg.png');
-		right: 0px;
+		right: 0;
 		bottom: 269px;
 /* Golden Darkness */
 		content: url('http://i.imgur.com/lYGo4.png');
-		right: 0px;
-		bottom: 0px;
+		right: 0;
+		bottom: 0;
 /* None: */
 none
 /* End */
@@ -248,7 +248,7 @@ none
 		right: 0 !important;
 		z-index: 97 !important;
 /*[[ChangeAlign]]*/	right: auto !important;/**/
-		top: 0px !important;
+		top: 0 !important;
 		height: 15px !important;
 		width: 80px;
 		border-width: 0 1px 1px 0 !important;
@@ -267,7 +267,7 @@ none
 	}
 
 	#navbot:hover {
-		top: 0px !important;
+		top: 0 !important;
 		z-index: 98 !important;
 	}
 
@@ -276,8 +276,8 @@ none
 		position: fixed !important;
 		top: -61px !important;
 		left: auto !important;
-		right: 0px !important;
-/*[[ChangeAlign]]*/		left: 0px !important;
+		right: 0 !important;
+/*[[ChangeAlign]]*/		left: 0 !important;
 		right: auto !important;/**/
 		color: transparent !important;
 		padding: 0 10px 30px 10px !important;
@@ -335,8 +335,8 @@ none
 		position: fixed !important;
 		bottom: -101px !important;
 		left: auto !important;
-		right: 0px !important;
-/*[[ChangeAlign]]*/		left: 0px !important;
+		right: 0 !important;
+/*[[ChangeAlign]]*/		left: 0 !important;
 		right: auto !important;/**/
 		color: transparent !important;
 		padding: 0 10px 30px 10px !important;
@@ -1347,7 +1347,7 @@ padding-bottom: 20px !important;
 		max-width: 30px !important;
 	}
 	#thread_filter span:first-of-type {
-		font-size: 0px !important;
+		font-size: 0 !important;
 	}
 	#thread_filter {
 		position: fixed !important;
