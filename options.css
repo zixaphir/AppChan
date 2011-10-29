@@ -511,16 +511,16 @@ none
 		opacity: 1;
 		text-align: center;
 		content: 'POST FORM - POST FORM - POST FORM';
-		-webkit-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
-		-moz-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
-		-o-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
+		-webkit-transition: opacity .3s ease-in-out 3s;
+		-moz-transition: opacity .3s ease-in-out 3s;
+		-o-transition:  opacity .3s ease-in-out 3s;
 	}
 
 	.postarea form[name='post']:hover::before {
 		opacity: 0;
-		-webkit-transition: right .3s linear, left .3s linear;
-		-moz-transition: right .3s linear, left .3s linear;
-		-o-transition: right .3s linear, left .3s linear;
+		-webkit-transition: opacity .3s linear;
+		-moz-transition: opacity .3s linear;
+		-o-transition: opacity .3s linear;
 	}
 
 	.postarea form[name='post'] tr:nth-child(4) {
