@@ -43,6 +43,18 @@ This style is designed for the following browsers, ordered alphabetically:
 	body::after {
 		position: fixed !important;
 		/*[[background]]*/
+		left: 0;
+		-moz-transform: scaleX(-1);
+		-o-transform: scaleX(-1);
+		-webkit-transform: scaleX(-1);
+		transform: scaleX(-1);
+/*[[ChangeAlign]]*/
+		right: 0;
+		left: auto;
+		-moz-transform: scaleX(0);
+		-o-transform: scaleX(0);
+		-webkit-transform: scaleX(0);
+		transform: scaleX(0);/**/
 	}
 
 	body {
