@@ -88,6 +88,7 @@ none
 /* Enabled: */
 	/*[[MarginCenter]]*/
  .replyhider a {
+	z-index: 1;
 	position: absolute;
 	right: 5px;
 /*[[ChangeAlign]]*/	right: 255px;/**/
@@ -95,6 +96,7 @@ none
 	padding: 0 2px 0 2px !important;
  }
  .replyhider a {
+	z-index: 1;
 	position: absolute;
 	right: 5px;
 /* End */
