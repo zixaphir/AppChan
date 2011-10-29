@@ -467,14 +467,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 62px !important;
 		margin: 1px 0 0 1px !important;
 	}
-/* Webkit's file input box has a different syntax */
-	input[type='file']::-webkit-file-upload-button {
-		background: transparent;
-		border: none !important;
-		height: 19px !important;
-		padding: 0 !important;
-		text-transform: uppercase;
-	}
 /* Uniform padding for postarea inputs */
 	.postarea form[name^='post'] .inputtext,
 	.postarea form[name^='post'] [name='upfile'] > input,
@@ -483,12 +475,34 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /* Force the file input's CONTAINER to behave as if it were non-existent, e.g. occupies no more space than its contents */
 	input[type='file'][name='upfile'],
-	#qr form[name^='post'] input[type='file'][name='upfile'],
-	.postarea input[type='file'][name='upfile'] {
+	.postarea input[type='file'][name='upfile'],
+	#qr form[name^='post'] input[type='file'][name='upfile'] {
 		height: auto !important;
 		border: none !important;
 		margin-top: 0 !important;
 		padding: 0 !important;
+	}
+/* Webkit's file input box has a different syntax */
+	.fake input[type='file']::-webkit-file-upload-button,
+	* > input[type='file'][name='upfile'],
+	* > .postarea input[type='file'][name='upfile'],
+	* > #qr form[name^='post'] input[type='file'][name='upfile'] {
+		background: transparent;
+		border: none !important;
+		height: 19px !important;
+		padding: 0 !important;
+		margin: 1px 0 0 !important;
+		text-transform: uppercase;
+	}
+
+	.fake input[type='file']::-webkit-file-upload-button,
+	* > .postarea input[type='file'][name='upfile'] {
+		width: 248px !important;
+	}
+
+	.fake input[type='file']::-webkit-file-upload-button,
+	* > #qr form[name^='post'] input[type='file'][name='upfile'] {
+		width: 300px !important;
 	}
 /* Positioning of various postarea checkboxes */
 	.postarea form[name^='post'] label {

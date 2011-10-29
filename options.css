@@ -657,6 +657,11 @@ none
 		font-size: 11px !important;
 		z-index: 1;
 	}
+/* Webkit Hax */
+	.fake input[type='file']::-webkit-file-upload-button,
+	* > #qr form[name^='post'] input[type='file'][name='upfile'] {
+		width: 248px !important;
+	}
 }
 /* ...and slideout: */
 @-moz-document regexp("http://boards\.4chan\.org/.*/res/.*") {
@@ -762,6 +767,11 @@ none
 		color: #000 !important;
 		font-size: 11px !important;
 		z-index: 1;
+	}
+/* Webkit Hax */
+	.fake input[type='file']::-webkit-file-upload-button,
+	* > #qr form[name^='post'] input[type='file'][name='upfile'] {
+		width: 248px !important;
 	}
 }
 /* ...and tabbed slideout (No transitions in Chrome) */
@@ -906,6 +916,11 @@ none
 		font-size: 11px !important;
 		z-index: 1;
 	}
+/* Webkit Hax */
+	.fake input[type='file']::-webkit-file-upload-button,
+	* > #qr form[name^='post'] input[type='file'][name='upfile'] {
+		width: 248px !important;
+	}
 }
 /* ...and fade: */
 @-moz-document regexp("http://boards\.4chan\.org/.*/res/.*") {
@@ -1007,6 +1022,11 @@ none
 		color: #000 !important;
 		font-size: 11px !important;
 		z-index: 1;
+	}
+/* Webkit Hax */
+	.fake input[type='file']::-webkit-file-upload-button,
+	* > #qr form[name^='post'] input[type='file'][name='upfile'] {
+		width: 248px !important;
 	}
 }
 /* No: */
