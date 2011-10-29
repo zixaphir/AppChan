@@ -640,6 +640,7 @@ none
 	}
 /* Errors */
 	[id^='q'] .error {
+		display: block !important;
 		visibility: visible !important;
 		position: fixed !important;
 		bottom: 270px !important;
@@ -654,6 +655,7 @@ none
 		background-color: #aaa !important;
 		color: #000 !important;
 		font-size: 11px !important;
+		z-index: 1;
 	}
 }
 /* ...and slideout: */
@@ -744,6 +746,7 @@ none
 	}
 /* Errors */
 	[id^='q'] .error {
+		display: block !important;
 		visibility: visible !important;
 		position: fixed !important;
 		bottom: 270px !important;
@@ -758,6 +761,7 @@ none
 		background-color: #aaa !important;
 		color: #000 !important;
 		font-size: 11px !important;
+		z-index: 1;
 	}
 }
 /* ...and tabbed slideout (No transitions in Chrome) */
@@ -885,6 +889,7 @@ none
 	}
 /* Errors */
 	[id^='q'] .error {
+		display: block !important;
 		visibility: visible !important;
 		position: fixed !important;
 		bottom: 270px !important;
@@ -899,6 +904,7 @@ none
 		background-color: #aaa !important;
 		color: #000 !important;
 		font-size: 11px !important;
+		z-index: 1;
 	}
 }
 /* ...and fade: */
@@ -985,6 +991,7 @@ none
 	}
 /* Errors */
 	[id^='q'] .error {
+		display: block !important;
 		visibility: visible !important;
 		position: fixed !important;
 		bottom: 270px !important;
@@ -999,6 +1006,7 @@ none
 		background-color: #aaa !important;
 		color: #000 !important;
 		font-size: 11px !important;
+		z-index: 1;
 	}
 }
 /* No: */
