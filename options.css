@@ -36,13 +36,16 @@
 /* Koiwai Yotsuba: */
 		content: url('http://i.imgur.com/1MyDM.png');
 		bottom: 269px;
-/* BLACK ROCK SHOOTER */
+/* BLACK ROCK SHOOTER: */
 		content: url('http://i.imgur.com/VidKo.png');
 		bottom: 269px;
-/* Nagato Yuki */
+/* George Costanza: */
+		content: url('http://i.imgur.com/Nnsrf.png');
+		bottom: 269px;
+/* Nagato Yuki: */
 		content: url('http://i.imgur.com/ucnzg.png');
 		bottom: 269px;
-/* Golden Darkness */
+/* Golden Darkness: */
 		content: url('http://i.imgur.com/lYGo4.png');
 		bottom: 0;
 /* None: */
@@ -100,19 +103,7 @@ none
 	position: absolute;
 	right: 5px;
 /* End */
-/*[[MarginCenter]]*/
-/* No */
-	padding: 0 2px 0 252px !important;
-	/*[[ChangeAlign]]*/padding: 0 252px 0 2px !important;/**/
- }
-/* Completely Centered */
-	padding: 0 25% 0 25% !important;
- }
-/* Slightly, retain Sidebar alignment */
-	padding: 0 150px 0 252px !important;
-	/*[[ChangeAlign]]*/padding: 0 252px 0 150px !important;/**/
- }
-/* End */
+
 /*[[StickyNavigation]]*/
 /* Yes: */
 	#header,
@@ -1085,12 +1076,6 @@ none
 		display: none;
 	}
 /* End */
-/*[[redtext]]*/
-/* Show */
-none
-/* Hide */
-	display: none !important;
-/* End */
 
 /*[[ReturnButton]]*/
 /* Yes: */
@@ -1172,24 +1157,7 @@ none
 		position: static;
 	}
 /* End */
-/*[[ihover]]*/
-/* Fit to Screen Width */
-#iHover {
-max-width:85% !important;
-max-height:85% !important;
-}
-/* Keep Above URL bar */
-#iHover {
-padding-bottom: 20px !important;
-}
-/* Both */
-#iHover {
-max-width:85% !important;
-max-height:85% !important;
-padding-bottom: 20px !important;
-}
-/* None */
-/* End */
+
 /*[[TransparentReplies]]*/
 /* Yes: */
 
@@ -1503,6 +1471,47 @@ domain('images.4chan.org'),
 
 /* Left: */
 /*
+/* End */
+
+/*[[ihover]]*/
+/* Fit to Screen Width */
+#iHover {
+max-width:85% !important;
+max-height:85% !important;
+}
+/* Keep Above URL bar */
+#iHover {
+padding-bottom: 20px !important;
+}
+/* Both */
+#iHover {
+max-width:85% !important;
+max-height:85% !important;
+padding-bottom: 20px !important;
+}
+/* None */
+
+/* End */
+
+/*[[redtext]]*/
+/* Show */
+
+/* Hide */
+	display: none !important;
+/* End */
+
+/*[[MarginCenter]]*/
+/* No */
+	padding: 0 2px 0 252px !important;
+	/*[[ChangeAlign]]*/padding: 0 252px 0 2px !important;/**/
+ }
+/* Completely Centered */
+	padding: 0 25% 0 25% !important;
+ }
+/* Slightly, retain Sidebar alignment */
+	padding: 0 150px 0 252px !important;
+	/*[[ChangeAlign]]*/padding: 0 252px 0 150px !important;/**/
+ }
 /* End */
 
 /*[[BackLinks]]*/
