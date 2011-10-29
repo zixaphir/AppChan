@@ -87,7 +87,7 @@ none
 16px
 /* END */
 
-/*[[{Margin]]*/
+/*[[Margin]]*/
 /* Enabled: */
 	/*[[MarginCenter]]*/
  .replyhider a {
@@ -562,7 +562,7 @@ none
 /* Remove vanilla post form and remove #qr UI to make it look more like the original post form */
 	.postarea,
 	#qr > input,
-	#qr > a {
+	#qr > a:not(.error) {
 		display: none;
 	}
 /* .move contains the name field of the #qr. Here we're making it behave like no more than a container. We also hide the "Quick Reply" text with a hack. */
@@ -631,7 +631,6 @@ none
 	}
 /* Errors */
 	[id^='q'] .error {
-		display: block !important;
 		visibility: visible !important;
 		position: fixed !important;
 		bottom: 270px !important;
@@ -659,7 +658,7 @@ none
 /* Remove vanilla post form and remove #qr UI to make it look more like the original post form */
 	.postarea,
 	#qr > input,
-	#qr > a {
+	#qr > a:not(.error) {
 		display: none;
 	}
 /* .move contains the name field of the #qr. Here we're making it behave like no more than a container. We also hide the "Quick Reply" text with a hack. */
@@ -742,7 +741,6 @@ none
 	}
 /* Errors */
 	[id^='q'] .error {
-		display: block !important;
 		visibility: visible !important;
 		position: fixed !important;
 		bottom: 270px !important;
@@ -770,7 +768,7 @@ none
 /* Remove vanilla post form and remove #qr UI to make it look more like the original post form */
 	.postarea,
 	#qr > input,
-	#qr > a {
+	#qr > a:not(.error) {
 		display: none;
 	}
 /* .move contains the name field of the #qr. Here we're making it behave like no more than a container. We also hide the "Quick Reply" text with a hack. */
@@ -890,7 +888,6 @@ none
 	}
 /* Errors */
 	[id^='q'] .error {
-		display: block !important;
 		visibility: visible !important;
 		position: fixed !important;
 		bottom: 270px !important;
@@ -917,7 +914,7 @@ none
 @-moz-document regexp("http://boards\.4chan\.org/.*/res/.*") {
 	.postarea,
 	#qr > input,
-	#qr > a {
+	#qr > a:not(.error) {
 		display: none;
 	}
 
@@ -997,7 +994,6 @@ none
 	}
 /* Errors */
 	[id^='q'] .error {
-		display: block !important;
 		visibility: visible !important;
 		position: fixed !important;
 		bottom: 270px !important;
@@ -1322,13 +1318,16 @@ none
 		content: ' - SET THIS!!';
 	}
 		#thread_filter::before {
-		content: "Filter" !important;
-		font-size: 13px !important;
-		position: fixed !important;
-		right: 130px !important;
-		top: 20px !important;
-		min-width: 30px !important;
-		max-width: 30px !important;
+		content: "Filter";
+		font-size: 13px;
+		position: fixed;
+		left: 130px;
+/*[[ChangeAlign]]*/
+		left: auto;
+		right: 130px;/**/
+		top: 20px;
+		min-width: 30px;
+		max-width: 30px;
 	}
 	#thread_filter span:first-of-type {
 		font-size: 0 !important;
