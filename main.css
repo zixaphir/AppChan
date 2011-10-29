@@ -340,8 +340,8 @@ This style is designed for the following browsers, ordered alphabetically:
 /* Override OS-specific UI */
 	#ft li,
 	#ft ul,
-	#options input:not([type='checkbox']),
-	#updater input:not([type='checkbox']),
+	#options input:not([type='checkbox']):not([type='radio']),
+	#updater input:not([type='checkbox']):not([type='radio']),
 	.box-outer,
 	.boxbar,
 	.deletebuttons input[value=Delete],
@@ -349,7 +349,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	[name='recaptcha_response_field'],
 	.top-box,
 	h2,
-	input:not([type='checkbox']),
+	input:not([type='checkbox']):not([type='radio']),
 	input:not([type='radio']),
 	input[type='file'] > input[type='button'],
 	input[type='submit'],
@@ -402,7 +402,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		border-collapse: collapse;
 	}
 /* Formatting for all postarea elements */
-	.postarea form[name^='post'] input:not([type='checkbox']):not([type='file']),
+	.postarea form[name^='post'] input:not([type='checkbox']):not([type='radio']):not([type='file']),
 	#qr .move .inputtext,
 	.postarea form[name^='post'] textarea,
 	.postarea form[name^='post'] [name='upfile'] > input,
