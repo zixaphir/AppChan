@@ -43,7 +43,7 @@
 		content: url('http://i.imgur.com/Nnsrf.png');
 		bottom: 269px;
 /* Nagato Yuki: */
-		content: url('http://i.imgur.com/ucnzg.png');
+		content: url('http://i.imgur.com/VAWnW.png');
 		bottom: 269px;
 /* Golden Darkness: */
 		content: url('http://i.imgur.com/lYGo4.png');
@@ -90,18 +90,29 @@ none
 /*[[Margin]]*/
 /* Enabled: */
 	/*[[MarginCenter]]*/
- .replyhider a {
-	z-index: 1;
-	position: absolute;
-	right: 5px;
-/*[[ChangeAlign]]*/	right: 255px;/**/
+	 .replyhider a {
+		z-index: 1;
+		position: absolute;
+		right: 5px;
+	/*[[ChangeAlign]]*/	right: 255px;/**/
+	}
+
+	.replyhider {
+		width: 0 !important;
+		padding: 0 !important;
 /* Disabled: */
-	padding: 0 2px 0 2px !important;
- }
- .replyhider a {
-	z-index: 1;
-	position: absolute;
-	right: 5px;
+		padding: 0 2px 0 2px !important;
+	}
+
+	.replyhider a {
+		z-index: 1;
+		position: absolute;
+		right: 5px;
+	}
+
+	.replyhider {
+		width: 0 !important;
+		padding: 0 !important;
 /* End */
 
 /*[[StickyNavigation]]*/
@@ -1421,28 +1432,6 @@ domain('images.4chan.org'),
 		visibility: visible !important;
 		content: "These be the waters of faggots and strumpets. Be wary, traveller.";
 	}
-}
-
-@-moz-document url-prefix('http://boards.4chan.org/b/') {
-
-	body div.logo font[size="5"] span,
-	div.logo font[size="1"],
-	div.logo font[size="1"] a {
-	font-size: 0 !important;
-		visibility: hidden !important;
-	}
-
-	div.logo font[size="5"] span:after {
-		font-size: 26px !important;
-		visibility: visible !important;
-		content: "/b/ - Cancer";
-	}
-
-	div.logo font[size="1"]:after {
-		font-size: 12px !important;
-		visibility: visible !important;
-		content: "These be the waters of faggots and strumpets. Be wary, traveller.";
-	}
 /* No: */
 
 /* End */
@@ -1456,20 +1445,20 @@ domain('images.4chan.org'),
 
 /*[[ihover]]*/
 /* Fit to Screen Width */
-#iHover {
-max-width:85% !important;
-max-height:85% !important;
-}
+	#iHover {
+		max-width:85% !important;
+		max-height:85% !important;
+	}
 /* Keep Above URL bar */
-#iHover {
-padding-bottom: 20px !important;
-}
+	#iHover {
+		padding-bottom: 20px !important;
+	}
 /* Both */
-#iHover {
-max-width:85% !important;
-max-height:85% !important;
-padding-bottom: 20px !important;
-}
+	#iHover {
+		max-width:85% !important;
+		max-height:85% !important;
+		padding-bottom: 20px !important;
+	}
 /* None */
 
 /* End */

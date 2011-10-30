@@ -836,7 +836,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 17px 0 0 0 !important;
 		margin: 0 0 0px !important;
 	}
-	body > table ~ form[name='delform'] br[clear='left'], form[name='delform'] center {
+	body > table ~ form[name='delform'] br[clear='left'],
+	form[name='delform'] center {
 		position: fixed;
 		bottom: -500px;
 	}
@@ -851,14 +852,14 @@ This style is designed for the following browsers, ordered alphabetically:
 		border-spacing: 0 1px !important;
 	}
 
-	form[name='delform'] .filesize+br+a[target='_blank'] img, 
-	#qp .filesize+br+a[target='_blank'] img  {
+	form[name='delform'] .filesize + br + a[target='_blank'] img, 
+	#qp .filesize + br + a[target='_blank'] img  {
 		border: 0;
 		float: left;
 		margin: 0 20px 25px !important;
 	}
 
-	form[name='delform'] .filesize+br+a[target='_blank'] img+img {
+	form[name='delform'] .filesize + br + a[target='_blank'] img + img {
 		margin: 0 0 25px !important;
 	}
 
@@ -883,7 +884,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		border: 0 !important;
 	}
 
-	.commentpostername a.linkmail[href*='sage']::after, .commentpostername a.linkmail[href*='Sage']::after,
+	.commentpostername a.linkmail[href*='sage']::after,
+	.commentpostername a.linkmail[href*='Sage']::after,
 	.commentpostername a.linkmail[href*='SAGE']::after {
 /*[[sageidentifier]]*/
 	}
