@@ -130,6 +130,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postername,
 	.commentpostername,
 	.container::before,
+	.postertrip,
+	.replytitle,
 	#captchas {
 		font-size: /*[[FontSize]]*/ !important;
 	}
@@ -1313,7 +1315,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	img[src^='http://static.4chan.org/support/'] {
 		display: none;
 	}
-/*[[MagicMode]]*/
+/*[[seganeko]]*/
 }
 
 /*[[QuickReply]]*/
