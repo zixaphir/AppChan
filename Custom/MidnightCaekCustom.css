@@ -1,0 +1,449 @@
+/* Background color. Nulled by following the directions of background image */
+
+	html,
+	body {
+		background-color: #2c2c2c !important;
+	}
+
+/*
+	Uncomment the following and remove text in () to add in custom background image. Nulls background color choice from above.
+	Though `body` would suffice, `html > body` ensures this CSS overrides the body declaration used in vanilla AppChan via CSS Specificity. (http://www.w3.org/TR/CSS2/cascade.html#specificity)
+*/
+/*
+	html > body { 
+		background-image url('http://upload.com/yourlinkhere.png') !important;
+		background-color: none !important;
+		background-repeat: no-repeat !important;	(Change to repeat, repeat-x, or repeat-y if you do want image to repeat)
+		background-attachment: fixed !important;	(Forces the background to remain on the screen while scrolling) 
+	}
+*/
+
+/* Default Text color */
+
+
+	body,
+	body>form,
+	html body span[style='left: 5px; position: absolute;'] a,
+	div.postarea,
+	select,
+	td.deletebuttons,
+	.abbr,
+	.boxbar,
+	.boxcontent,
+	.filetitle,
+	.logo,
+	.postblock,
+	.reply,
+	.replyhl,
+	.trip,
+	#backwash_tooltip,
+	#header .title,
+	#imgControls label::after,
+	#navbot::after,
+	#qp,
+	#twi_table_div,
+	#updater #count:not(.new)::after {
+		color: #909090 !important;
+	}
+
+/* Poster name color */
+
+	.commentpostername,
+	.postername {
+		color: #7c2d2d !important;
+		font-weight: 400 !important;
+	}
+
+/* Tripcode color */
+
+	.postertrip {
+		color: #3e7157 !important;
+	}
+
+/* Postform and quickreply labels text color */
+
+	div.postarea>form td:nth-of-type(3)>label, #qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label, #quickrep>form tr:nth-of-type(3)>td:nth-of-type(3)>label, #autonoko {
+		color: #888;
+	}
+
+	#qr input:-moz-placeholder, /* Firefox */
+	#qr textarea:-moz-placeholder {
+		color: rgba(255,255,255,0.3) !important;
+	}
+
+	#qr input::-webkit-input-placeholder, /* Google Chrome */
+	#qr textarea::-webkit-input-placeholder {
+		color: rgba(255,255,255,0.3) !important;
+	}
+
+	#qr input:placeholder, /* Opera */
+	#qr textarea:placeholder {
+		color: rgba(255,255,255,0.3) !important;
+	}
+
+/* Subject text */
+
+	.span.filetitle,
+	.replytitle {
+		color: #aaa !important;
+		font-weight: 700 !important;
+	}
+
+/* >greentext color */
+
+	.unkfunc {
+		color: #71793e !important;
+	}
+
+/* Text color of inputted text in text boxes */
+
+	input, textarea {
+		color: #909090 !important;
+	}
+
+/* Text color of moot's announcements */
+
+	font[color="red"] {
+		color: #909090 !important;
+	}
+
+/* Text color of: 40 posts and 7 imaged ommitted. Click reply to view. */
+
+	.omittedposts {
+		color: #909090 !important;
+	}
+
+/* Google Chrome's file upload button text color */
+
+	input[type='file']::-webkit-file-upload-button {
+		color: #666 !important;
+	}
+
+/* Thread hiding links ("Hide" / "[-]) text color and hover color */
+
+	.replyhider a {
+		color: #000 !important;
+	}
+
+	.replyhider a:hover {
+		color: #555 !important;
+	}
+
+/* Link text color */
+
+	a {
+		color: #57577b !important;
+	}
+
+/* Text color when links are hovered */
+
+	a:hover {
+		color: #47475b !important;
+	}
+
+	.postername a:hover,
+	.commentpostername a:hover,
+	a:hover .postertrip {
+		color: #444 !important;
+	}
+
+/* Link hover bubbles */
+
+	#header a:hover,
+	.pages input:hover,
+	a:hover {
+		background: rgba(255,255,255,.02) !important;
+	}
+
+/* 4chan X's quote backlinks and forward links */
+
+	a.backlink,
+	a.forwardlink {
+		color: #424247 !important;
+	}
+
+/* Background color of replies */
+
+	td.reply {
+		background-color: #1c1c1c !important;
+	}
+
+/* Font color and background color of text selection (clicking and dragging over text) */
+
+	::-webkit-selection {
+		background: #aaa;
+		color: #101010;
+	}
+
+	::-moz-selection {
+		background: #aaa;
+		color: #101010;
+	}
+
+	::selection {
+		background: #aaa;
+		color: #101010;
+	}
+
+/* Background color of things like thread watcher and delete buttons, and anything that matches that color */
+
+	#boards h3,
+	#boardsMenu,
+	#filter.autohide:hover,
+	#filter:not(.autohide),
+	#ft li,
+	#ft ul,
+	#navbar,
+	#options .dialog,
+	#popup,
+	#threadwatcher,
+	#threadwatcher .postblock,
+	#watcher,
+	#thread_filter.autohide:hover,
+	#thread_filter:not(.autohide),
+	.box-outer,
+	.boxbar,
+	.deletebuttons input[value=Delete],
+	.recaptcha_image_cell > center > #recaptcha_image,
+	.top-box,
+	.yuimenuitem-selected,
+	td.postblock,
+	h2 {
+		background-color: #1c1c1c !important;
+	}
+
+/* Background color of text box fields */
+
+	.recaptchatable #recaptcha_response_field,
+	input,
+	input[type='file'] > input[type='button'],
+	input[type='submit'],
+	select,
+	textarea {
+		background-color: #1c1c1c !important;
+	}
+
+/* Background color of things like 4chan X's quick reply and 4chan X's options, and anything that matches that color */
+
+
+	div[id^='4chan_ext_iqr'],
+	div[id^='4chan_ext_iqr'] > *,
+	input[type='submit']:hover,
+	input[type='file'] > input[type='button']:hover,
+	#filter input,
+	#filter textarea,
+	#header,
+	#navbot,
+	#navbot::after,
+	#options input,
+	#options textarea,
+	#qr,
+	#qr > form tr:nth-of-type(3) > td:nth-of-type(3) > label input,
+	#quickrep,
+	#quickrep > form tr:nth-of-type(3) > td:nth-of-type(3) > label input,
+	#qr label input,
+	#thread_filter input,
+	#thread_filter textarea,
+	#updater input:not([type='checkbox']),
+	.bd,
+	.boxcontent > hr,
+	.boxcontent input,
+	.boxcontent textarea,
+	.pages,
+	html,
+	body,
+	div.postarea > form td:nth-of-type(3) > label input,
+	div[id^=qr],
+	#qr a#attach::after,
+	table.reply[style^='clear: both'] {
+		background-color: #101010 !important;
+	}
+
+/* Background color of quote preview and text box fields on hover */
+
+	#cc-showpostarea,
+	#twi_table_div,
+	#twi_table_div *,
+	#backwash_tooltip,
+	#qp,
+	#updater:hover,
+	#popup,
+	.chanchimp,
+	.chanchimp > div,
+	.deletebuttons input[type='password']:hover,
+	.recaptchatable #recaptcha_response_field:hover,
+	div[id^=ref],
+	form[name^='post']::before,
+	input:hover,
+	input[type='file'] > input[type='button']
+	input[type='submit']:hover,
+	td.replyhl,
+	tr.replyhl,
+	textarea:hover {
+		background-color: #181818 !important;
+	}
+
+/* Background color of fields when inputting text into them */
+
+	.recaptchatable #recaptcha_response_field:focus,
+	.deletebuttons input[type='password']:focus,
+	input:focus,
+	input[type='submit']:focus,
+	textarea:focus {
+		background-color: #202020 !important;
+	}
+
+/* Quote highlighting outline color for 4chan X */
+
+	.qphl {
+		outline-color: #627c8d !important;
+	}
+
+/* Checkbox background color at normal state */
+
+	input[type='checkbox'],
+	#options input[type='checkbox'],
+	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox'],
+	#qr label input[type='checkbox'] {
+		border: 1px solid #3c3c3c !important;
+		background: #000 !important;
+	}
+
+/* Checkbox background color at active state */
+
+	input[type=checkbox]:active,
+	#options input[type=checkbox]:active,
+	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:active,
+	#qr label input[type='checkbox']:active {
+		background: #000 !important;
+	}
+
+/* Checkbox background color when checked */
+
+	input[type=checkbox]:checked,
+	#options input[type=checkbox]:checked,
+	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:checked,
+	#qr label input[type='checkbox']:checked {
+		background: #3c3c3c !important;
+	}
+
+/* 4chanplus current board */
+
+	#crntBoard {
+		border-right-color: #393939 !important;
+	}
+
+/* Background color of buttons */
+
+	html body span[style='left: 5px; position: absolute;'] a,
+	input[type='submit'],
+	#com_submit,
+	input[type='file'] > input[type='button']{
+		background-color: #202020 !important;
+	}
+
+/* Background color when buttons are hovered */
+
+	html body span[style='left: 5px; position: absolute;'] a:hover,
+	#com_submit:hover,
+	input[type='submit']:hover,
+	input[type='file']>input[type='button']:hover {
+		background-color: #181818 !important;
+	}
+
+/* Inline Quotes */
+
+	td[style='border: 1px dashed;'],
+	td.reply>tr>td.reply,
+	.inline td.reply {
+		background-color: rgba(0,0,0,0.1) !important;
+		border: none !important;
+	}
+
+/* Pages */
+
+	.pages b {
+		background: rgba(0,0,0,0.3) !important;
+		color: #909090 !important;
+	}
+
+/* 4chan x updater highlight upon new posts */
+
+	.new {
+		background-color: rgba(255,255,255,.5) !important;
+		color: #000 !important;
+	}
+
+/* 4chan Plus max characters and a few post form decorations. */
+
+	form[name^='post'] .postblock b,
+	.postarea tr:nth-child(4) .postblock b::after,
+	.postarea form[name^='post']::before,
+	#maxchars {
+		color: rgba(255,255,255,0.3) !important;
+	}
+
+/* Adds an underline underneath the thread watcher title. */
+
+	#watcher .move,
+	#twi_table_div .postblock {
+		border-bottom: 1px #101010 solid !important;
+	}
+
+/* Thread separation lines */
+
+	hr {
+		border-top: 1px solid #1c1c1c !important;
+	}
+
+/* Tabbed post form and quick reply background color for tab (and corner rounding) */
+
+	form[name^='post']::before,
+	#qr::before {
+		background-color: #181818 !important;
+		border-radius: 6px 6px 0 0;
+		-o-border-radius: 6px 6px 0 0;
+	}
+
+/* Uncomment for custom scrollbars */
+
+/*
+// WEBKIT / CHROME
+	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #1c1c1c; }
+	::-webkit-scrollbar-thumb { border: #101010 !important; background: #262626; }
+	::-webkit-scrollbar-thumb:hover { background: #3f3f3f; }
+	::-webkit-scrollbar-thumb:active { background: #111; }
+// GECKO / FIREFOX
+	scrollbar, scrollcorner { background: #1c1c1c; }
+	thumb { border-color: #101010 !important; background: #262626; }
+	thumb:active { background: -moz-linear-gradient(top, rgba(255,255,255,0.3), rgba(255,255,255,0.1)) !important; }
+	thumb:hover { background: -moz-linear-gradient(top, rgba(255,255,255,.4), rgba(255,255,255,0.2)) !important; }
+*/
+
+/* Only uncomment the following if you use transparent replies and want to customize the shadow colors */
+
+/*
+	.op>blockquote,
+	.thread>blockquote,
+	form[name='delform']>blockquote,
+	div.logo font {
+		text-shadow: #1c1c1c 1px 0 2px, #1c1c1c -1px 0 2px, #1c1c1c 0 -1px 2px, #1c1c1c 0 1px 2px;
+	}
+
+	td.reply {
+		background-color: rgba(38,38,38,0.5) !important;
+			// (Ca * Alpha) + (Cb * (1 - Alpha)) = Cc
+			// where C equals the hexidecimal color value for Red, Blue, or Green converted to decimal;
+			// Alpha is the alpha value;
+			// c is the foreground element being made transparent (.reply); b is the body's background;
+			// and a is the resulting decimal value for the color place in the RGBA brackets.
+			// e.g.: #33 = .5(#2c) + .5x || 51 = .5(44) + .5x || 29 = .5x || x = 58
+			// Final Result: rgba(Cc_1, Cc_2, Cc_3, Alpha)
+		text-shadow: #1c1c1c 1px 0 2px, #1c1c1c -1px 0 2px, #1c1c1c 0 -1px 2px, #1c1c1c 0 1px 2px;
+	}
+
+	td.replyhl {
+		background-color: rgba(30,30,30,0.5) !important;
+		text-shadow: #181818 1px 0 2px, #181818 -1px 0 2px, #181818 0 -1px 2px, #181818 0 1px 2px;
+	}
+*/

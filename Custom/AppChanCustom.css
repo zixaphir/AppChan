@@ -1,13 +1,3 @@
-/* Custom AppChan - For use with "Custom AppChan" color scheme option in AppChan
-Make sure to always enable AFTER AppChan to override the settings.
-Everything is labelled for you here. Play around with settings, use a site like palettebuilder.com to find a nice color scheme from one color. Use GIMP or Photoshop or your preferred image editor to pick new colors to get the hexidecimal (#color) of it.
-Do not delete selections here. This will not remove what you want, but rather, default it to AppChan's colors to make it uncustomizable from here. Add "display: none !important;" to the section instead to remove things. 
-
-To uncomment something remove the slashes and stars.
-*/
-
-@-moz-document domain("boards.4chan.org") {
-
 /* Background color. Nulled by following the directions of background image */
 
 	html,
@@ -15,24 +5,50 @@ To uncomment something remove the slashes and stars.
 		background-color: #2c2c2c !important;
 	}
 
-/* Uncomment the following and remove text in () to add in custom background image. Nulls background color choice from above. */
-/* Though `body` would suffice, `html > body` ensures this CSS overrides the body declaration used in vanilla AppChan. */
-/*	html > body { 
+/*
+	Uncomment the following and remove text in () to add in custom background image. Nulls background color choice from above.
+	Though `body` would suffice, `html > body` ensures this CSS overrides the body declaration used in vanilla AppChan via CSS Specificity. (http://www.w3.org/TR/CSS2/cascade.html#specificity)
+*/
+/*
+	html > body { 
 		background-image url('http://upload.com/yourlinkhere.png') !important;
 		background-color: none !important;
 		background-repeat: no-repeat !important;	(Change to repeat, repeat-x, or repeat-y if you do want image to repeat)
 		background-attachment: fixed !important;	(Forces the background to remain on the screen while scrolling) 
-	} */
+	}
+*/
 
-/* Text color */
+/* Default Text color */
 
-	body, body>form, html body span[style='left: 5px; position: absolute;'] a, div.postarea, select, td.deletebuttons, .abbr, .boxbar, .boxcontent, .filetitle, .logo, .pages b, .postblock, .reply, .replyhl, .trip, #backwash_tooltip, #header .title, #imgControls label::after, #navbot::after, #qp, #twi_table_div, #updater #count:not(.new)::after {
+	body,
+	body>form,
+	html body span[style='left: 5px; position: absolute;'] a,
+	div.postarea,
+	select,
+	td.deletebuttons,
+	.abbr,
+	.boxbar,
+	.boxcontent,
+	.filetitle,
+	.logo,
+	.postblock,
+	.reply,
+	.replyhl,
+	.trip,
+	#backwash_tooltip,
+	#header .title,
+	#imgControls label::after,
+	#navbot::after,
+	#qp,
+	#twi_table_div,
+	#updater #count:not(.new)::after {
 		color: #aaa !important;
 	}
 
 /* Poster name color */
 
-	.commentpostername, postername {
+	.commentpostername,
+	.postername {
 		color: #aaa !important;
 	}
 
@@ -58,7 +74,7 @@ To uncomment something remove the slashes and stars.
 		color: rgba(255,255,255,0.1) !important;
 	}
 
-	#qr input:placeholder, /* Lolopera */
+	#qr input:placeholder, /* Opera */
 	#qr textarea:placeholder {
 		color: rgba(255,255,255,0.1) !important;
 	}
@@ -183,7 +199,8 @@ To uncomment something remove the slashes and stars.
 	.deletebuttons input[value=Delete],
 	.top-box,
 	.yuimenuitem-selected,
-	h2 {
+	h2
+	td.postblock, {
 		background-color: #333 !important;
 	}
 
@@ -194,7 +211,6 @@ To uncomment something remove the slashes and stars.
 	input[type='file']>input[type='button'],
 	input[type='submit'],
 	select,
-	td.postblock,
 	textarea {
 		background-color: #333 !important;
 	}
@@ -276,10 +292,10 @@ To uncomment something remove the slashes and stars.
 
 /* Checkbox background color at normal state */
 
-	input[type=checkbox],
-	#options input[type=checkbox],
+	input[type='checkbox'],
+	#options input[type='checkbox'],
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox'],
-	#qr label input {
+	#qr label input[type='checkbox'] {
 		background: #444 !important;
 	}
 
@@ -300,6 +316,8 @@ To uncomment something remove the slashes and stars.
 	#qr label input:checked {
 		background: #111 !important;
 	}
+
+/* 4chanplus current board */
 
 	#crntBoard {
 		border-right-color: #393939 !important;
@@ -339,6 +357,8 @@ To uncomment something remove the slashes and stars.
 		color: #ccc !important;
 	}
 
+/* 4chan x updater highlight upon new posts */
+
 	.new {
 		background-color: rgba(255,255,255,.5) !important;
 		color: #000 !important;
@@ -353,7 +373,7 @@ To uncomment something remove the slashes and stars.
 		color: rgba(255,255,255,0.2) !important;
 	}
 
-/* Top of thread watcher's background color */
+/* Adds an underline underneath the thread watcher title. */
 
 	#watcher .move,
 	#twi_table_div .postblock {
@@ -366,7 +386,7 @@ To uncomment something remove the slashes and stars.
 		border-top: 1px solid #333 !important;
 	}
 
-/* Tabbed post form and quick reply background color for tab */
+/* Tabbed post form and quick reply background color for tab (and corner rounding) */
 
 	form[name^='post']::before,
 	#qr::before {
@@ -375,13 +395,15 @@ To uncomment something remove the slashes and stars.
 		-o-border-radius: 6px 6px 0 0;
 	}
 
-/* Only uncomment the following if you use custom scrollbars and want / know how to customize them */
+/* Uncomment for custom scrollbars */
 
 /*
-	::-webkit-scrollbar-thumb:hover { background: #3f3f3f; }
-	::-webkit-scrollbar-thumb:active { background: #111; }
+// WEBKIT / CHROME
 	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #333; }
 	::-webkit-scrollbar-thumb { background: #262626; border: #2c2c2c !important; }
+	::-webkit-scrollbar-thumb:hover { background: #3f3f3f; }
+	::-webkit-scrollbar-thumb:active { background: #111; }
+// GECKO / FIREFOX
 	scrollbar, scrollcorner { background: #333 !important; }
 	thumb { border-color: #333 !important; background: #262626; }
 	thumb:active { background: #111 !important; }
@@ -401,10 +423,11 @@ To uncomment something remove the slashes and stars.
 		background-color: rgba(58,58,58,0.5) !important;
 			// (Ca * Alpha) + (Cb * (1 - Alpha)) = Cc
 			// where C equals the hexidecimal color value for Red, Blue, or Green converted to decimal;
-			// Alpha is the alpha value
+			// Alpha is the alpha value;
 			// c is the foreground element being made transparent (.reply); b is the body's background;
 			// and a is the resulting decimal value for the color place in the RGBA brackets.
 			// e.g.: #33 = .5(#2c) + .5x || 51 = .5(44) + .5x || 29 = .5x || x = 58 
+			// Final Result: rgba(Cc_1, Cc_2, Cc_3, Alpha)
 		text-shadow: #333 1px 0 2px, #333 -1px 0 2px, #333 0 -1px 2px, #333 0 1px 2px;
 	}
 
@@ -413,4 +436,3 @@ To uncomment something remove the slashes and stars.
 		text-shadow: #393939 1px 0 2px, #393939 -1px 0 2px, #393939 0 -1px 2px, #393939 0 1px 2px;
 	}
 */
-}
