@@ -135,8 +135,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	td,
 	fieldset,
 	blockquote,
-	.rules,
 	textarea,
+	div.move,
 	center > font > b,
 	time,
 	.filesize,
@@ -146,16 +146,17 @@ This style is designed for the following browsers, ordered alphabetically:
 	.container::before,
 	.postertrip,
 	.replytitle,
+	.rules,
 	#captchas {
 		font-size: /*[[FontSize]]*/ !important;
 	}
 
 	input,
+	label,
 	#imgControls,
 	#stats,
 	#updater,
 	#navtopr a,
-	label,
 	#imageType,
 	#header,
 	#header a,
@@ -211,7 +212,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	div.logo font[size='5'] span {
 		font-size: 30px !important;
-				font-weight: 400 !important;
+		font-weight: 400 !important;
 	}
 
 	div.logo font[size='1'] {
@@ -384,7 +385,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		position: fixed;
 		top: auto;
 		left: auto;
-		bottom: 21px;
+		bottom: 22px;
 		width: 248px !important;
 		margin: 0 !important;
 		z-index: 25;
@@ -996,7 +997,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		bottom: auto !important;
 		width: 150px;
 		font-size: 13px !important;
-		z-index: 2;
 	}
 
 	#imgControls input {
@@ -1068,7 +1068,7 @@ This style is designed for the following browsers, ordered alphabetically:
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: 2px !important;/**/
-		bottom: 1px;
+		bottom: 2px;
 		visibility: visible !important;
 		z-index: 5;
 	}
