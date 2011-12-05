@@ -3,10 +3,25 @@ AppChan by Zixaphir, seaweed !Ponyo.2wFe, MayhemYDG, !K.WeEabo0o, disappoint, Ku
 
 Revision 90
 
-This text is free. It comes without any warranty, to
-the extent permitted by applicable law. You can redistribute it
-and/or modify it under the terms of the BSD license, as modified by Jordan Bates. See
-https://raw.github.com/zixaphir/appchan/COPYING for more details.
+Copyright (C) 2011 by Zixaphir Modnar
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 -------
 
 Included artwork and images are unlicensed (non-free) and are used under
@@ -280,7 +295,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#header,
 	#navtop {
-		z-index: 98;
+		z-index: 65;
 	}
 
 	.pages {
@@ -372,7 +387,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		bottom: 21px;
 		width: 248px !important;
 		margin: 0 !important;
-		z-index: 5;
+		z-index: 25;
 	}
 
 	.postarea form[name^='post'] > table,
@@ -576,7 +591,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		position: absolute;
 		font-size: 75% !important;
 		text-transform: uppercase;
-		z-index: 2;
+		z-index: 5;
 	}
 
 	form[name^='post'] tr:nth-of-type(1) .postblock b::after {
@@ -668,28 +683,26 @@ This style is designed for the following browsers, ordered alphabetically:
 		content: "+";
 		text-align: center;
 	}
-/* Image Hover and Image Expansion */
+/* Hover Popups and Image Expansion */
 /*[[ihover]]*/
 	#qp,
 	.exPopup,
-	#iHover {
-		z-index: 99 !important;
-	}
-
-	body > table ~ form .reply a > img {
-		position: relative !important;
-		top: 0px !important;
-		z-index: 96 !important;
+	#iHover,
+	#backwash_tooltip,
+	#popup,
+	div[id^='ref'],
+	#cc-quotedcontainer_t {
+		z-index: 60 !important;
 	}
 
 	.filesize ~ a > img + img {
 		position: relative !important;
 		top: 0px !important;
-		z-index: 96 !important;
+		z-index: 40 !important;
 	}
 
 	body > form #imgControls {
-		z-index: 98 !important;
+		z-index: 55 !important;
 	}
 
 	#imageType {
@@ -702,7 +715,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /* #qr dimensions */
 	#qr {
-		z-index: 5;
+		z-index: 25;
 		height: auto !important;
 		width: 300px;
 		padding: 2px;
@@ -949,7 +962,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		bottom: auto !important;
 		font-size: 0 !important;
 		color: transparent !important;
-		z-index: 96 !important;
+		z-index: 40 !important;
 	}
 /* Strip 4chan+ of shadows and rounded edges */
 	#navbar,
@@ -1020,7 +1033,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	#backwash_tooltip, /* /b/ackwash reloaded */
 	#popup, /* 4chanplus */
 	#qp, /* 4chan x Quote Preview */
-	div[id^=ref] /* 4chan4chrome */ {
+	div[id^=ref] /* 4chan4chrome */,
+	#cc-quotedcontainer_t  /* ChanChimp */ {
 		max-width: 70%;
 		visibility: visible;
 	}
@@ -1029,17 +1043,9 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 2px 6px !important;
 	}
 
-	#backwash_tooltip,
-	#popup,
-	div[id^='ref'],
-	#cc-quotedcontainer_t {
-		visibility: visible;
-		z-index: 10 !important;
-	}
-
 	#cc-newpostarea,
 	#cc-newpostarea2 {
-		z-index: 9 !important;
+		z-index: 35 !important;
 	}
 
 	#backwash_tooltip img,
@@ -1064,7 +1070,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		right: 2px !important;/**/
 		bottom: 1px;
 		visibility: visible !important;
-		z-index: 2;
+		z-index: 5;
 	}
 
 	#popup {
@@ -1115,7 +1121,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#navlinks {
 		top: 0 !important;
-		z-index: 3 !important;
+		z-index: 15 !important;
 	}
 /*[[ReturnButton]]*/
 /* File Clearer support */
@@ -1129,14 +1135,14 @@ This style is designed for the following browsers, ordered alphabetically:
 		position: fixed !important;
 		right: 300px !important;
 		bottom: 0px !important;
-		z-index: 99 !important;
+		z-index: 70 !important;
 	}
 	.autoPagerS {
 		display: none !important;
 	}
 /* 4chan x options */
 	#overlay {
-		z-index: 101 !important;
+		z-index: 100 !important;
 	}
 
 	#options ul {
@@ -1172,7 +1178,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		-o-border-radius: 0;
 		border-radius: 0;
 		font-size: /*[[FontSize]]*/ !important;
-		z-index: 4 !important;
+		z-index: 20 !important;
 	}
 
 	#stats {
@@ -1201,7 +1207,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		border: 0 !important;
 		font-size: /*[[FontSize]]*/;
 		overflow: hidden;
-		z-index: 5 !important;
+		z-index: 25 !important;
 		padding-bottom: 2px;
 	}
 
@@ -1211,7 +1217,7 @@ This style is designed for the following browsers, ordered alphabetically:
 /*[[ChangeAlign]]*/
 		right: 2px !important;
 		left: auto !important;/**/
-		z-index: 100 !important;
+		z-index: 75 !important;
 	}
 
 	#updater #count:not(.new) {
@@ -1262,7 +1268,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		-moz-border-radius: 0;
 		-o-border-radius: 0;
 		border-radius: 0;
-		z-index: 2 !important;
+		z-index: 10 !important;
 	}
 
 	#threadwatcher .postblock {
@@ -1292,7 +1298,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		/*[[ChangeAlign]]*/
 		right: 20px !important;
 		left: auto !important;/**/
-		z-index: 96;
+		z-index: 40;
 	}
 
 	table[style='width: 100%; height: 300px; text-align: center; table-layout: fixed; border-collapse: collapse;'] {

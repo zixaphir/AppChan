@@ -229,13 +229,14 @@ none
 	.pages {
 		padding: 0 !important;
 	}
- {
+
+	#navbot::after {
 		cursor: default;
 		position: fixed !important;
 		display: block !important;
 		left: auto !important;
 		right: 0 !important;
-		z-index: 97 !important;
+		z-index: 45 !important;
 /*[[ChangeAlign]]*/	right: auto !important;/**/
 		top: 0 !important;
 		height: 15px !important;
@@ -253,12 +254,12 @@ none
 		border: none !important;
 		opacity: 1 !important;
 		background: none !important;
-		z-index: 98 !important;
+		z-index: 50 !important;
 	}
 
 	#navbot:hover {
 		top: 0 !important;
-		z-index: 97 !important;
+		z-index: 45 !important;
 	}
 
 	#navbot {
@@ -304,11 +305,11 @@ none
 		text-align: center !important;
 		opacity: 0.5 !important;
 		content: '-Navigation-';
-		z-index: 97;
+		z-index: 45;
 	}
 
 	#navbot:hover::after {
-		z-index: 98 !important;
+		z-index: 50 !important;
 		border: none !important;
 		opacity: 1 !important;
 		background: none !important;
@@ -316,7 +317,7 @@ none
 
 	#navbot:hover {
 		bottom: 1px !important;
-		z-index: 97 !important;
+		z-index: 45 !important;
 	}
 
 	#navbot {
@@ -376,7 +377,7 @@ none
 		-o-transform-origin: bottom right;
 		letter-spacing: -1px;
 		word-spacing: -6px;
-		z-index: 6 !important;
+		z-index: 30 !important;
 	}
 
 	.pages a, .pages b, .pages input {
