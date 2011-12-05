@@ -260,6 +260,9 @@ none
 	#navbot:hover {
 		top: 0 !important;
 		z-index: 45 !important;
+		-webkit-transition: top .3s ease-in-out .3s, bottom .3s ease-in-out .3s;
+		-moz-transition: top .3s ease-in-out 3s, bottom .3s ease-in-out 3s;
+		-o-transition: top .3s ease-in-out .3s, bottom .3s ease-in-out .3s;
 	}
 
 	#navbot {
@@ -277,6 +280,9 @@ none
 		width: 310px !important;
 		height: 40px !important;
 		text-align: center !important;
+		-webkit-transition: top .3s ease-in-out .3s, bottom .3s ease-in-out .3s;
+		-moz-transition: top .3s ease-in-out 3s, bottom .3s ease-in-out 3s;
+		-o-transition: top .3s ease-in-out .3s, bottom .3s ease-in-out .3s;
 	}
 /* Slideout Invert */
 	.pages {
@@ -318,6 +324,9 @@ none
 	#navbot:hover {
 		bottom: 1px !important;
 		z-index: 45 !important;
+		-webkit-transition: top .3s ease-in-out .3s, bottom .3s ease-in-out .3s;
+		-moz-transition: top .3s ease-in-out 3s, bottom .3s ease-in-out 3s;
+		-o-transition: top .3s ease-in-out .3s, bottom .3s ease-in-out .3s;
 	}
 
 	#navbot {
@@ -335,6 +344,9 @@ none
 		height: 40px !important;
 		word-spacing: -2px !important;
 		text-align: center !important;
+		-webkit-transition: top .3s ease-in-out .3s, bottom .3s ease-in-out .3s;
+		-moz-transition: top .3s ease-in-out 3s, bottom .3s ease-in-out 3s;
+		-o-transition: top .3s ease-in-out .3s, bottom .3s ease-in-out .3s;
 	}
 /* End */
 
