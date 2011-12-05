@@ -5,10 +5,8 @@ Revision 90
 
 This text is free. It comes without any warranty, to
 the extent permitted by applicable law. You can redistribute it
-and/or modify it under the terms of the Do What The Fuck You Want
-To Public License, Version 2, as published by Sam Hocevar. See
-http://sam.zoy.org/wtfpl/COPYING or included COPYING for more details.
-
+and/or modify it under the terms of the BSD license, as modified by Jordan Bates. See
+https://raw.github.com/zixaphir/appchan/COPYING for more details.
 -------
 
 Included artwork and images are unlicensed (non-free) and are used under
@@ -120,13 +118,14 @@ This style is designed for the following browsers, ordered alphabetically:
 	td.reply,
 	a,
 	td,
-	.filetitle,
-	.filesize,
 	fieldset,
 	blockquote,
 	.rules,
 	textarea,
+	center > font > b,
 	time,
+	.filesize,
+	.filetitle,
 	.postername,
 	.commentpostername,
 	.container::before,
@@ -142,7 +141,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	#updater,
 	#navtopr a,
 	label,
-	.filetitle,
 	#imageType,
 	#header,
 	#header a,
@@ -232,6 +230,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	img,
 	.pages,
 	.pages *,
+	#post,
 	#qr,
 	#quickrep,
 	div[id^='qr'],
@@ -278,6 +277,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		left: 2px !important;
 		right: 253px !important;/**/
 	}
+
 	#header,
 	#navtop {
 		z-index: 98;
@@ -409,14 +409,18 @@ This style is designed for the following browsers, ordered alphabetically:
 /* Formatting for all postarea elements */
 	.postarea form[name^='post'] input:not([type='checkbox']):not([type='radio']):not([type='file']),
 	#qr .move .inputtext,
+	#post .move .inputtext,
 	.postarea form[name^='post'] textarea,
 	.postarea form[name^='post'] [name='upfile'] > input,
 	.postarea #recaptcha_widget_div input,
 	#qr_form img,
 	#qr .inputtext[type='password'],
+	#post .inputtext[type='password'],
 	.postarea #recaptcha_widget_div #recaptcha_image img,
 	#qr textarea,
-	#qr .inputtext {
+	#post textarea,
+	#qr .inputtext,
+	#post .inputtext {
 		margin: 1px 0 0 !important;
 		vertical-align: bottom;
 	}
@@ -428,6 +432,8 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	.deletebuttons .inputtext,
 	input[type='password'],
+	#post form[name^='post'] input.inputtext,
+	#post form[name^='post'] [name='upfile'] > input,
 	#qr form[name^='post'] input.inputtext,
 	#qr form[name^='post'] [name='upfile'] > input,
 	.postarea form[name^='post'] input.inputtext,
@@ -467,6 +473,9 @@ This style is designed for the following browsers, ordered alphabetically:
 	#qr #files input[name='upfile'] > input[type='button'],
 	form[name^='post'] input[name='upfile'] > input[type='button'],
 	#qr form[name^='post'] input[name='upfile'] > input[type='button'],
+	#post #com_submit,
+	#post #files input[name='upfile'] > input[type='button'],
+	#post form[name^='post'] input[name='upfile'] > input[type='button'],
 	.postarea form[name^='post'] input[name='upfile'] > input[type='button'],
 	#usernameText + input /* Last.fm button */ {
 		width: 62px !important;
@@ -481,7 +490,8 @@ This style is designed for the following browsers, ordered alphabetically:
 /* Force the file input's CONTAINER to behave as if it were non-existent, e.g. occupies no more space than its contents */
 	input[type='file'][name='upfile'],
 	.postarea input[type='file'][name='upfile'],
-	#qr form[name^='post'] input[type='file'][name='upfile'] {
+	#qr form[name^='post'] input[type='file'][name='upfile'],
+	#post form[name^='post'] input[type='file'][name='upfile'] {
 		height: auto !important;
 		border: none !important;
 		margin-top: 0 !important;
@@ -491,7 +501,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	.fake input[type='file']::-webkit-file-upload-button,
 	* > input[type='file'][name='upfile'],
 	* > .postarea input[type='file'][name='upfile'],
-	* > #qr form[name^='post'] input[type='file'][name='upfile'] {
+	* > #qr form[name^='post'] input[type='file'][name='upfile'],
+	* > #post form[name^='post'] input[type='file'][name='upfile'] {
 		background: transparent;
 		border: none !important;
 		height: 19px !important;
@@ -506,7 +517,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.fake input[type='file']::-webkit-file-upload-button,
-	* > #qr form[name^='post'] input[type='file'][name='upfile'] {
+	* > #qr form[name^='post'] input[type='file'][name='upfile']
+	* > #post form[name^='post'] input[type='file'][name='upfile'] {
 		width: 300px !important;
 	}
 /* Positioning of various postarea checkboxes */
@@ -658,14 +670,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /* Image Hover and Image Expansion */
 /*[[ihover]]*/
-	#qp {
-		z-index: 99 !important;
-	}
-
-	.exPopup {
-		z-index: 99 !important;
-	}
-
+	#qp,
+	.exPopup,
 	#iHover {
 		z-index: 99 !important;
 	}
@@ -1130,7 +1136,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /* 4chan x options */
 	#overlay {
-		z-index: 99 !important;
+		z-index: 101 !important;
 	}
 
 	#options ul {
@@ -1205,7 +1211,7 @@ This style is designed for the following browsers, ordered alphabetically:
 /*[[ChangeAlign]]*/
 		right: 2px !important;
 		left: auto !important;/**/
-		z-index: 99 !important;
+		z-index: 100 !important;
 	}
 
 	#updater #count:not(.new) {

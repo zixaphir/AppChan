@@ -229,8 +229,7 @@ none
 	.pages {
 		padding: 0 !important;
 	}
-
-	#navbot::after {
+ {
 		cursor: default;
 		position: fixed !important;
 		display: block !important;
@@ -248,6 +247,7 @@ none
 		opacity: 0.5 !important;
 		content: '-Navigation-';
 	}
+
 	#navbot:hover::after {
 		top: 51px !important;
 		border: none !important;
@@ -258,7 +258,7 @@ none
 
 	#navbot:hover {
 		top: 0 !important;
-		z-index: 98 !important;
+		z-index: 97 !important;
 	}
 
 	#navbot {
@@ -294,7 +294,6 @@ none
 		display: block !important;
 		left: auto !important;
 		right: 0 !important;
-		z-index: 98 !important;
 /*[[ChangeAlign]]*/right: auto !important;/**/
 		bottom: 1px !important;
 		height: 15px !important;
@@ -305,7 +304,7 @@ none
 		text-align: center !important;
 		opacity: 0.5 !important;
 		content: '-Navigation-';
-		z-index: 98;
+		z-index: 97;
 	}
 
 	#navbot:hover::after {
@@ -317,7 +316,7 @@ none
 
 	#navbot:hover {
 		bottom: 1px !important;
-		z-index: 98 !important;
+		z-index: 97 !important;
 	}
 
 	#navbot {
