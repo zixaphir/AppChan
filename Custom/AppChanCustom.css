@@ -350,6 +350,35 @@
 		border: none !important;
 	}
 
+/* Borders */
+
+	#cc-showpostarea,
+	#ft li,
+	#ft ul,
+	#options input:not([type='checkbox']),
+	#updater input:not([type='checkbox']),
+	#twi_table_div,
+	#twi_table_div *,
+	.box-outer,
+	.boxbar,
+	.chanchimp,
+	.chanchimp > div,
+	.inputtext,
+	.deletebuttons input[value=Delete],
+	.recaptcha_image_cell > center > #recaptcha_image,
+	.recaptchatable #recaptcha_response_field,
+	.top-box,
+	h2,
+	input:not([type='checkbox']),
+	#qr_captcha input,
+	input[type='file'] > input[type='button'],
+	input[type='submit'],
+	#submit,
+	select,
+	textarea {
+		border: none !important;
+	}
+
 /* Pages */
 
 	.pages b {
