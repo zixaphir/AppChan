@@ -385,7 +385,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		position: fixed;
 		top: auto;
 		left: auto;
-		bottom: 22px;
+		bottom: 21px;
 		width: 248px !important;
 		margin: 0 !important;
 		z-index: 25;
@@ -416,7 +416,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.postarea #recaptcha_widget_div {
-		height: 68px;
+		height: 67px;
 	}
 /* Collapse the postarea table for better control over the height and width */
 	.postarea form[name^='post'] table {
@@ -459,7 +459,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#files input[name='upfile'] > input,
 	#com_submit,
 	#usernameText + input {
-		height: 19px !important;
+		height: 18px !important;
 	}
 
 	.postarea form[name^='post'] .inputtext,
@@ -471,6 +471,10 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postarea form[name^='post'] [name='upfile'] > input[type='text'] {
 		width: 185px !important;
 	}
+	
+	.postarea form[name^='post'] [name='upfile'] {
+		width: 248px;
+	}
 /* Buttons */
 	input[type='submit'], /* Any lingering buttons */
 	#com_submit /* Submit Button */,
@@ -478,7 +482,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	form[name^='post'] [name='upfile'] > input[type='button'] /* Browse Button (Fx*) */ {
 		cursor: default !important;
 		width: 50px;
-		height: 19px;
+		height: 18px;
 		padding: 0 !important;
 		font-size: 9px !important;
 		text-transform: uppercase;
@@ -522,7 +526,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	* > #post form[name^='post'] input[type='file'][name='upfile'] {
 		background: transparent;
 		border: none !important;
-		height: 19px !important;
+		height: 18px !important;
 		padding: 0 !important;
 		margin: 1px 0 0 !important;
 		text-transform: uppercase;
@@ -716,7 +720,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: none !important;
 	}
 /* #qr dimensions */
-	#qr {
+	#qr,
+	#post {
 		z-index: 25;
 		height: auto !important;
 		width: 300px;
@@ -724,8 +729,10 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#qr input.inputtext,
+	#post #foo input.inputtext, /* I decided I didn't like putting the name, email, and subject fields on the same line */
 	#qr input[type='file'][name='upfile'] > input[type='text'],
-	#qr textarea {
+	#qr textarea,
+	#post textarea {
 		width: 300px !important;
 	}
 
