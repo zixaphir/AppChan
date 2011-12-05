@@ -565,7 +565,9 @@ none
 /* Remove vanilla post form and remove #qr UI to make it look more like the original post form */
 	.postarea,
 	#qr > input,
-	#qr > a:not(.error) {
+	#qr > a:not(.error),
+	#post .close,
+	#post #autohide {
 		display: none;
 	}
 /* .move contains the name field of the #qr. Here we're making it behave like no more than a container. We also hide the "Quick Reply" text with a hack. */
@@ -577,12 +579,16 @@ none
 /* Disable the behavior of #autohide */
 	#qr:not(:hover) > #autohide:checked ~ .autohide,
 	#qr > #autohide:checked ~ .autohide,
-	#qr > #autohide ~ .autohide	{
+	#qr > #autohide ~ .autohide,
+	#post:not(:hover) > #autohide:checked ~ .autohide,
+	#post > #autohide:checked ~ .autohide,
+	#post > #autohide ~ .autohide {
 		overflow: visible !important;
 		height: auto !important;
 	}
 /* Position and Dimensions of the #qr */
-	#qr {
+	#qr,
+	#post {
 		overflow: visible !important;
 		position: fixed;
 		top: auto !important;
@@ -661,7 +667,9 @@ none
 /* Remove vanilla post form and remove #qr UI to make it look more like the original post form */
 	.postarea,
 	#qr > input,
-	#qr > a:not(.error) {
+	#qr > a:not(.error),
+	#post .close,
+	#post #autohide {
 		display: none;
 	}
 /* .move contains the name field of the #qr. Here we're making it behave like no more than a container. We also hide the "Quick Reply" text with a hack. */
@@ -673,12 +681,16 @@ none
 /* Disable the behavior of #autohide */
 	#qr:not(:hover) > #autohide:checked ~ .autohide,
 	#qr > #autohide:checked ~ .autohide,
-	#qr > #autohide ~ .autohide	{
+	#qr > #autohide ~ .autohide,
+	#post:not(:hover) > #autohide:checked ~ .autohide,
+	#post > #autohide:checked ~ .autohide,
+	#post > #autohide ~ .autohide {
 		overflow: visible !important;
 		height: auto !important;
 	}
 /* Position and Dimensions of the #qr */
-	#qr {
+	#qr,
+	#post {
 		overflow: visible !important;
 		position: fixed;
 		left: -233px !important;
@@ -696,7 +708,8 @@ none
 		-o-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
 	}
 
-	#qr:hover {
+	#qr:hover,
+	#post:hover {
 		left: 2px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
@@ -711,18 +724,16 @@ none
 		height: auto !important;
 		position: static !important;
 	}
-
-	#qr .move .inputtext,
-	#qr .inputtext[type='password'] {
-		width: 248px !important;
-	}
 /* Width and height of all #qr elements (excluding some captcha elements) */
 	#qr textarea {
 		min-height: 0 !important;
 		height: 78px !important;
 	}
 
+	#qr .move .inputtext,
+	#qr .inputtext[type='password'],
 	#qr form[name^='post'] .inputtext,
+	#post #foo input.inputtext,
 	#qr #files input[type=file][name='upfile'] {
 		width: 248px !important;
 	}
@@ -771,7 +782,9 @@ none
 /* Remove vanilla post form and remove #qr UI to make it look more like the original post form */
 	.postarea,
 	#qr > input,
-	#qr > a:not(.error) {
+	#qr > a:not(.error),
+	#post .close,
+	#post #autohide {
 		display: none;
 	}
 /* .move contains the name field of the #qr. Here we're making it behave like no more than a container. We also hide the "Quick Reply" text with a hack. */
@@ -783,12 +796,16 @@ none
 /* Disable the behavior of #autohide */
 	#qr:not(:hover) > #autohide:checked ~ .autohide,
 	#qr > #autohide:checked ~ .autohide,
-	#qr > #autohide ~ .autohide	{
+	#qr > #autohide ~ .autohide,
+	#post:not(:hover) > #autohide:checked ~ .autohide,
+	#post > #autohide:checked ~ .autohide,
+	#post > #autohide ~ .autohide {
 		overflow: visible !important;
 		height: auto !important;
 	}
 /* Position and Dimensions of the #qr */
-	#qr {
+	#qr,
+	#post {
 		overflow: visible !important;
 		position: fixed;
 		left: -248px !important;
@@ -806,7 +823,8 @@ none
 		-o-transition: right .3s ease-in-out 3s, left .3s ease-in-out 3s;
 	}
 
-	#qr:hover {
+	#qr:hover,
+	#post:hover {
 		left: 2px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
@@ -817,7 +835,8 @@ none
 		-o-transition: right .3s linear, left .3s linear;
 	}
 /* Tabbed Text. */
-	#qr::before {
+	#qr::before,
+	#post::before {
 		position: fixed;
 		left: 0;
 		-webkit-transform: rotate(90deg);
@@ -847,7 +866,8 @@ none
 		-o-transition: opacity .3s ease-in-out 3s;
 	}
 
-	#qr:hover::before {
+	#qr:hover::before,
+	#post:hover::before {
 		opacity: 0;
 		-webkit-transition: opacity .3s linear;
 		-moz-transition: opacity .3s linear;
@@ -858,18 +878,17 @@ none
 		height: auto !important;
 		position: static !important;
 	}
-
-	#qr .move .inputtext,
-	#qr .inputtext[type='password'] {
-		width: 248px !important;
-	}
 /* Width and height of all #qr elements (excluding some captcha elements) */
-	#qr textarea {
+	#qr textarea,
+	#post textarea {
 		min-height: 0 !important;
 		height: 78px !important;
 	}
 
+	#qr .move .inputtext,
+	#qr .inputtext[type='password'],
 	#qr form[name^='post'] .inputtext,
+	#post #foo input.inputtext,
 	#qr #files input[type=file][name='upfile'] {
 		width: 248px !important;
 	}
@@ -880,7 +899,8 @@ none
 		width: 185px !important;
 	}
 
-	#qr img {
+	#qr img,
+	#post img {
 		height: 47px !important;
 		width: 248px !important;
 	}
@@ -917,24 +937,30 @@ none
 @-moz-document regexp("http://boards\.4chan\.org/.*/res/.*") {
 	.postarea,
 	#qr > input,
-	#qr > a:not(.error) {
+	#qr > a:not(.error),
+	#post .close,
+	#post #autohide {
 		display: none;
 	}
-
+/* .move contains the name field of the #qr. Here we're making it behave like no more than a container. We also hide the "Quick Reply" text with a hack. */
 	#qr .move {
 		color: transparent !important;
 		font-size: 0 !important;
 		height: 20px !important;
 	}
-
+/* Disable the behavior of #autohide */
 	#qr:not(:hover) > #autohide:checked ~ .autohide,
 	#qr > #autohide:checked ~ .autohide,
-	#qr > #autohide ~ .autohide	{
+	#qr > #autohide ~ .autohide,
+	#post:not(:hover) > #autohide:checked ~ .autohide,
+	#post > #autohide:checked ~ .autohide,
+	#post > #autohide ~ .autohide {
 		overflow: visible !important;
 		height: auto !important;
 	}
-
-	#qr {
+/* Position and Dimensions of the #qr */
+	#qr,
+	#post {
 		overflow: visible !important;
 		position: fixed;
 		top: auto !important;
@@ -953,7 +979,8 @@ none
 		-o-transition: opacity .3s ease-in-out 3s;
 	}
 
-	#qr:hover {
+	#qr:hover,
+	#post:hover {
 		opacity: 1;
 		-webkit-transition: opacity .3s linear;
 		-moz-transition: opacity .3s linear;
@@ -964,18 +991,16 @@ none
 		height: auto !important;
 		position: static !important;
 	}
-
-	#qr .move .inputtext,
-	#qr .inputtext[type='password'] {
-		width: 248px !important;
-	}
 /* Width and height of all #qr elements (excluding some captcha elements) */
 	#qr textarea {
 		min-height: 0 !important;
 		height: 78px !important;
 	}
 
+	#qr .move .inputtext,
+	#qr .inputtext[type='password'],
 	#qr form[name^='post'] .inputtext,
+	#post #foo input.inputtext,
 	#qr #files input[type=file][name='upfile'] {
 		width: 248px !important;
 	}

@@ -374,6 +374,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	input:not([type='radio']),
 	input[type='file'] > input[type='button'],
 	input[type='submit'],
+	#submit,
 	select,
 	textarea {
 		-webkit-appearance: none;
@@ -458,6 +459,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#qr div.move input.inputtext,
 	#files input[name='upfile'] > input,
 	#com_submit,
+	#submit,
 	#usernameText + input {
 		height: 18px !important;
 	}
@@ -478,6 +480,7 @@ This style is designed for the following browsers, ordered alphabetically:
 /* Buttons */
 	input[type='submit'], /* Any lingering buttons */
 	#com_submit /* Submit Button */,
+	#submit, /* aeosynth's submit button */
 	input[type='file'][name='upfile'] > input[type='button'] ,
 	form[name^='post'] [name='upfile'] > input[type='button'] /* Browse Button (Fx*) */ {
 		cursor: default !important;
@@ -490,11 +493,12 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#com_submit,
+	#submit,
 	#qr #com_submit,
 	#qr #files input[name='upfile'] > input[type='button'],
 	form[name^='post'] input[name='upfile'] > input[type='button'],
 	#qr form[name^='post'] input[name='upfile'] > input[type='button'],
-	#post #com_submit,
+	#post #submit,
 	#post #files input[name='upfile'] > input[type='button'],
 	#post form[name^='post'] input[name='upfile'] > input[type='button'],
 	.postarea form[name^='post'] input[name='upfile'] > input[type='button'],
