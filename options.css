@@ -499,34 +499,33 @@ none
 	}
 
 	.postarea form[name='post']::before {
+		position: fixed;
+		left: 0;
 		-webkit-transform: rotate(90deg);
 		-webkit-transform-origin: bottom left;
 		-moz-transform: rotate(90deg);
 		-moz-transform-origin: bottom left;
 		-o-transform: rotate(90deg);
 		-o-transform-origin: bottom left;
-		margin-left: 250px;
-		margin-right: 264px;
-		margin-bottom: -20px;
 /*[[ChangeAlign]]*/
+		right: 0;
+		bottom: 266px;
+		left: auto;
 		-webkit-transform: rotate(-90deg);
 		-webkit-transform-origin: bottom right;
 		-moz-transform: rotate(-90deg);
 		-moz-transform-origin: bottom right;
 		-o-transform: rotate(-90deg);
-		-o-transform-origin: bottom right;
-		margin-left: -212px; /* I have no idea why Firefox halves this. */
-		margin-right: 264px; /* I have no idea why Firefox halves this and Chrome ignores it. */
-		margin-bottom: -20px;/**/
-		width: 210px;
-		display: inline-block; /* I have no idea why this is the only one that rotates and obeys margins in Chrome? */
+		-o-transform-origin: bottom right;/**/
 		font-size: 10px !important;
-		opacity: 1;
 		text-align: center;
-		content: 'POST FORM - POST FORM - POST FORM';
+		content: 'POSTFORM';
+		z-index: -1;
+		padding: 0 15px;
+		opacity: 1;
 		-webkit-transition: opacity .3s ease-in-out 3s;
 		-moz-transition: opacity .3s ease-in-out 3s;
-		-o-transition:  opacity .3s ease-in-out 3s;
+		-o-transition: opacity .3s ease-in-out 3s;
 	}
 
 	.postarea form[name='post']:hover::before {
@@ -817,32 +816,32 @@ none
 		-moz-transition: right .3s linear, left .3s linear;
 		-o-transition: right .3s linear, left .3s linear;
 	}
-/* Tabbed Text. I'm not exactly sure about the mechanics behind how this works. */
+/* Tabbed Text. */
 	#qr::before {
+		position: fixed;
+		left: 0;
 		-webkit-transform: rotate(90deg);
 		-webkit-transform-origin: bottom left;
 		-moz-transform: rotate(90deg);
 		-moz-transform-origin: bottom left;
 		-o-transform: rotate(90deg);
 		-o-transform-origin: bottom left;
-		margin-left: 250px;
-		margin-right: -232px;
 /*[[ChangeAlign]]*/
+		right: 0;
+		bottom: 266px;
+		left: auto;
 		-webkit-transform: rotate(-90deg);
 		-webkit-transform-origin: bottom right;
 		-moz-transform: rotate(-90deg);
 		-moz-transform-origin: bottom right;
 		-o-transform: rotate(-90deg);
-		-o-transform-origin: bottom right;
-		margin-left: -212px;
-		margin-right: 264px;/**/
-		margin-bottom: -20px;
-		width: 210px;
-		display: block;
+		-o-transform-origin: bottom right;/**/
 		font-size: 10px !important;
-		opacity: 1;
 		text-align: center;
-		content: 'POST FORM - POST FORM - POST FORM';
+		content: 'POSTFORM';
+		z-index: -1;
+		padding: 0 15px;
+		opacity: 1;
 		-webkit-transition: opacity .3s ease-in-out 3s;
 		-moz-transition: opacity .3s ease-in-out 3s;
 		-o-transition: opacity .3s ease-in-out 3s;

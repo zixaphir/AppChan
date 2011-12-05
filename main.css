@@ -446,16 +446,17 @@ This style is designed for the following browsers, ordered alphabetically:
 		font-size: /*[[FontSize]]*/ !important;
 	}
 
-	.deletebuttons .inputtext,
 	input[type='password'],
+	form[name^='post'] input[name='upfile'] > input,
+	.deletebuttons .inputtext,
+	.postarea #recaptcha_widget_div input,
+	.postarea form[name^='post'] input.inputtext,
 	#post form[name^='post'] input.inputtext,
 	#post form[name^='post'] [name='upfile'] > input,
 	#qr form[name^='post'] input.inputtext,
 	#qr form[name^='post'] [name='upfile'] > input,
-	.postarea form[name^='post'] input.inputtext,
-	form[name^='post'] input[name='upfile'] > input,
+	#qr div.move input.inputtext,
 	#files input[name='upfile'] > input,
-	.postarea #recaptcha_widget_div input,
 	#com_submit,
 	#usernameText + input {
 		height: 19px !important;
