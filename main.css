@@ -1,14 +1,27 @@
 /*
 AppChan by Zixaphir, seaweed !Ponyo.2wFe, MayhemYDG, !K.WeEabo0o, disappoint, Kupaka, ubuntufriend, anonymous
 
-Revision 86
+Revision 90
 
-This text is free. It comes without any warranty, to
-the extent permitted by applicable law. You can redistribute it
-and/or modify it under the terms of the Do What The Fuck You Want
-To Public License, Version 2, as published by Sam Hocevar. See
-http://sam.zoy.org/wtfpl/COPYING or included COPYING for more details.
+Copyright (C) 2011 by Zixaphir Modnar
 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 -------
 
 Included artwork and images are unlicensed (non-free) and are used under
@@ -41,10 +54,20 @@ This style is designed for the following browsers, ordered alphabetically:
 @-moz-document domain(boards.4chan.org), domain(rs.4chan.org) {
 /* Mascots (More mascots can be found at https://github.com/zixaphir/AppChan/wiki/Mascots) */
 	body::after {
-		content: /*[[background]]*/ !important;
 		position: fixed !important;
-		right: 0px !important;
-		bottom: 269px !important;
+		/*[[background]]*/
+		left: 0;
+		-moz-transform: scaleX(-1);
+		-o-transform: scaleX(-1);
+		-webkit-transform: scaleX(-1);
+		transform: scaleX(-1);
+/*[[ChangeAlign]]*/
+		right: 0;
+		left: auto;
+		-moz-transform: scaleX(1);
+		-o-transform: scaleX(1);
+		-webkit-transform: scaleX(1);
+		transform: scaleX(1);/**/
 	}
 
 	body {
@@ -101,33 +124,39 @@ This style is designed for the following browsers, ordered alphabetically:
 		display: none !important;
 	}
 
-	td.reply,
-	a,
-	td,
-	.filetitle,
-	.filesize,
-	fieldset,
-	blockquote,
-	.rules,
-	textarea,
-	time,
-	.postername,
-	.commentpostername,
-	.container::before,
-	#captchas,
 	* {
 	/* Defaults of all elements */
 		font-family: /*[[Font]]*/ !important;
 		text-decoration: none !important;
 	}
 
+	td.reply,
+	a,
+	td,
+	fieldset,
+	blockquote,
+	textarea,
+	div.move,
+	center > font > b,
+	time,
+	.filesize,
+	.filetitle,
+	.postername,
+	.commentpostername,
+	.container::before,
+	.postertrip,
+	.replytitle,
+	.rules,
+	#captchas {
+		font-size: /*[[FontSize]]*/ !important;
+	}
+
 	input,
+	label,
 	#imgControls,
 	#stats,
 	#updater,
 	#navtopr a,
-	label,
-	.filetitle,
 	#imageType,
 	#header,
 	#header a,
@@ -183,7 +212,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	div.logo font[size='5'] span {
 		font-size: 30px !important;
-				font-weight: 400 !important;
+		font-weight: 400 !important;
 	}
 
 	div.logo font[size='1'] {
@@ -217,6 +246,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	img,
 	.pages,
 	.pages *,
+	#post,
 	#qr,
 	#quickrep,
 	div[id^='qr'],
@@ -263,9 +293,10 @@ This style is designed for the following browsers, ordered alphabetically:
 		left: 2px !important;
 		right: 253px !important;/**/
 	}
+
 	#header,
 	#navtop {
-		z-index: 98;
+		z-index: 65;
 	}
 
 	.pages {
@@ -330,8 +361,8 @@ This style is designed for the following browsers, ordered alphabetically:
 /* Override OS-specific UI */
 	#ft li,
 	#ft ul,
-	#options input:not([type='checkbox']),
-	#updater input:not([type='checkbox']),
+	#options input:not([type='checkbox']):not([type='radio']),
+	#updater input:not([type='checkbox']):not([type='radio']),
 	.box-outer,
 	.boxbar,
 	.deletebuttons input[value=Delete],
@@ -339,10 +370,11 @@ This style is designed for the following browsers, ordered alphabetically:
 	[name='recaptcha_response_field'],
 	.top-box,
 	h2,
-	input:not([type='checkbox']),
+	input:not([type='checkbox']):not([type='radio']),
 	input:not([type='radio']),
 	input[type='file'] > input[type='button'],
 	input[type='submit'],
+	#submit,
 	select,
 	textarea {
 		-webkit-appearance: none;
@@ -357,7 +389,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		bottom: 21px;
 		width: 248px !important;
 		margin: 0 !important;
-		z-index: 5;
+		z-index: 25;
 	}
 
 	.postarea form[name^='post'] > table,
@@ -385,23 +417,27 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.postarea #recaptcha_widget_div {
-		height: 68px;
+		height: 67px;
 	}
 /* Collapse the postarea table for better control over the height and width */
 	.postarea form[name^='post'] table {
 		border-collapse: collapse;
 	}
 /* Formatting for all postarea elements */
-	.postarea form[name^='post'] input:not([type='checkbox']):not([type='file']),
+	.postarea form[name^='post'] input:not([type='checkbox']):not([type='radio']):not([type='file']),
 	#qr .move .inputtext,
+	#post .move .inputtext,
 	.postarea form[name^='post'] textarea,
 	.postarea form[name^='post'] [name='upfile'] > input,
 	.postarea #recaptcha_widget_div input,
 	#qr_form img,
 	#qr .inputtext[type='password'],
+	#post .inputtext[type='password'],
 	.postarea #recaptcha_widget_div #recaptcha_image img,
 	#qr textarea,
-	#qr .inputtext {
+	#post textarea,
+	#qr .inputtext,
+	#post .inputtext {
 		margin: 1px 0 0 !important;
 		vertical-align: bottom;
 	}
@@ -411,17 +447,21 @@ This style is designed for the following browsers, ordered alphabetically:
 		font-size: /*[[FontSize]]*/ !important;
 	}
 
-	.deletebuttons .inputtext,
 	input[type='password'],
+	form[name^='post'] input[name='upfile'] > input,
+	.deletebuttons .inputtext,
+	.postarea #recaptcha_widget_div input,
+	.postarea form[name^='post'] input.inputtext,
+	#post form[name^='post'] input.inputtext,
+	#post form[name^='post'] [name='upfile'] > input,
 	#qr form[name^='post'] input.inputtext,
 	#qr form[name^='post'] [name='upfile'] > input,
-	.postarea form[name^='post'] input.inputtext,
-	form[name^='post'] input[name='upfile'] > input,
+	#qr div.move input.inputtext,
 	#files input[name='upfile'] > input,
-	.postarea #recaptcha_widget_div input,
 	#com_submit,
+	#submit,
 	#usernameText + input {
-		height: 19px !important;
+		height: 18px !important;
 	}
 
 	.postarea form[name^='post'] .inputtext,
@@ -433,14 +473,19 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postarea form[name^='post'] [name='upfile'] > input[type='text'] {
 		width: 185px !important;
 	}
+	
+	.postarea form[name^='post'] [name='upfile'] {
+		width: 248px;
+	}
 /* Buttons */
 	input[type='submit'], /* Any lingering buttons */
 	#com_submit /* Submit Button */,
+	#submit, /* aeosynth's submit button */
 	input[type='file'][name='upfile'] > input[type='button'] ,
 	form[name^='post'] [name='upfile'] > input[type='button'] /* Browse Button (Fx*) */ {
 		cursor: default !important;
 		width: 50px;
-		height: 19px;
+		height: 18px;
 		padding: 0 !important;
 		font-size: 9px !important;
 		text-transform: uppercase;
@@ -448,22 +493,18 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#com_submit,
+	#submit,
 	#qr #com_submit,
 	#qr #files input[name='upfile'] > input[type='button'],
 	form[name^='post'] input[name='upfile'] > input[type='button'],
 	#qr form[name^='post'] input[name='upfile'] > input[type='button'],
+	#post #submit,
+	#post #files input[name='upfile'] > input[type='button'],
+	#post form[name^='post'] input[name='upfile'] > input[type='button'],
 	.postarea form[name^='post'] input[name='upfile'] > input[type='button'],
 	#usernameText + input /* Last.fm button */ {
 		width: 62px !important;
 		margin: 1px 0 0 1px !important;
-	}
-/* Webkit's file input box has a different syntax */
-	input[type='file']::-webkit-file-upload-button {
-		background: transparent;
-		border: none !important;
-		height: 19px !important;
-		padding: 0 !important;
-		text-transform: uppercase;
 	}
 /* Uniform padding for postarea inputs */
 	.postarea form[name^='post'] .inputtext,
@@ -473,12 +514,37 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /* Force the file input's CONTAINER to behave as if it were non-existent, e.g. occupies no more space than its contents */
 	input[type='file'][name='upfile'],
+	.postarea input[type='file'][name='upfile'],
 	#qr form[name^='post'] input[type='file'][name='upfile'],
-	.postarea input[type='file'][name='upfile'] {
+	#post form[name^='post'] input[type='file'][name='upfile'] {
 		height: auto !important;
 		border: none !important;
 		margin-top: 0 !important;
 		padding: 0 !important;
+	}
+/* Webkit's file input box has a different syntax */
+	.fake input[type='file']::-webkit-file-upload-button,
+	* > input[type='file'][name='upfile'],
+	* > .postarea input[type='file'][name='upfile'],
+	* > #qr form[name^='post'] input[type='file'][name='upfile'],
+	* > #post form[name^='post'] input[type='file'][name='upfile'] {
+		background: transparent;
+		border: none !important;
+		height: 18px !important;
+		padding: 0 !important;
+		margin: 1px 0 0 !important;
+		text-transform: uppercase;
+	}
+
+	.fake input[type='file']::-webkit-file-upload-button,
+	* > .postarea input[type='file'][name='upfile'] {
+		width: 248px !important;
+	}
+
+	.fake input[type='file']::-webkit-file-upload-button,
+	* > #qr form[name^='post'] input[type='file'][name='upfile']
+	* > #post form[name^='post'] input[type='file'][name='upfile'] {
+		width: 300px !important;
 	}
 /* Positioning of various postarea checkboxes */
 	.postarea form[name^='post'] label {
@@ -535,7 +601,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		position: absolute;
 		font-size: 75% !important;
 		text-transform: uppercase;
-		z-index: 2;
+		z-index: 5;
 	}
 
 	form[name^='post'] tr:nth-of-type(1) .postblock b::after {
@@ -627,34 +693,26 @@ This style is designed for the following browsers, ordered alphabetically:
 		content: "+";
 		text-align: center;
 	}
-/* Image Hover and Image Expansion */
+/* Hover Popups and Image Expansion */
 /*[[ihover]]*/
-	#qp {
-		z-index: 99 !important;
-	}
-
-	.exPopup {
-		z-index: 99 !important;
-	}
-
-	#iHover {
-		z-index: 99 !important;
-	}
-
-	body > table ~ form .reply a > img {
-		position: relative !important;
-		top: 0px !important;
-		z-index: 96 !important;
+	#qp,
+	.exPopup,
+	#iHover,
+	#backwash_tooltip,
+	#popup,
+	div[id^='ref'],
+	#cc-quotedcontainer_t {
+		z-index: 60 !important;
 	}
 
 	.filesize ~ a > img + img {
 		position: relative !important;
 		top: 0px !important;
-		z-index: 96 !important;
+		z-index: 40 !important;
 	}
 
 	body > form #imgControls {
-		z-index: 98 !important;
+		z-index: 55 !important;
 	}
 
 	#imageType {
@@ -666,16 +724,19 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: none !important;
 	}
 /* #qr dimensions */
-	#qr {
-		z-index: 5;
+	#qr,
+	#post {
+		z-index: 25;
 		height: auto !important;
 		width: 300px;
 		padding: 2px;
 	}
 
 	#qr input.inputtext,
+	#post #foo input.inputtext, /* I decided I didn't like putting the name, email, and subject fields on the same line */
 	#qr input[type='file'][name='upfile'] > input[type='text'],
-	#qr textarea {
+	#qr textarea,
+	#post textarea {
 		width: 300px !important;
 	}
 
@@ -765,9 +826,9 @@ This style is designed for the following browsers, ordered alphabetically:
 		position: absolute;
 	}
 
-	#qr > form[name^='post'] input[name='email']+label {
-		bottom: 4px;
-		right: 70px;
+	#qr_form input[name='email'] + label {
+		bottom: 1px;
+		right: 4px;
 	}
 
 	#qr > form[name^='post'] #com_submit + label,
@@ -809,7 +870,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 17px 0 0 0 !important;
 		margin: 0 0 0px !important;
 	}
-	body > table ~ form[name='delform'] br[clear='left'], form[name='delform'] center {
+	body > table ~ form[name='delform'] br[clear='left'],
+	form[name='delform'] center {
 		position: fixed;
 		bottom: -500px;
 	}
@@ -824,14 +886,14 @@ This style is designed for the following browsers, ordered alphabetically:
 		border-spacing: 0 1px !important;
 	}
 
-	form[name='delform'] .filesize+br+a[target='_blank'] img, 
-	#qp .filesize+br+a[target='_blank'] img  {
+	form[name='delform'] .filesize + br + a[target='_blank'] img, 
+	#qp .filesize + br + a[target='_blank'] img  {
 		border: 0;
 		float: left;
 		margin: 0 20px 25px !important;
 	}
 
-	form[name='delform'] .filesize+br+a[target='_blank'] img+img {
+	form[name='delform'] .filesize + br + a[target='_blank'] img + img {
 		margin: 0 0 25px !important;
 	}
 
@@ -856,7 +918,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		border: 0 !important;
 	}
 
-	.commentpostername a.linkmail[href*='sage']::after, .commentpostername a.linkmail[href*='Sage']::after,
+	.commentpostername a.linkmail[href*='sage']::after,
+	.commentpostername a.linkmail[href*='Sage']::after,
 	.commentpostername a.linkmail[href*='SAGE']::after {
 /*[[sageidentifier]]*/
 	}
@@ -912,7 +975,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		bottom: auto !important;
 		font-size: 0 !important;
 		color: transparent !important;
-		z-index: 96 !important;
+		z-index: 40 !important;
 	}
 /* Strip 4chan+ of shadows and rounded edges */
 	#navbar,
@@ -946,7 +1009,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		bottom: auto !important;
 		width: 150px;
 		font-size: 13px !important;
-		z-index: 2;
 	}
 
 	#imgControls input {
@@ -983,7 +1045,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	#backwash_tooltip, /* /b/ackwash reloaded */
 	#popup, /* 4chanplus */
 	#qp, /* 4chan x Quote Preview */
-	div[id^=ref] /* 4chan4chrome */ {
+	div[id^=ref] /* 4chan4chrome */,
+	#cc-quotedcontainer_t  /* ChanChimp */ {
 		max-width: 70%;
 		visibility: visible;
 	}
@@ -992,17 +1055,9 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 2px 6px !important;
 	}
 
-	#backwash_tooltip,
-	#popup,
-	div[id^='ref'],
-	#cc-quotedcontainer_t {
-		visibility: visible;
-		z-index: 10 !important;
-	}
-
 	#cc-newpostarea,
 	#cc-newpostarea2 {
-		z-index: 9 !important;
+		z-index: 35 !important;
 	}
 
 	#backwash_tooltip img,
@@ -1025,9 +1080,9 @@ This style is designed for the following browsers, ordered alphabetically:
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: 2px !important;/**/
-		bottom: 1px;
+		bottom: 2px;
 		visibility: visible !important;
-		z-index: 2;
+		z-index: 5;
 	}
 
 	#popup {
@@ -1078,7 +1133,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#navlinks {
 		top: 0 !important;
-		z-index: 3 !important;
+		z-index: 15 !important;
 	}
 /*[[ReturnButton]]*/
 /* File Clearer support */
@@ -1092,14 +1147,14 @@ This style is designed for the following browsers, ordered alphabetically:
 		position: fixed !important;
 		right: 300px !important;
 		bottom: 0px !important;
-		z-index: 99 !important;
+		z-index: 70 !important;
 	}
 	.autoPagerS {
 		display: none !important;
 	}
 /* 4chan x options */
 	#overlay {
-		z-index: 99 !important;
+		z-index: 100 !important;
 	}
 
 	#options ul {
@@ -1135,7 +1190,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		-o-border-radius: 0;
 		border-radius: 0;
 		font-size: /*[[FontSize]]*/ !important;
-		z-index: 4 !important;
+		z-index: 20 !important;
 	}
 
 	#stats {
@@ -1164,7 +1219,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		border: 0 !important;
 		font-size: /*[[FontSize]]*/;
 		overflow: hidden;
-		z-index: 5 !important;
+		z-index: 25 !important;
 		padding-bottom: 2px;
 	}
 
@@ -1174,7 +1229,7 @@ This style is designed for the following browsers, ordered alphabetically:
 /*[[ChangeAlign]]*/
 		right: 2px !important;
 		left: auto !important;/**/
-		z-index: 99 !important;
+		z-index: 75 !important;
 	}
 
 	#updater #count:not(.new) {
@@ -1225,7 +1280,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		-moz-border-radius: 0;
 		-o-border-radius: 0;
 		border-radius: 0;
-		z-index: 2 !important;
+		z-index: 10 !important;
 	}
 
 	#threadwatcher .postblock {
@@ -1255,7 +1310,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		/*[[ChangeAlign]]*/
 		right: 20px !important;
 		left: auto !important;/**/
-		z-index: 96;
+		z-index: 40;
 	}
 
 	table[style='width: 100%; height: 300px; text-align: center; table-layout: fixed; border-collapse: collapse;'] {
@@ -1284,7 +1339,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	img[src^='http://static.4chan.org/support/'] {
 		display: none;
 	}
-/*[[MagicMode]]*/
+/*[[seganeko]]*/
 }
 
 /*[[QuickReply]]*/

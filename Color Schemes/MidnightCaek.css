@@ -1,12 +1,12 @@
 /* Midnight Caek */
 /*[[CustomScrollbars]]*/
+	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #1c1c1c; }
 	::-webkit-scrollbar-thumb { border: #101010 !important; background: #262626; }
 	::-webkit-scrollbar-thumb:hover { background: #3f3f3f; }
 	::-webkit-scrollbar-thumb:active { background: #111; }
-	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer { background: #1c1c1c; }
 	scrollbar, scrollcorner { background: #1c1c1c; }
-	thumb:active { background: -moz-linear-gradient(top, rgba(255,255,255,0.3), rgba(255,255,255,0.1)) !important; }
 	thumb { border-color: #101010 !important; background: #262626; }
+	thumb:active { background: -moz-linear-gradient(top, rgba(255,255,255,0.3), rgba(255,255,255,0.1)) !important; }
 	thumb:hover { background: -moz-linear-gradient(top, rgba(255,255,255,.4), rgba(255,255,255,0.2)) !important; }
 /**/
 	::-webkit-selection {
@@ -23,9 +23,11 @@
 		background: #aaa;
 		color: #101010;
 	}
+
 	body {
-background-image: none !important;
+		background-image: none !important;
 	}
+
 	body,
 	body > form,
 	html body span[style='left: 5px; position: absolute;'] a,
@@ -64,6 +66,7 @@ background-image: none !important;
 
 	div.postarea > form td:nth-of-type(3) > label,
 	#qr > form tr:nth-of-type(3) > td:nth-of-type(3) > label,
+	#post label,
 	#quickrep > form tr:nth-of-type(3) > td:nth-of-type(3) > label,
 	#autonoko {
 		color: #888;
@@ -174,9 +177,10 @@ background-image: none !important;
 	#options textarea,
 	#qr,
 	#qr > form tr:nth-of-type(3) > td:nth-of-type(3) > label input,
+	#qr label input,
+	#post,
 	#quickrep,
 	#quickrep > form tr:nth-of-type(3) > td:nth-of-type(3) > label input,
-	#qr label input,
 	#thread_filter input,
 	#thread_filter textarea,
 	#updater input:not([type='checkbox']),
@@ -204,6 +208,7 @@ background-image: none !important;
 	#backwash_tooltip,
 	#qp,
 	#qr::before,
+	#post::before,
 	#updater:hover,
 	#popup,
 	.chanchimp,
@@ -222,6 +227,7 @@ background-image: none !important;
 	}
 
 	#qr::before,
+	#post::before,
 	form[name^='post']::before {
 		border-radius: 6px 6px 0 0;
 		-o-border-radius: 6px 6px 0 0;
@@ -244,6 +250,7 @@ background-image: none !important;
 	html body span[style='left: 5px; position: absolute;'] a,
 	input[type='submit'],
 	#com_submit,
+	button #submit,
 	input[type='file'] > input[type='button'],
 	.recaptchatable #recaptcha_response_field:focus,
 	.deletebuttons input[type='password']:focus,
@@ -256,7 +263,8 @@ background-image: none !important;
 	input[type='checkbox'],
 	#options input[type='checkbox'],
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox'],
-	#qr label input[type='checkbox'] {
+	#qr label input[type='checkbox'],
+	#post label input[type='checkbox'] {
 		border: 1px solid #3c3c3c !important;
 		background: #000 !important;
 	}
@@ -264,14 +272,16 @@ background-image: none !important;
 	input[type=checkbox]:active,
 	#options input[type=checkbox]:active,
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:active,
-	#qr label input[type='checkbox']:active {
+	#qr label input[type='checkbox']:active,
+	#post label input[type='checkbox']:active {
 		background: #000 !important;
 	}
 
 	input[type=checkbox]:checked,
 	#options input[type=checkbox]:checked,
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:checked,
-	#qr label input[type='checkbox']:checked {
+	#qr label input[type='checkbox']:checked,
+	#post label input[type='checkbox']:checked {
 		background: #3c3c3c !important;
 	}
 
@@ -307,22 +317,27 @@ background-image: none !important;
 	form[name^='post']::before,
 	.postarea tr:nth-child(4) .postblock b,
 	#maxchars,
-	#qr::before {
+	#qr::before,
+	#post::before  {
 		color: rgba(255,255,255,0.3) !important;
 	}
 
 	#qr input:-moz-placeholder,
-	#qr textarea:-moz-placeholder {
+	#qr textarea:-moz-placeholder,
+	#post input:-moz-placeholder,
+	#post textarea:-moz-placeholder {
 		color: rgba(255,255,255,0.3) !important;
 	}
 
 	#qr input::-webkit-input-placeholder,
-	#qr textarea::-webkit-input-placeholder {
+	#qr textarea::-webkit-input-placeholder,
+	#post input::-webkit-input-placeholder,
+	#post textarea::-webkit-input-placeholder {
 		color: rgba(255,255,255,0.3) !important;
 	}
 
-	#qr input:placeholder,
-	#qr textarea:placeholder {
+	#post input:placeholder,
+	#post textarea:placeholder {
 		color: rgba(255,255,255,0.3) !important;
 	}
 
@@ -347,6 +362,7 @@ background-image: none !important;
 	#qr_captcha input,
 	input[type='file'] > input[type='button'],
 	input[type='submit'],
+	#submit,
 	select,
 	textarea {
 		border: none !important;
@@ -369,10 +385,6 @@ background-image: none !important;
 /*[[PostSeparationHR]]*/
 	}
 
-	.postarea textarea:focus {
-		bottom: 171px !important; /* Borders change the dimensions of the postform slightly. */
-	}
-
 	#filter input,
 	#filter textarea,
 	#thread_filter input,
@@ -380,6 +392,7 @@ background-image: none !important;
 	#updater input,
 	#options input,
 	#qr,
+	#post,
 	#quickrep,
 	div[id^=qr],
 	table.reply[style^='clear: both'] {

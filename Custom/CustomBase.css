@@ -1,0 +1,13 @@
+/* Custom: */
+	body {
+		background-image: none !important;
+	}
+
+	form[name='delform'] > div:not(.thread) select {
+		margin: 1px 0 0 0 !important;
+	}
+
+	form[name='delform'] > div:not(.thread) select,
+	.pages input[type='submit'] {
+		height: 15px !important;
+	}

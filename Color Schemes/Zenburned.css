@@ -23,9 +23,11 @@
 		background: #dcdccc;
 		color: #313c36;
 	}
+
 	body {
-background-image: none !important;
+		background-image: none !important;
 	}
+
 	body,
 	body > form,
 	html body span[style='left: 5px; position: absolute;'] a,
@@ -159,7 +161,7 @@ background-image: none !important;
 	#main,
 	#optionsbar,
 	#options .dialog {
-		background-color: #313c36 !important;
+		background-color: #575757 !important;
 	}
 
 	div[id^='4chan_ext_iqr'],
