@@ -1141,6 +1141,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		z-index: 100 !important;
 	}
 
+/*
+Disabled until further notice.
 	#options ul {
 		margin: 3px 0 !important;
 		overflow: hidden;
@@ -1162,6 +1164,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#options ul > li {
 		padding: 0 3px !important;
 	}
+*/
 /* End of 4chan x options */
 /*[[fixedFilter]]*/
 	#filter,
