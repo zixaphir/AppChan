@@ -64,30 +64,23 @@
 
 	div.postarea > form td:nth-of-type(3) > label,
 	#qr > form tr:nth-of-type(3) > td:nth-of-type(3)>label,
-	#post label,
 	#quickrep > form tr:nth-of-type(3) > td:nth-of-type(3) > label,
 	#autonoko {
 		color: #888;
 	}
 
 	#qr input:-moz-placeholder, /* Firefox */
-	#qr textarea:-moz-placeholder,
-	#post input:-moz-placeholder,
-	#post textarea:-moz-placeholder {
+	#qr textarea:-moz-placeholder {
 		color: rgba(255,255,255,0.3) !important;
 	}
 
 	#qr input::-webkit-input-placeholder, /* Google Chrome */
-	#qr textarea::-webkit-input-placeholder,
-	#post input::-webkit-input-placeholder,
-	#post textarea::-webkit-input-placeholder {
+	#qr textarea::-webkit-input-placeholder {
 		color: rgba(255,255,255,0.3) !important;
 	}
 
 	#qr input:placeholder, /* Opera and CSS3 Standardized Syntax. */
-	#qr textarea:placeholder,
-	#post input:placeholder,
-	#post textarea:placeholder {
+	#qr textarea:placeholder {
 		color: rgba(255,255,255,0.3) !important;
 	}
 
@@ -248,7 +241,6 @@
 	#options input,
 	#options textarea,
 	#qr,
-	#post,
 	#qr > form tr:nth-of-type(3) > td:nth-of-type(3) > label input,
 	#quickrep,
 	#quickrep > form tr:nth-of-type(3) > td:nth-of-type(3) > label input,
@@ -315,8 +307,7 @@
 	input[type='checkbox'],
 	#options input[type='checkbox'],
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox'],
-	#qr label input[type='checkbox'],
-	#post label input[type='checkbox'] {
+	#qr label input[type='checkbox'] {
 		border: 1px solid #3c3c3c !important;
 		background: #000 !important;
 	}
@@ -326,8 +317,7 @@
 	input[type=checkbox]:active,
 	#options input[type=checkbox]:active,
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:active,
-	#qr label input[type='checkbox']:active,
-	#post label input[type='checkbox']:active {
+	#qr label input[type='checkbox']:active {
 		background: #000 !important;
 	}
 
@@ -336,8 +326,7 @@
 	input[type=checkbox]:checked,
 	#options input[type=checkbox]:checked,
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:checked,
-	#qr label input[type='checkbox']:checked,
-	#post label input[type='checkbox']:checked {
+	#qr label input[type='checkbox']:checked {
 		background: #3c3c3c !important;
 	}
 
@@ -442,8 +431,7 @@
 /* Tabbed post form and quick reply background color for tab (and corner rounding) */
 
 	form[name^='post']::before,
-	#qr::before,
-	#post::before {
+	#qr::before {
 		background-color: #181818 !important;
 		border-radius: 6px 6px 0 0;
 		-o-border-radius: 6px 6px 0 0;

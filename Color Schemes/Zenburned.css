@@ -57,7 +57,7 @@
 		color: #dcdccc !important;
 	}
 
-/*[[TransparentReplies]]*/	.op > blockquote,
+/*[[TransparentUI]]*/	.op > blockquote,
 	.thread > blockquote,
 	form[name='delform'] > blockquote, /**/
 	div.logo font {
@@ -232,7 +232,7 @@
 		border-radius: 6px 6px 0 0;
 	}
 
-/*[[TransparentReplies]]*/	td.reply,
+/*[[TransparentUI]]*/	td.reply,
 		background-color: rgba(55,55,55,0.5) !important;
 		text-shadow: #313c36 1px 0 2px, #313c36 -1px 0 2px, #313c36 0 -1px 2px, #313c36 0 1px 2px;
 	}

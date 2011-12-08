@@ -57,7 +57,7 @@
 		color: #909090 !important;
 	}
 
-/*[[TransparentReplies]]*/	.op > blockquote,
+/*[[TransparentUI]]*/	.op > blockquote,
 	.thread > blockquote,
 	form[name='delform'] > blockquote, /**/
 	div.logo font {
@@ -66,7 +66,6 @@
 
 	div.postarea > form td:nth-of-type(3) > label,
 	#qr > form tr:nth-of-type(3) > td:nth-of-type(3) > label,
-	#post label,
 	#quickrep > form tr:nth-of-type(3) > td:nth-of-type(3) > label,
 	#autonoko {
 		color: #888;
@@ -178,7 +177,6 @@
 	#qr,
 	#qr > form tr:nth-of-type(3) > td:nth-of-type(3) > label input,
 	#qr label input,
-	#post,
 	#quickrep,
 	#quickrep > form tr:nth-of-type(3) > td:nth-of-type(3) > label input,
 	#thread_filter input,
@@ -208,7 +206,6 @@
 	#backwash_tooltip,
 	#qp,
 	#qr::before,
-	#post::before,
 	#updater:hover,
 	#popup,
 	.chanchimp,
@@ -227,13 +224,12 @@
 	}
 
 	#qr::before,
-	#post::before,
 	form[name^='post']::before {
 		border-radius: 6px 6px 0 0;
 		-o-border-radius: 6px 6px 0 0;
 	}
 
-/*[[TransparentReplies]]*/	td.reply {
+/*[[TransparentUI]]*/	td.reply {
 		background-color: rgba(38,38,38,0.5) !important;
 		text-shadow: #1c1c1c 1px 0 2px, #1c1c1c -1px 0 2px, #1c1c1c 0 -1px 2px, #1c1c1c 0 1px 2px;
 	}
@@ -263,8 +259,7 @@
 	input[type='checkbox'],
 	#options input[type='checkbox'],
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox'],
-	#qr label input[type='checkbox'],
-	#post label input[type='checkbox'] {
+	#qr label input[type='checkbox'] {
 		border: 1px solid #3c3c3c !important;
 		background: #000 !important;
 	}
@@ -272,16 +267,14 @@
 	input[type=checkbox]:active,
 	#options input[type=checkbox]:active,
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:active,
-	#qr label input[type='checkbox']:active,
-	#post label input[type='checkbox']:active {
+	#qr label input[type='checkbox']:active {
 		background: #000 !important;
 	}
 
 	input[type=checkbox]:checked,
 	#options input[type=checkbox]:checked,
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:checked,
-	#qr label input[type='checkbox']:checked,
-	#post label input[type='checkbox']:checked {
+	#qr label input[type='checkbox']:checked {
 		background: #3c3c3c !important;
 	}
 
@@ -317,27 +310,22 @@
 	form[name^='post']::before,
 	.postarea tr:nth-child(4) .postblock b,
 	#maxchars,
-	#qr::before,
-	#post::before  {
+	#qr::before  {
 		color: rgba(255,255,255,0.3) !important;
 	}
 
 	#qr input:-moz-placeholder,
-	#qr textarea:-moz-placeholder,
-	#post input:-moz-placeholder,
-	#post textarea:-moz-placeholder {
+	#qr textarea:-moz-placeholder {
 		color: rgba(255,255,255,0.3) !important;
 	}
 
 	#qr input::-webkit-input-placeholder,
-	#qr textarea::-webkit-input-placeholder,
-	#post input::-webkit-input-placeholder,
-	#post textarea::-webkit-input-placeholder {
+	#qr textarea::-webkit-input-placeholder {
 		color: rgba(255,255,255,0.3) !important;
 	}
 
-	#post input:placeholder,
-	#post textarea:placeholder {
+	#qr input:placeholder,
+	#qr textarea:placeholder {
 		color: rgba(255,255,255,0.3) !important;
 	}
 
@@ -392,7 +380,6 @@
 	#updater input,
 	#options input,
 	#qr,
-	#post,
 	#quickrep,
 	div[id^=qr],
 	table.reply[style^='clear: both'] {

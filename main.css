@@ -246,7 +246,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	img,
 	.pages,
 	.pages *,
-	#post,
 	#qr,
 	#quickrep,
 	div[id^='qr'],
@@ -426,18 +425,14 @@ This style is designed for the following browsers, ordered alphabetically:
 /* Formatting for all postarea elements */
 	.postarea form[name^='post'] input:not([type='checkbox']):not([type='radio']):not([type='file']),
 	#qr .move .inputtext,
-	#post .move .inputtext,
 	.postarea form[name^='post'] textarea,
 	.postarea form[name^='post'] [name='upfile'] > input,
 	.postarea #recaptcha_widget_div input,
 	#qr_form img,
 	#qr .inputtext[type='password'],
-	#post .inputtext[type='password'],
 	.postarea #recaptcha_widget_div #recaptcha_image img,
 	#qr textarea,
-	#post textarea,
-	#qr .inputtext,
-	#post .inputtext {
+	#qr .inputtext {
 		margin: 1px 0 0 !important;
 		vertical-align: bottom;
 	}
@@ -452,8 +447,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	.deletebuttons .inputtext,
 	.postarea #recaptcha_widget_div input,
 	.postarea form[name^='post'] input.inputtext,
-	#post form[name^='post'] input.inputtext,
-	#post form[name^='post'] [name='upfile'] > input,
 	#qr form[name^='post'] input.inputtext,
 	#qr form[name^='post'] [name='upfile'] > input,
 	#qr div.move input.inputtext,
@@ -498,9 +491,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	#qr #files input[name='upfile'] > input[type='button'],
 	form[name^='post'] input[name='upfile'] > input[type='button'],
 	#qr form[name^='post'] input[name='upfile'] > input[type='button'],
-	#post #submit,
-	#post #files input[name='upfile'] > input[type='button'],
-	#post form[name^='post'] input[name='upfile'] > input[type='button'],
 	.postarea form[name^='post'] input[name='upfile'] > input[type='button'],
 	#usernameText + input /* Last.fm button */ {
 		width: 62px !important;
@@ -515,8 +505,7 @@ This style is designed for the following browsers, ordered alphabetically:
 /* Force the file input's CONTAINER to behave as if it were non-existent, e.g. occupies no more space than its contents */
 	input[type='file'][name='upfile'],
 	.postarea input[type='file'][name='upfile'],
-	#qr form[name^='post'] input[type='file'][name='upfile'],
-	#post form[name^='post'] input[type='file'][name='upfile'] {
+	#qr form[name^='post'] input[type='file'][name='upfile'] {
 		height: auto !important;
 		border: none !important;
 		margin-top: 0 !important;
@@ -526,8 +515,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	.fake input[type='file']::-webkit-file-upload-button,
 	* > input[type='file'][name='upfile'],
 	* > .postarea input[type='file'][name='upfile'],
-	* > #qr form[name^='post'] input[type='file'][name='upfile'],
-	* > #post form[name^='post'] input[type='file'][name='upfile'] {
+	* > #qr form[name^='post'] input[type='file'][name='upfile'] {
 		background: transparent;
 		border: none !important;
 		height: 18px !important;
@@ -542,8 +530,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.fake input[type='file']::-webkit-file-upload-button,
-	* > #qr form[name^='post'] input[type='file'][name='upfile']
-	* > #post form[name^='post'] input[type='file'][name='upfile'] {
+	* > #qr form[name^='post'] input[type='file'][name='upfile'] {
 		width: 300px !important;
 	}
 /* Positioning of various postarea checkboxes */
@@ -724,8 +711,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: none !important;
 	}
 /* #qr dimensions */
-	#qr,
-	#post {
+	#qr {
 		z-index: 25;
 		height: auto !important;
 		width: 300px;
@@ -733,10 +719,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#qr input.inputtext,
-	#post #foo input.inputtext, /* I decided I didn't like putting the name, email, and subject fields on the same line */
 	#qr input[type='file'][name='upfile'] > input[type='text'],
-	#qr textarea,
-	#post textarea {
+	#qr textarea {
 		width: 300px !important;
 	}
 
