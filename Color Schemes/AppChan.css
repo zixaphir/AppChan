@@ -203,91 +203,14 @@
 		background-color: #393939 !important;
 	}
 /*[[TransparentUI]]*/
-	#boards h3,
-	#boardsMenu,
-	#ft li,
-	#ft ul,
-	#navbar,
-	#options,
-	#popup,
-	#threadwatcher,
-	#threadwatcher .postblock,
-	#watcher,
-	.box-outer,
-	.boxbar,
-	.deletebuttons input[value=Delete],
-	.recaptcha_image_cell > center > #recaptcha_image,
-	.recaptchatable #recaptcha_response_field,
-	.top-box,
-	.yuimenuitem-selected,
-	h2,
-	input,
-	input[type='file'] > input[type='button'],
-	input[type='submit'],
-	select,
-	td.postblock,
-	td.reply,
-	textarea {
+	td.reply {
 		background-color: rgba(56,56,56,0.5) !important;
 		text-shadow: #333 1px 0 2px, #333 -1px 0 2px, #333 0 -1px 2px, #333 0 1px 2px;
 	}
 
-	#backwash_tooltip,
-	#cc-showpostarea,
-	#filter.autohide:hover,
-	#filter:not(.autohide),
-	#twi_table_div,
-	#twi_table_div *,
-	#qp,
-	#updater:hover,
-	#thread_filter.autohide:hover,
-	#thread_filter:not(.autohide),
-	#popup,
-	.chanchimp,
-	.chanchimp > div,
-	.recaptchatable #recaptcha_response_field:hover,
-	.deletebuttons input[type='password']:hover,
-	div[id^=ref],
-	input:hover,
-	input[type='file'] > input[type='button']
-	input[type='submit']:hover,
-	td.replyhl,
-	tr.replyhl,
-	textarea:hover {
+	td.replyhl {
 		background-color: rgba(70,70,70,0.5) !important;
 		text-shadow: #393939 1px 0 2px, #393939 -1px 0 2px, #393939 0 -1px 2px, #393939 0 1px 2px;
-	}
-
-	div[id^='4chan_ext_iqr'],
-	div[id^='4chan_ext_iqr'] *,
-	#filter input,
-	#filter textarea,
-	#header,
-	#navbot,
-	#navbot::after,
-	#options input,
-	#options textarea,
-	#qr,
-	#qr > form tr:nth-of-type(3) > td:nth-of-type(3) > label input,
-	#quickrep,
-	#quickrep > form tr:nth-of-type(3) > td:nth-of-type(3) > label input,
-	#qr label input,
-	#thread_filter input,
-	#thread_filter textarea,
-	#updater input:not([type='checkbox']),
-	.bd,
-	.boxcontent > hr,
-	.boxcontent input,
-	.boxcontent textarea,
-	.pages,
-	html,
-	body,
-	div.postarea > form td:nth-of-type(3) > label input,
-	div[id^=qr],
-	table[width='100%']~#qr a#attach::after,
-	table.reply[style^='clear: both'] {
-		background-color: rgba(70,70,70,0.5) !important;
-		text-shadow: 2c2c2c 1px 0 2px, #2c2c2c -1px 0 2px, #2c2c2c 0 -1px 2px, #2c2c2c 0 1px 2px;
 	}/**/
 
 	.qphl {
