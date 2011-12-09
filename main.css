@@ -787,8 +787,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.top-box .menubutton,
-	.logo {
-		background: none transparent !important;
+	div.logo {
+		background: none !important;
 	}
 /* Post form Checkboxes */
 	form[name^='post'] tr:nth-of-type(3) > td:nth-of-type(3) {
