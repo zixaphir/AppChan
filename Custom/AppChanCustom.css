@@ -239,6 +239,8 @@
 	.boxcontent input,
 	.boxcontent textarea,
 	.pages,
+	.postarea form[name^='post'],
+	body,
 	h3,
 	div.postarea>form td:nth-of-type(3)>label input,
 	div[id^=qr],

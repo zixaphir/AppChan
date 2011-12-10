@@ -3,25 +3,31 @@
 	scrollbarbutton {
 		display: none !important;
 	}
+
 	::-webkit-scrollbar {
 		width: 12px !important;
 		height: 10px !important;
 	}
+
 	::-webkit-scrollbar-thumb {
 		border: 1px solid;
 	}
+
 	::-webkit-scrollbar-track-piece:vertical {
 		border-left: 0;
 	}
+
 	::-webkit-scrollbar-track-piece:horizontal {
 		border-top: 0;
 	}
+
 	scrollbar, scrollcorner {
 		-moz-appearance: none !important;
 		-o-appearance: none !important;
 		width: 12px !important;
 		height: 10px !important;
 	}
+
 	scrollbar[orient='vertical'] { border-left: 0; }
 	scrollbar[orient='horizontal'] { border-top: 0; }
 	thumb {
@@ -29,17 +35,21 @@
 		-o-appearance: none !important;
 		border: 1px solid;
 	}
+
 	::-webkit-scrollbar-thumb {
 		border: 1px solid #333 !important;
 		background: #000;
 		border-radius: 2px !important;
 	}
+
 	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer {
 		background: #111;
 	}
+
 	scrollbar, scrollcorner {
 		background: #111 !important;
 	}
+
 	thumb {
 		border: 1px solid #333 !important;
 		background: #000; border-radius: 2px !important;
@@ -59,10 +69,13 @@
 		background: #fff;
 		color: #000;
 	}
+
+	.postarea form[name^='post'],
 	body {
 		background: url("http://i.imgur.com/sbi8u.png") !important;
 		background-attachment: fixed !important;
 	}
+
 	body,
 	body > form,
 	html body span[style='left: 5px; position: absolute;'] a,
@@ -81,7 +94,7 @@
 	.pages b,
 	.postblock,
 	.postername,
-		.pages td,
+	.pages td,
 	.reply,
 	.replyhl,
 	.trip
@@ -93,7 +106,7 @@
 	#twi_table_div,
 	#updater #count:not(.new)::after,
 	font[color="red"] {
-		color: #FDFEFF !important;
+		color: #fdfeff !important;
 	}
 
 /*[[TransparentUI]]*/	.op > blockquote,
@@ -126,22 +139,22 @@
 	.postername a,
 	.commentpostername a,
 	a .postertrip {
-		color: #00FFFF !important;
+		color: #00ffff !important;
 	}
 
 	a:hover,
 	.postername a:hover,
 	.commentpostername a:hover,
 	a:hover .postertrip {
-		color: #00FFFF !important;
+		color: #00ffff !important;
 	}
 
 	a.backlink,
 	a.forwardlink {
-		color: #00FFFF !important;
+		color: #00ffff !important;
 	}
 	.postertrip, .linkmail .postertrip {
-		color: #FF52CB !important;
+		color: #ff52cb!important;
 	}
 	body > form {
 		padding-bottom: 10px !important;
@@ -159,7 +172,7 @@
 	}
 
 	.unkfunc {
-		color: #65FF65 !important;
+		color: #65ff65 !important;
 	}
 
 	#boards h3,
@@ -180,6 +193,7 @@
 	h2 {
 		background-color: rgba(0,0,0,0.4) !important;
 	}
+
 	.recaptchatable #recaptcha_response_field,
 	input,
 	input[type='file'] > input[type='button'],
@@ -188,7 +202,7 @@
 	td.postblock,
 	td.reply,
 	textarea {
-				background-color: rgba(0,0,0,0.6) !important;
+		background-color: rgba(0,0,0,0.6) !important;
 	}
 
 	div[id^='4chan_ext_iqr'],

@@ -187,6 +187,7 @@
 	.boxcontent input,
 	.boxcontent textarea,
 	.pages,
+	.postarea form[name^='post'],
 	html,
 	body,
 	div.postarea > form td:nth-of-type(3) > label input,

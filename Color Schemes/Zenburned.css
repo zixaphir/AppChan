@@ -188,6 +188,7 @@
 	.boxcontent input,
 	.boxcontent textarea,
 	.pages,
+	.postarea form[name^='post'],
 	html,
 	body,
 	#qr a#attach::after,
