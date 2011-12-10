@@ -387,6 +387,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		top: auto;
 		left: auto;
 		bottom: 21px;
+		width: 248px !important;
 		margin: 0 !important;
 		z-index: 25;
 	}
