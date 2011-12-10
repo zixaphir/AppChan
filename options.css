@@ -231,9 +231,6 @@ none
 	}
 
 	#navbot::after {
-		cursor: default;
-		position: fixed !important;
-		display: block !important;
 		left: auto !important;
 		right: 0 !important;
 		z-index: 45 !important;
@@ -260,12 +257,15 @@ none
 	#navbot:hover {
 		top: 0 !important;
 		z-index: 45 !important;
-		-webkit-transition: top .3s ease-in-out .3s, bottom .3s ease-in-out .3s;
-		-moz-transition: top .3s ease-in-out 3s, bottom .3s ease-in-out 3s;
-		-o-transition: top .3s ease-in-out .3s, bottom .3s ease-in-out .3s;
+		-webkit-transition: top .3s linear, bottom .3s linear;
+		-moz-transition: top .3s linear, bottom .3s linear;
+		-o-transition: top .3s linear, bottom .3s linear;
 	}
 
 	#navbot {
+		cursor: default;
+		position: fixed !important;
+		display: block !important;
 		visibility: visible !important;
 		position: fixed !important;
 		top: -61px !important;
@@ -280,9 +280,9 @@ none
 		width: 310px !important;
 		height: 40px !important;
 		text-align: center !important;
-		-webkit-transition: top .3s ease-in-out .3s, bottom .3s ease-in-out .3s;
-		-moz-transition: top .3s ease-in-out 3s, bottom .3s ease-in-out 3s;
-		-o-transition: top .3s ease-in-out .3s, bottom .3s ease-in-out .3s;
+		-webkit-transition: top .3s linear, bottom .3s linear;
+		-moz-transition: top .3s linear, bottom .3s linear;
+		-o-transition: top .3s linear, bottom .3s linear;
 	}
 /* Slideout Invert */
 	.pages {
@@ -324,12 +324,14 @@ none
 	#navbot:hover {
 		bottom: 1px !important;
 		z-index: 45 !important;
-		-webkit-transition: top .3s ease-in-out .3s, bottom .3s ease-in-out .3s;
-		-moz-transition: top .3s ease-in-out 3s, bottom .3s ease-in-out 3s;
-		-o-transition: top .3s ease-in-out .3s, bottom .3s ease-in-out .3s;
+		-webkit-transition: top .3s linear, bottom .3s linear;
+		-moz-transition: top .3s linear, bottom .3s linear;
+		-o-transition: top .3s linear, bottom .3s linear;
 	}
 
 	#navbot {
+		cursor: default;
+		display: block !important;
 		visibility: visible !important;
 		position: fixed !important;
 		bottom: -101px !important;
@@ -344,9 +346,9 @@ none
 		height: 40px !important;
 		word-spacing: -2px !important;
 		text-align: center !important;
-		-webkit-transition: top .3s ease-in-out .3s, bottom .3s ease-in-out .3s;
-		-moz-transition: top .3s ease-in-out 3s, bottom .3s ease-in-out 3s;
-		-o-transition: top .3s ease-in-out .3s, bottom .3s ease-in-out .3s;
+		-webkit-transition: top .3s linear, bottom .3s linear;
+		-moz-transition: top .3s linear, bottom .3s linear;
+		-o-transition: top .3s linear, bottom .3s linear;
 	}
 /* End */
 
@@ -538,7 +540,7 @@ none
 	.postarea form[name='post'] tr:nth-child(4) {
 		height: 79px !important;
 	}
-/* Transparent to Opaque: */
+/* Transparent Fade: */
 	.postarea form[name^='post'] {
 		right: auto !important;
 		left: 2px !important;
@@ -626,7 +628,7 @@ none
 	}
 /* Positioning "+" for files */
 	#qr a#attach {
-		bottom: 21px;
+		bottom: 20px;
 		right: 80px;
 	}
 /* Errors */
@@ -733,7 +735,7 @@ none
 	}
 /* Positioning "+" for files */
 	#qr a#attach {
-		bottom: 21px;
+		bottom: 20px;
 		right: 80px;
 	}
 /* Errors */
@@ -877,7 +879,7 @@ none
 	}
 /* Positioning "+" for files */
 	#qr a#attach {
-		bottom: 21px;
+		bottom: 20px;
 		right: 80px;
 	}
 /* Errors */
@@ -980,7 +982,7 @@ none
 	}
 /* Positioning "+" for files */
 	#qr a#attach {
-		bottom: 21px;
+		bottom: 20px;
 		right: 80px;
 	}
 /* Errors */
@@ -1036,15 +1038,8 @@ none
 	.postblock,
 /* End */
 
-/*[[PostSeparationHR]]*/
-/* Yes: */
-
-/* No: */
-		border: none !important;
-/* End */
-
 /*[[CaptchaReload]]*/
-/* Custom Captcha Reload Image: */
+/* Show: */
 	#quickrep .refreshBtn,
 	#recaptcha_reload_btn,
 	.refreshBtn {
@@ -1056,7 +1051,7 @@ none
 		overflow: hidden;
 		z-index: 1 !important;
 	}
-/* None: */
+/* Hide: */
 	#quickrep .refreshBtn,
 	#recaptcha_reload_btn,
 	.refreshBtn {
@@ -1375,6 +1370,13 @@ domain('images.4chan.org'),
 
 /* No: */
 /*
+/* End */
+
+/*[[PostSeparationHR]]*/
+/* Yes: */
+
+/* No: */
+		border: none !important;
 /* End */
 
 /*[[seganeko]]*/

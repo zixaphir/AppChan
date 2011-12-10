@@ -475,7 +475,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#com_submit /* Submit Button */,
 	#submit, /* aeosynth's submit button */
 	input[type='file'][name='upfile'] > input[type='button'] ,
-	form[name^='post'] [name='upfile'] > input[type='button'] /* Browse Button (Fx*) */ {
+	form[name^='post'] input[type='file'][name='upfile'] > input[type='button'] /* Browse Button (Fx*) */ {
 		cursor: default !important;
 		width: 50px;
 		height: 18px;
@@ -489,9 +489,9 @@ This style is designed for the following browsers, ordered alphabetically:
 	#submit,
 	#qr #com_submit,
 	#qr #files input[name='upfile'] > input[type='button'],
-	form[name^='post'] input[name='upfile'] > input[type='button'],
-	#qr form[name^='post'] input[name='upfile'] > input[type='button'],
-	.postarea form[name^='post'] input[name='upfile'] > input[type='button'],
+	form[name^='post'] input[type='file'][name='upfile'] > input[type='button'],
+	#qr form[name^='post'] input[type='file'][name='upfile'] > input[type='button'],
+	.postarea form[name^='post'] input[type='file'][name='upfile'] > input[type='button'],
 	#usernameText + input /* Last.fm button */ {
 		width: 62px !important;
 		margin: 1px 0 0 1px !important;
@@ -508,8 +508,13 @@ This style is designed for the following browsers, ordered alphabetically:
 	#qr form[name^='post'] input[type='file'][name='upfile'] {
 		height: auto !important;
 		border: none !important;
-		margin-top: 0 !important;
+		margin: 0 !important;
 		padding: 0 !important;
+		width: 248px !important;
+	}
+
+	#qr form[name^='post'] input[type='file'][name='upfile'] {
+		width: 300px !important;
 	}
 /* Webkit's file input box has a different syntax */
 	.fake input[type='file']::-webkit-file-upload-button,
@@ -522,16 +527,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 0 !important;
 		margin: 1px 0 0 !important;
 		text-transform: uppercase;
-	}
-
-	.fake input[type='file']::-webkit-file-upload-button,
-	* > .postarea input[type='file'][name='upfile'] {
-		width: 248px !important;
-	}
-
-	.fake input[type='file']::-webkit-file-upload-button,
-	* > #qr form[name^='post'] input[type='file'][name='upfile'] {
-		width: 300px !important;
 	}
 /* Positioning of various postarea checkboxes */
 	.postarea form[name^='post'] label {
