@@ -5,49 +5,56 @@
 /*[[background]]*/
 /* Furudo Erika: */
 		content: url('http://i.imgur.com/zLsPY.png');
-		bottom: 269px;
+		bottom: 261px;
 /* Hakase: */
 		content: url('http://i.imgur.com/TBHI6.png');
-		bottom: 269px;
+		bottom: 261px;
 /* Kagamine Rin: */
 		content: url('http://i.imgur.com/fXXd2.png');
-		bottom: 269px;
+		bottom: 261px;
 /* Kinomoto Sakura: */
 		content: url('http://i.imgur.com/Ve0hl.png');
-		bottom: 269px;
+		bottom: 261px;
 /* Shana: */
 		content: url('http://i.imgur.com/k3fgX.png');
 		left: 0;
 /* Ika Musume: */
 		content: url('http://i.imgur.com/uUhGG.png');
-		bottom: 269px;
+		bottom: 261px;
 /* Iwakura Lain: */
 		content: url('http://i.imgur.com/AfjG9.png');
-		bottom: 269px;
+		bottom: 261px;
 /* Samus Aran: */
 		content: url('http://i.imgur.com/34viJ.png');
-		bottom: 269px;
+		bottom: 261px;
 /* Hatsune Miku: */
 		content: url('http://i.imgur.com/vE3FJ.png');
-		bottom: 269px;
+		bottom: 261px;
 /* Li Syaoran: */
 		content: url('http://i.imgur.com/GySuy.png');
-		bottom: 269px;
+		bottom: 261px;
 /* Koiwai Yotsuba: */
 		content: url('http://i.imgur.com/1MyDM.png');
-		bottom: 269px;
+		bottom: 261px;
 /* BLACK ROCK SHOOTER: */
 		content: url('http://i.imgur.com/VidKo.png');
-		bottom: 269px;
+		bottom: 261px;
 /* George Costanza: */
 		content: url('http://i.imgur.com/Nnsrf.png');
-		bottom: 269px;
+		bottom: 261px;
 /* Nagato Yuki: */
 		content: url('http://i.imgur.com/VAWnW.png');
-		bottom: 269px;
+		bottom: 261px;
 /* Golden Darkness: */
 		content: url('http://i.imgur.com/lYGo4.png');
 		bottom: 0;
+/* Hasekura Youko: */
+		content: url('http://i.imgur.com/qTQqY.png');
+		bottom: 261px;
+/* Nakano Azusa: */
+		content: url('http://i.imgur.com/Kc8mo.png');
+		bottom: 261px;
+		z-index: 1;
 /* None: */
 none
 /* End */
@@ -91,7 +98,7 @@ none
 /* Enabled: */
 	/*[[MarginCenter]]*/
 	 .replyhider a {
-		z-index: 1;
+		z-index: 2;
 		position: absolute;
 		right: 5px;
 	/*[[ChangeAlign]]*/	right: 255px;/**/
@@ -105,7 +112,7 @@ none
 	}
 
 	.replyhider a {
-		z-index: 1;
+		z-index: 2;
 		position: absolute;
 		right: 5px;
 	}
@@ -412,7 +419,7 @@ none
 		left: auto !important;/**/
 		bottom: 327px !important;
 		width: 248px !important;
-		z-index: 1;
+		z-index: 2;
 		text-align: center;
 	}
 
@@ -433,7 +440,7 @@ none
 		left: auto !important;/**/
 		top: 140px !important;
 		width: 248px !important;
-		z-index: 1;
+		z-index: 2;
 		text-align: center;
 	}
 /* Hide Both */
@@ -647,7 +654,7 @@ none
 		background-color: #aaa !important;
 		color: #000 !important;
 		font-size: 11px !important;
-		z-index: 1;
+		z-index: 2;
 	}
 /* Webkit Hax */
 	.fake input[type='file']::-webkit-file-upload-button,
@@ -754,7 +761,7 @@ none
 		background-color: #aaa !important;
 		color: #000 !important;
 		font-size: 11px !important;
-		z-index: 1;
+		z-index: 2;
 	}
 /* Webkit Hax */
 	.fake input[type='file']::-webkit-file-upload-button,
@@ -898,7 +905,7 @@ none
 		background-color: #aaa !important;
 		color: #000 !important;
 		font-size: 11px !important;
-		z-index: 1;
+		z-index: 2;
 	}
 /* Webkit Hax */
 	.fake input[type='file']::-webkit-file-upload-button,
@@ -1001,7 +1008,7 @@ none
 		background-color: #aaa !important;
 		color: #000 !important;
 		font-size: 11px !important;
-		z-index: 1;
+		z-index: 2;
 	}
 /* Webkit Hax */
 	.fake input[type='file']::-webkit-file-upload-button,
