@@ -90,6 +90,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	html body > a:not([style='cursor: pointer; float: right;']),
 	scrollbarbutton,
 	small,
+	table + br[clear='left'],
 	td[style^='padding: ']:not(#backwash_tipcell):not([style='padding: 10px 7px 7px 7px;']):not([style='padding: 10px 7px 7px;']),
 	td.rules,
 	th,
