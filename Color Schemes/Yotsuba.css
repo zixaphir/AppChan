@@ -64,6 +64,10 @@
 		background-color: #f0e0d6 !important;
 	}
 
+	input[type='file']::-webkit-file-upload-button {
+		background-color: #f0e0d6 !important;
+	}
+
 	td.reply {
 		border:1px solid #D9BFB7 !important;
 	}

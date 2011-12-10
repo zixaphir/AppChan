@@ -94,6 +94,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	td.rules,
 	th,
 	[id='4chan_ext_nav_top'],
+	#announce,
 	#footer > *:not(#navbot):not(center),
 	#ft li.fill,
 	#popular-threads,

@@ -226,6 +226,16 @@
 		background-color: #1c1c1c !important;
 	}
 
+/* 
+	Placing this with the previous declaration will cause 
+	Firefox to ignore the whole declaration, so put it on it's own line.
+	Background color of the browse button in Chrome.
+*/
+
+	input[type='file']::-webkit-file-upload-button {
+		background-color: #1c1c1c !important;
+	}
+
 /* Background color of things like 4chan X's quick reply and 4chan X's options, and anything that matches that color */
 
 
@@ -279,7 +289,6 @@
 	div[id^=ref],
 	form[name^='post']::before,
 	input:hover,
-	input[type='file'] > input[type='button']
 	input[type='submit']:hover,
 	td.replyhl,
 	tr.replyhl,

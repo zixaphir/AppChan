@@ -157,7 +157,11 @@ background-image: none !important;
 	td.postblock,
 	td.reply,
 	textarea {
-		background-color: #002B36 !important;
+		background-color: #002b36 !important;
+	}
+
+	input[type='file']::-webkit-file-upload-button {
+		background-color: #002b36 !important;
 	}
 
 	div[id^='4chan_ext_iqr'],

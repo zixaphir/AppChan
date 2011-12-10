@@ -165,6 +165,10 @@ background-image: none !important;
 		background-color: #efefef !important;
 	}
 
+	input[type='file']::-webkit-file-upload-button {
+		background-color: #efefef !important;
+	}
+
 	div[id^='4chan_ext_iqr'],
 	div[id^='4chan_ext_iqr'] > *,
 	input[type='submit']:hover,

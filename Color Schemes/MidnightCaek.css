@@ -163,6 +163,10 @@
 		background-color: #1c1c1c !important;
 	}
 
+	input[type='file']::-webkit-file-upload-button {
+		background-color: #1c1c1c !important;
+	}
+
 	div[id^='4chan_ext_iqr'],
 	div[id^='4chan_ext_iqr'] > *,
 	input[type='submit']:hover,
@@ -216,7 +220,6 @@
 	div[id^=ref],
 	form[name^='post']::before,
 	input:hover,
-	input[type='file'] > input[type='button']
 	input[type='submit']:hover,
 	td.replyhl,
 	tr.replyhl,
@@ -245,10 +248,9 @@
 	}
 
 	html body span[style='left: 5px; position: absolute;'] a,
-	input[type='submit'],
 	#com_submit,
 	button #submit,
-	input[type='file'] > input[type='button'],
+	input[type='file'] > input[type='button']:focus,
 	.recaptchatable #recaptcha_response_field:focus,
 	.deletebuttons input[type='password']:focus,
 	input:focus,

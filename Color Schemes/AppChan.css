@@ -147,6 +147,10 @@
 		background-color: #333 !important;
 	}
 
+	input[type='file']::-webkit-file-upload-button {
+		background-color: #333 !important;
+	}
+
 	div[id^='4chan_ext_iqr'],
 	div[id^='4chan_ext_iqr'] *,
 	#filter input,

@@ -268,11 +268,21 @@
 	.deletebuttons input[type='password']:hover,
 	div[id^=ref],
 	input:hover,
-	input[type='file']>input[type='button']
+	input[type='file'] > input[type='button']
 	input[type='submit']:hover,
 	td.replyhl,
 	tr.replyhl,
 	textarea:hover {
+		background-color: #393939 !important;
+	}
+
+/* 
+	Placing this with the previous declaration will cause 
+	Firefox to ignore the whole declaration, so put it on it's own line.
+	Background color of the browse button in Chrome.
+*/
+
+	input[type='file']::-webkit-file-upload-button {
 		background-color: #393939 !important;
 	}
 
