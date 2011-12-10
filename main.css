@@ -392,9 +392,12 @@ This style is designed for the following browsers, ordered alphabetically:
 		z-index: 25;
 	}
 
-	.postarea form[name^='post'] > table,
 	#recaptcha_image {
 		width: 248px !important;
+	}
+	
+	.postarea form[name^='post'] table td * {
+		float: left;
 	}
 /*[[PostForm]]*/
 	.postarea form[name^='post'] > table > tbody > tr > td {
