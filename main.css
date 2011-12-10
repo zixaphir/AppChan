@@ -136,6 +136,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	td,
 	fieldset,
 	blockquote,
+	form[name^='post'] input[name='email'] + label,
 	textarea,
 	div.move,
 	center > font > b,
@@ -145,10 +146,23 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postername,
 	.commentpostername,
 	.container::before,
+	.filesize span::after
 	.postertrip,
+	.pages a,
+	.pages b,
+	.pages input,
+	.postarea form[name^='post'] textarea,
 	.replytitle,
 	.rules,
-	#captchas {
+	#captchas,
+	#filter,
+	#header a,
+	#imgControls label::after,
+	#options,
+	#stats,
+	#thread_filter,
+	#updater
+	#updater #count:not(.new)::after, {
 		font-size: /*[[FontSize]]*/ !important;
 	}
 
@@ -333,7 +347,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		-moz-appearance: none;
 		-o-appearance: none;
 		display: inline-block;
-		font-size: /*[[FontSize]]*/ !important;
 		text-align: center;
 		border: none !important;
 		text-align: center;
@@ -445,7 +458,6 @@ This style is designed for the following browsers, ordered alphabetically:
 /* Width and height of all postarea elements (excluding some captcha elements) */
 	.postarea form[name^='post'] textarea {
 		height: 78px !important;
-		font-size: /*[[FontSize]]*/ !important;
 	}
 
 	input[type='password'],
@@ -801,7 +813,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	form[name^='post'] input[name='email'] + label {
 		position: absolute;
 		top: auto;
-		font-size: /*[[FontSize]]*/ !important;
 		bottom: 21px;
 		right: 70px;
 		vertical-align: bottom;
@@ -892,9 +903,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin-top: 17px !important;
 	}
 /*[[expandfile]]*/
-	.filesize span::after {
-		font-size: /*[[FontSize]]*/ !important;
-	}
 
 	#filter.autohide:hover,
 	#filter:not(.autohide),
@@ -1010,7 +1018,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#imgControls label::after {
-		font-size: /*[[FontSize]]*/ !important;
 		content: 'Expand';
 	}
 
@@ -1178,7 +1185,6 @@ Disabled until further notice.
 		-moz-border-radius: 0;
 		-o-border-radius: 0;
 		border-radius: 0;
-		font-size: /*[[FontSize]]*/ !important;
 		z-index: 20 !important;
 	}
 
@@ -1206,7 +1212,6 @@ Disabled until further notice.
 		bottom: auto !important;
 		width: 58px !important;
 		border: 0 !important;
-		font-size: /*[[FontSize]]*/;
 		overflow: hidden;
 		z-index: 25 !important;
 		padding-bottom: 2px;
@@ -1227,7 +1232,6 @@ Disabled until further notice.
 	}
 
 	#updater #count:not(.new)::after {
-		font-size: /*[[FontSize]]*/ !important;
 		content: '+0';
 	}
 
