@@ -71,7 +71,7 @@
 	}
 
 	.postarea form[name^='post'],
-	body {
+	html > body {
 		background: url("http://i.imgur.com/sbi8u.png") !important;
 		background-attachment: fixed !important;
 	}

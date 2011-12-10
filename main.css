@@ -76,6 +76,7 @@ This style is designed for the following browsers, ordered alphabetically:
 }
 
 @-moz-document domain('4chan.org') {
+/* Cleanup */
 /*[[helpertext]]*/
 	body > br,
 	body > hr,
@@ -122,12 +123,10 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postarea .refreshBtn,
 	.yui-menu-shadow,
 	.warnicon {
-	/* Cleanup */
 		display: none !important;
 	}
-
+/* Defaults of all elements */
 	* {
-	/* Defaults of all elements */
 		font-family: /*[[Font]]*/ !important;
 		text-decoration: none !important;
 	}
