@@ -396,6 +396,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 248px !important;
 	}
 /*[[ChangeAlign]]*/
+	.fake input[type='file']::-webkit-file-upload-button,
 	.postarea form[name^='post'] table td * {
 		float: left;
 	}
