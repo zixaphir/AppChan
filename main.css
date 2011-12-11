@@ -877,6 +877,8 @@ This style is designed for the following browsers, ordered alphabetically:
 
 /*[[ReplyWidth]]*/
 
+/*[[ReplyPadding]]*/
+
 	form[name='delform'] > table:not(.pages),
 	div.thread > table,
 	.insertedPosts > table {
@@ -902,6 +904,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	.filesize {
 		margin-top: 17px !important;
 	}
+
 /*[[expandfile]]*/
 
 	#filter.autohide:hover,

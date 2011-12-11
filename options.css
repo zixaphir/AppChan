@@ -1513,3 +1513,36 @@ domain('images.4chan.org'),
 		margin: 12px 40px 20px;
 	}
 /* End */
+
+/*[[ReplyPadding]]*/
+/* Normal: */
+	.op blockquote,
+	.reply blockquote,
+	.replyhl blockquote {
+		margin: 12px 40px;
+	}
+/* Half: */
+	.op blockquote,
+	.reply blockquote,
+	.replyhl blockquote {
+		margin: 6px 20px;
+	}
+/* Minimal: */
+	.op blockquote,
+	.reply blockquote,
+	.replyhl blockquote {
+		margin: 3px 10px;
+	}
+/* None: */
+	.op blockquote,
+	.reply blockquote,
+	.replyhl blockquote {
+		margin: 0;
+	}
+/* 150%: */
+	.op blockquote,
+	.reply blockquote,
+	.replyhl blockquote {
+		margin: 18px 60px;
+	}
+/* End */
