@@ -1298,7 +1298,7 @@ Disabled until further notice.
 /* 4sight */
 	body > a[style='cursor: pointer; float: right;'] {
 		position: fixed;
-		top:20px;
+		top: 20px;
 		left: 20px;
 		/*[[ChangeAlign]]*/
 		right: 20px !important;
@@ -1306,21 +1306,26 @@ Disabled until further notice.
 		z-index: 40;
 	}
 
-	table[style='width: 100%; height: 300px; text-align: center; table-layout: fixed; border-collapse: collapse;'] {
-		height: 700px !important;
+	body > a[style='cursor: pointer; float: right;'] ~ div[style='width: 100%;'] {
+		display: block;
+		position: fixed;
+		top: 17px;
+		bottom: 17px;
+		left: 252px;
+		right: 4px;
+		/*[[ChangeAlign]]*/
+		left: 4px;
+		right: 252px;/**/
+		width: auto !important;
+		margin: 0 !important;
 	}
 
-	div[style='height: 300px; overflow-y: auto;'] {
-		height: 700px !important;
-	}
-
-	#fs_preview {
-		height: 700px !important;
+	body > a[style='cursor: pointer; float: right;'] ~ div[style='width: 100%;'] > table {
+		height: 100% !important;
 	}
 
 	#fs_search {
-		min-width: 138px !important;
-		max-width: 138px !important;
+		min-width: 170px !important;
 	}
 /*[[PagesPosition]]*/
 /*[[ColorScheme]]*/
