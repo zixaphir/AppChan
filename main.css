@@ -714,15 +714,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	body > form #imgControls {
 		z-index: 55 !important;
 	}
-
-	#imageType {
-		border: none !important;
-		width: 90px !important;
-		position: relative !important;
-		bottom: 1px !important;
-		right: 0px !important;
-		background: none !important;
-	}
 /* #qr dimensions */
 	#qr {
 		z-index: 25;
@@ -997,22 +988,19 @@ This style is designed for the following browsers, ordered alphabetically:
 /* Expand Images div */
 	#imgControls {
 		position: fixed;
-		left: 2px !important;
+		left: 4px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
-		right: 101px !important;/**/
+		right: 148px !important;/**/
 		top: 0;
 		bottom: auto !important;
-		width: 150px;
+		width: 110px;
 		font-size: 13px !important;
 	}
 
 	#imgControls input {
-		width: 10px !important;
-		height: 10px !important;
-		margin: 4px 1px !important;
-		vertical-align: top !important;
+		display: none;
 	}
 
 	#imgControls label {
@@ -1024,8 +1012,14 @@ This style is designed for the following browsers, ordered alphabetically:
 		content: 'Expand';
 	}
 
-	#imgControls select {
+	#imageType {
 		float: right !important;
+		border: none !important;
+		width: 50px !important;
+		position: relative !important;
+		bottom: 1px !important;
+		right: 0px !important;
+		background: none !important;
 	}
 /* Hide UI of the select element */
 	select > button,
@@ -1238,17 +1232,8 @@ Disabled until further notice.
 		content: '+0';
 	}
 
-	#watcher /* 4chan x thread watcher */ {
-		position: fixed !important;
-		top: 17px !important;
-		right: auto !important;
-		left: 2px !important;
-/*[[ChangeAlign]]*/
-		right: 2px !important;
-		left: auto !important;/**/
-		bottom: auto !important;
-		width: 248px !important;
-	}
+/*[[WatcherType]]*/
+
 	#watcher .move {
 		font-size: 0px !important;
 		height: 15px !important;

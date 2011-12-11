@@ -297,6 +297,7 @@
 	form[name^='post'] .postblock b,
 	.postarea tr:nth-child(4) .postblock b::after,
 	.postarea form[name^='post']::before,
+	#watcher::before,
 	#maxchars {
 		color: rgba(255,255,255,0.2) !important;
 	}
@@ -364,6 +365,7 @@
 	}
 
 	form[name^='post']::before,
+	#watcher::before,
 	#qr::before {
 		background-color: #282a2e !important;
 		border-radius: 6px 6px 0 0;

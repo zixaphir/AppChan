@@ -52,6 +52,7 @@ background-image: none !important;
 	#qr::before,
 	#twi_table_div,
 	#updater #count:not(.new)::after,
+	#watcher::before,
 	font[color="red"] {
 		color: #000 !important;
 	}
@@ -144,6 +145,7 @@ background-image: none !important;
 	#threadwatcher,
 	#threadwatcher .postblock,
 	#watcher,
+	#watcher::before,
 	#thread_filter.autohide:hover,
 	#thread_filter:not(.autohide),
 	.box-outer,

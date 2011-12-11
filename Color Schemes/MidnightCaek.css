@@ -212,6 +212,7 @@
 	#qp,
 	#qr::before,
 	#updater:hover,
+	#watcher::before,
 	#popup,
 	.chanchimp,
 	.chanchimp > div,
@@ -228,6 +229,7 @@
 	}
 
 	#qr::before,
+	#watcher::before,
 	form[name^='post']::before {
 		border-radius: 6px 6px 0 0;
 		-o-border-radius: 6px 6px 0 0;
@@ -312,6 +314,7 @@
 	form[name^='post'] .postblock b,
 	form[name^='post']::before,
 	.postarea tr:nth-child(4) .postblock b,
+	#watcher::before,
 	#maxchars,
 	#qr::before  {
 		color: rgba(255,255,255,0.3) !important;

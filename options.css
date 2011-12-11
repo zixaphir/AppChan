@@ -1,6 +1,6 @@
 /*[[ColorScheme]]*/
 /* See './Color Schemes/' */
-/* End */
+/* END */
 
 /*[[background]]*/
 /* Furudo Erika: */
@@ -57,7 +57,7 @@
 		z-index: 1;
 /* None: */
 none
-/* End */
+/* END */
 
 /*[[Font]]*/
 /* Don't Care: */
@@ -120,7 +120,7 @@ none
 	.replyhider {
 		width: 0 !important;
 		padding: 0 !important;
-/* End */
+/* END */
 
 /*[[StickyNavigation]]*/
 /* Yes: */
@@ -357,7 +357,7 @@ none
 		-moz-transition: top .3s linear, bottom .3s linear;
 		-o-transition: top .3s linear, bottom .3s linear;
 	}
-/* End */
+/* END */
 
 /*[[CompactNavigation]]*/
 /* Yes: */
@@ -375,7 +375,7 @@ none
 		margin: 0 1px;
 		min-width: 14px;
 	}
-/* End */
+/* END */
 
 /*[[PagesPosition]]*/
 /* Side */
@@ -406,7 +406,7 @@ none
 	}
 /* Normal: */
 
-/* End */
+/* END */
 
 /*[[boardlogo]]*/
 /* Board Name */
@@ -447,7 +447,7 @@ none
 	div.logo {
 		display: none;
 	}
-/* End */
+/* END */
 
 /*[[PostForm]]*/
 /* Fixed: */
@@ -566,7 +566,7 @@ none
 		-moz-transition: opacity .3s linear;
 		-o-transition: opacity .3s linear;
 	}
-/* End */
+/* END */
 
 /*[[QuickReply]]*/
 /* Yes: */
@@ -1018,7 +1018,7 @@ none
 }
 /* No: */
 
-/* End */
+/* END */
 
 /*[[helpertext]]*/
 /* Yes: */
@@ -1043,7 +1043,7 @@ none
 	}
 
 	.postblock,
-/* End */
+/* END */
 
 /*[[CaptchaReload]]*/
 /* Show: */
@@ -1064,7 +1064,7 @@ none
 	.refreshBtn {
 		display: none;
 	}
-/* End */
+/* END */
 
 /*[[ReturnButton]]*/
 /* Yes: */
@@ -1103,7 +1103,7 @@ none
 	html body span[style='left: 5px; position: absolute;'] {
 		display: none;
 	}
-/* End */
+/* END */
 
 /*[[DeleteButtons]]*/
 /* Show: */
@@ -1122,7 +1122,7 @@ none
 	form[name^='post'] tr:nth-of-type(7) td.postblock {
 		visibility: hidden;
 	}
-/* End */
+/* END */
 
 /*[[ReplyWidth]]*/
 /* Fit Width: */
@@ -1145,14 +1145,14 @@ none
 	.replyhider a {
 		position: static;
 	}
-/* End */
+/* END */
 
 /*[[TransparentUI]]*/
 /* Yes: */
 
 /* No: */
 /*
-/* End */
+/* END */
 
 /*[[RoundedCorners]]*/
 /* Yes: */
@@ -1245,7 +1245,7 @@ none
 	}
 /* No: */
 
-/* End */
+/* END */
 
 /*[[sageidentifier]]*/
 /* Sage Image: */
@@ -1255,7 +1255,7 @@ none
 		color: #e42217 !important;
 /* None: */
 
-/* End */
+/* END */
 
 /*[[expandfile]]*/
 /* Yes: */
@@ -1270,7 +1270,7 @@ none
 	}
 /* No: */
 
-/* End */
+/* END */
 
 /*[[fixedFilter]]*/
 /* Locked in Thread Watcher / Top */
@@ -1362,7 +1362,7 @@ none
 		margin: 2px !important;
 		width: 248px;
 	}
-/* End */
+/* END */
 
 /*[[CenteredImages]]*/
 /* Yes: */
@@ -1370,21 +1370,21 @@ domain('images.4chan.org'),
 
 /* No: */
 
-/* End */
+/* END */
 
 /*[[CustomScrollbars]]*/
 /* Yes: */
 
 /* No: */
 /*
-/* End */
+/* END */
 
 /*[[PostSeparationHR]]*/
 /* Yes: */
 
 /* No: */
 		border: none !important;
-/* End */
+/* END */
 
 /*[[seganeko]]*/
 /* Yes: */
@@ -1397,14 +1397,14 @@ domain('images.4chan.org'),
 	}
 /* No: */
 
-/* End */
+/* END */
 
 /*[[ChangeAlign]]*/
 /* Right: */
 
 /* Left: */
 /*
-/* End */
+/* END */
 
 /*[[ihover]]*/
 /* Fit to Screen Width */
@@ -1424,14 +1424,14 @@ domain('images.4chan.org'),
 	}
 /* None */
 
-/* End */
+/* END */
 
 /*[[redtext]]*/
 /* Show */
 
 /* Hide */
 	display: none !important;
-/* End */
+/* END */
 
 /*[[MarginCenter]]*/
 /* No */
@@ -1445,7 +1445,7 @@ domain('images.4chan.org'),
 	padding: 0 150px 0 252px !important;
 	/*[[ChangeAlign]]*/padding: 0 252px 0 150px !important;/**/
  }
-/* End */
+/* END */
 
 /*[[BackLinks]]*/
 /* Top: */
@@ -1512,7 +1512,7 @@ domain('images.4chan.org'),
 	.replyhl .container ~ blockquote {
 		margin: 12px 40px 20px;
 	}
-/* End */
+/* END */
 
 /*[[ReplyPadding]]*/
 /* Normal: */
@@ -1545,4 +1545,97 @@ domain('images.4chan.org'),
 	.replyhl blockquote {
 		margin: 18px 60px;
 	}
-/* End */
+/* END */
+
+/*[[WatcherType]]*/
+/* Normal: */
+	#watcher /* 4chan x thread watcher */ {
+		position: fixed !important;
+		top: 17px !important;
+		right: auto !important;
+		left: 2px !important;
+/*[[ChangeAlign]]*/
+		right: 2px !important;
+		left: auto !important;/**/
+		bottom: auto !important;
+		width: 248px !important;
+	}
+/* Slideout: */
+	#watcher /* 4chan x thread watcher */ {
+		position: fixed !important;
+		top: 17px !important;
+		right: auto !important;
+		left: -250px !important;
+/*[[ChangeAlign]]*/
+		right: -250px !important;
+		left: auto !important;/**/
+		bottom: auto !important;
+		width: 248px !important;
+		-webkit-transition: right .3s linear, left .3s linear;
+		-moz-transition: right .3s linear, left .3s linear;
+		-o-transition: right .3s linear, left .3s linear;
+	}
+
+	#watcher:hover {
+		left: 2px !important;
+/*[[ChangeAlign]]*/
+		right: 2px !important;
+		left: auto !important;/**/
+		-webkit-transition: right .3s linear, left .3s linear;
+		-moz-transition: right .3s linear, left .3s linear;
+		-o-transition: right .3s linear, left .3s linear;
+	}
+
+	#watcher::before {
+		position: fixed;
+		left: 0;
+		-webkit-transform: rotate(90deg);
+		-webkit-transform-origin: bottom left;
+		-moz-transform: rotate(90deg);
+		-moz-transform-origin: bottom left;
+		-o-transform: rotate(90deg);
+		-o-transform-origin: bottom left;
+/*[[ChangeAlign]]*/
+		right: 0;
+		top: 0;
+		left: auto;
+		-webkit-transform: rotate(-90deg);
+		-webkit-transform-origin: bottom right;
+		-moz-transform: rotate(-90deg);
+		-moz-transform-origin: bottom right;
+		-o-transform: rotate(-90deg);
+		-o-transform-origin: bottom right;/**/
+		font-size: 10px !important;
+		text-align: center;
+		content: 'WATCHER';
+		z-index: -1;
+		padding: 0 15px;
+		opacity: 1;
+		-webkit-transition: opacity .3s ease-in-out 3s;
+		-moz-transition: opacity .3s ease-in-out 3s;
+		-o-transition: opacity .3s ease-in-out 3s;
+	}
+/* Transparent Fade: */
+	#watcher /* 4chan x thread watcher */ {
+		position: fixed !important;
+		top: 17px !important;
+		right: auto !important;
+		left: 2px !important;
+/*[[ChangeAlign]]*/
+		right: 2px !important;
+		left: auto !important;/**/
+		bottom: auto !important;
+		width: 248px !important;
+		opacity: 0.2;
+		-webkit-transition: opacity .3s ease-in-out 3s;
+		-moz-transition: opacity .3s ease-in-out 3s;
+		-o-transition: opacity .3s ease-in-out 3s;
+	}
+
+	#watcher:hover {
+		opacity: 1;
+		-webkit-transition: opacity .3s linear;
+		-moz-transition: opacity .3s linear;
+		-o-transition: opacity .3s linear;
+	}
+/* END */

@@ -46,6 +46,7 @@
 	#thread_filter.autohide:hover,
 	#thread_filter:not(.autohide),
 	#updater:hover,
+	#watcher::before,
 	.box-outer,
 	.boxbar,
 	.deletebuttons input[value=Delete],
@@ -357,6 +358,7 @@
 	#thread_filter.autohide:hover,
 	#thread_filter:not(.autohide),
 	#updater:hover,
+	#watcher::before,
 	.box-outer,
 	.boxbar,
 	.deletebuttons input[value=Delete],
@@ -682,6 +684,7 @@
 	}
 
 	#qr::before,
+	#watcher::before,
 	form[name^='post']::before {
 		border-radius: 6px 6px 0 0;
 		-o-border-radius: 6px 6px 0 0;
@@ -717,6 +720,7 @@
 	form[name^='post']::before,
 	.postarea tr:nth-child(4) .postblock b,
 	#maxchars,
+	#watcher::before,
 	#qr::before {
 		color: rgba(0,0,0,0.5) !important;
 	}

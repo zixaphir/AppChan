@@ -282,6 +282,7 @@
 	#qp,
 	#updater:hover,
 	#popup,
+	#watcher::before,
 	.chanchimp,
 	.chanchimp > div,
 	.deletebuttons input[type='password']:hover,
@@ -421,6 +422,7 @@
 	form[name^='post'] .postblock b,
 	.postarea tr:nth-child(4) .postblock b::after,
 	.postarea form[name^='post']::before,
+	#watcher::before,
 	#maxchars {
 		color: rgba(255,255,255,0.3) !important;
 	}
@@ -441,6 +443,7 @@
 /* Tabbed post form and quick reply background color for tab (and corner rounding) */
 
 	form[name^='post']::before,
+	#watcher::before,
 	#qr::before {
 		background-color: #181818 !important;
 		border-radius: 6px 6px 0 0;
