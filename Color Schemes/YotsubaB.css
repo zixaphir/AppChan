@@ -1,16 +1,32 @@
-/* Yotsuba */
+/* Yotsuba B */
+@-moz-document regexp(".*\.4chan\.org/(v|g|a|c|g|k|m|o|p|w|cm|3|adv|an|cgl|ck|co|diy|fa|fit|int|jp|lit|mu|n|po|sci|sp|tg|toy|trv|tv|vp|s)/.*") {
 /*[[CustomScrollbars]]*/
-	::-webkit-scrollbar-thumb { border: 1px solid #D9BFB7; background: #eef2ff; }
+	::-webkit-scrollbar-thumb { border: 1px solid #b7c5d9; background: #eef2ff; }
+
 	::-webkit-scrollbar-thumb:hover { background: -webkit-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
+
 	::-webkit-scrollbar-thumb:active { background: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
-	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer {background: #f0e0d6; }
-	scrollbar, scrollcorner { background: #f0e0d6 !important; }
-	thumb { -moz-appearance: none !important; border: 1px solid #D9BFB7; background: #fff; }
+
+	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer {background: #d6daf0; }
+
+	scrollbar, scrollcorner { background: #d6daf0 !important; }
+
+	thumb { -moz-appearance: none !important; border: 1px solid #b7c5d9; background: #fff; }
+
 	thumb:hover { background: -moz-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
+
 	thumb:active { background: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
 /**/
 	body {
-		background: url("http://static.4chan.org/image/fade.png") repeat-x scroll center top #ffe !important;
+		background: url("http://static.4chan.org/image/fade-blue.png") repeat-x scroll center top #EEF2FF !important;
+	}
+
+	td.reply, td.replyhl {
+		border: 1px solid #5765b5 !important;
+	}
+
+	td.replyhl {
+		border: 1px solid #5765b5 !important;
 	}
 
 	.logo {
@@ -23,7 +39,7 @@
 
 	a.backlink,
 	a.forwardlink {
-		color: #dc0000 !important;
+		color: #0000aa !important;
 	}
 
 	#boards h3,
@@ -57,28 +73,24 @@
 	#com_submit,
 	input[type='file'] > input[type='button'],
 	#qr a#attach::after {
-		background-color: #f0e0d6 !important;
-	}
-
-	input[type='file']::-webkit-file-upload-button {
-		background-color: #f0e0d6 !important;
+		background-color: #d6daf0 !important;
 	}
 
 	td.reply {
-		border:1px solid #D9BFB7 !important;
+		border:1px solid #b7c5d9 !important;
 	}
 
 	td.replyhl {
 		border: 1px solid #ba9dbf !important;
 	}
 
-	#header {
-		background-color: #FED7B1 !important;
+	#header, #navbot::after, #navbot {
+		background-color: #d2d6ef !important;
 	}
 
 	.doubledash,
 	.replyhider a {
-		color: #D9BFB7 !important;
+		color: #b7c5d9 !important;
 	}
 
 	td[style='border: 1px dashed;'],
@@ -111,32 +123,33 @@
 	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply,
 	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply,
 	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply {
-		background-color: #f0e0d6 !important;
+		background-color: #d6daf0 !important;
 	}
 
 	.pages b {
-		background: #f0e0d6 !important;
+		background: #d6daf0 !important;
 	}
 
 	#header a:hover,
 	.pages input:hover,
 	a:hover {
 	/* URL bubbles */
-		background: #f0e0d6 !important;
+		background: #d6daf0 !important;
 	}
 
 	a {
-		color: #800000 !important;
+		color: #57577b !important;
 	}
 
 	hr {
-		border-top: 1px solid #D9BFB7 !important;
+		border-top: 1px solid #b7c5d9 !important;
 	}
 
 	#cc-showpostarea,
 	#ft li,
 	#ft ul,
 	#options input:not([type='checkbox']),
+	#qr table .recaptchatable #recaptcha_image,
 	#updater input:not([type='checkbox']),
 	#twi_table_div,
 	#twi_table_div *,
@@ -161,7 +174,7 @@
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox'],
 	#qr label input[type='checkbox'],
 	html body span[style='left: 5px; position: absolute;'] a {
-		border: 1px solid #D9BFB7 !important;
+		border: 1px solid #b7c5d9 !important;
 	}
 
 	.recaptchatable #recaptcha_response_field:focus,
@@ -170,27 +183,24 @@
 	input.inputtext:focus,
 	input[type='submit']:focus,
 	textarea:focus {
-		border: 1px solid #800000 !important;
+		border: 1px solid #98e !important;
 	}
 
 	.filetitle,
 	.replytitle {
-		color: #CC1105 !important;
+		color: #0f0c5d !important;
 		font-weight: 800 !important;
-	}
-
-	input, textarea {
-		color: #000 !important;
 	}
 
 	body,
 	body > form,
 	html body span[style='left: 5px; position: absolute;'] a,
+	input,
 	div.postarea,
 	form[name^='post']::before,
 	select,
-	#navbot::after,
 	td.deletebuttons,
+	textarea,
 	.abbr,
 	.boxbar,
 	.boxcontent,
@@ -202,15 +212,16 @@
 	#backwash_tooltip,
 	#header .title,
 	#imgControls label::after,
+	#navbot::after,
 	#qp,
 	#twi_table_div,
 	#updater #count:not(.new)::after,
 	font[color="red"] {
-		color: #800000 !important;
+		color: #000 !important;
 	}
 
 	a.quotelink {
-		color: #000080 !important;
+		color: #d00 !important;
 	}
 
 	html body span[style='left: 5px; position: absolute;'] a:hover,
@@ -231,11 +242,11 @@
 	td.replyhl,
 	tr.replyhl,
 	textarea:hover {
-		background-color: #f0e0d6 !important;
+		background-color: #d6bad0 !important;
 	}
 
 	#qp {
-		background-color: #d6bad0 !important;
+	    background-color: #d6bad0 !important;
 		-moz-box-shadow: 5px 5px 5px rgba(128,128,128,0.5) !important;
 		-webkit-box-shadow: 5px 5px 5px rgba(128,128,128,0.5) !important;
 		box-shadow: 5px 5px 5px rgba(128,128,128,0.5) !important;
@@ -245,16 +256,16 @@
 	#options input[type='checkbox'],
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox'],
 	#qr label input[type='checkbox'] {
-		background-color: #ffe !important;
+		background-color: #eef2ff !important;
 	}
 
 	#crntBoard {
-		border-right-color: #ffe !important;
+		border-right-color: #eef2ff !important;
 	}
 
 	#watcher .move,
 	#twi_table_div .postblock {
-		border-bottom: 1px #ffe solid !important;
+		border-bottom: 1px #eef2ff solid !important;
 	}
 
 	div[id^='4chan_ext_iqr'],
@@ -274,26 +285,24 @@
 	.bd,
 	.pages,
 	input[type='submit'] {
-		background-color: #ffe !important;
+		background-color: #eef2ff !important;
 	}
-
 /*[[TransparentUI]]*/	.op > blockquote,
 	.thread > blockquote,
 	form[name='delform'] > blockquote, /**/
 	div.logo font {
-		text-shadow: #ffe 1px 0 2px, #ffe -1px 0 2px, #ffe 0 -1px 2px, #ffe 0 1px 2px;
+		text-shadow: #eef2ff 1px 0 2px, #eef2ff -1px 0 2px, #eef2ff 0 -1px 2px, #eef2ff 0 1px 2px;
 	}
-
 /*[[TransparentUI]]*/	td.reply {
 		background-color: rgba(193,196,217,0.5) !important;
-		text-shadow: #f0e0d6 1px 0 2px, #f0e0d6 -1px 0 2px, #f0e0d6 0 -1px 2px, #f0e0d6 0 1px 2px;
+		text-shadow: #d6daf0 1px 0 2px, #d6daf0 -1px 0 2px, #d6daf0 0 -1px 2px, #d6daf0 0 1px 2px;
 	}
 
 	td.replyhl {
 		background-color: rgba(179,155,155,0.5) !important;
-		text-shadow: #f0e0d6 1px 0 2px, #f0e0d6 -1px 0 2px, #f0e0d6 0 -1px 2px, #f0e0d6 0 1px 2px;
+		text-shadow: #d6bad0 1px 0 2px, #d6bad0 -1px 0 2px, #d6bad0 0 -1px 2px, #d6bad0 0 1px 2px;
 	}
-
+/**/
 	* {
 		outline: none !important;
 	}
