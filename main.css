@@ -458,7 +458,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postarea form[name^='post'] input:not([type='checkbox']):not([type='radio']):not([type='file']),
 	#qr .move .inputtext,
 	.postarea form[name^='post'] textarea,
-	.postarea form[name^='post'] [name='upfile'] > input,
 	.postarea #recaptcha_widget_div input,
 	#qr_form img,
 	#qr .inputtext[type='password'],
@@ -516,6 +515,11 @@ This style is designed for the following browsers, ordered alphabetically:
 	
 	.postarea form[name^='post'] [name='upfile'] {
 		width: 248px;
+	}
+
+	.postarea form[name^='post'] input[type='file'][name='upfile'] > * {
+	   margin: 0 !important;
+	   vertical-align: top !important;
 	}
 /* Buttons */
 	input[type='submit'], /* Any lingering buttons */
@@ -888,8 +892,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /* Posts */
 	form[name='delform'] {
-		padding: 17px 0 0 0 !important;
-		margin: 0 0 0px !important;
+		padding: 17px 0 0 !important;
+		margin: 0 !important;
 	}
 
 	body > table ~ form[name='delform'] br[clear='left'],
@@ -966,9 +970,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		font-weight: 700 !important;
 	}
 /* Addons and such */
-	body > div[style='width: 100%;'] {
-		margin-top: 34px;
-	}
 
 	#copyright,
 	#header a,
