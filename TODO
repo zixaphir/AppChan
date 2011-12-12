@@ -1,12 +1,10 @@
 * Get Transparent Replies working on the following color schemes:
 	> Yotsuba A / B
 	> Photon
-* Copy and Separate Yotsuba A + B into two color schemes for users who only want one or the other.
 * Allow further customization of AppChan / 4chan UI, up to and including
-	> More transparent UI
-	> More slideout UI
-	> Padding customization
-* Reorganize 4chan x UI to look more uniform and less cluttered
+	> More transparent UI -- somewhat done
+	> More slideout UI -- somewhat done
+* Reorganize 4chan x UI to look more uniform and less cluttered -- started.
 * Work on custom icons for stickies and closed threads
 * More mascots
 * Port more color schemes to Custom AppChan
@@ -15,4 +13,4 @@
 * Work on a small companion script to add functionality to AppChan that wouldn't otherwise be possible to have
 	> Like a slide out postform that slides out whenever any contained input has focus
 * Add more navigation options
-* Work on vertical pages orientation to not colide with other UI
+* Work on vertical pages orientation to not colide with other UI -- Resolved with slideout watcher?

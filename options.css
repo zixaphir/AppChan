@@ -621,10 +621,7 @@ none
 
 	#qr form[name^='post'] textarea.inputtext:focus {
 /*[[ExpandTextarea]]*/
-    	width: 550px !important;
-		float: left;
-/*[[ChangeAlign]]*/
-    	float: right;/**/
+    	width: 550px !important;/**/
 	}
 
 	#qr form[name^='post'] .inputtext[name='sub'],
@@ -736,10 +733,7 @@ none
 
 	#qr form[name^='post'] textarea.inputtext:focus {
 /*[[ExpandTextarea]]*/
-    	width: 550px !important;
-		float: left;
-/*[[ChangeAlign]]*/
-    	float: right;/**/
+    	width: 550px !important;/**/
 	}
 
 	#qr form[name^='post'] .inputtext[name='sub'],
@@ -888,10 +882,7 @@ none
 
 	#qr form[name^='post'] textarea.inputtext:focus {
 /*[[ExpandTextarea]]*/
-    	width: 550px !important;
-		float: left;
-/*[[ChangeAlign]]*/
-    	float: right;/**/
+    	width: 550px !important;/**/
 	}
 
 	#qr form[name^='post'] .inputtext[name='sub'],
@@ -999,10 +990,7 @@ none
 
 	#qr form[name^='post'] textarea.inputtext:focus {
 /*[[ExpandTextarea]]*/
-    	width: 550px !important;
-		float: left;
-/*[[ChangeAlign]]*/
-    	float: right;/**/
+    	width: 550px !important;/**/
 	}
 
 	#qr form[name^='post'] .inputtext[name='sub'],
