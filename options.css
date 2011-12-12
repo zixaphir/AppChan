@@ -647,6 +647,11 @@ none
 		bottom: 20px;
 		right: 80px;
 	}
+
+	.fake  input::-webkit-file-upload-button,
+	#qr a#attach {
+		right: 15px;
+	}
 /* Errors */
 	[id^='q'] .error {
 		visibility: visible !important;
@@ -758,6 +763,11 @@ none
 	#qr a#attach {
 		bottom: 20px;
 		right: 80px;
+	}
+
+	.fake  input::-webkit-file-upload-button,
+	#qr a#attach {
+		right: 15px;
 	}
 /* Errors */
 	[id^='q'] .error {
@@ -908,6 +918,11 @@ none
 		bottom: 20px;
 		right: 80px;
 	}
+
+	.fake  input::-webkit-file-upload-button,
+	#qr a#attach {
+		right: 15px;
+	}
 /* Errors */
 	[id^='q'] .error {
 		visibility: visible !important;
@@ -1015,6 +1030,11 @@ none
 	#qr a#attach {
 		bottom: 20px;
 		right: 80px;
+	}
+
+	.fake  input::-webkit-file-upload-button,
+	#qr a#attach {
+		right: 15px;
 	}
 /* Errors */
 	[id^='q'] .error {

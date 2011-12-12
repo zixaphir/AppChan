@@ -716,6 +716,11 @@ This style is designed for the following browsers, ordered alphabetically:
 		font-weight: bold;
 	}
 
+	.fake  input::-webkit-file-upload-button,
+	#files a {
+		margin-left: -12px;
+	}
+
 	#qr a#attach {
 		font-size: 0 !important;
 		visibility: hidden;
@@ -1336,7 +1341,7 @@ Disabled until further notice.
 		z-index: 40;
 	}
 
-	body > a[style='cursor: pointer; float: right;'] ~ div[style='width: 100%;'] {
+	body > a[style='cursor: pointer; float: right;'] ~ div[style^='width: 100%;'] {
 		display: block;
 		position: fixed;
 		top: 17px;
@@ -1350,7 +1355,7 @@ Disabled until further notice.
 		margin: 0 !important;
 	}
 
-	body > a[style='cursor: pointer; float: right;'] ~ div[style='width: 100%;'] > table {
+	body > a[style='cursor: pointer; float: right;'] ~ div[style^='width: 100%;'] > table {
 		height: 100% !important;
 	}
 
