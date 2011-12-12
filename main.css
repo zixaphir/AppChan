@@ -536,13 +536,18 @@ This style is designed for the following browsers, ordered alphabetically:
 	#com_submit,
 	#submit,
 	#qr #com_submit,
-	#qr #files input[name='upfile'] > input[type='button'],
-	form[name^='post'] input[type='file'][name='upfile'] > input[type='button'],
-	#qr form[name^='post'] input[type='file'][name='upfile'] > input[type='button'],
-	.postarea form[name^='post'] input[type='file'][name='upfile'] > input[type='button'],
 	#usernameText + input /* Last.fm button */ {
 		width: 62px !important;
 		margin: 1px 0 0 1px !important;
+	}
+	
+	#qr #files input[name='upfile'] > input[type='button'],
+	form[name^='post'] input[type='file'][name='upfile'] > input[type='button'],
+	#qr form[name^='post'] input[type='file'][name='upfile'] > input[type='button'],
+	.postarea form[name^='post'] input[type='file'][name='upfile'] > input[type='button'] {
+		width: 62px !important;
+		margin: 0 0 0 1px !important;
+	
 	}
 /* Uniform padding for postarea inputs */
 	.postarea form[name^='post'] .inputtext,
@@ -554,11 +559,11 @@ This style is designed for the following browsers, ordered alphabetically:
 	input[type='file'][name='upfile'],
 	.postarea input[type='file'][name='upfile'],
 	#qr form[name^='post'] input[type='file'][name='upfile'] {
-		height: auto !important;
 		border: none !important;
-		margin: 0 !important;
+		margin: 1px 0 0 !important;
 		padding: 0 !important;
 		width: 248px !important;
+		height: 18px;
 	}
 
 	#qr form[name^='post'] input[type='file'][name='upfile'] {
@@ -573,7 +578,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		border: none !important;
 		height: 18px !important;
 		padding: 0 !important;
-		margin: 1px 0 0 !important;
 		text-transform: uppercase;
 	}
 /* Positioning of various postarea checkboxes */
