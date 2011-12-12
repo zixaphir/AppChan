@@ -519,7 +519,6 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	.postarea form[name^='post'] input[type='file'][name='upfile'] > * {
 	   margin: 0 !important;
-	   vertical-align: top !important;
 	}
 /* Buttons */
 	input[type='submit'], /* Any lingering buttons */
