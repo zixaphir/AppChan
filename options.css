@@ -1625,7 +1625,7 @@ domain('images.4chan.org'),
 		-o-transform-origin: bottom left;
 /*[[ChangeAlign]]*/
 		right: 0;
-		top: 0;
+		top: 5px;
 		left: auto;
 		-webkit-transform: rotate(-90deg);
 		-webkit-transform-origin: bottom right;
@@ -1636,7 +1636,7 @@ domain('images.4chan.org'),
 		font-size: 10px !important;
 		text-align: center;
 		content: 'WATCHER';
-		z-index: -1;
+		z-index: -1 !important;
 		padding: 0 15px;
 		opacity: 1;
 		-webkit-transition: opacity .3s ease-in-out 3s;

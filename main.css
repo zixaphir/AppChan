@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, seaweed !Ponyo.2wFe, MayhemYDG, !K.WeEabo0o, disappoint, Kupaka, ubuntufriend, anonymous
 
-Revision 96
+Revision 97
 
 AppChan Copyright (C) 2011, Zixaphir Modnar
 All rights reserved.
@@ -1026,10 +1026,10 @@ This style is designed for the following browsers, ordered alphabetically:
 		right: auto !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
-		right: 148px !important;/**/
+		right: 143px !important;/**/
 		top: 0;
 		bottom: auto !important;
-		width: 110px;
+		width: 105px;
 		font-size: 13px !important;
 	}
 
@@ -1222,16 +1222,17 @@ Disabled until further notice.
 
 	#stats {
 		position: fixed !important;
-		top: 17px !important;
+		top: 0 !important;
 		right: auto !important;
-		left: 150px !important;
+		left: 190px !important;
 /*[[ChangeAlign]]*/
-		right: 190px !important;
+		right: 95px !important;
 		left: auto !important;/**/
-		width: 96px !important;
-		text-align: right !important;
+		width: 60px !important;
+		text-align: center !important;
 		bottom: auto !important;
 		cursor: default !important;
+		padding: 0 !important;
 	}
 
 	#updater {
@@ -1270,7 +1271,6 @@ Disabled until further notice.
 /*[[WatcherType]]*/
 
 	#watcher .move {
-		font-size: 0px !important;
 		height: 15px !important;
 	}
 
