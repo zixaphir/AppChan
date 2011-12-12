@@ -403,7 +403,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		position: fixed;
 		top: auto;
 		left: auto;
-		bottom: 21px;
+		bottom: 2px;
 		width: 248px !important;
 		margin: 0 !important;
 		z-index: 25;

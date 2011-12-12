@@ -328,7 +328,7 @@
 		background: rgba(0, 0, 0) !important;
 	}
 
-	html body span[style='left: 5px; position: absolute;'] a:hover::after
+	html body span[style='left: 5px; position: absolute;'] a:hover::after,
 	#com_submit:hover,
 	input[type='submit']:hover,
 	input[type='file'] > input[type='button']:hover {

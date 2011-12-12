@@ -204,7 +204,7 @@
 		background-color: #3f3f3f !important;
 	}
 
-	html body span[style='left: 5px; position: absolute;'] a:hover::after
+	html body span[style='left: 5px; position: absolute;'] a:hover::after,
 	#com_submit:hover,
 	#cc-showpostarea,
 	#twi_table_div,
