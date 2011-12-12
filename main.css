@@ -416,6 +416,11 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 0 !important;
 	}
 /* Unfuxor the Captcha layout */
+	#recaptcha_widget_div {
+		width: 248px !important;
+		float: right;
+	}
+
 	#recaptcha_widget_div * {
 		margin: 0 !important;
 		padding: 0 !important;
@@ -437,6 +442,7 @@ This style is designed for the following browsers, ordered alphabetically:
 /* Collapse the postarea table for better control over the height and width */
 	.postarea form[name^='post'] table {
 		border-collapse: collapse;
+		float: right;
 	}
 /* Formatting for all postarea elements */
 	.postarea form[name^='post'] input:not([type='checkbox']):not([type='radio']):not([type='file']),
