@@ -1105,6 +1105,10 @@ none
 /* Show: */
 	.deletebuttons:hover {
 		width: 500px !important;
+		-webkit-transition: width .3s linear, padding 0s ease-in-out 0s;
+		-moz-transition: width .3s linear, padding 0s ease-in-out 0s;
+		-o-transition: width .3s linear, padding 0s ease-in-out 0s;
+		padding: 1px !important;
 	}
 /* ...And Hide Password Field: */
 	.deletebuttons input[name="pwd"] {
@@ -1112,7 +1116,11 @@ none
 	}
 
 	.deletebuttons:hover {
-		width: 450px !important;
+		width: 320px !important;
+		-webkit-transition: width .3s linear, padding 0s ease-in-out 0s;
+		-moz-transition: width .3s linear, padding 0s ease-in-out 0s;
+		-o-transition: width .3s linear, padding 0s ease-in-out 0s;
+		padding: 1px !important;
 	}
 /* Hide: */
 	input[type='checkbox'][value='delete'],
@@ -1584,9 +1592,6 @@ domain('images.4chan.org'),
 /*[[ChangeAlign]]*/
 		right: 2px !important;
 		left: auto !important;/**/
-		-webkit-transition: right .3s linear, left .3s linear;
-		-moz-transition: right .3s linear, left .3s linear;
-		-o-transition: right .3s linear, left .3s linear;
 	}
 
 	#watcher::before {

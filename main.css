@@ -219,9 +219,6 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	div.logo img:hover {
 		opacity: 1;
-		-webkit-transition: opacity .5s ease-in;
-		-moz-transition: opacity .5s ease-in;
-		-o-transition: opacity .5s ease-in;
 	}
 
 	div.logo font[size='5'] span {
@@ -1075,12 +1072,12 @@ This style is designed for the following browsers, ordered alphabetically:
 		bottom: 1px;
 		visibility: visible !important;
 		z-index: 5;
-		padding: 1px !important;
+		padding: 0 !important;
 		width: 0 !important;
 		overflow: hidden;
-		-webkit-transition: width .3s linear;
-		-moz-transition: width .3s linear;
-		-o-transition: width .3s linear;
+		-webkit-transition: width .3s ease-in-out .5s, padding 0s ease-in-out .8s;
+		-moz-transition: width .3s ease-in-out .5s, padding 0s ease-in-out .8s;
+		-o-transition: width .3s ease-in-out .5s, padding 0s ease-in-out .8s;
 	}
 
 	.deletebuttons * {
@@ -1090,11 +1087,12 @@ This style is designed for the following browsers, ordered alphabetically:
 	.deletebuttons::before {
 		visibility: visible !important;
 		position: fixed;
-		right: 253px;
+		right: 252px;
 		bottom: 2px;
 		font-size: 12px !important;
 		content: '[ x ] / [ ! ]';
 		z-index: -1;
+		padding: 0px 2px;
 	}
 
 	.deletebuttons .inputtext {
