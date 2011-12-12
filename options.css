@@ -1582,7 +1582,7 @@ domain('images.4chan.org'),
 /* Normal: */
 	#watcher /* 4chan x thread watcher */ {
 		position: fixed !important;
-		top: 17px !important;
+		top: 39px !important;
 		right: auto !important;
 		left: 2px !important;
 /*[[ChangeAlign]]*/
@@ -1594,7 +1594,7 @@ domain('images.4chan.org'),
 /* Slideout: */
 	#watcher /* 4chan x thread watcher */ {
 		position: fixed !important;
-		top: 17px !important;
+		top: 39px !important;
 		right: auto !important;
 		left: -250px !important;
 /*[[ChangeAlign]]*/
@@ -1625,7 +1625,7 @@ domain('images.4chan.org'),
 		-o-transform-origin: bottom left;
 /*[[ChangeAlign]]*/
 		right: 0;
-		top: 5px;
+		top: 24px;
 		left: auto;
 		-webkit-transform: rotate(-90deg);
 		-webkit-transform-origin: bottom right;
@@ -1646,7 +1646,7 @@ domain('images.4chan.org'),
 /* Transparent Fade: */
 	#watcher /* 4chan x thread watcher */ {
 		position: fixed !important;
-		top: 17px !important;
+		top: 39px !important;
 		right: auto !important;
 		left: 2px !important;
 /*[[ChangeAlign]]*/

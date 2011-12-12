@@ -517,7 +517,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 248px;
 	}
 
-	.postarea form[name^='post'] input[type='file'][name='upfile'] > * {
+	.postarea form[name^='post'] input[type='file'][name='upfile'] > input[type='text'] {
 	   margin: 0 !important;
 	}
 /* Buttons */
@@ -988,15 +988,16 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#navtopr {
 		position: fixed;
-		left: 150px !important;
+		left: 188px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
-		right: 40px !important;
+		right: 4px !important;
 		left: auto !important;/**/
 		top: 0 !important;
 		bottom: auto !important;
 		font-size: 0 !important;
 		color: transparent !important;
+		width: 60px !important;
 		z-index: 40 !important;
 	}
 /* Strip 4chan+ of shadows and rounded edges */
@@ -1222,13 +1223,13 @@ Disabled until further notice.
 
 	#stats {
 		position: fixed !important;
-		top: 0 !important;
+		top: 19px !important;
 		right: auto !important;
-		left: 190px !important;
+		left: 111px !important;
 /*[[ChangeAlign]]*/
-		right: 95px !important;
+		right: 80px !important;
 		left: auto !important;/**/
-		width: 60px !important;
+		width: 90px !important;
 		text-align: center !important;
 		bottom: auto !important;
 		cursor: default !important;
@@ -1241,7 +1242,7 @@ Disabled until further notice.
 /*[[ChangeAlign]]*/
 		right: 2px !important;
 		left: auto !important;/**/
-		top: 0 !important;
+		top: 19px !important;
 		bottom: auto !important;
 		width: 58px !important;
 		border: 0 !important;
@@ -1322,9 +1323,9 @@ Disabled until further notice.
 	body > a[style='cursor: pointer; float: right;'] {
 		position: fixed;
 		top: 20px;
-		left: 20px;
+		left: 4px;
 		/*[[ChangeAlign]]*/
-		right: 20px !important;
+		right: 176px !important;
 		left: auto !important;/**/
 		z-index: 40;
 	}
