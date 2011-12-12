@@ -490,7 +490,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.postarea form[name^='post'] .inputtext,
-	#recaptcha_widget_div input {
+	#recaptcha_widget_div input,
+	.postarea table > tbody > tr:nth-of-type(4), td:nth-of-type(3) {
 		width: 248px !important;
 	}
 
