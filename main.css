@@ -1093,6 +1093,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /*[[DeleteButtons]]*/
 	.deletebuttons {
+		height: 18px;
 		position: fixed !important;
 		top: auto !important;
 		left: 252px !important;
