@@ -477,6 +477,11 @@ This style is designed for the following browsers, ordered alphabetically:
 	#recaptcha_widget_div input {
 		width: 248px !important;
 	}
+/*[[ExpandTextarea]]*/
+	.postarea form[name^='post'] textarea.inputtext:focus {
+    	width: 550px !important;
+    	float: right;
+	}/**/
 /* File and Subject inputs */
 	.postarea form[name^='post'] .inputtext[name='sub'],
 	.postarea form[name^='post'] [name='upfile'] > input[type='text'] {
