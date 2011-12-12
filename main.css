@@ -490,7 +490,14 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	.postarea form[name^='post'] textarea.inputtext:focus {
 /*[[ExpandTextarea]]*/
-    	width: 550px !important;
+    	width: 550px !important;/**/
+	}
+
+	#qr form[name^='post'] textarea.inputtext,
+	.postarea form[name^='post'] textarea.inputtext {
+		-webkit-transition: width .3s linear;
+		-moz-transition: width .3s linear;
+		-o-transition: width .3s linear;
 		float: left;
 /*[[ChangeAlign]]*/
     	float: right;/**/
