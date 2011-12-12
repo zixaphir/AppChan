@@ -618,11 +618,14 @@ none
 	#qr #files input[type=file][name='upfile'] {
 		width: 248px !important;
 	}
-/*[[ExpandTextarea]]*/
+
 	#qr form[name^='post'] textarea.inputtext:focus {
+/*[[ExpandTextarea]]*/
     	width: 550px !important;
-    	float: right;
-	}/**/
+		float: left;
+/*[[ChangeAlign]]*/
+    	float: right;/**/
+	}
 
 	#qr form[name^='post'] .inputtext[name='sub'],
 	#qr form[name^='post'] input[name='upfile'] > input[type='text'],
@@ -730,11 +733,14 @@ none
 	#qr #files input[type=file][name='upfile'] {
 		width: 248px !important;
 	}
-/*[[ExpandTextarea]]*/
+
 	#qr form[name^='post'] textarea.inputtext:focus {
+/*[[ExpandTextarea]]*/
     	width: 550px !important;
-    	float: right;
-	}/**/
+		float: left;
+/*[[ChangeAlign]]*/
+    	float: right;/**/
+	}
 
 	#qr form[name^='post'] .inputtext[name='sub'],
 	#qr form[name^='post'] input[name='upfile'] > input[type='text'],
@@ -879,11 +885,14 @@ none
 	#qr #files input[type=file][name='upfile'] {
 		width: 248px !important;
 	}
-/*[[ExpandTextarea]]*/
+
 	#qr form[name^='post'] textarea.inputtext:focus {
+/*[[ExpandTextarea]]*/
     	width: 550px !important;
-    	float: right;
-	}/**/
+		float: left;
+/*[[ChangeAlign]]*/
+    	float: right;/**/
+	}
 
 	#qr form[name^='post'] .inputtext[name='sub'],
 	#qr form[name^='post'] input[name='upfile'] > input[type='text'],
@@ -987,11 +996,14 @@ none
 	#qr #files input[type=file][name='upfile'] {
 		width: 248px !important;
 	}
-/*[[ExpandTextarea]]*/
+
 	#qr form[name^='post'] textarea.inputtext:focus {
+/*[[ExpandTextarea]]*/
     	width: 550px !important;
-    	float: right;
-	}/**/
+		float: left;
+/*[[ChangeAlign]]*/
+    	float: right;/**/
+	}
 
 	#qr form[name^='post'] .inputtext[name='sub'],
 	#qr form[name^='post'] input[name='upfile'] > input[type='text'],

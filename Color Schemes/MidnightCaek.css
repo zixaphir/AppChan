@@ -297,6 +297,10 @@
 		border: none !important;
 	}
 
+	input[type='file']::-webkit-file-upload-button {
+		border: none !important;
+	}
+
 	.pages b {
 		background: rgba(0,0,0,0.3) !important;
 	}

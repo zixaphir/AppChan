@@ -405,12 +405,16 @@ This style is designed for the following browsers, ordered alphabetically:
 	#recaptcha_image {
 		width: 248px !important;
 	}
-/*[[ChangeAlign]]*/
+
 	.fake input[type='file']::-webkit-file-upload-button,
 	.postarea form[name^='post'] table td * {
+		margin-left: auto;
+/*[[ChangeAlign]]*/
+		margin-left: 0;
+		margin-right: auto;
 		float: left;
-	}
 /**/
+	}
 /*[[PostForm]]*/
 	.postarea form[name^='post'] > table > tbody > tr > td {
 		padding: 0 !important;
@@ -483,11 +487,14 @@ This style is designed for the following browsers, ordered alphabetically:
 	#recaptcha_widget_div input {
 		width: 248px !important;
 	}
-/*[[ExpandTextarea]]*/
+
 	.postarea form[name^='post'] textarea.inputtext:focus {
+/*[[ExpandTextarea]]*/
     	width: 550px !important;
-    	float: right;
-	}/**/
+		float: left;
+/*[[ChangeAlign]]*/
+    	float: right;/**/
+	}
 /* File and Subject inputs */
 	.postarea form[name^='post'] .inputtext[name='sub'],
 	.postarea form[name^='post'] [name='upfile'] > input[type='text'] {

@@ -161,7 +161,11 @@
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox'],
 	#qr label input[type='checkbox'],
 	html body span[style='left: 5px; position: absolute;'] a {
-		border: 1px solid #CCC !important;
+		border: 1px solid #ccc !important;
+	}
+
+	input[type='file']::-webkit-file-upload-button {
+		border: 1px solid #ccc !important;
 	}
 
 	.recaptchatable #recaptcha_response_field:focus,

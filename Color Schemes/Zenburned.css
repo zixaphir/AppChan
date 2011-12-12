@@ -373,6 +373,10 @@
 		border: 1px solid #888 !important;
 	}
 
+	input[type='file']::-webkit-file-upload-button {
+		border: 1px solid #888 !important;
+	}
+
 	html body span[style='left: 5px; position: absolute;'] a {
 		height: 14px !important;
 		padding-top: 3px !important;
