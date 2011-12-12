@@ -142,6 +142,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	fieldset,
 	blockquote,
 	form[name^='post'] input[name='email'] + label,
+	html body span[style='left: 5px; position: absolute;'] a::after,
 	textarea,
 	div.move,
 	center > font > b,
@@ -1124,7 +1125,11 @@ This style is designed for the following browsers, ordered alphabetically:
 	.deletebuttons::before {
 		visibility: visible !important;
 		position: fixed;
-		right: 252px;
+		left: 252px !important;
+		right: auto !important;
+/*[[ChangeAlign]]*/
+		left: auto !important;
+		right: 252px !important;/**/
 		bottom: 2px;
 		font-size: 12px !important;
 		content: '[ x ] / [ ! ]';

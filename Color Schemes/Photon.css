@@ -45,7 +45,7 @@
 	select,
 	td.postblock,
 	td.reply,
-	html body span[style='left: 5px; position: absolute;'] a,
+	html body span[style='left: 5px; position: absolute;'] a::after
 	input[type='submit'],
 	#com_submit,
 	input[type='file'] > input[type='button'],
@@ -189,7 +189,7 @@
 
 	body,
 	body > form,
-	html body span[style='left: 5px; position: absolute;'] a,
+	html body span[style='left: 5px; position: absolute;'] a::after
 	div.postarea,
 	form[name^='post']::before,
 	select,
@@ -217,7 +217,7 @@
 		color: #ff6600 !important;
 	}
 
-	html body span[style='left: 5px; position: absolute;'] a:hover,
+	html body span[style='left: 5px; position: absolute;'] a:hover::after
 	#com_submit:hover,
 	#cc-showpostarea,
 	#twi_table_div,

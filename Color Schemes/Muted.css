@@ -28,7 +28,7 @@ background-image: none !important;
 	}
 	body,
 	body > form,
-	html body span[style='left: 5px; position: absolute;'] a,
+	html body span[style='left: 5px; position: absolute;'] a::after,
 	input,
 	div.postarea,
 	form[name^='post']::after,
@@ -208,7 +208,7 @@ background-image: none !important;
 		background-color: #fefefe !important;
 	}
 
-	html body span[style='left: 5px; position: absolute;'] a:hover,
+	html body span[style='left: 5px; position: absolute;'] a:hover::after,
 	#com_submit:hover,
 	#cc-showpostarea,
 	#twi_table_div,
@@ -247,7 +247,7 @@ background-image: none !important;
 		outline-color: #627c8d !important;
 	}
 
-	html body span[style='left: 5px; position: absolute;'] a,
+	html body span[style='left: 5px; position: absolute;'] a::after,
 	input[type='submit'],
 	#com_submit,
 	input[type='file'] > input[type='button'],
@@ -290,10 +290,6 @@ background-image: none !important;
 	.inline td.reply {
 		/* Inline Quotes */
 		background-color: rgba(255,255,255,0.1) !important;
-		border: none !important;
-	}
-
-	input[type='file']::-webkit-file-upload-button {
 		border: none !important;
 	}
 
@@ -352,6 +348,10 @@ background-image: none !important;
 	input[type='submit'],
 	select,
 	textarea {
+		border: none !important;
+	}
+
+	input[type='file']::-webkit-file-upload-button {
 		border: none !important;
 	}
 

@@ -78,7 +78,7 @@
 
 	body,
 	body > form,
-	html body span[style='left: 5px; position: absolute;'] a,
+	html body span[style='left: 5px; position: absolute;'] a::after
 	div.postarea,
 	input,
 	select,
@@ -321,14 +321,14 @@
 		border-right-color: #393939 !important;
 	}
 
-	html body span[style='left: 5px; position: absolute;'] a,
+	html body span[style='left: 5px; position: absolute;'] a::after
 	input[type='submit'],
 	#com_submit,
 	input[type='file'] > input[type='button'] {
 		background: rgba(0, 0, 0) !important;
 	}
 
-	html body span[style='left: 5px; position: absolute;'] a:hover,
+	html body span[style='left: 5px; position: absolute;'] a:hover::after
 	#com_submit:hover,
 	input[type='submit']:hover,
 	input[type='file'] > input[type='button']:hover {

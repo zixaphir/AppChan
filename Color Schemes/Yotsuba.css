@@ -53,7 +53,7 @@
 	select,
 	td.postblock,
 	td.reply,
-	html body span[style='left: 5px; position: absolute;'] a,
+	html body span[style='left: 5px; position: absolute;'] a::after
 	input[type='submit'],
 	#com_submit,
 	input[type='file'] > input[type='button'],
@@ -169,6 +169,10 @@
 		border: 1px solid #D9BFB7 !important;
 	}
 
+	input[type='file']::-webkit-file-upload-button {
+		border: 1px solid #f9bfb7 !important;
+	}
+
 	.recaptchatable #recaptcha_response_field:focus,
 	.deletebuttons input[type='password']:focus,
 	input:focus,
@@ -190,7 +194,7 @@
 
 	body,
 	body > form,
-	html body span[style='left: 5px; position: absolute;'] a,
+	html body span[style='left: 5px; position: absolute;'] a::after
 	div.postarea,
 	form[name^='post']::before,
 	select,
@@ -218,7 +222,7 @@
 		color: #000080 !important;
 	}
 
-	html body span[style='left: 5px; position: absolute;'] a:hover,
+	html body span[style='left: 5px; position: absolute;'] a:hover::after
 	#com_submit:hover,
 	#cc-showpostarea,
 	#twi_table_div,

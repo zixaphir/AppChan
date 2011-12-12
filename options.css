@@ -413,7 +413,7 @@ none
 /*[[ChangeAlign]]*/
 		right: 2px !important;
 		left: auto !important;/**/
-		bottom: 270px !important;
+		bottom: 251px !important;
 		width: 248px !important;
 		z-index: 2;
 		text-align: center;
@@ -596,7 +596,7 @@ none
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: 2px !important;/**/
-		bottom: 21px !important;
+		bottom: 2px !important;
 		width: 248px !important;
 		margin: 0 !important;
 		padding: 0 !important;
@@ -694,7 +694,7 @@ none
 		left: auto !important;
 		right: -233px !important;/**/
 		top: auto !important;
-		bottom: 21px !important;
+		bottom: 2px !important;
 		width: 248px !important;
 		margin: 0 !important;
 		padding: 0;
@@ -806,7 +806,7 @@ none
 		left: auto !important;
 		right: -248px !important;/**/
 		top: auto !important;
-		bottom: 21px !important;
+		bottom: 2px !important;
 		width: 248px !important;
 		margin: 0 !important;
 		padding: 0 !important;
@@ -954,7 +954,7 @@ none
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: 2px !important;/**/
-		bottom: 21px !important;
+		bottom: 2px !important;
 		width: 248px !important;
 		margin: 0 !important;
 		padding: 0 !important;
@@ -1093,8 +1093,9 @@ none
 		visibility: hidden;
 	}
 
-	html body span[style='left: 5px; position: absolute;'] a {
-		cursor: default !important;
+	html body span[style='left: 5px; position: absolute;'] a::after {
+		visibility: visible !important;;
+		content: "<<"
 		position: fixed !important;
 		top: auto;
 		left: 2px !important;
@@ -1103,17 +1104,15 @@ none
 		left: auto !important;
 		right: 192px !important;/**/
 		bottom: 2px;
-		visibility: visible !important;
-		height: 13px !important;
-		width: 58px !important;
 		margin: 0 !important;
 		padding: 0 !important;
 		font-size: 9px !important;
 		text-transform: uppercase;
 		vertical-align: bottom !important;
 		padding-top: 5px !important;
-		border-radius: 0 !important;
+		border-radius: 10px !important;
 		text-align: center;
+		border-radius: 10px;
 	}
 /* No: */
 	html body span[style='left: 5px; position: absolute;'] {
