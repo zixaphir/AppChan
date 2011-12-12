@@ -23,9 +23,11 @@
 		background: #93a1a1;
 		color: #073642;
 	}
+
 	body {
-background-image: none !important;
+		background-image: none !important;
 	}
+
 	body,
 	body > form,
 	html body span[style='left: 5px; position: absolute;'] a,
@@ -185,6 +187,8 @@ background-image: none !important;
 	.boxcontent > hr,
 	.boxcontent input,
 	.boxcontent textarea,
+	.deletebuttons,
+	.deletebuttons::before,
 	.pages,
 	.postarea form[name^='post'],
 	html,

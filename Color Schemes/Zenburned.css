@@ -191,6 +191,8 @@
 	.boxcontent > hr,
 	.boxcontent input,
 	.boxcontent textarea,
+	.deletebuttons,
+	.deletebuttons::before,
 	.pages,
 	.postarea form[name^='post'],
 	html,

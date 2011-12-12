@@ -229,6 +229,8 @@
 	.boxcontent > hr,
 	.boxcontent input,
 	.boxcontent textarea,
+	.deletebuttons,
+	.deletebuttons::before,
 	.pages,
 	div.postarea > form td:nth-of-type(3) > label input,
 	div[id^=qr],

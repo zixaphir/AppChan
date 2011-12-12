@@ -194,6 +194,8 @@ background-image: none !important;
 	.boxcontent > hr,
 	.boxcontent input,
 	.boxcontent textarea,
+	.deletebuttons,
+	.deletebuttons::before,
 	/* > mfw I am immortalized in the source code -- sdm */
 	.pages,
 	.postarea form[name^='post'],

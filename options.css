@@ -1103,9 +1103,16 @@ none
 
 /*[[DeleteButtons]]*/
 /* Show: */
+	.deletebuttons:hover {
+		width: 500px !important;
+	}
 /* ...And Hide Password Field: */
 	.deletebuttons input[name="pwd"] {
 		display: none !important;
+	}
+
+	.deletebuttons:hover {
+		width: 450px !important;
 	}
 /* Hide: */
 	input[type='checkbox'][value='delete'],

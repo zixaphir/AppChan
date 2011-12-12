@@ -273,6 +273,8 @@
 	#thread_filter textarea,
 	#updater input:not([type='checkbox']),
 	.bd,
+	.deletebuttons,
+	.deletebuttons::before,
 	.pages,
 	input[type='submit'] {
 		background-color: #ffe !important;

@@ -110,7 +110,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	#recaptcha_reload_btn *,
 	#quickrep tr:nth-of-type(4) b,
 	#qr.auto:not(:hover) #recaptcha_reload_btn,
-	.deletebuttons input[type='button'],
 	.deletebuttons br,
 	.doubledash,
 	.error:empty,
@@ -379,6 +378,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	.box-outer,
 	.boxbar,
 	.deletebuttons input[value=Delete],
+	.deletebuttons input[type='button'],
 	.recaptcha_image_cell > center > #recaptcha_image,
 	[name='recaptcha_response_field'],
 	.top-box,
@@ -463,6 +463,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	input[type='password'],
 	form[name^='post'] input[name='upfile'] > input,
 	.deletebuttons .inputtext,
+	.deletebuttons input[type='button'],
 	.postarea #recaptcha_widget_div input,
 	.postarea form[name^='post'] input.inputtext,
 	#qr form[name^='post'] input.inputtext,
@@ -492,6 +493,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	input[type='submit'], /* Any lingering buttons */
 	#com_submit /* Submit Button */,
 	#submit, /* aeosynth's submit button */
+	.deletebuttons input[type='button'],
 	input[type='file'][name='upfile'] > input[type='button'] ,
 	form[name^='post'] input[type='file'][name='upfile'] > input[type='button'] /* Browse Button (Fx*) */ {
 		cursor: default !important;
@@ -1065,14 +1067,43 @@ This style is designed for the following browsers, ordered alphabetically:
 	.deletebuttons {
 		position: fixed !important;
 		top: auto !important;
-		left: 61px !important;
+		left: 252px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
-		right: 2px !important;/**/
-		bottom: 2px;
+		right: 252px !important;/**/
+		bottom: 1px;
 		visibility: visible !important;
 		z-index: 5;
+		padding: 1px !important;
+		width: 0 !important;
+		overflow: hidden;
+		-webkit-transition: width .3s linear;
+		-moz-transition: width .3s linear;
+		-o-transition: width .3s linear;
+	}
+
+	.deletebuttons * {
+		visibility: visible !important;
+	}
+
+	.deletebuttons::before {
+		visibility: visible !important;
+		position: fixed;
+		right: 253px;
+		bottom: 2px;
+		font-size: 12px !important;
+		content: '[ x ] / [ ! ]';
+		z-index: -1;
+	}
+
+	.deletebuttons .inputtext {
+		width: 138px;
+	}
+	
+	.deletebuttons .inputtext,
+	.deletebuttons input[type='submit'] {
+		margin-right: 1px !important;
 	}
 
 	#popup {
@@ -1082,36 +1113,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		right: 2px !important;
 		visibility: visible !important;
 		bottom: 24px;
-	}
-
-	.deletebuttons {
-		visibility: hidden !important;
-		font-size: 0 !important;
-		padding: 0 !important;
-	}
-
-	.deletebuttons * {
-		visibility: visible !important;
-	}
-
-	.deletebuttons input[type='checkbox'] {
-		position: absolute;
-		right: 106px;
-		bottom: 2px;
-	}
-
-	.deletebuttons::after {
-		visibility: visible !important;
-		position: absolute;
-		right: 57px;
-		bottom: 2px;
-		font-size: 12px !important;
-		content: 'File Only';
-	}
-
-	.deletebuttons .inputtext {
-		width: 138px;
-		margin-right: 1px !important;
 	}
 
 	.navlinks,
