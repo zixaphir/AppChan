@@ -235,11 +235,11 @@
 	td.replyhl,
 	tr.replyhl,
 	textarea:hover {
-		background-color: #CCC !important;
+		background-color: #ccc !important;
 	}
 
 	#qp {
-		background-color: #CCC !important;
+		background-color: #ccc !important;
 		-moz-box-shadow: 5px 5px 5px rgba(128,128,128,0.5) !important;
 		-webkit-box-shadow: 5px 5px 5px rgba(128,128,128,0.5) !important;
 		box-shadow: 5px 5px 5px rgba(128,128,128,0.5) !important;

@@ -366,7 +366,7 @@
 
 	#qr input[type='checkbox'],
 	input[type='checkbox'] {
-		border: none !important;
+		border: 1px solid #073642 !important;
 	}
 
 	.boxcontent dd,

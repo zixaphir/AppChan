@@ -314,7 +314,7 @@
 	#options input[type=checkbox]:checked,
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox']:checked,
 	#qr label input:checked {
-		background: #FF007F !important;
+		background: #ff007f !important;
 	}
 
 	#crntBoard {
@@ -414,7 +414,7 @@
 
 	#qr input[type='checkbox'],
 	input[type='checkbox'] {
-		border: none !important;
+		border: 1px solid #000 !important;
 	}
 
 	.boxcontent dd,

@@ -354,7 +354,7 @@
 
 	#qr input[type='checkbox'],
 	input[type='checkbox'] {
-		border: none !important;
+		border: 1px solid #2c2c2c !important;
 	}
 
 	.postarea form[name^='post'] .recaptcha_image_cell > center > #recaptcha_image,
