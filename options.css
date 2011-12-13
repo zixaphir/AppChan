@@ -627,6 +627,7 @@
 	#qr .move .inputtext,
 	#qr .inputtext[type='password'],
 	#qr form[name^='post'] .inputtext,
+	#qr form[name^='post'] input[type='file'][name='upfile'],
 	#qr #files input[type=file][name='upfile'] {
 		width: 248px !important;
 	}
@@ -744,6 +745,7 @@
 	#qr .move .inputtext,
 	#qr .inputtext[type='password'],
 	#qr form[name^='post'] .inputtext,
+	#qr form[name^='post'] input[type='file'][name='upfile'],
 	#qr #files input[type=file][name='upfile'] {
 		width: 248px !important;
 	}
@@ -898,6 +900,7 @@
 	#qr .move .inputtext,
 	#qr .inputtext[type='password'],
 	#qr form[name^='post'] .inputtext,
+	#qr form[name^='post'] input[type='file'][name='upfile'],
 	#qr #files input[type=file][name='upfile'] {
 		width: 248px !important;
 	}
@@ -1011,6 +1014,7 @@
 	#qr .move .inputtext,
 	#qr .inputtext[type='password'],
 	#qr form[name^='post'] .inputtext,
+	#qr form[name^='post'] input[type='file'][name='upfile'],
 	#qr #files input[type=file][name='upfile'] {
 		width: 248px !important;
 	}
