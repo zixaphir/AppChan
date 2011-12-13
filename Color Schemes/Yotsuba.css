@@ -53,7 +53,7 @@
 	select,
 	td.postblock,
 	td.reply,
-	html body span[style='left: 5px; position: absolute;'] a::after
+	html body span[style='left: 5px; position: absolute;'] a::after,
 	input[type='submit'],
 	#com_submit,
 	input[type='file'] > input[type='button'],
@@ -194,7 +194,7 @@
 
 	body,
 	body > form,
-	html body span[style='left: 5px; position: absolute;'] a::after
+	html body span[style='left: 5px; position: absolute;'] a::after,
 	div.postarea,
 	form[name^='post']::before,
 	select,

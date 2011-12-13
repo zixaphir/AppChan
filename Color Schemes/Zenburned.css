@@ -30,7 +30,7 @@
 
 	body,
 	body > form,
-	html body span[style='left: 5px; position: absolute;'] a::after
+	html body span[style='left: 5px; position: absolute;'] a::after,
 	input,
 	div.postarea,
 	form[name^='post']::before,
@@ -254,7 +254,7 @@
 		outline-color: #627c8d !important;
 	}
 
-	html body span[style='left: 5px; position: absolute;'] a::after
+	html body span[style='left: 5px; position: absolute;'] a::after,
 	input[type='submit'],
 	#com_submit,
 	input[type='file'] > input[type='button'] {
@@ -361,7 +361,7 @@
 	.recaptchatable #recaptcha_response_field,
 	.top-box,
 	h2,
-	html body span[style='left: 5px; position: absolute;'] a::after
+	html body span[style='left: 5px; position: absolute;'] a::after,
 	input:not([type='checkbox']),
 	#qr_captcha input,
 	input[type='file'] > input[type='button'],
