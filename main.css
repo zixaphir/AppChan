@@ -427,7 +427,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding: 0 !important;
 	}
 /* Unfuxor the Captcha layout */
-	#recaptcha_widget_div {
+	.postarea #recaptcha_widget_div {
 		width: 248px !important;
 		float: right;
 	}
