@@ -57,6 +57,8 @@
 	select,
 	td.postblock,
 	td.reply,
+	.pages,
+	.pages tr > td:nth-of-type(2),
 	html body span[style='left: 5px; position: absolute;'] a::after,
 	input[type='submit'],
 	#com_submit,
@@ -283,8 +285,6 @@
 	.bd,
 	.deletebuttons,
 	.deletebuttons::before,
-	.pages,
-	.pages tr > td:nth-of-type(2),
 	input[type='submit'] {
 		background-color: #ffe !important;
 	}
@@ -328,7 +328,8 @@
 		background: url("http://static.4chan.org/image/fade-blue.png") repeat-x scroll center top #EEF2FF !important;
 	}
 
-	td.reply, td.replyhl {
+	td.reply,
+	td.replyhl {
 		border: 1px solid #5765b5 !important;
 	}
 
@@ -376,6 +377,8 @@
 	select,
 	td.postblock,
 	td.reply,
+	.pages,
+	.pages tr > td:nth-of-type(2),
 	html body span[style='left: 5px; position: absolute;'] a::after,
 	input[type='submit'],
 	#com_submit,
@@ -597,8 +600,6 @@
 	.bd,
 	.deletebuttons,
 	.deletebuttons::before,
-	.pages,
-	.pages tr > td:nth-of-type(2),
 	input[type='submit'] {
 		background-color: #eef2ff !important;
 	}
