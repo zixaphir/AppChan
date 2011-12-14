@@ -303,14 +303,18 @@
 	}
 
 	.pages b {
-		background: rgba(0,0,0,0.3) !important;
+		background: rgba(0,0,0,1) !important;
+		outline: 1px rgba(255,255,255,.2) solid !important;
+		-moz-outline-radius: 10px;
+		-o-outline-radius: 10px;
+		-webkit-outline-radius: 10px;
 	}
 
 	#header a:hover,
 	.pages input:hover,
 	a:hover {
 	/* URL bubbles */
-		background: rgba(255,255,255,.02) !important;
+		background: rgba(255,255,255,.1) !important;
 	}
 
 	.new {

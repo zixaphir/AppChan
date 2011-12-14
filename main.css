@@ -302,13 +302,11 @@ This style is designed for the following browsers, ordered alphabetically:
 /*[[StickyNavigation]]*/
 	#header {
 		left: 250px !important;
-		right: 2px !important;
-		top: 0px !important;
-		padding-top: 1px !important;
-		padding-bottom: 1px !important;
+		right: 0 !important;
+		padding: 1px 0 !important;
 /*[[ChangeAlign]]*/
-		left: 2px !important;
-		right: 253px !important;/**/
+		left: 0 !important;
+		right: 250px !important;/**/
 	}
 
 	#header,

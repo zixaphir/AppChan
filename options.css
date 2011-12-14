@@ -130,8 +130,7 @@
 	}
 
 	#navbot {
-		position: fixed !important;
-		top: -101px !important;
+		display: none;
 	}
 
 	.navlinks {
