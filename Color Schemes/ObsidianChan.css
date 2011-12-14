@@ -232,6 +232,7 @@
 	.deletebuttons,
 	.deletebuttons::before,
 	.pages,
+	.pages tr > td:nth-of-type(2),
 	div.postarea > form td:nth-of-type(3) > label input,
 	div[id^=qr],
 	#qr a#attach::after,

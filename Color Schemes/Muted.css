@@ -198,6 +198,7 @@ background-image: none !important;
 	.deletebuttons::before,
 	/* > mfw I am immortalized in the source code -- sdm */
 	.pages,
+	.pages tr > td:nth-of-type(2),
 	.postarea form[name^='post'],
 	html,
 	body,

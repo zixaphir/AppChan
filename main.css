@@ -316,18 +316,14 @@ This style is designed for the following browsers, ordered alphabetically:
 		z-index: 65;
 	}
 
-	.pages {
-		width: 100% !important;
+	.pages tr > td:nth-of-type(2) {
+		width: auto !important;
 		text-align: center !important;
-		border-spacing: 0 !important;
-		left: 2px !important;
-		right: auto !important;
-		padding-left: 250px !important;
+		left: 0 !important;
+		right: 250px !important;
 /*[[ChangeAlign]]*/
-		left: auto !important;
-		right: 2px !important;
-		padding-right: 250px !important;
-		padding-left: 0 !important;/**/
+		right: 0 !important;
+		left: 250px !important;/**/
 		z-index: 2;
 	}
 
@@ -337,9 +333,9 @@ This style is designed for the following browsers, ordered alphabetically:
 		padding-top: 0 !important;
 	}
 
-	.pages td:nth-of-type(1) {
-		font-size: 75% !important;
-		text-transform: uppercase;
+	.pages td {
+		color: transparent !important;
+		font-size: 0 !important;
 	}
 
 	#header a,
@@ -353,6 +349,13 @@ This style is designed for the following browsers, ordered alphabetically:
 		text-align: center;
 		border: none !important;
 		text-align: center;
+	}
+
+	.pages a,
+	.pages b {
+		visibility: visible;
+		width: 16px;
+		margin: 0 !important;
 	}
 /* moot's announcements */
 	font[color="red"] {

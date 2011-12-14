@@ -173,6 +173,7 @@
 	.deletebuttons,
 	.deletebuttons::before,
 	.pages,
+	.pages tr > td:nth-of-type(2),
 	.postarea form[name^='post'],
 	html,
 	body,

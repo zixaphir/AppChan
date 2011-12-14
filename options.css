@@ -125,13 +125,8 @@
 /*[[StickyNavigation]]*/
 /* Yes: */
 	#header,
-	.pages {
+	.pages tr > td:nth-of-type(2) {
 		position: fixed !important;
-	}
-
-	.pages {
-		padding: 0 0 0 250px !important;
-		/*[[ChangeAlign]]*/padding: 0 250px 0 0 !important;/**/
 	}
 
 	#navbot {
@@ -147,7 +142,7 @@
 		top: 0 !important;
 	}
 
-	.pages {
+	.pages tr > td:nth-of-type(2) {
 		top: auto !important;
 		bottom: 1px !important;
 	}
@@ -179,16 +174,12 @@
 		position: absolute !important;
 	}
 
-	.pages {
-		padding: 0 !important;
-	}
 	#navbot {
-		position: fixed !important;
-		top: -101px !important;
+		display: none;
 	}
 /* Invert */
 	#header,
-	.pages {
+	.pages tr > td:nth-of-type(2) {
 		position: fixed !important;
 	}
 
@@ -205,7 +196,7 @@
 		bottom: 1px !important;
 	}
 
-	.pages {
+	.pages tr > td:nth-of-type(2) {
 		bottom: auto !important;
 		top: 0 !important;
 	}
@@ -231,10 +222,6 @@
 /* Slideout */
 	#header {
 		position: absolute !important;
-	}
-
-	.pages {
-		padding: 0 !important;
 	}
 
 	#navbot::after {
@@ -292,7 +279,7 @@
 		-o-transition: top .3s linear, bottom .3s linear;
 	}
 /* Slideout Invert */
-	.pages {
+	.pages tr > td:nth-of-type(2) {
 		position: fixed !important;
 		bottom: auto !important;
 		top: 0 !important;
@@ -408,9 +395,9 @@
 		z-index: 30 !important;
 	}
 
-	.pages a, .pages b, .pages input {
-		visibility: visible;
-		min-width: 0;
+	.pages a,
+	.pages b {
+		margin: 0 -4px !important;
 	}
 /* Normal: */
 
