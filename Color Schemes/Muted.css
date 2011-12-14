@@ -57,10 +57,10 @@ background-image: none !important;
 		color: #000 !important;
 	}
 
-	div.logo font,
-	.op > blockquote,
+/*[[TransparentUI]]*/	.op > blockquote,
 	.thread > blockquote,
-	form[name='delform'] > blockquote {
+	form[name='delform'] > blockquote, /**/
+	div.logo font {
 		text-shadow: -1px -1px 0 #e7e7e7, 1px -1px 0 #e7e7e7, -1px 1px 0 #e7e7e7, 1px 1px 0 #e7e7e7;
 	}
 

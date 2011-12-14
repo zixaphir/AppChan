@@ -61,7 +61,7 @@
 		color: #93a1a1 !important;
 	}
 
-/*	.op > blockquote,
+/*[[TransparentUI]]*/	.op > blockquote,
 	.thread > blockquote,
 	form[name='delform'] > blockquote, /**/
 	div.logo font {
