@@ -1673,3 +1673,13 @@ domain('images.4chan.org'),
 /* No: */
 /*
 /* END */
+
+/*[[FadedCaptcha]]*/
+/* Yes: */
+	.postarea #recaptcha_widget_div img,
+	#qr img {
+		opacity: 0.5;
+	}
+/* No: */
+
+/* END */

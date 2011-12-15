@@ -140,6 +140,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	a,
 	td,
 	fieldset,
+	font[color='red'],
 	blockquote,
 	form[name^='post'] input[name='email'] + label,
 	html body span[style='left: 5px; position: absolute;'] a::after,
@@ -356,7 +357,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin: 0 !important;
 	}
 /* moot's announcements */
-	font[color="red"] {
+	font[color='red'] {
 		/*[[redtext]]*/
 		position: relative !important;
 		top: 20px !important;
@@ -1374,6 +1375,8 @@ Disabled until further notice.
 		display: none;
 	}
 /*[[seganeko]]*/
+
+/*[[FadedCaptcha]]*/
 }
 
 /*[[QuickReply]]*/
@@ -1476,15 +1479,12 @@ Disabled until further notice.
 	img {
 		margin: auto !important;
 		overflow: auto !important;
+		display: block !important;
 	}
 
 	#doc {
 		width: 65% !important;
 		min-width: 800px !important;
-	}
-
-	img {
-		display: block !important;
 	}
 
 	#ft ul {
