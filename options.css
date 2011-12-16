@@ -404,19 +404,6 @@
 
 /*[[boardlogo]]*/
 /* Board Name */
-	div.logo {
-		position: fixed !important;
-		right: auto !important;
-		left: 2px !important;
-/*[[ChangeAlign]]*/
-		right: 2px !important;
-		left: auto !important;/**/
-		bottom: 251px !important;
-		width: 248px !important;
-		z-index: 2;
-		text-align: center;
-	}
-
 	div.logo img {
 		display: none;
 	}
@@ -424,22 +411,28 @@
 	div.logo > *:not(img) {
 		display: none;
 	}
-/* Board Name + Logo */
-	div.logo {
-		position: fixed !important;
-		right: auto !important;
-		left: 2px !important;
-/*[[ChangeAlign]]*/
-		right: 2px !important;
-		left: auto !important;/**/
-		top: 140px !important;
-		width: 248px !important;
-		z-index: 2;
-		text-align: center;
-	}
+/* Both */
+
 /* Hide Both */
 	div.logo {
 		display: none;
+	}
+/* END */
+
+/*[[BoardNamePosition]]*/
+/* Top: */
+	div.logo {
+		top: 160px !important;
+	}
+/* Center: */
+	div.logo {
+		top: 40% !important;
+		bottom: 40% !important;
+		vertical-align: center;
+	}
+/* Bottom: */
+	div.logo {
+		bottom: 251px !important;
 	}
 /* END */
 

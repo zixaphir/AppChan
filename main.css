@@ -207,6 +207,19 @@ This style is designed for the following browsers, ordered alphabetically:
 		background-color: transparent !important;
 	}
 /*[[boardlogo]]*/
+/*[[BoardNamePosition]]*/
+	div.logo {
+		position: fixed !important;
+		right: auto !important;
+		left: 2px !important;
+/*[[ChangeAlign]]*/
+		right: 2px !important;
+		left: auto !important;/**/
+		width: 248px !important;
+		z-index: 2;
+		text-align: center;
+	}
+
 	div.logo img {
 		position: fixed !important;
 		left: 2px !important;
