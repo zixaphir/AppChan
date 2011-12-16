@@ -1414,6 +1414,8 @@ domain('images.4chan.org'),
 
 /* No: */
 		border: none !important;
+/* Thicker: */
+		border-top-width: 3px !important;
 /* END */
 
 /*[[seganeko]]*/
