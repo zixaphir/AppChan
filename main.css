@@ -325,7 +325,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#header,
 	#navtop {
-		z-index: 65;
+		z-index: 60;
 	}
 
 	.pages tr > td:nth-of-type(2) {
