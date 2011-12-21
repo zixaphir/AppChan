@@ -761,7 +761,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#popup,
 	div[id^='ref'],
 	#cc-quotedcontainer_t {
-		z-index: 60 !important;
+		z-index: 65 !important;
 	}
 
 	.filesize ~ a > img + img {
