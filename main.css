@@ -408,7 +408,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	input[type='submit'],
 	#submit,
 	select,
-	textarea {
+	textarea,
+	#options button {
 		-webkit-appearance: none;
 		-moz-appearance: none;
 		-o-appearance: none;
