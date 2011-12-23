@@ -132,6 +132,7 @@
 
 	hr {
 		border-top: 1px solid #D9BFB7 !important;
+/*[[PostSeparationHR]]*/
 	}
 
 	#cc-showpostarea,
@@ -465,7 +466,7 @@
 		border-color: #eef2ff !important;
 
 	}
-/*[[PostSeparationHR]]*/
+
 	#filter input,
 	#filter textarea,
 	#thread_filter input,
