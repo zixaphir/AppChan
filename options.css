@@ -365,7 +365,7 @@
 
 /*[[PagesPosition]]*/
 /* Side */
-	.pages {
+	.pages tr > td:nth-of-type(2) {
 		padding: 0 !important;
 		visibility: hidden;
 		top: auto !important;
@@ -390,13 +390,12 @@
 		-o-transform-origin: bottom right;
 /**/
 		position: fixed;
-		letter-spacing: -1px;
 		z-index: 30 !important;
 	}
 
 	.pages a,
 	.pages b {
-		margin: 0 -4px !important;
+		margin: 0 !important;
 	}
 /* Normal: */
 
