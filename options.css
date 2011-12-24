@@ -103,10 +103,6 @@
 		right: 5px;
 	/*[[ChangeAlign]]*/	right: 255px;/**/
 	}
-
-	.replyhider {
-		width: 0 !important;
-		padding: 0 !important;
 /* Disabled: */
 		padding: 0 2px 0 2px !important;
 	}
@@ -116,10 +112,6 @@
 		position: absolute;
 		right: 5px;
 	}
-
-	.replyhider {
-		width: 0 !important;
-		padding: 0 !important;
 /* END */
 
 /*[[StickyNavigation]]*/
@@ -1148,6 +1140,17 @@
 
 /*[[ReplyWidth]]*/
 /* Fit Width: */
+	td.reply, /* Reply cell */
+	td.replyhl /* Highlighted Reply cell */ {
+		width: 100% !important;
+	}
+
+	.omittedposts /* X posts and Y image replies omitted. Click Reply to view. */ {
+		clear: both;
+		padding-left: 20px;
+		display: block !important;
+	}
+/* Fit Width, don't wrap: */
 	form[name='delform'] > table:not(.pages), /* Reply are tables. */
 	div.thread > table, /* Replies are tables. A script like 4chan X is present */
 	.insertedPosts > table, /* 4chanplus inserts new posts in a new div */

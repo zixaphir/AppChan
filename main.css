@@ -79,6 +79,11 @@ This style is designed for the following browsers, ordered alphabetically:
 	body {
 /*[[Margin]]*/
 	}
+
+	.replyhider {
+		width: 1px !important;
+		padding: 0 !important;
+	}
 }
 
 @-moz-document domain('4chan.org') {
@@ -117,7 +122,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	#quickrep tr:nth-of-type(4) b,
 	#qr.auto:not(:hover) #recaptcha_reload_btn,
 	.deletebuttons br,
-	.doubledash,
 	.error:empty,
 	.fill,
 	.notice,
@@ -154,6 +158,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	.commentpostername,
 	.container::before,
 	.filesize span::after,
+	.omittedposts,
 	.postertrip,
 	.pages a,
 	.pages b,
@@ -929,6 +934,12 @@ This style is designed for the following browsers, ordered alphabetically:
 /*[[ReplyWidth]]*/
 
 /*[[ReplyPadding]]*/
+
+	.doubledash {
+		font-size: 0;
+		visibility: hidden;
+		width: 1px !important;
+	}
 
 	form[name='delform'] > table:not(.pages),
 	div.thread > table,
