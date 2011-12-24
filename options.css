@@ -1145,10 +1145,9 @@
 		width: 100% !important;
 	}
 
-	.omittedposts /* X posts and Y image replies omitted. Click Reply to view. */ {
-		clear: both;
-		padding-left: 20px;
-		display: block !important;
+	.replyhider {
+		width: 1px !important;
+		padding: 0 !important;
 	}
 /* Fit Width, don't wrap: */
 	form[name='delform'] > table:not(.pages), /* Reply are tables. */

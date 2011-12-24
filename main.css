@@ -79,11 +79,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	body {
 /*[[Margin]]*/
 	}
-
-	.replyhider {
-		width: 1px !important;
-		padding: 0 !important;
-	}
 }
 
 @-moz-document domain('4chan.org') {
