@@ -1163,6 +1163,11 @@
 		padding-left: 20px;
 		display: block !important;
 	}
+
+	.replyhider {
+		width: 0 !important;
+		padding: 0 !important; 
+	}
 /* Fit Content: */
 	.doubledash,
 	.doubledash a,
