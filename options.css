@@ -1670,7 +1670,8 @@
 /*[[FadedCaptcha]]*/
 /* Yes: */
 	.postarea #recaptcha_widget_div img,
-	#qr img {
+	#qr img,
+	#r_captcha_div img {
 		opacity: 0.5;
 	}
 /* No: */
