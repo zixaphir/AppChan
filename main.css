@@ -1130,14 +1130,14 @@ This style is designed for the following browsers, ordered alphabetically:
 		height: 18px;
 		position: fixed !important;
 		top: auto !important;
-		left: 252px !important;
+		left: 2px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
-		right: 252px !important;/**/
+		right: 2px !important;/**/
 		bottom: 1px;
 		visibility: visible !important;
-		z-index: 5;
+		z-index: 28;
 		padding: 0 !important;
 		width: 0 !important;
 		overflow: hidden;
