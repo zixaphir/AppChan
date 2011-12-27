@@ -84,6 +84,7 @@ This style is designed for the following browsers, ordered alphabetically:
 @-moz-document domain('4chan.org') {
 /* Cleanup */
 /*[[helpertext]]*/
+	#position_switch,
 	body > br,
 	body > hr,
 	div[lock=off],
@@ -251,18 +252,32 @@ This style is designed for the following browsers, ordered alphabetically:
 		font-size: 13px !important;
 
 	}
-
-	body > span > div {
-	 /* 4watch */
-		position: fixed !important;
-		top: auto !important;
-		bottom: 440px !important;
-		left: 0 !important;
+/* 4watch */
+	form[name='delform'] + div[style] {
+		top: 20% !important;
+		z-index: 11;
+		left: 2px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
-		left: auto !important;
-		right: 0 !important;/**/
+		right: 2px !important;
+		left: auto !important;/**/
+		bottom: auto !important;
 		width: 248px;
+	}
+
+	#r_captcha_div,
+	#r_captcha_div * {
+		width: auto !important;
+		height: auto !important;
+	}
+
+	#r_captcha_div img {
+		width: 248px !important;
+		height: 48px !important;
+	}
+
+	#r_captcha_div input {
+		width: 248px !important;
 	}
 
 	hr {
