@@ -1170,7 +1170,7 @@ This style is designed for the following browsers, ordered alphabetically:
 /*[[ChangeAlign]]*/
 		left: auto !important;
 		right: 2px !important;/**/
-		bottom: 2px;
+		bottom: 3px;
 		font-size: 12px !important;
 		content: '[ x ] / [ ! ]';
 		z-index: -1;
