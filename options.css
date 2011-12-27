@@ -4,8 +4,9 @@
 
 /*[[background]]*/
 /* Akiyama Mio: */
-		content: url('http://i.imgur.com/JbSWT.png');
+		content: url('http://i.imgur.com/MdE9K.png');
 		bottom: 243px;
+		z-index: 1;
 /* Akiyama Mio 2: */
 		content: url('http://i.imgur.com/pBuG2.png');
 		bottom: 243px;
@@ -124,8 +125,9 @@
 		content: url('http://i.imgur.com/vLCEE.png');
 		bottom: 243px;
 /* Girl in Bondage 2: */
-		content: url('http://i.imgur.com/A3ShQ.png');
+		content: url('http://i.imgur.com/1TUjP.png');
 		bottom: 243px;
+		z-index: 1;
 /* Golden Darkness: */
 		content: url('http://i.imgur.com/lYGo4.png');
 		bottom: 0;
@@ -142,8 +144,9 @@
 		content: url('http://i.imgur.com/Rdk9s.png');
 		bottom: 243px;
 /* Sakurazaki Setsuna: */
-		content: url('http://i.imgur.com/f96mh.png');
+		content: url('http://i.imgur.com/QLChr.png');
 		bottom: 243px;
+		z-index: 1;
 /* Yuki Nagato: */
 		content: url('http://i.imgur.com/2BUww.png');
 		bottom: 243px;
