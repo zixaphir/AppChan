@@ -1478,7 +1478,7 @@ Disabled until further notice.
 	}
 }
 
-@-moz-document /*[[CenteredImages]]*/ url('http://www.4chan.org/banned') {
+@-moz-document url('http://www.4chan.org/banned') {
 	html {
 		display: table !important;
 	}
