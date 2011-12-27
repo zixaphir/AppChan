@@ -1676,3 +1676,14 @@
 /* No: */
 
 /* END */
+
+/*[[ExpandImageAbovePF]]*/
+/* Yes: */
+	.filesize ~ a > img + img {
+		position: relative !important;
+		top: 0px !important;
+		z-index: 40 !important;
+	}
+/* No: */
+
+/* END */

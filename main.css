@@ -765,15 +765,12 @@ This style is designed for the following browsers, ordered alphabetically:
 		z-index: 65 !important;
 	}
 
-	.filesize ~ a > img + img {
-		position: relative !important;
-		top: 0px !important;
-		z-index: 40 !important;
-	}
-
 	body > form #imgControls {
 		z-index: 55 !important;
 	}
+
+/*[[ExpandImageAbovePF]]*/
+
 /* #qr dimensions */
 	#qr {
 		z-index: 25;
