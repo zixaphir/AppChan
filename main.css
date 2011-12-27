@@ -1153,11 +1153,11 @@ This style is designed for the following browsers, ordered alphabetically:
 	.deletebuttons::before {
 		visibility: visible !important;
 		position: fixed;
-		left: 252px !important;
+		left: 2px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
-		right: 252px !important;/**/
+		right: 2px !important;/**/
 		bottom: 2px;
 		font-size: 12px !important;
 		content: '[ x ] / [ ! ]';
