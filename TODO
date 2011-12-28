@@ -1,12 +1,11 @@
 * Get Transparent Replies working on the following color schemes:
-	> Yotsuba A / B
 	> Photon
 * Allow further customization of AppChan / 4chan UI, up to and including
-	> More transparent UI -- somewhat done
-	> More slideout UI -- somewhat done
-* Reorganize 4chan x UI to look more uniform and less cluttered -- started.
+	> More transparent UI options
+	> More slideout UI options
+* Reorganize 4chan x UI to look more uniform and less cluttered -- still gross.
 * Work on custom icons for stickies and closed threads
-* More mascots
+* More mascots -- addressed but never finished. ;3
 * Port more color schemes to Custom AppChan
 * Keep up to date on bugs and work harder to find and squash them
 * Get an anonymous bug reporting page set up
