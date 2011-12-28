@@ -57,7 +57,8 @@
 		background-color: #ddd !important;
 	}
 
-	td.reply, td.replyhl {
+	td.reply,
+	td.replyhl {
 	-moz-appearance: none !important;
 		border:1px solid #ccc !important;
 	}
@@ -101,11 +102,11 @@
 	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply,
 	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply,
 	.inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline .inline td.reply {
-		background-color: #DDD !important;
+		background-color: #ddd !important;
 	}
 
 	.pages b {
-		background: #DDD !important;
+		background: #ddd !important;
 	}
 
 	#header a:hover,
@@ -293,13 +294,13 @@
 	}
 
 	td.reply {
-		background-color: rgba(193,196,217,0.5) !important;
-		text-shadow: #f0e0d6 1px 0 2px, #f0e0d6 -1px 0 2px, #f0e0d6 0 -1px 2px, #f0e0d6 0 1px 2px;
+		background-color: rgba(187,187,204,0.5) !important;
+		text-shadow: #ddd 1px 0 2px, #ddd -1px 0 2px, #ddd 0 -1px 2px, #ddd 0 1px 2px;
 	}
 
 	td.replyhl {
-		background-color: rgba(179,155,155,0.5) !important;
-		text-shadow: #f0e0d6 1px 0 2px, #f0e0d6 -1px 0 2px, #f0e0d6 0 -1px 2px, #f0e0d6 0 1px 2px;
+		background-color: rgba(153,153,170,0.5) !important;
+		text-shadow: #ccc 1px 0 2px, #ccc -1px 0 2px, #ccc 0 -1px 2px, #ccc 0 1px 2px;
 	}/**/
 
 	* {
