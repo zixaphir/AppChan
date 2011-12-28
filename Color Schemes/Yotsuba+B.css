@@ -305,8 +305,7 @@
 	td.replyhl {
 		background-color: rgba(225,129,114,0.5) !important;
 		text-shadow: #f0c0b0 1px 0 2px, #f0c0b0 -1px 0 2px, #f0c0b0 0 -1px 2px, #f0c0b0 0 1px 2px;
-	}
-/**/
+	}/**/
 }
 /* Yotsuba B */
 @-moz-document regexp(".*\.4chan\.org/(v|g|a|c|g|k|m|o|p|w|cm|3|adv|an|cgl|ck|co|diy|fa|fit|int|jp|lit|mu|n|po|sci|sp|tg|toy|trv|tv|vp|s)/.*") {

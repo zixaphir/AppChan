@@ -312,8 +312,8 @@
 	td.replyhl {
 		background-color: rgba(179,155,155,0.5) !important;
 		text-shadow: #d6bad0 1px 0 2px, #d6bad0 -1px 0 2px, #d6bad0 0 -1px 2px, #d6bad0 0 1px 2px;
-	}
-/**/
+	}/**/
+
 	* {
 		outline: none !important;
 	}
