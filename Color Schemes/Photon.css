@@ -116,7 +116,7 @@
 	}
 
 	a {
-		color: #FF6600 !important;
+		color: #ff6600 !important;
 	}
 
 	#header a, #navbot a {
@@ -177,7 +177,7 @@
 	input.inputtext:focus,
 	input[type='submit']:focus,
 	textarea:focus {
-		border: 1px solid #004A99 !important;
+		border: 1px solid #004a99 !important;
 	}
 
 	.filetitle,
@@ -287,6 +287,7 @@
 	input[type='submit'] {
 		background-color: #ffe !important;
 	}
+
 /*[[TransparentUI]]*/	.op > blockquote,
 	.thread > blockquote,
 	form[name='delform'] > blockquote {
@@ -308,7 +309,7 @@
 	}
 
 	.logo b span {
-		color: #004A99 !important;
+		color: #004a99 !important;
 	}
 
 	.logo {
@@ -338,18 +339,18 @@
 	}
 
 	a:hover {
-		color: #FF3300 !important;
+		color: #ff3300 !important;
 	}
 
 	.postername,
 	.commentpostername {
-		color: #004A99 !important;
+		color: #004a99 !important;
 		font-weight: 800 !important;
 	}
 
 	.postertrip,
 	.trip {
-		color: #FF3300 !important;
+		color: #ff3300 !important;
 	}
 
 	.postername a:hover,

@@ -157,25 +157,93 @@
 /*[[Font]]*/
 /* Don't Care: */
 /* Common Linux font, web font, common Windows font 1, commont WIndows font 2, common OS X font, common font */
-'Ubuntu', 'Droid Sans', 'Terminus', 'Segoe UI', 'Calibri', 'Lucida Grande', 'Helvetica'
+	* {
+		font-family: 'Ubuntu', 'Droid Sans', 'Terminus', 'Segoe UI', 'Calibri', 'Lucida Grande', 'Helvetica' !important;
+		text-decoration: none !important;
+	}
+
 /* Ubuntu: */
-'Ubuntu'
+	* {
+		font-family: 'Ubuntu' !important;
+		text-decoration: none !important;
+	}
+
+	@font-face {
+		font-family: 'Ubuntu';
+		font-style: normal;
+		font-weight: normal;
+		src: local('Ubuntu'), url('http://themes.googleusercontent.com/static/fonts/ubuntu/v3/_xyN3apAT_yRRDeqB3sPRg.woff') format('woff');
+	}
 /* Droid Sans: */
-'Droid Sans'
+	* {
+		font-family: 'Droid Sans' !important;
+		text-decoration: none !important;
+	}
+
+	@font-face {
+		font-family: 'Droid Sans';
+		font-style: normal;
+		font-weight: normal;
+		src: local('Droid Sans'), local('DroidSans'), url('http://themes.googleusercontent.com/static/fonts/droidsans/v2/s-BiyweUPV0v-yRb-cjciBsxEYwM7FgeyaSgU71cLG0.woff') format('woff');
+	}
+/* Droid Sans Mono: */
+	* {
+		font-family: 'Droid Sans Mono' !important;
+		text-decoration: none !important;
+	}
+
+	@font-face {
+		font-style: normal;
+		font-family: 'Droid Sans Mono';
+		font-weight: normal;
+		src: local('Droid Sans Mono'), local('DroidSansMono'), url('http://themes.googleusercontent.com/static/fonts/droidsansmono/v3/ns-m2xQYezAtqh7ai59hJUYuTAAIFFn5GTWtryCmBQ4.woff') format('woff');
+	}
+/* Quantico */
+	* {
+		font-family: 'Quantico' !important;
+		text-decoration: none !important;
+	}
+	@font-face {
+		font-family: 'Quantico';
+		font-style: normal;
+		font-weight: normal;
+		src: local('Quantico'), local('Quantico-Regular'), url('http://themes.googleusercontent.com/static/fonts/quantico/v1/RC4TVDxn85RHKNRvpYMc9PesZW2xOQ-xsNqO47m55DA.woff') format('woff');
+	}
 /* Monospace */
-'Terminus', 'monospace'
+	* {
+		font-family: 'Terminus', 'monospace' !important;
+		text-decoration: none !important;
+	}
 /* Segoe UI */
-'Segoe UI'
+	* {
+		font-family: 'Segoe UI' !important;
+		text-decoration: none !important;
+	}
 /* Calibri: */
-'Calibri'
+	* {
+		font-family: 'Droid Sans' !important;
+		text-decoration: none !important;
+	}
 /* Lucidia Grande */
-'Lucida Grande'
+	* {
+		font-family: 'Lucidia Grande' !important;
+		text-decoration: none !important;
+	}
 /* Helvetica */
-'Helvetica'
+	* {
+		font-family: 'Helvetica' !important;
+		text-decoration: none !important;
+	}
 /* Futura Lt*/
-'Futura Lt'
+	* {
+		font-family: 'Futura LT' !important;
+		text-decoration: none !important;
+	}
 /* Profont */
-'Profont', 'monospace'
+	* {
+		font-family: 'Profont', 'monospace' !important;
+		text-decoration: none !important;
+	}
 /* END */
 
 /*[[FontSize]]*/
@@ -643,7 +711,7 @@
 
 /*[[QuickReply]]*/
 /* Yes: */
-@-moz-document regexp("http://boards\.4chan\.org/.*/res/.*") {
+@-moz-document regexp('http://boards\.4chan\.org/.*/res/.*') {
 /* Remove vanilla post form and remove #qr UI to make it look more like the original post form */
 	.postarea,
 	#qr > input,
@@ -742,7 +810,7 @@
 	}
 }
 /* ...and slideout: */
-@-moz-document regexp("http://boards\.4chan\.org/.*/res/.*") {
+@-moz-document regexp('http://boards\.4chan\.org/.*/res/.*') {
 /* Remove vanilla post form and remove #qr UI to make it look more like the original post form */
 	.postarea,
 	#qr > input,
@@ -855,7 +923,7 @@
 	}
 }
 /* ...and tabbed slideout (No transitions in Chrome) */
-@-moz-document regexp("http://boards\.4chan\.org/.*/res/.*") {
+@-moz-document regexp('http://boards\.4chan\.org/.*/res/.*') {
 /* Remove vanilla post form and remove #qr UI to make it look more like the original post form */
 	.postarea,
 	#qr > input,
@@ -1005,7 +1073,7 @@
 	}
 }
 /* ...and fade: */
-@-moz-document regexp("http://boards\.4chan\.org/.*/res/.*") {
+@-moz-document regexp('http://boards\.4chan\.org/.*/res/.*') {
 	.postarea,
 	#qr > input,
 	#qr > a:not(.error) {
@@ -1176,7 +1244,7 @@
 
 	html body span[style='left: 5px; position: absolute;'] a::after {
 		visibility: visible !important;;
-		content: "<<";
+		content: '<<';
 		position: fixed !important;
 		top: auto;
 		left: 6px !important;
@@ -1209,7 +1277,7 @@
 		padding: 1px !important;
 	}
 /* ...And Hide Password Field: */
-	.deletebuttons input[name="pwd"] {
+	.deletebuttons input[name='pwd'] {
 		display: none !important;
 	}
 
@@ -1435,7 +1503,7 @@
 		content: ' - SET THIS!!';
 	}
 		#thread_filter::before {
-		content: "Filter";
+		content: 'Filter';
 		font-size: 13px;
 		position: fixed;
 		left: 130px;
@@ -1587,7 +1655,7 @@
 	}
 
 	.container::before {
-		content: "Quoted by: ";
+		content: 'Quoted by: ';
 		font-size: inherit;
 	}
 
@@ -1618,7 +1686,7 @@
 	}
 
 	.container::before {
-		content: "Quoted by: ";
+		content: 'Quoted by: ';
 		font-size: inherit;
 	}
 

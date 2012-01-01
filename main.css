@@ -131,10 +131,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		display: none !important;
 	}
 /* Defaults of all elements */
-	* {
-		font-family: /*[[Font]]*/ !important;
-		text-decoration: none !important;
-	}
+/*[[Font]]*/
 
 	td.reply,
 	a,
@@ -765,7 +762,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		display: block;
 		visibility: visible !important;
 		width: 16px;
-		content: "+";
+		content: '+';
 		text-align: center;
 	}
 /* Hover Popups and Image Expansion */
@@ -1558,7 +1555,7 @@ url('http://www.4chan.org') {
 }
 
 @-moz-document url-prefix('http://boards.4chan.org/f/') {
-	form[name="delform"] center {
+	form[name='delform'] center {
 		position: static !important;
 	}
 }
