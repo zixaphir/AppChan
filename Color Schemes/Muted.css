@@ -33,7 +33,7 @@
 	html body span[style='left: 5px; position: absolute;'] a::after,
 	input,
 	div.postarea,
-	form[name^='post']::after,
+	form[name^='post']::before,
 	select,
 	td.deletebuttons,
 	textarea,
@@ -55,7 +55,7 @@
 	#twi_table_div,
 	#updater #count:not(.new)::after,
 	#watcher::before,
-	font[color="red"] {
+	font[color='red'] {
 		color: #000 !important;
 	}
 
@@ -98,11 +98,9 @@
 		color: #7c2d2d !important;
 	}
 
-	.postertrip,
-	.trip {
+	.postertrip {
 		color: #3e7157 !important;
 	}
-
 
 	a:hover,
 	.postername a:hover,

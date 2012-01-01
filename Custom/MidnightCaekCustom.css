@@ -20,10 +20,10 @@
 
 /* Default Text color */
 
-
 	body,
 	body>form,
 	html body span[style='left: 5px; position: absolute;'] a,
+	html body span[style='left: 5px; position: absolute;'] a::after,
 	div.postarea,
 	select,
 	td.deletebuttons,
@@ -86,7 +86,7 @@
 
 /* Subject text */
 
-	.span.filetitle,
+	span.filetitle,
 	.replytitle {
 		color: #aaa !important;
 		font-weight: 700 !important;
@@ -100,7 +100,8 @@
 
 /* Text color of inputted text in text boxes */
 
-	input, textarea {
+	input,
+	textarea {
 		color: #909090 !important;
 	}
 
@@ -155,7 +156,7 @@
 	#header a:hover,
 	.pages input:hover,
 	a:hover {
-		background: rgba(255,255,255,.02) !important;
+		background: rgba(255,255,255,.1) !important;
 	}
 
 /* 4chan X's quote backlinks and forward links */
@@ -236,8 +237,13 @@
 		background-color: #1c1c1c !important;
 	}
 
-/* Background color of things like 4chan X's quick reply and 4chan X's options, and anything that matches that color */
+/* Get rid of the border around the upload button in Chrome */
 
+	input[type='file']::-webkit-file-upload-button {
+		border: none !important;
+	}
+
+/* Background color of things like 4chan X's quick reply and 4chan X's options, and anything that matches that color */
 
 	div[id^='4chan_ext_iqr'],
 	div[id^='4chan_ext_iqr'] > *,
@@ -249,6 +255,7 @@
 	#navbot,
 	#navbot::after,
 	#options input,
+	#options button,
 	#options textarea,
 	#qr,
 	#qr > form tr:nth-of-type(3) > td:nth-of-type(3) > label input,
@@ -266,8 +273,6 @@
 	.deletebuttons::before,
 	.pages,
 	.postarea form[name^='post'],
-	html,
-	body,
 	div.postarea > form td:nth-of-type(3) > label input,
 	div[id^=qr],
 	#qr a#attach::after,
@@ -343,6 +348,13 @@
 		background: #3c3c3c !important;
 	}
 
+/* Checkbox Borders */
+
+	#qr input[type='checkbox'],
+	input[type='checkbox'] {
+		border: 1px solid #2c2c2c !important;
+	}
+
 /* 4chanplus current board */
 
 	#crntBoard {
@@ -352,6 +364,7 @@
 /* Background color of buttons */
 
 	html body span[style='left: 5px; position: absolute;'] a,
+	html body span[style='left: 5px; position: absolute;'] a::after,
 	input[type='submit'],
 	#com_submit,
 	input[type='file'] > input[type='button']{
@@ -361,6 +374,7 @@
 /* Background color when buttons are hovered */
 
 	html body span[style='left: 5px; position: absolute;'] a:hover,
+	html body span[style='left: 5px; position: absolute;'] a:hover::after,
 	#com_submit:hover,
 	input[type='submit']:hover,
 	input[type='file']>input[type='button']:hover {
@@ -408,8 +422,12 @@
 /* Pages */
 
 	.pages b {
-		background: rgba(0,0,0,0.3) !important;
 		color: #909090 !important;
+		background: rgba(0,0,0,1) !important;
+		outline: 1px rgba(255,255,255,.2) solid !important;
+		-moz-outline-radius: 10px;
+		-o-outline-radius: 10px;
+		-webkit-outline-radius: 10px;
 	}
 
 /* 4chan x updater highlight upon new posts */
@@ -472,7 +490,7 @@
 /*
 	.op>blockquote,
 	.thread>blockquote,
-	form[name='delform']>blockquote,
+	form[name='delform'] > blockquote,
 	div.logo font {
 		text-shadow: -1px -1px 0 #101010, 1px -1px 0 #101010, -1px 1px 0 #101010, 1px 1px 0 #101010;
 	}

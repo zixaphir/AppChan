@@ -23,6 +23,7 @@
 	body,
 	body>form,
 	html body span[style='left: 5px; position: absolute;'] a,
+	html body span[style='left: 5px; position: absolute;'] a::after,
 	div.postarea,
 	select,
 	td.deletebuttons,
@@ -94,7 +95,8 @@
 
 /* Text color of inputted text in text boxes */
 
-	input, textarea {
+	input,
+	textarea {
 		color: #aaa !important;
 	}
 
@@ -225,6 +227,7 @@
 	#navbot,
 	#navbot::after,
 	#options input,
+	#options button,
 	#options textarea,
 	#qr,
 	#qr>form tr:nth-of-type(3)>td:nth-of-type(3)>label input,
@@ -242,7 +245,6 @@
 	.deletebuttons::before,
 	.pages,
 	.postarea form[name^='post'],
-	body,
 	h3,
 	div.postarea>form td:nth-of-type(3)>label input,
 	div[id^=qr],
@@ -331,6 +333,13 @@
 		background: #111 !important;
 	}
 
+/* Checkbox Borders */
+
+	#qr input[type='checkbox'],
+	input[type='checkbox'] {
+		border: 1px solid #2c2c2c !important;
+	}
+
 /* 4chanplus current board */
 
 	#crntBoard {
@@ -340,6 +349,7 @@
 /* Background color of buttons */
 
 	html body span[style='left: 5px; position: absolute;'] a,
+	html body span[style='left: 5px; position: absolute;'] a::after,
 	input[type='submit'],
 	#com_submit,
 	input[type='file']>input[type='button'] {
@@ -349,6 +359,7 @@
 /* Background color when buttons are hovered */
 
 	html body span[style='left: 5px; position: absolute;'] a:hover,
+	html body span[style='left: 5px; position: absolute;'] a:hover::after,
 	#com_submit:hover,
 	input[type='submit']:hover,
 	input[type='file']>input[type='button']:hover {
@@ -460,10 +471,11 @@
 /*
 	.op>blockquote,
 	.thread>blockquote,
-	form[name='delform']>blockquote,
+	form[name='delform'] > blockquote,
 	div.logo font {
 		text-shadow: -1px -1px 0 #2c2c2c, 1px -1px 0 #2c2c2c, -1px 1px 0 #2c2c2c, 1px 1px 0 #2c2c2c;
 	}
+
 	td.reply {
 		background-color: rgba(58,58,58,0.5) !important;
 			// (Ca * Alpha) + (Cb * (1 - Alpha)) = Cc
