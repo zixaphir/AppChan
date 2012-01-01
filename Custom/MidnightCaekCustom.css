@@ -6,15 +6,15 @@
 	}
 
 /*
-	Uncomment the following and remove text in () to add in custom background image. Nulls background color choice from above.
+	Uncomment the following to add in custom background image. Nulls background color choice from above.
 	Though `body` would suffice, `html > body` ensures this CSS overrides the body declaration used in vanilla AppChan via CSS Specificity. (http://www.w3.org/TR/CSS2/cascade.html#specificity)
 */
 /*
 	html > body { 
 		background-image url('http://upload.com/yourlinkhere.png') !important;
 		background-color: none !important;
-		background-repeat: no-repeat !important;	(Change to repeat, repeat-x, or repeat-y if you do want image to repeat)
-		background-attachment: fixed !important;	(Forces the background to remain on the screen while scrolling) 
+		background-repeat: no-repeat !important;	// (Change to repeat, repeat-x, or repeat-y if you do want image to repeat)
+		background-attachment: fixed !important;	// (Forces the background to remain on the screen while scrolling) 
 	}
 */
 
