@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, seaweed !Ponyo.2wFe, MayhemYDG, !K.WeEabo0o, disappoint, Kupaka, ubuntufriend, anonymous
 
-Revision 108
+Revision 109
 
 AppChan Copyright (C) 2011, Zixaphir Modnar
 All rights reserved.
@@ -382,7 +382,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin: 0 !important;
 	}
 /* moot's announcements */
-	font[color='red'] {
+	body > font[color='red'] {
 		/*[[redtext]]*/
 		position: relative !important;
 		top: 20px !important;

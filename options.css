@@ -163,16 +163,16 @@
 	}
 
 /* Ubuntu: */
-	* {
-		font-family: 'Ubuntu' !important;
-		text-decoration: none !important;
-	}
-
 	@font-face {
 		font-family: 'Ubuntu';
 		font-style: normal;
 		font-weight: normal;
 		src: local('Ubuntu'), url('http://themes.googleusercontent.com/static/fonts/ubuntu/v3/_xyN3apAT_yRRDeqB3sPRg.woff') format('woff');
+	}
+
+	* {
+		font-family: 'Ubuntu' !important;
+		text-decoration: none !important;
 	}
 /* Droid Sans: */
 	* {
@@ -187,29 +187,30 @@
 		src: local('Droid Sans'), local('DroidSans'), url('http://themes.googleusercontent.com/static/fonts/droidsans/v2/s-BiyweUPV0v-yRb-cjciBsxEYwM7FgeyaSgU71cLG0.woff') format('woff');
 	}
 /* Droid Sans Mono: */
-	* {
-		font-family: 'Droid Sans Mono' !important;
-		text-decoration: none !important;
-	}
-
 	@font-face {
 		font-style: normal;
 		font-family: 'Droid Sans Mono';
 		font-weight: normal;
 		src: local('Droid Sans Mono'), local('DroidSansMono'), url('http://themes.googleusercontent.com/static/fonts/droidsansmono/v3/ns-m2xQYezAtqh7ai59hJUYuTAAIFFn5GTWtryCmBQ4.woff') format('woff');
 	}
-/* Quantico */
+
 	* {
-		font-family: 'Quantico' !important;
+		font-family: 'Droid Sans Mono' !important;
 		text-decoration: none !important;
 	}
+/* Quantico */
 	@font-face {
 		font-family: 'Quantico';
 		font-style: normal;
 		font-weight: normal;
 		src: local('Quantico'), local('Quantico-Regular'), url('http://themes.googleusercontent.com/static/fonts/quantico/v1/RC4TVDxn85RHKNRvpYMc9PesZW2xOQ-xsNqO47m55DA.woff') format('woff');
 	}
-/* Monospace */
+
+	* {
+		font-family: 'Quantico' !important;
+		text-decoration: none !important;
+	}
+/* Terminus / monospace */
 	* {
 		font-family: 'Terminus', 'monospace' !important;
 		text-decoration: none !important;
@@ -224,7 +225,7 @@
 		font-family: 'Droid Sans' !important;
 		text-decoration: none !important;
 	}
-/* Lucidia Grande */
+/* Lucida Grande */
 	* {
 		font-family: 'Lucidia Grande' !important;
 		text-decoration: none !important;
