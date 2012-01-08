@@ -1065,10 +1065,10 @@ This style is designed for the following browsers, ordered alphabetically:
 		right: auto !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
-		right: 143px !important;/**/
+		right: 123px !important;/**/
 		top: 0;
 		bottom: auto !important;
-		width: 105px;
+		width: 125px;
 		font-size: 13px !important;
 	}
 
@@ -1088,7 +1088,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#imageType {
 		float: right !important;
 		border: none !important;
-		width: 50px !important;
+		width: 70px !important;
 		position: relative !important;
 		bottom: 1px !important;
 		right: 0px !important;
