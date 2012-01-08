@@ -386,13 +386,6 @@
 		width: 56px !important;
 	}
 
-	.fake input[type='file']::-webkit-file-upload-button,
-	form[name^='post'] input[type='file'][name='upfile'],
-	#qr input[type='file'][name='upfile'] {
-		margin: 1px 0 0 !important;
-		height: 19px !important;
-	}
-
 	#recaptcha_image img,
 	#quick_recaptcha_image img,
 	#qr img {
