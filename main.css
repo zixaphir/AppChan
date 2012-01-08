@@ -1028,6 +1028,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	#navtopr {
+		pointer-events: auto;
 		position: fixed;
 		left: 188px !important;
 		right: auto !important;
