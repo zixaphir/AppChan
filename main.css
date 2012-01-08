@@ -625,8 +625,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	.postarea #com_submit + label {
 		font-size: 12px !important;
 		top: auto !important;
-		bottom: 2px;
-		right: 70px;
+		bottom: 1px;
+		right: 50px;
 		vertical-align: bottom;
 	}
 
@@ -864,8 +864,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		background: none !important;
 	}
 /* Post form Checkboxes */
+/* Spoiler Image? */
 	form[name^='post'] tr:nth-of-type(3) > td:nth-of-type(3) {
-	/* Removes the brackets around Spoiler Image */
 		font-size: 0 !important;
 		color: transparent;
 	}
@@ -884,7 +884,7 @@ This style is designed for the following browsers, ordered alphabetically:
 
 	#qr_form input[name='email'] + label {
 		bottom: 1px;
-		right: 4px;
+		right: 50px;
 	}
 
 	#qr > form[name^='post'] #com_submit + label,
