@@ -14,10 +14,6 @@
 		background: #eeeeee none !important;
 	}
 
-	.logo b span {
-		text-shadow: 1px 1px 1px #222 !important;
-	}
-
 	#boards h3,
 	#boardsMenu,
 	#filter.autohide:hover,
@@ -71,7 +67,7 @@
 
 	.doubledash,
 	.replyhider a {
-		color: #D9BFB7 !important;
+		color: #d9bfb7 !important;
 	}
 
 	td[style='border: 1px dashed;'],
@@ -134,7 +130,7 @@
 	}
 
 	hr {
-		border-top: 1px solid #D9BFB7 !important;
+		border-top: 1px solid #d9bfb7 !important;
 /*[[PostSeparationHR]]*/
 	}
 
@@ -254,16 +250,16 @@
 	#options input[type='checkbox'],
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox'],
 	#qr label input[type='checkbox'] {
-		background-color: #ffe !important;
+		background-color: #eee !important;
 	}
 
 	#crntBoard {
-		border-right-color: #ffe !important;
+		border-right-color: #eee !important;
 	}
 
 	#watcher .move,
 	#twi_table_div .postblock {
-		border-bottom: 1px #ffe solid !important;
+		border-bottom: 1px #eee solid !important;
 	}
 
 	div[id^='4chan_ext_iqr'],
@@ -287,13 +283,14 @@
 	.pages,
 	.pages tr > td:nth-of-type(2),
 	input[type='submit'] {
-		background-color: #ffe !important;
+		background-color: #eee !important;
 	}
 
 /*[[TransparentUI]]*/	.op > blockquote,
 	.thread > blockquote,
-	form[name='delform'] > blockquote {
-		text-shadow: -1px -1px 0 #ffe, 1px -1px 0 #ffe, -1px 1px 0 #ffe, 1px 1px 0 #ffe;
+	form[name='delform'] > blockquote, /**/
+	div.logo font {
+		text-shadow: -1px -1px 0 #eee, 1px -1px 0 #eee, -1px 1px 0 #eee, 1px 1px 0 #eee;
 	}
 
 	td.reply {
