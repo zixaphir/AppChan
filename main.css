@@ -325,7 +325,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		position: static !important;
 		float: none !important;
 		display: inline-block;
-		pointer-events: all;
+		pointer-events: auto;
 	}
 /*[[StickyNavigation]]*/
 	#header {

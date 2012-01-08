@@ -119,6 +119,10 @@
 /* Suzumiya Haruhi 2: */
 		content: url('http://i.imgur.com/rW9Q6.png');
 		bottom: 242px;
+/* Yoko Littner: */
+		content: url('http://i.imgur.com/3goQm.png');
+		bottom: 242px;
+		z-index: 1;
 /* ***RISQUE / NSFW*** (not a mascot, just a label) */
 
 /* Anime Girl in Bondage: */
