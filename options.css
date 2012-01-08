@@ -122,7 +122,7 @@
 /* ***RISQUE / NSFW*** (not a mascot, just a label) */
 
 /* Anime Girl in Bondage: */
-		content: url('http://i.imgur.com/vLCEE.png');
+		content: url('http://i.imgur.com/B3h3c.png');
 		bottom: 243px;
 /* Anime Girl in Bondage 2: */
 		content: url('http://i.imgur.com/1TUjP.png');
@@ -149,6 +149,20 @@
 		z-index: 1;
 /* Yuki Nagato: */
 		content: url('http://i.imgur.com/2BUww.png');
+		bottom: 243px;
+/* Silhouettes */
+
+/* Yuki Nagato: */
+		content: url('http://i.imgur.com/uR35P.png');
+		bottom: 243px;
+/* Yuki Nagato + Pantsu: */
+		content: url('http://i.imgur.com/L9ZAT.png');
+		bottom: 243px;
+/* Horo: */
+		content: url('http://i.imgur.com/HMpug.png');
+		bottom: 243px;
+/* Horo 2: */
+		content: url('http://i.imgur.com/BjV3U.png');
 		bottom: 243px;
 /* None: */
 
