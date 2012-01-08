@@ -293,7 +293,7 @@
 /* END */
 
 /*[[StickyNavigation]]*/
-/* Yes: */
+/* Sticky Top: */
 	#header,
 	.pages tr > td:nth-of-type(2) {
 		position: fixed !important;
@@ -309,11 +309,6 @@
 
 	#header {
 		top: 0 !important;
-	}
-
-	.pages tr > td:nth-of-type(2) {
-		top: auto !important;
-		bottom: 1px !important;
 	}
 
 	#navbar {
@@ -338,7 +333,7 @@
 	#navbar #boardsMenu {
 		bottom: 26px !important;
 	}
-/* No: */
+/* 4chan Defaults: */
 	#header {
 		position: absolute !important;
 	}
@@ -346,7 +341,7 @@
 	#navbot {
 		display: none;
 	}
-/* Invert */
+/* Sticky Bottom */
 	#header,
 	.pages tr > td:nth-of-type(2) {
 		position: fixed !important;
@@ -363,11 +358,6 @@
 	#header {
 		top: auto !important;
 		bottom: 1px !important;
-	}
-
-	.pages tr > td:nth-of-type(2) {
-		bottom: auto !important;
-		top: 0 !important;
 	}
 
 	#navbar {
@@ -388,7 +378,7 @@
 		position: fixed !important;
 		top: -101px !important;
 	}
-/* Slideout */
+/* Slideout Top */
 	#header {
 		position: absolute !important;
 	}
@@ -447,13 +437,7 @@
 		-moz-transition: top .3s linear, bottom .3s linear;
 		-o-transition: top .3s linear, bottom .3s linear;
 	}
-/* Slideout Invert */
-	.pages tr > td:nth-of-type(2) {
-		position: fixed !important;
-		bottom: auto !important;
-		top: 0 !important;
-	}
-
+/* Slideout Bottom */
 	#navtop {
 		display: none !important;
 	}
@@ -567,8 +551,16 @@
 	.pages b {
 		margin: 0 !important;
 	}
-/* Normal: */
-
+/* Sticky Bottom: */
+	.pages tr > td:nth-of-type(2) {
+		top: auto !important;
+		bottom: 1px !important;
+	}
+/* Sticky Top: */
+	.pages tr > td:nth-of-type(2) {
+		bottom: auto !important;
+		top: 0 !important;
+	}
 /* END */
 
 /*[[boardlogo]]*/
