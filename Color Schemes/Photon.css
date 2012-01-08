@@ -293,7 +293,7 @@
 		text-shadow: -1px -1px 0 #eee, 1px -1px 0 #eee, -1px 1px 0 #eee, 1px 1px 0 #eee;
 	}
 
-	td.reply {
+/*[[TransparentUI]]*/	td.reply {
 		background-color: rgba(187,187,204,0.5) !important;
 		text-shadow: #ddd 1px 0 2px, #ddd -1px 0 2px, #ddd 0 -1px 2px, #ddd 0 1px 2px;
 	}
