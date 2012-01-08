@@ -495,7 +495,7 @@
 		-o-transition: top .3s linear, bottom .3s linear;
 	}
 /* Hide: */
-	#header {
+	#navtop {
 		display: none !important;
 	}
 /* END */
