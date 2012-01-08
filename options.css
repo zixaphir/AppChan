@@ -174,6 +174,7 @@
 
 /*[[Font]]*/
 /* Don't Care: */
+
 /* Common Linux font, web font, common Windows font 1, commont WIndows font 2, common OS X font, common font */
 	* {
 		font-family: 'Ubuntu', 'Droid Sans', 'Terminus', 'Segoe UI', 'Calibri', 'Lucida Grande', 'Helvetica' !important;
@@ -337,14 +338,6 @@
 	#navbar #boardsMenu {
 		bottom: 26px !important;
 	}
-/* 4chan Defaults: */
-	#header {
-		position: absolute !important;
-	}
-
-	#navbot {
-		display: none;
-	}
 /* Sticky Bottom */
 	#header,
 	.pages tr > td:nth-of-type(2) {
@@ -501,23 +494,9 @@
 		-moz-transition: top .3s linear, bottom .3s linear;
 		-o-transition: top .3s linear, bottom .3s linear;
 	}
-/* END */
-
-/*[[CompactNavigation]]*/
-/* Yes: */
-	#header a,
-	.pages a,
-	.pages b,
-	.pages input {
-		margin: 0 1px 0 2px;
-	}
-/* No: */
-	#header a,
-	.pages a,
-	.pages b,
-	.pages input {
-		margin: 0 1px;
-		min-width: 14px;
+/* Hide: */
+	#header {
+		display: none !important;
 	}
 /* END */
 
@@ -565,8 +544,30 @@
 		bottom: auto !important;
 		top: 0 !important;
 	}
+/* Hide: */
+	.pages {
+		display: none !important;
+	}
 /* 4chan Defaults */
 
+/* END */
+
+/*[[CompactNavigation]]*/
+/* Yes: */
+	#header a,
+	.pages a,
+	.pages b,
+	.pages input {
+		margin: 0 1px 0 2px;
+	}
+/* No: */
+	#header a,
+	.pages a,
+	.pages b,
+	.pages input {
+		margin: 0 1px;
+		min-width: 14px;
+	}
 /* END */
 
 /*[[boardlogo]]*/
