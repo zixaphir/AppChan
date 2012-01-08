@@ -287,7 +287,7 @@
 	.thread > blockquote,
 	form[name='delform'] > blockquote, /**/
 	div.logo font {
-		text-shadow: #ffe -1px -1px 0, #ffe 1px -1px 0, #ffe -1px 1px 0, #ffe 1px 1px 0 !important;
+		text-shadow: #ffe -1px -1px 0, #ffe 1px -1px 0, #ffe -1px 1px 0, #ffe 1px 1px 0;
 	}
 /*[[TransparentUI]]*/	td.reply {
 		background-color: rgba(225,193,190,0.5) !important;
