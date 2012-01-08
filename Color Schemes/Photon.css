@@ -63,7 +63,9 @@
 		border:1px solid #ccc !important;
 	}
 
-	#header, #navbot, #navbot::after {
+	#navtop,
+	#navbot,
+	#navbot::after {
 		background-color: #ddd !important;
 	}
 

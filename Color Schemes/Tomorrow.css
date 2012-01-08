@@ -153,7 +153,7 @@
 	div[id^='4chan_ext_iqr'] *,
 	#filter input,
 	#filter textarea,
-	#header,
+	#navtop,
 	#navbot,
 	#navbot::after,
 	#options input,

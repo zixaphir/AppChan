@@ -397,7 +397,9 @@
 		border: 1px solid #ba9dbf !important;
 	}
 
-	#header, #navbot::after, #navbot {
+	#navtop,
+	#navbot::after,
+	#navbot {
 		background-color: #d2d6ef !important;
 	}
 

@@ -323,13 +323,15 @@ This style is designed for the following browsers, ordered alphabetically:
 	#header > #navtop {
 	/* cripple the positioning of the top navigation */
 		position: static !important;
-		width: 100% !important;
+		float: none !important;
+		display: inline-block;
+		pointer-events: all;
 	}
 /*[[StickyNavigation]]*/
 	#header {
+		pointer-events: none;
 		left: 250px !important;
 		right: 0 !important;
-		padding: 1px 0 !important;
 /*[[ChangeAlign]]*/
 		left: 0 !important;
 		right: 250px !important;/**/
