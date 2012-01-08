@@ -17,14 +17,6 @@
 		background: url("http://static.4chan.org/image/fade.png") repeat-x scroll center top #ffe !important;
 	}
 
-	.logo {
-		text-shadow: 1px 1px 1px #222 !important;
-	}
-
-	.logo b span {
-		text-shadow: 1px 1px 1px #222 !important;
-	}
-
 	a.backlink,
 	a.forwardlink {
 		color: #dc0000 !important;
@@ -295,7 +287,7 @@
 	.thread > blockquote,
 	form[name='delform'] > blockquote, /**/
 	div.logo font {
-		text-shadow: #ffe 1px 0 2px, #ffe -1px 0 2px, #ffe 0 -1px 2px, #ffe 0 1px 2px;
+		text-shadow: #ffe -1px -1px 0, #ffe 1px -1px 0, #ffe -1px 1px 0, #ffe 1px 1px 0 !important;
 	}
 /*[[TransparentUI]]*/	td.reply {
 		background-color: rgba(225,193,190,0.5) !important;
@@ -337,14 +329,6 @@
 
 	td.replyhl {
 		border: 1px solid #5765b5 !important;
-	}
-
-	.logo {
-		text-shadow: 1px 1px 1px #222 !important;
-	}
-
-	.logo b span {
-		text-shadow: 1px 1px 1px #222 !important;
 	}
 
 	a.backlink,
@@ -614,7 +598,7 @@
 	.thread > blockquote,
 	form[name='delform'] > blockquote, /**/
 	div.logo font {
-		text-shadow: #eef2ff 1px 0 2px, #eef2ff -1px 0 2px, #eef2ff 0 -1px 2px, #eef2ff 0 1px 2px;
+		text-shadow: #eef2ff -1px -1px 0, #eef2ff 1px -1px 0, #eef2ff -1px 1px 0, #eef2ff 1px 1px 0;
 	}
 /*[[TransparentUI]]*/	td.reply {
 		background-color: rgba(193,196,217,0.5) !important;

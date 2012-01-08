@@ -28,14 +28,6 @@
 		border: 1px solid #5765b5 !important;
 	}
 
-	.logo {
-		text-shadow: 1px 1px 1px #222 !important;
-	}
-
-	.logo b span {
-		text-shadow: 1px 1px 1px #222 !important;
-	}
-
 	a.backlink,
 	a.forwardlink {
 		color: #0000aa !important;
@@ -303,7 +295,7 @@
 	.thread > blockquote,
 	form[name='delform'] > blockquote, /**/
 	div.logo font {
-		text-shadow: #eef2ff 1px 0 2px, #eef2ff -1px 0 2px, #eef2ff 0 -1px 2px, #eef2ff 0 1px 2px;
+		text-shadow: #eef2ff -1px -1px 0, #eef2ff 1px -1px 0, #eef2ff -1px 1px 0, #eef2ff 1px 1px 0;
 	}
 /*[[TransparentUI]]*/	td.reply {
 		background-color: rgba(193,196,217,0.5) !important;
