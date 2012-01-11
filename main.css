@@ -445,12 +445,9 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 
 	.fake input[type='file']::-webkit-file-upload-button,
-	.postarea form[name^='post'] table td * {
-		margin-left: auto;
+	.postarea form[name^='post'] table td {
 /*[[ChangeAlign]]*/
-		margin-left: 0;
-		margin-right: auto;
-		float: left;
+		float: right;
 /**/
 	}
 /*[[PostForm]]*/
