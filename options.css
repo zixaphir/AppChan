@@ -426,9 +426,11 @@
 
 	#navbot::after {
 		left: auto !important;
-		right: 0 !important;
-		z-index: 45 !important;
-/*[[ChangeAlign]]*/	right: auto !important;/**/
+		right: 100px !important;
+/*[[ChangeAlign]]*/
+		right: auto !important;
+		left: 100px !important;
+		/**/
 		top: 0 !important;
 		height: 15px !important;
 		width: 80px;
@@ -464,9 +466,10 @@
 		position: fixed !important;
 		top: -61px !important;
 		left: auto !important;
-		right: 0 !important;
-/*[[ChangeAlign]]*/		left: 0 !important;
-		right: auto !important;/**/
+		right: 100px !important;
+/*[[ChangeAlign]]*/
+		right: auto !important;
+		left: 100px !important;/**/
 		color: transparent !important;
 		padding: 0 10px 30px 10px !important;
 		border-width: 0 1px 1px 0 !important;
@@ -488,8 +491,11 @@
 		position: fixed !important;
 		display: block !important;
 		left: auto !important;
-		right: 0 !important;
-/*[[ChangeAlign]]*/right: auto !important;/**/
+		right: 100px !important;
+/*[[ChangeAlign]]*/
+		right: auto !important;
+		left: 100px !important;
+		/**/
 		bottom: 1px !important;
 		height: 15px !important;
 		width: 80px;
@@ -524,8 +530,8 @@
 		position: fixed !important;
 		bottom: -101px !important;
 		left: auto !important;
-		right: 0 !important;
-/*[[ChangeAlign]]*/		left: 0 !important;
+		right: 100px !important;
+/*[[ChangeAlign]]*/		left: 100px !important;
 		right: auto !important;/**/
 		color: transparent !important;
 		padding: 0 10px 30px 10px !important;
