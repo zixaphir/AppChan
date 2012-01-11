@@ -411,10 +411,6 @@
 		border: none !important;
 	}
 
-	input[type='file']::-webkit-file-upload-button {
-		border: none !important;
-	}
-
 	#qr input[type='checkbox'],
 	input[type='checkbox'] {
 		border: 1px solid #000 !important;
@@ -466,15 +462,21 @@
 	.pages input[type='submit'] {
 		height: 15px !important;
 	}
+
 	#qr {
 		background-color: rgba(0,0,0,0.7) !important;
 		border: 1px solid #333 !important;
 		border-left: none !important;
 		border-bottom: none !important;
 	}
+
 	.postarea form[name^='post'] {
 		width: 252px !important;
 		right: 1px !important;
 		padding-top: 1px !important;
 		border-top: 1px solid #333 !important;
+	}
+
+	input[type='file']::-webkit-file-upload-button {
+		height: 16px !important;
 	}

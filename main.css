@@ -185,16 +185,16 @@ This style is designed for the following browsers, ordered alphabetically:
 		font-size: 12px !important;
 		text-decoration: none !important;
 	}
-
-	/*[[CustomScrollbars]]*/::-webkit-scrollbar { width: 10px !important; height: 10px !important; }
+/*[[CustomScrollbars]]*/
+	::-webkit-scrollbar { width: 10px !important; height: 10px !important; }
 	::-webkit-scrollbar-thumb { border: 1px solid; }
 	::-webkit-scrollbar-track-piece:vertical { border-left: 0; }
 	::-webkit-scrollbar-track-piece:horizontal { border-top: 0; }
 	scrollbar, scrollcorner { -moz-appearance: none !important; -o-appearance: none !important; width: 10px !important; height: 10px !important; }
 	scrollbar[orient='vertical'] { border-left: 0; }
 	scrollbar[orient='horizontal'] { border-top: 0; }
-	thumb { -moz-appearance: none !important; -o-appearance: none !important; border: 1px solid; }/**/
-
+	thumb { -moz-appearance: none !important; -o-appearance: none !important; border: 1px solid; }
+/**/
 	form[name='delform'] > table[align=right]:last-of-type {
 		visibility: hidden;
 	}
@@ -607,14 +607,18 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /* Webkit's file input box has a different syntax */
 	.fake input[type='file']::-webkit-file-upload-button,
-	* > input[type='file'][name='upfile'],
-	* > .postarea input[type='file'][name='upfile'],
-	* > #qr form[name^='post'] input[type='file'][name='upfile'] {
+	input[type='file'][name='upfile'],
+	.postarea input[type='file'][name='upfile'],
+	#qr form[name^='post'] input[type='file'][name='upfile'] {
 		background: transparent;
 		border: none !important;
 		height: 18px !important;
 		padding: 0 !important;
 		text-transform: uppercase;
+	}
+
+	input::-webkit-file-upload-button {
+		border: none !important;
 	}
 /* Positioning of various postarea checkboxes */
 	.postarea form[name^='post'] label {

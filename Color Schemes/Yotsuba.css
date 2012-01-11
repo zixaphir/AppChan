@@ -63,10 +63,6 @@
 		border:1px solid #d9bfb7 !important;
 	}
 
-	input[type='file']::-webkit-file-upload-button {
-		border: 1px solid #d9bfb7 !important;
-	}
-
 	td.replyhl {
 		border: 1px solid #ba9dbf !important;
 	}
@@ -162,11 +158,14 @@
 	form[name^='post'] td:nth-of-type(3) > label input[type='checkbox'],
 	#qr label input[type='checkbox'],
 	html body span[style='left: 5px; position: absolute;'] a {
-		border: 1px solid #d9bFb7 !important;
+		border: 1px solid #d9bfb7 !important;
 	}
 
-	input[type='file']::-webkit-file-upload-button {
-		border: 1px solid #f9bfb7 !important;
+	.fake input[type='file']::-webkit-file-upload-button,
+	input[type='file'][name='upfile'],
+	.postarea input[type='file'][name='upfile'],
+	#qr form[name^='post'] input[type='file'][name='upfile'] {
+		border: 1px solid #d9bfb7 !important;
 	}
 
 	.recaptchatable #recaptcha_response_field:focus,
@@ -472,4 +471,8 @@
 	.pages input[type='submit'] {
 		margin: 0 !important;
 		height: 17px !important;
+	}
+
+	input[type='file']::-webkit-file-upload-button {
+		height: 16px !important;
 	}

@@ -346,10 +346,6 @@
 		border: none !important;
 	}
 
-	input[type='file']::-webkit-file-upload-button {
-		border: none !important;
-	}
-
 	#qr input[type='checkbox'],
 	input[type='checkbox'] {
 		border: 1px solid #1d1f21 !important;

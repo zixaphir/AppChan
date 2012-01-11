@@ -354,10 +354,6 @@
 		border: none !important;
 	}
 
-	input[type='file']::-webkit-file-upload-button {
-		border: none !important;
-	}
-
 	#recaptcha_image img,
 	#quick_recaptcha_image img,
 	#qr img {

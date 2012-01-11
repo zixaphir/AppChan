@@ -376,7 +376,10 @@
 		border: 1px solid #888 !important;
 	}
 
-	input[type='file']::-webkit-file-upload-button {
+	.fake input[type='file']::-webkit-file-upload-button,
+	input[type='file'][name='upfile'],
+	.postarea input[type='file'][name='upfile'],
+	#qr form[name^='post'] input[type='file'][name='upfile'] {
 		border: 1px solid #888 !important;
 	}
 
@@ -426,4 +429,8 @@
 	.pages input[type='submit'] {
 		margin: 0 !important;
 		height: 17px !important;
+	}
+
+	input[type='file']::-webkit-file-upload-button {
+		height: 16px !important;
 	}

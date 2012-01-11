@@ -165,7 +165,10 @@
 		border: 1px solid #ccc !important;
 	}
 
-	input[type='file']::-webkit-file-upload-button {
+	.fake input[type='file']::-webkit-file-upload-button,
+	input[type='file'][name='upfile'],
+	.postarea input[type='file'][name='upfile'],
+	#qr form[name^='post'] input[type='file'][name='upfile'] {
 		border: 1px solid #ccc !important;
 	}
 
@@ -474,3 +477,6 @@
 		height: 17px !important;
 	}
 
+	input[type='file']::-webkit-file-upload-button {
+		height: 16px !important;
+	}

@@ -4,12 +4,12 @@
 /* Yotsuba */
 @-moz-document regexp(".*\.4chan\.org/(b|d|e|f|gif|h|hr|r|s|t|u|wg|i|ic|r9k|y|pol|soc)/.*") {
 /*[[CustomScrollbars]]*/
-	::-webkit-scrollbar-thumb { border: 1px solid #D9BFB7; background: #eef2ff; }
+	::-webkit-scrollbar-thumb { border: 1px solid #d9bfb7; background: #eef2ff; }
 	::-webkit-scrollbar-thumb:hover { background: -webkit-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
 	::-webkit-scrollbar-thumb:active { background: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
 	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer {background: #f0e0d6; }
 	scrollbar, scrollcorner { background: #f0e0d6 !important; }
-	thumb { -moz-appearance: none !important; border: 1px solid #D9BFB7; background: #fff; }
+	thumb { -moz-appearance: none !important; border: 1px solid #d9bfb7; background: #fff; }
 	thumb:hover { background: -moz-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
 	thumb:active { background: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
 /**/
@@ -64,7 +64,7 @@
 	}
 
 	td.reply {
-		border:1px solid #D9BFB7 !important;
+		border:1px solid #d9bfb7 !important;
 	}
 
 	td.replyhl {
@@ -72,7 +72,7 @@
 	}
 
 	#header {
-		background-color: #FED7B1 !important;
+		background-color: #fed7b1 !important;
 	}
 
 	.doubledash,
@@ -165,7 +165,10 @@
 		border: 1px solid #f9bfb7 !important;
 	}
 
-	input[type='file']::-webkit-file-upload-button {
+	.fake input[type='file']::-webkit-file-upload-button,
+	input[type='file'][name='upfile'],
+	.postarea input[type='file'][name='upfile'],
+	#qr form[name^='post'] input[type='file'][name='upfile'] {
 		border: 1px solid #f9bfb7 !important;
 	}
 
@@ -180,7 +183,7 @@
 
 	.filetitle,
 	.replytitle {
-		color: #CC1105 !important;
+		color: #cc1105 !important;
 		font-weight: 800 !important;
 	}
 
@@ -303,23 +306,16 @@
 @-moz-document regexp(".*\.4chan\.org/(v|g|a|c|g|k|m|o|p|w|cm|3|adv|an|cgl|ck|co|diy|fa|fit|int|jp|lit|mu|n|po|sci|sp|tg|toy|trv|tv|vp|s)/.*") {
 /*[[CustomScrollbars]]*/
 	::-webkit-scrollbar-thumb { border: 1px solid #b7c5d9; background: #eef2ff; }
-
 	::-webkit-scrollbar-thumb:hover { background: -webkit-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
-
 	::-webkit-scrollbar-thumb:active { background: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
-
 	::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-resizer {background: #d6daf0; }
-
 	scrollbar, scrollcorner { background: #d6daf0 !important; }
-
 	thumb { -moz-appearance: none !important; border: 1px solid #b7c5d9; background: #fff; }
-
 	thumb:hover { background: -moz-linear-gradient(top, rgba(0,0,0,.4), rgba(0,0,0,0.2)) !important; }
-
 	thumb:active { background: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.1)) !important; }
 /**/
 	body {
-		background: url("http://static.4chan.org/image/fade-blue.png") repeat-x scroll center top #EEF2FF !important;
+		background: url("http://static.4chan.org/image/fade-blue.png") repeat-x scroll center top #eef2ff !important;
 	}
 
 	td.reply,
@@ -370,6 +366,10 @@
 	#com_submit,
 	input[type='file'] > input[type='button'],
 	#qr a#attach::after {
+		background-color: #d6daf0 !important;
+	}
+
+	input[type='file']::-webkit-file-upload-button {
 		background-color: #d6daf0 !important;
 	}
 
@@ -478,7 +478,10 @@
 		border: 1px solid #b7c5d9 !important;
 	}
 
-	input[type='file']::-webkit-file-upload-button {
+	.fake input[type='file']::-webkit-file-upload-button,
+	input[type='file'][name='upfile'],
+	.postarea input[type='file'][name='upfile'],
+	#qr form[name^='post'] input[type='file'][name='upfile'] {
 		border: 1px solid #b7c5d9 !important;
 	}
 
@@ -784,4 +787,8 @@
 	.pages input[type='submit'] {
 		margin: 0 !important;
 		height: 17px !important;
+	}
+
+	input[type='file']::-webkit-file-upload-button {
+		height: 16px !important;
 	}

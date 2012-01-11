@@ -242,12 +242,6 @@
 		background-color: #efefef !important;
 	}
 
-/* Get rid of the border around the upload button in Chrome */
-
-	input[type='file']::-webkit-file-upload-button {
-		border: none !important;
-	}
-
 /* Background color of things like 4chan X's quick reply and 4chan X's options, and anything that matches that color */
 
 	div[id^='4chan_ext_iqr'],

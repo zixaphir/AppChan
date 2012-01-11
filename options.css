@@ -193,17 +193,25 @@
 		font-family: 'Ubuntu' !important;
 		text-decoration: none !important;
 	}
-/* Droid Sans: */
-	* {
-		font-family: 'Droid Sans' !important;
-		text-decoration: none !important;
-	}
 
+	input::-webkit-file-upload-button {
+		font-family: 'Ubuntu' !important;
+	}
+/* Droid Sans: */
 	@font-face {
 		font-family: 'Droid Sans';
 		font-style: normal;
 		font-weight: normal;
 		src: local('Droid Sans'), local('DroidSans'), url('http://themes.googleusercontent.com/static/fonts/droidsans/v2/s-BiyweUPV0v-yRb-cjciBsxEYwM7FgeyaSgU71cLG0.woff') format('woff');
+	}
+
+	* {
+		font-family: 'Droid Sans' !important;
+		text-decoration: none !important;
+	}
+
+	input::-webkit-file-upload-button {
+		font-family: 'Droid Sans' !important;
 	}
 /* Droid Sans Mono: */
 	@font-face {
@@ -217,6 +225,10 @@
 		font-family: 'Droid Sans Mono' !important;
 		text-decoration: none !important;
 	}
+
+	input::-webkit-file-upload-button {
+		font-family: 'Droid Sans Mono' !important;
+	}
 /* Quantico */
 	@font-face {
 		font-family: 'Quantico';
@@ -229,40 +241,72 @@
 		font-family: 'Quantico' !important;
 		text-decoration: none !important;
 	}
+
+	input::-webkit-file-upload-button {
+		font-family: 'Quantico' !important;
+	}
 /* Terminus / monospace */
 	* {
 		font-family: 'Terminus', 'monospace' !important;
 		text-decoration: none !important;
+	}
+
+	input::-webkit-file-upload-button {
+		font-family: 'Terminus', 'monospace' !important;
 	}
 /* Segoe UI */
 	* {
 		font-family: 'Segoe UI' !important;
 		text-decoration: none !important;
 	}
+
+	input::-webkit-file-upload-button {
+		font-family: 'Segoe UI' !important;
+	}
 /* Calibri: */
 	* {
-		font-family: 'Droid Sans' !important;
+		font-family: 'Calibri' !important;
 		text-decoration: none !important;
+	}
+
+	input::-webkit-file-upload-button {
+		font-family: 'Calibri' !important;
 	}
 /* Lucida Grande */
 	* {
 		font-family: 'Lucidia Grande' !important;
 		text-decoration: none !important;
 	}
+
+	input::-webkit-file-upload-button {
+		font-family: 'Lucidia Grande' !important;
+	}
 /* Helvetica */
 	* {
 		font-family: 'Helvetica' !important;
 		text-decoration: none !important;
+	}
+
+	input::-webkit-file-upload-button {
+		font-family: 'Helvetica' !important;
 	}
 /* Futura Lt*/
 	* {
 		font-family: 'Futura LT' !important;
 		text-decoration: none !important;
 	}
+
+	input::-webkit-file-upload-button {
+		font-family: 'Futura LT' !important;
+	}
 /* Profont */
 	* {
 		font-family: 'Profont', 'monospace' !important;
 		text-decoration: none !important;
+	}
+
+	input::-webkit-file-upload-button {
+		font-family: 'Profont', 'monospace' !important;
 	}
 /* END */
 
@@ -1630,21 +1674,21 @@
 /* Show */
 
 /* Hide */
-	display: none !important;
+		display: none !important;
 /* END */
 
 /*[[MarginCenter]]*/
 /* No */
-	padding: 0 2px 0 252px !important;
-	/*[[ChangeAlign]]*/padding: 0 252px 0 2px !important;/**/
- }
+		padding: 0 2px 0 252px !important;
+		/*[[ChangeAlign]]*/padding: 0 252px 0 2px !important;/**/
+	}
 /* Completely Centered */
-	padding: 0 25% 0 25% !important;
- }
+		padding: 0 25% 0 25% !important;
+	}
 /* Slightly, retain Sidebar alignment */
-	padding: 0 150px 0 252px !important;
-	/*[[ChangeAlign]]*/padding: 0 252px 0 150px !important;/**/
- }
+		padding: 0 150px 0 252px !important;
+		/*[[ChangeAlign]]*/padding: 0 252px 0 150px !important;/**/
+	}
 /* END */
 
 /*[[BackLinks]]*/
