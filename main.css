@@ -444,7 +444,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 248px !important;
 	}
 
-	.postarea form[name^='post'] table td {
+	.postarea form[name^='post'] table tr {
 		float: left;
 /*[[ChangeAlign]]*/
 		float: right;
