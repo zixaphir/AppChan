@@ -1147,11 +1147,11 @@ This style is designed for the following browsers, ordered alphabetically:
 		height: 18px;
 		position: fixed !important;
 		top: auto !important;
-		left: 2px !important;
+		left: 3px !important;
 		right: auto !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
-		right: 2px !important;/**/
+		right: 3px !important;/**/
 		bottom: 1px;
 		visibility: visible !important;
 		z-index: 28;
@@ -1174,7 +1174,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		right: auto !important;
 /*[[ChangeAlign]]*/
 		left: auto !important;
-		right: 2px !important;/**/
+		right: 3px !important;/**/
 		bottom: 3px;
 		font-size: 12px !important;
 		content: '[ x ] / [ ! ]';
@@ -1233,31 +1233,6 @@ This style is designed for the following browsers, ordered alphabetically:
 	#overlay {
 		z-index: 100 !important;
 	}
-
-/*
-Disabled until further notice.
-	#options ul {
-		margin: 3px 0 !important;
-		overflow: hidden;
-		height: 16px;
-		-webkit-transition: height 500ms ease-in-out 500ms !important;
-		-moz-transition: height 500ms ease-in-out 500ms !important;
-		-o-transition: height 500ms ease-in-out 500ms !important;
-		border: 1px solid;
-	}
-
-	#options ul:hover {
-		height: 180px;
-		overflow: auto;
-		-webkit-transition: height 500ms ease-in-out !important;
-		-moz-transition: height 500ms ease-in-out !important;
-		-o-transition: height 500ms ease-in-out !important;
-	}
-
-	#options ul > li {
-		padding: 0 3px !important;
-	}
-*/
 /* End of 4chan x options */
 /*[[fixedFilter]]*/
 	#filter,
