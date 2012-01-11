@@ -181,6 +181,9 @@
 		text-decoration: none !important;
 	}
 
+	input::-webkit-file-upload-button {
+		font-family: 'Ubuntu', 'Droid Sans', 'Terminus', 'Segoe UI', 'Calibri', 'Lucida Grande', 'Helvetica' !important;
+	}
 /* Ubuntu: */
 	@font-face {
 		font-family: 'Ubuntu';
