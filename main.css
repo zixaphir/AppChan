@@ -444,8 +444,8 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 248px !important;
 	}
 
-	.fake input[type='file']::-webkit-file-upload-button,
 	.postarea form[name^='post'] table td {
+		float: left;
 /*[[ChangeAlign]]*/
 		float: right;
 /**/
@@ -464,6 +464,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin: 0 !important;
 		padding: 0 !important;
 		height: auto !important;
+		width: auto !important;
 	}
 
 	#recaptcha_table #recaptcha_image {
