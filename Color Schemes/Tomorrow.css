@@ -56,7 +56,8 @@
 	#navbot::after,
 	#qp,
 	#twi_table_div,
-	#updater #count:not(.new)::after {
+	#updater #count:not(.new)::after,
+	#username td:nth-of-type(3) {
 		color: #c5c8c6 !important;
 	}
 
@@ -285,6 +286,8 @@
 		color: #c5c8c6 !important;
 	}
 
+	#posthelper a,
+	#username td:nth-of-type(3) a,
 	#header a:hover,
 	.pages input:hover,
 	a:hover {

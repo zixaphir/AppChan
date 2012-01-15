@@ -54,6 +54,7 @@
 	#qr::before,
 	#twi_table_div,
 	#updater #count:not(.new)::after,
+	#username td:nth-of-type(3),
 	#watcher::before,
 	font[color='red'] {
 		color: #000 !important;
@@ -299,6 +300,8 @@
 		background: rgba(255,255,255,0.5) !important;
 	}
 
+	#posthelper a,
+	#username td:nth-of-type(3) a,
 	#header a:hover,
 	.pages input:hover,
 	a:hover {

@@ -167,7 +167,8 @@ This style is designed for the following browsers, ordered alphabetically:
 	#stats,
 	#thread_filter,
 	#updater,
-	#updater #count:not(.new)::after {
+	#updater #count:not(.new)::after,
+	#username td:nth-of-type(3) {
 		font-size: /*[[FontSize]]*/ !important;
 	}
 
@@ -648,6 +649,11 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin-top: 1px;
 	}
 /* /mu/ last.fm userscript support */
+	.postarea form[name^='post'] > table td:not(.postblock) {
+		font-size: 0 !important;
+		color: transparent;
+	}
+
 	#usernameText {
 		width: 200px !important;
 	}
@@ -656,9 +662,39 @@ This style is designed for the following browsers, ordered alphabetically:
 		width: 101px !important;
 	}
 
-	.postarea form[name^='post'] > table td:not(.postblock) {
-		font-size: 0 !important;
-		color: transparent;
+	#username td:nth-of-type(1) {
+		display: none;
+	}
+
+	#username td:nth-of-type(3) small::before {
+		content: "Username: "
+	}
+
+	#username td small,
+	#tdname,
+	#tdname * {
+		display: inline-block !important;
+	}
+
+	#posthelper {
+		position: fixed;
+		bottom: 261px;
+		z-index: 10;
+		width: 248px;
+		margin: 0 !important;
+		left: 2px;
+/*[[ChangeAlign]]*/		right: 2px;
+		left: auto;/**/
+		float: none !important;
+	}
+
+	#posthelper a,
+	#username td:nth-of-type(3) a {
+	   padding: 0 3px;
+	}
+
+	div[style='float: right; margin-left: 5px; margin-top: 8px; width: 14em;'] {
+		display: none;
 	}
 /* Postform Labels */
 	.boxcontent .postblock,

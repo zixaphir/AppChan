@@ -107,6 +107,8 @@
 		background: #ddd !important;
 	}
 
+	#posthelper a,
+	#username td:nth-of-type(3) a,
 	#header a:hover,
 	.pages input:hover {
 	/* URL bubbles */
@@ -213,6 +215,7 @@
 	#qp,
 	#twi_table_div,
 	#updater #count:not(.new)::after,
+	#username td:nth-of-type(3),
 	font[color="red"] {
 		color: #333 !important;
 	}
