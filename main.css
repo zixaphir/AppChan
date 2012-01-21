@@ -1,7 +1,7 @@
 /*
 AppChan by Zixaphir, seaweed !Ponyo.2wFe, MayhemYDG, !K.WeEabo0o, disappoint, Kupaka, ubuntufriend, anonymous
 
-Revision 114
+Revision 116
 
 AppChan Copyright (C) 2011, Zixaphir Modnar
 All rights reserved.
@@ -207,6 +207,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	}
 /*[[boardlogo]]*/
 /*[[BoardNamePosition]]*/
+/*[[LogoPosition]]*/
 	div.logo {
 		position: fixed !important;
 		right: auto !important;
