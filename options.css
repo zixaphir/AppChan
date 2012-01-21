@@ -181,7 +181,7 @@
 /* Common Linux font, web font, common Windows font 1, commont WIndows font 2, common OS X font, common font */
 	* {
 		font-family: 'Ubuntu', 'Droid Sans', 'Terminus', 'Segoe UI', 'Calibri', 'Lucida Grande', 'Helvetica' !important;
-		text-decoration: none !important;
+/*[[Underlines]]*/
 	}
 
 	input::-webkit-file-upload-button {
@@ -212,7 +212,7 @@
 
 	* {
 		font-family: 'Ubuntu' !important;
-		text-decoration: none !important;
+/*[[Underlines]]*/
 	}
 
 	input::-webkit-file-upload-button {
@@ -235,7 +235,7 @@
 
 	* {
 		font-family: 'Droid Sans' !important;
-		text-decoration: none !important;
+/*[[Underlines]]*/
 	}
 
 	#files a,
@@ -266,7 +266,7 @@
 
 	* {
 		font-family: 'Droid Sans Mono' !important;
-		text-decoration: none !important;
+/*[[Underlines]]*/
 	}
 
 	#files a,
@@ -297,7 +297,7 @@
 
 	* {
 		font-family: 'Quantico' !important;
-		text-decoration: none !important;
+/*[[Underlines]]*/
 	}
 
 	#files a,
@@ -314,7 +314,7 @@
 /* Terminus / monospace */
 	* {
 		font-family: 'Terminus', 'monospace' !important;
-		text-decoration: none !important;
+/*[[Underlines]]*/
 	}
 
 	input::-webkit-file-upload-button {
@@ -323,7 +323,7 @@
 /* Segoe UI */
 	* {
 		font-family: 'Segoe UI' !important;
-		text-decoration: none !important;
+/*[[Underlines]]*/
 	}
 
 	input::-webkit-file-upload-button {
@@ -332,7 +332,7 @@
 /* Calibri: */
 	* {
 		font-family: 'Calibri' !important;
-		text-decoration: none !important;
+/*[[Underlines]]*/
 	}
 
 	input::-webkit-file-upload-button {
@@ -341,7 +341,7 @@
 /* Lucida Grande */
 	* {
 		font-family: 'Lucidia Grande' !important;
-		text-decoration: none !important;
+/*[[Underlines]]*/
 	}
 
 	input::-webkit-file-upload-button {
@@ -350,7 +350,7 @@
 /* Helvetica */
 	* {
 		font-family: 'Helvetica' !important;
-		text-decoration: none !important;
+/*[[Underlines]]*/
 	}
 
 	input::-webkit-file-upload-button {
@@ -359,7 +359,7 @@
 /* Futura Lt*/
 	* {
 		font-family: 'Futura LT' !important;
-		text-decoration: none !important;
+/*[[Underlines]]*/
 	}
 
 	input::-webkit-file-upload-button {
@@ -368,7 +368,7 @@
 /* Profont */
 	* {
 		font-family: 'Profont', 'monospace' !important;
-		text-decoration: none !important;
+/*[[Underlines]]*/
 	}
 
 	input::-webkit-file-upload-button {
@@ -716,9 +716,13 @@
 /* END */
 
 /*[[BoardNamePosition]]*/
+/* Very Top */
+	div.logo {
+		top: 60px !important;
+	}
 /* Top: */
 	div.logo {
-		top: 160px !important;
+		top: 150px !important;
 	}
 /* Center: */
 	div.logo {
@@ -726,9 +730,46 @@
 		bottom: 40% !important;
 		vertical-align: center;
 	}
-/* Bottom: */
+/* Above Postform: */
 	div.logo {
-		bottom: 251px !important;
+		bottom: 332px !important;
+	}
+/* Closer to Postform: */
+	div.logo {
+		bottom: 241px !important;
+	}
+/* Very Bottom: */
+	div.logo {
+		bottom: 11px !important;
+	}
+/* END */
+
+/*[[LogoPosition]]*/
+/* Very Top */
+	div.logo img {
+		top: 60px !important;
+	}
+/* Top: */
+	div.logo img {
+		top: 150px !important;
+	}
+/* Center: */
+	div.logo img {
+		top: 40% !important;
+		bottom: 40% !important;
+		vertical-align: center;
+	}
+/* Above Postform: */
+	div.logo img {
+		bottom: 341px !important;
+	}
+/* Closer to Postform: */
+	div.logo img {
+		bottom: 252px !important;
+	}
+/* Very Bottom: */
+	div.logo img {
+		bottom: 0 !important;
 	}
 /* END */
 
@@ -1995,8 +2036,8 @@
 /* END */
 
 /*[[Underlines]]*/
-/* None: */
-		text-decoration: none !important;
-/* Underline URLs: */
+/* Yes: */
 
+/* No: */
+		text-decoration: none !important;
 /* END */
