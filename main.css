@@ -184,7 +184,7 @@ This style is designed for the following browsers, ordered alphabetically:
 	#stats,
 	#navbot a {
 		font-size: 12px !important;
-		text-decoration: none !important;
+/*[[Underlines]]*/
 	}
 /*[[CustomScrollbars]]*/
 	::-webkit-scrollbar { width: 10px !important; height: 10px !important; }
@@ -231,7 +231,6 @@ This style is designed for the following browsers, ordered alphabetically:
 		height: 83px !important;
 		margin: 0 !important;
 		z-index: 2;
-		opacity: 0.3;
 		-webkit-transition: opacity .5s ease-in-out .5s;
 		-moz-transition: opacity .5s ease-in-out .5s;
 		-o-transition: opacity .5s ease-in-out .5s;
@@ -783,7 +782,7 @@ This style is designed for the following browsers, ordered alphabetically:
 		margin-left: -75px;
 		top: -2px;
 		vertical-align: bottom !important;
-		font-weight: bold;
+		font-weight: 700;
 	}
 
 	.fake  input::-webkit-file-upload-button,
