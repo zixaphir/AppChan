@@ -1,6 +1,12 @@
 * Reorganize 4chan x UI to look more uniform and less cluttered -- still gross.
-* Work on custom icons for stickies and closed threads -- abandoned.
+	> [x]Expand / Updater / 4chan x
+	  Thread Watcher / Stats / Search
+		>> Remove #filter anchoring, or alter in a way that it doesn't feel forced.
 * More mascots -- addressed but never finished. ;3
+	> Rei
+	> Dawn (Pokemon)
+	> Ponies?
+	> Men.
 * Port more color schemes to Custom AppChan
 	> Solarized
 	> Zenburned
@@ -10,10 +16,18 @@
 	> Yotsuba
 	> Yotsuba B
 	> Yotsuba+B?
+* New Color Schemes
+	> New Dawn (Yellow, sunny)
+	> Asuka Unit 02 (Red, possibly glossy)
+* Restore old color schemes
+	> MikuChan (Restore, no changes)
+	> YukiChan (Pretty much gonna write this one from the ground up. Planning for Dark Greys, Light Blues, and Whites)
+* Port 'keepables' from OneeChan
+	> Minimalistic Mayhem
 * Keep up to date on bugs and work harder to find and squash them
 * Get an anonymous bug reporting page set up
 * Work on a small companion script to add functionality to AppChan that wouldn't otherwise be possible to have
 	> Like a slide out postform that slides out whenever any contained input has focus
 	> Or the ability to shuffle through mascots and add your own via an embedded interface (like 4chan-style-script)
-* Add more navigation options
-* Work on vertical pages orientation to not colide with other UI -- Resolved with slideout watcher?
+* Add more navigation options (Mostly done)
+	> Sidebar Navigations
